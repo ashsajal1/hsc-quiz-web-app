@@ -59,7 +59,7 @@ export default function ExamPage() {
 
   const startExam = () => {
     const filteredQuestions = questionsData.filter(
-      (q) => q.subject === subject
+      (q) => q.subject === subject && q.chapter === chapter
     );
     const selectedQuestions = shuffleArray(filteredQuestions).slice(0, 25);
     const questionsWithShuffledOptions = selectedQuestions.map((q) => ({
