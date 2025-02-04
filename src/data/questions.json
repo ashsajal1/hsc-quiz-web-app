@@ -38760,5 +38760,7184 @@
     "explanation": "",
     "hint": "",
     "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\n‘Y’ একটি অধাতু যা সমুদ্রের আগাছায় পাওয়া যায় এবং যার অভাবে একটি মাত্রাত্মক রোগ সৃষ্টি হয়।\n"
+  },
+
+  {
+    "id": 1,
+    "subject": "chemistry-1",
+    "question": "যে রাসায়নিক পরিবর্তনের ফলে তাপশক্তির শোষণ এবং বি্ক্রিয়া অঞ্চলের তাপমাত্রা হ্রাস পায়, তাকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তাপোৎপাদী বিক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তাপহারী বিক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তাপ পরিবর্তনের বিক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তাপ রাসায়নিক বিক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "chemistry-1",
+    "question": "বিজ্ঞানী গুল্ডবার্গ কোন বিশ্ববিদ্যালয়ের অধ্যাপক ছিলেন?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অক্সফোর্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অসলো",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্যালিফোর্নিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সিওল বিশ্ববিদ্যালয়",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "chemistry-1",
+    "question": "প্রতি কত ডিগ্রী তাপমাত্রা বৃদ্ধিতে বিক্রিয়ার গতিবেগ দ্বিগুণ বা তিনগুণ বৃদ্ধি পায়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "50C",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "100C",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "150C",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "200C",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "chemistry-1",
+    "question": "NaCI এর জলীয় দ্রবণ-",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অম্লীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্ষারীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিরপেক্ষ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লবণাক্ত",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "chemistry-1",
+    "question": "তীব্র এসিড ও মৃদু ক্ষার টাইট্রেশনে নির্দেশক ব্যবহৃত হয়-\ni. মিথাইল অরেঞ্জ\nii. মিথাইল রেড\niii. ফেনলফথ্যালিন\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "chemistry-1",
+    "question": "বাণিজ্যিক উৎপাদন প্রক্র্রিয়ার মূলনীতি কী?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্বল্প সময়ে সর্বোচ্চ পরিমাণ উৎপাদন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সর্বোচ্চ পরিমাণ উৎপাদন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সাম্যাবস্থা অর্জন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বেশি মুনাফা লাভ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "chemistry-1",
+    "question": "বিজ্ঞানী ল্যাভসিয়ে কত সালে ভরের নিত্যতার সূত্রটি আবিষ্কার করেন?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১৯৮১",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১৮৮১",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "১৮৭৪",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১৭৭৪",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "chemistry-1",
+    "question": "কোনগুলো বিক্রিয়ার সাম্যাবস্থার নিয়ামক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তাপমাত্রা,চাপ ও প্রভাবক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তাপমাত্রা,ঘনমাত্রা ও প্রভাবক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তাপমাত্রা, চাপ ও ঘনমাত্রা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অধ:ক্ষেপ,ধ্রুবক ও সাম্যাংক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "chemistry-1",
+    "question": "তাপ শোষণ বা বর্জনের উপর ভিত্তি করে তাপ রাসায়নিক সমীকরণকে কয় ভাগে ভাগ করা হয়েছে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৩",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৪",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৫",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "chemistry-1",
+    "question": "Ka এর মান কম কোন এসিডটির?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "HCI",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "HNO3",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "H3SO4",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "CH3COOH",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "chemistry-1",
+    "question": "অম্ল-ক্ষারক সাম্যাবস্থার ক্ষেত্রে-\ni. সম্মুখ ও পশ্চাৎ বিক্রিয়ার গতিবেগ সমান\nii. বিক্রিয়ক ও উৎপন্ন পদার্থগুলো দ্রবণে আয়নিত অবস্থায় থাকে\niii. বিক্রিয়ক ও উৎপন্ন পদার্থগুলো দ্রবণে আণবিক অবস্থায় থাকে\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "chemistry-1",
+    "question": "কোনটি সাম্যাবস্থার শর্ত?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "উভমুখিতা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "একমুখিতা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গতিহীনতা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রভাবকের উপর নির্ভরশীলতা",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "chemistry-1",
+    "question": "শিল্প থেকে কোন পদ্ধতিতে অ্যামেোনিয়া উৎপাদন করা হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সলভে পদ্ধতিতে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্পর্শ পদ্ধতিতে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চেম্বার পদ্ধতিতে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হেবার বস পদ্ধতিতে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "chemistry-1",
+    "question": "তীব্র অম্ল ও মৃদু ক্ষারের সঠিক নির্দেশক-\ni. ব্রোমোক্রিসল গ্রীন\nii. মিথাইল রেড\niii. মিথাইল অরেঞ্জ\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "chemistry-1",
+    "question": "অম্ল-ক্ষার প্রশমন বিক্রিয়াকে কী বলা হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "একমুখী বিক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সম্মুখমুখী বিক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "উভমুখী বিক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দিকহীন বিক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "chemistry-1",
+    "question": "ঈস্ট হতে নিঃসৃত প্রাণহীন অদানাদার নাইট্রোজেনযুক্ত জটিল যৌগকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এনজাইম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ধনাত্মক প্রভাবক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিবর্ধক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "জটিল প্রভাবক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "chemistry-1",
+    "question": "গতির দিক অনুসারে বিক্রিয়া কত ধরনের?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দুই",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পাঁচ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "chemistry-1",
+    "question": "হাইড্রোজেন আয়োডাইডের বিয়োজন বিক্রিয়ায়-\ni. সাম্যাবস্থায় চাপ বাড়ালে বিক্রিয়া সামনের দিকে অগ্রসর হয়\nii. সাম্যাবস্থায় চাপ কমারে বিক্রিয়া সামনের দিকে অগ্রসর হয়\niii. সাম্যাবস্থায় চাপের কোনো প্রভাব নেই\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "chemistry-1",
+    "question": "ভরের নিত্যতা সূত্রটি কে আবিষ্কার করেন?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জন ডাল্টন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রাদার ফোর্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ল্যাভয়সিয়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বোর",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "chemistry-1",
+    "question": "গ্রিন কেমিস্ট্রিকে কার শাখা হিসেবে বিবেচনা হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পরিবেশ রসায়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "শিল্প রসায়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিশ্লেষণীয় রসায়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "জৈব রসায়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "chemistry-1",
+    "question": "সাম্যাবস্থার নিয়ামক-\ni. তাপমাত্রা\nii. চাপ\niii. উৎপাদের ঘনমাত্রা\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "chemistry-1",
+    "question": "অসওয়াল্ডের লঘুকরণ সূত্র প্রযোজ্য-",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লঘু দ্রবণ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মৃদু অম্ল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মৃদু তড়িৎ বিশেষ্য পদার্থ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবগুলো",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "chemistry-1",
+    "question": "কোনটি মৃদু অ্যাসিড ও তীব্র ক্ষার টাইট্রেশনের উপযুক্ত নির্দেশক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মিথাইল রেড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মিথাইল অরেঞ্জ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফেনফথ্যালিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ব্রোমোফেনল",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "chemistry-1",
+    "question": "কোনটি নিরপেক্ষ তরলের pH?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "7",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "12",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "14",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "chemistry-1",
+    "question": "অম্লের শক্তিমাত্রা নির্ভর করে-\ni. অম্লের সাম্যাংকের ওপর\nii. অক্সি অ্যাসিডের কেন্দ্রীয় পরমাণু ধনাত্মক জারণ সংখ্যার ওপর\niii. ক্ষারকের বিয়োজন ধ্রুবকের ওপর\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "chemistry-1",
+    "question": "তাপমাত্রা বৃদ্ধির ফলে তাপোৎপাদী বিক্রিয়ার সাম্যাবস্থা কোন দিকে অগ্রসর হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সামনের দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পেছনের দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্থির থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সাম্যাবস্থা বিলুপ্ত হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "chemistry-1",
+    "question": "1 মোল দ্রবকে যথেষ্ট পরিমাণ দ্রাবকে দ্রবীভূত করা হলে যে পরিমাণ তাপের পরিবর্তন হয় তাকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দ্রবণ তাপ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গঠন তাপ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সংগঠন তাপ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দহন তাপ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "chemistry-1",
+    "question": "ঊর্ধ্বপাতন প্রক্রিয়া হল-",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তাপ উৎপাদী প্রক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তাপহারী প্রক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তাপ উৎপন্ন হওয়ার প্রক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "থিতানো প্রক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "chemistry-1",
+    "question": "CFC-\ni. এর বিকল্প হাইড্রা হ্যালো অ্যালকেন\nii. এর বিকল্প HCFC এর উৎপাদন খরচ অনেক কম\niii. এর জীবনকাল 100 বছর হলে HCFC এর জীবনকাল মাত্র 2-10 বছর\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "chemistry-1",
+    "question": "একটি এসিড বা ক্ষারের বিয়োজন মাত্রা দ্রবণের ঘনমাত্রার-",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সমানুপাতিক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ব্যস্তানুপাতিক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বর্গমূলেরর সমানুপাতিক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বর্গমূলের ব্যস্তানুপাতিক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "chemistry-1",
+    "question": "বিকারকের আয়তনের বিপরীতে দ্রবণের pH এর মানের লেখচিত্রকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এসিডিয় রেখা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্ষারীয় রেখা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রমাণ রেখা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রশমন রেখা",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "chemistry-1",
+    "question": "টেকসই, উন্নয়নের লক্ষ্যে রসায়নের ভূমিকার সাথে প্রনিধানযোগ্য বিষয়-\ni. স্থিতিশীল অর্থনীতি\nii. নবায়নযোগ্য সম্পদের ব্যবহার\niii. বস্তুসমূহের পুন:চক্রায়ন\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "chemistry-1",
+    "question": "কোনটি অম্লীয় দ্রবণে মিথাইল অরেঞ্জের বর্ণ?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গোলাপী লাল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হলুদ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বর্ণহীন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নীল",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "chemistry-1",
+    "question": "সাম্যাবস্থার সঠিক অবস্থান জানা যায়-",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্ষার ধ্রুবক দ্বারা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সাম্যাধ্রুবক দ্বারা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিয়ামক দ্বারা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রভাবক দ্বারা",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "chemistry-1",
+    "question": "যখন কোনো বিক্রিয়ায় সম্মত বিকিয়াক উৎপাদে পরিণত হয় তাকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অপসারণ বিক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "একমুখী বিক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "উভমুখী বিক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "জারণ বিক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "chemistry-1",
+    "question": "অ্যাসিটিক এসিড পাওয়া যায়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পিঁপড়াতে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কমলায়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ভিনেগারে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লেবুতে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "chemistry-1",
+    "question": "যে যৌগ অন্য যৌগকে H+ দান করে তাকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্ষার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিরপেক্ষ যৌগ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোটন দাতাা",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "chemistry-1",
+    "question": "কোনটি তেলের হাইড্রোজিনেশন করে ডালডা তৈরির প্রভাবক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Pt",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Mo",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Ni",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "V2O5",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "chemistry-1",
+    "question": "কোনটি রাসায়নিক সাম্যাবস্থায় বৈশিষ্ট্য?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সাম্যাবস্থার স্থায়িত্ব",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বিক্রিয়া অসম্পূর্ণতা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "উভয়দিক থেকে সাম্যাবস্থার প্রতিষ্ঠা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিয়ামকের প্রভাব নেই",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "chemistry-1",
+    "question": "জুলিয়াস রবার্ট মেয়ার ও এইচভন হেলমোজ কত সালে শক্তির অবনশ্বরতা সূত্রটি উত্থাপন করেন?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1740",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1840",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1798",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "1989",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "chemistry-1",
+    "question": "খাদ্য হজমের জন্য কোন পরিবেশ দরকার?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অম্লীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্ষারীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিরপেক্ষ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবগুলো",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "chemistry-1",
+    "question": "সাম্যাবস্থার উপর তাপমাত্রার কতমুখী প্রভাব রয়েছে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দ্বিমুখী",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ত্রিমুখী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চতুর্থমুখী",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পঞ্চমুখী",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "chemistry-1",
+    "question": "উপরিউক্ত গ্রাফের আলোকে বিক্রিয়ার গড় গতিবেগ কত হবে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1. 0",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1. 5",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "2. 0",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "2. 5",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "chemistry-1",
+    "question": "আর্দ্র কপার সালফেটের তাপীয় বিয়োজন-\ni. একমুখী বিক্রিয়া\nii. উভমুখী বিক্রিয়া\niii. অসম্পূর্ণ বিক্রিয়া\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "chemistry-1",
+    "question": "নেগেটিভ প্রভাবক কোনটি?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "MnO2",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "V2O5",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যালকোহল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হাইড্রোটিকুনোন",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "chemistry-1",
+    "question": "ইউরিয়ার আর্দ্র বিশ্লেষণে-\ni. উৎপাদ অ্যামোনিয়া\nii. ব্যবহুত এনজাইমটি সয়াবিনে থাকে\niii. এনজাইম প্রভাবন বিক্রিয়া\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "chemistry-1",
+    "question": "প্রথম বিক্রিয়াতে উপস্থিত এনজাইমটির নাম কী?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জাইমেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইউরিয়েজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইনভারটেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যামাইলেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "chemistry-1",
+    "question": "নিরপেক্ষ পানির pOH কত?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "7",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "14",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "-7",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "-14",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "chemistry-1",
+    "question": "সাম্যাবস্থায় কোন সিস্টেমে অনুঘটক যোগ করা হলে-\ni. সক্রিয়ন শক্তি হ্রাস পায়\nii. বিক্রিয়ার তাপ হ্রাস পায়\niii. বিক্রিয়ার হার বৃদ্ধি পায়\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 50,
+    "subject": "chemistry-1",
+    "question": "দহন এনথালপির প্রয়োগ হয়-\ni. জ্বালানি বা খাদ্য দ্রব্যের ক্যালরি বা জুল মান নির্ণয়ে\nii. শিখার সর্বোচ্চ তাপমাত্রা নির্ণয়ে\niii. গঠন ও বিক্রিয়া এনথালপি নির্ণয়ে\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 51,
+    "subject": "chemistry-1",
+    "question": "এসিড বা ক্ষারের তীব্রতা নির্ভর করে-",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দ্রাবকের প্রকৃতির উপর",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অ্যানায়নের আকারের উপর",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কেন্দ্রীয় পরমাণুর চার্জ ঘনত্বের উপর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবগুলোর উপর",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      },
+      {
+        "id": 6,
+        "text": "রসায়ন ১ম পত্র অধ্যায়-৪ বহুনির্বাচনি প্রশ্ন-উত্তর একাদশ-দ্বাদশ শ্রেণি - HSC Chemistry 1st Paper Chapter-4 MCQ with Answer",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 52,
+    "subject": "chemistry-1",
+    "question": "কেন্দ্রীয় পরমাণুর ধনাত্মক জারণসংখ্যা সবচেয়ে বেশি কোন এসিডটির?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "H2SO3",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "HCIO4",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "H2SO4",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "HCIO3",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 53,
+    "subject": "chemistry-1",
+    "question": "কিসের ওপর রক্তের pH নিয়ন্ত্রণ নির্ভর করে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এন্টিজেন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "এন্টিবডি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রক্তের গ্রুপ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বাফার",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 54,
+    "subject": "chemistry-1",
+    "question": "Ka এর মান যত বেশি হয় এসিডের তীব্রতা-",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বাড়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কমে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অপরিবর্তিত থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অনেক বেশি কমে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 55,
+    "subject": "chemistry-1",
+    "question": "দুধে pH=6. 0 সুতরাং দুধ-",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সামান্য ক্ষারীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সামান্য অম্লীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অম্লীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিরপেক্ষ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 56,
+    "subject": "chemistry-1",
+    "question": "দ্রবণটি কীরূপ হতে পারে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অম্লীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্ষারীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিরপেক্ষ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অপোলার",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 57,
+    "subject": "chemistry-1",
+    "question": "X-এর কেন্দ্রীয় পরমাণুর জারণসংখ্যা + 5 হলে যৌগটি কোনটি?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "HCIO3",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "H2SO3",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "HNO2",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "HCIO",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 58,
+    "subject": "chemistry-1",
+    "question": "কোন এনজাইম গ্লুকোজকে ফার্মেন্টেশন পদ্ধতিতে অ্যালকোহলে পরিণত করে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইনভারটেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জাইমেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডায়াস্টেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ম্যাল্টেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 59,
+    "subject": "chemistry-1",
+    "question": "লা-শাতেলীয়ের নীতির অপর নাম কী?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সচল সাম্যের নীতি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অচল সাম্যের নীতি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রশমন নীতি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অরক্ষিত নীতি",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 60,
+    "subject": "chemistry-1",
+    "question": "যে প্রভাবক কোনো বিক্রিয়ার গতি হ্রাস করে তাকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ধনাত্মক প্রভাবক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ঋণাত্মক প্রভাবক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রভাবক বিষ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রভাবক সহায়ক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 61,
+    "subject": "chemistry-1",
+    "question": "1 mol গ্রাফাইট কার্বন অক্সিজেন পুড়ে 1 mol CO2(g) এর পরিণত হয় এবং একই সাথে কত K. J তাপ উৎপন্ন হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "395. 3",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "393. 4",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "339. 4",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "359. 3",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 62,
+    "subject": "chemistry-1",
+    "question": "যে কোনো মৌলের গঠন এনথালপির মান কত?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এক Joul",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "একশত Joul",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "এক হাজার Joul",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "শূন্য",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 63,
+    "subject": "chemistry-1",
+    "question": "বিক্রিয়ার মাধ্যম হিসেবে CO2 অতি সংকটীয় ফ্লুইড রূপে যথেষ্ট পরিমাণে ব্যবহৃত হচ্ছে। কারণ-\ni. এটা অদাহ্য\nii. উচ্চ সান্দ্রতা এবং পৃষ্ঠটান শূন্য\niii. দামে সস্তা\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 64,
+    "subject": "chemistry-1",
+    "question": "সাম্যাবস্থায় যে বিক্রিয়ক উৎপাদে পরিণত হয় ঠিক সে পরিমাণ উৎপাদ-পরিণত হয়।",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিক্রিয়াকে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অন্য উৎপাদে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অন্য বিক্রিয়াকে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রাথমিক বিক্রিয়াকে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 65,
+    "subject": "chemistry-1",
+    "question": "CFC এর বাণিজ্যিক নাম কী?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফ্রিয়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জেনন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যাজোট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হ্যালোজেন",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 66,
+    "subject": "chemistry-1",
+    "question": "রসায়নে সক্রিয় ভর কথাটি অনেক গুরুত্বপূর্ণ। এ সক্রিয় ভর দ্বারা বোঝানো হয়-\ni. বিক্রিয়কের মোলার ঘনমাত্রা\nii. বিক্রিয়কের মোলার আয়তন\niii. বিক্রিয়কের আংশিক চাপ\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 67,
+    "subject": "chemistry-1",
+    "question": "ল্যান্ডডোল্ট এর পরীক্ষায় ব্যবহৃত কাচ নলের আকৃতি কেমন?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "U-আকৃতির",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "H-আকৃতির",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "V-আকৃতির",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গোলতলী ফ্লাস্ক আকৃতির",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 68,
+    "subject": "chemistry-1",
+    "question": "অনুঘটক বিক্রিয়ার হারের পরিবর্তন ঘটায় কীভাবে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ΔH এর পরিবর্তন করে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তাপমাত্রা বাড়িয়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "উৎপাদের শক্তি কমিয়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিকল্প বিক্রিয়া কৌশলের সংস্থান করে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 69,
+    "subject": "chemistry-1",
+    "question": "সকল রাসায়নিক বিক্রিয়া কোন দিকে ধাবিত হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিক্রিয়ার সম্মুখ দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বিক্রিয়ার পশ্চাৎ দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিক্রিয়ার সাম্যাবস্থার দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বেশি ঘনমাত্রার দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 70,
+    "subject": "chemistry-1",
+    "question": "পানি কাজ করতে পারে-\ni. অম্লীয় হিসেবে\nii. ক্ষারীয় হিসেবে\niii. দ্রাবক হিসেবে\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 71,
+    "subject": "chemistry-1",
+    "question": "যে বস্তু নিজে প্রভাবক নয় কিন্দু অন্য প্রবাবকের প্রভাবন ক্ষমতা বৃদ্ধি করে তাকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রভাবক বিষ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রভাবক বিবর্ধক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ধনাত্মক প্রভাবক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "জটিল প্রভাবক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 72,
+    "subject": "chemistry-1",
+    "question": "গতির প্রকৃতির উপর ভিত্তি করে রাসায়নিক বিক্রিয়াকে কয় ভাগে ভাগ করা হয়েছে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৩ ভাগে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৪ ভাগে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৫ ভাগে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৬ ভাগে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 73,
+    "subject": "chemistry-1",
+    "question": "জাইমেজ এনজাইমের প্রভাবে Y হতে যে যৌগটি উৎপন্ন হয় সেটি কোন সমগোত্রীয় শ্রেণীর অন্তর্ভুক্ত?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যালকেন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অ্যালকোহল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইথার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্টার",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 74,
+    "subject": "chemistry-1",
+    "question": "তাপহারী বিক্রিয়ায় তাপ প্রয়োগ করলে সাম্যের অবস্থান-",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পেছনের দিকে সরে যাবে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সামনের দিকে সরে যাবে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অপরিবর্তিত থাকবে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিনষ্ট হবে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 75,
+    "subject": "chemistry-1",
+    "question": "যে রাসায়নিক পরিবর্তনের ফলে তাপশক্তি উৎপন্ন হয় এবং বিক্রিয়া অঞ্চলের তাপমাত্রা বৃদ্ধি পায়, তাকে কী বলা হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তাপ রাসায়নিক বিক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তাপোৎপাদী বিক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তাপহারী বিক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তাপ পরিবর্তনের বিক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 76,
+    "subject": "chemistry-1",
+    "question": "CFC দূষণের জন্য দায়ী কোনটি?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যারোসল ব্যবহার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "উদ্ভিদের পাণিশোষণ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সাইকেলের ব্যবহার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পরীক্ষাগারের কার্যক্রম",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 77,
+    "subject": "chemistry-1",
+    "question": "রুশ বিজ্ঞানী জি. এইচ. হেস তাপ রসায়নের গুরুত্বপূর্ণ সূত্রটি আবিষ্কার করেন কত সালে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১৭৪০",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১৮৪০",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "১৭৮০",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১৮৮০",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 78,
+    "subject": "chemistry-1",
+    "question": "কোনো সাম্যাবস্থায় বিক্রিয়া হতে উৎপাদ সরিয়ে নিলে সাম্যবস্থা কোন দিকে যাবে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "উৎপাদনের দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বিক্রিয়কের দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কোনো দিকেই না",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সাম্যাবস্থা ধ্বংস হয়ে যাবে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 79,
+    "subject": "chemistry-1",
+    "question": "সময়ের সাথে একটি রাসায়নিক বিক্রিয়ার কি ঘরনের পরিবর্তন লক্ষ্য করা যায়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিক্রিয়কের ঘনমাত্রা বৃদ্ধি পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "উৎপাদনের ঘনমাত্রা বৃদ্ধি পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "উৎপাদনের ঘনমাত্রা হ্রাস পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিক্রিয়ার বেগ স্থির থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 80,
+    "subject": "chemistry-1",
+    "question": "বাণিজ্যিক উপাদন প্রক্রিয়ায় মূলনীতি কী?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্বল্প সময়ে সর্বোচ্চ পরিমাণ উৎপাদন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সর্বোচ্চ পরিমাণ উৎপাদন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সাম্যাবস্থা অর্জন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বেশি মুনাফা লাভ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 81,
+    "subject": "chemistry-1",
+    "question": "এক মোল পরিমাণ কোনো দ্রবকে নির্দিষ্ট মোল পরিমাণ দ্রাবকে দ্রবীভূত করলে যে পরিমাণ তাপের পরিবর্তন ঘটে তাকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দ্রবণ তাপ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "উৎপাদ তাপ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দ্রবণের ইনটেগ্রেল তাপ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রশমন তাপ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 82,
+    "subject": "chemistry-1",
+    "question": "সবুজ রসায়নের অন্তর্ভূক্ত-\ni. কম ক্ষমিতকর রাষায়নিক সংশ্লেষণ\nii. নবায়নযোগ্য কাঁচামালের কম ব্যবহার নিশ্চিতকরণ\niii. মাধ্যমিক গৌণ পদার্থের হ্রাসকরণ\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 83,
+    "subject": "chemistry-1",
+    "question": "1 Joul=কত ক্যালরি?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "4. 2",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "4. 18",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "0. 24",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "0. 34",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 84,
+    "subject": "chemistry-1",
+    "question": "Z যৌগটির নাম কী?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সোডিয়াম ইথানোয়েট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সোডিয়াম প্রপানোয়েট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সোডিয়াম বিউটানোয়েট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সোডিয়াম পেন্টানোয়েট",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 85,
+    "subject": "chemistry-1",
+    "question": "যে সব রাসায়নিক বিক্রিয়া স্বত:স্ফূর্তভাবে সংঘটিত হয় তাদের এনথালপি (ΔH) কীরূপ?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ধনাত্মক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ঋণাত্মক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বেশি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কম",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 86,
+    "subject": "chemistry-1",
+    "question": "বিক্রিয়া শেষে প্রভাবকের ভর-",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পরিবর্তিত হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্থির থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আংশিক পরিবর্তিত হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দশ ভাগের এক ভাগ হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 87,
+    "subject": "chemistry-1",
+    "question": "বিক্রিয়ার হার-\ni. চাপ বৃদ্ধি পেলে পায়\nii. তাপমাত্রা বৃদ্ধি পেলে বৃদ্ধি পায়\niii. ঘনমাত্রা বৃদ্ধি পেলে পায়\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 88,
+    "subject": "chemistry-1",
+    "question": "সাম্য বিক্রিয়ায় উৎপাদনের পরিমাণ বৃদ্ধি করলে বিক্রিয়া-",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পেছনের দিকে অগ্রসর হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "একমুখী হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সামনের দিকে অগ্রসর হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্থির থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 89,
+    "subject": "chemistry-1",
+    "question": "বিক্রিয়ার হারের পূর্বে ঋণাত্মক চিহ্ন কী কী নির্দেশ করে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিক্রিয়কের ঘনমাত্রার হ্রাস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "উৎপাদকের ঘনমাত্রার হ্রাস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিক্রিয়কের ঘনমাত্রার বৃদ্ধি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিক্রিয়কের ঘনমাত্রার স্থির মান",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 90,
+    "subject": "chemistry-1",
+    "question": "একটি এ্যাসিড বা ক্ষারকের আয়নিক হওয়ার মাত্রাকে কী বলা হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মৌল ভগ্নাংশ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আয়নিকরণ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিয়োজন মাত্রা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ইলেকট্রন পরিবাহিতা",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 91,
+    "subject": "chemistry-1",
+    "question": "সাম্যাধ্রুবকের মানে পরিবর্তন ঘটে যদি-",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তাপমাত্রা পরিবর্তিত হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ঘনমাত্রা পরিবর্তন হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চাপ পরিবর্তিত হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবগুলোই সঠিক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 92,
+    "subject": "chemistry-1",
+    "question": "ইথায়নিক এসিড (CH3COOH) একটি-",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দুর্বল অম্ল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সবল অম্ল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিরপেক্ষ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ক্ষার",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 93,
+    "subject": "chemistry-1",
+    "question": "মাটির pH মাত্রাতিরিক্ত বেড়ে গেলে নিয়ন্ত্রণ করার উপায়-\ni. নাইট্রেট যোগে\nii. ফসফেট যোগে\niii. কার্বনেট যোগে\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 94,
+    "subject": "chemistry-1",
+    "question": "গ্যাসের আংশিক চাপ প্রতি একক আয়তনে উপস্থিত তার গ্রাম অণুর -হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ব্যস্তানুপাতিক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বর্গমূলের ব্যস্তানুপাতিক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সমানুপাতিক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বর্গমূলের সমানুপাতিক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 95,
+    "subject": "chemistry-1",
+    "question": "Y-অক্ষে অবস্থিত মানগুলো কী নির্দেশ করে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিক্রিয়ার গতিবেগ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মোলার ঘনমাতহ্রা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চাপ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তাপমাত্রা",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 96,
+    "subject": "chemistry-1",
+    "question": "একটি নির্দিষ্ট তাপমাত্রায় 1. 0 molar ঘনমাত্রার বিক্রিয়কের গতিকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিক্রিয়ার গতি/হার ধ্রুবক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বিক্রিয়ার হার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিক্রিয়ার মুখ্য ধ্রুবক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রমাণ ধ্রুবক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 97,
+    "subject": "chemistry-1",
+    "question": "এসিড বৃষ্টির ফরে-\ni. সবুজ বনভূমি ধ্বংস হয়\nii. পুকুর, হ্রদ ও জলাশয়ের মাছ মরে যায়\niii. দালানের ক্ষয় ঘটে\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 98,
+    "subject": "chemistry-1",
+    "question": "pH এর মান কত নিচে হলে মাটিতে শস্য উৎপন্ন হয় না?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "3. 0",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "4. 0",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "5. 0",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "6. 0",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 99,
+    "subject": "chemistry-1",
+    "question": "বিক্রিয়াটিতে কীসের পরিবর্তন ঘটেছে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আয়তনের প্রসারণ ঘটেছে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আয়তনের সংকোচন ঘটেছে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আয়তনের পরিবর্তন হয়নি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিক্রিয়কের আয়তন = উৎপাদের আয়তন",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nA+B + 2x → 2Y + Z 2W\n"
+  },
+  {
+    "id": 100,
+    "subject": "chemistry-1",
+    "question": "বিক্রিয়াটিতে চাপ হ্রাস করলে কী ঘটবে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "উৎপাদ বাড়বে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "উৎপাদন কমবে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "উৎপাদের পরিবর্তন হবে না",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিক্রিয়া বন্ধ হয়ে যাবে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nA+B + 2x → 2Y + Z 2W\n"
+  },
+  {
+    "id": 1,
+    "subject": "chemistry-1",
+    "question": "কোন মাধ্যমে NaCI কলয়েডরূপে আচরণ করে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যালকোহল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পানি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইথার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বেনজিন",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "chemistry-1",
+    "question": "কলয়েড কণা ও বিস্তার মাধ্যমের পরস্পর দূরে সরে যাওয়াকে বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কোয়াগুলেশন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সাসপেনশন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডিফারেনশিয়েটিং",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অধিশেষণ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "chemistry-1",
+    "question": "বাড়িতে রাখা বিভিন্ন আচার জাতীয় খাবার-\ni. বিভিন্ন অণুজীবের আক্রমণে নষ্ট হয়ে যায়\nii. চিনি ব্যবহার করে সংরক্ষণ করা হয়\niii. কিছুদিন পর রাসায়নিক বিক্রিয়ার কারণে বিষাক্ত হয়ে উঠে\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "chemistry-1",
+    "question": "মাখনে প্রোটিন থাকে কত শতাংশ?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "12",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "chemistry-1",
+    "question": "কোন ধরনের অণুজীব প্যাকেটজাত পণ্যের গুণাগুণ বজায় রাখে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্বাভাবিক অণুজীব",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কমবয়ষ্ক অণুজীব",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বেশি বয়ষ্ক অণুজীব",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "রাসায়নকিভাবে পরিবর্তিত অণুজীব",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "chemistry-1",
+    "question": "কোনটি পেকটিন জাতীয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কলা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ধান",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সরিষা",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "chemistry-1",
+    "question": "সারফ্যাকটেন্টের অপর নাম কী?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইমালসিফায়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পৃষ্ঠতল সক্রিয়কারী পদার্থ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সারফেস এজেন্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ম্যালটেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "chemistry-1",
+    "question": "ক্যানিং করার সময় তাপের প্রবেশ কোনটির উপর নির্ভর করে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পাত্রের আকার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পাত্রের তাপমাত্রা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পাত্রের উপাদান",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পাত্রের ধর্ম",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "chemistry-1",
+    "question": "খাদ্য সম্পর্কিত কোন বিষয়টি বর্তমানে সবচেয়ে গুরুত্বপূর্ণ এক আলোচিত ইস্যু?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "খাদ্য উৎপাদন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "খাদ্য বাজারজাতকরণ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "খাদ্য গ্রহণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "খাদ্য নিরাপত্তা",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "chemistry-1",
+    "question": "আফটার সেভ লোশনের মূল উপদান কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইথানল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সিটাইল অ্যালকোহল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রোপিলিন গ্লাইকল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মিথানল",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "chemistry-1",
+    "question": "ঘি-এর বর্ণ কীরূপ?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হলুদ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হালকা হলুদ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সাদা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হালকা লাল",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "chemistry-1",
+    "question": "এরোসলে তরল বা কঠিন কণাগুলো কোন মাধ্যমে মিশ্রিত থাকে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কঠিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তরল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বায়বীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মিশ্র",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "chemistry-1",
+    "question": "টয়লেট ক্লিনারের মূল পরিষ্কারক-",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সোডিয়াম অক্সাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পটাসিয়াম হাইড্রোঅক্সাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সোডিয়াম হাইড্রোক্সাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফসফরাস",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "chemistry-1",
+    "question": "আম কৌটাজাতকরণে চিনির সাথে কি ব্যবহৃত হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সোডিয়াম বেনজোয়েট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সোডিয়াম সরবেট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "EDTA",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সাইট্রিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "chemistry-1",
+    "question": "মাছ এবং মাংস সংরক্ষণে কোনটি ব্যাপক পরিমাণে ব্যবহৃত হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আদা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "চিনি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লবণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বরফ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "chemistry-1",
+    "question": "খাদ্য নিরাপত্তা কতগুলো বিষয়ের উপর নির্ভরশীল?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৩টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৪টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৫টি",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "chemistry-1",
+    "question": "কাইটোসান কী?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এক ধরনের এসিডিক কেমিক্যাল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "এক ধরনের ক্ষারকীয় কেমিক্যাল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "এক ধরনের তরল পদার্থ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এক ধরনের বায়ো অণু",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "chemistry-1",
+    "question": "হেনা কোন শ্রেণীর উদ্ভিদ?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বীরুৎ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গুল্ম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বৃক্ষ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "শৈবাল",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "chemistry-1",
+    "question": "মাংস সংরক্ষণে পশুর যে অংশ পরিহার করা হয়-\ni. কলিজা\nii. কিডনি\niii. চর্বি\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "chemistry-1",
+    "question": "কস্টিক সোডা-\ni. তীব্র পরিষ্কারক\nii. টাইলসের ক্ষতি করে না\niii. টয়লেটের গন্ধ দূর করে\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "chemistry-1",
+    "question": "গ্লাসে থাকা তেল ও চর্বি পরিস্কার করে কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রাবিং অ্যালকোহল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পানি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সাবান",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সোডিয়াম এসিটেট",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "chemistry-1",
+    "question": "টুথপেস্টে ব্যবহৃত সর্বাধিক ক্ষতিকর উপাদান কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তরল প্যারাফিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মেনথল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পিপারমিন্ট অয়েল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সোডিয়াম লরেল সালফেট",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "chemistry-1",
+    "question": "আমের আচারে চিনি ও এসিড সাধারণত কী হিসেবে কাজ করে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রিজারভেটিভস্",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভিনেগার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "শীতলকারক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সংরক্ষক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "chemistry-1",
+    "question": "ভিনেগার দ্বারা সংরক্ষণ করা হয়-\ni. ফল\nii. মাছ\niii. মাংস\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "chemistry-1",
+    "question": "ক্রীমে কালচার মেশানোকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রাইপেনিং",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "এজিং",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পাস্তুরাইজেশন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "চার্নিং",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "chemistry-1",
+    "question": "প্রোবায়োটিকস কী?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ঈষ্ট থেকে প্রাপ্ত এনজাইম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দুধে উৎপন্ন এক ধরনের এনজাইম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "এসিডিক দ্রবণে ব্যাকটেরিয়ার প্রতিরোধ ব্যবস্থা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "রাসায়নিক বিশ্লেষণে প্রাপ্ত অণুজীব",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "chemistry-1",
+    "question": "খাদ্রদ্রব্য সংরক্ষণে লবণের সাথে ব্যবহৃত হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ভিনেগার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তেল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চিনি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ল্যাকটিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "chemistry-1",
+    "question": "জেলি তৈরির সময় দ্রবণে তাপ প্রবেশে বাধা সৃষ্টি করে কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আমিষ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "শর্করা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পেকটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "খনিজ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "chemistry-1",
+    "question": "মস্তিস্ক কোষের ক্ষতি করে কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সোডিয়াম সরবেট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পটাসিয়াম সরবেট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইথাইল ফরমেট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সোডিয়াম বেনজোয়েট",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "chemistry-1",
+    "question": "সাসপেনসনে কঠিন পদার্থের ব্যাস কত এর বেশি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Imm",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Inm",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Iμm",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Ipm",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "chemistry-1",
+    "question": "সাইট্রিক এসিডের পার্শ্বপ্রতিক্রিয়া কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ব্রেইনে ক্ষতি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আমাশয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রক্তস্বল্পতা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এজমা",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "chemistry-1",
+    "question": "আচারের কোনটি অরুচি দূর করে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লবণ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মৌরী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মেথি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "জিরা",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "chemistry-1",
+    "question": "কোন পদ্ধতিতে সাসপেনশনে কণাগুলোকে আলাদা করা যায়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মেমব্রেন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আলট্রাফিল্ট্রেশন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফিল্ট্রেশন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "রিফ্লাস্ক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "chemistry-1",
+    "question": "প্রোপানোয়েট জাতীয় সংরক্ষক কোন ধরনের pH এ অধিক কার্যকর?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "6 এর কম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "6 এর বেশি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সর্বোচ্চ pH",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "chemistry-1",
+    "question": "সিল করা টমেটো ক্যানকে 45-60min কোথায় প্রসেসিং করে গুদামজাত করা হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ঠান্ডা পানিতে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নরমাল পানিতে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ওভেনে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফুটন্ত পানিতে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "chemistry-1",
+    "question": "শীতের হাত থেকে রক্ষা করার জন্য ব্যবহৃত হয়-",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তরল প্যারাফিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গ্লিসারিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পানি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোপাইল প্যারাবিন",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "chemistry-1",
+    "question": "বীটমূলে কনডিমেন্ট হিসেবে ব্যবহার হয় কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রাসবেসীর রস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লেবুর রস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ভিনেগার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তেঁতুল",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "chemistry-1",
+    "question": "কোনটি সংরক্ষণে ক্লোসট্রিডিয়া ব্যবহৃত হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "শুকনো ফল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মদ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মাংস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পনির",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "chemistry-1",
+    "question": "কোনটি বিষাক্ত অ্যালকোহল?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মিথানল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইথানল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রোপানল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিউটানল",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "chemistry-1",
+    "question": "ভিনেগারে এসিডের মাত্রাকে ব্যবসায়িক ভাষায় কী বলা হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মোলারিটি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পার্সেন্টেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মোলালিটি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গ্রেইন স্ট্রেংন্থ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "chemistry-1",
+    "question": "আখের সর ব্যাকটেরিয়ামুক্ত করার জন্য কোনটি ব্যবহৃত হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হাইড্রোজেন সালফাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্লোরিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লঘু সালফিউরিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গাঢ় সালফিউরিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "chemistry-1",
+    "question": "দুধ থেকে উৎপাদিত খাদ্য দ্রব্য কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ভোজ্য তেল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পনির",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চকলেট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হালুয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "chemistry-1",
+    "question": "এন্টিমাইক্রোবিয়াল এজেন্ট খাদ্য সংরক্ষণের কোন কাজটি করে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "খাদ্যকে তার কালো দাগ সৃষ্টি হতে রক্ষা করে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "খাদ্য জারিত হওয়া থেকে রক্ষা করে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ব্যাকটেরিয়া মোল্ড ও ইস্টের বৃদ্ধি প্রতিহত করে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "খাদ্যের মিষ্টতা বৃদ্ধি ক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "chemistry-1",
+    "question": "টয়লেট ক্লিনারে কোন উপাদান সাবানায়ন বিক্রিয়ার জন্য দায়ী?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বোরাক্স",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তরল সাবান",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "খাদ্য লবণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বেকিং সোডা",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "chemistry-1",
+    "question": "টয়লেট ক্লিনারে ভিনেগার মূলত-",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সারফাকট্যান্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পরিস্কারক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "জীবাণুনাশক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দ্রাবক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "chemistry-1",
+    "question": "টমেটো ক্যানিং এ স্টেরিলাইজেশনের সর্বোচ্চ সময়-",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "20 মিনিট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "30 মিনিট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "40 মিনিট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "60 মিনিট",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "chemistry-1",
+    "question": "ঝাল আচার তৈরিতে ফলের টুকরোয় লবণ মেশানোর সময় কোনটির গুঁড়া মেশানো হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মরিচের গুঁড়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হলুদের গুঁড়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ধনে গুঁড়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কালোজিরা গুঁড়া",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "chemistry-1",
+    "question": "স্টেরিলাইজিং এর অপর নাম কী?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রিটটিং",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "উত্তপ্তকরণ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সিদ্ধিকরণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রিজারভেশন",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "chemistry-1",
+    "question": "উদ্ভিজ্জ খাদ্য কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ডিম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দুধ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পনির",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "চিনি",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 50,
+    "subject": "chemistry-1",
+    "question": "ভিনেগার তৈরির কাঁচামাল হলো-\ni. মল্ট\nii. মিষ্টি ফল\niii. ইথানল\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 51,
+    "subject": "chemistry-1",
+    "question": "নিচের কোন প্রাণীর দুধে কোলেস্টরলের পরিমাণ সর্বাধিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গরু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মহিষ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ভেড়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "উট",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 52,
+    "subject": "chemistry-1",
+    "question": "খাদ্যবস্তুর স্বাদ. গন্ধ ইত্যাদি অক্ষুণ্ন রাখতে সাহায্য করে কনোটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পানি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অ্যামোনিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "জাইমেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কাইটোসান",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 53,
+    "subject": "chemistry-1",
+    "question": "যে সকল পদার্থ তরলের পৃষ্ঠটান হ্রাস করে তাদেরকে কি বলা হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সারফেস একটিভ কম্পাউন্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সারফাকট্যান্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডিসকাস দ্রব্য",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পরিস্কারক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 54,
+    "subject": "chemistry-1",
+    "question": "মাখনকে কিভাবে সংরক্ষণ করা হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বোতলে রেখে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফয়েল কাগজ দ্বারা মুরিয়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "টিনের কৌটায় মুড়িয়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্লাস্টিকের বোতলে রেখে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 55,
+    "subject": "chemistry-1",
+    "question": "অ্যাসিটিক এসিড পানিতে দ্রবীভূত হওয়ার কারণ-",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এসিডে থাকা মিথাইল গ্রুপ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "এসিডে থাকা পোলার কার্বক্সিলেট গ্রুপ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ভর কম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ক্ষুদ্র অণু",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 56,
+    "subject": "chemistry-1",
+    "question": "কোনটিতে লবণ, চিনি, ভিনেগার খাদ্য সংরক্ষক হিসাবে ব্যবহৃত হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কলায়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পোস্তদানায়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আচারে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 57,
+    "subject": "chemistry-1",
+    "question": "ট্যালকম পাউডারের পানি শোষণ ক্ষমতা বাড়ায় কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যালুমিনিয়াম অক্সাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্যালসিয়াম অক্সাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "জিঙ্ক স্টিয়ারেট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ম্যাগনেসিয়াম অক্সাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 58,
+    "subject": "chemistry-1",
+    "question": "কোনটি বেশি তাপসহিষ্ণু ও অনেক ধরনের অণুজীব বহন করতে পারে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফলমূল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আচার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সবজি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বাঁশকোরল",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 59,
+    "subject": "chemistry-1",
+    "question": "কোন রোগে আক্রান্ত রোগীরা সালফাইটের প্রতি বেশি সংবেদশীল?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এলার্জি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হাম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডায়বিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মাথা ব্যথা",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 60,
+    "subject": "chemistry-1",
+    "question": "দুধে থাকা চর্বিগুলো হলো-\ni. ট্রাই অ্যাসাইল গ্লিসারল\nii. কোলেস্টেরল এস্টার\niii. মনো অ্যাসাইল গ্লিসারল\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 61,
+    "subject": "chemistry-1",
+    "question": "নিচের কোন মাধ্যমে সাবান ক্রিম্টালয়েড?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পানি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বেনজিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইথানল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফর্মালিন",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 62,
+    "subject": "chemistry-1",
+    "question": "বন্যাক্রান্ত পানি বিশোধনে ব্যবহার হয়-",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফিটকিরি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হ্যালোট্যাব",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রিভার্স অসমোসিস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফিল্টারিং",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 63,
+    "subject": "chemistry-1",
+    "question": "উচ্চতর ফ্যাটি এসিডের সোডিয়াম লবণ কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সোডিয়াম এসিটেট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সোডিয়াম মনো স্টিয়ারেট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সাবান",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সোডিয়াম লরাইল সালফেট",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 64,
+    "subject": "chemistry-1",
+    "question": "কারমিন লিপস্টিককে কি হিসেবে ব্যবহৃত হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রিজারভেটিভস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তরলকারক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইমালসিফায়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "রঞ্জক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 65,
+    "subject": "chemistry-1",
+    "question": "উদ্ভিদের সঠিক বৃদ্ধির জন্য দরকার-",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সঠিক জায়গা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সঠিক পরিবেশ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "উঁচু ভূমি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কীটনাশক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 66,
+    "subject": "chemistry-1",
+    "question": "বাংলাদেশের খাদ্য নিরাপত্তায় পিছিয়ে থাকার কারণ-\ni. দুর্বল যোগাযোগ ব্যবস্থা\nii. হিমাগারের অভাব\niii. প্রক্রিয়াজাত খাদ্যের পরিমাণ কম হওয়া\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 67,
+    "subject": "chemistry-1",
+    "question": "কোনটি কিলেটিং এজেন্ট?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "EDTA",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "BHT",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সরবেট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যাসকরবিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 68,
+    "subject": "chemistry-1",
+    "question": "আসমসত্ব দুধে কতটি অংশ বিদ্যমান?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 69,
+    "subject": "chemistry-1",
+    "question": "টমেটো সংরক্ষণে ব্যবহৃত হয়-\ni. চিনি\nii. লবণ\niii. সোডিয়াম অ্যাসিটেট\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 70,
+    "subject": "chemistry-1",
+    "question": "লিপস্টিকের তরলভাব সৃষ্টি করে কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্যাস্টর তেল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অক্টাইল পামিটেড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মাইক্রোক্রিস্টালাইন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সিরাসিন",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      },
+      {
+        "id": 6,
+        "text": "রসায়ন ১ম পত্র অধ্যায়-৫ বহুনির্বাচনি প্রশ্ন-উত্তর একাদশ-দ্বাদশ শ্রেণি - HSC Chemistry 1st Paper Chapter-5 MCQ with Answer",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 71,
+    "subject": "chemistry-1",
+    "question": "কোনটি খাদ্য কৌটাজাতকরণের সময় অত্যন্ত গুরুত্বপূর্ণ?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ব্লাঞ্চিং",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "এগজস্টিং",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সিলিং",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "রিটটিং",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 72,
+    "subject": "chemistry-1",
+    "question": "মেহেদী পাতায় কোন রঞ্জক পদার্থ থাকে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লাইসিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লিলেন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লয়সোন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লেনোলিন",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 73,
+    "subject": "chemistry-1",
+    "question": "কোন প্রিজারভেটিভস্ মদ শিল্পে সবচেয়ে বেশি পরিমাণে ব্যবহৃত হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সালফাইট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নাইট্রাইট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নাইট্রেট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যাসিটিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 74,
+    "subject": "chemistry-1",
+    "question": "হাইড্রোজেন ম্যানেসিয়িাম সিলিকেটকে কি বলা হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ট্যালক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ট্যালকম পাউডার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ঘামাচি পাউডার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অশোধিত পাউডার",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 75,
+    "subject": "chemistry-1",
+    "question": "চাষাবাদ করার আগে জানা দরকার-\ni. মাটিতে পুষ্টি উপাদানের পরিমাণ\nii. মাটিতে পানির পরিমাণ\niii. মাটির pH\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 76,
+    "subject": "chemistry-1",
+    "question": "অ্যালকোহলের জারণে কম অক্সিজেন ব্যবহার হলে কোনটি তৈরি হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইথেন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইথান্যাল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পানি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ইথার",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 77,
+    "subject": "chemistry-1",
+    "question": "দেশে কৃষি জমির হ্রাসের কারণ হলো-\ni. জমির লবণাক্ততা বৃদ্ধি\nii. জনসংখ্যা বৃদ্ধি\niii. শিল্পের প্রসার\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 78,
+    "subject": "chemistry-1",
+    "question": "কোনটি খাদ্য নিরাপত্তা কৌশলের অন্তর্গত?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "উৎপাদনের তারিখ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মেয়াদ উত্তীর্ণের তারিখ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্বাস্থ্যবার্তা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রিজারভেটিভস্ এর মানগত তথ্য",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 79,
+    "subject": "chemistry-1",
+    "question": "ত্বককে কোমল করে কোল্ড ক্রিমের কোন উপাদান?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ভিনাইল অ্যালকোহল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইথাইল অ্যালকোহল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সিটাইল অ্যালকোহল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোপাইল প্যারাবিন",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 80,
+    "subject": "chemistry-1",
+    "question": "দেহত্বকের সৌন্দর্য বৃদ্ধির জন্য ব্যবহৃত পদার্থের নাম-",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সাবান",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পারফিউম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রসাধনী",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সৌন্দর্য বৃদ্ধিকারক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 81,
+    "subject": "chemistry-1",
+    "question": "সালাদের স্বাদ বৃদ্ধির জন্য ব্যবহৃত হয়-\ni. লেবুর রস\nii. টক দই\niii. ভিনেগার\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 82,
+    "subject": "chemistry-1",
+    "question": "মাছ ও চিপসের কনডিমেন্ট হিসেবে কোনটি ব্যবহৃত হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চিনি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্টার্চ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ভিনেগার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "চালতা",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 83,
+    "subject": "chemistry-1",
+    "question": "শুকনো ফল সংরক্ষণে ব্যবহৃত হয় কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সালফাইট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বেনজোয়েট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "BHA",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সাইট্রিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 84,
+    "subject": "chemistry-1",
+    "question": "ট্যালকম পাউডারের এন্টিসেপটিক হিসেবে ব্যবহৃত হয়-\ni. বোরাক্স\nii. বোরিক এসিড\niii. জিঙ্ক এসিড\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 85,
+    "subject": "chemistry-1",
+    "question": "কোনটি ক্যান্সার প্রতিরোধে ভূমিকা রাখে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কচি ভূট্টা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মটরশুটি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কাঁঠাল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বাঁশকোরল",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 86,
+    "subject": "chemistry-1",
+    "question": "ঘষে পরিষ্কার করার টয়লেট ক্লিনারকে বলে-",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্ক্যাব ক্লিনার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্কোউরিং ক্লিনার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডিসকুসিটি রিডিউসার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হাইড্রোট্রোপস",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 87,
+    "subject": "chemistry-1",
+    "question": "টুথপেস্টে ফেনা সৃষ্টিকারী উপাদান কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্লিসারিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "চক পাউডার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পিপারমিন্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সোডিয়াম লরেল সালফেট",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 88,
+    "subject": "chemistry-1",
+    "question": "কোন এসিড ভিনেগার হিসেবে ব্যবহৃত হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্লুকোনিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "এসিটিক অ্যাসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যালডনিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যাসকরবিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 89,
+    "subject": "chemistry-1",
+    "question": "স্নো মূলত বছরের কোন সময় ব্যবহৃত হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্রীষ্ম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বর্ষা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "শরৎ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হেমন্ত",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 90,
+    "subject": "chemistry-1",
+    "question": "দুধে কার্বোহাইড্রেট হিসেবে থাকে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্লুকোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গোলাকটোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফ্রুক্টোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ল্যাক্টোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 91,
+    "subject": "chemistry-1",
+    "question": "পানি বিশোধনে ব্যবহৃত হয়-\ni. ফিটকিরি\nii. হ্যালোট্যাব\niii. ফিল্টার\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 92,
+    "subject": "chemistry-1",
+    "question": "লিপস্টিকের ব্যবহার কোন দেশে শুরু হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ঈজিপ্টে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সৌদি আরবে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লেবাননে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পেরুতে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 93,
+    "subject": "chemistry-1",
+    "question": "অ্যান্টিমাইক্রোবায়েট-\ni. ব্যাকটেরিয়া, মোল্ড, ছত্রাক ধ্বংস করে\nii. শুধু জীবদেহের উপর কাজ করে\niii. খাদ্যবস্তুর অতিরিক্ত অক্সিজেন শোষণ করে\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 94,
+    "subject": "chemistry-1",
+    "question": "কোনটিতে ভিটামিন এ, বি-১ বি-২ এবং সি থাকে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বাঁশ কোরলে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আনারস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পেয়ারা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কাঁঠাল",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 95,
+    "subject": "chemistry-1",
+    "question": "কোয়াগুলেশন করা হয়-\ni. স্ফুটন দ্বারা\nii. তড়িচ্চালন দ্বারা\niii. ডায়ালাইসিস দ্বারা\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 96,
+    "subject": "chemistry-1",
+    "question": "BHT কী হিসেবে ব্যবহৃত হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এন্টিমাইক্রোব্রিয়াল এজেন্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কিলেটিং এজেন্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "এন্টিঅক্সিজেন্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এস্টিনজেন্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 97,
+    "subject": "chemistry-1",
+    "question": "দুধ প্রক্রিয়াজাত করণের উপায়কে কয়টি ভাগে ভাগ করা যেতে পারে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 98,
+    "subject": "chemistry-1",
+    "question": "প্রাপ্ত x-এ কোন এসিড বিদ্যমান?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যাসকরবিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "টারটারিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ল্যাকটিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এসিটিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nবাজার থেকে দুধ কিনে আশফাক তার সাথে ছানার পানি মিশায়। কিছুদিন রেখে দিলে তা আপনা আপনি x-যৌগে পরিণত হয়।\n\n"
+  },
+  {
+    "id": 99,
+    "subject": "chemistry-1",
+    "question": "উৎপন্ন x-টিতে-\ni. প্রিজারভেটিভস্ ব্যবহার করতে হবে না।\nii. উৎপন্ন এসিড সংরক্ষক হিসেবে কাজ করে\niii. উৎপন্ন এসিডটি pH বাড়িয়ে অণুজীব ধ্বংস করে\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nবাজার থেকে দুধ কিনে আশফাক তার সাথে ছানার পানি মিশায়। কিছুদিন রেখে দিলে তা আপনা আপনি x-যৌগে পরিণত হয়।\n\n"
   }
 ]
