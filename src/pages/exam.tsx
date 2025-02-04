@@ -137,6 +137,7 @@ export default function ExamPage() {
         <div className="space-y-4">
           <h1 className="text-2xl font-bold">Exam Finished!</h1>
           <p>Your Score: {score} / 25</p>
+          <Button onClick={() => location.reload()}>Restart</Button>
         </div>
       )}
     </div>
