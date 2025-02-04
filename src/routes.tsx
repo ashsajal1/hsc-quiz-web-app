@@ -8,6 +8,7 @@ import Signup from './pages/signup';
 import PrivateRoute from './pages/private-route';
 import Dashboard from './pages/dashboard';
 import QuizPage from './pages/quiz';
+import ExamPage from './pages/exam';
 
 export const router = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
             {
                 path:'/quiz/*',
                 element: <QuizPage />
+            },
+            {
+                path:'/exam/*',
+                element: <ExamPage />
             },
             {
                 path:'/about',
