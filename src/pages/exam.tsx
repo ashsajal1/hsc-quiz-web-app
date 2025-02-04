@@ -127,9 +127,13 @@ export default function ExamPage() {
               {q.options.map((option: Option) => (
                 <Button
                   key={option.id}
-                  variant={'outline'}
+                  variant={"outline"}
                   onClick={() => handleAnswerSelect(q.id, option.id)}
-                  className={`w-full text-left ${selectedAnswers[q.id] === option.id ? 'bg-blue-500 text-white' : ''}`}
+                  className={`w-full text-left ${
+                    selectedAnswers[q.id] === option.id
+                      ? "bg-blue-500 text-white"
+                      : ""
+                  }`}
                 >
                   {option.text}
                 </Button>
@@ -153,30 +157,32 @@ export default function ExamPage() {
               const isCorrect = correctOption?.id === selectedOptionId;
 
               return (
-                <Card key={q.id} className={`p-4 space-y-2 ${isCorrect? 'border border-green-600':'border border-red-600'}`}>
+                <Card
+                  key={q.id}
+                  className={`p-4 space-y-2 ${
+                    isCorrect
+                      ? "border border-green-600"
+                      : "border border-red-600"
+                  }`}
+                >
                   <p className="font-medium">
                     {index + 1}. {q.question}
                   </p>
                   {q.options.map((option: Option) => (
-                    <div
+                    <Button
+                      // disabled
                       key={option.id}
-                      className={`flex items-center space-x-2 ${selectedOptionId === option.id ? (isCorrect ? 'bg-green-200' : 'bg-red-200') : ''}`}
+                      variant={"secondary"}
+                      className={`w-full text-left ${
+                        selectedOptionId === option.id
+                          ? isCorrect
+                            ? "bg-green-500 text-white"
+                            : "bg-red-500 text-white"
+                          : ""
+                      } ${option.isCorrect ? "bg-green-500" : ""}`}
                     >
-                      <Button
-                        // disabled
-                        variant={'secondary'}
-                        className={`w-full text-left ${selectedOptionId === option.id ? (isCorrect ? 'bg-green-500 text-white' : 'bg-red-500 text-white') : ''}`}
-                      >
-                        {option.text}
-                      </Button>
-                      {selectedOptionId === option.id && (
-                        <span
-                          className={`ml-2 text-sm font-semibold ${isCorrect ? 'text-green-600' : 'text-red-600'}`}
-                        >
-                          {isCorrect ? "Correct" : "Incorrect"}
-                        </span>
-                      )}
-                    </div>
+                      {option.text}
+                    </Button>
                   ))}
                 </Card>
               );
