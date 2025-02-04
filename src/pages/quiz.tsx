@@ -20,7 +20,7 @@ import { useQuizStore } from "@/store/useQuizStore";
 
 export default function QuizPage() {
   // Parse questions (if needed, here we assume they are valid JSON already)
-  const { questions } = useQuizStore();
+  const { questions, getChaptersBySubject } = useQuizStore();
   // Extract available topics and chapters from the subjects in your questions.
   // We assume subject is in the format "topic-chapter" (e.g., "physics-1st")
   const topics = useMemo(() => {
@@ -32,17 +32,9 @@ export default function QuizPage() {
     return Array.from(set);
   }, [questions]);
 
-  const chapters = useMemo(() => {
-    const set = new Set<string>();
-    questions.forEach((q) => {
-      const chapter = q.chapter;
-      set.add(chapter);
-    });
-
-    return Array.from(set);
-  }, [questions]);
 
   const [selectedTopic, setSelectedTopic] = useState<string>(topics[0] || "");
+  const chapters = getChaptersBySubject(selectedTopic)
   const [selectedChapter, setSelectedChapter] = useState<string>(
     chapters[0] || "0"
   );
