@@ -32,9 +32,8 @@ export default function QuizPage() {
     return Array.from(set);
   }, [questions]);
 
-
   const [selectedTopic, setSelectedTopic] = useState<string>(topics[0] || "");
-  const chapters = getChaptersBySubject(selectedTopic)
+  const chapters = getChaptersBySubject(selectedTopic);
   const [selectedChapter, setSelectedChapter] = useState<string>(
     chapters[0] || "0"
   );
@@ -81,54 +80,56 @@ export default function QuizPage() {
   };
 
   return (
-    <div className="container flex flex-col items-center justify-center mx-auto p-8 space-y-6">
-      <h1 className="text-3xl font-bold">Quiz Page</h1>
+    <div className="container flex flex-col md:flex-row items-center justify-center mx-auto p-8 space-y-6">
+      <div className="flex flex-col gap-2 w-full">
+        <h1 className="text-3xl font-bold">Quiz Page</h1>
 
-      {/* Selectors for Topic and Chapter */}
-      <div className="flex flex-col w-full sm:w-auto sm:flex-row gap-4">
-        <Select
-          value={selectedTopic}
-          onValueChange={(val) => {
-            setSelectedTopic(val);
-            setCurrentQuestionIndex(0);
-          }}
-        >
-          <SelectTrigger className="w-full sm:w-[180px]">
-            <SelectValue placeholder="Select topic" />
-          </SelectTrigger>
-          <SelectContent>
-            {topics.map((topic) => (
-              <SelectItem key={topic} value={topic}>
-                {topic}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
+        {/* Selectors for Topic and Chapter */}
+        <div className="flex flex-col w-full sm:w-auto sm:flex-row gap-4">
+          <Select
+            value={selectedTopic}
+            onValueChange={(val) => {
+              setSelectedTopic(val);
+              setCurrentQuestionIndex(0);
+            }}
+          >
+            <SelectTrigger className="w-full sm:w-[180px]">
+              <SelectValue placeholder="Select topic" />
+            </SelectTrigger>
+            <SelectContent>
+              {topics.map((topic) => (
+                <SelectItem key={topic} value={topic}>
+                  {topic}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
 
-        <Select
-          value={selectedChapter}
-          onValueChange={(val) => {
-            setSelectedChapter(val);
-            setCurrentQuestionIndex(0);
-          }}
-        >
-          <SelectTrigger className="w-full sm:w-[180px]">
-            <SelectValue placeholder="Select chapter" />
-          </SelectTrigger>
-          <SelectContent>
-            {chapters.map((chap) => (
-              <SelectItem key={chap} value={chap}>
-                {chap}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
+          <Select
+            value={selectedChapter}
+            onValueChange={(val) => {
+              setSelectedChapter(val);
+              setCurrentQuestionIndex(0);
+            }}
+          >
+            <SelectTrigger className="w-full sm:w-[180px]">
+              <SelectValue placeholder="Select chapter" />
+            </SelectTrigger>
+            <SelectContent>
+              {chapters.map((chap) => (
+                <SelectItem key={chap} value={chap}>
+                  {chap}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
       </div>
 
       {/* Quiz Card */}
       {filteredQuestions.length > 0 ? (
         <Card
-          className={`max-w-md mx-auto ${
+          className={`w-full mx-auto ${
             showAnswer
               ? isCorrect
                 ? "border border-green-600"
