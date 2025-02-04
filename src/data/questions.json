@@ -2757,5 +2757,2828 @@
     ],
     "explanation": "",
     "hint": ""
+  },
+
+  {
+    "id": 1,
+    "subject": "biology-1",
+    "question": "Plasmodium vivax এর সুপ্তকাল কত দিন?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৮-২৫",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১১-১৬",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "১২-২৫",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "১৫-৩০",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "biology-1",
+    "question": "সোয়াইন ফ্লু রোগের জন্য দায়ী ভাইরাস কোনটি?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "H1N1",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "HIV",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "TMV",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "রুবিওলা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "biology-1",
+    "question": "ব্যাকটেরিয়া ব্যবহৃত হয় -\n i. তেল অপসারণে\n ii. ভাইটামিন তৈরিতে\n iii. অ্যাসিটোন তৈরিতে\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "biology-1",
+    "question": "কুষ্ঠ রোগের জীবাণু কোনটি?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Treponema pallidum",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Mycobacterium laprae",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "Mycobacterium ruberculosis",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Salmonella typhi",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "biology-1",
+    "question": "ডেঙ্গু জ্বরের ভাইরাসের নাম -",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Flavi Virus",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Influenza",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Adias Virus",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Polio Virus",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "biology-1",
+    "question": "বাতাসের মুক্ত N2 মাটিতে আবদ্ধ করতে পারে -\n i. Azotobacter\n ii. Bacillus subtilis\n iii. Pseudomonas\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "biology-1",
+    "question": "সংক্রমণক্ষম সম্পূর্ণ ভাইরাস কণাকে কী বলা হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ভিরিয়ন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ক্যাপসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পেপলোমিয়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিউক্লিড ক্যাপসিড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "biology-1",
+    "question": "সাধারণত ব্যাকটেরিয়া সর্বোচ্চ কত তাপমাত্রা পর্যন্ত বাঁচতে পারে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৮০০ সে.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "১০০০ সে.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "১২০০ সে.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১৫০০ সে.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "biology-1",
+    "question": "অনুকূল পরিবেশে ব্যাকটেরিয়া অঙ্গজ প্রক্রিয়ায় বংশবৃদ্ধি করে। অনুকূল পরিবেশ বলতে বুঝায় -\n i. খাদ্যের প্রাচুর্যতা\n ii. নিম্ন তাপমাত্রা\n iii. অধিক আর্দ্রতা\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "biology-1",
+    "question": "PRSV ভাইরাসটি কোন গোত্রের?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Poxviridae",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Togaviridae",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Potyviridae",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "Retroviridae",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "biology-1",
+    "question": "সর্বপ্রথম কোন দেশের বিজ্ঞানীরা ধানের ব্লাইট রোগের সন্ধান পান?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বাংলাদেশ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জাপান",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "অস্ট্রেলিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিউজিল্যান্ড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "biology-1",
+    "question": "কত সালে কলেরা রোগের জীবাণু আবিষ্কৃত হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১৮৮৩",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "১৮৯৯",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "১৯৮০",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১৯৯০",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "biology-1",
+    "question": "ব্যাকটেরিয়া একটি এককোষী অণুজীব যার -\n i. কোষ প্রাচীর বিদ্যমান\n ii. কোষীয় সংগঠন প্রাককেন্দ্রিক\n iii. সংখ্যাবৃদ্ধি প্রক্রিয়া দ্বিবিভাজন\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "biology-1",
+    "question": "T2 ফায তার লেজের প্রোটিন আবরণীকে সংকুচিত করে ব্যাকটেরিয়ার কোষে নিচের কোনটি প্রবেশ করায়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "RNA",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "DNA",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সমস্ত দেহ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোটিন ক্যাপসিড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "biology-1",
+    "question": "টিউলিপ ফুলে ভাইরাস আক্রমণ করলে কোন বর্ণের পাপড়িতে বর্ণ বৈশিষ্ট্য সৃষ্টি হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লাল",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কালো",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হলুদ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "খয়েরী",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "biology-1",
+    "question": "বার্ড ফ্লু সৃষ্টিকারী ভাইরাসের নাম কী?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ভেরিওলা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "র্যাবিস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যাভিয়ান ইনফ্লুয়েঞ্জা",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "অ্যাডেনো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "biology-1",
+    "question": "ডেঙ্গু জ্বরের জীবাণুর বাহক হিসেবে কাজ করে নিচের কোন অণুজীবটি?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Aedes aegypti",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Myzus persicae",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Dissateria longipennis",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Apis mellifera",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "biology-1",
+    "question": "Plasmodium এর সিগনেট রিং সাধারণত কত সময়ের মধ্যে অ্যামিবয়েডে পরিণত হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অর্ধ ঘন্টা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "এক ঘন্টা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দেড় ঘন্টা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দুই ঘন্টা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "biology-1",
+    "question": "ধানের ব্লাইট রোগ সংক্রমণের জন্য অনুকূল তাপমাত্রা কত?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১৮০-২০০ সে.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "২২০-২৬০ সে.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "২৮০-৩০০ সে.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৩০০-৩৪০ সে.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "biology-1",
+    "question": "নিচের কোন ব্যাকটেরিয়াটি নাইট্রোজেন সংবন্ধনের সাথে জড়িত?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Lactobacillus",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Diplococus",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Rhizobium",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "Clostridium",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "biology-1",
+    "question": "ব্যাকটেরিয়ার কোষের রাইবোজোম -\n i. RNA ও প্রোটিন দ্বারা গঠিত\n ii. ৮০S আকৃতির\n iii. প্রোটিন সংশ্লেষণ করে\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "biology-1",
+    "question": "ধানের ব্লাইট রোগের জীবাণু পোষকদেহে প্রবেশ করে -",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফুলের মাধ্যমে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পানিরন্ধ্রের মাধ্যমে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "কান্ডের মাধ্যমে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফলের মাধ্যমে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "biology-1",
+    "question": "ভাইরাস দেহের কেন্দ্রে কোনটি অবস্থিত?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিউক্লিক অ্যাসিড",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ক্যাপসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্যাসোমিয়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পেপলোমিয়ার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "biology-1",
+    "question": "ম্যালেরিয়া রোগের চিকিৎসায় ব্যবহৃত হয় -\n i. ক্লোরোকুইন\n ii. ডক্সিসাইক্লিন\n iii. ম্যালারোন\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "biology-1",
+    "question": "টিউলিপ ফুলে ভাইরাস আক্রমণ করলে -\n i. ফুলের পাঁপড়ি কুঁচকে যায়\n ii. ফুলের পাঁপড়িতে বর্ণ বৈচিত্র্য তৈরি হয়\n iii. ফুলকে আরও সুন্দর দেখায়\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "biology-1",
+    "question": "পেঁপের রিং স্পট রোগ একটি ভাইরাসজনিত রোগ। এ রোগে আক্রান্ত হলে গাছের -\n i. কচি পাতায় বিভিন্ন বর্ণের ছোপ দেখা যায়\n ii. পাতা ভীষণভাবে কুকড়িয়ে যায়\n iii. কান্ড পঁচে যায়\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "biology-1",
+    "question": "শক্ত ফ্লাজেলাকে কী বলা হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ট্রাইকাস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পিলি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফিমব্রি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ক্যাপসুল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "biology-1",
+    "question": "ভিরিয়নের ক্ষেত্রে -\n i. ক্যাপাসিড আবরণে আবৃত\n ii. নিউক্লিক এসিড যুক্ত\n iii. RNA খন্ডক দিয়ে গঠিত\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "biology-1",
+    "question": "Pseudomonas এর বৈশিষ্ট্য -",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোক্যারিওটিক জীব",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ইউক্যারিওটিক জীব",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দুধ থেকে দই উৎপাদনে ভূমিকা রাখে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পানি দূষণ করে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "biology-1",
+    "question": "হেপাটাইটিস নিচের কোনটির প্রদাহজনিত সমস্যা?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অগ্ন্যাশয়ের",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "যকৃতের",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "পাকস্থলির",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হৃৎপিন্ডের",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "biology-1",
+    "question": "মাইল্ড টারশিয়ান ম্যালেরিয়ার সুপ্তকাল কত দিন?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৮-২৫",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১১-১৬",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "১২-২৫",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১৫-৩০",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "biology-1",
+    "question": "ম্যালেরিয়া জ্বরের প্রধান কারণ -",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হিমোজইন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পাইরোজেন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সাফনার্স দানা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ট্রফোজয়েট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "biology-1",
+    "question": "বিভাজন পদ্ধতিতে বংশ বিস্তার ঘটে -\n i. Tetracoccus\n ii. Streptococcus\n iii. E. coli\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+
+  {
+    "id": 34,
+    "subject": "biology-1",
+    "question": "E-coli কে ধ্বংস করে নিচের কোন ভাইরাস?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রুবিওলা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "T2 ফায",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "H1H1",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "র্যাবিল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "biology-1",
+    "question": "ব্যাকটেরিয়া সাধারণত কতটি পদ্ধতিতে বংশবিস্তার করে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দুই",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তিন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "চার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পাঁচ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "biology-1",
+    "question": "নিচের কোন ব্যাকটেরিয়াটি দেখতে গোলাকার?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Micrococcus denitrificans",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Bacillus albus",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Vibrio cholerae",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Spirillum minus",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "biology-1",
+    "question": "নাইট্রোজেন সংবন্ধনকারী ব্যাকটেরিয়া কোনটি?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Azotobacter",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Leuconostoc",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Streptococcus",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Bacillus sp",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "biology-1",
+    "question": "ক্যাপসিড আবরণে আবৃত নিউক্লিক এসিডযুক্ত সংক্রমণক্ষম ভাইরাসের নাম কী?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রিয়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভিরিয়ন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "লিপোভাইরাস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পেপলোমিয়ার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "biology-1",
+    "question": "Plasmodium vivax এর সুপ্তকাল কত?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১১-১৬ দিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১৮-৪০ দিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৮-১৫ দিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১২-20 দিন",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "biology-1",
+    "question": "ম্যালেরিয়ার ইরাইথ্রোসাইটিক দশার ধাপ হলো -\n i. ট্রফোজোয়েট\n ii. সিগনেট রিং\n iii. সাইজন্ট\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "biology-1",
+    "question": "মশকীর ক্রপের বাইরে সংঘটিত অযৌন জননের নাম কী?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্যামেটো",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "এক্সফ্লাজেলেশন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মাইক্রোগ্যামেট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্পোরোগনি",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "biology-1",
+    "question": "AIDS এর জন্য দায়ী নিচের কোন ভাইরাস?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "HIV",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "TMV",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "H1N1",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "T2 ফায",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "biology-1",
+    "question": "কোন ভাইরাসটি মানবদেহে হাম রোগের সংক্রমণ ঘটায়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ভেরিওলা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রুবিওলা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "র্যাবিস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "H1V1",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "biology-1",
+    "question": "কোন ভাইরাসের RNA দ্বিসূত্রক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রিও ভাইরাস",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ফুলকপির মোজাইক ভাইরাস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "HIV",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ইনফ্লুয়েঞ্জা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "biology-1",
+    "question": "ICDDRB উদ্ভাবিত ওরাল স্যালাইন তৈরিতে প্রয়োজন হয় -\n i. তিন গ্লাস বিশুদ্ধ পানি\n ii. এক চামচ লবণ\n iii. একমুঠো গুড়\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "biology-1",
+    "question": "কোনটিতে লাইট্রিক চক্র দেখা যায়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Bacillus albus",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Escherchia coli",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "Bacillus tuberculosis",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Clostridium tetani",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "biology-1",
+    "question": "কোন গাছ থেকে ম্যালেরিয়া ওষুধ প্রস্তুত করা হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পেঁপে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সিনকোনা",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "অর্জুন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "biology-1",
+    "question": "ফ্লাভিভাইরাস সৃষ্ট রোগ কোনটি?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সোয়াইন ফ্লু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইয়েলো ফিভার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডেঙ্গু",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "বসন্ত",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "biology-1",
+    "question": "নিচের কোন ভাইরাসটি দেখতে দন্ডাকার?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "TMV",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "T2 ফায",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "HIV",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পোলিও",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 50,
+    "subject": "biology-1",
+    "question": "কোনটি অসম্পুর্ণ ভাইরাস গ্রুপ?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "HVC",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "HVA",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "HVE",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "HVB",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 51,
+    "subject": "biology-1",
+    "question": "কোনটি ভাইরাস ঘটিত রোগ?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কলেরা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিউমোনিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হেপাটাইটিস",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ডিপথেরিয়া",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 52,
+    "subject": "biology-1",
+    "question": "ব্যাকটেরিওফাযের জীবন চক্র কত প্রকার?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দুই",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "তিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পাঁচ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 53,
+    "subject": "biology-1",
+    "question": "ম্যালেরিয়া এরিথ্রোসাইটিক দশার ধাপ হলো -\n i. ট্রফোজয়েট\n ii. সিগনেট রিং\n iii. সাইজন্ট\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 54,
+    "subject": "biology-1",
+    "question": "দ্বি-বিভাজন প্রক্রিয়ায় কত সময় লাগে",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১০ মি.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "২০ মি.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৩০ মি.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "৬০ মি.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 55,
+    "subject": "biology-1",
+    "question": "ব্যাকটেরিয়ার ক্যাপসুলের অপর নাম কোনটি?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্লাইম স্তর",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "পিলি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মেসোসোম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্লাইপোপ্রোটিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 56,
+    "subject": "biology-1",
+    "question": "ভাইরাস এক প্রকার পরজীবী। উপযুক্ত পোষক কোষের বাইরে এরা -\n i. জড় বস্তুর ন্যায় আচরণ করে\n ii. সংখ্যা বৃদ্ধি করতে অক্ষম\n iii. কোষ বিভাজন করতে পারে\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 57,
+    "subject": "biology-1",
+    "question": "পেঁপের রিং স্পট রোগের জন্য দায়ী নিচের কোন ভাইরাসটি?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "H1N1",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "T2 ফায",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "HIV",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "PRSV",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 58,
+    "subject": "biology-1",
+    "question": "কোন বিজ্ঞানী ব্যাকটেরিয়ার নামকরণ করেন?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Leeuwen Hoek",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Ehenberg",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "Louis Pasteur",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Robert Brown",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 59,
+    "subject": "biology-1",
+    "question": "কিছু ব্যাকটেরিয়া প্রয়োগ করে ধানের উৎপাদন শতকরা কতভাগ বাড়ানো সম্ভব হয়েছে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৩১. ৮",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "২০. ৮",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "২১. ৮",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৩০. ৮",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 60,
+    "subject": "biology-1",
+    "question": "ভাইরাসের নিউক্লিক এসিডবিহীন প্রোটিন আবরণকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ভিরিয়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভিরয়েড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রিয়ন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ক্যাপসোমিয়ার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 61,
+    "subject": "biology-1",
+    "question": "দ্বি-সূত্রক RNA পাওয়া যায় কোনটিতে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "TMV",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "T2 ফায",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রাইস টুংরো ভাইরাস",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "কোলিফায",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 62,
+    "subject": "biology-1",
+    "question": "আইভানোভস্কি কোন রোগ নিয়ে কাজ করেন?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তামাকের মোজাইক",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "যক্ষ্মা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কলার মোজাইক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গলগন্ড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 63,
+    "subject": "biology-1",
+    "question": "শিশুদের হেপাটাইটিস থেকে রক্ষার জন্য কোনটি দিতে হবে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এ্যামোক্সিলিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মেট্রোনিডাজল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ভিটামিন – সি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্যান্টাভ্যালেন্ট ভ্যাকসিন",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 64,
+    "subject": "biology-1",
+    "question": "ভাইরাস নামটি প্রবর্তন করেন কে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "N. W Pirie",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "W. M Stanley",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Gallow",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "A. Mayer",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 65,
+    "subject": "biology-1",
+    "question": "ভাইরাস বাহিত রোগ -\n i. কলেরা\n ii. বসন্ত\n iii. হাম\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 66,
+    "subject": "biology-1",
+    "question": "AIDS রোগের প্যাথোজেন যে ভাইরাস তা কে আবিষ্কার করেন?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Gallow",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Stantey",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Mager",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Bawden",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 67,
+    "subject": "biology-1",
+    "question": "DNA ভাইরাসের উদাহরণ কোনটি?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পোলিও",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রুবিওলা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফ্ল্যাভি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "T2 ফায",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 68,
+    "subject": "biology-1",
+    "question": "ম্যালেরিয়া জীবাণুর অযৌন চক্রের হেপাটিক সাইজোগনি মানব দেহের কোথায় সম্পন্ন হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বৃক্কে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "যকৃতের",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "লোহিত রক্ত কণিকায়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফুসফুসে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 69,
+    "subject": "biology-1",
+    "question": "WHO এর তথ্যানুযায়ী প্রতি বছর কতজন লোক সারা বিশ্বে ম্যালেরিয়া রোগে আক্রান্ত হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৫১৫ মিলিয়ন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "৫১৫ বিলিয়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৫৩০ বিলিয়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৫৫০ মিলিয়ন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 70,
+    "subject": "biology-1",
+    "question": "বাধ্যতামূলক পরজীবী বলা হয় নিচের কোন অণুজীবকে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ছত্রাক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ব্যাকটেরিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ভাইরাস",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "শৈবাল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 71,
+    "subject": "biology-1",
+    "question": "ধানের পাতা ধ্বসা রোগের কারণ Xanthomonas oryzae নামক ব্যাকটেরিয়া, যা -\n i. গ্রাম পজিটিভ\n ii. বায়বীয় প্রকৃতির\n iii. একক ফ্লাজেলা বিশিষ্ট\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 72,
+    "subject": "biology-1",
+    "question": "T2 ফায ভাইরাসের বেসপ্লেটে কতটি স্পর্শক তন্তু যুক্ত থাকে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৪টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৬টি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "৮টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 73,
+    "subject": "biology-1",
+    "question": "ব্যাকটেরিয়ার কোষঝিল্লির প্রকৃতি কীরূপ?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বৈষম্য ভেদ্য",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অভেদ্য",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ভেদ্য",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পূর্ণভেদ্য",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 74,
+    "subject": "biology-1",
+    "question": "কোন অঙ্গটি শুধুমাত্র গ্রাম নেগেটিভ ব্যাকটেরিয়ার উপস্থিত?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফ্ল্যাজেলা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভলিউটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পিলি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ল্যামেলি ও ভেসিকল",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 75,
+    "subject": "biology-1",
+    "question": "ধনুষ্টংকার রোগের জন্য দায়ী কোন জীবাণু?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Treponema pallidum",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Vibrio cholerae",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Clostridium tatani",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "Yersinia pestis",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 76,
+    "subject": "biology-1",
+    "question": "স্পোরোজোয়েট থেকে মেটাক্রিপটোজোয়েট অবস্থায় পৌঁছাতে পরজীবীর কত দিন সময় লাগে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২-৩ দিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৭-১০ দিন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "১৫-১৬ দিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "২০-২৬ দিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 77,
+    "subject": "biology-1",
+    "question": "নিচের কোনটি উদ্ভিদ দেহের রোগ?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মোজাইক",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "বার্ড ফ্লু",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সোয়াইন ফ্লু",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিউক্যাসল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 78,
+    "subject": "biology-1",
+    "question": "ফায (Phage) শব্দটির অর্থ কী?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিষ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভক্ষণ করা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "আক্রমণ করা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "উপকার করা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 79,
+    "subject": "biology-1",
+    "question": "টিউলিপ ফুলের পাপড়িতে বর্ণবৈচিত্র্য সৃষ্টি করে কোন অণুজীব?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ব্যাকটেরিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভাইরাস",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ছত্রাক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "শৈবাল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 80,
+    "subject": "biology-1",
+    "question": "T2 ফাযের মাথার আকার কীরূপ?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চতুর্ভুজাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ত্রিকোণাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গোলাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ষড়ভুজাকার",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 81,
+    "subject": "biology-1",
+    "question": "নিউক্লিয়াস বিশিষ্ট ক্রিপ্টোজোয়েটকে কী বলা হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মেরোজোয়েট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সাইজন্ট",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "স্পোরোজোয়েট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সাইজোগনি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 82,
+    "subject": "biology-1",
+    "question": "সাধারণ ডেঙ্গু জ্বর সাধারণত কত দিন স্থায়ী হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৩-৬",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "৭-১০",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "১২-১৫",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১৮-২০",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 83,
+    "subject": "biology-1",
+    "question": "নিচের কোনটি ব্যাকটেরিয়ার সংখ্যাবৃদ্ধি প্রক্রিয়া?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অনুলিপন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দ্বিবিভাজন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "মাইটোসিস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মিয়োসিস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 84,
+    "subject": "biology-1",
+    "question": "Vibrio cholerae এর দেহ থেকে যে বিষাক্ত পদার্থ বের হয় তা কোন জাতীয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিউরোটক্সিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "এন্টারোটক্সিন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "কার্ডিওটক্সিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হেপাটোটক্সিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 85,
+    "subject": "biology-1",
+    "question": "নিচের কোন হেপাটাইটিস সবচেয়ে মারাত্মক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হেপাটাইটিস এ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হেপাটাইটিস বি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "হেপাটাইটিস ডি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হেপাটাইটিস ই",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 86,
+    "subject": "biology-1",
+    "question": "এক সূত্রক DNA পাওয়া যায় কোন ভাইরাসে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "T2 ফায",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "TMV",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কোলিফায",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "HIV",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 87,
+    "subject": "biology-1",
+    "question": "লেবুর ক্যাংকার রোগের কারণ কোনটি?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Xanthomonas citri",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Xanthomonas oryzae",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Xanthomonas vasculorum",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Stemptomyces scabies",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 88,
+    "subject": "biology-1",
+    "question": "মা যদি হেপাটাইটিস বি আক্রান্ত হয় তবে নবজাতকের জন্মের পর হেপাটাইটিস বি এর টিকার পাশাপাশি নিচের কোনটি দিতে হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হিমোগ্লোবিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইমুনোগ্লোবিন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "স্যালাইন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যান্টিসেপটিক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 89,
+    "subject": "biology-1",
+    "question": "ব্যাকটেরিওফাযের জীবনচক্রের অন্তর্ভুক্ত -\n i. লাইটিক চক্র\n ii. লাইসোজোম চক্র\n iii. লাইসোজেনিক\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 90,
+    "subject": "biology-1",
+    "question": "ব্যাকটেরিয়ার যৌন জননে -\n i. চারিত্রিক গুণাবলির বিনিময় ঘটে\n ii. স্পোর ও রেণু উৎপাদন করে\n iii. অসম্পূর্ণ জাইগোট সৃষ্টি হয়\n\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 91,
+    "subject": "biology-1",
+    "question": "নিচের কোন রোগটি ভাইরাস দ্বারা হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "টাইফয়েড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিউমোনিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইনফ্লুয়েঞ্জা",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "হুপিংকাশি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
   }
 ]
