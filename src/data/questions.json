@@ -90688,5 +90688,3110 @@
     "explanation": "",
     "hint": "",
     "description": "উদ্দীপকটি পড়ো এবং নিচের ২টি প্রশ্নের উত্তর দাও:\nগণি মিয়া সমাজের জন্য নিবেদিত প্রাণ। তিনি সমাজের দু:খী, অসহায় মানুষদের সবসময় সাহায্য করেন। তিনি নিজের কথা একদম চিন্তা করেন না।\n"
+  },
+
+  {
+    "id": 1,
+    "subject": "physics-2",
+    "question": "J দ্বারা প্রকাশ করা হয় –",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্লসিয়াস ধ্রুবক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তাপের যান্ত্রিক তুল্যাঙ্ক",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "অভ্যন্তরীণ শক্তি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বহিঃস্থ কাজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "physics-2",
+    "question": "নিচের কোনটি তাপগতীয় চলরাশি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তাপ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "চাপ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "কাজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "শক্তি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "physics-2",
+    "question": "250C তাপমাত্রায় ও বায়ুমন্ডলীয় চাপে শুষ্ক বায়ুকে হঠাৎ সংনমিত করে আয়তন অর্ধেক করা হলে চূড়ান্ত তাপমাত্রা নির্ণয় কর।",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "118.180C",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "120.180C",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "128.180C",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "125.180C",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "physics-2",
+    "question": "থার্মোমিটারে পারদ ব্যবহার সুবিধাজনক কারণ –\ni. পারদের মধ্য দিয়ে তাপ পরিবাহিত হয়\nii. নির্দিষ্ট তাপমাত্রা বৃদ্ধিতে পারদের আয়তন প্রসারণ অন্যান্য তরল পদার্থ অপেক্ষা বেশি\niii. পারদের তাপীয় ক্ষমতা খুব বেশি\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "physics-2",
+    "question": "ইঞ্জিনের কর্মদক্ষতা কোনটির উপর নির্ভর করে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তাপ গ্রাহকের তাপমাত্রা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কার্যকরী পদার্থের প্রকৃতি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তাপ শোষণের হার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তাপ গ্রহণের হার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "physics-2",
+    "question": "কোনো সিস্টেম যখন এক অবস্থা থেকে অন্য অবস্থায় পরিবর্তিত হয় তখন তার অবস্থার পরিবর্তন কয়ভাবে সংঘটিত হতে পারে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দুই",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "চার",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "physics-2",
+    "question": "কোনো গ্যাসের আপেক্ষিক তাপদ্বয়ের অনুপাত γ = 1.5, উক্ত গ্যাসের জন্য –",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "CV = 3R",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "CP = 3R",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "CV = 5R",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "CP = 5R",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "physics-2",
+    "question": "সেলসিয়াস স্কেলে মৌলিক ব্যবধানকে সমান কতভাবে ভাগ করা হয়েছে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "100",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "180",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "212",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "273",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "physics-2",
+    "question": "কোন প্রক্রিয়ায় কৃত কাজ শূন্যে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সমচাপ প্রক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সমআয়তন প্রক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সমোষ্ণ প্রক্রিয়া",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "রুদ্ধ তাপীয় প্রক্রিয়া",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "physics-2",
+    "question": "দুটি বস্তুকে পরস্পরের সাথে ঘর্ষণ করা হলে –\ni. যান্ত্রিক শক্তি তাপ শক্তিতে রূপান্তরিত হয়\nii. বস্তু দুটি উত্তপ্ত হয়\niii. অণুগুলোর গতি শক্তি হ্রাস পায়\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "physics-2",
+    "question": "অভ্যন্তরীণ শক্তির পরিবর্তন নির্ভর করে –\ni. ব্যবস্থার আদি অবস্থার উপর\nii. ব্যবস্থার মাঝামাঝি অবস্থার উপর\niii. ব্যবস্থার চূড়ান্ত অবস্থার উপর\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "physics-2",
+    "question": "কার্নো চক্রের কোন ধাপে গ্যাস সমোষ্ণ প্রক্রিয়ায় সংনমিত হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রথম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দ্বিতীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তৃতীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "চতুর্থ",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "physics-2",
+    "question": "গ্যাস থার্মোমিটারের সঠিকতার জন্য গ্যাসদ্বয়কে কিভাবে ভর্তি করা হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "উচ্চচাপ ও নিম্ন তাপমাত্রায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিম্নচাপ ও উচ্চ তাপমাত্রায়",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "উচ্চ তাপমাত্রায়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিম্ন তাপমাত্রায়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "physics-2",
+    "question": "সমোষ্ণ প্রক্রিয়ায় গ্যাসের চাপ ও আয়তনের সম্পর্ক নিচের কোন সূত্র মেনে চলে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চার্লসের সূত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বয়েলের সূত্র",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "অ্যাভোগেড্রোর সূত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সরল দোলকের সূত্র",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "physics-2",
+    "question": "উষ্ণতামিতিক পদার্থ –\ni. প্লাটিনাম রোধ তার\nii. তাপীয় তড়িচ্চালক শক্তি\niii. দুটি ধাতব পদার্থের যুগল\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "physics-2",
+    "question": "সাদি কার্নো কোন দেশের অধিবাসী ছিলেন?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইংল্যান্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আমেরিকা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "জার্মানি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফ্রান্স",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "physics-2",
+    "question": "সমোষ্ণ প্রক্রিয়ায় –\ni. বয়েলের সূত্র অনুসরিত হয়\nii. ΔT = 0\niii. dW = - dU\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "physics-2",
+    "question": "সমোষ্ণ প্রক্রিয়ায় কোনো সিস্টেমে তাপশক্তি সরবরাহ করার ফলে –",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বাহ্যিক কাজ সম্পাদিত হবে",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "তাপমাত্রা বৃদ্ধি পাবে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বাহ্যিক কাজ সম্পাদিত হবে এবং তাপমাত্রা বৃদ্ধি পাবে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সিস্টেমের অন্তস্থ শক্তি বৃদ্ধি পাবে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "physics-2",
+    "question": "রুদ্ধতাপায় প্রক্রিয়ায় কোনটি অপরিবর্তিত থাকে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তাপ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "চাপ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তাপমাত্রা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আয়তন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "physics-2",
+    "question": "গ্যাসের অবস্থার বৈশিষ্ট্য নির্দেশ করে –",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চাপ, আয়তন ও পরম তাপমাত্রা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "তাপ, চাপ ও আয়তন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কাজ, আয়তন ও পরম তাপমাত্রা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এনট্রপি, তাপ ও আয়তন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "physics-2",
+    "question": "বৈদ্যুতিক মোটর কোন শক্তির বিনিময়ে কাজ করে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "যান্ত্রিক শক্তি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গতি শক্তি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিভব শক্তি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তড়িৎ শক্তি",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "physics-2",
+    "question": "রুদ্ধতাপীয় প্রক্রিয়ায় অন্তঃস্থ শক্তি –\ni. বৃদ্ধি পেতে পারে\nii. স্থির থাকে\niii. হ্রাস পেতে পারে\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "physics-2",
+    "question": "কার্নো চক্রে কোন প্রক্রিয়ায় দুটি প্রসারণ ও দুটি সংনমন থাকে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সমোষ্ণ ও সমচাপ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সমোষ্ণ ও সম আয়তন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সম আয়তন ও রুদ্ধতাপীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সমোষ্ণ ও রুদ্ধতাপীয়",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "physics-2",
+    "question": "CP ও CV এর মধ্যে সম্পর্ক হলো –",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "CP = CV",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "CV > CP",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "CP > CV",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "CP < CV",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "physics-2",
+    "question": "পানির ত্রৈধ বিন্দুর ক্ষেত্রে পারদ স্তম্ভে চাপের পরিমাণ কত?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "76 mm",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "4.58 mm",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "3.48 mm",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "8.54 mm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "physics-2",
+    "question": "নিচের কোনটির দ্বারা বস্তুর উত্তপ্ততা বা শীতলতার মাত্রা বুঝা যায়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তাপ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তাপমাত্রা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "তাপীয় সাম্যাবস্থা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আন্ত:আণবিক শক্তি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "physics-2",
+    "question": "তাপগতিবিদ্যার প্রথম সূত্র –\ni. হামফ্রে ডেভির মতবাদ\nii. ক্লসিয়াসের মতবাদ\niii. জুলের মতবাদ\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "physics-2",
+    "question": "কোন তাপমাত্রায় ফারেনহাইট ও সেলসিয়াস স্কেলে পড়লে 100 পার্থক্য হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "-27.50C ও – 17.50F",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "-27.50C ও – 1300F",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "-900C ও – 17.50F",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "-900C ও – 17.50F",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "physics-2",
+    "question": "বন্দুক হতে গুলি ছুঁড়লে বারুদের বিস্ফোরণ ঘটে এটি কোন প্রক্রিয়ার উদাহরণ?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রত্যাবর্তী প্রক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অপ্রত্যাবর্তী প্রক্রিয়া",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সমোষ্ণ প্রক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিকিরণ প্রক্রিয়া",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "physics-2",
+    "question": "‘তাপ আপনা আপনি শীতল বস্তু হতে উষ্ণ বস্তুতে স্থানান্তর হয় না’ এই বিবৃতি প্রদান করেন কে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রুডলফ ক্লসিয়াস",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "সাদি কার্নো",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ম্যাক্স প্লাঙ্ক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লর্ড কেলভিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "physics-2",
+    "question": "কোনটিকে সম-এনট্রপি প্রক্রিয়াও বলা হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সমোষ্ণ প্রক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সমআয়তন প্রক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সমচাপ প্রক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "রূদ্ধতাপীয় প্রক্রিয়া",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "physics-2",
+    "question": "থার্মোকাপল দ্বারা কী পরিসরের তাপমাত্রা পরিমাপ করা যায়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "-2500C থেকে 13000C",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "-2000C থেকে 15000C",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "-2700C থেকে 15000C",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "-500C থেকে 3000C",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "physics-2",
+    "question": "লর্ড কেলভিন কত সালে কেলভিন স্কেল প্রবর্তন করেন?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১৭২০",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১৮৪৮",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "১৭৪২",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১৮৪৬",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "physics-2",
+    "question": "কাজ ও তাপ পরস্পরের সমানুপাতিক হবে যদি-\ni. কাজ সম্পূর্ণরূপে তাপে পরিণত হয়\nii. তাপ সম্পূর্ণরূপে কাজে পরিণত হয়\niii. কাজের কিয়দাংশ তাপে পরিণত হয় এবং বাকিটুকু ব্যবস্থার অন্ত:স্থ শক্তি বৃদ্ধি করে\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "physics-2",
+    "question": "কোন প্রক্রিয়ায় দুটি বস্তুর মধ্যে ঘর্ষণের ফলে তাপ সৃষ্টি হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রত্যাবর্তী",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অপ্রত্যাবর্তী",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সমোষ্ণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "রূদ্ধতাপীয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "physics-2",
+    "question": "একটি স্থির আয়তন গ্যাস থার্মোমিটারে পানির ত্রৈধ বিন্দুর চাপ 20Nm-2 এবং শুষ্ক বরফে 14.3 Nm-2 চাপ প্রদর্শন করলে শুষ্ক বরফের তাপমাত্রা কত?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "273.16 K",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "382.65 K",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "195.31 K",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "187.45 K",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "physics-2",
+    "question": "ঘড়ির স্প্রিংয়ের কোন শক্তির দ্বারা ঘড়ির কাঁটা ঘুরে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তড়িৎ শক্তি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বিভব শক্তি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "গতি শক্তি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "যান্ত্রিক শক্তি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "physics-2",
+    "question": "যখনই কাজ সম্পূর্ণভাবে তাপে বা তাপ সম্পূর্ণভাবে কাজে রূপান্তরিত হয়, তখনই কাজ ও তাপ পরস্পর –",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ব্যস্তানুপাতিক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বর্গের ব্যস্তানুপাতিক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সমানুপাতিক",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "বর্গের সমানুপাতিক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "physics-2",
+    "question": "যেটির সাহায্যে তাপগতিবিদ্যার ২য় সূত্র সংক্রান্ত কেলভিনের বিবৃতির সত্যতা উপলব্ধি করা যায় তা হলো-\ni. তাপ ইঞ্জিন\nii. রেফ্রিজারেটর\niii. তাপ উৎস\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "physics-2",
+    "question": "সিস্টেম তার পারিপার্শ্বের সাথে শক্তি বিনিময় করে –\ni. যান্ত্রিক কাজ সম্পাদনের মাধ্যমে\nii. চাপ, আয়তন ও তাপমাত্রা অপরিবর্তিত রেখে\niii. তাপ প্রবাহের মাধ্যমে\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "physics-2",
+    "question": "গ্যাস ভর্তি একটি সিলিন্ডারকে গাড়িতে কোনো স্থানে নেওয়ার সময় সিলিন্ডারের সাপেক্ষে অপরিবর্তিত থাকে কী কী?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চাপ ও আয়তন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তাপমাত্রা ও আয়তন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অণুর সংখ্যা ও আয়তন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অণুর সংখ্যা ও তাপমাত্রা",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "physics-2",
+    "question": "কোনো প্রক্রিয়া বিপরীতমুখী হয়ে প্রত্যাবর্তন করতে পারে না?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সমোষ্ণ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রূদ্ধতাপীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রত্যাবর্তী",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অপ্রত্যাবর্তী",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "physics-2",
+    "question": "সাদি কার্নো কত সালে তার কল্পিত আদর্শ ইঞ্জিনের পরিকল্পনা করেন?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১৯৯৬",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১৯২৪",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "১৮৩২",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১৮৫৪",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "physics-2",
+    "question": "এনট্রপি তাপ সঞ্চালনে কী নির্দেশ করে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মান",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মান ও দিক",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "দিক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মান ও সময়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "physics-2",
+    "question": "কখন গ্যাসের উপর কিছু কাজ সম্পাদিত হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্যাসের পরিমাণ বৃদ্ধি পেলে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গ্যাসের চাপ হ্রাস পেলে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গ্যাস সংকুচিত হলে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "গ্যাস প্রসারিত হলে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "physics-2",
+    "question": "কোন প্রক্রিয়ার সম্মুখ ও বিপরীতমুখী প্রক্রিয়ায় প্রতি স্তরে তাপ ও কাজের ফলাফল সমান ও বিপরীতমুখী?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রত্যাবর্তী",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অপ্রত্যাবর্তী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সমোষ্ণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সমআয়তন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "physics-2",
+    "question": "একটি আদর্শ গ্যাস রুদ্ধতাপীয় প্রক্রিয়ার মধ্য দিয়ে যাচ্ছে। নিচের কোনটি সত্য?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Pγ T = ধ্রুবক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Pγ Tγ = ধ্রুবক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Pγ T1 - γ = ধ্রুবক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "P1-γ Tγ = ধ্রুবক",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "physics-2",
+    "question": "সমচাপীয় প্রক্রিয়ায় P – V গ্রাফের ঢাল -",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "-1",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "+1",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "∝",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "physics-2",
+    "question": "J দ্বারা প্রকাশ করা হয় –",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "500K",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "550K",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "600K",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "650K",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nএকটি কার্নো ইঞ্জিন যখন 270C তাপমাত্রায় তাপ গ্রাহকে থাকে তখন এর কর্মদক্ষতা হয় 50%\n"
+  },
+  {
+    "id": 50,
+    "subject": "physics-2",
+    "question": "নিচের কোনটি তাপগতীয় চলরাশি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nএকটি কার্নো ইঞ্জিন যখন 270C তাপমাত্রায় তাপ গ্রাহকে থাকে তখন এর কর্মদক্ষতা হয় 50%\n"
+  },
+  {
+    "id": 1,
+    "subject": "physics-2",
+    "question": "তড়িৎ ক্ষেত্রের কোনো তলের ভেতর দিয়ে অভিলম্বভাবে নির্গত আবেশ বলরেখার সংক্যাকে বলা হয় সর্বমোট অভিলম্ব-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তড়িৎ বলরেখা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তড়িৎ আবেশ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "তড়িৎ বিভব",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তড়িৎ প্রাবল্য",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "physics-2",
+    "question": "দ্বিমেরু ভ্রামকের একক কোনটি?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ওহম-মিটার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কুলম্ব-মিটার",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "অ্যাম্পিয়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ভোল্ট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "physics-2",
+    "question": "কোনো আহিত বস্তুর চারপাশে যে অঞ্চল জুড়ে তার প্রভাব থাকে তাকে কী বলে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তড়িৎক্ষেত্র",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "তড়িৎ প্রাবল্য",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তড়িৎ তীব্রতা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তড়িৎ বিভব",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "physics-2",
+    "question": "যেকোনো পদার্থকে কয়টি উপায়ে চার্জিত করা যায়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "3টি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "1টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "4টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "2টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "physics-2",
+    "question": "বেতার গ্রাহক যন্ত্রে নিম্নোক্ত কান প্রকার ধারক ব্যবহার করা হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পরিবর্তনীয় বায়ু ধারক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বাহুপাত অভ্র ধারক",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সিরামিক ধারক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কাগজ ধারক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "physics-2",
+    "question": "চার্জের অস্তিত্ব ও পরিমাণ নির্ণয়ের কাজে ব্যবহৃত যন্ত্রের নাম-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ভোল্টমিটার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভোল্টমিটার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যামিটার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্বর্ণপাত তড়িৎবীক্ষণ",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "physics-2",
+    "question": "তড়িৎ ক্ষেত্রে একটি মুক্ত ধনাত্মক আধান স্থাপন করলে সেটি-\ni. স্থির থাকবে\nii. বল লাভ করবে\niii. নির্দিষ্ট পথে চলবে\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "physics-2",
+    "question": "কোনো পরিবাহীর বিভবের মান নির্ভর করে-\ni. পরিবাহীর আকারের উপর\nii. পরিবাহীর আয়তনের উপর\niii. পারিপার্শ্বিক মাধ্যমের উপর\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "physics-2",
+    "question": "পানির পরাবৈদ্যুতিক ধ্রুবকের মান-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "80",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "8.0",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "8.8",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "0.8",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "physics-2",
+    "question": "বলরেখার সাথে লম্বভাবে অবস্থিত একই ক্ষেত্রফলের মধ্যদিয়ে অতিক্রান্তে বলরেখার সংখ্যা তীব্রতার-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ব্যস্তানুপাতিক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বর্গের ব্যস্তানুপাতিক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সমানুপাতিক",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "বর্গের সমানুপাতিক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "physics-2",
+    "question": "অপরিবাহী পদার্থের উদাহরণ হলো-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তামা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লোহা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মানবদেহ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কাঠ",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "physics-2",
+    "question": "ঘনকোণের একক কী?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ডিগ্রি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রেডিয়ান",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্টেরেডিয়ান",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ডিগ্রি সেলসিয়াস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "physics-2",
+    "question": "বিভিন্ন ইলেকট্রনিক বর্তনীতে কোন ধরনের ধারক প্রচুর দেখা যায়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অভ্র ধারক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কাগজ ধারক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইলেকট্রিক ধারক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সিরামিক ধারক",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "physics-2",
+    "question": "তড়িৎ পরিবাহীর পৃষ্ঠে বিভব পার্তক্য-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অসীম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "I ভোল্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "খুব কম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "থাকে না",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "physics-2",
+    "question": "স্থিরমান ধারকে ধাতব পাতের কাজ করে",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লোহার পাত",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তামার পাত",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "জিংকের পাত",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টিনের পাত",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "physics-2",
+    "question": "তড়িৎ ক্ষেত্রের কোনো বিন্দুতে একটি একক ধনাত্মক আধান স্থাপন করলে সেটি যে বল অনুভব করে তাকে কী বল?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তড়িৎ প্রভাব",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তড়িৎ প্রবাল্য",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "তড়িৎ বল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তড়িৎ বিভব",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "physics-2",
+    "question": "তড়িৎ বিভবের একক কী?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জুল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভোল্ট",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ফ্যারাডে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হেনরি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "physics-2",
+    "question": "তড়িৎ বিশ্লেষক ধারকে-\ni. ধারকত্বের মান অনেক বেশি\nii. অপরিবর্তী প্রবাহে ব্যবহার করা যায়\niii. পরিবর্তী প্রবাহে ব্যবহার করা যায় না\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "physics-2",
+    "question": "বেতার গ্রাহক যন্ত্রে নিম্নোক্ত কোন প্রকার ধারক ব্যবহৃত হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পরিবর্তনশীল ধারক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্থিরমান ধারক",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সিরামিক ধারক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কাগজ ধারক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "physics-2",
+    "question": "দুটি আধানের মধ্যবর্তী আকর্ষণ বলের মান-\ni. আধানদ্বয়ের গুণফলের সমানুপাতিক\nii. আধানদ্বয়ের যোগফলের সমানুপাতিক\niii. আধানদ্বয়ের মধ্যর্ত দূরত্বের বর্গের ব্যস্তানুপাতিক\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "physics-2",
+    "question": "প্রথিবীর বিভব শূন্য কারণ পৃথিবী-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ঋণাত্মক আদানের বিশাল ভান্ডার",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ধনাত্মক আধানের বিশাল ভান্ডার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আধান শূন্য",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ধনাত্মক ও ঋণাত্মক আধানের বিশাল ভান্ডার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "physics-2",
+    "question": "যেসব ভৌত রাশির মান নিরবচ্ছিন্নভাবে পরিবর্তিত হতে পারে না, ঐসব রাশিকে কী বলা হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কোয়ান্টারিত",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "মেটালিক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "যৌগিক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অবিচ্ছিন্ন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "physics-2",
+    "question": "দুটি আহিত বস্তুকে সংযুক্ত করলে কোন দিকে আধান প্রবাহিত হবে তা কীসের ওপর নির্ভর করে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আধানের পরিমাণ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তড়িৎ ক্ষেত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তড়িৎ প্রাবল্য",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তড়িৎ বিভব",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "physics-2",
+    "question": "চার্জ সংরক্ষণের নীতি অনুসারে চার্জকে-\ni. সৃষ্টি করা যায় না\nii. স্থানান্তরিত করা যায় না\niii. ধ্বংস করা যায় না\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "physics-2",
+    "question": "যে তল বরাবর কোনো চার্জ প্রবাহিত হয় না তাকে কী বলে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সমবিভব তল",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "বিষম বিভব তল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চার্জহীন তল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিভব তল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "physics-2",
+    "question": "আধানের পরিমাণ হ্রাস পেলে বলের কি পরিবর্তন হবে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হ্রাস পাবে",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "বৃদ্ধি পাবে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সর্বাধিক হবে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্থির থাকে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "physics-2",
+    "question": "তড়িৎ দ্বিমেরুর লম্ব দ্বিখন্ডক রেখার যেকোনো বিন্দুতে বিভব-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "শূন্য",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "1 ভোল্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "100 ভোল্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অসীম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "physics-2",
+    "question": "বায়ু বা শূন্য মাধ্যমে 1 C মানের দুটি চার্জকে 1 m দূরত্বে স্থাপন করলে এদের মধ্যকার বিকর্ষণ বলের মান কত হবে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "3 x 106 N",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "3 x 109 N",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "9 x 106 N",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "9 x 109 N",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "physics-2",
+    "question": "দুটি আধানের মধ্যকার বল সংক্রান্ত সূত্রটি কে প্রদান করেন?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কুলম্ব",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ওহম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "জুল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফ্যারাডে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "physics-2",
+    "question": "কোন পরমাণু তড়িৎ নিরপেক্ষ হবে যখন এর-\ni. ইলেকট্রন সংখ্যা সমান থাকে\nii. প্রোটন সংখ্যা সমান থাকে\niii. নিউট্রন সংখ্যা সমান থাকে\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "physics-2",
+    "question": "সমান ধারকত্বের দুটি ধারককে সমান্তরাল সংযোজনীতে থাকাকালীন সমতুল্য ধারকত্ব তাদের শ্রেণিবদ্ধভাবে থাকাকালীন সমতুল্য ধারকত্বের-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1/4 গুণ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "4 গুণ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "2 গুন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "1 গুণ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "physics-2",
+    "question": "তড়িৎ বিভব কী রাশি?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ভেক্টর",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্কেলার",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ধনাত্মক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ঋণাত্মক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "physics-2",
+    "question": "স্থিরমান ধারকে পরাবৈদ্যুতিক মাধ্যমে হিসেবে কোনটি কাজ করে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বায়ু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কাগজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অভ্র",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "শোলা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "physics-2",
+    "question": "দুটি আধানের মধ্যবর্তী দূরত্ব তিন গুণ করা হলে বল কত গুণ হবে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1/9",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1/3",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "3",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "physics-2",
+    "question": "কোনো পরাবৈদ্যুতিক মাধ্যমে সমান্তরাল পাত ধারকের ধারকত্ব-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বৃদ্ধি পায়",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "হ্রাস পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অপরিবর্তিত থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "উপরের কোনোটিই নয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "physics-2",
+    "question": "নিম্ন বিভবে তড়িৎ জমা করার জন্য কোনটি ব্যবহৃত হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রোধক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ধারক",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "পরিবাহক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অন্তরক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "physics-2",
+    "question": "পরিবাহীর কোন অংশে সঞ্চিত চার্জের পরিমাণ বেশি?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সর্বত্রই সমান",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সমতল অংশে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বক্র অংশে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "কৌণিক অংশে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "physics-2",
+    "question": "তড়িৎ দ্বিমেরূর যে কেনো একটি চার্জ এবং এদের মধ্যবর্তী দূরত্বের গুনফলকে কী বলে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তড়িৎ বিভব",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তড়িৎ প্রাবল্য",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তড়িৎ দ্বিমেরূ ভ্রামক",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "বিভব পার্থক্য",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "physics-2",
+    "question": "কোনো পরিবাহীর বিভব এক ভোল্ট বৃদ্ধি করতে যদি এক কুলম্ব আধানের প্রয়োজন হয় তাকে কী বলে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এক কুলম্ব",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "এক ক্যালরি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "এক ভোল্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এক ফ্যারাডে",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "physics-2",
+    "question": "শূন্য মাধ্যমে পরাবৈদ্যুতিক ধ্রুবকের মান কত?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "4",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "physics-2",
+    "question": "গোলকীয় তল একটি-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সমবিভব তল",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "সমপ্রাবল্য তল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অসম বিভব তল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সমবলরেখা তল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "physics-2",
+    "question": "আধানের গতিশীলতা নিচের কোনটি দ্বারা নির্ধারিত হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আধানের প্রকৃতি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বিভব",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "প্রাবল্য",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফ্লাক্স",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "physics-2",
+    "question": "কোনো তল বা পৃষ্ঠের ভেতর দিয়ে যতগুলো তড়িৎ বলরেখা অতিক্রম করে তাকে কী বলে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তড়িৎ প্রবাহ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তড়িৎ ফ্লাক্স",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "তড়িৎ প্রাবল্য",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তড়িৎ তীব্রতা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "physics-2",
+    "question": "নিম্নের কোনটি ভেক্টর ক্ষেত্রের বৈশিষ্ট্য?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তড়িৎ বিভব",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ঘনত্ব",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফ্লাক্স",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "শক্তি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "physics-2",
+    "question": "কোনটি তড়িৎ অপরিবাহী?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্লাস্টিক",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "তামা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লোহা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যালুমিনিয়াম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "physics-2",
+    "question": "একটি সমান্তরাল পাত ধারকের পাতদ্বয়ের মধ্যকার দূরত্ব নিচের কোনটি হলে বলরেখাগুলো বেশি সরল ও সমান্তরাল হবে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "0.5cm",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "0.4cm",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "0.3cm",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "0.2cm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "physics-2",
+    "question": "কোনটির মধ্য দিয়ে তড়িৎ সহজে চলাচল করতে পারে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তামা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "প্লাস্টিক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রাবার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সিরামিক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "physics-2",
+    "question": "কুলম্বের সূত্র প্রযোজ্য-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্থির চার্জের ক্ষেত্রে",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "গতিশীল চার্জের ক্ষেত্রে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আবদ্ধ চার্জের ক্ষেত্রে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিস্তৃত আহিত বস্তুর ক্ষেত্রে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "physics-2",
+    "question": "তড়িৎ ক্ষেত্রের কোনো তলের ভেতর দিয়ে অভিলম্বভাবে নির্গত আবেশ বলরেখার সংক্যাকে বলা হয় সর্বমোট অভিলম্ব-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "300 Vm-1",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "400 Vm-1",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "500 Vm-1",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "600 Vm-1",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nএকটি সুষম তড়িৎক্ষেত্র 50 cm ব্যবধানে অবস্থিত দুটি বিন্দুর বিভব পার্থক্য 200 V।\n"
+  },
+  {
+    "id": 50,
+    "subject": "physics-2",
+    "question": "দ্বিমেরু ভ্রামকের একক কোনটি?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nএকটি সুষম তড়িৎক্ষেত্র 50 cm ব্যবধানে অবস্থিত দুটি বিন্দুর বিভব পার্থক্য 200 V।\n"
   }
 ]
