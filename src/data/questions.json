@@ -5580,5 +5580,9030 @@
     ],
     "explanation": "",
     "hint": ""
+  },
+
+  {
+    "id": 1,
+    "subject": "biology-1",
+    "question": "ছত্রাকের যৌন জনন কী ধরনের?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "উগ্যামাস",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "আইসোগ্যামাস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যানাইসোগ্যামাস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিষমগ্যামি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "biology-1",
+    "question": "Ulothrix এর জাইগোটটি হতে কতটি হ্যাপ্লয়েড কোষ সৃষ্টি হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৪-৩২ টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৪-১৬ টি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "৪-১৮ টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৪-১০ টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "biology-1",
+    "question": "কোন শৈবালের দেহ পাতার ন্যায়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Ulva",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Ulothrix",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Sargassum",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Chara",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "biology-1",
+    "question": "ফ্লাজেলাবিহীন প্রাচীর দিয়ে আবৃত স্পোরকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যাপ্লানোরস্পোর",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "হিপনোস্পোর",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অটোস্পোর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যান্ডোস্পোর",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "biology-1",
+    "question": "কোনটি শৈবালের সঞ্চিত খাদ্য?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কার্বোহাইড্রেট",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "প্রোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সেলুলোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্টার্চ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "biology-1",
+    "question": "দাদ রোগের লক্ষণ হলো -\ni. চামড়ায় লাল ফুসকুড়ি\nii. আক্রান্ত স্থান লম্বাটে\niii. ক্ষতের সুনির্দিষ্ট প্রান্ত সীমা থাকে\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "biology-1",
+    "question": "হলোকার্পিক ছত্রাকের উদাহরণ হলো -",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Yeast",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Ulothrix",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Agaricus",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Aspergillus",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "biology-1",
+    "question": "দাদ ছত্রাক সংক্রমিত করে -\ni. শরীর, উরু ও কুকচিতে\nii. পায়ের পাতা, মাথার খুলি ও নখকে\niii. হৃৎপিন্ড, ফুসফুস ও মুখে\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "biology-1",
+    "question": "বাডিং প্রক্রিয়ায় বংশবৃদ্ধির সময় ছত্রাকের মাতৃকোষের নিউক্লিয়াসটি কোন প্রক্রিয়ায় বিভক্ত হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মিয়োসিস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দ্বিবিভাজন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যামাইটোসিস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মাইটোসিস",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "biology-1",
+    "question": "নিচের কোনটি সমাঙ্গদেহী শৈবাল?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Ulothrix",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Chara",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Fucus",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Ulva",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "biology-1",
+    "question": "ঈস্ট ব্যবহার করে নিচের কোনটি তৈরি করা হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মিষ্টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দই",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পাউরুটি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "পনির",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "biology-1",
+    "question": "ছত্রাকের দেহ কী দ্বারা গঠিত?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মাইসেলিয়াম",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "লিপোপ্রোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোটিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "biology-1",
+    "question": "ছত্রাকের গ্যামেটাঞ্জিয়াম কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "যৌন জননাঙ্গ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "মাইসেলিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফ্রুটবডি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হাইফি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "biology-1",
+    "question": "পাহাড় গাত্র, প্রস্তরখন্ডে বসবাসকারী শৈবালকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হাইড্রোফাইট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লিথোফাইট",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "হলোফাইট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "থ্যালোফাইট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "biology-1",
+    "question": "কোনটির দেহ প্রস্থপ্রাচীর যুক্ত মাইসেলিয়াম দ্বারা গঠিত?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Rhizopus",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Agaricus",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "Phytophthora",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Penicillium",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "biology-1",
+    "question": "সম প্রকৃতির দুটি গ্যামেটের মিলনের মাধ্যমে সৃষ্ট জননকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "উগ্যামাস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অ্যানাইসোগ্যামাস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সমগ্যামাস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আইসোগ্যামাস",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "biology-1",
+    "question": "ফ্রুটবডির উপরের অংশকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রাইজোমর্ফ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্টাইপ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পাইলিয়াস",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "গিল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "biology-1",
+    "question": "শৈবালে সংঘটিত দ্বিবিভাজন -\ni. অঙ্গজ জনন প্রক্রিয়া\nii. এককোষী শৈবালে ঘটে\niii. অযৌন জনন প্রক্রিয়া\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "biology-1",
+    "question": "Agaricus - এর বায়বীয় অংশকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পাইলিয়াস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মাইসেলিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ব্যাসিডিওকার্প",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ল্যামিলা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "biology-1",
+    "question": "নিম্নশ্রেণির ছত্রাকের কোষ প্রাচীরে -\ni. সেলুলোজ যুক্ত থাকে\nii. সেলুলোজের সাথে কাইটিন যুক্ত থাকে\niii. কাইটিনের সাথে প্রোটিন যুক্ত থাকে\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "biology-1",
+    "question": "ছত্রাকের দেহ -\ni. শাথান্বিত\nii. দন্ডাকার\niii. বহুকোষী\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "biology-1",
+    "question": "Chlorella তে কোন ধরনের জনন দেখা যায়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "খন্ডায়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মুকুলোদগম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হরমোগোনিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দ্বিবিভাজন",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "biology-1",
+    "question": "কোনটি এককোষী নিশ্চল শৈবাল?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Pediastrum",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Englena",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Chlorococcus",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "Hydrodictyon",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "biology-1",
+    "question": "শৈবালের কোষে থাকে -\ni. ক্লোরোফিল\nii. রঞ্জক পদার্থ\niii. পরিবহন টিস্যু\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "biology-1",
+    "question": "কোনটি দ্বারা ছত্রাক খাদ্য শোষণ করে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রাইজোম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মূল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "থ্যালাস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মাইসেলিয়াম",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "biology-1",
+    "question": "কোন ধরনের পরিবেশে হিপ্নোস্পোর উৎপন্ন হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জলীয় পরিবেশ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আর্দ্র পরিবেশ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দীর্ঘ শুষ্ক পরিবেশ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "বিষাক্ত পরিবেশ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "biology-1",
+    "question": "Agaricus কি ধরনের ছত্রাক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মৃতজীবী",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "পরজীবী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পরভোজী",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মিথোজীবী",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "biology-1",
+    "question": "শৈবালের সঞ্চিত খাদ্য কী জাতীয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্টার্চ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "লিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সেলুলোজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "biology-1",
+    "question": "Ulothrix শৈবালের ক্লোরোপ্লাস্টের আকৃতি কিরূপ?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অর্ধচন্দ্রাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গোলাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পিপাকৃতির",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গার্ডলাকৃতির",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "biology-1",
+    "question": "Ulothrix এর জনন কোষের বিভক্ত প্রতি খন্ড প্রোটোপ্লাস্ট কী তৈরি করে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দু ফ্লাজেলা বিশিষ্ট জনন কোষ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "নতুন Ulothrix এর সূত্রক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নতুন দেহ কোষ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফ্লাজেলাবিহীন জননকোষ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "biology-1",
+    "question": "ছত্রাকের দেহ সম্পূর্ণ জননাঙ্গে পরিণত হলে তাকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইউকার্পিক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হলোকার্পিক",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "হেটারোকার্পিক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হোমোকার্পিক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "biology-1",
+    "question": "মূল, কান্ড ও পাতা দেখা যায় -\ni. Sargassum-এ\nii. Voucheria-এ\niii. Polysiphonia-এ\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "biology-1",
+    "question": "ছত্রাকের যৌন জনন প্রক্রিয়ায় -\ni. কনিডিওফোর কনিডিয়া ধারণ করে\nii. দুটি বিপরীতধর্মী জননকোষ দেখা যায়\niii. জননকোষে জননাঙ্গ বা নিউক্লিয়াসের মিলন ঘটে\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "biology-1",
+    "question": "কোন ধরনের শৈবালে যৌন জনন অনুপস্থিত?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রডোফাইটা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ব্যাসিলারিওফাইটা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নীলাভ-সবুজ শৈবাল",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "বাদামি শৈবাল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "biology-1",
+    "question": "ছত্রাকের কোষের প্রধান সঞ্চিত পদার্থ কী?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্লুকোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গ্লাইকোজেন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "গ্লাইকোলাজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোটিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "biology-1",
+    "question": "কোষঝিল্লির ক্ষুদ্র পকেটের মতো ভাঁজ হওয়াকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লোমোজোম",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ট্যাপেটাম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্লোরোপ্লাস্টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবগুলোই",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "biology-1",
+    "question": "Ulothrix কোন ধরনের শৈবাল?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "শাখান্বিত সূত্রাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অশাখ সূত্রাকার",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "অলীক শাখাযুক্ত",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অশাখ কলোনিয়াল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "biology-1",
+    "question": "শৈবালের কোষ প্রাচীরে বিদ্যমান থাকে -\ni. সেলুলোজ\nii. পেকটিন\niii. লিপিড\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "biology-1",
+    "question": "ফ্ল্যাজেলাযুক্ত স্পোরকে বলে -",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জুস্পোর",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অ্যাপ্লানোস্পোর",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হিপনোস্পোর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অটোস্পোর",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "biology-1",
+    "question": "Ulothrix - এর চলরেণু মুক্ত হওয়ার কতদিন পর্যন্ত সাঁতার কাটার পর স্থির হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১-৩",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১-৭",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "৫-১০",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১০-১৫",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "biology-1",
+    "question": "Agaricus - এর প্লাজমোগ্যামির পর সেকেন্ডারি মাইসেলিয়ামের হাইফিগুলো একত্রে রশির মতো (পাকানো) যে গঠন সৃষ্টি করে তাকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রাইজোমর্ফ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "রাইজয়েড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বেসিডিওকার্প",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্টাইপ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "biology-1",
+    "question": "ভক্ষণযোগ্য ছত্রাক কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Agaricus bisporus",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Puccinia graministtiticii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Synchytrium endobioticum",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোনটিই নয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "biology-1",
+    "question": "উদ্ভিদের গাত্রে জন্মানো লাইকেনের নাম কী?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ব্যাকটেরিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লাইকেন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ভাইরাস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "biology-1",
+    "question": "নিম্নের কোনটি এককোষী নিশ্চল শৈবারের উদাহরণ?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Vaucheria",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Chlamydomonas",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Euglena",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Chlorella",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "biology-1",
+    "question": "মিউসিলেজ জমা হয়ে যে কলোনির সৃষ্টি হয় তাকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সচল কলোনিয়াল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিশ্চল কলোনিয়াল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডেনড্রয়েড",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "হেটারোট্রিকাস শৈবাল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "biology-1",
+    "question": "ছত্রাকের মুকুলোদগম প্রক্রিয়ায় -\ni. নিউক্লিয়াস মাইটোসিস প্রক্রিয়ায় খন্ডিত হয়\nii. যান্ত্রিক আঘাত প্রাপ্ত হয়ে অনুসূত্রে খন্ডিত হয়\niii. মুকুল অভ্যন্তরে অপত্য নিউক্লিয়াসে প্রবেশ করে\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "biology-1",
+    "question": "শৈবাল ও ছত্রাকের মিথোজীবিতাকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লাইকেন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "মৃতভোজী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পরজীবিতা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অন্তবাসী",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "biology-1",
+    "question": "কোনটি শৈবালের দেহের রঞ্জক পদার্থ?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্লোরোফিল",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "মাইটোকন্ড্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গলজিবস্তু",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিউক্লিয়াস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "biology-1",
+    "question": "শৈবালের দেহকোষ প্রচুর খাদ্য সঞ্চয় করে যে রেণুতে পরিণত হয় তার নাম কী?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অচল রেণু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সচল রেণু",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্বয়ংক্রিয় রেণু",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টি",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 50,
+    "subject": "biology-1",
+    "question": "একাধিক ফ্লাজেলাযুক্ত অযৌন রেণুকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চলরেণু",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অচল রেণু",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হিপ্রোস্পোর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অটোস্পোর",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 51,
+    "subject": "biology-1",
+    "question": "Nostoc -এ নিচের কোন ধরনের অঙ্গজ জনন হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দ্বিবিভাজন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হরমোগোনিয়া",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "মুকুলোদগম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টিউবার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 52,
+    "subject": "biology-1",
+    "question": "Ulothrix শৈবালটির কোষে -\ni. শর্করা পাওয়া যায়\nii. শ্বেতসার পাওয়া যায়\niii. লিপিড পাওয়া যায়\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 53,
+    "subject": "biology-1",
+    "question": "আলুর বিলম্বিত ধ্বসা রোগে কোনটি ব্যবহার করা হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১% বোর্দো মিশ্রণ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "১% ইউরিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৩% সোডিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৩% নাইট্রোজেন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 54,
+    "subject": "biology-1",
+    "question": "Agaricus এর দড়ির মতো হাইফার অংশকে বলে -",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রাইজয়েড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্টাইপ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রাইজোমর্ফ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "পাইলিয়াস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 55,
+    "subject": "biology-1",
+    "question": "শৈবালের জনুক্রমের অবস্থান কেমন?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সুস্পষ্ট",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অস্পষ্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ঝাপসা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অনুপস্থিত",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 56,
+    "subject": "biology-1",
+    "question": "ছত্রাকের এক একটি অনুসূত্রকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হোল্ডফাস্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মাইসেলিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হাইফি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সিনোসাইট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 57,
+    "subject": "biology-1",
+    "question": "Agaricus এর দেহের প্রস্থপ্রাচীরযুক্ত মাইসেলিয়াম কোষগুলো -\ni. ছোট, স্বচ্ছ ও একাধিক নিউক্লিয়াসযুক্ত\nii. অদানাদার সাইটোপ্লাজমযুক্ত\niii. সাইটোপ্লাজমে প্রচুর গহবর থাকে\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 58,
+    "subject": "biology-1",
+    "question": "Agaricus এর ফ্রুটবডিকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যাসকোকার্ফ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সিডিওকার্প",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "স্পোরোফোর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বেসিডিয়াম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 59,
+    "subject": "biology-1",
+    "question": "Ulothrix শৈবারের ম্যাক্রো ও মাইক্রোচলরেণুতে অবস্থিত ফ্লাজেলার সংখ্যা যথাক্রমে -",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "একটি ও দুইটি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দুইটি ও একটি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দুইটি ও চারটি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "চারটি ও দুইটি",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 60,
+    "subject": "biology-1",
+    "question": "প্রাইমোডিয়াম ইউট্রিকল কোথায় থাকে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্লাজমামেমব্রেন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সাইটোপ্লাজম",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ক্লোরোপ্লাস্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কেন্দ্রীয় গহবর",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 61,
+    "subject": "biology-1",
+    "question": "প্রাথমিক পর্যায়ে আলুর বিলম্বিত ধ্বসা রোগের লক্ষণ গাছের কোন অংশে দেখা যায়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "উপরি অংশে",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "টিউবারে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পাতায়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কান্ডে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 62,
+    "subject": "biology-1",
+    "question": "প্যারাফাইসিস কোথায় দেখা যায়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফ্রুটবডি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পাইলিয়াস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ব্যাসিডিয়াম",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ব্যাসিডিওকার্প",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 63,
+    "subject": "biology-1",
+    "question": "কোন শৈবালের দেহ মূল, কান্ড ও পাতার ন্যায় অংশে বিভক্ত?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Ulva",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Volvox",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Polysiphonia",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "Spirogyra",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 64,
+    "subject": "biology-1",
+    "question": "নখে দাদ হলে কি প্রয়োগ করা উচিত?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আয়োডিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "টিনচার আয়োডিন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "গ্রাইসোফুলভিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বেস্টমেন্ট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 65,
+    "subject": "biology-1",
+    "question": "ছত্রাকের হাইফার ব্যবধায়ক খন্ডগুলোকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্লামাইডোরেণু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কনিডিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অয়ডিয়াম",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "বেসিডিয়াম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 66,
+    "subject": "biology-1",
+    "question": "Agaricus - এর ফ্রুটবডির নিচে বৃন্তের ন্যায় অংশকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্টাইপ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "পাইলিয়াস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বেসিডিওকার্প",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যানুলাস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 67,
+    "subject": "biology-1",
+    "question": "শৈবালের উগ্যামাসে -\ni. আকৃতি ও চরিত্রগতভাবে পৃথক দুটি গ্যামেট উৎপন্ন হয়\nii. সচল শুক্রাণু ও অচল ডিম্বাণু উৎপন্ন হয়\niii. সম প্রকৃতির গ্যামেট উৎপন্ন হয়\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 68,
+    "subject": "biology-1",
+    "question": "পাহাড়ের ঢালে বসবাসকারী লাইকেনের ঘন আস্তরণকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রেইনডিয়ার মস",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "প্রবাল মস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ব্রাকিস মস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তুন্দ্রা মস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 69,
+    "subject": "biology-1",
+    "question": "ছত্রাকের সঞ্চিত খাবার কী?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্টার্চ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গ্লাইকোজেন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "লিপিড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 70,
+    "subject": "biology-1",
+    "question": "দেহ লম্বা, পাতার ন্যায় কোন শৈবাল?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Volvox",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Chlorella",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Ulva",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "Chara",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 71,
+    "subject": "biology-1",
+    "question": "পৃথিবীর প্রথম বাণিজ্যিকভাবে উৎপাদিত অ্যান্টিবায়োটিক কোনটি থেকে প্রস্তুত করা হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Agaricus",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Spirulina",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Penicillium",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "Rhizopus",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 72,
+    "subject": "biology-1",
+    "question": "আলুর বিলম্বিত ধ্বসা রোগের কারণ কোন ছত্রাক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Agaricus bisporus",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Rhizopus",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Phytophthora infestans",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "Mucor",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 73,
+    "subject": "biology-1",
+    "question": "হাইফি বিদ্যমান -\ni. ছত্রাকে\nii. ছত্রাক মাইসেলিয়ামে\niii. ভাইরাসে\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 74,
+    "subject": "biology-1",
+    "question": "লাইকেন নামক জীবগোষ্ঠীতে কোন ধরনের জীবের সহাবস্থান দেখা যায়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "শৈবাল ও ছত্রাক",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "মস ও ছত্রাক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "শৈবাল ও মস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মস ও ফার্ন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 75,
+    "subject": "biology-1",
+    "question": "নীলাভ-সবুজ শৈবালের দেহের কোন অংশটি খন্ডিত হয়ে সচল খন্ড তৈরি হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ট্রাইকোম",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "হেটারোসিস্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দেহকোষ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যাকিনিটি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 76,
+    "subject": "biology-1",
+    "question": "খাদ্য হিসেবে মাশরুম একটি অত্যন্ত পুষ্টিকর খাদ্য। মাশরুমে -\ni. প্রোটিনের মান প্রাণীজ প্রোটিনের চেয়ে অনেক বেশি\nii. ক্যালরি কম কিন্তু খনিজ লবণে সমৃদ্ধ\niii. প্রচুর ওষুধি গুণাগুণ পাওয়া যায়\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 77,
+    "subject": "biology-1",
+    "question": "কোন শৈবারের দেহ পাতার ন্যায়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Ulva",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Ulothrix",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Sargassum",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Chara",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 78,
+    "subject": "biology-1",
+    "question": "ছত্রাকের ব্যবহার রয়েছে -\ni. আচার, চাটনী, জুস তৈরিতে\nii. পাউরুটি তৈরিতে\niii. চোলাই মদ তৈরিতে\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 79,
+    "subject": "biology-1",
+    "question": "Fairy ring হলো -",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফ্রুটিং বডির আরেক নাম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফ্রুটিং বডির একটা অংশ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অনেকগুলো মাশরুমের বৃত্তাকার অবস্থান",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ছত্রাকের জীবনচক্র",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 80,
+    "subject": "biology-1",
+    "question": "হিপ্নোস্পোর দ্বারা বংশবিস্তার করে -\ni. Pediastrum গণের শৈবাল\nii. Ulothrix গণের শৈবাল\niii. Sphaerella গণের শৈবাল\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 81,
+    "subject": "biology-1",
+    "question": "কোন ছত্রাকের আক্রমণে মানুষের মাথায় টাক পড়ে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Microsporum",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Mucor",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Saprolegnia",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Crassa",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 82,
+    "subject": "biology-1",
+    "question": "শৈবালের কোষে কোন পদার্থের উপস্থিতির কারণে হলুদ বাদামী বর্ণ ধারণ করেন?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফাইকোসায়ানিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফিউকোজ্যান্থিন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ফিওফাইসিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফাইকোএরিথ্রিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 83,
+    "subject": "biology-1",
+    "question": "সিনোবিয়াম কী?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জননাঙ্গ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সচল কলোনি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "পুষ্টিপ্রক্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দেহকোষ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 84,
+    "subject": "biology-1",
+    "question": "ক্যারিওগ্যামী হলো -\ni. ছত্রাকের যৌন জননের দ্বিতীয় দশা\nii. দুটি হ্যাপ্লয়েড নিউক্লিয়াসের মিলন প্রক্রিয়া\niii. সাইটোপ্লাজমের মিলন\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 85,
+    "subject": "biology-1",
+    "question": "উগ্যামির প্রধান বৈশিষ্ট্য -\ni. এতে ক্ষুদ্র সচল পুংজনন কোষ থাকে\nii. এতে অচল স্ত্রীজনন কোষ থাকে\niii. এতে অচল পুংজনন কোষ থাকে\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 86,
+    "subject": "biology-1",
+    "question": "কোনটির সাহায্যে Ulothrix এর অযৌন জনন সম্পন্ন করে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চলরেণু",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অচলরেণু",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হিপ্নোস্পোর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যাকিনিটি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 87,
+    "subject": "biology-1",
+    "question": "ধানের পাতার বাদামি রোগ সৃষ্টিকারী ছত্রাকের নাম কী?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Helminthosporium",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "H. sigmoideum",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Puccinia gramineae",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Synchytrium endobioticum",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+
+  {
+    "id": 1,
+    "subject": "biology-1",
+    "question": "ক্যাপসুলের ভেতর স্পোর মাতৃকোষের সংখ্যা কত?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১২",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১৬",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "১৮",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "২০",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "biology-1",
+    "question": "থ্যালাসের সঞ্চয়ী অঞ্চলে প্রচুর পরিমাণে কোনটি সঞ্চিত থাকে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোটিন কণা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "খনিজ লবণ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "শ্বেতসার কণা",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "এনজাইম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "biology-1",
+    "question": "কোনটি ব্রায়োফাইটাভুক্ত উদ্ভিদের প্রকট দশা?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্যামেটোফাইটিক জনু",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "সোরাস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্পোরোফাইটিক জনু",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোথ্যালাস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "biology-1",
+    "question": "বহুকোষী শল্ক উৎপন্ন হয় কোনটিতে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Marchantia",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Lycopodium",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Pteris",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Equisetun",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "biology-1",
+    "question": "ব্রায়োফাইটের স্পোরোফাইট -\ni. গ্যামেটোফাইটের উপর পুষ্টির জন্য নির্ভরশীল\nii. পদ, সিটা ও ক্যাপসুলে বিভক্ত\niii. হোমোস্পোরাস\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "biology-1",
+    "question": "Pteris এর প্রোথ্যালাস -\ni. হৃৎপিন্ডাকার ও স্বভোজী\nii. বহুকোষী\niii. যৌনজনন সম্পন্ন করে\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "biology-1",
+    "question": "ডিপ্লয়েড (2n) রেণুধর উদ্ভিদ বা স্পোরোফাইটের পুনরাবির্ভাব ঘটার কারণ -",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হেটারোমরফিক জনুক্রম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "শুক্রাণু ডিম্বাণুকে নিষিক্ত করা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ডিপ্লোবায়োন্টিক জনুক্রম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সারসিনেট ভার্নেশন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "biology-1",
+    "question": "রাইজোম কোনটি দিয়ে আচ্ছাদিত থাকে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সোরাস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "র্যামেন্টা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "স্পোরোফিল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ইন্ডুসিয়াম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "biology-1",
+    "question": "Pteris শুক্রাণু -",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফ্ল্যাজেলাবিহীন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "এক ফ্ল্যাজেলাবিশিষ্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দুই ফ্ল্যাজেলাবিশিষ্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বহু ফ্ল্যাজেলাবিশিষ্ট",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "biology-1",
+    "question": "Riccia -র সৃষ্ট জনুক্রমে -\ni. সুস্পষ্টতা বিদ্যমান\nii. জাইগোট উৎপন্ন হয়\niii. রেণু উৎপন্ন হয়\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "biology-1",
+    "question": "বাংলাদেশে প্রাপ্ত Riccia-র প্রজাতি সংখ্যা কত?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৪০",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৪৫",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "৫০",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৫৫",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "biology-1",
+    "question": "Pteris এর আর্কিগোনিয়াম থেকে কী নিঃসৃত হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চিনি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অক্সালিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ম্যালিক এসিড",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সাইট্রিক এসিড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "biology-1",
+    "question": "সোরাস উৎপন্নকারী পাতাকে কী বলা হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্পোরাজিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অমরা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যানুলাস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্পোরোফিল",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "biology-1",
+    "question": "নিম্ন ও উচ্চ বর্গের উদ্ভিদের মধ্যে যোগসূত্র হিসেবে অবস্থান করে কোনটি?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ব্রায়োফাইট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "টেরিডোফাইট",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "শৈবাল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ছত্রাক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "biology-1",
+    "question": "প্রোথ্যালাসের আকৃতি কীরূপ?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গোলাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নলাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হৃৎপিন্ডাকার",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "মোচাকৃতি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "biology-1",
+    "question": "আর্কিগোনিয়ামের আকৃতি কেমন?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বেলনাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফ্লাক্সের ন্যায়",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "নাসপাতির ন্যায়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গোলাকার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "biology-1",
+    "question": "Pteris এর গণে প্রজাতির সংখ্যা কত?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১০০",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১৫০",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "২০০",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "২৮০",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "biology-1",
+    "question": "Riccia-র অ্যান্থেরিডিয়াম কোনটি থেকে উৎপন্ন হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "থ্যালাসের অঙ্কীয়দেশ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "থ্যালাসের পৃষ্ঠদেশ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "কান্ডের অঙ্কীয়দেশ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কান্ডের পৃষ্ঠতল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "biology-1",
+    "question": "কতকগুলো সঞ্চয়ী অঞ্চলে প্রচুর পরিমাণে কোনটি সঞ্চিত থাকে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রোজেট",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "স্পোরোজোয়েট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মেরোজয়েট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ক্রিপ্টোজয়েট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "biology-1",
+    "question": "গ্যামেটোফাইটের প্রথম কোষ কোনটি?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্পোর",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "উস্পোর",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্পোর মাতৃকোষ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ডিম্বাণু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "biology-1",
+    "question": "ব্রায়োফাইটা উদ্ভিদে -\ni. কোলেনকাইমা কোষ আছে\nii. পরিবহণ কলা অনুপস্থিত\niii. লিঙ্গধর পর্যায় প্রকট\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "biology-1",
+    "question": "নিচের কোন অংশটি Pteris এর সোরাইকে ঢেকে রাখে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্রোজিয়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্পোরোফিল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যানুলাস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফলস ইন্ডুসিয়াম",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "biology-1",
+    "question": "Riccia উদ্ভিদের বৈশিষ্ট্য হচ্ছে -\ni. প্রদান উদ্ভিদদেহ গ্যামেটোফাইট\nii. দেহে পরিবহন টিস্যু বিদ্যমান\niii. গ্যামেটোফাইটিক অংশ কান্ড ও পাতায় বিভক্ত\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "biology-1",
+    "question": "ফার্নের গ্যামেটোফাইট উদ্ভিদে কী?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "যৌন জনন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অযৌন জনন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অঙ্গজ জনন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কৃত্রিম জনন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "biology-1",
+    "question": "কোনটি গ্যামেটোফাইট দশার পূর্ণাঙ্গ দেহ?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্যাপসুল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সোরাস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রোথ্যালাস",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "রাইজয়েড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "biology-1",
+    "question": "স্পোরাঞ্জিয়াম থেকে সৃষ্ট পরিণত স্পোরগুলো -\ni. গাঢ় বাদামি রঙের\nii. দ্বিস্তরী\niii. জার্মস্পোর যুক্ত\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "biology-1",
+    "question": "Riccia-র অঙ্গজ জননে প্রয়োজন হয় -\ni. থ্যালাসের পুরাতন অংশ\nii. অস্থানিক শাখা\niii. টিউবার\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "biology-1",
+    "question": "থ্যালাস দ্ব্যাগ শাখা বিশিষ্ট কোনটির?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফার্ন প্রোথ্যালাস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রিকশিয়া থ্যালাস",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "আর্কিগোনিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফার্ন স্পোরোফাইট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "biology-1",
+    "question": "আর্কিগোনিয়ামের আকৃতি -",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফ্লাস্কাকার",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "হৃৎপিন্ডাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ত্রিভুজাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ডিম্বাকার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "biology-1",
+    "question": "স্পোরিঞ্জিয়ামে পানি ধারণক্ষমতা কমে যাওয়ার কারণ -",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সোরাই সৃষ্টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্পোর সৃষ্টি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ইন্ডুসিয়াম সৃষ্টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্পোরোজেনাস সৃষ্টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "biology-1",
+    "question": "Riccia -র প্রধান উদ্ভিদ দেহটি -",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্যামেটোফাইট",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "স্পোরোফাইট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্পোরোফিল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্ট্রোবিলাস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "biology-1",
+    "question": "মস প্রজাতিতে রেণু অঙ্কুরিত হয়ে যে প্রাথমিক লিঙ্গধর উৎপন্ন করে তাকে কী বলে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্যাপসুল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পদ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সিটা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোটোনেমা",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "biology-1",
+    "question": "কোনটি Pteridophyta এর অন্তর্ভুক্ত?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Anthoceros",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Riccia",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Funaria",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Lycopodium",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "biology-1",
+    "question": "সোরাস এর আকৃতি -",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বৃক্কাকার",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "নলাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডিম্বাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গোলাকার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "biology-1",
+    "question": "মস জাতীয় উদ্ভিদের দেহ কোন কোষ দিয়ে গঠিত?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্যারেনকাইমা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কোলেনকাইমা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্ক্লেরেনকাইমা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যারেনকাইমা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "biology-1",
+    "question": "Pteris - এর জনুক্রমটি -",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হেটারোমরফিক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্পোরোফাইটিক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডিপ্লোবায়োন্টিক হেটারোমরফিক",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "গ্যামেটোমরফিক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "biology-1",
+    "question": "বাংলাদেশে ব্রায়োফাইটের কতটি গোত্র শনাক্ত করা হয়েছে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৩৪টি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "৩৩টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৩২টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৩৫টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "biology-1",
+    "question": "সিলিকনের উৎস হিসেবে ব্যবহৃত হয় কোনটি?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Dryopteris",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Lycopodium",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Riccia",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Equisetum",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "biology-1",
+    "question": "নিচের কোনটি সানফার্ন নামে পরিচিত?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Riccia",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Semiberbula",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Nostoc",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Pteris",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "biology-1",
+    "question": "স্পোরোফাইটিক উদ্ভিদের প্রজনন প্রক্রিয়া হলো -\ni. অযৌন\nii. যৌন\niii. অঙ্গজ\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "biology-1",
+    "question": "অ্যানুলাস হঠাৎ ঝাঁকুনি দিয়ে পেছনে বেঁকে যায় কেন?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্টোমিয়ারের ফাটলের ফলে",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "স্পোরাঞ্জিয়াম উন্মুক্তের ফলে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অগ্রস্থ খাঁজ সৃষ্টির ফলে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "জার্মস্পোর সৃষ্টির ফলে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "biology-1",
+    "question": "Riccia কোন সময়ে অধিক জন্মায়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্রীষ্মকালে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বর্ষাকালে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "শরৎকালে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "শীতকালে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "biology-1",
+    "question": "Riccia-র বৈশিষ্ট্য কোনটি?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দ্ব্যাগ্রশাখান্বিত থ্যালয়েড দেহ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "হৃৎপিন্ডাকৃতির বিষমপৃষ্ঠ থ্যালাস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পাতায় উৎপন্ন সোরাসে রেণু উৎপন্ন হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দেহে পরিবহন কলা উপস্থিত",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "biology-1",
+    "question": "মাটি থেকে পুষ্টি পদার্থ ও পানি শোষণ করে কোনটি?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোথ্যালাস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্পোর",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রাইজয়েড",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সোরাস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "biology-1",
+    "question": "Pteris - এর বৈশিষ্ট্য -\ni. পাতা, সরল, কচি অবস্থায় কুন্ডলিত\nii. প্রোথ্যালাস সহবাসী\niii. কান্ড রাইজোম\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "biology-1",
+    "question": "নিচের কোনটি সাধারণ ‘উদ্ভিদ দেহ’ বলে চিহ্নিত?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আর্কিগোনিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্পোরোফাইটিক জনু",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যান্থেরিডিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গ্যামেটোফাইটিক জনু",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "biology-1",
+    "question": "মেকি (false) ইন্ডুসিয়াম বিদ্যমান -",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Riccia",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Agaricus",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Pteris",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "Cycas",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "biology-1",
+    "question": "ক্যাপসুল প্রাচীরের আকৃতি -",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ডিম্বাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হৃৎপিন্ডাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বৃত্তাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "উপবৃত্তাকার",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "biology-1",
+    "question": "অনেকগুলো স্পোরাঞ্জিয়াম একত্রে দলবদ্ধভাবে অবস্থান করলে তাকে কী বলে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পিডিউল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রেণু",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দ্ব্যগ্রশাখা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সোরাস",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 50,
+    "subject": "biology-1",
+    "question": "Riccia-র আর্কিগোনিয়াম -\ni. স্ফীত উদর ও সরু গ্রীবা অংশে বিভক্ত\nii. গোলাকার বা ডিম্বাকার আকৃতি বিশিষ্ট\niii. সালোকসংশ্লেষণী সূত্রগুলোর মাঝে লুকানো\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 51,
+    "subject": "biology-1",
+    "question": "ফার্ন উদ্ভিদের কচিপাতার কুন্ডলিত অবস্থাকে কী বলে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "র্যাকিস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সোরাস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সারসিনেট ভার্নেশন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ইন্ডুসিয়াম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 52,
+    "subject": "biology-1",
+    "question": "Pteris - এর প্রোথ্যালাস -\ni. হৃৎপিন্ডাকার ও সবুজ বর্ণের\nii. হ্যাপ্লয়েড প্রকৃতির\niii. স্পোর থেকে উৎপন্ন হয়\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 53,
+    "subject": "biology-1",
+    "question": "কোন উদ্ভিদের বহুকোষী শল্ক উৎপন্ন হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Sermibarbula",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Spirogyra",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Marchanita",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "Agaricus",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 54,
+    "subject": "biology-1",
+    "question": "Pteris এ স্পোরাঞ্জিয়ামের ভেতরে কতটি ডিপ্লয়েড স্পোর মাতৃকোষ থাকে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৪",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৮",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "১৬",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "২০",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 55,
+    "subject": "biology-1",
+    "question": "কোনটি পরিবেশ দূষণের সূচক হিসেবে ব্যবহৃত হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Riccia",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Pteris",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Marchantia",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Lycopodium",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 56,
+    "subject": "biology-1",
+    "question": "গ্যামেটোফাইট উদ্ভিদগুলো -\ni. পরাশ্রয়ী\nii. স্বাধীনজীবী\niii. থ্যালাস আকৃতির\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 57,
+    "subject": "biology-1",
+    "question": "Pteris উদ্ভিদে স্পোরাঞ্জিয়াম কী দ্বারা ঢাকা থাকে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অমরা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফলস ইন্ডুসিয়াম",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ক্রোজিয়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সারসিনেট ভার্নেশন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 58,
+    "subject": "biology-1",
+    "question": "Pteris এর পক্ষল যৌগিক পাতাকে কী বলে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পিনা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "র‍্যামেন্টা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফ্রন্ড",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সারসিনেট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 59,
+    "subject": "biology-1",
+    "question": "Riccia - র স্পোরোফাইটিক দশায় জাইগোট বিভক্ত হয়ে কতটি কোষে পরিণত হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৫",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৬",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৭",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৮",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 60,
+    "subject": "biology-1",
+    "question": "স্পোরোফিল ঘন সন্নিবেশিত হয়ে কোনটি গঠন করে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মেগাস্পোর",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মাইক্রোস্পোর",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্ট্রোবিলাস",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সোরাস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 61,
+    "subject": "biology-1",
+    "question": "ব্রায়োফাইটের পুংজননাঙ্গকে কী বলে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আর্কিগোনিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "উগ্যামাস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যান্থেরিডিয়াম",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "হোমোস্পোরাস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 62,
+    "subject": "biology-1",
+    "question": "Pteris এর একটি স্পোরাঞ্জিয়াম থেকে কতটি স্পোর সৃষ্টি হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৮টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১৬টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৩২টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৬৪টি",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 63,
+    "subject": "biology-1",
+    "question": "ব্রায়োফাইট জাতীয় উদ্ভিদের গণের সংখ্যা কত?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৮৫০",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৮৬০",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৯৫০",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৯৬০",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 64,
+    "subject": "biology-1",
+    "question": "কয়টি শুক্রাণু আর্কিগোনিয়ার উদরে অবস্থিত ডিম্বাণুকে নিষিক্ত করে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১টি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "৩টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "২টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৪টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 65,
+    "subject": "biology-1",
+    "question": "অপুষ্পক উদ্ভিদের মধ্যে সর্বাপেক্ষা উন্নত কোনটি?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Bryophyta",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Pteridophyta",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "Thallophyta",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Bacidophyta",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 66,
+    "subject": "biology-1",
+    "question": "অ্যান্ড্রোসাইট রূপান্তরিত হয়ে কীসে পরিণত হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ডিম্বাণুতে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্পোরে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "শুক্রাণুতে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ফ্লাজেলায়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 67,
+    "subject": "biology-1",
+    "question": "থ্যালাসের নিচের পৃষ্ঠ থেকে সৃষ্টি হয় -\ni. বহুকোষী শল্ক\nii. বহুকোষী রাইজয়েড\niii. এককোষী রাইজয়েড\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 68,
+    "subject": "biology-1",
+    "question": "টেরিডোফাইটাতে পানির প্রয়োজন -\ni. নিষেকের জন্য\nii. শুক্রাণুর চলনের জন্য\niii. ডিম্বাণুর চলনের জন্য\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 69,
+    "subject": "biology-1",
+    "question": "মস উদ্ভিদের দেহ -\ni. পরিবহণ টিস্যুবিহীন\nii. কান্ড ও পাতায় বিভক্ত\niii. কোলেনকাইমা কোষ দিয়ে গঠিত\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 70,
+    "subject": "biology-1",
+    "question": "স্পোরোফাইটের প্রথম কোষ -",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "উস্পোর",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "জুওস্পোর",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যাপ্লানোস্পোর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সোরাস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 71,
+    "subject": "biology-1",
+    "question": "প্রোথ্যালাসের পুষ্টি গ্রহণকারী অঙ্গ কোনটি?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রাইজয়েড",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "স্পোর",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যানুলাস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আর্কিগোনিয়াম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 72,
+    "subject": "biology-1",
+    "question": "গ্যামেটোফাইট সর্বদা -\ni. বহুকোষী স্বতন্ত্র\nii. সবুজ\niii. স্বভোজী ও স্বাবলম্বী\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 73,
+    "subject": "biology-1",
+    "question": "পত্রকসহ ফার্নের সমগ্র পাতাকে কী বলা হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "র্যামেন্টা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফ্রন্ড",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "পিনা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সারসিনেট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 74,
+    "subject": "biology-1",
+    "question": "স্পোরোজেনাস টিস্যুর অবস্থান কোথায়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বৃন্তের ভেতরে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পত্রক টিস্যুতে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্যাপসুলের ভেতরে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ক্যাপসুলের প্রাচীরে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+
+  {
+    "id": 1,
+    "subject": "biology-1",
+    "question": "Malvaceae গোত্রের অমরাবিন্যাস কোন ধরনের?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মূলীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অক্ষীয়",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "গাত্রীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রান্তীয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "biology-1",
+    "question": "কোনটির কচি পাতা সবজি হিসেবে খাওয়া যায়?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Cycas officinalis",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Cycas cireinalis",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Cycas pectinata",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "Cycas revoluta",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "biology-1",
+    "question": "জবা ফুলের মাতৃঅক্ষের বিপরীত দিকে কয়টি বৃত্যংশ অবস্থিত?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৩টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৪টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১টি",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "biology-1",
+    "question": "দূর্বা ঘাসের বৈজ্ঞানিক নাম কী?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Oryza sativa",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Cynodon dactylon",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "Zea mays",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Hordeum vulgare",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "biology-1",
+    "question": "জবা কী ধরনের ফুল?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সমাঙ্গ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "একলিঙ্গ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "এক প্রতিসম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অসম্পূর্ণ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "biology-1",
+    "question": "বৃতি ও দল দেখতে একই রকম হলে তাদেরকে কী বলা হয়?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পেরিয়্যান্থ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "পিটিওল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রাপক্যালিক্স",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্ট্যামেন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "biology-1",
+    "question": "দ্বি-নিষেক কোনটিতে ঘটে?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আবৃতজীবী",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "নগ্নবীজী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফার্ণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "biology-1",
+    "question": "সর্ববৃহৎ উদ্ভিদ কোনটি?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Cycus",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Sequia",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "Artocarpus",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Ficus",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "biology-1",
+    "question": "Cycus এর স্ত্রী লিঙ্গধরের প্রথম কোষ কোনটি?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গর্ভাশয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্ত্রীরেণু",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "গর্ভমুন্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গর্ভদন্ড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "biology-1",
+    "question": "বাংলাদেশে সমতলে প্রবর্তিত সাইকাস এর প্রজাতি হলো -\ni. C. pectinata\nii. C. revoluta\niii. C. circinalis\nনিচের কোনটি সঠিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "biology-1",
+    "question": "Cycus কে জীবন্ত জীবাশ্ম বলা হয় কারণ -\ni. এদের অনেক বৈশিষ্ট্য সািইকাডস এর অনুরূপ\nii. এরা আদি প্রকৃতির\niii. এরা পৃথিবীব্যাপী বিস্তৃত ছিল\nনিচের কোনটি সঠিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "biology-1",
+    "question": "ধুতুরা ফুলের বৈশিষ্ট্য -\ni. উভলিঙ্গিক\nii. বহুপ্রতিসম\niii. গর্ভাশয় অধিগর্ভ\nনিচের কোনটি সঠিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "biology-1",
+    "question": "পৃথিবীতে জীবিত নগ্নবীজী প্রজাতির সংখ্যা কত?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৫২৫",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৬২২",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৭২৫",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "৮১৫",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "biology-1",
+    "question": "Cycas এর র‍্যাকিসে কয় জোড়া পিনা থাকে?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২০-২৫",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "২৫-৫০",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৫০-৭৫",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৫০-১০০",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "biology-1",
+    "question": "‘অপরাজিতার’ পুষ্পপত্রবিন্যাস হলো -",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কুইনকানসিয়্যাল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভ্যাক্সিলারি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ইমব্রিকেট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টুইস্টেড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "biology-1",
+    "question": "আবৃতবীজী উদ্ভিদে সস্য গঠিত হয় কখন?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিষেকের আগে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিষেকের পরে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "নিষেকের সময়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফল সৃষ্টি হলে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "biology-1",
+    "question": "কোন উদ্ভিদের পাতা যৌগিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সজিনা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "আম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "জবা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "জাম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "biology-1",
+    "question": "বাংলাদেশে আবৃতবীজী উদ্ভিদের সংখ্যা কত?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৩,০০০",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৪,০০০",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "৪০,০০০",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৪৫,০০০",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "biology-1",
+    "question": "কার্পাস এর বৈজ্ঞানিক নাম কী?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Hibiscus mutabilis",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Gossypium herbaceum",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "Hordeum valgare",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Taiticum vulgare",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "biology-1",
+    "question": "নগ্নবীজী উদ্ভিদের জননাঙ্গে যা নেই -\ni. গর্ভাশয়\nii. গর্ভদন্ড\niii. গর্ভমুন্ড\nনিচের কোনটি সঠিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "biology-1",
+    "question": "দুর্বাঘাস ব্যবহৃত হয় -\ni. রক্তপাত বন্ধকালে\nii. ক্ষত নিরাময়ে\niii. চর্মরোগে\nনিচের কোনটি সঠিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "biology-1",
+    "question": "ব্যক্তবীজী উদ্ভিদের সস্য কীরূপ?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হ্যাপ্লয়েড",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ডিপ্লয়েড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যামফিডিপ্লয়েড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ট্রিপ্লয়েড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "biology-1",
+    "question": "ড. ক্রনকুইস্টের মতে, আদি উন্নত ধারা অনুযায়ী দ্বিবীজপত্রী উদ্ভিদের প্রথম গোত্র কোনটি?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Malvaceae",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Poaceae",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Asteraceae",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Winteraceae",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "biology-1",
+    "question": "Cycas উদ্ভিদের প্রধান দেহ কোন প্রকৃতির?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্যামেটোফাইট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্পোরোগনি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্পোরোফাইট",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "থ্যালয়েড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "biology-1",
+    "question": "নিচের কোনটি পাটের বিকল্প হিসেবে ব্যবহৃত হয়?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Gossypium herbaceum",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Allium cepa",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Hibiscus cannabinus",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "Cynodon dactylon",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "biology-1",
+    "question": "Malvaceae গোত্রের বৈশিষ্ট্য প্রকৃতির?\ni. পুংকেশর ৫টি\nii. পরাগধানী বৃক্কাকার\niii. পুংকেশর অসংখ্য\nনিচের কোনটি সঠিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "biology-1",
+    "question": "উদ্ভিদজগতের মধ্যে সবচেয়ে বড় শুক্রাণুধারী উদ্ভিদ কোনটি?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Cycas",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Pinus",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Riccia",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Nostoc",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "biology-1",
+    "question": "হাইপোগাইনাস ফুলের বৈশিষ্ট্য -\ni. পুষ্পাক্ষ উত্তলাকার\nii. গর্ভাশয়টি সবচেয়ে উপরে থাকে\niii. গর্ভাশয় অধোগর্ভ\nনিচের কোনটি সঠিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "biology-1",
+    "question": "মাইক্রোস্পোরোফিরের দৈর্ঘ্য কত?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২-৩ সে.মি.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৩-৫ সে.মি.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "৪-৬ সে.মি.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৫-৭ সে.মি.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "biology-1",
+    "question": "জবা ফুলের অমরাবিন্যাস কোন প্রকৃতির?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গাত্রীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "শীর্ষদেশীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অক্ষীয়",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "মূলীয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "biology-1",
+    "question": "নিম্নের কোনটি Malvaceae গোত্রের উদ্ভিদ নয়?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ধান",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সরিষা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "গম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ঢেঁড়স",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "biology-1",
+    "question": "কোনটি প্রসাধনী শিল্পে ব্যবহার করা হয়?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দূর্বাঘাস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লেবু ঘাস",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "বাঁশ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আখ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "biology-1",
+    "question": "পৃথিবীর বিভিন্ন দেশে কত প্রজাতির নগ্নবীজী উদ্ভিদ জন্মাতে দেখা যায়?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৭০০",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৭২৫",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "৭৫০",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৭৭৫",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "biology-1",
+    "question": "লাটিমের মতো শুক্রাণু দেখা যায় কোনটিতে?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নারিকেল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পাম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সুপারি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সাইকাস",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "biology-1",
+    "question": "কোন গোত্রের উদ্ভিদের পরাগরেণু বৃহৎ ও কন্টকিত?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Poaceae",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Malvaceae",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "Liliaceae",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Solanaceae",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "biology-1",
+    "question": "জবা ফুলের অমরাবিন্যাস কোন ধরনের?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অক্ষীয়",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "প্রান্তীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গাত্রীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "শীর্ষদেশীয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "biology-1",
+    "question": "ধান গাছের ক্ষেত্রে কোনটি সপুষ্পক গ্লুম?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্যালিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লেমা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "লডিকিউল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্পাইকলেট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "biology-1",
+    "question": "Cycus উদ্ভিদের জনন প্রক্রিয়া -\ni. অঙ্গজ\nii. যৌন\niii. অপুংজনি\nনিচের কোনটি সঠিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "biology-1",
+    "question": "এপিগাইনাস ফুলের উদাহরণ হলো -\ni. কুমড়া\nii. পেয়ারা\niii. গোলাপ\nনিচের কোনটি সঠিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "biology-1",
+    "question": "নগ্নবীজী উদ্ভিদের স্পোরোফিলগুলো ঘন সন্নিবেশিত হয়ে কী গঠন করে?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্ট্রোবিলাস",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "সোরাস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পিনিউল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যাপোফাইসিস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "biology-1",
+    "question": "পুষ্প ও পুষ্পবিন্যাসের গোড়ায় অবস্থিত পাতাকে কী বলে?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পত্রমূল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পত্রফলক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পত্রবৃন্ত",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মঞ্জরীপত্র",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "biology-1",
+    "question": "মটর উদ্ভিদে কোন ধরনের অমরাবিন্যাস দেখা যায়?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বহুপ্রান্তীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রান্তীয়",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "মূলীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মুক্তকেন্দ্রীয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "biology-1",
+    "question": "অপরাজিতা কোন ধরনের ফুল?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অপ্রতিসম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বহুপ্রতিসম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সমাঙ্গ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "একপ্রতিসম",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "biology-1",
+    "question": "Cycas এর শুক্রাণু -\ni. বহুফ্লাজেলা বিশিষ্ট\nii. পোলেন টিউবের বাইরে তৈরি হয়\niii. উদ্ভিদকূলের মধ্যে সর্ববৃহৎ\nনিচের কোনটি সঠিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "biology-1",
+    "question": "শস্য কখন উৎপন্ন হয়?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিষেকের পরে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিষেকের পূর্বে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "নিষেকের সময়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বর্ষবলয় গঠনের সময়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "biology-1",
+    "question": "Cycas এর পাতা -\ni. পক্ষল যৌগিক\nii. ডাইমরফিক\niii. কচি অবস্থায় সর্পিলাকারে বিন্যস্ত থাকে\nনিচের কোনটি সঠিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "biology-1",
+    "question": "নগ্নবীজী উদ্ভিদে কখন শস্য উৎপন্ন হয়?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিষেকের পর",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিষেককালীন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিষেকের পূর্বেই",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ফল সৃষ্টি হলে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "biology-1",
+    "question": "কোনটি দ্বিবীজপত্রী উদ্ভিদ?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Saccharum",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Triticum",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Hordeum",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Gossypium",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "biology-1",
+    "question": "নিষেকের পরে ডিম্বক কিসে পরিণত হয়?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফলে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফলত্বকে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ভ্রূণে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বীজে",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 50,
+    "subject": "biology-1",
+    "question": "সর্পমণি আসলে কী?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সাপের মণি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সর্ব রোগের ওষুধ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Cycas - এর মেগাস্পোরোফিল",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সাপের মাথা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 51,
+    "subject": "biology-1",
+    "question": "আবৃতবীজী উদ্ভিদের বৈশিষ্ট্য হলো এদের -\ni. বীজে একটি বা দু’টি বীজপত্র থাকে\nii. জাইলেম টিস্যুতে সঙ্গীকোষ থাকে\niii. দ্বিনিষেক ঘটে\nনিচের কোনটি সঠিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 52,
+    "subject": "biology-1",
+    "question": "একবীজপত্রী উদ্ভিদের গোত্র সংখ্যা কত?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১৪০টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১৫০টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "১৩০টি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "১৬০টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 53,
+    "subject": "biology-1",
+    "question": "নগ্নবীজী উদ্ভিদের ক্ষেত্রে প্রযোজ্য -\ni. এন্ডোস্পার্ম হ্যাপ্লয়েড\nii. দ্বি-নিষেক হয়\niii. ফল হয় না\nনিচের কোনটি সঠিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 54,
+    "subject": "biology-1",
+    "question": "এক প্রতিসম উদ্ভিদের উদাহরণ কোনটি?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ধুতুরা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মটর",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "জবা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লাউ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 55,
+    "subject": "biology-1",
+    "question": "পুংলিঙ্গধরের প্রথম কোষ কোনটি?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পুংকেশর",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পুংধানী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পুংদন্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পুংরেণু",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 56,
+    "subject": "biology-1",
+    "question": "নিচের কোনটি হাইপোগাইনাস ফুল?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গোলাপ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সরিষা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "জবা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কুমড়া",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 57,
+    "subject": "biology-1",
+    "question": "কোন গোত্রের উদ্ভিদের পরাগরেণু বৃহৎ ও কন্টকাকিত?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Poaceae",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Malvaceae",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "Liliaceae",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Solanaceae",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 58,
+    "subject": "biology-1",
+    "question": "পাপড়ির গায়ে পুংকেশর যুক্ত থাকলে তাকে কী বলে?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পুংলগ্ন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দললগ্ন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "বৃতিলগ্ন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "উপবৃতিলগ্ন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 59,
+    "subject": "biology-1",
+    "question": "Poaceae গোত্রের শনাক্তকারী বৈশিষ্ট্য কোনটি?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফুল টেট্রামেরাস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফল ক্যারিওপসিস",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "কান্ড খাটো",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গ্লুম অনুপস্থিত",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 60,
+    "subject": "biology-1",
+    "question": "পুষ্পমঞ্জরী কী?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পুষ্পের বিন্যাসরীতি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "পুষ্পের গঠন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "শিরাবিন্যাসরীতি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পাতাবিন্যাসরীতি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 61,
+    "subject": "biology-1",
+    "question": "কোনটি প্যালিয়ার উপরে অবস্থান করে?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্লুম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অপুষ্পক গ্লুম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লডিকিউল",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "পুষ্পক গ্লুম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 62,
+    "subject": "biology-1",
+    "question": "Cycus এর স্ট্রোবিলাস গঠিত হয় কিসের দ্বারা?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "শল্কপত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পুংরেণুপত্র",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "পর্ণপত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্ত্রীরেণুপত্র",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 63,
+    "subject": "biology-1",
+    "question": "Malvaceae গোত্রের পরাগধানির আকৃতি কেমন?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "খন্ডাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "যকৃতাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নলাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বৃক্কাকার",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 64,
+    "subject": "biology-1",
+    "question": "বাংলাদেশে প্রাকৃতিকভাবে কোন প্রজাতির Cycus জন্মে?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "pectinata",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "revoluta",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "circinalis",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "remphii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 65,
+    "subject": "biology-1",
+    "question": "নিচের কোনটিতে ট্রান্সফিউশন টিস্যু পাওয়া যায়?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Nostoc",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Pteris",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Riccia",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Cycas",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 66,
+    "subject": "biology-1",
+    "question": "ওপেন এস্টিবেশন পাওয়া যায় কোন উদ্ভিদে?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গন্ধরাজ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "জবা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আকন্দ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "শিম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 67,
+    "subject": "biology-1",
+    "question": "Malvaceae গোত্রের ফল -\ni. ক্যাপসুল জাতীয়\nii. ক্যারিওপসিস জাতীয়\niii. সাইজোকার্প জাতীয়\nনিচের কোনটি সঠিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 68,
+    "subject": "biology-1",
+    "question": "পুংস্তবকের প্রতিটি সদস্যকে কী বলে?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্ট্যামেন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অ্যান্থার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কার্পেল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্টাইল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 69,
+    "subject": "biology-1",
+    "question": "কার্পাস তুলার বৈজ্ঞানিক নাম কী?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Phragmites karka",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Hibiscus rosa-sinesis",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Zea mays",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Gossypium herbaceum",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 70,
+    "subject": "biology-1",
+    "question": "জবার অমরাবিন্যাস কীরূপ?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অক্ষীয়",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "গাত্রীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বহুপ্রান্তীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "শীর্ষদেশীয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 71,
+    "subject": "biology-1",
+    "question": "নিচের কোনটি পৃথিবীর সবচেয়ে ক্ষুদ্রাকার আবৃতবীজী উদ্ভিদ?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Wolffia microscopia",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Wolffia arrhiza",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Eucalyptus marginata",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Imperata cylindrica",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 72,
+    "subject": "biology-1",
+    "question": "Living fossil কোনটি?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Mangifera indica",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Ginkgo biloba",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "Azadirachta indica",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Nymphaea nouchili",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 73,
+    "subject": "biology-1",
+    "question": "যব - এর বৈজ্ঞানিক নাম কী?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Triticum vulgare",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Cynodon dactylon",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Hardeum vulgare",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "Cycas circinales",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 74,
+    "subject": "biology-1",
+    "question": "অসমাঙ্গ ফুল নিচের কোনটি?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কুমড়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লাউ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সীম",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ধুতুরা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 75,
+    "subject": "biology-1",
+    "question": "একটি সম্পুর্ণ ফুলে কয়টি স্তবক থাকে?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৩টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৪টি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "৬টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 76,
+    "subject": "biology-1",
+    "question": "পৃথিবীর সবচেয়ে উঁচু বৃক্ষটি কোন উদ্ভিদগোষ্ঠীর অন্তর্ভুক্ত?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আবৃতবীজী",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গুল্ম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বীরুৎ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নগ্নবীজী",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 77,
+    "subject": "biology-1",
+    "question": "আবর্তক পত্রবিন্যাস দেখা যায় -\ni. রঙ্গন\nii. ছাতিম\niii. করবী\nনিচের কোনটি সঠিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 78,
+    "subject": "biology-1",
+    "question": "Cycus এর পাতা কীরূপ?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সরল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পক্ষল যৌগিক",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "দ্বিপক্ষল যৌগিক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ত্রিপক্ষল যৌগিক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 79,
+    "subject": "biology-1",
+    "question": "নগ্নবীজী উদ্ভিদের বীজ কোন ধরনের?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আবৃত",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "উন্মুক্ত",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ডিপ্লয়েড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টিপ্লয়েড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 80,
+    "subject": "biology-1",
+    "question": "Cycus এর র্যাকিসে কত জোড়া পিনা থাকে?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২০-২৫",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "২৫-৫০",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৫০-৭৫",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৫০-১০০",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 81,
+    "subject": "biology-1",
+    "question": "কোন ফুলের গর্ভাশয় অধিগর্ভ?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সরিষা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কুমড়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পেয়ারা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গোলাপ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 82,
+    "subject": "biology-1",
+    "question": "আবৃতবীজী উদ্ভিদ চেনার উপায় কী?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সস্য ডিপ্লয়েড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সস্য টেট্রাপ্লয়েড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সস্য ট্রিপ্লয়েড",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সস্য হ্যাপ্লয়েড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+
+  {
+    "id": 1,
+    "subject": "biology-1",
+    "question": "কোন টিস্যুর কোষগুলো অসমভাবে পুরু থাকে?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্যারেনকাইমা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কোলেনকাইমা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "স্ক্লেরেনকাইমা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যারেনকাইমা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "biology-1",
+    "question": "কোন ভাজক টিস্যুর প্রভাবে মূল বা কান্ডের পার্শ্ব বৃদ্ধি ঘটে?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রাইমারি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রারম্ভিক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সেকেন্ডারি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "নিবেশিত",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "biology-1",
+    "question": "নিচের কোনটি হতে গ্রাউন্ড টিস্যু গঠিত হয়?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ভাস্কুলার বান্ডল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কর্ক ক্যাম্বিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রোক্যাম্বিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গ্রাউন্ড মেরিস্টেম",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "biology-1",
+    "question": "যেসব স্থায়ী টিস্যুর সবগুলো কোষে, আকার, আকৃতি ও গঠন বৈশিষ্ট্য এক রকম তাদের কী বলা হয়?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জটিল টিস্যু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সরল টিস্যু",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "রিব টিস্যু",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ভাজক টিস্যু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "biology-1",
+    "question": "নিচের কোন টিস্যুর নিউক্লিয়াস অপেক্ষাকৃত বড়?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জটিল টিস্যু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভাজক টিস্যু",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "যৌগিক টিস্যু",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সরল টিস্যু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "biology-1",
+    "question": "তেল, ট্যানিন ও খনিজ লবণ বিদ্যমান কোনটিতে?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইডিওব্লাস্ট",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ক্লোরেনকাইমা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যারেনকাইম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্টিলেট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "biology-1",
+    "question": "কখন উদ্ভিদে নতুন পাতা গজায়?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বর্ষাকালে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "শীতের শুরুতে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হেমন্তকালে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বসন্তকালে",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "biology-1",
+    "question": "প্রোটোডার্মের ভাজক কোষের পরিবর্তিত রূপ -\ni. এপিডার্মিস\nii. এন্ডোডার্মিস\niii. এপিব্লেমা\nনিচের কোনটি সঠিক?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "biology-1",
+    "question": "নিচের কোনটি ভুট্টা কান্ডে সম্পূর্ণরূপে অনুপস্থিত?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পিথ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কর্টেক্স",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "এপিব্লেমা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পিথর",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "biology-1",
+    "question": "সরু ব্যাসবিশিষ্ট জাইলেমকে বলে -",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মেটাজাইলেম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রোমেটাজাইলেম",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "এন্ডার্ক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মেসার্ক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "biology-1",
+    "question": "মিষ্টি কুমড়া গাছের কান্ডে কোন ধরনের ভাস্কুলার টিস্যু থাকে?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সমদ্বিপার্শ্বীয়",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "সমপার্শ্বীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অরীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কেন্দ্রিক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "biology-1",
+    "question": "কোন টিস্যুর বিভাজনের মাধ্যমে উদ্ভিদ দৈর্ঘ্যে বৃদ্ধি পায়?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রাইমারি ভাজক টিস্যু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "শীর্ষস্থ ভাজক টিস্যু",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ইন্টারক্যালরি ভাজক টিস্যু",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পার্শ্বীয় ভাজক টিস্যু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "biology-1",
+    "question": "প্লেট টিস্যুর উদাহরণ কোনটি?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মজ্জা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পাতা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সস্যকলা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কর্টেক্স",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "biology-1",
+    "question": "কোন টিস্যুর বিভাজনে উদ্ভিদের সেকেন্ডারি বৃদ্ধি ঘটে?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "শীর্ষস্থ ভাজক টিস্যু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পার্শ্বীয় ভাজক টিস্যু",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "প্রোটোর্ডাম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রারম্ভিক ভাজক টিস্যু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "biology-1",
+    "question": "জটিল টিস্যুর অন্তর্ভুক্ত -\ni. ফ্লোয়েম টিস্যু\nii. জাইলেম টিস্যু\niii. তরুক্ষীর টিস্যু ও গ্রন্থি টিস্যু\nনিচের কোনটি সঠিক?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "biology-1",
+    "question": "নিচের কোনটি থেকে ভাস্কুলার টিস্যুতন্ত্র সৃষ্টি হয়?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোটোডার্ম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রোক্যাম্বিয়াম",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "কর্ক ক্যাম্বিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কর্টেক্স",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "biology-1",
+    "question": "নারিকেলের মূলের অন্তর্গঠনে কোনটি অনুপস্থিত?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এন্ডোডার্মিস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পেরিসাইকল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মজ্জা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হাইপোডার্মিস",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "biology-1",
+    "question": "জাইলেম Y বা V আকৃতি দেখা যায় -",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "একবীজপত্রী কান্ডে",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "দ্বিবীজপত্রী কান্ডে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "একবীজপত্রী মূলে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দ্বিবীজপত্রী মূলে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "biology-1",
+    "question": "জটিল টিস্যু কোনটি?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কোলেনকাইমা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্ক্লেরেনকাইমা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পেরেনকাইমা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "জাইলেম ও ফ্লোয়েম",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "biology-1",
+    "question": "এপিডার্মিসের কোষগুলো কী জাতীয়?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্যারেনকাইমা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কোলেনকাইমা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্ক্লেরেনকাইমা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যারেনকাইমা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "biology-1",
+    "question": "কোন উদ্ভিদে কিউটিকলের পরিবর্তে মোমের স্তর আছে?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আফিম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রাবার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কচুরিপানা",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ছাতিম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "biology-1",
+    "question": "একটি একবীজপত্রী মূলে জাইলেম বান্ডেল থাকে -",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "একের অধিক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "চার থেকে ছয়টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ছয়ের অধিক",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "দুটি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "biology-1",
+    "question": "পরিচক্রের কাজ -\ni. খাদ্য তৈরি\nii. খাদ্য সঞ্চয়\niii. যান্ত্রিক শক্তি প্রদান\nনিচের কোনটি সঠিক?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "biology-1",
+    "question": "Xylose শব্দটির অর্থ কী?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বস্ত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বাঁশ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কাঠ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "লোহা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "biology-1",
+    "question": "কর্কক্যাম্বিয়াম কোন ধরনের ভাজক টিস্যুর উদাহরণ?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রাইমারি ভাজক টিস্যু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রারম্ভিক ভাজক টিস্যু",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সেকেন্ডারী ভাজক টিস্যু",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "রিব ভাজক টিস্যু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "biology-1",
+    "question": "পত্ররন্ধ্র বন্ধ বা খোলার কাজ নিয়ন্ত্রণ করে কোনটি?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রক্ষীকোষ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "এপিডার্মিস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্টোমাটা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পেরিডার্মিস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "biology-1",
+    "question": "কোনটি ভাস্কুলার বান্ডলের কাজ?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "খাদ্য তৈরি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "খাদ্য ও কাঁচামাল পরিবহন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "খাদ্য সঞ্চয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "খাদ্যের পচন নিবারণ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "biology-1",
+    "question": "কোন টিস্যুর বিভাজনের ফলে উদ্ভিদের আয়তনে বৃদ্ধি ঘটে?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মাস ভাজক টিস্যু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্লেট ভাজক টিস্যু",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "রিব ভাজক টিস্যু",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "উপরের সবগুলো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "biology-1",
+    "question": "একবীজপত্রী উদ্ভিদের কান্ডের জাইলেম উপাদানগুলোর আকৃতি ইংরেজি কোন অক্ষরের মতো?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "U বা V",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "V বা X",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "V বা Y",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "Y বা Z",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "biology-1",
+    "question": "নিচের কোনটি একবীজপত্রী উদ্ভিদের মূলের শনাক্তকারী বৈশিষ্ট্য?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বহুকোষী রোমযুক্ত",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কর্টেক্স অসমসত্ত্ব প্রকৃতির",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ভাস্কুলার বান্ডল সংযুক্ত প্রকৃতির",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পিথ চওড়া",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "biology-1",
+    "question": "কর্টেক্স, মজ্জা, মজ্জারশ্মি, পেরিসাইকল প্রভৃতি কোন টিস্যু হতে উৎপন্ন?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোটোডার্ম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গ্রাউন্ড মেরিস্টেম",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "প্রোক্যাম্বিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এপিডার্মাল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "biology-1",
+    "question": "সেকেন্ডারি ভাজক টিস্যুর সৃষ্টি -",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোমেরিস্টেম হতে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পাতার মেসোফিল কোষ হতে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কর্ক ক্যাম্বিয়াম হতে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "বায়ু কুঠুরী হতে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "biology-1",
+    "question": "বাইরের আঘাত থেকে রক্ষা করে নিচের কোনটি?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Epidermis",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Hypodermis",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Endodermis",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Cortex",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "biology-1",
+    "question": "ভাজক টিস্যুর অবস্থান -\ni. কান্ড ও মূলের শীর্ষে\nii. কচি পাতায়\niii. পুষ্প ও কান্ডের পরিধিতে\nনিচের কোনটি সঠিক?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "biology-1",
+    "question": "হাইপোডার্মিসের নিচ থেকে এন্ডোডার্মিস পর্যন্ত বিস্তৃত অংশটির নাম -",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কর্টেক্স",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "পেরিসাইকল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মেডুলা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এন্ডোডার্মিস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "biology-1",
+    "question": "বর্ষবলয় উৎপন্ন হয় যে কারণে -",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "উদ্ভিদের গৌণ বৃদ্ধির জন্য",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কর্ক ক্যাম্বিয়াম সৃষ্টির জন্য",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ল্যান্টিসেল তৈরির জন্য",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কর্টেক্স বৃদ্ধির জন্য",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "biology-1",
+    "question": "ইডিওব্লাস্ট প্যারেনকাইমা কোষে বিদ্যমান -\ni. তেল\nii. ভিটামিন\niii. ট্যানিন\nনিচের কোনটি সঠিক?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "biology-1",
+    "question": "পত্ররন্ধ্র কোন টিস্যুতন্ত্রের অন্তর্গত?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এপিডার্মাল",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ভাস্কুলার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বহিঃস্টিলিয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অন্তঃস্টিলি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "biology-1",
+    "question": "কোন উদ্ভিদের পাতায় লিগনিন জমা হয়?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Cycas",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "সরিষা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আখ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "biology-1",
+    "question": "প্রারম্ভিক ভাজক টিস্যুর অবস্থান -\ni. মূলের শীর্ষে\nii. কান্ডের গোড়ায়\niii. কান্ডের শীর্ষে\nনিচের কোনটি সঠিক?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "biology-1",
+    "question": "ফ্লোয়েম টিস্যুর একমাত্র মৃত উপাদান নিচের কোনটি?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সীভনল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সঙ্গীকোষ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফ্লোয়েম ফাইবার",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ফ্লোয়েম প্যারেনকাইমা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "biology-1",
+    "question": "উদ্ভিদের অধিকাংশ অঞ্চল কোন টিস্যু দিয়ে গঠিত?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কোলেনকাইমা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্লোরেনকাইমা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যারেনকাইমা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্যারেনকাইমা",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "biology-1",
+    "question": "লেপ্টোসেন্ট্রিক ভাস্কুলার বান্ডল পাওয়া যায় -\ni. Dracaena\nii. Yucca\niii. Selaginella\nনিচের কোনটি সঠিক?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "biology-1",
+    "question": "নিচের কোন টিস্যুটি সংবহনে সাহায্য করে?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মাস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রিব",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "প্লেট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোটোডার্ম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "biology-1",
+    "question": "দ্বিবীজপত্রী উদ্ভিদের হাইপোডার্মিস কোন কোষ দ্বারা গঠিত?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্যারেনকাইমা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্ক্লেরেনকােইমা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কোলেনকাইমা",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "অ্যারেনকাইমা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "biology-1",
+    "question": "সেকেন্ডারি ভাজক টিস্যু কোন স্তর হতে সৃষ্টি হয়?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মজ্জা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "পেরিসাইকল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "এপিডার্মিস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কর্টেক্স",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "biology-1",
+    "question": "গৌণ বা সেকেন্ডারি ভাজক টিস্যু হলো -\ni. প্রোক্যাম্বিয়াম\nii. কর্ক ক্যাম্বিয়াম\niii. ইন্টারফ্যালিকুলার ক্যাম্বিয়াম\nনিচের কোনটি সঠিক?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "biology-1",
+    "question": "নিচের কোন টিস্যুকে যৌগিক টিস্যু বলা হয়?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জাইলেম টিস্যু",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ক্যাম্বিয়াম টিস্যু",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তরুক্ষীর টিস্যু",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ক্ষরণকারী টিস্যু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
   }
 ]
