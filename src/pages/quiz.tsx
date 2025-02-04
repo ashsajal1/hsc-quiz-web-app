@@ -42,6 +42,7 @@ export default function QuizPage() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
   const [showAnswer, setShowAnswer] = useState<boolean>(false);
+  const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
 
   // Filter questions based on selected topic and chapter
   const filteredQuestions = useMemo(() => {
@@ -58,13 +59,17 @@ export default function QuizPage() {
   const handleOptionClick = (option: Option) => {
     if (showAnswer) return; // prevent multiple answers
     if (option.isCorrect) {
+        setIsCorrect(true)
       setScore((prev) => prev + 1);
+    } else {
+        setIsCorrect(false)
     }
     setShowAnswer(true);
   };
 
   // Handler for moving to the next question
   const handleNextQuestion = () => {
+    setIsCorrect(null)
     setShowAnswer(false);
     if (currentQuestionIndex < filteredQuestions.length - 1) {
       setCurrentQuestionIndex((prev) => prev + 1);
@@ -111,7 +116,13 @@ export default function QuizPage() {
 
       {/* Quiz Card */}
       {filteredQuestions.length > 0 ? (
-        <Card className="max-w-md mx-auto">
+        <Card className={`max-w-md mx-auto ${
+            showAnswer
+              ? isCorrect
+                ? "border border-green-600"
+                : "border border-red-600"
+              : ""
+          }`}>
           <CardHeader>
             <CardTitle>
               Question {currentQuestionIndex + 1} of {filteredQuestions.length}
