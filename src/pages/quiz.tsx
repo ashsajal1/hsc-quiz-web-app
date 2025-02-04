@@ -1,6 +1,12 @@
 import { useState, useMemo } from "react";
 import questionsJson from "../data/questions.json";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import {
   Select,
@@ -10,7 +16,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Option, Question } from "@/lib/type";
-
+import React from "react";
 
 // Parse questions (if needed, here we assume they are valid JSON already)
 const questions: Question[] = JSON.parse(JSON.stringify(questionsJson));
@@ -21,7 +27,7 @@ export default function QuizPage() {
   const topics = useMemo(() => {
     const set = new Set<string>();
     questions.forEach((q) => {
-      const topic = q.subject
+      const topic = q.subject;
       set.add(topic);
     });
     return Array.from(set);
@@ -33,12 +39,14 @@ export default function QuizPage() {
       const chapter = q.chapter;
       set.add(chapter);
     });
-    
+
     return Array.from(set);
   }, []);
 
   const [selectedTopic, setSelectedTopic] = useState<string>(topics[0] || "");
-  const [selectedChapter, setSelectedChapter] = useState<string>(chapters[0] || "0");
+  const [selectedChapter, setSelectedChapter] = useState<string>(
+    chapters[0] || "0"
+  );
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
   const [showAnswer, setShowAnswer] = useState<boolean>(false);
@@ -47,7 +55,7 @@ export default function QuizPage() {
   // Filter questions based on selected topic and chapter
   const filteredQuestions = useMemo(() => {
     return questions.filter((q) => {
-      const topic = q.subject
+      const topic = q.subject;
       const chapter = q.chapter;
       return topic === selectedTopic && chapter === selectedChapter;
     });
@@ -59,17 +67,17 @@ export default function QuizPage() {
   const handleOptionClick = (option: Option) => {
     if (showAnswer) return; // prevent multiple answers
     if (option.isCorrect) {
-        setIsCorrect(true)
+      setIsCorrect(true);
       setScore((prev) => prev + 1);
     } else {
-        setIsCorrect(false)
+      setIsCorrect(false);
     }
     setShowAnswer(true);
   };
 
   // Handler for moving to the next question
   const handleNextQuestion = () => {
-    setIsCorrect(null)
+    setIsCorrect(null);
     setShowAnswer(false);
     if (currentQuestionIndex < filteredQuestions.length - 1) {
       setCurrentQuestionIndex((prev) => prev + 1);
@@ -87,7 +95,13 @@ export default function QuizPage() {
 
       {/* Selectors for Topic and Chapter */}
       <div className="flex flex-col w-full sm:w-auto sm:flex-row gap-4">
-        <Select value={selectedTopic} onValueChange={(val) => { setSelectedTopic(val); setCurrentQuestionIndex(0); }}>
+        <Select
+          value={selectedTopic}
+          onValueChange={(val) => {
+            setSelectedTopic(val);
+            setCurrentQuestionIndex(0);
+          }}
+        >
           <SelectTrigger className="w-full sm:w-[180px]">
             <SelectValue placeholder="Select topic" />
           </SelectTrigger>
@@ -100,7 +114,13 @@ export default function QuizPage() {
           </SelectContent>
         </Select>
 
-        <Select value={selectedChapter} onValueChange={(val) => { setSelectedChapter(val); setCurrentQuestionIndex(0); }}>
+        <Select
+          value={selectedChapter}
+          onValueChange={(val) => {
+            setSelectedChapter(val);
+            setCurrentQuestionIndex(0);
+          }}
+        >
           <SelectTrigger className="w-full sm:w-[180px]">
             <SelectValue placeholder="Select chapter" />
           </SelectTrigger>
@@ -116,20 +136,30 @@ export default function QuizPage() {
 
       {/* Quiz Card */}
       {filteredQuestions.length > 0 ? (
-        <Card className={`max-w-md mx-auto ${
+        <Card
+          className={`max-w-md mx-auto ${
             showAnswer
               ? isCorrect
                 ? "border border-green-600"
                 : "border border-red-600"
               : ""
-          }`}>
+          }`}
+        >
           <CardHeader>
             <CardTitle>
               Question {currentQuestionIndex + 1} of {filteredQuestions.length}
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="mb-4 font-semibold">{currentQuestion.question}</p>
+            <p className="mb-4 font-semibold">
+              {currentQuestion.question.split("\n").map((line, index) => (
+                <React.Fragment key={index}>
+                  {line}
+                  <br />
+                </React.Fragment>
+              ))}
+            </p>
+
             <div className="space-y-2">
               {currentQuestion.options.map((option) => (
                 <Button
@@ -139,7 +169,11 @@ export default function QuizPage() {
                     showAnswer &&
                     option.isCorrect &&
                     "bg-green-500 border-green-500"
-                  } ${showAnswer && !option.isCorrect && "bg-red-500 border-red-500"}`}
+                  } ${
+                    showAnswer &&
+                    !option.isCorrect &&
+                    "bg-red-500 border-red-500"
+                  }`}
                   onClick={() => handleOptionClick(option)}
                   disabled={showAnswer}
                 >
@@ -147,7 +181,7 @@ export default function QuizPage() {
                 </Button>
               ))}
             </div>
-            {(showAnswer && currentQuestion.explanation) && (
+            {showAnswer && currentQuestion.explanation && (
               <div className="mt-4 text-sm text-gray-600">
                 <p>
                   <strong>Explanation:</strong> {currentQuestion.explanation}
@@ -158,7 +192,9 @@ export default function QuizPage() {
           <CardFooter className="flex justify-end">
             {showAnswer && (
               <Button onClick={handleNextQuestion}>
-                {currentQuestionIndex < filteredQuestions.length - 1 ? "Next" : "Finish"}
+                {currentQuestionIndex < filteredQuestions.length - 1
+                  ? "Next"
+                  : "Finish"}
               </Button>
             )}
           </CardFooter>
