@@ -30979,5 +30979,4204 @@
     ],
     "explanation": "",
     "hint": ""
+  },
+
+  {
+    "id": 1,
+    "subject": "chemistry-1",
+    "question": "ল্যাবরেটরিতে গ্লাসের তৈরি যন্ত্রের সংযোগস্থল বায়ুরোধী করতে কী ব্যবহার করা হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্টপ কর্ক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কর্ক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ছিদ্র যুক্ত কর্ক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গ্রীজ",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "chemistry-1",
+    "question": "শুষ্ক AICI3 + 3H2O AI(OH)3 + B; প্রদত্ত বিক্রিয়ায় উৎপন্ন পদার্থ B থেকে রক্ষা পাবার জন্য কোনটি ব্যবহার করা যুক্তিযুক্ত?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিরাপদ চশমা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হ্যান্ড গ্লাভস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মাস্ক",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "রাসায়নিক স্প্লাস গগলস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "chemistry-1",
+    "question": "গাঢ় এসিডকে লঘু করার নিয়ম কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এসিডে পানি ঢালতে হবে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পানিতে এসিড ঢালতে হবে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "এসিড বোতলের মুখ খোলা রাখতে হবে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এসিড বোতলের মুখ বন্ধ রাখতে হবে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "chemistry-1",
+    "question": "ক্ষয়কারী পদার্থের pH কত থাকে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "2.5 এর বেশি ও 12.5 এর কম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "2.5 এর কম ও 12.5 এর বেশি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "2.5 এর কম ও 12.5 এর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "2.6 এর বেশি ও 12.5 এর কম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "chemistry-1",
+    "question": "ভারী ধাতুর সংখ্যা-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বারটি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তেরটি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিশটি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তেইশটি",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "chemistry-1",
+    "question": "কোন কারণে কাঁচ পাত্রে কালির দাগ পড়ে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জ্বালানির অধিক দহন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জ্বালানির অসম্পূর্ণ দহন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "কম মূল্যের জ্বালানির ব্যবহার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "জ্বালানির সাথে অধিক বায়ুর প্রবেশ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "chemistry-1",
+    "question": "রাসায়নিক দ্রব্য কোনটিতে আবদ্ধ রাখলে ভালো হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কাচের পাত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্লাস্টিক পাত্র",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "স্টিলের পাত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কাঠের পাত্র",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "chemistry-1",
+    "question": "জ্বালানি গ্যাসের সম্পূর্ণ দহন হলে কোন কণা অবশিষ্ট থাকে না?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অক্সিজেন কণা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফসফরাস কণা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কার্বণ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সালফার কণা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "chemistry-1",
+    "question": "পল-বুঙ্গি ব্যালেন্সের বেদীতে কয়টি স্ক্রু থকে",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তিনটি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দুইটি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "চারটি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পাঁচটি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "chemistry-1",
+    "question": "তুলাদন্ডে থাকা ক্ষুরধারে আকৃতি কিরূপ?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সুচের মতো",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লম্বা এবং গোল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লম্বা এবং চারকোণা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রিজমাকৃতি",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "chemistry-1",
+    "question": "দুর্বল ক্ষার কেনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বেরিলিয়াম হাইড্রক্সাইড",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "পটাসিয়াম হাইড্রক্সাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্যালসিয়াম হাইড্রক্সাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সোডিয়াম হাইড্রক্সাইড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "chemistry-1",
+    "question": "ব্যুরেটের গায়ে কোন স্কেলের দাগ কাটা থাকে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "mL",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "L",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "cm3",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "dm3",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "chemistry-1",
+    "question": "ল্যাবরেটরির এসিড জলাশয়, মাটিতে মিশে pH মান-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বাড়ায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কমায়",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সমান রাখে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "শূন্য করে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "chemistry-1",
+    "question": "বর্জ্য রাসায়নিক পদার্থের জন্য কোন ধরনের কনটেইনার ব্যবহার করা করতে হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কাচের",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কাঠের",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লোহার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মাটির",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "chemistry-1",
+    "question": "বুনসেন বারানারের উপর নিচের কোনটিকে রাখা হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দ্বিপদী স্ট্যান্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ত্রিপদী স্ট্যান্ড",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "কলিক্যাল ফ্লাস্ক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পানি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "chemistry-1",
+    "question": "গাঢ় এসিড লঘূ করার সময় পানি এসিডে যোগ করার কারণ কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তাপ উৎপন্ন হয়",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "তাপ শোষিত হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তাপহারী বিক্রিয়া সংঘটিতে হবে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পাত্রের আয়তন বৃদ্ধি পায়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "chemistry-1",
+    "question": "নিম্ন তাপের বিক্রিয়ার ক্ষেত্রে কোনটি ব্যবহৃত হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গোলতুলি ফ্লাস্ক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কনিক্যাল ফ্লাস্ক",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "টেস্টটিউব",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিকার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "chemistry-1",
+    "question": "বিক্রিয়া সংঘটনের পূর্বে গোলতলী ফাস্ককে বায়ুরোধী করা হয় কেন?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ভেতরে বায়ুর চাপ বাড়ানোর জন্য",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভেতরে বায়ুর চাপ কমানো জন্য",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "উৎপাদ গ্যাস যেন বাহিরে আসতে না পারে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "অধিক তাপে ফাস্ক যেন ফেটে না যায়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "chemistry-1",
+    "question": "পল-বুঙ্গি ব্যালেন্সের স্তম্ভের ভিতরে থাকে?\nক)জিঙ্ক ডাস্ট",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সিলিকা জেল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সীসা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ধাতব যন্ত্র",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "chemistry-1",
+    "question": "আংশিক পাতনে কোন যন্ত্রাংশ ব্যবহৃত হয়-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লিবিগ শীতক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অংশ পাতন কলাম",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "বায়ু শীতক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যলুডাল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "chemistry-1",
+    "question": "ব্যুরেট রিনসিং বলতে কী বোঝায়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ব্যুরেটের সাবান ফেনা দূর করতে পানি বা অন্য পরিষ্কারক দিয়ে ধুয়ে ফেলা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ব্যুরেটকে পানি দিয়ে ধুয়ে নেওয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ব্যুরেটকে পাতিত পানি দিয়ে ধুয়ে নেওয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ব্যুরেটকে তাপ দিয়ে শুকানো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "chemistry-1",
+    "question": "হলুদ ফসফরাসকে রাখা হয় কার নিচে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পানির নিচে",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "তেলের নিচে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গ্যাসের নিচে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মাটির নিচে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "chemistry-1",
+    "question": "সকল প্রকার কাচের যন্ত্রাতি পরিস্কারের জন্য কোনটি ব্যবহৃত হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পাতিত পানি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "জৈব এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মৃদু ক্ষার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "chemistry-1",
+    "question": "ব্যুরেটের পাঠ দেওয়ার জন্য চোখকে তরলের কোনদিকে রাখতে হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লম্ব দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কৌণিক দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সমান্তরালে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "নিচ দিকে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "chemistry-1",
+    "question": "রাসায়নিক দ্রব্য শোষণে সৃষ্টি বিষক্রিয়ার জন্য ব্যবহৃত হয়-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "একটিভেটেড চারকোল",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কোল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আয়োডিন দ্রবণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লঘু পটাসিয়াম পারমাঙ্গানেট দ্রবণ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "chemistry-1",
+    "question": "কারসিনোজিক কাচ যন্ত্রপাতি পরিষ্কারক কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রপানোন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ইথান্যাল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হাইড্রেক্লোরিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ক্রোমিক এসিড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "chemistry-1",
+    "question": "ল্যাবরেটরিতে কোন পদ্ধতি অনুসরণ করা হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মাইক্রো অ্যানালাইটিক্যাল পদ্ধতি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "সেমিমাইক্রো অ্যানালাইটিক্যাল পদ্ধতি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যানালাইটিক্যাল পদ্ধতি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নরমাল পদ্ধতি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "chemistry-1",
+    "question": "আরোহীকে সঞ্চালন করার জন্য ব্যবহৃত হয় কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চুম্বক শলাকা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ধাতব শলাকা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "কাঠি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্টিলের পয়েন্টার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "chemistry-1",
+    "question": "কাচপত্র বেশি ময়লাযুক্ত ও তৈলাক্ত হলে কী ব্যবহার করা হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গাঢ় HNO3 + গাঢ় H2SO4",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গাঢ় HNOC3 + গাঢ়HCI",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গাঢ় HCI + গাঢ় H2SO4",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ধূমায়িত HNO3 + গাঢ় H2SO4",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "chemistry-1",
+    "question": "1000 C বা তার কম তাপমাত্রায় উত্তপ্ত করতে কোনটি ব্যবহৃত হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কনিক্যাল ফ্লাস্ক",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "পোর্সেলিন বাটি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মর্টার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ক্রুসিবল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "chemistry-1",
+    "question": "সারটোরিয়াল ব্যালেন্স স্কেলের 0 বিন্দু থাকে-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ডানপাশে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বামপাশে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মাঝখানে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "নিচে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "chemistry-1",
+    "question": "হ্যালোজেনমুক্ত ধারণকারী ক্যানকে কী দ্বারা চিহ্নিত করা হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হলুদ টেপ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "সবুজ টেপ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নীল টেপ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লাল টেপ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "chemistry-1",
+    "question": "টেস্টটিউব পরিষ্কারে ব্যবহার করা হয়-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তরল অ্যমোনিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সোডিয়াম হাইড্রক্লোরাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পানি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "গ্লাস ক্লিনার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "chemistry-1",
+    "question": "গ্লাস সামগ্রী উত্তপ্ত করার সময় কোনটি ব্যবহৃত হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ব্যুরেট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পিপেট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কর্ক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বার্নার",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "chemistry-1",
+    "question": "অ্যাসিটাইলিন, ফালমিনিক এসিড ইত্যাদি কার স্পর্ম ভয়ানক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মারকারি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অ্যালকালি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ব্রোমিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সোডিয়াম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "chemistry-1",
+    "question": "পেটে দুর্ঘটনাবশত ক্ষারীয় পদার্থ চলে গেলে খেতে হয়-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কমলালেবুর রস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লেবুর রস",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "আঙুরের সর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "খেজুর",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "chemistry-1",
+    "question": "ল্যাবরেটরিতে কাজ করার সময় ত্বকে এসিড লাগলে কোনটি দ্বারা ধুতে হবে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "5% CH3COOH",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "4%CH3COOH",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "5%NaHCO3",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "4%NaHCO3",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "chemistry-1",
+    "question": "থার্মোগ্রাভিমেট্রিক বিশ্লেষণে কোনটি ব্যবহৃত হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "HPLC",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "GPC",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "NMR",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মাইক্রো অ্যানালাইসিস",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "chemistry-1",
+    "question": "ছোট গলাযুক্ত ও চ্যাপ্টা তলাবিশিষ্ট কাচের ফ্লাস্ককে কী বলে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ওয়াস বোতল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কনিক্যাল ফ্লাস্ক",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ব্যুরেট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পিপেট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "chemistry-1",
+    "question": "বাটারফ্লাই ক্লোজার স্ট্রিপস ব্যবহৃত হয়-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মাথা ব্যথায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্ষতস্থান ঢাকার জন্য",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্ষতস্থান পরিস্কারে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ক্ষতস্থানকে সেলাইয়ের মতো করে ঢাকার জন্য",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "chemistry-1",
+    "question": "সেমি-মাইক্রো অ্যানালাইটিক্যাল পদ্ধতিতে ব্যবহৃত ড্রপারের এক ড্রাপে কী পরিমাণ পানি থাকে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "0.ImL",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "0.5mL",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "0.2mL",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "0.01mL",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "chemistry-1",
+    "question": "শরীরের সবচেয়ে স্পর্শকাতর অঙ্গ কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হাত",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "চামড়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কান",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "চোখ",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "chemistry-1",
+    "question": "NO2 গ্যাস আর্দ্রতার সংস্পর্শে এসে নিচের কোনটি উৎপন্ন করে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "HNO3",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "H2NO4",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "H2NO2",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "kNO3",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "chemistry-1",
+    "question": "রাইডার ধ্রুবক নির্ভর করে কোনটির উপর?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রাইডারের ওজন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বীমের দাগাংকনের উপর",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ওজন বক্স থেকে নেয়া ওজনের উপর",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "chemistry-1",
+    "question": "ল্যাব মাস্ক কিভাবে কাজ করে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্যাসীয় পদার্থের শোষণের মাধ্যমে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গ্যাসীয় পদার্থকে বিকর্ষণ করার মাধ্যমে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিষাক্ত গ্যাস শোষণের মাধ্যমে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "বিষাক্ত গ্যাস ছাকঁনের মাধ্যমে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "chemistry-1",
+    "question": "বার্নারে জ্বালানির পূর্ণাঙ্গ দহনে উৎপন্ন হয় কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কার্বন মনোক্সাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কার্বন ডাই অক্সাইড ও পানি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কার্বন ডাইঅক্সাইড ও জলীয় বাষ্প",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "নাইট্রোজেন অক্সাইড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "chemistry-1",
+    "question": "মেজারিং ফ্লাস্ক কী দ্বারা তৈরী?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কাচ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অ্যাসবেস্টস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্লাস্টিক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কপার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "chemistry-1",
+    "question": "বর্তমানে পল-বুঙ্গির বিম তৈরিতে কী ব্যবহৃত হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যালুমিনিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পিতল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইস্পাত",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যালুমিনিয়াম সংকর",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "chemistry-1",
+    "question": "K2CO3-কে কোন বিষাক্ত উপাদানের পরিবর্তে ব্যবহার করা যায়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "KCI",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "C6H6",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "CHCI3",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "PbCrO4",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 50,
+    "subject": "chemistry-1",
+    "question": "ট্যানারি শিল্পের বর্জ্যসমূহ কী করা হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রাসায়নিক ভাবে প্রশমিত করা হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পুড়িয়ে ফেলা হয়",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সুনির্দিষ্ট জায়গায় সংরক্ষণ করা হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ড্রেনে ফেলে দেওয়া হয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 51,
+    "subject": "chemistry-1",
+    "question": "বিকারগুলোকে যে বোতলের মধ্যে রাখা হয় তাকে বলে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিকারক বোতল",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অবিকারক বোতল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিগালক বোতল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নরমাল বোতল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 52,
+    "subject": "chemistry-1",
+    "question": "অন্যান্য এসিড হতে নিচের কোন এসিডকে আলাদা রাখাই ভালো?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "HNO3",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "H2SO4",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "HCI",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "HPO3",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 53,
+    "subject": "chemistry-1",
+    "question": "কাচের যন্ত্রে থাকা পনিতে অদ্রবনীয় ময়লা দূর করতে ব্যবহার করা হয় কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ট্যাপের পানি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লঘু HNO3",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যালকোহল",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ফিল্টার পানি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 54,
+    "subject": "chemistry-1",
+    "question": "পরীক্ষাগারে মাস্ক ব্যবহারের উদ্দেশ্য কী?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এটি যে কোনো প্রকার তরল থেকে শরীরকে রক্ষা করে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রাসায়নিক বিক্রিয়ায় উৎপন্ন ক্ষতিকর গ্যাস থেকে রক্ষা করে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "এটি শুধুমাত্র নাক ও মুখকে রাসায়নিক পদার্থ থেকে রক্ষা করে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এটি শ্বাস-প্রশ্বাস সহজতর করে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 55,
+    "subject": "chemistry-1",
+    "question": "পল-বুঙ্গি ব্যালেন্সের আরোহী ধ্রুবক কত?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "0.001",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "0.0001",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "0.01",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "0.1",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 56,
+    "subject": "chemistry-1",
+    "question": "কোন বিক্রিয়ায় নির্দেশক ব্যবহৃত হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সংযোজন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রশমন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "বিয়োজন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পানিযোজন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 57,
+    "subject": "chemistry-1",
+    "question": "ল্যবটরিতে সাধারণত কোন ধরনের পরিষ্কারক ব্যবহৃত হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পটাসিয়াম সাবান",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "শুকনো ডিটারজেন্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তরল ডিটারজেন্ট",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ফরমালিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 58,
+    "subject": "chemistry-1",
+    "question": "বুনসেন বার্নারের বায়ুপ্রবাহ ছিদ্র বন্ধ থাকলে-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্যাসের পূর্ণ দহন ঘটে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দাহ্য কার্বন কণা থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দাহ্য কার্বন দ্বারা বিজারণ হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গ্যাসের দহন ঘটে না",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 59,
+    "subject": "chemistry-1",
+    "question": "পটাসিয়াম হেক্সাসায়ানোফেরেট এর বর্ণ-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বাদামি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কমলা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বেগুনি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লাল",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 60,
+    "subject": "chemistry-1",
+    "question": "কোন ধরনের ল্যাবরেটরিতে এপ্রন পরিধানের প্রয়োজনীয়তা অধিকতর?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অজৈব রসায়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জৈব রসায়ন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "বিশ্লেষণীয় রসায়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ভৌত রসায়ন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 61,
+    "subject": "chemistry-1",
+    "question": "আইক্যাপ ব্যবহৃত হয়-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চোখে এলার্জি হলে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "চোখে পানি পড়লে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চোখকে দুর্ঘটনা থেকে বাঁচানোর জন্য",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "চোখে রাসায়নিক পড়লে",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 62,
+    "subject": "chemistry-1",
+    "question": "ওয়াস বোতলের 15cm দীর্ঘ কাচনলের মাঝখানে কত কোণে বাঁকানো হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "900",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1200",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "1800",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "2700C",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 63,
+    "subject": "chemistry-1",
+    "question": "ল্যাবরেটরিতে পাইরেক্স সামগ্রী ব্যবহারের মূল কারণ কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিম্ন প্রতিসরাংক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্বচ্ছতা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "উচ্চ ঘাতসহতা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "উচ্চ তাপসহতা",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 64,
+    "subject": "chemistry-1",
+    "question": "রক্ষিত উপাদানের রেকর্ড কপি ফায়ার সার্ভিসে সরবরাহ করা-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "খুবই জরুরি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কম জরুরি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "জরুরি নাই",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "জরুরি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 65,
+    "subject": "chemistry-1",
+    "question": "রাসায়নিক দ্রব্য শোষণে সৃষ্টি বিষক্রিয়ার জন্য ব্যবহৃত হয়-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "একটিভেটেড চারকোল",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কোল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আয়োডিন দ্রবণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লঘু পটাসিয়াম পারমাঙ্গানেট দ্রবণ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 66,
+    "subject": "chemistry-1",
+    "question": "সালফারের কোন যৌগটি এসিড বৃষ্টির জন্য অন্যতম?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "CO",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "SO2",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "H2S",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Na2S2O3",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 67,
+    "subject": "chemistry-1",
+    "question": "বাটারফ্লাই ক্লোজার স্ট্রিপস ব্যবহৃত হয়-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মাথা ব্যথায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্ষতস্থান ঢাকার জন্য",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্ষতস্থান পরিস্কারে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ক্ষতস্থানকে সেলাইয়ের মতো করে ঢাকার জন্য",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 68,
+    "subject": "chemistry-1",
+    "question": "5% NaHCO3 এর ঘনমাত্রা কত?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "0.1M",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "0.3M",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "0.6M",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "1.2M",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 69,
+    "subject": "chemistry-1",
+    "question": "ব্যুরেট-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সরু কাচনল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দুই মুখ খোলা কাচনল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দাগাঙ্কিত সুষম ছিদ্র ও স্টপকর্কবিশিষ্ট কাচনল",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "দাগাঙ্কিত সুষম ছিদ্র বিশিষ্ট কাচনল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 70,
+    "subject": "chemistry-1",
+    "question": "কোনটি বিষাক্ত দ্রাবক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হেক্সেন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "টলুইন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিউটানল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বেনজিন",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 71,
+    "subject": "chemistry-1",
+    "question": "মাইক্রো অ্যানালাইটিক্যালে পূর্বে কোন সনাক্তকরণ পদ্ধতিটি ব্যবহার করা হত?\nক)Mass Spectroscopy",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "H2S গ্যাস দ্বারা অধ:ক্ষেপ তৈরি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Gas chromato graphy",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Atomic Absorption Spectroscopy/",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 72,
+    "subject": "chemistry-1",
+    "question": "মাইক্রো অ্যানালাইটিক পদ্ধতিতে কোন ভরে রাসায়নিক পদার্থ ব্যবহৃত হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "0.5g",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "0.50mg",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "5mg",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "10mg",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 73,
+    "subject": "chemistry-1",
+    "question": "কোন পদার্থের পাত্রের মুখ খোরা রাখা যাবে না?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "NaCI",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "C2H5OH",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "CCI4",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "H2O",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 74,
+    "subject": "chemistry-1",
+    "question": "B যৌগটিকে সংরক্ষণ করা হয় কীভাবে?\nক)প্যাকেজিং এর মাধ্যমে",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Absorbent দ্বারা শোষণের মাধ্যমে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কেরোসিনে ভুবিয়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্লাস্টিক বা কাচের কন্টেইনারে",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 75,
+    "subject": "chemistry-1",
+    "question": "সেমি-মাইক্রো অ্যানালাইসিসের জন্য কতটুকু দ্রবণ যথেষ্ট?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "5 mL",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "4 mL",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "3 mL",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "1 mL",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 76,
+    "subject": "chemistry-1",
+    "question": "টাইট্রেশনের সময় ব্যুরেট কোন ধরনের রাসায়নিক তরল পদার্থ নেওয়া হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অজানা ঘনমাত্রার দ্রবণ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রমাণ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "দ্রাবক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দ্রব্য",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 77,
+    "subject": "chemistry-1",
+    "question": "মানব দেহের জন্য নিরাপদ দ্রাবক কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্লোরোফার্ম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বেনজিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইথাইল ল্যাকটেট",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "অ্যাসিটোন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 78,
+    "subject": "chemistry-1",
+    "question": "কাচরে যন্ত্রকে জীবানুমুক্ত করতে ব্যবহার হয়-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গাঢ় HCL",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পাতিত পানি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইথানল",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ক্রোমিক এসিড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 79,
+    "subject": "chemistry-1",
+    "question": "পরীক্ষাগারে লিবিগ শীতক কোন প্রক্রিয়ার সাথে সংশ্লিষ্ট?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অনুমাপন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভরমাত্রিক বিশ্লেষণ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পাতন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "কেলাসন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 80,
+    "subject": "chemistry-1",
+    "question": "রাসায়নিক দ্রব্যকে কী করা উচিত?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "খালি হাতে নড়াচড়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "খালি হাতে নড়াচড়া না করা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সবগুলোকে একই স্থানে রাখা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্প্যাচুলা ব্যবহার না করা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 81,
+    "subject": "chemistry-1",
+    "question": "ল্যাবরেটরিতে ওয়াশ বোতলের ব্যবহার কী?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রাসায়ানিক পদার্থ স্থানান্তরের জন্য",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রাসায়নিক বিক্রিয়া সংঘটনে পাত্র হিসেবে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ধৌতকরণের কাজে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "পরিমাপক যন্ত্র হিসেবে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 82,
+    "subject": "chemistry-1",
+    "question": "রাসায়নিক পদার্থ সংরক্ষণের ক্ষেত্রে কোনটি অনুসরণ করা হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বর্ণমালার ক্রম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সক্রিয়তার ক্রম",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ব্যবহারের আধিক্য",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পাত্রের আকার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 83,
+    "subject": "chemistry-1",
+    "question": "SO3 ও চুনের পানির বিক্রিয়ায় উৎপন্ন পদার্থ দিয়ে কী করা হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্লাস্টার তৈরি করা হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বিকারক হিসেবে ব্যবহৃত হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দ্রাবক হিসেবে ব্যবহৃত হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্লাস্টার অব প্যঅরিস তৈরি করা হয়",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 84,
+    "subject": "chemistry-1",
+    "question": "যৌগটি কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লবণ দ্রবণ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্ষার",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "পাতিত পানি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nসুমন টাইট্রেশনের সময় কনিক্যাল ফ্লাস্কের x অ্যাসিডের সাথে ব্যুরেটে থাকা Y যৌগ মেশানোর সময় হঠাৎ লক্ষ্য করল অ্যাসিডের মধ্যে থাকা লাল লিটমাসটি নীল হয়ে গেল।"
+  },
+
+  {
+    "id": 1,
+    "subject": "chemistry-1",
+    "question": "তৃতীয় শক্তিস্তরে মোট কয়টি অরবিটাল রয়েছে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৯",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "৭",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৫",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৩",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "chemistry-1",
+    "question": "শক্তি বৃদ্ধির সঠিক ক্রম নিম্নের কোনটি?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "5p<4f<6s<5d",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "5p<6s<4f<5d",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "5p<5d <4f<6s",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "sp<6s<5d<4s",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "chemistry-1",
+    "question": "নিচের কোন অরবিটালটি অসম্ভব?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1s",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "2p",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "3f",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "4d",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "chemistry-1",
+    "question": "মস্তিষ্কের চিকিৎসায় কোনটি ব্যবহৃত হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "MRI",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "X-ray",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "IR",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "UV",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "chemistry-1",
+    "question": "Rf এর মান সর্বোচ্চ কত হতে পারে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "২",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৩",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৪",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "chemistry-1",
+    "question": "জাল টাকা শনাক্তকরণে নিম্নের কোনটি ব্যবহৃত হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "IR",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "NMR",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "MRI",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "UV",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "chemistry-1",
+    "question": "সুগন্ধি ফুল থেকে নির্যাস বের করা হয় কোন পদ্ধতিতে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পাতন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বাষ্প পাতন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "উর্ধ্বপাতন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিধ্বংসী পাতন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "chemistry-1",
+    "question": "নিচের কোন অরবিটাল সর্বনিম্ন শক্তি সম্পন্ন?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "3d",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "4s",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "4p",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "3s",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "chemistry-1",
+    "question": "প্রুসিয়ান ব্রু রঙের দ্রবণ হয় নিম্নের কোন যৌগের জন্য?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "KFe[Fe(CN)6]",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Fe3[Fe(CN)6]3",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "K2[Fe(CN)6]",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "K3[Fe(CN)6]",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "chemistry-1",
+    "question": "১৫০ গ্রাম এর সমপরিমাণ একটি দ্রবণে ৫০ গ্রাম দ্রব দ্রবীভূত আছে। সেই দ্রবণকে শীতল করলে যদি ১০ গ্রাম দ্রব অধঃক্ষিপ্ত হয় তবে শেষোক্ত অবস্থায় দ্রাব্যতা কত হবে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১০",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৪০",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "৫০",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১০০",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "chemistry-1",
+    "question": "একই উপশক্তি স্তরের যেসব অরবিটালের শক্তি অভিন্ন তাদেরকে বলা হয়-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ডিজেনারেট",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "নন-ডিজানারেট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Equivalent",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অর্ধপূর্ণ অরবিটাল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "chemistry-1",
+    "question": "অ্যামোনিয়ার লবণে নেসলার বিকারক যোগ করলে কোনটির অধঃক্ষেপ পড়ে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "HgI2",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Hg2I4",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "NH2[Hg2I3]",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "[Cu(NH)4]SO4",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "chemistry-1",
+    "question": "দৃশ্যমান আলোর তরঙ্গদৈর্ঘ্য কত (nm)?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২০০-৫০০",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৩০০-৬০০",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৪০০-৭০০",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "৫০০-৮০০",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "chemistry-1",
+    "question": "প্রত্যেক d অরবিটালে সর্বাধিক কয়টি ইলেকট্রন থাকতে পারে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৫",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৬.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১০",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "chemistry-1",
+    "question": "ভর সংখ্যার ভিন্নতার কারণে কোনটি উৎপন্ন হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আইসোটোপ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "আইসোবার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আইসোটোন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আইসোমার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "chemistry-1",
+    "question": "সাধারণ ইলেকট্রন বিন্যাসের নিয়মের ব্যতিক্রম দেখায় নিচের কোন মৌলটি?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Mn",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Br",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "La",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "As",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "chemistry-1",
+    "question": "পানিতে অদ্রবণীয় কিন্তু স্টীম ও উদ্ধায়ী জৈব যৌগ কোন প্রক্রিয়ায় বিশোধন করা হয়-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বাষ্প পাতন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "উর্ধ্বপাতন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কেলাসন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "পাতন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "chemistry-1",
+    "question": "গাছের পাত ও বাকল হতে অ্যালকালয়েড জাতীয় ঔষধ নিষ্কাশন করা হয় কোন পদ্ধতিতে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বাষ্প পাতন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দ্রাবক নিষ্কাশন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "উর্ধ্বপাতন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিম্নচাপে পাতন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "chemistry-1",
+    "question": "হাইড্রোজেন বর্ণালির প্যাশ্চেন সিরিজের রেখাগুলি নিচের কোন অঞ্চলে পাওয়া যায়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অবলোহিত",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "দৃশ্যমান",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অতিবেগুনি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মাইক্রোওয়েভ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "chemistry-1",
+    "question": "রক্তচাপ প্রশমনে নিম্নের কোন রশ্মি ব্যবহৃত হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অতিবেগুনি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দৃশ্যমান",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অবলোহিত",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "এক্সরে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "chemistry-1",
+    "question": "রাদারফোর্ডের আলফা কণা বিচ্ছুরণ পরীক্ষা নিচের কোনটি সম্পকর্কে ধারণা দেয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পরমাণুর",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিউক্লিয়াসের",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ইলেকট্রনের",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিউট্রনের",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "chemistry-1",
+    "question": "গোলাপের পাপড়ি থেকে গোলাপজল তৈরির প্রক্রিয়া হলো-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পাতন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রিফ্লাস্ক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দ্রাবক নিস্কাশন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বাষ্পপাতন",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "chemistry-1",
+    "question": "জাল টাকা শনাক্ত করার জন্য টাকায় যুক্ত রয়েছে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রতিপ্রভা পদার্থ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অনুপ্রভা পদার্থ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চৌম্বক পদার্থ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তেজস্ক্রিয় পদার্থ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "chemistry-1",
+    "question": "s-উপস্তরে কয়টি অরবিটাল আছে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১টি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "৪টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৭টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১৪টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "chemistry-1",
+    "question": "নিম্নের কোন সিরিজের বর্ণালি দৃশ্যমান এলাকায় পাওয়া যায়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লাইম্যান সিরিজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফান্ড সিরিজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বামার সিরিজ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ব্রাকেট সিরিজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "chemistry-1",
+    "question": "ব্লিচিং পাউডারের রাসায়নিক নাম কী?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্যালসিয়াম হাইপোক্লোরাইট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্যালসিয়াম ক্লোরাইট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্যালসিয়াম ক্লোরো হাইপো ক্লোরাইট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ক্যালসিয়াম ক্লোরো হাইপো ব্রোমাইট",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "chemistry-1",
+    "question": "সিক্ত পরীক্ষায় Na+ এর বর্ণ?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সাদা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "সোনালী হলুদ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হলুদ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লাল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "chemistry-1",
+    "question": "প্রধান কোয়ান্টাম সংখ্যা কী নির্দেশ করে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কক্ষপথের আকার",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কক্ষপথ থেকে কক্ষপথের দূরত্ব",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কক্ষপথের আকৃতি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কক্ষপথের ব্যাস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "chemistry-1",
+    "question": "MRI পদ্ধতি প্রতিষ্ঠিত-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিউক্লিয়ার চৌম্বকীয় অনুরণন এর উপর",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "মেডিকেল অবলোহিত থার্মগ্রাফির উপর",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রেডিও ফ্রিকুয়েন্সীর সিগনালের উপর",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "চৌম্বকীয় অনুরণন প্রতিচ্ছবির উপর",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "chemistry-1",
+    "question": "MRI এর কোন নিউক্লিয়াসটি সচরাচর ব্যবহৃত হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "H",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "F",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "P",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "C",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "chemistry-1",
+    "question": "শিখা পরীক্ষায় নিচের কোন আয়নের বর্ণ পোড়া ইটের মতো লাল?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Na+",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "K-",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Cu++",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Ca++",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "chemistry-1",
+    "question": "বেরিয়াম শিখা পরীক্ষায় কি বর্ণ দেয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সোনালী হলুদ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সবুজাভ নীল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হলুদাভ সবুজ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ইটের মতো লাল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "chemistry-1",
+    "question": "কোনটি রক্তে O2 এর পরিমাণ বাড়ায়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অবলোহিত রশ্মি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "দৃশ্যমান আলো",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অতিবেগুনি রশ্মি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গামা রশ্মি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "chemistry-1",
+    "question": "শিখা পরীক্ষা কখন ব্যবহার করা হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হ্যালাইড শনাক্ত করতে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অধাতুর এসিড শনাক্ত করতে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অজানা ধাতব আয়নকে শনাক্ত করতে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "অজানা এসিডের ঘনমাত্রা নির্ণয় করতে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "chemistry-1",
+    "question": "ক্লোরিন গ্যাসের বর্ণ কীরূপ?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নীলাভ সাদা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নীলাভ সবুজ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "লাল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বর্ণহীন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "chemistry-1",
+    "question": "রোগ শনাক্তকরণে কোনটি ব্যবহৃত হবে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্রোমাটোগ্রাফি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "MRI",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "IR",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "NMR",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "chemistry-1",
+    "question": "A13+ আয়ন শনাক্তকরণে কোন বর্ণের অধঃক্ষেপ পড়ে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হালকা নীল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গাঢ় নীল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বাদামী",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সাদা",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "chemistry-1",
+    "question": "সবচেয়ে ভারী কণা হলো-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আলফা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "বিটা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রোটন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিউটন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "chemistry-1",
+    "question": "কোন রশ্মির তরঙ্গ দৈর্ঘ্য বেশি?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দৃশ্যমান",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অবলোহিত",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "গামা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মহাজাগতিক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "chemistry-1",
+    "question": "কোনটি চিকিৎসাশাস্ত্রে বর্তমান বহুল ব্যবহৃত?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "MRI",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "X-ray",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্রোমোটোগ্রাফী",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "IR",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "chemistry-1",
+    "question": "নিম্নের কোন বর্ণালী রেখা দৃশ্যমান অঞ্চলে দেখা যায়-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লিম্যান সিরিজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বামার সিরিজ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "প্যাশেন সিরিজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফুন্ড সিরিজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "chemistry-1",
+    "question": "কোন কণিকার স্থায়িত্ব সবচেয়ে কম?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইলেকট্রন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মেসন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "নিউট্রন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোটন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "chemistry-1",
+    "question": "Cr3+ আয়নে অযুগ্ম বা বিজোড় ইলেকট্রন সংখ্যা কতটি?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৬টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৫টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৪টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৩টি",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "chemistry-1",
+    "question": "হাইড্রোজেন বর্ণালিতে প্রাপ্ত লাইমেন সিরিজ কোন অঞ্চলের?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দৃশ্যমান",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অতিবেগুনি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "অবলোহিত",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দূর অবলোহিত",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "chemistry-1",
+    "question": "সুগন্ধিযুক্ত ফুল হতে নির্যাস সংগ্রহ করা হয়-",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পাতন প্রণালী",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আংশিক পাতন প্রণালী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বাষ্পপাতন প্রণালী",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "উর্ধ্বপাতন প্রণালী",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "chemistry-1",
+    "question": "ক্রোমাটোগ্রাফিতে কয়টি দশা থাকে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "২",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "৩",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৪",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "chemistry-1",
+    "question": "ইউরেনিয়ামের পারমাণবিক সংখ্যা কোনটি?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৮২",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৯২",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "১০২",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১১২",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "chemistry-1",
+    "question": "ক্রোমাটোগ্রাফি পদ্ধতি উদ্ভাবন করেন কে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সোয়েট",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "গিলার্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হপকিনস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এডওয়ার্ড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "chemistry-1",
+    "question": "কোন অরবিটালটির শক্তি বেশি?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "4s",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "3p",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "4p",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "3d",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 50,
+    "subject": "chemistry-1",
+    "question": "শিখা পরীক্ষায় সোডিয়াম কোন বর্ণ ধারণ করে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নীল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লাল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সোনালী হলুদ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "বেগুনি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 51,
+    "subject": "chemistry-1",
+    "question": "ইলেকট্রনসমূহ শক্তি বিকিরণ করে ৫ম শক্তিস্তরে ফিরে আসলে এদের কোন সিরিজ বলা হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বামার সিরিজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফুনড সিরিজ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "প্যাশেন সিরিজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্যাশ্চেন সিরিজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 52,
+    "subject": "chemistry-1",
+    "question": "বিটা রশ্মি কী?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোটনের প্রবাহ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইলেকট্রনের প্রবাহ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "হিলিয়াম নিউক্লিয়াসের প্রবাহ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিউট্রনের প্রবাহ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
   }
 ]
