@@ -193,7 +193,12 @@ export default function ExamPage() {
             })}
           </div>
 
-          <Button onClick={() => location.reload()}>Restart</Button>
+          <div className="flex items-center gap-2 w-full">
+            <Button className="w-full" onClick={() => location.reload()}>Restart</Button>
+            <Button className="w-full" variant={"outline"} onClick={() => location.reload()}>
+              Restart with same subject
+            </Button>
+          </div>
         </div>
       )}
     </div>
