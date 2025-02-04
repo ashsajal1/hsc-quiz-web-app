@@ -13,6 +13,7 @@ import { Progress } from "@/components/ui/progress";
 import { shuffleArray } from "@/lib/utils"; // Utility to shuffle array
 import { Option, Questions } from "@/lib/type";
 import { useQuizStore } from "@/store/useQuizStore";
+import { useLocation } from "react-router-dom";
 
 const EXAM_DURATION = 10 * 60; // 10 minutes in seconds
 
@@ -29,6 +30,18 @@ export default function ExamPage() {
   const [timeLeft, setTimeLeft] = useState(EXAM_DURATION);
   const [examFinished, setExamFinished] = useState(false);
   const [score, setScore] = useState<number | null>(null);
+  
+  const location = useLocation();
+
+  // Extract subject and chapter from query parameters
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const subjectParam = params.get("subject");
+    const chapterParam = params.get("chapter");
+
+    if (subjectParam) setSubject(subjectParam);
+    if (chapterParam) setChapter(chapterParam);
+  }, [location.search]);
 
   const chaptersForSelectedSubject = getChaptersBySubject(subject);
 
@@ -194,8 +207,14 @@ export default function ExamPage() {
           </div>
 
           <div className="flex items-center gap-2 w-full">
-            <Button className="w-full" onClick={() => location.reload()}>Restart</Button>
-            <Button className="w-full" variant={"outline"} onClick={() => location.reload()}>
+            <Button className="w-full" onClick={() => window.location.reload()}>
+              Restart
+            </Button>
+            <Button
+              className="w-full"
+              variant={"outline"}
+              onClick={() => window.location.reload()}
+            >
               Restart with same subject
             </Button>
           </div>
