@@ -153,7 +153,7 @@ export default function ExamPage() {
               const isCorrect = correctOption?.id === selectedOptionId;
 
               return (
-                <Card key={q.id} className="p-4 space-y-2">
+                <Card key={q.id} className={`p-4 space-y-2 ${isCorrect? 'border border-green-600':'border border-red-600'}`}>
                   <p className="font-medium">
                     {index + 1}. {q.question}
                   </p>
