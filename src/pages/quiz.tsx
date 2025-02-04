@@ -90,13 +90,13 @@ export default function QuizPage() {
   };
 
   return (
-    <div className="container mx-auto p-8 space-y-6">
+    <div className="container flex flex-col items-center justify-center mx-auto p-8 space-y-6">
       <h1 className="text-3xl font-bold">Quiz Page</h1>
 
       {/* Selectors for Topic and Chapter */}
-      <div className="flex flex-col sm:flex-row gap-4">
+      <div className="flex flex-col w-full sm:w-auto sm:flex-row gap-4">
         <Select value={selectedTopic} onValueChange={(val) => { setSelectedTopic(val); setCurrentQuestionIndex(0); }}>
-          <SelectTrigger className="w-[180px]">
+          <SelectTrigger className="w-full sm:w-[180px]">
             <SelectValue placeholder="Select topic" />
           </SelectTrigger>
           <SelectContent>
@@ -109,7 +109,7 @@ export default function QuizPage() {
         </Select>
 
         <Select value={selectedChapter} onValueChange={(val) => { setSelectedChapter(val); setCurrentQuestionIndex(0); }}>
-          <SelectTrigger className="w-[180px]">
+          <SelectTrigger className="w-full sm:w-[180px]">
             <SelectValue placeholder="Select chapter" />
           </SelectTrigger>
           <SelectContent>
