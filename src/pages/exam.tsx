@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, Fragment } from "react";
 import questionsData from "@/data/questions.json"; // Import questions JSON
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -140,7 +140,15 @@ export default function ExamPage() {
           {examQuestions.map((q, index) => (
             <Card key={q.id} className="p-4 space-y-2">
               <p className="font-medium">
-                {index + 1}. {q.question}
+                {index + 1}.{" "}
+                <span className="mb-4 font-semibold">
+                  {q.question.split("\n").map((line, index) => (
+                    <Fragment key={index}>
+                      {line}
+                      <br />
+                    </Fragment>
+                  ))}
+                </span>
               </p>
               {q.options.map((option: Option) => (
                 <Button
@@ -184,7 +192,15 @@ export default function ExamPage() {
                   }`}
                 >
                   <p className="font-medium">
-                    {index + 1}. {q.question}
+                    {index + 1}.{" "}
+                    <span className="mb-4 font-semibold">
+                      {q.question.split("\n").map((line, index) => (
+                        <Fragment key={index}>
+                          {line}
+                          <br />
+                        </Fragment>
+                      ))}
+                    </span>
                   </p>
                   {q.options.map((option: Option) => (
                     <Button
@@ -215,12 +231,12 @@ export default function ExamPage() {
               className="w-full"
               variant={"outline"}
               onClick={() => {
-                setExamStarted(false);     // Stop current exam
-                setSelectedAnswers({});    // Reset selected answers
-                setTimeLeft(EXAM_DURATION);// Reset timer
-                setExamFinished(false);    // Mark exam as not finished
-                setScore(null);            // Reset score
-            
+                setExamStarted(false); // Stop current exam
+                setSelectedAnswers({}); // Reset selected answers
+                setTimeLeft(EXAM_DURATION); // Reset timer
+                setExamFinished(false); // Mark exam as not finished
+                setScore(null); // Reset score
+
                 // Restart exam while keeping the same subject and chapter
                 setExamStarted(true);
               }}
