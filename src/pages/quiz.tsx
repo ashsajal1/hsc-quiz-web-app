@@ -9,22 +9,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { Option, Question } from "@/lib/type";
 
-// Create a type for your question data
-type Option = {
-  id: number;
-  text: string;
-  isCorrect: boolean;
-};
-
-type Question = {
-  id: number;
-  subject: string;
-  question: string;
-  options: Option[];
-  explanation: string;
-  hint: string;
-};
 
 // Parse questions (if needed, here we assume they are valid JSON already)
 const questions: Question[] = JSON.parse(JSON.stringify(questionsJson));
@@ -35,7 +21,7 @@ export default function QuizPage() {
   const topics = useMemo(() => {
     const set = new Set<string>();
     questions.forEach((q) => {
-      const [topic] = q.subject.split("-");
+      const topic = q.subject
       set.add(topic);
     });
     return Array.from(set);
@@ -44,15 +30,15 @@ export default function QuizPage() {
   const chapters = useMemo(() => {
     const set = new Set<string>();
     questions.forEach((q) => {
-      const parts = q.subject.split("-");
-      if (parts.length > 1) set.add(parts[1]);
+      const chapter = q.chapter;
+      set.add(chapter);
     });
     
     return Array.from(set);
   }, []);
 
   const [selectedTopic, setSelectedTopic] = useState<string>(topics[0] || "");
-  const [selectedChapter, setSelectedChapter] = useState<string>(chapters[0] || "");
+  const [selectedChapter, setSelectedChapter] = useState<string>(chapters[0] || "0");
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
   const [showAnswer, setShowAnswer] = useState<boolean>(false);
@@ -60,7 +46,8 @@ export default function QuizPage() {
   // Filter questions based on selected topic and chapter
   const filteredQuestions = useMemo(() => {
     return questions.filter((q) => {
-      const [topic, chapter] = q.subject.split("-");
+      const topic = q.subject
+      const chapter = q.chapter;
       return topic === selectedTopic && chapter === selectedChapter;
     });
   }, [selectedTopic, selectedChapter]);
