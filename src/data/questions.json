@@ -25335,5 +25335,5649 @@
     ],
     "explanation": "",
     "hint": ""
+  },
+
+  {
+    "id": 1,
+    "subject": "biology-1",
+    "question": "কোন দশটি অত্যন্ত স্বল্পস্থায়ী?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোফেজ-১",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অ্যানাফেজ-১",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রো-মেটাফেজ-১",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "মেটাফেজ-১",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "biology-1",
+    "question": "কোন ধাপে নিউক্লিয়াস আকারে বড় হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোফেজ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "মেটাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "এনাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টেলোফেজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "biology-1",
+    "question": "দুইটি ননসিস্টার ক্রোমাটিডের ক্রস (x) আকৃতির জোড়াস্থলকে কী বলে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বাইভ্যালেন্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্রসিংওভার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কায়াজমা",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সিন্যাপস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "biology-1",
+    "question": "হামোলোগাস ক্রোমোসোমগুলো বাইভ্যালেন্টের মাঝে কত ডিগ্রি করে থাকে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৩০",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৫০",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৭০",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৯০",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "biology-1",
+    "question": "অনিয়ন্ত্রিত মাইটোসিসের কুফল হলো-\ni. টিউমার\nii. যক্ষ্মা\niii. ক্যান্সার\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "biology-1",
+    "question": "মাইটোসিস কোষ বিভাজনের কোন ধাপে ক্রোমোজোমে জলযোজন ঘটে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রো-মেটাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "এনাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টেলোফেজ",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "biology-1",
+    "question": "সমীকরণিক বিভাজন ঘটে-\ni. ব্যাকটেরিয়ায়\nii. ঈস্টে\niii. আদিকোষী জীবে\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "biology-1",
+    "question": "ক্রোমোজোমের জোড়া সৃষ্টি হয় কোন পর্যায়ে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লেপ্টোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জাইগোটিন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "প্যাকাইটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ডায়াকাইনেসিস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "biology-1",
+    "question": "মাইটোসিসের কোন পর্যায়ে ক্রোমোজোমগুলো কোষের বিষুবতলে অবস্থান করে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রো-মেটাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মেটাফেজ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "অ্যানাফেজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "biology-1",
+    "question": "একই বাহুর দুটি ক্রোমাটিড সমান্তরালে অবস্থান করে কোন ধাপে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোফেজ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "প্রো-মেটাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মেটাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টেলোফেজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "biology-1",
+    "question": "প্রো-মেটাফেজ স্পিন্ডল তন্তু দেখা যায় -\ni. মাকুতন্তু\nii. স্পিন্ডলতন্তু\niii. ক্রোমোজোমাল তন্তু\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "biology-1",
+    "question": "উদ্ভিদ ও প্রাণীর দৈহিক গঠন ও বৃদ্ধির মূল কারণ -",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মাইটোসিস",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "মায়োসিস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যামাইটোসিস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ডায়াকাইনোসিস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "biology-1",
+    "question": "নিউক্লিওলাসের অবলুপ্তি ঘটে কোন উপপর্যায়ে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লেপ্টোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জাইগোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডিপ্লোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ডায়াকাইনেসিস",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "biology-1",
+    "question": "মিয়োসিস কোষ বিভাজনে DNA এর প্রতিরূপ সৃষ্টি হয় কোন ধাপে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইন্টারকাইনেসিসে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রোফেজ - ১ এ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "প্রোফেজ - ২ এ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মেটাফেজ - ১ এ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "biology-1",
+    "question": "যৌন জননশীল জীবের ভিন্ন গ্যামিটদ্বয় মিলিত হয়ে কী ধরনের জাইগোট গঠন করে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হ্যাপ্লয়েড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ডিপ্লয়েড",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ট্রিপ্লয়েড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টেট্রাপ্লয়েড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "biology-1",
+    "question": "কোষ বিভাজনের ইন্টারফেজ দশায় কি ঘটে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মাকুযন্ত্র তৈরি হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সাইটোকাইনেসিস ঘটে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সেন্ট্রোমিয়ার বিভক্ত হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোটিন ও DNA-র সংশ্লেষ ঘটে",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "biology-1",
+    "question": "মিয়োসিস কোষ বিভাজনের কোন পর্যায়ে অপত্য কোষের ক্রোমোজোম সংখ্যা মাতৃকোষের অর্ধেক হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোফেজ – ১",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মেটাফেজ - ১",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যানাফেজ – ১",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "টেলোফেজ - ১",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "biology-1",
+    "question": "কোষ চক্রের কত ভাগ মাইটোসিস ব্যয় হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৯-১২ ভাগ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১৬-২০ ভাগ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৫-১০ ভাগ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "১৫-২০ ভাগ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "biology-1",
+    "question": "কোষ প্রস্তুতির বিরাম-১ উপপর্যায়ে-\ni. বিভিন্ন প্রোটিন ও RNA সংশোষিত হয়\nii. DNA অনুলিপন হয়\niii. ৩০-৪০% সময় ব্যয় হয়\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "biology-1",
+    "question": "কোন জীবের জাইগোটে ক্রোমোসম সংখ্যা দ্বিগুণ হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফার্ন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "শৈবাল",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "জিম্লোস্পার্ম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যানজিওস্পার্ম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "biology-1",
+    "question": "ইন্টারফেজের কোন দশায় কোষ প্রচুর ATP ও প্রোটিন অণুতে পূর্ণ থাকে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "G1 দশা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "G2 দশা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "S দশা",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সবগুলো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "biology-1",
+    "question": "উপরোক্ত চিত্রটি কোন ধরনের কোষ বিভাজনের?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সমীকরণিক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মাইটোসিস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মিয়োসিস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যামাইটোসিস",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "biology-1",
+    "question": "কোন টিস্যুর কোষ মাইটোসিস প্রক্রিয়ায় বিভাজিত হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ভাজক টিস্যু",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "স্থায়ী টিস্যু",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্ষরণকারী টিস্যু",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবগুলো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "biology-1",
+    "question": "ক্রোমোসোমের সর্বাধিক খাটো ও মোটা হয় কোন ধাপে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মেটাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যানাফেজ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "টেলোফেজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "biology-1",
+    "question": "জীবদেহের কোনো ক্ষতস্থান কোন প্রক্রিয়ায় দ্রুত পূরণ হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অঙ্গজ জনন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মাইটোসিস",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ক্রসিংওভার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "যৌন জনন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "biology-1",
+    "question": "ক্রোমোজোমের সেন্ট্রোমিয়ার বিষুব অঞ্চলে অবস্থান করে কোন ধাপে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মেটাফেজ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "এনাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "টেলোফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোফেজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "biology-1",
+    "question": "মাইটোসিসের সবচেয়ে দীর্ঘস্থায়ী পর্যায় কোনটি?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোফেজ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "প্রো-মেটাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মেটাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যানাফেজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "biology-1",
+    "question": "প্রোফেজ - ১ এর প্যাকাইটিন উপদশায় সৃষ্ট ঘটনা -\ni. কায়জমা সৃষ্টি হয়\nii. ক্রসিংওভার ঘটে\niii. নিউক্লিয়াস বিলুপ্ত হয়\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "biology-1",
+    "question": "মাইটোসিসের দীর্ঘস্থায়ী পর্যায় কোনটি?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোফেজ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "প্রো-মেটাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মেটাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টেলোফেজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "biology-1",
+    "question": "স্পিন্ডল যন্ত্রের মধ্যভাগকে সাধারণত কতটি ক্রোমাটিড থাকে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "২টি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "৩টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৪টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "biology-1",
+    "question": "কোন বিভাজনকে হ্রাসমূলক বিভাজন বলে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মাইটোসিস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অ্যামাইটোসিস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মিয়োসিস",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ক্যারিওকাইনেসিস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "biology-1",
+    "question": "নিরক্ষীয় অঞ্চলমুখী ক্রোমোসোমের বিচলন ঘটে-\ni. মাইটোসিস বিভাজনের শেষ ধাপে\nii. মাইটোসিস বিভাজনের দ্বিতীয় ধাপে\niii. মাইটোসিস বিভাজনের প্রো-মেটাফেজ ধাপে\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "biology-1",
+    "question": "কোন কোষ বিভাজনকে বিয়োজন বিভাজন বলে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মাইটোসিস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অ্যামাইটোসিস",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সাইটোকাইনেসিস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মিয়োসিস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "biology-1",
+    "question": "বাইভ্যালেন্ট থেকে উদ্ভুত চারটি ক্রোমাটিডকে একত্রে কী বলে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কোমোমিয়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "টেট্রাড",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সিন্যাপসিস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কায়াজমা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "biology-1",
+    "question": "মাইটোসিসের কোন পর্যায়ে নিউক্লিওলাস ও নিউক্লিয়ার মেমব্রেনের বিলুপ্তি ঘটে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রো-মেটাফেজ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "মেটাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যানাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টেলোফেজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "biology-1",
+    "question": "নিউক্লিয়ার রেটিকুলামকে ঘিরে নিউক্লিওপর্দার পুন:আবির্ভাব ঘটে কোন ধাপে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অ্যানাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "টেলোফেজ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "মেটাফেজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "biology-1",
+    "question": "মাইটোসিসের ধাপ -\ni. প্রোফেজ\nii. প্রো-মেটাফেজ\niii. মেটাফেজ\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "biology-1",
+    "question": "ইন্টারফেজ পর্যায়ের নিউক্লিয়াসকে কী বলা হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গাঠনিক নিউক্লিয়াস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বিপাকীয় নিউক্লিয়াস",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সংশ্লেষীয় নিউক্লিয়াস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অগঠনিক নিউক্লিয়াস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "biology-1",
+    "question": "ইন্টারকাইনেসিসের সময় সংশ্লেষিত হয় -\ni. RNA\nii. DNA\niii. প্রোটিন\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "biology-1",
+    "question": "মিয়োসিস বিভাজনে ক্রোমোজোম কয়বার বিভক্ত হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দুই বার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তিন বার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "এক বার",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "চার বার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "biology-1",
+    "question": "সাইটোকাইনেসিস এর অর্থ কী?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কোষের বিভাজন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিউক্লিয়ায়াসের বিভাজন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সাইটোপ্লাজমের বিভাজন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ক্রোমোসোমের বিভাজন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "biology-1",
+    "question": "অ্যামাইটোসিস কোষ বিভাজন ঘটে-\ni. ঈস্ট জাতীয় ছত্রাকে\nii. মাছের দেহকোষে\niii. মেরুদন্ডী প্রাণীর ভ্রূণপর্দায়\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "biology-1",
+    "question": "সেন্ট্রোমিয়ার কোন তন্তুর সাথে সংযুক্ত থাকে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্পিন্ডল তন্তু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রোটিন তন্তু",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ট্রাকশান তন্তু",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "অ্যাস্টার তন্তু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "biology-1",
+    "question": "Walter Flemming কত সালে প্রথম কোষ বিভাজন লক্ষ করেন?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১৮৮০",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১৮৮২",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "১৮৮৪",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১৮৮৬",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "biology-1",
+    "question": "ক্রসিংওভারের ফলে -\ni. ক্রোমোজোমের জিনসমূহের মূল বিন্যাস পরিবর্তন ঘটে\nii. লিঙ্কড জিনসমূহের মধ্যে রিকম্বিনেশন ঘটে\niii. নিউক্লিয়ার মেমব্রেন সৃষ্টি হয়\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "biology-1",
+    "question": "কোন উপপর্যায়ের শেষে নিউক্লিওলাস অদৃশ্য হয়ে যায়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ডিপ্লোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জাইগোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্যাকাইটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ডায়াকাইনেসিস",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "biology-1",
+    "question": "DNA উৎপাদনের জন্য প্রয়োজনীয় এনজাইম উৎপাদন শুরু হয় কোন দশায়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিরাম – ১",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "DNA অনুলিপন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "DNA সংকোচন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিরাম - ২",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "biology-1",
+    "question": "কোষ চক্রে পর্যায়গুলো হলো -\ni. ইন্টারফেজ\nii. সাইটোকাইনেসিস\niii. বিভাজন পর্যায়\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "biology-1",
+    "question": "অনিয়ন্ত্রিত মাইটোসিসের ফলে কোন রোগ সৃষ্টি হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জন্ডিস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "টিউমার",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "থ্যালাসেমিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পালমোনারি ডিজিস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 50,
+    "subject": "biology-1",
+    "question": "বাইভ্যালেন্ট সৃষ্টি হয় -\ni. হোমোলোগাস ক্রোমোজোমের মধ্যে\nii. জোড়ায় জোড়ায় মিলিত হয়ে\niii. নন হোমোলোগাস ক্রোমোজোমের মধ্যে\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 51,
+    "subject": "biology-1",
+    "question": "কোষ প্লেটে সঞ্চিত পদার্থ কোনটি?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সেলুলোজ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "প্রোটামিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 52,
+    "subject": "biology-1",
+    "question": "মাইটোসিসের কোন পর্যায়ে সাইটোকাইনেসিস ঘটে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মেটাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অ্যানাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রোফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টেলোফেজ",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 53,
+    "subject": "biology-1",
+    "question": "ক্রোমোজোমগুলোকে ইংরেজি বর্ণমালার V, L, J ও I অক্ষরের মতো দেখায় মাইটোসিসের -",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোফেজ দশায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অ্যানাফেজ দশায়",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "টেলোফেজ দশায়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মেটাফেজ দশায়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 54,
+    "subject": "biology-1",
+    "question": "মিয়োসিস কোষ বিভাজন ঘটে থাকে-\ni. হ্যাপ্লয়েড উদ্ভিদের জাইগোটে\nii. ডিপ্লয়েড উদ্ভিদের দৈহিক কোষে\niii. ডিপ্লয়েড উদ্ভিদের জননকোষে\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 55,
+    "subject": "biology-1",
+    "question": "কোষ বিভাজনে কোষ চক্রের বর্ণনা দেন -",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হাওয়ার্ড ও পেল্ক",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "স্লেইডেন ও সোয়ান",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "শ্লেইখার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ওয়াল্টার স্কট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 56,
+    "subject": "biology-1",
+    "question": "হোমোগোলাস ক্রোমোজোমের জোড় বাঁধার প্রক্রিয়াকে কী বলে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্রসিংওভার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বাইভ্যালেন্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সাইন্যাপসিস",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "কোনটিই নয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 57,
+    "subject": "biology-1",
+    "question": "অ্যামাইটোসিস বা প্রত্যক্ষ কোষ বিভাজনে-\ni. নিউক্লিয়াস ও সাইটোপ্লাজম সরাসরি বিভক্ত হয়\nii. কোষের মধ্যভাগে চক্রাকার গর্ত হয়ে দুটি অপত্যকোষের সৃষ্টি হয়\niii. সৃষ্ট অপত্য কোষে দুটি মাতৃকোষের অনুরূপ\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 58,
+    "subject": "biology-1",
+    "question": "কোষচক্র প্রবর্তিত হয় কত সালে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১৯৫৩",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "১৯৬৩",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "১৯৩৫",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১৯৫৫",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 59,
+    "subject": "biology-1",
+    "question": "J আকৃতির ক্রোমোজোমকে বলে -",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মেটাসেন্ট্রিক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সাব মেটাসেন্ট্রিক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যাক্রোসেন্ট্রিক",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "টেলোসেন্ট্রিক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 60,
+    "subject": "biology-1",
+    "question": "একটি ডিপ্লয়েড কোষে মিয়োসিস কতবার ঘটতে পারে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১ বার",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "২ বার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৩ বার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৪ বার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 61,
+    "subject": "biology-1",
+    "question": "মেটাসেন্ট্রিক প্রোফেজের আকৃতি -",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "V",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "L",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "J",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "I",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 62,
+    "subject": "biology-1",
+    "question": "মিয়োসিস কোথায় হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দেহ কোষে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জনন কোষে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "উভয়টিতে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোনটিতেই নয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 63,
+    "subject": "biology-1",
+    "question": "মিয়োসিস বিভাজনের বৈশিষ্ট্য -\ni. বাইভ্যালেন্ট সৃষ্টি হয়\nii. জীবের অভিব্যক্তি ঘটে\niii. হ্যাপ্লয়েড কোষ সৃষ্টি হয়\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 64,
+    "subject": "biology-1",
+    "question": "লেপ্টোটিন উপপর্যায়ে DNA তার কতগুণ প্রতিরূপ সৃষ্টি করে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দ্বিগুণ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "তিনগুণ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চারগুণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পাঁচগুণ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 65,
+    "subject": "biology-1",
+    "question": "মিয়োসিস কোষ বিভাজনের বেলায় ঘটে -\ni. অপত্য কোষগুলোতে ক্রোমোজোম সংখ্যা মাতৃকোষের অর্ধেক হয়\nii. বিভাজন শেষে চারটি অপত্য কোষের সৃষ্টি হয়\niii. অপত্য কোষের গুণাগুণ মাতৃকোষের অনুরূপ\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 66,
+    "subject": "biology-1",
+    "question": "কোন ধাপে ক্রসিংওভার দেখা যায়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লেপ্টোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জাইগোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্যাকাইটিন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ডিপ্লোটিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 67,
+    "subject": "biology-1",
+    "question": "প্রো-মেটাফেজ স্পিন্ডল যন্ত্রে তন্তু দেখা যায় -\ni. মাকুতন্তু\nii. স্পিন্ডলতন্তু\niii. ক্রোমোজোমাল তন্তু\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 68,
+    "subject": "biology-1",
+    "question": "ক্রসিংওভার কে আবিষ্কার করেন?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "T.H. Morgan",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Walter Flemming",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Bovery",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Strasburger",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 69,
+    "subject": "biology-1",
+    "question": "ক্রসিংওভার কোথায় হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মিয়োসিস-১",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "প্রোফেজ-২",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মিয়োসিস-২",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মেটাফেজ-২",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 70,
+    "subject": "biology-1",
+    "question": "প্রাণিকোষে দু’মেরুতে সেন্ট্রিওল থেকে বিচ্ছুরিত হয় -",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিটা রশ্মি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অ্যাস্টার রশ্মি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সিগমা রশ্মি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গামা রশ্মি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 71,
+    "subject": "biology-1",
+    "question": "মিয়োসিসের প্রোফেজ-১ ধাপের লেপ্টোটিন উপদশায়-\ni. নিউক্লিয়াসে জলযোজন ঘটে\nii. কোমোসোমগুলো রং ধারণ ক্ষমতা হারায়\niii. DNA প্রতিরূপ সৃষ্টি করে দ্বিগুণ হয়\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 72,
+    "subject": "biology-1",
+    "question": "ক্রসিংওভার ঘটে -\ni. সিস্টার ক্রোমাটিডের মধ্যে\nii. নন সিস্টার ক্রোমাটিডের মধ্যে\niii. হোমোলোগাস ক্রোমোজোমের ক্রোমাটিডের মধ্যে\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 73,
+    "subject": "biology-1",
+    "question": "সমসংস্থ ক্রোমোজোমের সমান্তরালভাবে জোড় বাধার পদ্ধতিকে কী বলে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সিন্যাপসিস",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ক্রসিংওভার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বাইভ্যালেন্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কায়াজমা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 74,
+    "subject": "biology-1",
+    "question": "ক্রোমোসোম ম্যাপিং এ কোন বৈশিষ্ট্য ব্যবহৃত হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্রসিংওভার",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অ্যামাইটোসিস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মাইটোসিস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মিয়োসিস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 75,
+    "subject": "biology-1",
+    "question": "ক্রসিংওভারের ফলে-\ni. ক্রোমোসোমের বিনিময় ঘটে\nii. ক্রোমোটিডের বিনিময় ঘটে\niii. জিনের বিনিময় ঘটে\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 76,
+    "subject": "biology-1",
+    "question": "স্পিন্ডল যন্ত্রের মধ্যভাগকে কী বলে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্রান্তীয় অঞ্চল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মেরু অঞ্চল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিষুবীয় অঞ্চল",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "দ্রাঘিমা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 77,
+    "subject": "biology-1",
+    "question": "ক্রসিং ওভারের বৈশিষ্ট্য হচ্ছে-\ni. সিস্টার ক্রোমাটিডের মধ্যে অংশের বিনিময়\nii. নন-সিস্টার কোমটিডের মধ্যে অংশের বিনিময়\niii. হোমালোগাস ক্রোমাজোমের ক্রোমটিডের মধ্যে অংশের বিনিময়\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 78,
+    "subject": "biology-1",
+    "question": "কোন বিভাজনটি মাইটোসিসের অনুরূপ?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মিয়োসিস – ১",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মিয়োসিস - ২",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "প্রোফেজ – ২",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোনটিই নয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 79,
+    "subject": "biology-1",
+    "question": "কায়াজমার প্রান্তীয়গমন কোন ধাপে দেখা যায়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লেপ্টোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জাইগোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্যাকাইটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ডিপ্লোটিন",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 80,
+    "subject": "biology-1",
+    "question": "একটি সম্পূর্ণ কোষ চক্রের প্রথম তিনটি দশা নিয়ে গঠিত অধ্যায়টিকে কি বলা হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইন্টারফেজ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "প্রোফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রোমেটাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মাইটোসিস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 81,
+    "subject": "biology-1",
+    "question": "ক্রসিংওভার সংঘটিত হয় -",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নন সিস্টার ক্রোমাটিডে",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "সিস্টার ক্রোমাটিডে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কোষপ্লেটে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ক ও খ উভয়টিতে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 82,
+    "subject": "biology-1",
+    "question": "মাইটোসিস কোষ বিভাজনের স্বল্পস্থায়ী পর্যায় কোনটি?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রো-মেটাফেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মেটাফেজ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "টেলোফেজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 83,
+    "subject": "biology-1",
+    "question": "প্রোফেজ - ১ এর কোন উপপর্যায়ে কায়াজমা সৃষ্টি হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লেপ্টোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জাইগোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্যাকাইটিন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ডিপ্লোটিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 84,
+    "subject": "biology-1",
+    "question": "ক্রোমোসোমগুলো সেন্টোমিয়ার ছাড়া অনুদৈর্ঘ্য বরাবর বিভক্ত হয়ে কী গঠন করে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্রোমোমিয়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্পিন্ডল যন্ত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্রোমাটিড",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "আকর্ষণ তন্তু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 85,
+    "subject": "biology-1",
+    "question": "কোন উপপর্যায়ে সিন্যাপসিস হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লেপ্টোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মেটাফেজহাইগোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্যাকাইটিন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ডিপ্লোটিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 86,
+    "subject": "biology-1",
+    "question": "এনাফেজ দশায় 'V' আকৃতির ক্রোমোজোমকে কি বলা হয়?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মেটাসেন্ট্রিক",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "সাবমেটাসেন্ট্রিক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যাক্রোসেন্ট্রিক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টেলোসেন্ট্রিক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 87,
+    "subject": "biology-1",
+    "question": "সাইটোকাইনেসিস শুরু হয় কোন ধাপে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোফেজ-২",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মেটাফেজ-২",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "টেলোফেজ-২",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "অ্যানাফেজ-২",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 88,
+    "subject": "biology-1",
+    "question": "যেসব উদ্ভিদ কোষে একাধিক নিউক্লিয়াস উৎপন্ন হয় তাদের কোষকে কি বলে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পিনোসাইটিক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সিনোসাইটিক",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ইনোসাইটিক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ডাইনিউক্লিক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 89,
+    "subject": "biology-1",
+    "question": "মানুষের বংশবৃদ্ধিতে অত্যাবশ্যকীয় ধাপ হলো-\ni. ইন্টারফেজ\nii. প্রোফেজ-১\niii. টেলোফেজ-১\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 90,
+    "subject": "biology-1",
+    "question": "একটি পূর্ণাঙ্গ ক্রোমোজোমে সাধারণত কতটি ক্রোমাটিড থাকে?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "২টি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "৩টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৪টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 91,
+    "subject": "biology-1",
+    "question": "প্রশ্নে উল্লেখিত জাতের গমের বংশবৃদ্ধিতে ভূমিকা রাখে কোনটি?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যামাইটোসিস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জনুক্রম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মিয়োসিস",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "মাইটোসিস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 92,
+    "subject": "biology-1",
+    "question": "অনুচ্ছেদটিতে বর্ণিত স্বাস্থ্যবান গাছের প্রাপ্তিতে ভূমিকা রেখেছে-\ni. মাইটোসিস প্রক্রিয়া\nii. সুস্পষ্ট জনুক্রম\niii. অ্যামাইটোসিস প্রক্রিয়া\nনিচের কোনটি সঠিক?",
+    "chapter": "2",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+
+  {
+    "id": 1,
+    "subject": "biology-1",
+    "question": "কোনটিতে ক্ষারীয় অ্যামিনো এসিডের পরিমাণ বেশি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোটামিন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "প্রোলামিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হিস্টোন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যালবুমিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "biology-1",
+    "question": "রিডিউসিং স্যুগার যে বিকারকগুলোর সাথে বিক্রিয়া করে -\ni. ফেহলিং বিকারক\nii. টলেন বিকারক\niii. বেনেডিক্ট বিকারক\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "biology-1",
+    "question": "আখের রসে সুক্রোজ কী পরিমাণে থাকে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১৫%",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "২৫%",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "২৮%",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৩৩%",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "biology-1",
+    "question": "সঞ্চিত পলিস্যাকারাইড -",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্টার্চ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "সেলুলোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পেকটিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হেমিসেলুলোজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "biology-1",
+    "question": "র্যামনোজ এর সংকেত কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "C6H12O5",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "C12H22O11",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "C3H12O5",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "C6H12O6",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "biology-1",
+    "question": "ফল ও বীজে সঞ্চিত খাদ্যরূপে জমা থাকে -",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্টেরয়েড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্নেহ দ্রব্য",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সালফোলিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মোম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "biology-1",
+    "question": "কোনটি পলিস্যাকারাইড?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্লুকোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফ্রুক্টোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্টার্চ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ম্যালটোজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "biology-1",
+    "question": "নিচের কোনটি অসম্পৃক্ত ফ্যাটি এসিড?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্টিয়ারিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পামিটিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যারাকিডোনিক এসিড",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "লিনোসেরিক এসিড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "biology-1",
+    "question": "জীবের দেহ গঠনকারী সর্বাপেক্ষা প্রয়োজনীয় পদার্থ কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রোটিন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "কার্বোহাইড্রেট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "খনিজ লবণ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "biology-1",
+    "question": "কোনটি প্রোটিওলাটিক এনজাইম?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রেনিন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অ্যামাইলেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সুক্রোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লাইগেজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "biology-1",
+    "question": "কোনটি জীবদেহের জৈব অনুঘটকরূপে কাজ করে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যান্টিবডি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হরমোন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এনজাইম",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "biology-1",
+    "question": "লিনোলেনিক এসিডের গলনাঙ্ক কত?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "100C",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "130C",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "-50C",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "-20C",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "biology-1",
+    "question": "এনজাইম হলো এক প্রকার -",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোটিন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "লিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কার্বোহাইড্রেট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সেলুলোজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "biology-1",
+    "question": "চামড়ার পোড়া ক্ষত নিরাময়ে ব্যবহৃত হয় নিচের কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "শর্করা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "এনজাইম",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "লিপিড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "biology-1",
+    "question": "- OH গ্রুপের α ও β অবস্থানের কারণে গ্লুকোজের -\ni. ভৌত বৈশিষ্ট্যের পরিবর্তন ঘটে\nii. রাসায়নিক বৈশিষ্ট্যের পরিবর্তন ঘটে\niii. জৈবিক বৈশিষ্ট্যের পরিবর্তন ঘটে\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "biology-1",
+    "question": "অ্যামাইলোপেকটিন এর শাখান্বিত অংশে কোন গ্লাইকোসাইডিক বন্ধন থাকে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "α-1, 2",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "α-1, 4",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "α-1, 6",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "α-1, 8",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "biology-1",
+    "question": "নিম্নের কোনটি উদ্ভুত লিপিড?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মোম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "চর্বি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সালফোলিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্টেরয়েড",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "biology-1",
+    "question": "লিপিডের আণবিক ওজন বৃদ্ধির সাথে সাথে -",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গলনাঙ্ক বৃদ্ধি পায়",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "গলনাঙ্ক হ্রাস পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গলনাঙ্ক অপরিবর্তিত থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পেপটাইড বন্ধন গঠন করে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "biology-1",
+    "question": "পুরুষ অপেক্ষা স্ত্রীলোকের হ্রদরোগ কম হওয়ার কারণ -",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্ত্রীলোকের রক্তে HDL বেশি এবং LDL কম",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "পুরুষের তুলনায় অধিক পরিশ্রমী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "শরীরের ওজন কম থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "চর্বি জাতীয় খাবার কম খায়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "biology-1",
+    "question": "লিপিড হলো -\ni. বেনজিন ও ক্লোরোফর্মে দ্রবণীয়\nii. অস্থিসন্ধিতে লুব্রিক্যান্ট হিসেবে ব্যবহৃত হয়\niii. আণবিক ওজন বাড়ার সাথে গলনাঙ্ক বৃদ্ধি পায়\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "biology-1",
+    "question": "কোনটি লবণের দ্রবণে দ্রবীভূত হয়ে ঘোলাটে দ্রবণ সৃষ্টি করে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্লুটেলিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গ্লোবিউলিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রোলামিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যালবুমিন",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "biology-1",
+    "question": "কোনটি ফল সংরক্ষণে ব্যবহৃত হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রাইবোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গ্লুকোজ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "লিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ইরিথ্রোজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "biology-1",
+    "question": "কার্বোহাইড্রেটে কার্বন ও অক্সিজেনের অনুপাত কত?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৪ : ১",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৩ : ২",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "২ : ১",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "৫ : ৩",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "biology-1",
+    "question": "এনজাইমের প্রোসথেটিক গ্রুপটি কোনো জৈব রাসায়নিক পদার্থ হলে তাকে কী বলা হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যাপোএনজাইম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কনজুগেটেড প্রোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কো-এনজাইম",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "কো-ফ্যাক্টর",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "biology-1",
+    "question": "প্রোটিনের গাঠনিক একক কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পেকটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নাইট্রিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যামাইনো এসিড",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "এসকরবিক এসিড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "biology-1",
+    "question": "কনফেকশনারিতে নানা প্রকার মিষ্টি জাতীয় দ্রব্য তৈরি করার জন্য কোনটি ব্যবহার করা হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সেলুলোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রাইবোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফ্রুক্টোজ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ইরিথ্রোজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "biology-1",
+    "question": "জিনের বৈশিষ্ট্য প্রকাশে কোন প্রোটিনের ভূমিকা রয়েছে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যালবুমিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হিস্টোন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "গ্লোবিউলিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোনোটিই নয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "biology-1",
+    "question": "কোনটি সংশ্লেষিত বা সংযুক্ত প্রোটিনের অন্তর্ভুক্ত?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্ক্লেরোপ্রোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লিপোপ্রোটিন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "গ্লোবিউলিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোটামিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "biology-1",
+    "question": "কী কারণে শুকনো বীজে এনজাইম নিষ্ক্রিয় থাকে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অতিরিক্ত তাপমাত্রা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অধিক অম্লত্ব",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পানির অনুপস্থিতি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "অ্যাকটিভেতরের অনুপস্থিতি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "biology-1",
+    "question": "দুটি অ্যামিনো এসিড দ্বারা গঠিত যৌগের নাম হবে -",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ট্রাইপেপটাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ডাই অ্যালডোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডাইপেপটাইড",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "পেন্টাকিটোজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "biology-1",
+    "question": "অ্যালকোহল ও ফ্যাটি অ্যাসিডের এস্টার লিপিড -\ni. তীব্র গন্ধযুক্ত পদার্থ\nii. বর্ণহীন পদার্থ\niii. স্বাদহীন পদার্থ\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "biology-1",
+    "question": "জীবদেহের জৈবনিক প্রক্রিয়ার নিয়ন্ত্রণকারী যা প্রোটিন দিয়ে তৈরি, তা হলো -\ni. এনজাইম\nii. হরমোন\niii. অ্যান্টিবডি\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "biology-1",
+    "question": "কোষস্থ রাসায়নিকে কোন মৌলটি সর্বোচ্চ পরিমাণে বিদ্যমান থাকে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কার্বন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অক্সিজেন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ক্যালসিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লৌহ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "biology-1",
+    "question": "উদ্ভূত লিপিডের অন্তর্ভুক্ত -\ni. স্টেরয়েড\nii. মোম\niii. টারপিনস\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "biology-1",
+    "question": "স্নেহ পদার্থকে বিশ্লিষ্টকারী এনজাইমের অন্তর্ভুক্ত -\ni. কোলেস্টেরল এসটারেজ\nii. লাইপেজ\niii. লেসিথিনেজ\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "biology-1",
+    "question": "কত তাপমাত্রায় এনজাইম অকেজো হয়ে যায়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২০-৪০0C",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৫০-৬০0C",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "৭০-৮০0C",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৯০-১০০0C",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "biology-1",
+    "question": "ডিমের কুসুমে কোন ধরনের প্রোটিন বিদ্যমান?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্লুটেলিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অ্যালবুমিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গ্লোবিউলিন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "প্রোলামিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "biology-1",
+    "question": "কোন ধরনের লিপিড উদ্ভিদের সঞ্চিত খাদ্যরূপে জমা থাকে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তেল ও চর্বি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "মোম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফসফোলিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্টেরয়েড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "biology-1",
+    "question": "গ্লাইকোসাইডিক বন্ধনী হলো -\ni. দুটি মনোস্যাকারাইড -OH গ্রুপের সংযুক্তি\nii. অলিগোস্যাকারাইড প্রান্ত এক প্রকার বন্ধনী\niii. পলিস্যাকারাইডের দুটি অণুর সংযুক্তি\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "biology-1",
+    "question": "কোন এনজাইম দুধকে ছানায় পরিণত করে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লেসিথিনেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইরেপসিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ল্যাকটোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কাইমোট্রিপসিন",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "biology-1",
+    "question": "HDL - এর ফলে কোন রোগটি হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লিউকোমিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্যান্সার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডায়াবেটিকস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "করোনারি থ্রম্বোসিস",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "biology-1",
+    "question": "ফসফোলিপিডে বিশেষ উপাদান হিসেবে কোনটি থাকে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যামিনো অ্যাসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিউক্লিক অ্যাসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফসফোটাইডিক অ্যাসি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সালফিউরিক অ্যাসিড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "biology-1",
+    "question": "স্বভোজী উদ্ভিদের কোষপ্রাচীর গঠনকারী পলিস্যাকারাইডটি -\ni. পানিতে ও জৈব দ্রবণে অদ্রবণীয়\nii. গাঢ় এসিডে আর্দ্রবিশ্লেষিত হয়ে গ্লুকোজে পরিণত হয়\niii. রাসায়নিকভাবে সক্রিয় আচরণ করে\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "biology-1",
+    "question": "রিডিউসিং স্যুগার -",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্লুকোজ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "শ্বেতসার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্টার্চ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সেলুলোজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "biology-1",
+    "question": "কনজুগেটেড এনজাইমের অপর নাম -",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লাইপোলাইটিক এনজাইম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হলো এনজাইম",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "হাইডোলেজ এনজাইম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিউক্লিয়েজ এনজাইম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "biology-1",
+    "question": "রক্তে কোলেস্টেরলের মাত্রা বেশি হলে -\ni. রক্তনালি পথ সরু হয়ে যায়\nii. শরীরে রক্তচাপ বেড়ে যায়\niii. রক্ত সরবরাহ বেড়ে যায়\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "biology-1",
+    "question": "নিচের কোনটি সরল প্রোটিন?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্রোমো প্রোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফসফো প্রোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লিপো প্রোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোটামিন",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "biology-1",
+    "question": "প্রোটিনের অ্যামিনো অ্যাসিড কী দ্বারা একে অন্যের সাথে যুক্ত হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পেপটাইড বন্ধন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "হাইড্রোজেন বন্ধন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গ্লাইকোসাইডিক বন্ধন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সমযোজী বন্ধন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "biology-1",
+    "question": "পাইরিমিডিন শ্রেণিভুক্ত ক্ষারক -\ni. থাইমিন\nii. গুয়ানিন\niii. সাইটোমিন\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 50,
+    "subject": "biology-1",
+    "question": "চালে কোন প্রোটিনটি পাওয়া যায়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্লিয়াডিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অরাইজেনিন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "জেইন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হরডেইন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 51,
+    "subject": "biology-1",
+    "question": "এনজাইম এর কার্যকারিতা নির্ভর করে -\ni. পানির পরিমাণের ওপর\nii. তাপমাত্রার ওপর\niii. pH এর উপর\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 52,
+    "subject": "biology-1",
+    "question": "সালোকসংশ্লেষণের সময় যে অস্থায়ী পেন্টোজ শর্করাটি উৎপন্ন হয় -",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রাইবোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রাইবুলোজ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সুক্রোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্টার্চ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 53,
+    "subject": "biology-1",
+    "question": "জীবের বৃদ্ধি ও বিকাশ নিয়ন্ত্রিত হরমোন কী দ্বারা গঠিত?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "শর্করা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আমিষ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "স্নেহ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এনজাইম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 54,
+    "subject": "biology-1",
+    "question": "মধুর প্রধান কাঁচামাল কী?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্লুকোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফ্রুক্টোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সুক্রোজ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "রাইবোজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 55,
+    "subject": "biology-1",
+    "question": "DNA, RNA ও এনজাইম গঠনকারী উপাদান কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কার্বোহাইড্রেট",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "প্রোটামিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 56,
+    "subject": "biology-1",
+    "question": "কোন বন্ধন দিয়ে মনোস্যাকারাইড অণু পরস্পর যুক্ত হয়ে অলিগোস্যাকারাইড গঠন করে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্লাইকোফসফেট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গ্লাইকোসাইডিক",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "গ্লাইকোপেপটাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গ্লাইকোসালফেট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 57,
+    "subject": "biology-1",
+    "question": "কোন পদার্থটি প্রতিটি জীবকোষ গঠন, কোষের সক্রিয়তা তথা বিপাক এবং বংশগতির সাথে জড়িত?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আমিষ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "শর্করা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্নেহ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 58,
+    "subject": "biology-1",
+    "question": "ট্রায়োজ স্যুগারের উদাহরণ কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এরিথ্রোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ম্যানোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডিহাইড্রক্সি অ্যাসিটোন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ডাইস্যাকারাইড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 59,
+    "subject": "biology-1",
+    "question": "পাইরিমিডিন শ্রেণিভুক্ত ক্ষারক -\ni. থাইমিন\nii. গুয়ানিন\niii. সাইটোসিন\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 60,
+    "subject": "biology-1",
+    "question": "এনজাইমেটিক ক্রিয়াকালে কো-এনজাইম কাজ করে -\ni. গ্রহীতা হিসেবে\nii. দাতা হিসেবে\niii. অ্যাক্টিভেটর হিসেবে\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 61,
+    "subject": "biology-1",
+    "question": "মানুষের রক্তে HDL - এর স্বাভাবিক মাত্রা কত?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "০. ১৩ - ১. ১৫%",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "০. ৪ - ১. ৫%",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "০. ৬ - ১. ২০%",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১. ১৫ - ১. ২০%",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 62,
+    "subject": "biology-1",
+    "question": "অপরিহার্য অ্যামিনো এসিড হলো -\ni. লিউসিন ও লাইসিন\nii. মিথিওনিন ও অ্যালানিন\niii. ইনুলিন ও ইনসুলিন\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 63,
+    "subject": "biology-1",
+    "question": "গ্লাইকোজেন সাধারণ তাপমাত্রায় আয়োডিনের সাথে কোন বর্ণ ধারণ করে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নীল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বেগুনি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লাল",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "কালো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 64,
+    "subject": "biology-1",
+    "question": "কোনটি নিউক্লিক এসিড গঠনে অংশগ্রহণ করে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ম্যানোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মল্টোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রাইবুলোজ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "এরিথ্রোজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 65,
+    "subject": "biology-1",
+    "question": "স্বাদে মিষ্টি বা স্বাদহীন পদার্থ কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কার্বোহাইড্রেট",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "লিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ভিটামিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোটিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 66,
+    "subject": "biology-1",
+    "question": "কাগজ ও আঠা তৈরিতে কোনটি ব্যবহৃত হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্টার্চ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "সেলুলোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোটিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 67,
+    "subject": "biology-1",
+    "question": "এনজাইমে প্রোস্থেটিক গ্রুপ হিসেবে কাজ করে কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "টারপিনয়েড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গ্লাইকোলিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফসফোলিপিড",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "নিউট্রাল লিপিড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 68,
+    "subject": "biology-1",
+    "question": "সালোকসংশ্লেষণ ও শ্বসন বিপাকক্রিয়ায় কোন এনজাইম গুরুত্বপূর্ণ ভূমিকা পালন করে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হেক্সোকাইনেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পাইরুভিট কার্বক্সিলেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইনভার্টেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সাইটোক্রোম অক্সিডেজ",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 69,
+    "subject": "biology-1",
+    "question": "ইনসুলিনে কতটি অ্যামিনো অ্যাসিড থাকে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৫৫",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৬৫",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৭৫",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "৮৫",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 70,
+    "subject": "biology-1",
+    "question": "অবিজারক চিনি কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্লুকোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফ্রুকটোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সুক্রোজ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "মল্টোজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 71,
+    "subject": "biology-1",
+    "question": "হেক্সোজ কী?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "একটি ডাইস্যাকারাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "একটি সরল শর্করা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "একটি অবিজারক চিনি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "একটি জটিল শর্করা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 72,
+    "subject": "biology-1",
+    "question": "কো-এনজাইম নিচের কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "STH",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "FAD",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "HDL",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "LTH",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 73,
+    "subject": "biology-1",
+    "question": "কোনটি সবচেয়ে মিষ্টি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সুক্রোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মলটোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গ্লুকোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফ্রুক্টোজ",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 74,
+    "subject": "biology-1",
+    "question": "মানুষের রক্তে কোলেস্টেরল এর স্বাভাবিক মাত্রা কত?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "০০৫-১০২%",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "০১৫-১২০%",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "০১৫-১৫০%",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "০২৫-১৭৫%",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 75,
+    "subject": "biology-1",
+    "question": "গ্লাইকোলিপিডের কাজ কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রক্ত তঞ্চনে ভূমিকা রাখে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সালোকসংশ্লেষণে সাহায্য করে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "শক্তি উৎপাদনে সাহায্য করে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোষ প্রাচীর গঠনে প্রধান ভূমিকা পালন করে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 76,
+    "subject": "biology-1",
+    "question": "কেসিন কোনটিতে পাওয়া যায়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ডিমে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিউক্লিয়াসে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রাইবোসোমে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দুধে",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 77,
+    "subject": "biology-1",
+    "question": "কোনটি দ্বিবন্ধনীকে সৃষ্টি বা অপসারিত করে গ্রুপ স্থানান্তর করে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হাইড্রোলেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লাইয়েজ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "অ্যামাইলেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লাইগেজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 78,
+    "subject": "biology-1",
+    "question": "মনোস্যাকারাইড এর সাধারণ নাম কী?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সরল শর্করা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "বিজারক শর্করা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অবিজারক শর্করা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ডাইস্যাকারাইড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 79,
+    "subject": "biology-1",
+    "question": "সকল প্রকার সালোকসংশ্লেষণকারী উদ্ভিদে প্রাপ্ত সর্বাপেক্ষা গুরুত্বপূর্ণ ডাইস্যাকারাইডটি -\ni. বিশুদ্ধ অ্যালকোহলে দ্রবণীয়\nii. লঘু এসিডে গ্লুকোজ ও ফ্রুক্টোজ গঠন করে\niii. পানিতে সম্পূর্ণরূপে দ্রবণীয়\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 80,
+    "subject": "biology-1",
+    "question": "প্রোস্থেটিক গ্রুপ হিসেবে শর্করাযুক্ত প্রোটিনটি -\ni. ক্ষারে দ্রবণীয়\nii. অম্লীয় স্বভাবের\niii. ভাইরাসে পাওয়া যায়\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 81,
+    "subject": "biology-1",
+    "question": "কোন এনজাইম সাবস্ট্রেট থেকে ফসফেট গ্রুপকে পৃথক করে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কর্বোক্সিলেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফসফোরাইলেজ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "লাইগেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যালডোজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 82,
+    "subject": "biology-1",
+    "question": "৯০% সেলুলোজ কোনটিতে থাকে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তুলা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তিসি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "কাঠ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তৃণলতা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 83,
+    "subject": "biology-1",
+    "question": "কোনটি তাপে জমাট বাঁধে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হিস্টোন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রোটামিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রোলামিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যালবুমিন",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 84,
+    "subject": "biology-1",
+    "question": "সকল প্রকার সালোকসংশ্লেষণকারী উদ্ভিদে কোনটি থাকে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সুক্রোজ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ল্যাকটোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মল্টোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "র্যাফিনেজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 85,
+    "subject": "biology-1",
+    "question": "প্রতিটি সজীব কোষের প্রোটোপ্লাজম কোষ থেকে সংশ্লেষিত হয় -",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিউক্লিক এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যামিনো এসিড",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সোমাটোট্রফিক হরমোন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 86,
+    "subject": "biology-1",
+    "question": "সেলুলোজ একটি -",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মনোস্যাকারাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ডাইস্যাকারাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পলিস্যাকারাইড",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "অলিগোস্যাকারাইড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 87,
+    "subject": "biology-1",
+    "question": "কোন প্রোটিন অম্ল ও ক্ষারে দ্রবীভূত হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যালবুমিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গ্লুটেলিন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "গ্লোবিউলিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোলামিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 88,
+    "subject": "biology-1",
+    "question": "গ্লুকোজের অপর নাম কী?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফ্রুক্টোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সুক্রোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডেক্সট্রোজ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "রাইবোজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 89,
+    "subject": "biology-1",
+    "question": "জীবদেহে শর্করা -\ni. শক্তির উৎস হিসেবে কাজ করে\nii. উদ্ভিদ গঠনকারী মূল পদার্থ\niii. সঞ্চিত খাদ্য হিসেবে থাকে\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 90,
+    "subject": "biology-1",
+    "question": "এনজাইম ক্রিয়া করে -\ni. Transition state সৃষ্টির মাধ্যমে\nii. Activation energy -র মাধ্যমে\niii. Reduction energy -র মাধ্যমে\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
   }
 ]
