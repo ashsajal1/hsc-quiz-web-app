@@ -214,9 +214,18 @@ export default function ExamPage() {
             <Button
               className="w-full"
               variant={"outline"}
-              onClick={() => window.location.reload()}
+              onClick={() => {
+                setExamStarted(false);     // Stop current exam
+                setSelectedAnswers({});    // Reset selected answers
+                setTimeLeft(EXAM_DURATION);// Reset timer
+                setExamFinished(false);    // Mark exam as not finished
+                setScore(null);            // Reset score
+            
+                // Restart exam while keeping the same subject and chapter
+                setExamStarted(true);
+              }}
             >
-              Restart with same subject
+              Restart with same questions
             </Button>
           </div>
         </div>
