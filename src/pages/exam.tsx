@@ -1,5 +1,3 @@
-"use client";
-
 import { useState, useEffect, useCallback } from "react";
 import questionsData from "@/data/questions.json"; // Import questions JSON
 import { Button } from "@/components/ui/button";
@@ -127,16 +125,13 @@ export default function ExamPage() {
                 {index + 1}. {q.question}
               </p>
               {q.options.map((option: Option) => (
-                <label key={option.id} className="flex items-center space-x-2">
-                  <input
-                    type="radio"
-                    name={`question-${q.id}`}
-                    value={option.id}
-                    onChange={() => handleAnswerSelect(q.id, option.id)}
-                    checked={selectedAnswers[q.id] === option.id}
-                  />
-                  <span>{option.text}</span>
-                </label>
+                <Button
+                  key={option.id}
+                  onClick={() => handleAnswerSelect(q.id, option.id)}
+                  className={`w-full text-left ${selectedAnswers[q.id] === option.id ? 'bg-blue-500 text-white' : 'bg-gray-100'}`}
+                >
+                  {option.text}
+                </Button>
               ))}
             </Card>
           ))}
@@ -148,8 +143,7 @@ export default function ExamPage() {
         <div className="space-y-4">
           <h1 className="text-2xl font-bold">Exam Finished!</h1>
           <p>Your Score: {score} / 25</p>
-          
-          {/* Display questions with answers after exam is finished */}
+
           <div className="space-y-4">
             <h2 className="text-xl font-bold">Review Your Answers</h2>
             {examQuestions.map((q, index) => {
@@ -167,14 +161,13 @@ export default function ExamPage() {
                       key={option.id}
                       className={`flex items-center space-x-2 ${selectedOptionId === option.id ? (isCorrect ? 'bg-green-200' : 'bg-red-200') : ''}`}
                     >
-                      <input
-                        type="radio"
-                        name={`question-${q.id}`}
-                        value={option.id}
-                        disabled
-                        checked={selectedAnswers[q.id] === option.id}
-                      />
-                      <span>{option.text}</span>
+                      <Button
+                        // disabled
+                        variant={'secondary'}
+                        className={`w-full text-left ${selectedOptionId === option.id ? (isCorrect ? 'bg-green-500 text-white' : 'bg-red-500 text-white') : ''}`}
+                      >
+                        {option.text}
+                      </Button>
                       {selectedOptionId === option.id && (
                         <span
                           className={`ml-2 text-sm font-semibold ${isCorrect ? 'text-green-600' : 'text-red-600'}`}
