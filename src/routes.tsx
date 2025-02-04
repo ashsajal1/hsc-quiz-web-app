@@ -7,6 +7,7 @@ import Login from './pages/login';
 import Signup from './pages/signup';
 import PrivateRoute from './pages/private-route';
 import Dashboard from './pages/dashboard';
+import QuizPage from './pages/quiz';
 
 export const router = createBrowserRouter([
     {
@@ -16,6 +17,10 @@ export const router = createBrowserRouter([
             {
                 path:'/',
                 element: <Home />
+            },
+            {
+                path:'/quiz',
+                element: <QuizPage />
             },
             {
                 path:'/about',
