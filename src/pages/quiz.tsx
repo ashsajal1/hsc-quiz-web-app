@@ -127,8 +127,8 @@ export default function QuizPage() {
                   className={`w-full text-left ${
                     showAnswer &&
                     option.isCorrect &&
-                    "bg-green-200 border-green-500"
-                  } ${showAnswer && !option.isCorrect && "bg-red-200 border-red-500"}`}
+                    "bg-green-500 border-green-500"
+                  } ${showAnswer && !option.isCorrect && "bg-red-500 border-red-500"}`}
                   onClick={() => handleOptionClick(option)}
                   disabled={showAnswer}
                 >
