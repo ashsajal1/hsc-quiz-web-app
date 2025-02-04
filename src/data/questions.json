@@ -1,93 +1,2761 @@
 [
-    {
-      "id": 1,
-      "subject": "physics-1st",
-      "question": "What is the name of the object that is moving in a circular path?",
-      "chapter":"1",
-      "label":"about matter",
-      "options": [
-        {
-          "id": 1,
-          "text": "A planet",
-          "isCorrect": true
-        },
-        {
-          "id": 2,
-          "text": "A star",
-          "isCorrect": false
-        },
-        {
-          "id": 3,
-          "text": "A comet",
-          "isCorrect": false
-        },
-        {
-          "id": 4,
-          "text": "A satellite",
-          "isCorrect": false
-        }
-      ],
-      "explanation": "This is explanation",
-      "hint": "This is hint"
-    },
-    {
-      "id": 1,
-      "subject": "physics-2nd",
-      "question": "What is the name of the object that is moving in a circular path?",
-      "chapter":"2",
-      "options": [
-        {
-          "id": 1,
-          "text": "A Hell",
-          "isCorrect": true
-        },
-        {
-          "id": 2,
-          "text": "A star",
-          "isCorrect": false
-        },
-        {
-          "id": 3,
-          "text": "A comet",
-          "isCorrect": false
-        },
-        {
-          "id": 4,
-          "text": "A satellite",
-          "isCorrect": false
-        }
-      ],
-      "explanation": "This is explanation",
-      "hint": "This is hint"
-    },
-    {
-      "id": 1,
-      "subject": "biology-2nd",
-      "question": "What is the name of the object that is moving in a circular path?",
-      "options": [
-        {
-          "id": 1,
-          "text": "A Hell",
-          "isCorrect": true
-        },
-        {
-          "id": 2,
-          "text": "A star",
-          "isCorrect": false
-        },
-        {
-          "id": 3,
-          "text": "A comet",
-          "isCorrect": false
-        },
-        {
-          "id": 4,
-          "text": "A satellite",
-          "isCorrect": false
-        }
-      ],
-      "explanation": "This is explanation",
-      "hint": "This is hint"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "subject": "biology-1",
+    "question": "১. পিউরিন জাতীয় ক্ষারক হলো-\ni. অ্যাডনিন\nii. গুয়ানিন\niii. থাইমিন\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "biology-1",
+    "question": "২. নিউক্লিওসাইড ফসফোরিক এসিডের সাথে যুক্ত হয়ে গঠন করে-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিউক্লিওটাইড",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "রাইবোজ শর্করা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফসফোলিপিড এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "রাইবোনিউক্লিক এসিড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "biology-1",
+    "question": "৩. ক্লোরোপ্লাস্টের জন্য প্রযোজ্য-\ni. ৫০-৬০টি গ্রানা থাকে\nii. আকৃতি (পেয়ালাকৃতি, সর্পিলাকার, জালিকার)\niii. ব্যাস ৩-৫ মাইক্রেন\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "biology-1",
+    "question": "৪. মানবদেহে ক্রোমোসোমের সংখ্যা কত?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২৩টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৪৪টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৪৬টি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "১৬০০টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "biology-1",
+    "question": "৫. মাইটোকন্ড্রিয়ার ভেতরের পর্দা কিছু দূর পর পর আঙ্গুলের মতো ভাঁজ হয়ে যে উপবৃদ্ধির মত গঠন তৈরি করে তাকে কী বলে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মাইক্রোভিলাই",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অক্সিসোম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্রিস্টি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "গ্রানাম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "biology-1",
+    "question": "৬. ক্লোরোপ্লাস্টের শুষ্ক ওজনের শতকরা কত অংশ লিপিড?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১০-২০",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "১০-৩০",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "১০-৪০",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১০-৫০",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "biology-1",
+    "question": "৭. প্রাথমিক কোষপ্রাচীরের নির্মাণ উপাদান -\ni. সেলুলোজ\nii. হেমিসেলুলোজ\niii. পেকটিক পদার্থ\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "biology-1",
+    "question": "৮. ফটোসিনথেটিক ইউনিটে থাকে -\ni. ক্লোরোফিল - A\nii. ক্লোরোফিল - B\niii. ক্লোরোফিল – C\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "biology-1",
+    "question": "৯. বিজ্ঞানী ক্যামিলা গলজি কোন দেশীয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চীন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইতালি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ইংরেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্প্যানিশ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "biology-1",
+    "question": "১০. ইলাইওপ্লাস্ট কোন জাতীয় পদার্থ সঞ্চয় করে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্টার্চ বা শ্বেতসার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তেল ও স্নেহ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "প্রোটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গ্লুকোজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "biology-1",
+    "question": "১১. লাইসোসোমকে কোষের সুইসাইডল স্কোয়াড বলার কারণ কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আমিষ সংশ্লেষণ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অটোফ্যাগ প্রক্রিয়া",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "স্নেহ জাতীয় পদার্থের বিপাক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পিনোক্যাগি প্রক্রিয়া",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "biology-1",
+    "question": "১২. প্রোটোপ্লাজমের কত শতাংশ পানি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২০-৪০%",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৩০-৬০%",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৫০০-৭০%",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৭০-৯০%",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "biology-1",
+    "question": "১৩. DNA অণুর মূল কাঠামো কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গুয়ানিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিউক্লিওটাইড",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "অ্যাডেনিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সাইটোসিস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "biology-1",
+    "question": "১৪. বংশবৃদ্ধিতে DNA অত্যন্ত গুরুত্বপূর্ণ কারণ এটি –",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বৃহৎ জৈব রাসায়নিক অণু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "N2 দ্বারা গঠিত",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিউক্লিয়াসে পাওয়া যায়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রতিরূপ সৃষ্টি করতে পারে",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "biology-1",
+    "question": "১৫. জিনের বৈশিষ্ট্য হচ্ছে -\ni. জিন DNA দ্বারা গঠিত\nii. ক্রোমোজোম দেহে প্রত্যেক জিনের স্থান নির্দিষ্ট\niii. একটি ক্রোমোজোমে অসংখ্য জিন থাকে\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "biology-1",
+    "question": "১৬. কোষের প্লাজমামেমব্রেন-\ni. সংক্রিয়ভাবে ক্ষত নিরাময় করে\nii. বৈষম্যভেদ্য ঝিল্লি হিসেবে কাজ করে\niii. কোষে অণুর যাতায়াত নিয়ন্ত্রণ করে\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "biology-1",
+    "question": "১৭. AUG কোন অ্যামিনো এসিডের কোডন?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফিনাইল এলানিন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মিথিওনিন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "হিস্টিডিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লাইসিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "biology-1",
+    "question": "১৮. কোনটি শুক্রাণুর লেজ গঠন করতে সাহায্য করে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সেন্ট্রিওল",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "রাইবোজোম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লাইসোজোম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মাইটোকন্ড্রিয়া",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "biology-1",
+    "question": "১৯. মাইটোকন্ড্রিয়ার শুষ্ক ওজনের শতকরা কত ভাগ প্রোটিন?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৪%",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "২৯%",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "২%",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৬৫%",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "biology-1",
+    "question": "২০. ক্রোমোজোমের দ্বিবিভাজন প্রত্যক্ষ করেন -",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Bowman, 1840",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Fontana, 1781",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Van Benden, 1887",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "W. Fleming, 1879",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "biology-1",
+    "question": "২১. কোনটি কোষ বিভাজনের মুখ্য বস্তু?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিউক্লিয়াস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রাইবোসোম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্রোমোজোম",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "গলগি বস্তু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "biology-1",
+    "question": "২২. গলজি বস্তু-\ni. এনজাইম ও হরমোন সংশ্লেষণে সহায়তা করে\nii. কোষপর্দা নবায়ন ও কোষপ্রাচীর গঠনে সাহায্য করে\niii. মাইটোকন্ড্রিয়াকে ATP উৎপাদনে উদ্বুদ্ধ করে\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "biology-1",
+    "question": "২৩. গলজি বস্তুতে ঝিল্লি বিশিষ্ট বিদ্যমান উপাদানগুলো হলো -\ni. ভ্যাকুওল\nii. সিস্টারনি\niii. ভেসিকল\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "biology-1",
+    "question": "২৪. সাইটোপ্লাজমে DNA কী আকারে থাকে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বৃত্তাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জটিলাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রিং আকার",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ষড়ভূজাকারে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "biology-1",
+    "question": "২৫. কোষের অম্লত্ব ও ক্ষারত্ব নিয়ন্ত্রণকারী অঙ্গাণু কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কোষপ্রাচীর",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সাইটোপ্লাজম",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "কোষঝিল্লি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এন্ডোপ্লাজমিক রেটিকুলাম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "biology-1",
+    "question": "২৬. কোষপ্রাচীরের কাজ কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কোষকে নির্দিষ্ট আকৃতি দান",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "নিউক্লিয়ার মেমব্রেন তৈরিতে সহায়তা করা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "শক্তি উৎপাদন করা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোটিন সঞ্চয় করা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "biology-1",
+    "question": "২৭. বিজ্ঞানী রবার্টস ও ফ্রাঞ্চি আবিষ্কৃত কোষীয় অঙ্গাণুটি-\ni. সাইটোপ্লাজমের সর্বত্র বিস্তৃত\nii. অতিসূক্ষ্ম ও শাখাযুক্ত\niii. এক প্রকার দীর্ঘ নালিকা\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "biology-1",
+    "question": "২৮. Robert Brown কত সালে নিউক্লিয়াস আবিষ্কার করেন?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১৮৩০",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১৮৩১",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "১৮৩২",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১৮৩৩",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "biology-1",
+    "question": "২৯. গলজি বস্তুর কাজ -\ni. লাইসোজোম তৈরি\nii. অপ্রোটিন জাতীয় পদার্থের সংশ্লেষণ\niii. প্রোটিন সংশ্লেষণ\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "biology-1",
+    "question": "৩০. নিউক্লিয়াস উৎপন্ন হয় নিচের কোনটি থেকে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "SAT ক্রোমোজোম থেকে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "SAT ক্রোমোজোমের স্যাটেলাইটের জিন থেকে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "অপত্য ক্রোমোজোম থেকে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিউক্লিয়াস থেকে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "biology-1",
+    "question": "৩১. প্রোক্যারিওটিক কোষের রাইবোজোম কোন ধরনের?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "50S",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "60S",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "70S",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "80S",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "biology-1",
+    "question": "৩২. DNA এর যে সব নিউক্লিওটাইড কোডন গঠন করে না তাদের কি বলে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইন্ট্রন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "রেকন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গ্লাইকোজেন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সিস্ট্রন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "biology-1",
+    "question": "৩৩. কোনটি বর্ণহীন প্লাস্টিড?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্রোমোটোপ্লাস্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্রোমোপ্লাস্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্লোরোপ্লাস্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লিউকোপ্লাস্ট",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "biology-1",
+    "question": "৩৪. সাধারণ কোষের বিভিন্ন উপাংশ পরিমাপের জন্য কোন এককটি ব্যবহৃত হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "mm",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "inch",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "μm",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "nm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "biology-1",
+    "question": "৩৫. সাধারণত একটি tRNA অণুতে কতটি ক্ষারক থাকে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৬০-৬৫",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৬৫-৭৫",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৭৫-৮৫",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "৮৫-৯৫",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "biology-1",
+    "question": "৩৬. আদর্শ অ্যামিনো এসিডের সংখ্যা -",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১০টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১৮টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "২৫টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "২০টি",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "biology-1",
+    "question": "৩৭. জিনের গঠনগত একক কী?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "mRNA",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "gRNA",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "rRNA",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "DNA",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "biology-1",
+    "question": "৩৮. কোষপর্দার স্থানে যে ভাঁজ সৃষ্টি হয় তাকে কী বলে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মাইক্রোভিলাস",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "মাইক্রোটিউবিউলস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মাইক্রোফাইব্রিল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মাইসেলি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "biology-1",
+    "question": "৩৯. সিনোসাইট কী?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এক প্রকার নিউক্লিয়াস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "এক প্রকার প্রোটোপ্লাজম",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "এক প্রকার কোষগহ্বর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এক প্রকার কোষঝিল্লি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "biology-1",
+    "question": "৪০. কোষঝিল্লির জটিল ফসফোলাইপিডের মধ্যে কোনটি প্রধান?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লেসিথিন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "গ্লাইকোলিপিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গ্লাইকোফসফোটাইড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফসফোটাইড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "biology-1",
+    "question": "৪১. কোষপ্রাচীরের ক্ষুদ্রতম গাঠনিক একক হলো -",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মাইসেলিস",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "মাইক্রোফাইব্রিল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ম্যাক্রোফাইব্রিল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সেলুলোজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "biology-1",
+    "question": "৪২. রাইবোজোমের প্রধান কাজ কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "খাদ্য তৈরি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "চর্বি তৈরি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রোটিন তৈরি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "রেচন ক্রিয়া",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "biology-1",
+    "question": "৪৩. কোষের অম্লত্ব ও ফারত্ব বজায় রাখে কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সাইটোপ্লাজম",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "প্লাজমালেমা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কোষপ্রাচীর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোষগহ্বর",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "biology-1",
+    "question": "৪৪. প্রতি কোষে মাইটোকিন্ড্রয়ার সংখ্যা কত?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১০০ থেকে ২০০",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "২০০ থেকে ৩০০",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৩০০ থেকে ৪০০",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "৪০০ থেকে ৫০০",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "biology-1",
+    "question": "৪৫. কোষের পদার্থবিহীন অঙ্গাণুটি-\ni. আদিকোষে অনুপস্থিত থাকে\nii. প্রতিটি কোষে থাকে\niii. প্রকৃত কোষে উপস্থিত থাকে\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "biology-1",
+    "question": "৪৬. সাইটোলজি বা কোষবিদ্যা জীববিজ্ঞানের একটি সমৃদ্ধ শাখা। এ শাখায় আলোচনা করা হয়-\ni. কোষের প্রকার সম্পর্কে\nii. অঙ্গাণুর ভৌত ও রাসায়নিক গঠন সম্পর্কে\niii. কোষের বিভাজন, বিকাশ ও জৈবিক কার্যাবলি সম্পর্কে\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "biology-1",
+    "question": "৪৭. সাইটোপ্লাজমে অবস্থিত পানিতে দ্রবীভূত জৈব ও অজৈব পদার্থের সংখ্যা কত?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৩৪",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৩৬",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "৪০",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৪৬",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "biology-1",
+    "question": "৪৮. নিউক্লিওলাসের রাসায়নিক উপাদান হলো -\ni. RNA\nii. প্রোটিন\niii. DNA\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "biology-1",
+    "question": "৪৯. পরপর কয়টি বেস মিলে একটি কোডনের সৃষ্টি হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৩টি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "৪টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৫টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 50,
+    "subject": "biology-1",
+    "question": "৫০. প্রজাতির চারিত্রিক বৈশিষ্ট্য প্রকাশের জন্য দায়ী –",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সেন্ট্রোসোম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মাইটোকন্ড্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্রোমোজোম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "জিন",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 51,
+    "subject": "biology-1",
+    "question": "৫১. সবুজ ভিন্ন অন্য সকল বর্ণের প্লাস্টিড কী নামে পরিচিত?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্লোরোপ্লাস্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লিউকোপ্লাস্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্রোমোপ্লাস্ট",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ক্রোমোটোপ্লাস্ট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 52,
+    "subject": "biology-1",
+    "question": "৫২. লিউকোপ্লাস্ট উদ্ভিদের কোন অঙ্গে অবস্থান করে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফুলে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কাণ্ডে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মূলে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "শাখায়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 53,
+    "subject": "biology-1",
+    "question": "৫৩. ক্ষারীয় ফুকসিন বা এসিটোকারমিন রঙের প্রতি আকর্ষিত নিউক্লিয়াসের অভ্যন্তরের বস্তুটি-\ni. স্বয়ংক্রিয়ভাবে বিভাজনে সক্ষম\nii. স্বকীয় গঠন ও বৈশিষ্ট্যমন্ডিত নয়\niii. বংশানুক্রমে অপরিবর্তনশীল\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 54,
+    "subject": "biology-1",
+    "question": "৫৪. জীবদেহের জৈবিক কার্যকলারে একক কী?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অঙ্গ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "টিস্যু",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "জীবকোষ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "কোষপর্দা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 55,
+    "subject": "biology-1",
+    "question": "৫৫. কোন অঙ্গাণুটি ব্যাকটেরিয়া কোষের মেসোসোম গঠন করে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্লাজমামেমব্রেন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কোষপ্রাচীর",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সাইটোপ্লাজম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রোটোস্টেরল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 56,
+    "subject": "biology-1",
+    "question": "৫৬. কোষের আকৃতি যেসব বিষয়ের উপর নির্ভরশীল –\ni. কোষের কার্য\nii. প্রোটোপ্লাজমের ঘনত্ব\niii. পৃষ্ঠটান\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 57,
+    "subject": "biology-1",
+    "question": "৫৭. কোষ অভ্যন্তরের অঙ্গাণুসমূহকে রক্ষা ও বিভিন্ন পদার্থের গমনাগমন নিয়ন্ত্রণ করে কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোটোপ্লাজম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সাইটোপ্লাজম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কোষঝিল্লী",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "নিউক্লিয়াস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 58,
+    "subject": "biology-1",
+    "question": "৫৮. লাইসোজোমকে কোষের ‘সুইসাইড স্কোয়াড’ বলার কারণ-",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আমিষ সংশ্লেষণ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অটোফ্যাগি প্রক্রিয়া",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "স্নেহজাতীয় পদার্থের বিপাক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পিনোফ্যাগি প্রক্রিয়া",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 59,
+    "subject": "biology-1",
+    "question": "৫৯. একজন প্রাপ্তবয়স্ক মানুষের দেহে সাধারণত কত গ্রাম DNA পাওয়া যায়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১০",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৫০",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৭৫",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১০০",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 60,
+    "subject": "biology-1",
+    "question": "৬০. জীবের বংশগত বৈশিষ্ট্যের ধারক ও বাহক হলো -",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "RNA",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মাইটোকন্ড্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "DNA",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সেন্ট্রোসোম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 61,
+    "subject": "biology-1",
+    "question": "৬১. প্রোটিন সংশ্লেষণকারী ক্ষুদ্রাঙ্গের নাম -",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লাইসোজোম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মাইক্রোজোম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রাইবোজোম",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সেন্ট্রোজোম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 62,
+    "subject": "biology-1",
+    "question": "৬২. কোনটি কোষবিভাজনের পর নিউক্লিয়ার মেমব্রেন তৈরিতে সহায়তা করে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লাইসোজোম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "এন্ডোপ্লাজমিক রেটিকুলাম",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "রাইবোজোম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মাইটোকন্ড্রিয়া",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 63,
+    "subject": "biology-1",
+    "question": "৬৩. কোষ উদ্ভাবনের পর কোষতত্ত্ব প্রবর্তন করেন কে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Schleiden & Schwan",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Swanson & Hickman",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "DcRobertis & Hickman",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Swanson & Hickman",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 64,
+    "subject": "biology-1",
+    "question": "৬৪. কোষাভ্যন্তরে বিভিন্ন ক্ষরিত বস্তু কোষের বাইরে নিক্ষেপ করে কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মাইটোকন্ড্রিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিউক্লিয়াস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গলজি বডি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সাইটোপ্লাজম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 65,
+    "subject": "biology-1",
+    "question": "৬৫. কোষ বা Cell শব্দটি কোন ভাষা থেকে এসে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্রিক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ল্যাটিন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সুইডিশ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ইংলিশ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 66,
+    "subject": "biology-1",
+    "question": "৬৬. নিউক্লিয়াসের অর্ধতরল জেলির ন্যায় অংশটি-\ni. সাইটোপ্লাজম অপেক্ষা কম ঘন\nii. DNA ও RNA দ্বারা গঠিত\niii. এনজাইম ও খনিজ লবণ দ্বারা গঠিত\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 67,
+    "subject": "biology-1",
+    "question": "৬৭. কোষ ঝিল্লীর বাইরের সেলুলোজ নির্মিত জড় আবরণটি-\ni. কোষের আকৃতি নির্ধারণ করে\nii. কোষকে নমনীয়তা প্রদান করে\niii. কোষকে বাহ্যিক ঘাত প্রতিঘাত থেকে রক্ষা করে\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 68,
+    "subject": "biology-1",
+    "question": "৬৮. কোথায় অধিক মাইটোকন্ড্রিয়া পাওয়া যায়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "উদ্ভিদের মূলে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "উদ্ভিদের কান্ডে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রাণীর ফুসফুসে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রাণীর যকৃতে",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 69,
+    "subject": "biology-1",
+    "question": "৬৯. নিউক্লিয়ার মেমব্রেনের কাজ কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিউক্লিয়াসকে রক্ষণাবেক্ষণ করা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "রাইবোজোম প্রস্তুত করা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "RNA সংরক্ষণ করা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অণুনালিকা গঠন করা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 70,
+    "subject": "biology-1",
+    "question": "৭০. কোনটি বার্তাবহ RNA?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "mRNA",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "gRNA",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "tRNA",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Minor RNA",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 71,
+    "subject": "biology-1",
+    "question": "৭১. আদিকোষের রাইবোসোম কোন প্রকৃতির?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৫০s",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৬০s",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৭০s",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "৮০s",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 72,
+    "subject": "biology-1",
+    "question": "৭২. বংশগতির গঠনগত ও কার্যগত একক কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "DNA",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জিন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "RNA",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিউক্লিয়াস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 73,
+    "subject": "biology-1",
+    "question": "৭৩. সিস্টারনির প্রাচীর চওড়া হয়ে সৃষ্টি হয় –",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ভ্যাকুওল",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ভেসিকল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গ্রানা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টিউবিউলার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 74,
+    "subject": "biology-1",
+    "question": "৭৪. উদ্ভিদের পরাগয়নে সাহায্য করে কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্লোরোপ্লাস্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্রোমোপ্লাস্ট",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "লিউকোপ্লাস্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ইয়ালোপ্লাস্ট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 75,
+    "subject": "biology-1",
+    "question": "৭৫. Sandwitch মডেল কোনটি?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মাইসেলার মডেল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দ্বি-স্তরবিশিষ্ট মডেল",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "প্রোটিন ক্রিস্টাল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফ্লুইড মোজাইক মডেল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 76,
+    "subject": "biology-1",
+    "question": "৭৬. কোষগহ্বরে পানি, আয়ন ও উপজাত পদার্থ সঞ্চয়ের মাধ্যমে সাইটোপ্লাজম-\ni. কোষের pH এর সমতা বিধান করে\nii. বিপাকীয় বিক্রিয়ার গতি মন্থর করে\niii. কোষের পানির সমতা বিধান করে\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 77,
+    "subject": "biology-1",
+    "question": "৭৭. কোনটির মাধ্যমে পাশাপাশি দুটি কোষের মধ্যে বিভিন্ন পদার্থের আদান-প্রদান ঘটে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পিট",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্লাসমোডেসমাটা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "মধ্য ল্যামেলা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অন্তঃকোষীয় ফাঁক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 78,
+    "subject": "biology-1",
+    "question": "৭৮. সাইটোপ্লাজমীয় অঙ্গাণু হলো -\ni. রাইবোজোম\nii. নিউক্লিয়াস\niii. প্লাজমামেমব্রেন\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 79,
+    "subject": "biology-1",
+    "question": "৭৯. কোনটি সমাপ্তি কোডন?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "UGAC",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "UAU",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "AGU",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "UAG",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 80,
+    "subject": "biology-1",
+    "question": "৮০. কোনটিকে বংশগতির সক্রিয় অংশ বলা হয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্রোমোমিয়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হেটেরোক্রোমাটিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইউক্রোমাটিন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ম্যাট্রিক্স",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 81,
+    "subject": "biology-1",
+    "question": "৮১. জিনে সংরক্ষিত বংশগতীয় তথ্য কোনটির সংশ্লেষণের মাধ্যমে ফিনোটাইপ হিসেবে প্রকাশ পায়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আমিষ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "চর্বি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "শর্করা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ভিটামিন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 82,
+    "subject": "biology-1",
+    "question": "৮২. গলজি বডি যেসব অংশ নিয়ে গঠিত হয় -\ni. ভেসিকল\nii. সিস্টারনি\niii. ভ্যাকুওল\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 83,
+    "subject": "biology-1",
+    "question": "৮৩. প্রাণিকোষের সাইটোপ্লাজমের নিকট ফাঁকা পিপার ন্যায় যে অঙ্গাণু দেখা যায় তাকে কী বলে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সেন্টোস্ফিয়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্লোরোপ্লাস্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রাইবোজোম",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "গলজি বস্তু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 84,
+    "subject": "biology-1",
+    "question": "৮৪. কোন বিজ্ঞানীর মতে, \"টেলোমিয়ার হলো ক্রোমোসোমের উভয় প্রান্তের বিশেষ বৈশিষ্ট্যপূর্ণ অঞ্চল?\"",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কালিকার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বেন্দা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডার্লিংটন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এইচ জে মুলার",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 85,
+    "subject": "biology-1",
+    "question": "৮৫. DNA অনুলিপনের জন্য কোন এনজাইম অত্যাবশকীয়?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "DNA পরিমারেজ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "DNA আইসোমারেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "DNA এপিমারেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "DNA কার্বক্সিলেজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 86,
+    "subject": "biology-1",
+    "question": "৮৬. গ্রাণামে উৎপন্ন হয় –\ni. ATP\nii. ADP\niii. NADPH2\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 87,
+    "subject": "biology-1",
+    "question": "৮৭. DNA অণুর ডাবল হেলিক্সের প্রতি প্যাঁচে প্রায় কতটি হাইড্রোজেন বন্ড থাকে?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১০টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "২০টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "২৫টি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "৩০টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 88,
+    "subject": "biology-1",
+    "question": "৮৮. বর্ণিত জীবন্ত বস্তুটি কী দ্বারা গঠিত?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৭০-৮০% জৈব পদার্থ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৭০-৯০% পানি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "৮০-৯০% আমিষ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৮০-৯০% ধাতব",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 89,
+    "subject": "biology-1",
+    "question": "৮৯. বস্তুটি-\ni. কৃত্রিম উপায়ে সংশ্লেষণ সম্ভব নয়\nii. প্লাজমাজিল্লী ও নিউক্লিয়াসে বিভক্ত\niii. শর্করা, আমিষ, পানি ইত্যাদি দ্বারা গঠিত\n\nনিচের কোনটি সঠিক?",
+    "chapter": "1",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i, ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  }
+]
