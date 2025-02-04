@@ -35178,5 +35178,3587 @@
     ],
     "explanation": "",
     "hint": ""
+  },
+
+  {
+    "id": 1,
+    "subject": "chemistry-1",
+    "question": "বহি:স্থ ইলেকট্রনীয় কাঠামো ns1 বিশিষ্ট মৌল পানির সাথে যুক্ত হলে কোনটি তৈরি করে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এসিড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্ষার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লবণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ইলেকট্রন",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "chemistry-1",
+    "question": "ইলেকট্রনের কয় ধরনের গতি আছে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এক ধরনের",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দুই ধরনের",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তিন ধরনের",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "চার ধরনের",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "chemistry-1",
+    "question": "যে মৌলের পারমাণবিক সংখ্যা 11, পর্যায় সারণিতে তার অবস্থান কোথায়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২য়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৩য় পর্যায়ে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "৪র্থ পর্যায়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৫ম পর্যায়ে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "chemistry-1",
+    "question": "কোয়ান্টাম সংখ্যা বাড়লে-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পরমাণুর আকার কমে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইলেকট্রনের প্রতি নিউক্লিয়াসের আকর্ষণ কমে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "আয়নিকরণ শক্তি বাড়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পরমাণুর ব্যাসার্ধ কমে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "chemistry-1",
+    "question": "K-এর জারণ মান নিম্নের কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "+2",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "-1",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "+1",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "chemistry-1",
+    "question": "ডাইপোল-ডাইপোল আকর্ষণ বল উভয় পরমাণুকে-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দূরে ঠেলে দেয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কাছে নিয়ে আসে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "একই স্থানে রাখে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সমান দূরে রাখে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "chemistry-1",
+    "question": "সমযোজী ব্ন্ধনে মৌলের তড়িৎ ঋণাত্মকতা 0. 5 হলে অণুটি কেমন হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পোলার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অপোলার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দ্রবণীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবগুলো",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "chemistry-1",
+    "question": "অ্যাকটিনাইড সিরিজের মৌলগুলো তেজস্ক্রিয় কেন?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ধাতব ধর্মের কারণে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গলনাঙ্ক বেশি বলে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ঘনত্ব বেশি বলে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তেজস্ক্রিয় রশ্মি বিকিরণের ফলে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "chemistry-1",
+    "question": "দীর্ঘ পর্যায়ের কোন মৌলগুলো সারণির মধ্যভাগে থাকে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অবস্থাস্তর মৌল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "চালকোজেন মৌল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মৃৎক্ষার মৌল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ক্ষার মৌল",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "chemistry-1",
+    "question": "কোনটি অ্যালিফেটিক হাইড্রোকার্বনের C5-C17 এর ভৌত অবস্থা?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্যাস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তরল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কঠিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্লাজমা",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "chemistry-1",
+    "question": "একটি মৌল যার পরমাণুর শেষ ইলেকট্রন d অরবিটালে যায়, তাদের কী বলে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "s ব্লক মৌল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "p ব্লক মৌল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "d ব্লক মৌল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "f ব্লক মৌল",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "chemistry-1",
+    "question": "অষ্টক পূর্ণতার জন্য আয়নিক যৌগের মৌলগুলো ইলেকট্রন কী করে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "শেয়ার করে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ত্যাগ করে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিকিরণ করে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বর্ণালির সৃষ্টি করে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "chemistry-1",
+    "question": "যে সব শর্ত দ্বারা আয়নের পোলারায়নের পরিমাণ নির্ধারণ করা হয় তাদেরকে কী বলে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আউফবাউ নীতি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পলির বর্জন নীতি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হুন্ড নীতি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফাযানের নীতি",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "chemistry-1",
+    "question": "প্রায় বেশির ভাগ p-ব্লক মৌলের ক্ষেত্রে কোনটি সঠিক ধর্ম?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তড়িৎ ধনাত্মকতা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তড়িৎ ঋণাত্মক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তড়িৎ অধিক পরিবাহী",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ক, খ ও গ সবগুলো",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "chemistry-1",
+    "question": "যৌগের কেন্দ্রীয় পরমাণুটি sp সংকরিত আকৃতি কেমন হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পিরামিড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ত্রিমোণাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সরলরৈখিক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বর্গাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "chemistry-1",
+    "question": "সমযোজী যৌগের অণুতে ডাইপোলের ধর্মকে কী বলে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ডাইপোলার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পোলার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পোলারিটি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পোলার অণু",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "chemistry-1",
+    "question": "সন্নিবেশ বন্ধনে পরমাণুগুলোর যোজ্যতা স্তর-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অস্টক সম্পূর্ণ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অষ্টক অপূর্ণ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অষ্টক পূর্ণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অষ্টক নেই",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "chemistry-1",
+    "question": "যে দূরত্বে নিট আকর্ষণ বল সবচেয়ে বেশি তাকে কী বলে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অণুর সাম্য দূরত্ব",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বন্ধন দৈর্ঘ্য",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মধ্যকার ইলেকট্রন দূরত্ব",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বন্ধন কোণ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "chemistry-1",
+    "question": "আয়নিক ও সমযোজী বন্ধনের মধ্যে পার্থক্যকারী বিষয় কী?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সমাণুতা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দিকদর্শিতা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গলনাঙ্ক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবকয়টি",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "chemistry-1",
+    "question": "একই পর্যায়ে অ্যানায়নের পোলারায়ন ক্ষমতা বৃদ্ধি পায় কেন?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ব্যাসার্ধ হ্রাস পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ব্যাসার্ধ বৃদ্ধি পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চার্জ কমে যায়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আকার বেড়ে যায়",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "chemistry-1",
+    "question": "আয়নিক ও সমযোজী বন্ধনের মধ্যে পার্থক্যকারী বিষয় কী?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সমাণুতা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দিকদর্শিতা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গলনাঙ্ক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবকয়টি",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "chemistry-1",
+    "question": "s ব্লকে কয়টি মৌল?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "14",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "27",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "30",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "40",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "chemistry-1",
+    "question": "আয়নিক বন্ধন কখন গঠিত হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দুটি পরমাণুর মধ্যে ইলেকট্রনের অংশীদারীত্ব ঘটে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দুটি পরমাণুর মধ্যে প্রোটনের আদান-প্রদান ঘটে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "একটি পরমাণু ইলেকট্রন ত্যাগ করে এবং অপর পরমাণুটি ইলেকট্রন গ্রহণ করে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দুটি ধাতব পরমাণু পরস্পরের সাথে ইলেকট্রন বিনিময় করে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "chemistry-1",
+    "question": "নাইট্রোজেন পরমাণুর অবস্থান কোথায়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২য় পর্যায়, ৭ম গ্রুপ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "২য় পর্যায়, ৫ম গ্রুপ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৫ম পর্যায়, ২য় গ্রুপ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৭ম পর্যায়, ২য় গ্রুপ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "chemistry-1",
+    "question": "যৌগের সমযোজী বৈশিষ্ট্য বৃদ্ধির সাথে সাথে নিচের কোনটি হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দ্রাব্যতা গুণ বেড়ে যায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দ্রাবতা গুণ কমে যায়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দ্রাব্যতা গুণ একই থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দ্রাব্যতা দ্বিগুণ হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "chemistry-1",
+    "question": "সমযোজী অণুতে বন্ধন ইলেকট্রন যুগল সমভাবে শেয়ার করে অষ্টকপূর্ণ করে, কার মতবাদ?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লুইস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পলিং",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্লেটার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রাউস",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "chemistry-1",
+    "question": "পর্যায় সারণির বামদিক থেকে ডানদিকে অগ্রসর হলে আয়নিক বিভব-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কমে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বাড়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কমে ও বাড়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "একই থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "chemistry-1",
+    "question": "নিচের কোনটি কালো বর্ণ যুক্ত অণু?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "CuS",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "PbS",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "HgS",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবগুলো",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "chemistry-1",
+    "question": "অবস্থান্তর ধাতুর একক পরমাণুতে ৫টি ইলেকট্রন সমশক্তি স্তরে থাকলে তাকে বলা হয়-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জেনারেটর",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ডিজেনারেট",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "নন-ডিজেনারেট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "(ক+খ)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "chemistry-1",
+    "question": "মৌলের ইলেকট্রন বিন্যাসে সর্বোচ্চ কোয়ান্টাম সংখ্যার মান যত, মৌলটি পর্যায় সারণির-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তত পর্যায়ে অবস্থিত",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তত গ্রুপ এ অবস্থিত",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তত কাছে অবস্থিত",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তত দূরে অবস্থিত",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "chemistry-1",
+    "question": "N এর কয়টি অক্সাইড?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৩টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৬টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৫টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "২টি",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "chemistry-1",
+    "question": "p-অরবিটালের আকার কীরূপ?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ডাম্বেল আকৃতি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গোলাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বর্তুলাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লম্বাকৃতি",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      },
+      {
+        "id": 6,
+        "text": "৩৩.পারমাণবিক ব্যাসার্ধের প্রকার নয় নিম্নের কোনটি?",
+        "isCorrect": false
+      },
+      {
+        "id": 7,
+        "text": "আয়নিক ব্যাসার্ধ",
+        "isCorrect": false
+      },
+      {
+        "id": 8,
+        "text": "সমযোজী ব্যাসার্ধ",
+        "isCorrect": false
+      },
+      {
+        "id": 9,
+        "text": "ধাতব ব্যাসার্ধ",
+        "isCorrect": false
+      },
+      {
+        "id": 10,
+        "text": "ভ্যানডার ওয়ালস ব্যাসার্ধ",
+        "isCorrect": false
+      },
+      {
+        "id": 11,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "chemistry-1",
+    "question": "কোনো মৌলের O2 এর সাথে সংযোগের ক্ষেত্রে বাম হতে ডানে যোজ্যতার কীরূপ পরিবর্তন ঘটে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বাড়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কমে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সমান থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অপরিবর্তিত থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "chemistry-1",
+    "question": "কক্ষের একটি s অরবিটাল ও 3টি p অরবিটাল মিশ্রিত হয়ে যে অরবিটাল গঠন করে সেগুলোর প্রকৃতি কেমন হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সমতুল্য",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অসমতুল্য",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিষম আকৃতির",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অসমশক্তির",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "chemistry-1",
+    "question": "তীব্র ধনাত্মক ধাতু কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "K",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Mg",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Zn",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Ca",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "chemistry-1",
+    "question": "সংজ্ঞা মতে f-ব্লক মৌল কয়টি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৩০টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "২৭টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৩২টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "২৯টি",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "chemistry-1",
+    "question": "একই গ্রুপের উপর থেকে নিচে পারমানবিক ব্যাসার্ধ-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কমে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বাড়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বাড়ে ও কমে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্থির থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "chemistry-1",
+    "question": "কোনটি সেলুলোজ এর মনোমার?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্লুকোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সুক্রোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যালকোহল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এস্টার",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "chemistry-1",
+    "question": "নিষ্ক্রিয় গ্যাসের আপেক্ষিক তাপের অনুপাত কত?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1. 667",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1. 45",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1. 93",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোনোটিই নয়",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "chemistry-1",
+    "question": "গ্রুপ VIA মৌলসমূহ-\ni.s-ব্লক মৌল\nii.এদের মুক্ত ইলেকট্রন থাকে না\niii.এরা সবাই অধাতু\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "chemistry-1",
+    "question": "s-ব্লক মৌলের সংখ্যা কয়টি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১৩টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১৪টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "১২টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১১টি",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "chemistry-1",
+    "question": "কোনটি সমযোজী যৌগ?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "CH4",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "HCI",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "HF",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "HBr",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "chemistry-1",
+    "question": "যোজ্যতা স্তরে ২টি সংকর অরবিটাল থাকলে অপুর আকৃতি কীরূপ হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সরলরৈখিক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "চতুস্তলকীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ত্রিভুজাকৃতির",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অষ্টমতলকীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "chemistry-1",
+    "question": "ডাইপোল-ডাইপোল আকর্ষণ বল উভয় পরমাণুকে-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দূরে ঠেলে দেয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কাছে নিয়ে আসে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "একই স্থানে রাখে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সমান দূরে রাখে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "chemistry-1",
+    "question": "KCI যৌগটির বৈশিষ্ট্যসমূহ-\ni.উচ্চগলনাঙ্ক ও স্ফুটনাঙ্ক বিশিষ্ট\nii.পোলার দ্রাবকে দ্রবীভূত\niii.কঠিন অবস্থায় তড়িৎ পরিবহন করে\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "chemistry-1",
+    "question": "হাইড্রোজেন বন্ধন গঠিত হয়-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পোলার অণুসমূহের মধ্যে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আপোলার অণুসমূহের মধ্যে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ধনাত্মক অণুসমূহের মধ্যে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ঋণাত্মক অণুসমূহের মধ্যে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "chemistry-1",
+    "question": "ধাতুসমূহ প্রকৃতিতে বিদ্যমান-\ni.অক্সাইড ও সালফাইড হিসেবে\nii.আকরিক হিসেবে\niii.মুদ্রা ধাতু হিসেবে\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "chemistry-1",
+    "question": "সন্নিবেশ বন্ধনে পরমাণুগুলোর যোজ্যতা স্তর-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অস্টক সম্পূর্ণ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অষ্টক অপূর্ণ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অষ্টক পূর্ণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অষ্টক নেই",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "chemistry-1",
+    "question": "নিম্নের কোনটিতে সমযোজী বন্ধন নেই?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বরফ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কপার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পানি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ডায়মন্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 50,
+    "subject": "chemistry-1",
+    "question": "পানির অণুতে অক্সিজেনের Hybridisation state কত?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "sp",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "sp2",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "sp3",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "sp3d",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 51,
+    "subject": "chemistry-1",
+    "question": "৫ম পর্যায়ের d-ব্লক মৌলের ১ম ও শেষ মৌল দুটি নিম্নের কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Sc ও Zn",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Y ও Cd",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Ac ও Rf",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Cd ও Rf",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 52,
+    "subject": "chemistry-1",
+    "question": "মৃৎক্ষারীয় ধাতুর ক্ষেত্রে গ্রুপের উপর থেকে নিচে নিম্নোক্ত ধর্মগুলোর কোনটির হ্রাস ঘটে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পারমাণবিক ব্যাসার্ধ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রথম আয়নিকরণ শক্তি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আয়নিক ব্যাসার্ধ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পারমাণবিক আয়তন",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 53,
+    "subject": "chemistry-1",
+    "question": "কোনটি Fe+2 এর আধুনিক নাম?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আয়রন (II)",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফেরাস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আয়রন (II)",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফেরিক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 54,
+    "subject": "chemistry-1",
+    "question": "ক্যাটায়নের চার্জ যত বেশি হয় অ্যানায়ন তত বেশি কী হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পোলারিত হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আয়নিত হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হ্রাস পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বৃদ্ধি পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 55,
+    "subject": "chemistry-1",
+    "question": "s অরবিটালের আকৃতি কেমন?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ডাম্বেল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পিরামিড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বর্তুলাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "চতুস্তলকীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 56,
+    "subject": "chemistry-1",
+    "question": "তৃতীয় পর্যায়ের চতুর্থ মৌলটির অক্সাইড?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অম্লধর্মী",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্ষারধর্মী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "উভধর্মী",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিরপেক্ষ",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      },
+      {
+        "id": 6,
+        "text": "রসায়ন ১ম পত্র: ৩য় অধ্যায়: সৃজনশীল এবং বহুনির্বাচনি প্রশ্ন ও উত্তর | একাদশ-দ্বাদশ শ্রেণির গাইড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 57,
+    "subject": "chemistry-1",
+    "question": "কার্বন-কার্বন ত্রি-বন্ধনের দূরত্ব অপেক্ষা দ্বি-বন্ধনের দূরত্ব-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বেশি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মাধ্যম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সমান",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 58,
+    "subject": "chemistry-1",
+    "question": "কোনো পর্যায়ের বাম হতে ডানে অগ্রসর হলে মধ্যবর্তী ধাতুর অক্সাইডগুলোর প্রকৃতি কীরূপ হবে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্ষারধর্মী",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অম্লধর্মী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "উভধর্মী",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লবণ ধর্মী",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 59,
+    "subject": "chemistry-1",
+    "question": "He এর কোনটি পূর্ণ থাকে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অষ্টক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দ্বিত্ব",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সকল শক্তিস্তর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অন্ত:স্থ শক্তি স্তর",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 60,
+    "subject": "chemistry-1",
+    "question": "নোবেল গ্যাসকে 18 গ্রুপে স্থান পাওয়া হয়েছে কেন?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "যোজনী ৪",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "যোজনী শূন্য",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "যোজনী ২",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "যোজনী ৫",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 61,
+    "subject": "chemistry-1",
+    "question": "সর্বপ্রথম ট্রায়োড বা ত্রয়ী সূত্র প্রদান করেন কোন বিজ্ঞানী?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিউল্যান্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লুথার মেয়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডোবিরিনায়ের",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিউল্যান্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 62,
+    "subject": "chemistry-1",
+    "question": "পোলারায়ন যত বেশি হবে যৌগের-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সমযোজী বৈশিষ্ট্য হ্রাস পাবে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সমযোজী ধর্ম তত বৃদ্ধি পাবে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আয়নিক ধর্ম বৃদ্ধি পাবে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোন পরিবর্তন হবে না",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 63,
+    "subject": "chemistry-1",
+    "question": "দুইটি পারমাণবিক অরবিটালের অধিক্রমণের ফলে আণবিক অরবিটাল গঠনকালে-\ni.শক্তি নির্গত হয়\nii.আণবিক অরবিটালের স্থিতিশক্তি কমে যায়\niii.আণবিক অরবিটাল সুস্থিত হয়\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 64,
+    "subject": "chemistry-1",
+    "question": "সমযোজী অণুতে বন্ধন ইলেকট্রন যুগল সমভাবে শেয়ার করে অষ্টকপূর্ণ করে, কার মতবাদ?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লুইস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পলিং",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্লেটার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রাউস",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 65,
+    "subject": "chemistry-1",
+    "question": "পর্যায় সারণিতে 16 পারমাণবিক সংখ্যা বিশিষ্ট মৌলের অবস্থান কোন পর্যায়ে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২য় পর্যায়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৫ম পর্যায়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৩য় পর্যায়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৪র্থ পর্যায়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 66,
+    "subject": "chemistry-1",
+    "question": "কার্বন-কার্বন সিগমা বন্ধনে হাইব্রিডাইজেশন ঘটে-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইথেন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইথিলিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যাসিটলিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "জেনজিন",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 67,
+    "subject": "chemistry-1",
+    "question": "মৌলের ইলেকট্রন বিন্যাসের পর যদি সর্বশেষ ইলেকট্রনটি p-অরবিটালে প্রবেশ করে, তবে তাদের বলে-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "s-ব্লক মৌল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "p-ব্লক মৌল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "d-ব্লক মৌল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "f-ব্লক মৌল",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 68,
+    "subject": "chemistry-1",
+    "question": "আণবিক অরবিটাল গঠনের সময় ইলেকট্রনের ঘূর্ণন কোন দিকে হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "একই দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বিপরীত দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "উপরের দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিচের দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 69,
+    "subject": "chemistry-1",
+    "question": "CH4 অণুর চারটি সমযোজী বন্ধন সমশক্তি ব্যাখ্যা করেন কোন বিজ্ঞানী?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পলিং ও স্লোটার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্লোটার প্রাউস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "প্রাউস ও পলিং",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বোর ও সাইজেক",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 70,
+    "subject": "chemistry-1",
+    "question": "উভধর্মী অক্সাইড কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "BeO",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "B2O3",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "N2O3",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "B3O5",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 71,
+    "subject": "chemistry-1",
+    "question": "সমযোজী ব্ন্ধনে মৌলের তড়িৎ ঋণাত্মকতা 0. 5 হলে অণুটি কেমন হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পোলার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অপোলার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দ্রবণীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবগুলো",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 72,
+    "subject": "chemistry-1",
+    "question": "নিম্নের কোনটিতে সমযোজী বন্ধন নেই?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বরফ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কপার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পানি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ডায়মন্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 73,
+    "subject": "chemistry-1",
+    "question": "মৌলের রাসায়নিক ধর্ম একটি পর্যায়বৃত্ত প্রমাণ করেন কে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মেন্ডেলিফ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বোর",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লুথার মেয়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিউল্যান্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 74,
+    "subject": "chemistry-1",
+    "question": "সন্নিবেশ সমযোজী বন্ধনের ক্ষেত্রে কোনটি মুক্তজোড় ইলেকট্রন দান করে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্যাটায়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অ্যানায়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লিগ্যান্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ক্যাট্যালিস্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 75,
+    "subject": "chemistry-1",
+    "question": "পোলারায়ন বৃদ্ধির সাথে যৌগসমূহের মধ্যে কী ঘটে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গলনাঙ্ক বৃদ্ধি পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্ফুটনাঙ্ক বৃদ্ধি পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্ফুটনাঙ্ক হ্রাস পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গলনাঙ্ক একই থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 76,
+    "subject": "chemistry-1",
+    "question": "Se+3 আয়নটি যৌগ গঠন করলে উৎপন্ন যৌগটি-\ni.রঙ্গিন\nii.বর্ণহীন\niii.জটিল\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 77,
+    "subject": "chemistry-1",
+    "question": "যৌগের সমযোজী বৈশিষ্ট্য বৃদ্ধির সাথে সাথে নিচের কোনটি হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দ্রাব্যতা গুণ বেড়ে যায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দ্রাবতা গুণ কমে যায়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দ্রাব্যতা গুণ একই থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দ্রাব্যতা দ্বিগুণ হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 78,
+    "subject": "chemistry-1",
+    "question": "মুখোমুখি বা পাশাপাশি অধিক্রমণের ফলে কোন বন্ধন সৃষ্টি হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আয়নিক বন্ধন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হাইডোজেন বন্ধন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ধাতব বন্ধন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সমযোজী বন্ধন",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ঘ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 79,
+    "subject": "chemistry-1",
+    "question": "সমযোজী যৌগ হওয়া সত্ত্বেওB যৌগটিতে আয়নিক যৌগ দ্রবীভূত হয় কেন?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "যৌগটির পৃষ্ঠটান বেশি বলে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "যৌগটির সংশক্তি বলের কারণে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "যৌগটির অণু পোলার বলে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "যৌগটির সংযুক্তি বলের কারণে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 80,
+    "subject": "chemistry-1",
+    "question": "পোলারায়ন বৃদ্ধির সাথে যৌগসমূহের মধ্যে কী ঘটে?\nক)গলনাঙ্ক বৃদ্ধি পায়",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্ফুটনাঙ্ক বৃদ্ধি পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "স্ফুটনাঙ্ক হ্রাস পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গলনাঙ্ক একই থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 81,
+    "subject": "chemistry-1",
+    "question": "অনাদ্র কোবাল্ট (II) যৌগের রং কেমন?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লাল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নীল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বেগুনি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সাদা",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 82,
+    "subject": "chemistry-1",
+    "question": "অক্সিজেন পরমানুর যোজ্যতা স্তরের কয়টি শক্তিস্তর বিদ্যমান?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "২টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৩টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৪টি",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 83,
+    "subject": "chemistry-1",
+    "question": "হাইড্রোজেন পরমাণুর পারমাণবিক সংখ্যা কত?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দুই",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তিন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "এক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "চার",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 84,
+    "subject": "chemistry-1",
+    "question": "ভিন্ন ভিন্ন মৌলের দুই বা ততোধিক পরমাণু যুক্ত হয়ে কী তৈরি করে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "যৌগের পরমানু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "যৌগের আয়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "যৌগের অণু",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোনটিই নয়",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 85,
+    "subject": "chemistry-1",
+    "question": "ইলেকট্রন গ্রহণ করে ঋণাত্মক আয়নে পরিণত করার ফলে নির্গত শক্তি কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আয়নিকরণ শক্তি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইলেকট্রন আসক্তি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তড়িৎ ঋণাত্মকতা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তড়িৎ ধনাত্মকতা",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 86,
+    "subject": "chemistry-1",
+    "question": "অষ্টক পূর্ণতার জন্য আয়নিক যৌগের মৌলগুলো ইলেকট্রন কী করে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "শেয়ার করে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ত্যাগ করে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিকিরণ করে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বর্ণালির সৃষ্টি করে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 87,
+    "subject": "chemistry-1",
+    "question": "বায়ুমন্ডলে শতকরা পরিমাণ বেশি কোনটির?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আর্গন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জেনন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিয়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "রেডন",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 88,
+    "subject": "chemistry-1",
+    "question": "৩য় পর্যায়ের মৌলসমূহের যোজনী 1 থেকে 7 পর্যন্ত-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বৃদ্ধি পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হ্রাস পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্থির থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সমান থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 89,
+    "subject": "chemistry-1",
+    "question": "বন্ধন গঠনের উদ্দেশ্য হল-\ni.অষ্টক পূরণের উচ্ছা\nii.সুস্থিত ইলেকট্রন বিন্যাস অর্জন\niii.অন্য মৌলের সাথে মিলিত হবার ইচ্ছা\nনিচের কোনটি সঠিক?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 90,
+    "subject": "chemistry-1",
+    "question": "(II) B উপগ্রুপের মৌলের জটিল যৌগের গঠন হয় কেন?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আয়নের আকার বড়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিম্ন নিউক্লিয়ার আধান",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "d-অরবিটালের উপস্থিতি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "d-অরবিটালে অনপস্থিতি",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 91,
+    "subject": "chemistry-1",
+    "question": "অধাতব মৌলগুলো বন্ধন গঠন করে কীভাবে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইলেকট্রন ত্যাগ করে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইলেকট্রন গ্রহণ করে না",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইলেকট্রন শেয়অর করে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "উপরের সবগুলো",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 92,
+    "subject": "chemistry-1",
+    "question": "Li,Na, K এগুলো কী ধাতু নামে পরিচিত?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মৃৎক্ষার ধাতু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্ষার ধাতু",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিরল মৃত্তিকা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অপধাতু",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 93,
+    "subject": "chemistry-1",
+    "question": "DNA এর কাঠামো দ্বি-হেলিক্স কার মডেল?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ওয়াটসন ও ক্রীক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভ্যান্ডারওয়ালস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রাদারফোর্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নীলস বোর",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 94,
+    "subject": "chemistry-1",
+    "question": "Na, Mg, Al এর মৌলসমূহের মধ্যে কোন প্রকার বন্ধন বিদ্যমান?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ধাতব বন্ধন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অধাতব বন্ধন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আয়নিক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সমযোজী",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 95,
+    "subject": "chemistry-1",
+    "question": "কোন দ্রবণের pH এর মান 7 অপেক্ষা বেশি হলে দ্রবণটি-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্ষারীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "এসিডীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিরপেক্ষ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোনটিই নয়",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 96,
+    "subject": "chemistry-1",
+    "question": "নিচের কোন পদার্থের ডাইপোল-ডাইপোল আকর্ষণ বল কম-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তরল পদার্থে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কঠিন পদার্থে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গ্যাসসমূহে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোনটিই নয়",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [গ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 97,
+    "subject": "chemistry-1",
+    "question": "একই পর্যায়ে অ্যানায়নের পোলারায়ন ক্ষমতা বৃদ্ধি পায় কেন?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ব্যাসার্ধ হ্রাস পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ব্যাসার্ধ বৃদ্ধি পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চার্জ কমে যায়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আকার বেড়ে যায়",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [ক]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 98,
+    "subject": "chemistry-1",
+    "question": "‘Y’ কোন ব্লকের সদস্য?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "s",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "p",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "d",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "f",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\n‘Y’ একটি অধাতু যা সমুদ্রের আগাছায় পাওয়া যায় এবং যার অভাবে একটি মাত্রাত্মক রোগ সৃষ্টি হয়।\n"
+  },
+  {
+    "id": 99,
+    "subject": "chemistry-1",
+    "question": "Y মৌলটি ক্ষার ধাতুর সাথে ক্রিয়ার কোন যেীগটি গঠন করবে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "NaBr",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Nal",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "NaCl",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "MgCl2",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "text": "সঠিক উত্তর: [খ]",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\n‘Y’ একটি অধাতু যা সমুদ্রের আগাছায় পাওয়া যায় এবং যার অভাবে একটি মাত্রাত্মক রোগ সৃষ্টি হয়।\n"
   }
 ]
