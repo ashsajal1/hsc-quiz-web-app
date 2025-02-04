@@ -19,7 +19,8 @@ import { useQuizStore } from "@/store/useQuizStore";
 const EXAM_DURATION = 10 * 60; // 10 minutes in seconds
 
 export default function ExamPage() {
-  const { topics, chapters } = useQuizStore();
+  const { topics, getChaptersBySubject } = useQuizStore();
+ 
   const [subject, setSubject] = useState<string>("");
   const [chapter, setChapter] = useState<string>("");
   const [examStarted, setExamStarted] = useState(false);
@@ -30,6 +31,8 @@ export default function ExamPage() {
   const [timeLeft, setTimeLeft] = useState(EXAM_DURATION);
   const [examFinished, setExamFinished] = useState(false);
   const [score, setScore] = useState<number | null>(null);
+
+  const chaptersForSelectedSubject = getChaptersBySubject(subject);
 
   const finishExam = useCallback(() => {
     let correctCount = 0;
@@ -97,7 +100,7 @@ export default function ExamPage() {
               <SelectValue placeholder="Select Chapter" />
             </SelectTrigger>
             <SelectContent>
-              {chapters.map((chapter) => (
+              {chaptersForSelectedSubject.map((chapter) => (
                 <SelectItem value={chapter}>{chapter}</SelectItem>
               ))}
             </SelectContent>

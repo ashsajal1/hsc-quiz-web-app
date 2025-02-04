@@ -14,29 +14,50 @@ interface QuizStore {
   filteredQuestions: Question[];
   setSubject: (subject: string) => void;
   setChapter: (chapter: string) => void;
+  getChaptersBySubject: (subject: string) => string[];
 }
 
 // Create the store
 export const useQuizStore = create<QuizStore>((set, get) => {
   const topics = Array.from(new Set(questions.map((q) => q.subject)));
-  const chapters = Array.from(new Set(questions.map((q) => q.chapter)));
+
+  const getChaptersBySubject = (subject: string): string[] => {
+    return Array.from(new Set(questions.filter((q) => q.subject === subject).map((q) => q.chapter)));
+  };
+
+  const initialSubject = topics[0] || "";
+  const initialChapters = getChaptersBySubject(initialSubject);
+  const initialChapter = initialChapters[0] || "";
+  const initialFilteredQuestions = questions.filter(
+    (q) => q.subject === initialSubject && q.chapter === initialChapter
+  );
 
   return {
-    selectedSubject: topics[0] || "",
-    selectedChapter: chapters[0] || "0",
+    selectedSubject: initialSubject,
+    selectedChapter: initialChapter,
     questions,
     topics,
-    chapters,
-    filteredQuestions: [],
+    chapters: initialChapters,
+    filteredQuestions: initialFilteredQuestions,
 
     setSubject: (subject) => {
-      set({ selectedSubject: subject });
-      set({ filteredQuestions: get().questions.filter((q) => q.subject === subject && q.chapter === get().selectedChapter) });
+      const newChapters = getChaptersBySubject(subject);
+      const newChapter = newChapters[0] || "";
+      set({
+        selectedSubject: subject,
+        selectedChapter: newChapter,
+        chapters: newChapters,
+        filteredQuestions: questions.filter((q) => q.subject === subject && q.chapter === newChapter),
+      });
     },
 
     setChapter: (chapter) => {
-      set({ selectedChapter: chapter });
-      set({ filteredQuestions: get().questions.filter((q) => q.subject === get().selectedSubject && q.chapter === chapter) });
+      set({
+        selectedChapter: chapter,
+        filteredQuestions: questions.filter((q) => q.subject === get().selectedSubject && q.chapter === chapter),
+      });
     },
+
+    getChaptersBySubject,
   };
 });
