@@ -93793,5 +93793,9536 @@
     "explanation": "",
     "hint": "",
     "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nএকটি সুষম তড়িৎক্ষেত্র 50 cm ব্যবধানে অবস্থিত দুটি বিন্দুর বিভব পার্থক্য 200 V।\n"
+  },
+
+  {
+    "id": 1,
+    "subject": "physics-2",
+    "question": "তড়িৎবাহী পরিবাহককে চৌম্বক ক্ষেত্রে স্থাপন করা হলে তড়িৎ প্রবাহ ও চৌম্বক ক্ষেত্র উভয়ের লম্ব বরাবর যে বিভব পার্থক্য সৃষ্টি হয় তাকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তড়িৎ ভোল্টেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "চৌম্বক ভোল্টেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যাম্পিয়ার ভোল্টেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হল ভোল্টেজ",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "physics-2",
+    "question": "ফেরোচৌম্বক পদার্থ অসংখ্য ক্ষুদ্র ক্ষুদ্র কেলাস সমন্বয়ে গঠিত। এদেরকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ডোমেইন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "আনবিকত্ব",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফেরোচুম্কত্ব",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফেরো চুম্বকায়ন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "physics-2",
+    "question": "ভারী জিনিস উঠানামা করার জন্য ক্রেন তৈরিতে কোন চুম্বক ব্যবহৃত হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অস্থায়ী চুম্বক",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "স্থায়ী চুম্বক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সিরামিক চুম্বক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবগুলো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "physics-2",
+    "question": "কোন ধরনের পদার্থ একটি চুম্বকের কোনো মেরুর নিকটে আনলে এটি ক্ষীনভাবে বিকর্ষিত হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অচৌম্বক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্যারাচৌম্বক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডায়াচৌম্বক",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ফেরোচৌম্বক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "physics-2",
+    "question": "বিচ্যুতি কোণের অপর নাম কী?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিনতি কোণ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভূ-চৌম্বক কোণ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সংক্রমণ কোণ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সবগুলো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "physics-2",
+    "question": "ফেরোচৌম্বক পদার্থের ডোমেইনের মাত্রা কত?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "102 cm",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "10-2 cm",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "10-2 m",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "10-3 cm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "physics-2",
+    "question": "মোটর জেনারেটরে কোন চুম্বক ব্যবহৃত হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্থায়ী চুম্বক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সিরামিক চুম্বক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অস্থায়ী চুম্বক",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সবগুলো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "physics-2",
+    "question": "ঐ স্থানের ভূ-চৌম্বক ক্ষেত্রের উলম্ব উপাংশের (v) মান কত?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "25μT",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "35μT",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "39μT",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "43μT",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "physics-2",
+    "question": "ওয়েরস্টেডের পরীক্ষায় সৃষ্ট চৌম্বকক্ষেত্রের প্রকৃতি কিরূপ?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ঘূর্ণায়মান",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "রৈখিক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অনুভূমিক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "উল্লম্ব",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "physics-2",
+    "question": "‘পৃথিবী একটি বিরাট চুম্বক’-এটি প্রস্তাব করেন কোন বিজ্ঞানী?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ডা: গিলভার্ট",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ওয়েরস্টেড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লেঞ্জ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফ্যারাডে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "physics-2",
+    "question": "চৌম্বক প্রবেশ্যতার একক কী?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "TmA",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "TmA-1",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Am-1",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "Wbm-1",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "physics-2",
+    "question": "তড়িৎ প্রবাহে সৃষ্ট চৌম্বক ক্ষেত্রের দিক কে নির্ণয় করেন?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হেনরি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ওয়েরস্টেড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ম্যাক্সওয়েল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফ্লেমিং",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "physics-2",
+    "question": "স্থায়ী চুম্বক ব্যবহার করা হয় কোনটিতে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সলিনয়েড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ট্রান্সফর্মার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মাইক্রোফোন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "আর্মেচার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "physics-2",
+    "question": "বিদ্যুৎ প্রবাহে সৃষ্ট চৌম্বকক্ষেত্রের দিক কিসের উপর নির্ভরশীল?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিদ্যুৎ প্রবাহের দিকের উপর",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভূ-চৌম্বক্ষেত্রের দিকের উপর",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "চৌম্বক শলাকার দিকের উপর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবগুলো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "physics-2",
+    "question": "কুন্ডলীর প্যাচ সংখ্যা বাড়লে চৌম্বক ভ্রামক-",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বাড়বে",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কমবে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "একই থাকবে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোনোটিই নয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "physics-2",
+    "question": "তড়িৎ চৌম্বক ক্ষেত্রে-\ni. স্থির চার্জ একটি মাত্র বল অনুভব করে\nii. গতিশীল চার্জ দুইটি বল অনুভব করে\niii. ত্বরিত চার্জ দুইটির বেশি বল অনুভব করে\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "physics-2",
+    "question": "চৌম্বক পদার্থে অণুচুম্বকগুলোর চৌম্বক ভ্রামকের ভেক্টর যোগফল কত?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "10A. m2",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "100. Am2",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "শূন্য",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "অসীম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "physics-2",
+    "question": "স্থায়ী চুম্বক ব্যবহৃত হয়-\ni. কম্পিউটারের স্মৃতির ফিতায়\nii. রেডিও এর অ্যান্টেনায়\niii. লাউড স্পিকারে\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "physics-2",
+    "question": "গতিশীল চার্জের বেগের দিকে চৌম্বক ক্ষেত্রের সমান্তরাল হলে চৌম্বক বল কত হবে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অবাস্তব সংখ্যা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "শূন্য",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "অসীম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ঋণাত্মক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "physics-2",
+    "question": "তড়িৎবাহী দুটি সমান্তরাল পরিবাহীর মধ্যে ক্রিয়াশীল বল থেকে কোনটির সংজ্ঞা প্রদান করা যায়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কুলম্ব",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হেনরি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যাম্পিয়ার",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "জুল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "physics-2",
+    "question": "চৌম্বক ক্ষেত্র অপসারণ করলে ফেরোপচৌম্বক পদার্থের চুম্বকত্বের কী পরিবর্তন হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বৃদ্ধি পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সম্পূর্ণ বিলুপ্ত হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কিছুটা চুম্বকত্ব থাকে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "একই থাকে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "physics-2",
+    "question": "ঢাকায় একটি চুম্বক শলাকার অক্ষ অনুভূমিক তলের সাথে কত কোণে থাকে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "150",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "300",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "310",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "320",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "physics-2",
+    "question": "ডানহাতি স্ক্রুকে তড়িৎবাহী তারের তড়িৎ প্রবাহের অভিমুখে চালনা করা হলে চৌম্বক ক্ষেত্রের দিক কী দ্বারা নির্দেশিত হবে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তর্জনীর দিক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বৃদ্ধাঙ্গুলির দিক",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "তড়িৎ প্রবাহের দিক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্ক্রুর উল্টো দিকে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "physics-2",
+    "question": "বিষুবরেখা বা এর পার্শ্ববর্তী অঞ্চলে মুক্তভাবে ঝুলন্ত চুম্বক শলাকার চৌম্বক অক্ষ কোন দিকে থাকজবে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "উল্লম্ব দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অনুভূমিক দিকে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "পূর্ব-পরিশ্চম দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোনোটিই নয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "physics-2",
+    "question": "ডায়াচৌম্বক পদার্থের চৌম্বক প্রবেশ্যতার মান কত?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "μ = 0",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "μ = 1",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "μ >",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "μ < 1",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "physics-2",
+    "question": "ডিসি মোটরে রয়েছে-\ni. ক্ষেত্র চুম্বক\nii. আর্মেচার\niii. কম্যুটেটর এবং ব্রাশ\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "physics-2",
+    "question": "চৌম্বক ক্ষেত্রের কোনো বিন্দুতে চৌম্বক আবেশ ও চৌম্বক প্রবেশ্যতার অনুপাতকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চৌম্বক তীব্রতা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "চৌম্বক ধারকতা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চুম্বকায়ন মাত্রায়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "চৌম্বক ভ্রামক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "physics-2",
+    "question": "লাউড স্পিকারের চুম্বকের জন্য কোনটি ব্যবহৃত হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যালিনিমো",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভিক্যালর",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দিকোনাল",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সবগুলো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "physics-2",
+    "question": "গতিশিীল চার্জের ওপর ক্রিয়ারত চুম্বক বলের দিক কোনটি দ্বারা নির্ণয় করা যায়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফ্লেমিং এর বাম হস্ত নিয়মানুসারে",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "লেঞ্জের সূত্রানুসারে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ওয়েরস্টেডের সূত্রানুসারে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফ্যারাডের সূত্রানুসারে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "physics-2",
+    "question": "আয়রনের সংকরের মধ্যে ন্যূনতম কত ভাগ কার্বন থাকলে তা স্থায়ী চুম্বকে পরিণত হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "০. ৫ ভাগ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "০. ৭ ভাগ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "০. ৮ ভাগ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "০. ৯৫ ভাগ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "physics-2",
+    "question": "একক আয়তনে চৌম্বক ভ্রামককে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চৌম্বক ফ্লাক্স",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "চৌম্বক প্রবেশ্যতা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চুম্বকায়ন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "চৌম্বক ক্ষেত্রে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "physics-2",
+    "question": "ইথাইল অ্যালকোহল কোন ধরনের পদার্থ?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অচৌম্বক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্যারাচৌম্বক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফেরোচৌম্বক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ডায়াচৌম্বক",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "physics-2",
+    "question": "চৌম্বক ক্ষেত্রে এস. আই একক কোনটি?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হেনরি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অ্যাম্পিয়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "টেসলা",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "গস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "physics-2",
+    "question": "মুক্তভাবে ঝুলন্ত চুম্বক শলাকার দক্ষিণ মেরু ভূ-চুম্বকের কোন দিক নির্দেশ করে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "উত্তর মেরু",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "দক্ষিণ মেরু",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লাল মেরু",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবগুলো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "physics-2",
+    "question": "তড়িৎক্ষেত্রের মান নির্ণয় করা যায়-\ni. কুলম্বের সূত্র থেকে\nii. অ্যাম্পিয়ারের সূত্র থেকে\niii. গাউসের সূত্র থেকে\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "physics-2",
+    "question": "একটি চার্জ ঘূর্ণনরত অবস্থায় থাকলে-\ni. এটি চার্জযুক্ত বলের ন্যায় কাজ করে\nii. তা চৌম্বকত্ব লাভ করে\niii. সৃষ্ট চুম্বকের মেরু ঘূর্ণনের দিকের উপর নির্ভর করে\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "physics-2",
+    "question": "টেপরেকর্ডিং এর ফিতার জন্য কোনটি ব্যবহৃত হয়?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যালিনিমো",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভিক্যালর",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "দিকোনাল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবগুলো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "physics-2",
+    "question": "চৌম্বক শলাকার বিচ্যুতিতে ভূ-চৌম্বকক্ষেত্রের কোন উপাংশ কাজ করে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অনুভূমিক উপাংশ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "উল্লম্ব উপাংশ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সম্পূর্ণ ভূ-চৌম্বকক্ষেত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবগুলো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "physics-2",
+    "question": "চৌম্বক তীব্রতার একক কী?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "Am",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Am2",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Wb",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Am-1",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "physics-2",
+    "question": "প্যারাচুম্বক পদার্থ কোনটি?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তামা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পারদ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রুপা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টাংস্টেন",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "physics-2",
+    "question": "একটি লম্বা অন্তরিত পরিবাহী তারকে কোনো সিলিভারের গায়ে পাশাপাশি ঘন সন্নিবেশিত করে কুন্ডলী আকারে পেঁচানো হলে তাকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ট্রানজিস্টর",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সলিনয়েড",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "আর্মেচার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কস্যুটেটর",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "physics-2",
+    "question": "চৌম্বক বল ও তড়িৎ বলের ভেক্টর সমষ্টি কোনটি?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লরেঞ্জ বল",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ফ্যারাডের",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যাম্পিয়ার বল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লেঞ্জের বল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "physics-2",
+    "question": "কোন প্রক্রিয়ায় ডোমেটনের মধ্যে চৌম্বক মোমেন্টগুরো পরস্পর সমান্তরাল থাকে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিনিময়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "যুদগলায়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিয়োজন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিনিময় যুগলায়ন",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "physics-2",
+    "question": "চৌম্বক শলাকা পরিবাহী তারের সাথে কত কোণে স্থাপিত হওয়ার চেষ্টা করে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "00",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "900",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "1800",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "1200",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "physics-2",
+    "question": "ইলেকট্রনের ঘূর্ণনের দিক তড়িৎ প্রবাহের-",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দিকে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বিপরীত দিকে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "লম্ব বরাবর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সমান্তরাল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "physics-2",
+    "question": "স্পিনের মান কয় ধরনের হতে পারে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "2 ধরনের",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "3 ধরনের",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "4 ধরনের",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "6 ধরনের",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "physics-2",
+    "question": "সলিনয়েড চৌম্বকের ন্যায় আচরণ করে কারণ-\ni. এর মধ্যে চৌম্বক ক্ষেত্রে সৃষ্টি হয়\nii. এর এক প্রান্তে উত্তর মেরু এবং অপর প্রান্তে দক্ষিণ মেরু সৃষ্টি হয়\niii. উচ্চ বিভবকে নিম্ন বিভবে রূপান্তরিত করে\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "physics-2",
+    "question": "চৌম্বক ক্ষেত্র রেখাগুলো-\ni. সম্পূর্ণ কাল্পনিক\nii. চৌম্বক ক্ষেত্র প্রবল হলে কাছাকাছি অবস্থান করে\niii. চৌম্বক ক্ষেত্র দুর্বল হলে বেশ ফাঁক হয়ে অবস্থান করে\nনিচের কোনটি সঠিক?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "physics-2",
+    "question": "তড়িৎবাহী পরিবাহককে চৌম্বক ক্ষেত্রে স্থাপন করা হলে তড়িৎ প্রবাহ ও চৌম্বক ক্ষেত্র উভয়ের লম্ব বরাবর যে বিভব পার্থক্য সৃষ্টি হয় তাকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "01Am2",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "0. 2Am2",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "0. 3Am2",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "0. 4Am2",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\n10 পাকের একটি আয়তাকার কুন্ডলী 0. 2T চৌম্বক ক্ষেত্রে প্রস্থের মধ্যবিন্দু হতে ঝুলানো আছে। কুন্ডলী তল চৌম্বক ক্ষেত্রের সমান্তরা। কুন্ডলীর দৈর্ঘ্য 0. 1m, প্রস্থ 0. 05m এবং এর মধ্য দিয়ে 4A তড়িৎ প্রবাহিত হয়।\n"
+  },
+  {
+    "id": 50,
+    "subject": "physics-2",
+    "question": "ফেরোচৌম্বক পদার্থ অসংখ্য ক্ষুদ্র ক্ষুদ্র কেলাস সমন্বয়ে গঠিত। এদেরকে কী বলে?",
+    "chapter": "4",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "3 x 10-2N. m",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "2 x 10-2N. m",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "3 x 10-3N. m",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "4 x 10-2N. m",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\n10 পাকের একটি আয়তাকার কুন্ডলী 0. 2T চৌম্বক ক্ষেত্রে প্রস্থের মধ্যবিন্দু হতে ঝুলানো আছে। কুন্ডলী তল চৌম্বক ক্ষেত্রের সমান্তরা। কুন্ডলীর দৈর্ঘ্য 0. 1m, প্রস্থ 0. 05m এবং এর মধ্য দিয়ে 4A তড়িৎ প্রবাহিত হয়।\n"
+  },
+  {
+    "id": 1,
+    "subject": "physics-2",
+    "question": "তড়িচ্চুকীয় আবেশের মাধ্যমে বর্তনীতে আবিষ্ট তড়িচ্চাপলক বল সৃষ্টির মূল কারণ কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চৌম্বক ফ্লাক্স",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "চৌম্বক বলরেখা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চৌম্বক ফ্লাক্সের পরিবর্তন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সুস্থিত মানের চৌম্বক ফ্লাক্স",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "physics-2",
+    "question": "গৌণ কুন্ডলীতে সৃষ্ট ভোল্টেজ কত?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "500 Volt",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1000 Volt",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1500 Volt",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "2000 Volt",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "physics-2",
+    "question": "যে তড়িৎ প্রবাহ সর্বদা একমুখী হয় তাকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "একমুখী প্রবাহ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "A. C প্রবাহ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সমপ্রবাহ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অপর্যাবৃত্ত প্রবাহ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "physics-2",
+    "question": "তড়িৎ চৌম্বকীয় আবেশের উপর ভিত্তি করে আবিষ্কৃত হয়য়েছে?\ni. ডায়নামো\nii. মোটর\niii. ট্রান্সফরমার\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "physics-2",
+    "question": "আরমেচারের তারের কুন্ডলীর প্রান্তদ্বয় যে দুটি ধাতব আংটার সাথে যুক্ত থাকে,তাদের কী বলা হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কম্যুটেটর",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ব্রাশ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "শ্যাফট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্লিপ রিং",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "physics-2",
+    "question": "ট্রান্সফর্মারের ক্ষেত্রে কোনটির কারণে মুখ্য কুন্ডলীতে উৎপন্ন চৌম্বক ফ্লাক্স ছড়িয়ে পড়তে পারে না?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মজ্জা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কম্যুটেটর",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চুম্বক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্লিপ রিং",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "physics-2",
+    "question": "লেঞ্জের সূত্র হতে কত সালে প্রকাশিত হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1833",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1834",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "1835",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "836",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "physics-2",
+    "question": "তড়িৎচুম্বক আবেশে-\ni. তড়িৎশক্তি পেতে যান্ত্রিক শক্তি খরচ করতে হয়\nii. শক্তির তাপজনিত কোনো অপচয়ের সম্ভাবনা নেই শক্তির সংরক্ষণশীলতা নীতি মেনে চলে\niii. নিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "physics-2",
+    "question": "একটি পূর্ণ চক্রের জন্য গড় তড়িচ্চালক বল ও গড় তড়িৎপ্রবাহ মাত্রার মান কত?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "শূন্য",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "এক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দুই",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পাঁচ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "physics-2",
+    "question": "যে যন্ত্রের সাহায্যে পরিবর্তী বিভবকে অপেক্ষাকৃত উচ্চ বা নিম্ন পরিবর্তী বিভবে পরিণত করা যায় তাকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ট্রান্সফরমার",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ডায়নামো",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তড়িৎ মোটর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ট্রানজিস্টর",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "physics-2",
+    "question": "ট্রান্সফরমার নিচের কোনটি রূপান্তর করে-",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্ষমতা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভোল্টেজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ভোল্টেজ ও তড়িৎপ্রবাহ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "তড়িৎপ্রবাহ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "physics-2",
+    "question": "আবেশহীন কুন্ডলীতে স্বকীয় আবেশের দরুণ কত মানের ভোল্টেজ অবিষ্ট হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "0V",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "1V",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "πV",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "2πV",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "physics-2",
+    "question": "তড়িচ্চুম্বকীয় আবেশের ক্ষেত্রে কুন্ডলীতে আবিষ্ট তড়িৎ প্রবাহের দিক কোন সূত্র থেকে জানা যায়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফ্যারাডের সূত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ওমের সূত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ওয়েরস্টেডের সূত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লেঞ্জের সূত্র",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "physics-2",
+    "question": "যেকোনো অভিমুখে তড়্চ্চিালক বল বা প্রবাহের সর্বোচ্চ মানকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিস্তার",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "পর্যায়কাল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কম্পাঙ্ক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পরিবর্তন চক্র",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "physics-2",
+    "question": "1 Wb = কত?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "107 maxwell",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "108 maxwell",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "10-7 maxwell",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "10-8 maxwell",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "physics-2",
+    "question": "একটি কাঁচা লোহার আয়তাকার মজ্জা বা কোর এর বিপরীত বাহুতে অন্তরিত তার পেঁচিয়ে তৈরি হয়-",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জেনারেটর",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ডায়নামো",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ট্রান্সফরমার",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "মোটর",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "physics-2",
+    "question": "তাড়িত চৌম্বক আবেশের ওপর ভিত্তি করে ফ্যারাডে কয়টি সূত্র প্রদান করেন?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২টি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "৩টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৪টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৫টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "physics-2",
+    "question": "যে তড়িচ্চালক বলের ক্রিয়ায় কোন বর্তনীতে পরিবর্তী প্রবাহ চলে সেই তড়িচ্চালক বলকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ডিসি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "এসি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পরিবর্তী তড়িচ্চালক বল",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সমপ্রবাহ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "physics-2",
+    "question": "এসি সরবরাহ লাইনে সাপ্লাই ভোল্টেজের মান 220 V লেখা। ভোল্টেজের এ মান প্রকৃত পক্ষে কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কার্যকর মান",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "গড়মান",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "শীষমান",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ডিসি মান",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "physics-2",
+    "question": "স্টেপ-অপ ট্রান্সফর্মারের গৌণ কুন্ডলীতে মুখ্য কুন্ডলীর তুলনায়-\ni. পাক সংখ্যা বেশি থাকে\nii. প্রবাহের মান বেশি থাকে\niii. ভোল্টেজের মান বেশি থাকে\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "physics-2",
+    "question": "একটি এসি প্রবাহের অর্ধচক্রে গড়মান 6. 37A হলে এর বিস্তার কত?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "5A",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "10A",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "15A",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "20A",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "physics-2",
+    "question": "কুন্ডলীর সাপেক্ষে কোনটির কারণে কুন্ডলীর মধ্যবর্তী স্থানে চৌম্বক ফ্লাক্সের পরিবর্তন হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চুম্বকের আকর্ষণ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "চুম্বকের বিকর্ষণ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চুম্বকের আপেক্ষিক গতি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "চুম্বকের আপেক্ষিক স্থিতি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "physics-2",
+    "question": "একটি তার কুন্ডলীতে দন্ড চুম্বক দ্বারা ব্যয়িত যান্তিক শক্তি, উৎপন্ন কোন শক্তির সামন?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রাষায়নিক শক্তি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তড়িৎশক্তি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চৌম্বক শক্তি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "কোনোটিই নয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "physics-2",
+    "question": "এসি জেরারেটরের কুন্ডলীতে আবিষ্ট তড়িচ্চালক বলের পরিমাণ নির্ভর করে-\ni. চৌম্বক ক্ষেত্রের প্রাবল্যের ওপর\nii. কুন্ডলীর ঘূর্ণন গতির ওপর\niii. কুন্ডলীর ক্ষেত্রফলের ওপর\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "physics-2",
+    "question": "ডিসি মোটরে রয়েছে-\ni. কম্যুটেটর\nii. ব্রাশ\niii. ক্ষেত্র চুম্বক ও আর্মেচার\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "physics-2",
+    "question": "তড়িচ্চুম্বকীয় আবেশ প্রক্রিয়ার-\ni. সৃষ্ট তড়িচ্চালক বলকে আবিষ্ট তড়িচ্চালক বল বলে\nii. বিপুল পরিমাণে তাপের শোষণ ঘটে\niii. সৃষ্ট তড়িৎ প্রবাহকে আবিষ্ট তড়িৎপ্রবাহ বলে\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "physics-2",
+    "question": "স্ববেশ গুণাঙ্কের একককে সংক্ষেপে কী নামে অভিহিত করা হয়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ওয়েরস্টেড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লেঞ্জ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যাম্পিয়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হেনরি",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "physics-2",
+    "question": "বাংলাদেশে যে দিক পরিবর্তী বিদ্যুৎ সরবরাহ করা হয় তার কম্পাঙ্ক হচ্ছে-",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "20 Hz",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "25 Hz",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "40 Hz",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "50 Hz",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "physics-2",
+    "question": "অর্ধচক্রে কোন একটি প্রত্যাবর্তী তড়িৎ প্রবাহের গড়মান 15 A হলে, পূর্ণচক্রের প্রবাহটির গড় বর্গমান-",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "শূন্য হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "শূন্য হয় না",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "দুটিই হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোনোটিই হয়ে না",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "physics-2",
+    "question": "হেনরি (H) কিসের একক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তড়িৎ আবেশ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পারস্পরিক আবেশ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তড়িৎ আবেশ গুণাঙ্ক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পারস্পরিক আবেশ গুণাঙ্ক",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "physics-2",
+    "question": "কোনো দিক পরিবর্তী তড়িচ্চালক বল 2s এ একটি পূর্ণচক্র সম্পন্ন করলে এর কম্পাঙ্ক কত মানের?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "0. 5Hz",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "I Hz",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "2 Hz",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "4 Hz",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "physics-2",
+    "question": "ট্রান্সফরমার রূপান্তর করে-\ni. ভোল্টজ\nii. তড়িৎ প্রবাহ\niii. রোধ\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "physics-2",
+    "question": "1μH = ?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "10-1 H",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "10-3 H",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "10-6 H",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "10-9 H",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "physics-2",
+    "question": "লেঞ্জের সূত্র থেকে জানা যায়-\ni. আবিষ্ট তড়িচ্চালক বল\nii. তড়িৎ প্রবাহ\niii. তড়িৎ প্রবাহের দিক\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "physics-2",
+    "question": "লেঞ্জের সূত্র থেকে কোনটি জানা যায়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "শুধু আবিষ্ট তড়িচ্চালক বল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "শুধু তড়িৎ প্রবাহর দিক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "শুধু তড়িৎ প্রবাহ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আবিষ্ট তড়িচ্চালক বল ও তড়িৎ প্রবাহের দিক উভয়ই",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "physics-2",
+    "question": "মোটরের ক্ষেত্রে আর্মেচারের কুন্ডলীর দুই প্রান্ত কিসের সাথে যুক্ত থাকে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কম্যুটেটর",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ব্রাশ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চুম্বক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্লিপ রিং",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "physics-2",
+    "question": "তড়িচ্চুম্বকীয় আবেশের ক্ষেত্রে কুন্ডলীতে আবিষ্ট তড়িৎ প্রবাহের অভিমুখ কোন দিকে তা কোন সূত্র হতে জানা যায়?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ওমের সূত্রে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফ্যারাডের সূত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লেঞ্জের সূত্র",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ওয়েরস্টেডের সূত্র",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "physics-2",
+    "question": "ট্রান্সফর্মারে যে কুন্ডলীতে পরিবর্তী বিভব আবিষ্ট হয় তাকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ধন কুন্ডলী",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ঋণ কুন্ডলী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মুখ্য কুন্ডলী",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গৌণ কুন্ডলী",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "physics-2",
+    "question": "ডায়নামোতে যে ব্রাশ ব্যবহার করা হয় তা কিসের তৈরি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কার্বন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "সোনা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রুপা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যালুমিনিয়াম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "physics-2",
+    "question": "তড়িচ্চালক শক্তি আবিষ্ট হয় কিসের প্রভাবে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্থির চৌম্বক ক্ষেত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পরিবর্তী চৌম্বক ক্ষেত্র",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "আপেক্ষিক গতি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পরিবর্তী যান্ত্রিক বল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "physics-2",
+    "question": "যে যন্ত্রের সাহায্যে যান্ত্রিক শক্তিকে পরিবর্তী তড়িৎ শক্তিতে পরিণত করা যায়, তাকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মোটর",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জেনারেটর",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ট্রান্সফরমার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ট্রানজিস্টর",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "physics-2",
+    "question": "স্বকীয় আবেশ কুন্ডলীর অপর নাম কী?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্বাবেশক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আবেশক",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "পারস্পরিক আবেশক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কুন্ডলী আবেশক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "physics-2",
+    "question": "ট্রান্সফর্মারের কোন অংশে কতকগুলেঅ অন্তরিত লোহার পাত পরপর সাজাানো থাকে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ব্রাশে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কম্যুটেটর",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মজ্জা",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "স্লিপ রিং-এ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "physics-2",
+    "question": "যে যন্ত্রের সাহায্যে পর্যাবৃত্ত উচ্চ বিভবকে নিম্ন বিভব এবং নিম্ন বিভবকে উচ্চ বিভবে রূপান্তর করা হয় তাকে কী বলে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ট্রান্সফরমার",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ট্রানজিস্টর",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মোটর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ডায়নামো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "physics-2",
+    "question": "তড়িৎ মোটরের ব্রাশ কিসের তৈরি?\ni. কার্বন\nii. তামা\niii. লোহা\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "physics-2",
+    "question": "জেনারেটরের আর্মেচারের সাথে কী যুক্ত থাকে?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ধাতব দন্ড",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "স্থায়ী চুম্বক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অস্থায়ী চুম্বক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ক্ষেত্র চুম্বক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "physics-2",
+    "question": "কোন কুন্ডলী যখন পূর্ণ একবার ঘোরে তখন θ এর মান হয়-",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "00 থেকে 900",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "00 থেকে 1800",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "00 থেকে 2700",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "00 থেকে 3600",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "physics-2",
+    "question": "চৌম্বক ফ্লাক্সের একক-\ni. Tm2\nii. Wb\niii. T/m2\nনিচের কোনটি সঠিক?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "10V",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "14. 1V",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "20V",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "28. 2V",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nকোনো প্রত্যাবর্তী তড়িচ্চালক বলকে ε = 20 sin(40t) সমীকরণ দ্বারা প্রকাশ করা হয়।\n"
+  },
+  {
+    "id": 49,
+    "subject": "physics-2",
+    "question": "তড়িচ্চুকীয় আবেশের মাধ্যমে বর্তনীতে আবিষ্ট তড়িচ্চাপলক বল সৃষ্টির মূল কারণ কোনটি?",
+    "chapter": "5",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nকোনো প্রত্যাবর্তী তড়িচ্চালক বলকে ε = 20 sin(40t) সমীকরণ দ্বারা প্রকাশ করা হয়।\n"
+  },
+  {
+    "id": 1,
+    "subject": "physics-2",
+    "question": "50 cm ফোকাস দূরত্বের একটি অবতল দর্পণ থেকে কত দূরে বস্তু রাখলে দ্বিগুণ বিবর্ধিত অবাস্তব প্রতিবিম্ব পাওয়া যাবে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "20 cm",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "30 cm",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "25 cm",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "75 cm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "physics-2",
+    "question": "নিউটন কত সালে প্রতিফলক দূরবীক্ষণ যন্ত্র আবিষ্কার করেন?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1610",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1611",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1663",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "1668",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "physics-2",
+    "question": "উত্তল লেন্সে দ্বিতীয় পৃষ্ঠের প্রতিসরণের ক্ষেত্রে-\ni. বস্তুর দূরত্ব ঋণাত্মক রাশি\nii. প্রতিবিম্বের দূরত্ব v ধনাত্মক\niii. r2 ঋণাত্মক\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "physics-2",
+    "question": "ফার্মাটের নীতির সাহায্যে প্রতিপাদন করা যায়-\ni. আলোর সরলরৈখিক গতি\nii. আলোর প্রতিফলনের সূত্র\niii. আলোর ব্যতিচার\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "physics-2",
+    "question": "জটিল অণুবীক্ষণ যন্ত্রের অভিনেত্রে সৃষ্ট প্রতিবিম্ব-",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বাস্তব ও বিবর্ধিত",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অবাস্তব ও বিবর্ধিত",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সোজা ও বিবর্ধিত",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "বাস্তব ও বিবর্ধিত",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "physics-2",
+    "question": "প্রতিফলক দূরবীক্ষণ যন্ত্রে অবতল দর্পণের সাথে কত ডিগ্রি কোণে সমতল দর্পণ স্থাপন করা হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "300",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "450",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "600",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "900",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "physics-2",
+    "question": "দুটি হেলানো সমতল পৃষ্ঠ দ্বারা একটি স্বচ্ছে সমসত্ত্ব প্রতিসারক মাধ্যমে কে কী বলে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দর্পণ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রিজম",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "লেন্স",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিচ্যুতি কোণ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "physics-2",
+    "question": "আলোকীয় পথের ক্ষেত্রে, 8 [f(x)] = 0 হলে f(x) এর মান কিরূপ হবে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চরম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অসম",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "চরম অথবা অবম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অপরিবর্তিত",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "physics-2",
+    "question": "জ্যামিতিক আলোকবিজ্ঞান আলোচনা করা হয়-\ni. আলোকের প্রকৃতিজনিত ধর্ম\nii. আলোর বেগ\niii. আলোক যন্ত্রপাতি\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "physics-2",
+    "question": "ফটো তোলা যায়-\ni. বাস্তব প্রতিবিম্বের\nii. অবাস্তব প্রতিবিম্বের\niii. অবাস্তব দূরত্বের\nনিচের কোনটি সঠিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "physics-2",
+    "question": "বিবর্ধক কাচ বলা হয়-",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জটিল অণুবীক্ষণ যন্ত্রকে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নভোদূরবীক্ষন যন্ত্রকে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সরল অণুবীক্ষণ যন্ত্রকে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "দূরবীক্ষণ যন্ত্রকে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "physics-2",
+    "question": "একটি উভোত্তল লেন্সের দুই পৃষ্ঠের বক্রতার ব্যাসার্থ যথাক্রমে 15 cm এবং 30 cm. লেন্সটির ফোকাস দূরত্ব 20 cm হলে উপাদানের প্রতিসরণাঙ্ক কত?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1. 67",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1. 52",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1. 65",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "1. 5",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "physics-2",
+    "question": "নভোদূরবীক্ষণ যন্ত্রের অভিনেত্রর লেন্স কী দিয়ে তৈরি?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পাইরেক্স কাচ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ঘষা কাচ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফ্লিন্ট কাচ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ক্রাউন কাচ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "physics-2",
+    "question": "প্রিজমে আপতিত রশ্মি ও নির্গত রশ্মির অন্তর্ভূক্ত কোণকে কী বলে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রিজম কোণ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বিচ্যুতি কোণ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "প্রতিসারক কোণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রাধান ছেদ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "physics-2",
+    "question": "কোনো লক্ষ্যবস্তু চোখে যে কোণ উৎপন্ন করে তাকে কী বলে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বীক্ষণ কোণ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "বিষম কোণ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিবর্ধন কোণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অভিসারী কোণ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "physics-2",
+    "question": "যেসব লেন্সের প্রান্তভাগ অপেক্ষা মধ্যভাগ সরু তাদেরকে কী বলে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্থূল মধ্য লেন্স",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্ষীণ মধ্যলেন্স",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "অভিসারী লেন্স",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "উত্তল লেন্স",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "physics-2",
+    "question": "নিচের কোনটি পর্যবেক্ষণের জন্য সরল অণুবীক্ষণ যন্ত্র ব্যবহার করা হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সূক্ষ্ম কারুকার্য",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ব্যাকটেরিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গ্রহ-নক্ষত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বৃতস্পতির গতিপথ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "physics-2",
+    "question": "কোন রঙের আলোর জন্য নির্দিষ্ট মাধ্যমের প্রতিসরণাঙ্কের মান সবচেয়ে কম?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বেগুনি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আসমানী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "লাল",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সবুজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "physics-2",
+    "question": "30 cm ফোকাস দূরত্ববিশিষ্ট একটি সমতল দর্পণ থেকে 50 cm দূরে একটি বস্তু আছে। প্রতিবিম্বটি কোথায় গঠিত হবে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "30 cm",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "50 cm",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "75 cm",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "150 cm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "physics-2",
+    "question": "প্রতিফলক দূরবীক্ষণ যন্ত্র সর্বপ্রথম আবিষ্কার করেন?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্রেগারি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "আইজ্যাক নিউটন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হার্সেল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "জোহান কেপলার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "physics-2",
+    "question": "টেলিস্কোপে ইন্সত বস্তু শনাক্তকরণের জন্য কোনটি ব্যবহৃত হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফাপা নল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নোজ্যাপিস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ভিউফাইন্ডার",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "এডজাস্টিং স্ক্রু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "physics-2",
+    "question": "একটি কলমকে পানিভর্তি গ্লাসের ভেতর রাখলে কেমন দেখাবে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লম্বা ও সরু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "লম্বা ও মোটা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মোটা ও খাটো",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "খাটো ও সরু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "physics-2",
+    "question": "20cm ফোকাস দূরত্বের উত্তল লেন্সের কত সে. মি. সামনে বস্তু রাখলে সমান আকারের বিম্ব গঠিত হবে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "20",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "30",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "40",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "physics-2",
+    "question": "সরল অণুবীক্ষণ যন্ত্রের অপর নাম কী?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দূর বীক্ষণ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বিবর্ধক কাচ",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "বাইনোকুলার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নভোদূরবীক্ষণ যন্ত্র",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "physics-2",
+    "question": "লেন্সের আলোক কেন্দ্র থেকে প্রধান ফোকাস পর্যন্ত দূরত্বকে কী বলে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গঠন ফোকাস",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ফোকাস দূরত্ব",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "বক্রতার ব্যাসার্ধ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফোকাস তল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "physics-2",
+    "question": "দুইটি অবতাল লেন্সের সমবায়ের ক্ষমতা কীরূপ?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ধনাত্মক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অসীম মানের",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "শূন্যের কাছাকাছি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ঋণাত্মক",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "physics-2",
+    "question": "উত্তল প্রতিসারক তলের বক্রতার ব্যাসার্ধ কেমন হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অসীম মানের",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্ষুদ্রমানের",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ধনাত্মক",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ঋণাত্মক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "physics-2",
+    "question": "নভোদূরবীক্ষণ যন্ত্রের অভিলক্ষ্যের লেন্স কোন কাচের তৈরি?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পাইরেক্স",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্রাউন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ফ্লিন্ট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোয়ার্টজ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "physics-2",
+    "question": "প্রতিবিম্বের দৈর্ঘ্য ও লক্ষ্যবস্তুর দৈর্ঘ্যের অনপিাতকে কী বলঅ হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিবর্ধন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "প্রধান ছেদ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বক্রতার ব্যাসার্ধ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রধান ফোকাস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "physics-2",
+    "question": "অবতল দর্পণের ফোকাস দূরত্ব 20 cm । দর্পণ হতে কত দূরে বস্তু স্থাপন করলে চারগুণ বিবর্ধিত বাস্তব প্রতিবিম্ব পাওয়া যাবে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "20 cm",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "25 cm",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "30 cm",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "60 cm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "physics-2",
+    "question": "প্রতিসরণাঙ্কের মান কোনটির ওপর নির্ভর করে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মাধ্যমদ্বয়ের প্রকৃতি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আলোর রং",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মাধ্যমদ্বয়ের প্রকৃতি ও আলোর রং",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "আপতন কোণ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "physics-2",
+    "question": "পানি সাপেক্ষে কাচের প্রতিসরণাঙ্ক 9/8 এবং বায়ু সাপেক্ষে কাচের প্রতিসরণাঙ্ক 3/2 হলে বায়ু সাপেক্ষে পানির প্রতিসরণাঙ্ক কত?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1. 53",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1. 33",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "1. 47",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "1. 93",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "physics-2",
+    "question": "কোনা উত্তল লেন্সের ক্ষমতা + 5D হলে এর ফোকাস দূরত্ব কত?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "10 cm",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "20 cm",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "30 cm",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "40 cm",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "physics-2",
+    "question": "একটি নভো-দূরবীক্ষণ যন্ত্রের অভিলক্ষ্য ও অভিনেত্রের ফোকাস দূরত্ব যথাক্রমে 50 cm এবং 5 cm । স্বাভাবিক দর্শন ফোকাসিং-এর ক্ষেত্রে এর বিবর্ধন ক্ষমতা কত?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "10. 2",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "10",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "55",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "45",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "physics-2",
+    "question": "লেন্সের ক্ষমতার এসআই একক হলো-",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মিটার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রেডিয়ান/মিটার",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "লুমেন/মিটার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মিটার/রেডিয়ান",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "physics-2",
+    "question": "দৃষ্টি সহায়ক যন্ত্রের কাজ কী?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চোখের অভিসারী ক্ষমতা বৃদ্ধি করা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অপসারী ক্ষমাত বৃদ্ধি করা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বীক্ষণ কোণ বৃদ্ধি করা",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "প্রতিবিম্বের ঋজ্জ্‌লতা বৃদ্ধি করা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "physics-2",
+    "question": "জটিল অণুবীক্ষণ যন্ত্রে লক্ষ্যবস্তুকে কি দ্বারা আলোকিত করা হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অবতল দর্পণ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "উত্তল লেন্স",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অবতল লেন্স",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "উত্তল দর্পণ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "physics-2",
+    "question": "প্রতিফলক দূরবীক্ষণ সুবিধা কোনটি?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "যন্ত্রটি আকারে বেশ বড়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বর্ণত্রূটি বা গোলীয় ত্রূটি থাকে না",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "উল্টো প্রতিবিম্ব গঠন করে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "যন্ত্রের দৃষ্টিক্ষেত্র বেশ প্রশস্ত",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "physics-2",
+    "question": "জটিল অণুবীক্ষণ যন্ত্রে গঠিত চূড়ান্ত প্রতিবিম্ব-",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "উল্টো ও খর্বিত",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "উল্টো ও বিবর্ধিত",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সোজা ও খর্বিত",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সোজা ও বিবর্ধিত",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "physics-2",
+    "question": "একটি সরল অণুবীক্ষণ যন্ত্রে ব্যবহুত লেন্সের ফোকাস দূরত্ব 0. 20 m হলে ঐ যন্ত্রের বিবর্ধন কত?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "2. 67",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "2. 36",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "2. 58",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "2. 25",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "physics-2",
+    "question": "নভোদূরবীক্ষণ যন্ত্রের অভিলক্ষের ফোকাস দূরত্ব ও উম্মেষ কেমন হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অভিনেত্রের চেয়ে অনেক বড়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অভিনেত্র অপেক্ষাকৃত ছোট",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অভিনেত্র অপেক্ষাকৃত বড়",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "অভিনেত্রর চেয়ে অনেক ছোট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "physics-2",
+    "question": "প্রতিফলক দূরবীক্ষণ যন্ত্রে অভিলক্ষ্য কোনটি দ্বারা গলিত?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "উত্তল লেন্স",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "উত্তল দর্পণ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অবতল দর্পণ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "অবতল লেন্স",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "physics-2",
+    "question": "‘সাদা আলোর প্রকৃতি যৌগিক’ এটি কে প্রমাণ করেন?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হাইগেন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিউটন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "জোহান কেপলার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ম্যাক্সওয়েল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "physics-2",
+    "question": "সরল অনুবীক্ষণ যন্ত্রে কী ধরনের প্রতিবিম্ব গঠিত হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সোজা ও খর্বিত",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সোজা ও বিবর্ধিত",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "উল্টো ও বিবর্ধিত",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "উল্টো ও খর্বিত",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "physics-2",
+    "question": "প্রতিফলক দূরবীক্ষণ যন্ত্র কোথায় ব্যবহৃত হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ভূ-পর্যবেক্ষণে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গ্রহ নক্ষত্র পর্যবেক্ষণে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মানমন্দিরে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "খেলার মাঠে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "physics-2",
+    "question": "প্রতিফলক দূরবীক্ষণ যন্ত্র সর্বপ্রথম কত সালে উদ্ভাবিত হয়?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1661",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1663",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "1660",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "1667",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "physics-2",
+    "question": "নিউটন কত সালে প্রমাণ করেন সাদা আলোর প্রকৃতি যৌগিক?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1663",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1668",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1610",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "1666",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "physics-2",
+    "question": "50 cm ফোকাস দূরত্বের একটি অবতল দর্পণ থেকে কত দূরে বস্তু রাখলে দ্বিগুণ বিবর্ধিত অবাস্তব প্রতিবিম্ব পাওয়া যাবে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "+ 2D",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "+ 3D",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "+ 4D",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "2. 66D",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\n12 cm ফোকাস দূরত্বের দুটি উত্তল লেন্স এবং 25 cm ফোকাস দূরত্বের অবতল লেন্সের সমবায় গঠন করা হলো।\n"
+  },
+  {
+    "id": 49,
+    "subject": "physics-2",
+    "question": "লেন্সের ব্যাসকে কী বলে?",
+    "chapter": "6",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\n12 cm ফোকাস দূরত্বের দুটি উত্তল লেন্স এবং 25 cm ফোকাস দূরত্বের অবতল লেন্সের সমবায় গঠন করা হলো।\n"
+  },
+  {
+    "id": 1,
+    "subject": "physics-2",
+    "question": "আলো বায়ু হাতে কাঁচে 00 আপতন কোনে প্রবেশ করছে প্রতিরসরণ কোণ কত হবে?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "00",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "300",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "450",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "600",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "physics-2",
+    "question": "একটি উৎস থেকে দুটি সুসঙ্গত উৎস তৈরি করতে-\ni. দুটি চিড় লাগাবে\nii. একই তরঙ্গ দৈর্ঘ্যের আলো লাগাবে\niii. চারটি চিড় লাগবে\nনিচের কোনটি সঠিক?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "physics-2",
+    "question": "কোনো বিন্দুর আলোক তীব্রতা বৃদ্ধি পেলে কেমন ব্যতিচার ঘটতে পারে?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ধ্বংষাত্মক ব্যতিচার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গঠনমূলক ব্যতিচার",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "দুটিই",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "একটিও না",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "physics-2",
+    "question": "কোন বিজ্ঞানী আলোর তাড়িতচৌম্বকীয় তরঙ্গ তত্ত্বের পরীক্ষামূলক প্রমাণ করেন?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ম্যাক্সওয়েল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রাঙ্ক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হেনরিখ হার্জ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "নিউটন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "physics-2",
+    "question": "ট্রান্সমিটার থেকে কি ধরনের তরঙ্গ উৎপন্ন করা হয়?",
+    "chapter": "7",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বেতার তরঙ্গ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "আলোক তরঙ্গ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "এক্স-রে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দৃশ্যমান আলো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 1,
+    "subject": "physics-2",
+    "question": "ভীন কোন দেশের বিজ্ঞানী?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইটালি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জার্মান",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ইংল্যান্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গ্রীস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "physics-2",
+    "question": "এক্সেরে হচ্ছে-\ni. তাড়িতচৌম্বক বিকিরণ\nii. আয়ন সৃষ্টিকারী বিকিরণ\niii. দৃশ্যমান বিকিরণ\nনিচের কোনটি সঠিক?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "physics-2",
+    "question": "আইনস্টাইন কোয়ান্টামের কী নাম দেন?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ফোটন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "মেসন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বোসন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কৃষ্ণবস্তু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "physics-2",
+    "question": "নিউক্লিয়াস থেকে বিটা কণা নির্গমনের জন্য কোন বল দায়ী?",
+    "chapter": "8",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মহাকর্ষ বল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সবল নিউক্লিয় বল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দুর্বল নিউক্লিয় বল",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "তাড়িতচৌম্বক বল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 1,
+    "subject": "physics-2",
+    "question": "যেসব পরমাণুর ভর সংখ্যা এক কিন্তু পারমাণিবিক সংখ্যা ভিন্ন তাদের বলে-",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আইসোবার",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "আইসোমার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আইসোটোপ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ইলেকট্রন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "physics-2",
+    "question": "কত সালে বিজ্ঞানী বোর তার পরমাণু মডেলের প্রস্তাব করেন?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1922",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1911",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1919",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "1913",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "physics-2",
+    "question": "কোনটি তড়িৎ নিরপেক্ষ?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইলেকট্রন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রোটন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিউট্রন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "আলফা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "physics-2",
+    "question": "কত সালে থমসন ইলেকট্রন আবিষ্কার করেন?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1857 সালে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1867 সালে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1887 সালে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "1897 সালে",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "physics-2",
+    "question": "কত সালে বিজ্ঞানী রাদারফোর্ড তার পরমাণু মডেলের প্রস্তাব করেন?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1811",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1913",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1919",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "1911",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "physics-2",
+    "question": "তেজস্ক্রিয় অবক্ষয় সূত্র কত সালে আবিষ্কৃত হয়?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1902",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "1900",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1911",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "1896",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "physics-2",
+    "question": "নিচের কোনটি তেজস্ক্রিয়তার এসআই একক?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বেকেরেল",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ওয়েবার/মিটার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কুলম্ব",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিউটন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "physics-2",
+    "question": "আলফা কণিকার বিক্ষেপণ পরীক্ষায় পারমাণবিক গঠনের যে মডেল পাওয়া যায় তাকে কী বলে?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বোর মডেল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রাদারফোর্ড মডেল",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ডাল্টন মডেল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "থমসন মডেল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "physics-2",
+    "question": "তৃতীয় বোর কক্ষের ব্যাসার্ধ ১ম বোর কক্ষের ব্যাসার্ধের কত গুণ?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ছয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নয়",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ষোল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "physics-2",
+    "question": "যেসব পরমাণুর প্রোটন সংখ্যা এবং ভরসংখ্যা সমান কিন্তু তাদের অভ্যন্তরীণ গঠন ভিন্ন তাদেরকে কী বলে?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আইসোবার",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "আইসোমার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আইসোটোপ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আইসোটোন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "physics-2",
+    "question": "ইলেকট্রনগুলোর ঘূর্ণনজনিত সময়ে কোন বল কাজ করে?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কেন্দ্রবিমুখী বল",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কেন্দ্রমুখী বল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিউটন বল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মহাকষীয় বল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "physics-2",
+    "question": "নিউক্লিয়াসে যে সকল কণা থাকে তাদেরকে কী বলে?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ভরসংখ্যা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পারমাণবিক সংখ্যা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিউক্লিয়ন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "নিউক্লাইড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "physics-2",
+    "question": "নিচের কোনটিকে পরমাণুর শক্তির আধার বলা হয়?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইলেকট্রন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মেসন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিউক্লিয়াস",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "আইসোটোন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "physics-2",
+    "question": "পরমাণু হতে শক্তি উৎপন্ন করা যায়-\ni. নিউক্লীয় ফিশন বিক্রিয়ায়\nii. নিউক্লীয় ফিউশন বিক্রিয়ার\niii. চেইন বিক্রিয়ায়\nনিচের কোনটি সঠিক?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "physics-2",
+    "question": "পরমাণুতে সম পরিমাণে রয়েছে-\ni. ধনচার্জ\nii. ঋণচার্জ\niii. নিরপেক্ষ চার্জ\nনিচের কোনটি সঠিক?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "physics-2",
+    "question": "যে সমস্ত পরমাণুর ভর সংখ্যা এক কিন্তু পারমাণবিক সংখ্যা ভিন্ন তাদেরকে কী বলা হয়?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আইসোবার",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "আইসোটোন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আইসোটোপ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আইসোমার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "physics-2",
+    "question": "আলফা কণার-\ni. ভর হিলিয়াম নিউক্লিয়াসের ভরের সমান\nii. চার্জ ইলেকট্রন চার্জের সমান\niii. চার্জ ধনাত্মক ধর্মী\nনিচের কোনটি সঠিক?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "physics-2",
+    "question": "পরমাণুর নিউক্লিয়াসে থাকা প্রোটন ও নিউট্রনকে একত্রে বলা হয়-",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পায়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "গ্রাভিটন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিউক্লিয়ন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "আয়ন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "physics-2",
+    "question": "যার ভরসংখ্যা সমান কিন্তু প্রোটন সংখ্যা ভিন্ন তাকে বলে-",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আইসোটোপ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আইসোবার",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "আইসোটোন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আইসোমার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "physics-2",
+    "question": "কোনটি একই মৌলিক পদার্থের বিভিন্ন প্রজাতি?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আইসোবার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আইসাটোন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আইসোমোর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আইসোটোপ",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "physics-2",
+    "question": "হিলিয়াম নিউক্লিয়াসে-\ni. চারটি প্রোটন থাকে\nii. দুইটি ইলেকট্রন থাকে\niii. মোট ধনাত্মক চার্জের পরিমাণ 2e+\nনিচের কোনটি সঠিক?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "physics-2",
+    "question": "কোনটি চৌম্বক ও তড়িৎক্ষেত্র দ্বারা বিচ্যুত হয়?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গামা রশ্মি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "এক্সরে রশ্মি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আলফা রশ্মি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "অতি বেগুণি রশ্মি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "physics-2",
+    "question": "যে সব ভারি নিউক্লিয়াস থেকে তেজস্ক্রিয় রশ্মি নির্গত হয় তাদেরকে কী বলে?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তেজস্ক্রিয় মৌল",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "তেজস্ক্রিয়তা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ক্যাথোড রশ্মি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আলফা রশ্মি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "physics-2",
+    "question": "রেডিয়ামের তেজস্ক্রিয়তা ইউরেনিয়ামের চেয়ে প্রায় কত গুণ বেশি?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পাঁচ হাজার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দশ হাজার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দশ লক্ষ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "দশ কোনটি?",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "physics-2",
+    "question": "হাইডোজেনের আইসোটোপ হলো-\ni. রোগ নির্ণয়\nii. রোগ নিরাময়\niii. রোগ সৃষ্টিতে\nনিচের কোনটি সঠিক?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "physics-2",
+    "question": "বিজ্ঞানী নীলস বোর কোন দেশের অধিবাসী ছিলেন?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ডেনমার্ক",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "আমেরিকা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রাশিয়া",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিউজিল্যান্ড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "physics-2",
+    "question": "বোরের তৃতীয় কক্ষপথের মোট শক্তি এর প্রথম কক্ষপথের শক্তির কত গুণ?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "¼",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1/9",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "1/16",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "physics-2",
+    "question": "তেজস্ক্রিয়তা ব্যবহৃত হয়-\ni. গবেষণা বিজ্ঞানে\nii. কৃষিক্ষেত্রে\niii. শিল্পক্ষেত্রে\nনিচের কোনটি সঠিক?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "physics-2",
+    "question": "তেজস্ক্রিয় পদার্থের ক্ষরণে পরমাণু সংখ্যা 3/4 (No) হলে অবশিষ্ট পরমাণু সংখ্যা হলো-",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "0. 50No",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "0. 25No",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "0. 80No",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "0. 71No",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "physics-2",
+    "question": "হাইড্রোজেন মৌলের নিউক্লিয়াসে কোনটি থাকে না?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোটন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইলেকট্রন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিউট্রন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ডিউটেরিয়াম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "physics-2",
+    "question": "গড় আয়-\ni. অর্ধায়ুর সমানুপাতিক\nii. অর্ধায়ুর ব্যস্তানুপাতিক\niii. বাড়লে অর্ধায়ু বাড়ে\nনিচের কোনটি সঠিক?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "physics-2",
+    "question": "তেজস্ক্রিয়তার S. I একক কোনটি?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কুরী",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বেকেরেল",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "জুল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ওয়াট",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "physics-2",
+    "question": "তেজস্ক্রিয়তা-\ni. আবিষ্কার করে হেনরি বেকরেল\nii. একক হচ্ছে বেকরেল\niii. কৃষিক্ষেত্রে ব্যবহৃত হয়\nনিচের কোনটি সঠিক?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "physics-2",
+    "question": "নিচের কোনটির ভর সবচেয়ে কম?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইলেকট্রন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "প্রোটন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিউট্রন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হাইড্রোজেন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "physics-2",
+    "question": "যে সব মৌলিক পদার্থ অতি সুক্ষ্ম অবিভাজ্য নিরেট কণার সম্বয়ে গঠিত এ কথাগুলোকে কী বলা হয়?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অণু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পরমাণু",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "আয়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পদার্থ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "physics-2",
+    "question": "কে প্রস্তাব করেন যে, চিরায়ত বলবিদ্যা এবং বিদ্যুৎ চুম্বকত্ব এর সূত্রসমূহ পরমাণুতে বিকল হয়ে পড়ে?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নীলস বোর",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "আর্নেস্ট রাদারফোর্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "জন ডাল্টন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ম্যাক্স প্লাঙ্ক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "physics-2",
+    "question": "ইলেকট্রন উচ্চ থেকে নিম্নের দিকে গেলে কোনটি ঘটে?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "শক্তির বিকিরণ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "শক্তির শোষন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "শোষন ও বিকিরণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "শক্তির পরিবর্তন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "physics-2",
+    "question": "কৃত্রিম তেজস্ক্রিয়তা কে আবিষ্কার করেন?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কুরী",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বেকেরেল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "জুলি ও কুরী",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "রন্টজেন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "physics-2",
+    "question": "নিচের কোনটির ভর নেই?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইলেকট্রন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিউট্রিনো",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "প্রোটন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিউট্রন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "physics-2",
+    "question": "পারমাণবিক সংখ্যা হলো-",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিউক্লিয়াসের নিউট্রন সংখ্যা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিউক্লিয়াসের প্রোটন সংখ্যা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "নিউক্লিয়ন সংখ্যা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পরমাণুর ইলেকট্রন সংখ্যা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "physics-2",
+    "question": "কে আলফা কণিকা বিক্ষেপণ পরীক্ষাটি করেছিলেন?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মার্সডেন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "টাইকোব্রাহা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কেপলার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "জগদীশচন্দ্র বসু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "physics-2",
+    "question": "কোনো শক্তির পরিমাণ বেশি হলে নিউক্লিয়াসের স্থায়িত্ব বেশি হয়?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বন্ধন শক্তি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "রাসায়নিক শক্তি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিভব শক্তি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "গতিশক্তি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "physics-2",
+    "question": "প্রোটন ও নিউট্রনকে একত্রে কী বলা হয়?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিউক্লিয়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিউট্রিনো",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ইলেকট্রন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আইসোটোপ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "physics-2",
+    "question": "রেডিও আইসোটোপ ব্যবহৃত হয়-\ni. রোগ নির্ণয়ে\nii. রোগ নিরাময়ে\niii. কৃষি ক্ষেত্রে\nনিচের কোনটি সঠিক?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "physics-2",
+    "question": "প্রতি ফিশনে গড়ে নিউক্লিয়াস হতে কতটি নিউট্রন নির্গত হয়",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "2. 1 টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "2. 47 টি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "3. 4 টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "3. 8 টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "physics-2",
+    "question": "ভারী ধাতু কোনটি?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হিলিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "টাংস্টেন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সোডিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সোনা",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "physics-2",
+    "question": "যখন একটি পরমাণুর নিউক্লিয়াস থেকে একটি বিটা কণা নির্গত হয় তখন-",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পারমাণবিক সংখ্যা এক কমে য়ায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ভর সংখ্যা এক কমে যায়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পারমাণবিক সংখ্যা এক বেড়ে যায়",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "পারমাণবিক সংখ্যা দুই কমে যায়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "physics-2",
+    "question": "যেকোনো কক্ষপথের শক্তি-\ni. অনুমোদিত\nii. ছিন্নায়িত\niii. অনুমোদিত নয়\nনিচের কোনটি সঠিক?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "physics-2",
+    "question": "যেসব পরমাণুর ভর সংখ্যা এক কিন্তু পারমাণিবিক সংখ্যা ভিন্ন তাদের বলে-",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "443",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "344",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "434",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "500",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nহাইড্রোজেন পরমাণুর বোর কোয়ান্টাম সংখ্যার ব্যাসার্ধ 0. 0100mm প্রথম বোর কক্ষের ব্যাসার্ধ 0. 53A এবং ভূমি অবস্থার শক্তি-13. 6eV.\n"
+  },
+  {
+    "id": 50,
+    "subject": "physics-2",
+    "question": "কত সালে বিজ্ঞানী বোর তার পরমাণু মডেলের প্রস্তাব করেন?",
+    "chapter": "9",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nহাইড্রোজেন পরমাণুর বোর কোয়ান্টাম সংখ্যার ব্যাসার্ধ 0. 0100mm প্রথম বোর কক্ষের ব্যাসার্ধ 0. 53A এবং ভূমি অবস্থার শক্তি-13. 6eV.\n"
+  },
+  {
+    "id": 1,
+    "subject": "physics-2",
+    "question": "কোনটি অন্তরক পদার্থ?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তামা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রূপা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইবোনাইট",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "অ্যালুমিনিয়াম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "physics-2",
+    "question": "যোজন ব্যান্ডে সৃষ্ট গর্ত বা হোলের চার্জ কিরূপ?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ধনাত্মক",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ঋণাত্মক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিরপেক্ষ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ধনাত্মক অথবা ঋণাত্মক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "physics-2",
+    "question": "লজিক গেট-এর ক্ষেত্রে-\ni. এক বা একাধিক ইনপুট\nii. একাধিক আউটপুট\niii. একটি মাত্র আউটপুট\nনিচের কোনটি সঠিক?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "physics-2",
+    "question": "ডায়োড কী হিসেবে ব্যবহৃত হয়?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিবর্ধক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রূপান্তরক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "একমুখীকারক",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সুইচ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "physics-2",
+    "question": "যে সব পদার্থের মধ্যে দিয়ে তড়িৎ প্রবাহ চলতে পারে না তাদেরকে কী বলে?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পরিবাহী",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অর্ধপরিবাহী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অন্তরক",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সুপরিবাহী",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "physics-2",
+    "question": "কোনটিকে দাতা পরমাণু বলা হয়?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যালুমিনিয়ামকে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সিলিকনকে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ফসফরাসকে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "জার্মেনিয়ামকে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "physics-2",
+    "question": "সেমিকন্ডাক্টর হলো-\ni. জার্মেনিয়অম\nii. অ্যালুমিনিয়াম\niii. সিলিকন\nনিচের কোনটি সঠিক?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "physics-2",
+    "question": "যার সাহায্যে দিক পরবর্তী প্রবাহকে একমুখী প্রবাহে পরিণত করা হয় তাকে কী বলা হয়?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রেকটিফিকেশন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রেকটিফায়ার",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ডায়োড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ট্রায়োড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "physics-2",
+    "question": "অর্ধপরিবাহীতে যোজন ব্যান্ড পরিবহন ব্যান্ডের মধ্যবর্তী শক্তি ব্যবধান কত?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "le V",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ze V",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "-le V",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "-2 eV",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "physics-2",
+    "question": "উচ্চ ফ্রিকুয়েন্সি বর্তনীতে কোন ট্রানজিস্টর ব্যবহার করা হয়?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "n-p-n",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "p-n-p",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দুটিই",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অ্যামপ্লিফায়ার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "physics-2",
+    "question": "মৌলিক লজিক গেট হলো-\ni. AND\nii. NOR\niii. OR\nনিচের কোনটি সঠিক?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "physics-2",
+    "question": "যে যন্ত্র অন্তর্গামিতে প্রদত্ত সংকেত বহির্গামিতে বিবর্ধিত করে তাকে কী বলে?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যামপ্লিফায়ার",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "রেকটিফায়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ট্রানজিস্টর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টান্সফর্মার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "physics-2",
+    "question": "pnp ট্রানজিস্টরে p অঞ্চলকে ঋণাত্মক প্রান্তের সাথে যুক্ত করা হয় কোনটিকে?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নি:সারক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সংগ্রাহক",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "পীঠ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বেস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "physics-2",
+    "question": "p-n-p ট্রানজিস্টরের মধ্যস্থিত কারেন্ট বাহক কোনটি?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইলেকট্রন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রোটন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হোল",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "নিউট্রন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "physics-2",
+    "question": "ডিপ্লেশন স্তরের প্রশস্ততা বৃদ্ধি পায় কোন ব্যায়াসে?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সম্মুকী বায়াসে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বিমুখী বায়াসে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সমান বায়াসে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অসমান বায়াসে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "physics-2",
+    "question": "অর্ধপরিবাহীর কোনটিতে ইলেক্ট্রন সম্পূর্ণ পূর্ণ থাকে?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পরিবহ ব্যান্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পরিচলন ব্যান্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "শক্তি ব্যান্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "যোজন ব্যান্ড",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "physics-2",
+    "question": "(11010011)2=(?)10",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "210",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "213",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "211",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "214",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "physics-2",
+    "question": "বিবর্ধক ও সুইচ হিসেবে ব্যবহৃত হয় কোনটি?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অ্যামপ্লিফায়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "রেকটিফায়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ট্রানজিস্টর",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "সবকটি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "physics-2",
+    "question": "উত্তম অন্তরক কোনটি?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিশুদ্ধ জার্মেনিয়াম",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ভেজালযুক্ত জার্মেনিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিশুদ্ধ অ্যালুমিনিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ভেজালযুক্ত অ্যালুমিনিয়াম",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "physics-2",
+    "question": "p-টাইপ অর্ধপরিবাহীতে সংখ্যা গুরু চার্জ বাহক কী?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মেসন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বোসন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইলেকট্রনন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হোল",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "physics-2",
+    "question": "ট্রানজিস্টরে যে অংশ আধান সংগ্রহ করে তাকে কী বলে?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এমিটার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কালেক্টর",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "প্রবাহ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বেস",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "physics-2",
+    "question": "অ্যালুমিনিয়াম ও জার্মেনিয়াম মিশালে কয়টি সমযোজী বন্ধন তৈরি হয়?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দুইটি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তিনটি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "চারটি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পাঁচটি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "physics-2",
+    "question": "কোনটির সাথে ভেজাল মিশালে পরিবাহীতা বাড়ে?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পরিবাহী",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অর্ধ পরিবাহী",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "অন্তরক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কুপরিবাহী",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "physics-2",
+    "question": "বিশুদ্ধ সিলিকনের সাথে সামান্য পরিমাণ পঞ্চযোজী ডোপায়িত করলে এটি পরিণত হয়-",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "p টাইপ অর্ধপরিবাহী",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "n টাইপ অর্ধপরিবাহী",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "অন্তরক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অতিপরিবাহী",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "physics-2",
+    "question": "পূর্ণতরঙ্গ একমুখীকরণের জন্য p-n জাংশন ব্যবহার করতে হয়?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লম্বভাবে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সমান্তরালে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "অনুভূমিকভাবে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "খাড়াভাবে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "physics-2",
+    "question": "(96)16=(?)8",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "220",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "222",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "224",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "226",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "physics-2",
+    "question": "বিমুখী ঝোঁকের ক্ষেত্রে ভোল্টেজ পার্থক্য বাড়ালে তড়িৎ প্রবাহ-",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বৃদ্ধি পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "দ্রুত বৃদ্ধি পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কম বৃদ্ধি পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "প্রায় স্থির থাকে",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "physics-2",
+    "question": "জেনার ক্রিয়ায় কী ঘটে?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রোধ স্বাভাবিক থাকে",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "রোধ শুন্য হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রোধ বৃদ্ধি পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "রোধ কমে যায়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "physics-2",
+    "question": "পরম শূন্য তাপমাত্রায় কোন ব্যান্ড খালি থাকে?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "যোজন ব্যান্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নিষিদ্ধ ব্যান্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পরিবহন ব্যান্ড",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "শক্তি ব্যান্ড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "physics-2",
+    "question": "(11110)2=(?)8",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "30",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "32",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "34",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "36",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "physics-2",
+    "question": "(6BF)16=(?)10",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1726",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1725",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1728",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "1727",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "physics-2",
+    "question": "হোল কীরূপ চার্জ বিশিষ্ট?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ধনাত্মক",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ঋণাত্মক",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিরপেক্ষ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "চার্জহীন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "physics-2",
+    "question": "অর্ধপরিবাহী কেলাসের শক্তি-",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিউক্লিয়াসসমূহের মধ্যস্থ বল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রোটনসমূহের মধ্যস্থ বল",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইলেকট্রন জোড় বন্ধন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "ইলেকট্রন বল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "physics-2",
+    "question": "পরিবাহীকে উত্তপ্ত করলে-\ni. রোধকতা বৃদ্ধি পায়\nii. পরিবাহকতা কমে যায়\niii. ঘনত্ব বৃদ্ধি পায়\nনিচের কোনটি সঠিক?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "physics-2",
+    "question": "যখন একটি ডায়োডে সম্মুখী ঝোঁক প্রয়োগ করা হয় তখন হোল ও ইলেকট্রনের পুনর্মিলনে সৃষ্টি হতে পারে-\ni. তাপ\nii. আলো\niii. বিকিরণ\nনিচের কোনটি সঠিক?\ni, ii ও iii",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "physics-2",
+    "question": "কোন তত্ত্বের সাহায্যে কঠিন পদার্থের বৈদ্যুতিক পরিবহন ধর্ম বর্ণনা করা হয়?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ব্যান্ড তত্ত্ব",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "শক্তি ব্যান্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "যোজন ব্যান্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পরিবহন ব্যান্ডে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "physics-2",
+    "question": "'সম্মুখ বায়াসের ক্ষেত্রে ডিপ্লেশন এলাকার প্রস্থে কী ঘটে?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বেড়ে যায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কমে যায়",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সমান হয়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অনেক বেড়ে যায়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "physics-2",
+    "question": "জার্মেনিয়ামের সাথে ফসফরাস মেশালে কয়টি ইলেকট্রন মুক্ত থাকে?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "একটি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "দুইটি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তিনটি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "চারটি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "physics-2",
+    "question": "বিশুদ্ধ সিলিকন বা জার্মেনিয়ামকে কী বলে?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অর্ধ পরিবাহী",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "পরিবাহী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অন্তরক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অপরিবাহী",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "physics-2",
+    "question": "ইলেকট্রনের কক্ষপথ বড় হবে-\ni. শক্তিস্তর তত উচ্চ হবে\nii. শক্তিস্তর তত নিম্ন হবে\niii. ইলেকট্রনের শক্তি তত বেশি হবে\nনিচের কোনটি সঠিক?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "physics-2",
+    "question": "(11010)2=(?)10",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "26",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "28",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "24",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "29",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "physics-2",
+    "question": "জার্মেনিয়ামের সর্বশেষ কক্ষপথে ইলেকট্রন কয়টি?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "চারটি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "পাঁচটি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ছয়টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সাতটি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "physics-2",
+    "question": "n-type অর্ধপরিবাহী তৈরির জন্য যে পরমাণু দ্বারা ডোপিং করা হয় তারা-",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "দ্বিযোজী",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ত্রিযোজী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চতুর্যোজী",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পঞ্চযোজী",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "physics-2",
+    "question": "কোনটির যোজন ব্যান্ড সম্পূর্ণভাবে পূর্ণ থাকে?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্ষার ধাতু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মৃৎক্ষার ধাতু",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হ্যালোজেনসমূহের",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নিস্ক্রিয় গ্যাসের",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "physics-2",
+    "question": "ট্রানজিস্টর বিবর্ধক হিসেবে কাজ করে কোন এলাকায়?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সক্রিয়",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কাট অফ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সম্পৃক্ত",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিনাশী এলাকা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "physics-2",
+    "question": "কোনটির সাহায্যে পূর্ণ তরঙ্গ একমুখী করা যায়?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ব্রিজ রেকটিফায়ার",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অ্যাপ্লিয়ার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ট্রানজিস্টর",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ট্রান্সফরমার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "physics-2",
+    "question": "চিত্রের ভিতর এবং বাইরের বর্তনীর কারেন্ট বাহক কী?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হোল",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইলেকট্রন",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "প্রোটন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ফোটনের",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "physics-2",
+    "question": "যোজন ব্যান্ড সম্পূর্ণভাবে পূর্ণ থাকে-\ni. ক্রিপ্টন ও জেননের\nii. হিলিয়াম ও আর্গনের\niii. নিস্ক্রিয় গ্যাসসমূহের\nনিচের কোনটি সঠিক?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 49,
+    "subject": "physics-2",
+    "question": "কোনটি অন্তরক পদার্থ?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিশুদ্ধ অর্ধ পরিবাহী",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সহজাত অর্ধপরিবাহী",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অন্তর্জাত অর্ধপরিবাহী",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "বর্হিজাত অর্ধপরিবাহী",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nদীপ্ত বুয়েটে ইলেকট্রনিক্স বিষয়ে পড়ছে। সে দুধরনের অর্ধ পরিবাহী তৈরি প্রক্রিয়া জানল। P-টাইপ অর্ধপরিবাহীর ক্ষেত্রে গ্রহীতা অপদ্রব্য মেশানো হয়।\n"
+  },
+  {
+    "id": 50,
+    "subject": "physics-2",
+    "question": "যোজন ব্যান্ডে সৃষ্ট গর্ত বা হোলের চার্জ কিরূপ?",
+    "chapter": "10",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জার্মেনিয়াম",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অ্যালুমিনিয়াম",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আর্সেনিক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সিলিকন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nদীপ্ত বুয়েটে ইলেকট্রনিক্স বিষয়ে পড়ছে। সে দুধরনের অর্ধ পরিবাহী তৈরি প্রক্রিয়া জানল। P-টাইপ অর্ধপরিবাহীর ক্ষেত্রে গ্রহীতা অপদ্রব্য মেশানো হয়।\n"
+  },
+  {
+    "id": 1,
+    "subject": "physics-2",
+    "question": "কত সালে সূক্ষ্ম ফ্লাকচুয়েশন ধরার জন্য (WMAP) ডব্লিউম্যাপ’ উপগ্রহ পাঠানো হয়?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "২০০০",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "২০০১",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "২০০৩",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "২০০৪",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 2,
+    "subject": "physics-2",
+    "question": "প্লাজমা অবস্থায় পরমাণুর নিউক্লিয়াস থেকে কোনটি বিচ্ছিন্ন হয়?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইলেকট্রন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "প্রোটন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিউট্রন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মেসন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 3,
+    "subject": "physics-2",
+    "question": "তারকা কী?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মহাভরের মহাজাগতিক বস্তু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বৃহৎ ভরের মহাজাগতিক বস্তু",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "অসীম ভরের জাগতিক বস্তু",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিভিন্ন ভরের জাগতিক বস্তু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 4,
+    "subject": "physics-2",
+    "question": "একটি নক্ষত্রের আয়ুষ্কাল কত হবে তা নির্ভর করে কোনটির ওপর?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ভর",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "চাপ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আয়তন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তাপমাত্রা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 5,
+    "subject": "physics-2",
+    "question": "কৃত্রিম উপগ্রহে কিসের মাধ্যমে বেগ দেওয়া হয?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "রকেটের মাধ্যমে",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "স্যাটালাইট লঞ্চারের মাধ্যমে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "স্টেশনের মাধ্যমে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিমানের মাধ্যমে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 6,
+    "subject": "physics-2",
+    "question": "নিউট্রন তারকারা সঙ্কুচিত হলে নিম্নের কোনটিতে পরিণত হয়?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সুপার নোভা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "নীল বামন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "কৃষ্ণবস্তু",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ব্ল্যাকহোল",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 7,
+    "subject": "physics-2",
+    "question": "ছায়াপথের সমস্ত তারকাগুলোর মধ্যে নিচের কোনটি সবচেয়ে বেশি উজ্জ্বল?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মেডিনোভা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "পালসারস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সুপার নোভা",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "বাস্ট নোভা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 8,
+    "subject": "physics-2",
+    "question": "দুটি আপ কোয়ার্ক ও একটি ডাউন কোয়ার্ক এর সমন্বয়ে কোনটি গঠিত হয়?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোটন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "নিউট্রন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইলেকট্রন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মেসন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 9,
+    "subject": "physics-2",
+    "question": "সূর্যকে প্রদক্ষিণ করতে সেরেসের কত সময় লাগে?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "5 বছর",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "4. 6 বছর",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "25 দিন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "3. 6 বছর",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 10,
+    "subject": "physics-2",
+    "question": "সূর্যের ক্ষেত্রে-\ni. সূর্য প্রতি সেকেন্ডে 4×1026 J শক্তি বিকিরণ করে\nii. সূর্য শক্তি পায় নিউক্লীয় ফিউশন প্রক্রিয়া হতে\niii. সূর্যে অতি উচ্চ তাপমাত্রায় হিলিয়াম গঠন করে\nনিচের কোনটি সঠিক?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 11,
+    "subject": "physics-2",
+    "question": "মহাকাশে তারকার বিস্ফোরণকে কী বলা হয়?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মেডিনোভা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সুপারনোভা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "বাস্টনোভা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "ব্ল্যাক নোভা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 12,
+    "subject": "physics-2",
+    "question": "ধূমকেতু সূর্যকে কেন্দ্র করে কোন পথে ঘুরে?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বৃত্তাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "উপবৃত্তাকার",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সরলরৈখিক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সর্পিলাকার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 13,
+    "subject": "physics-2",
+    "question": "কীসের প্রভাবে তারাগুলো ছায়াপথের কেন্দ্রকে আবর্তন করে?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মহাকর্ষ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অভিকর্ষ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ডপলার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আন্ত:আণবিক",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 14,
+    "subject": "physics-2",
+    "question": "সুপার নোভা বিস্ফোরণের ফলে কী গঠিত হয়?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "পালসার",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কৃষ্ণবিবর",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চন্দ্রগ্রহণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সূর্যগ্রহণ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 15,
+    "subject": "physics-2",
+    "question": "ইলেকট্রন ও এন্টি ইলেকট্রন সংঘর্ষে জোড়া সৃষ্টি ও বিনাসের হার ছিল?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অর্ধেক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সমান",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "দ্বিগুণ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "চারগুণ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 16,
+    "subject": "physics-2",
+    "question": "কোন তারকার ভর সৌর ভরের চেয়ে বেশি?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "নিউট্রন তারকা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "শ্বেত বামন তারকা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বামন তারকা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "দানব তারকা",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 17,
+    "subject": "physics-2",
+    "question": "ফ্রিডম্যানের তৃতীয় মডেল অনুসারে-",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রসারণের হার শুধুমাত্র ক্রাান্তিক",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "মহাবিশ্ব স্থানে অসীম নয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মহাবিশ্ব চিরকাল প্রসারণশীল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মহাবিশ্ব প্রসারিত হয় আবার চুপসে যায়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 18,
+    "subject": "physics-2",
+    "question": "পেনজিয়াস এবং উইলসন কি নিয়ে কাজ করার সময় মহাজাগতিক অণুতরঙ্গ পটভূমি বিকিরণের সন্ধান পান?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হর্ণ এন্টেনা",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "টেলিস্কোপ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ছায়াপথ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কসমিক ব্যাকগ্রাউন্ড",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 19,
+    "subject": "physics-2",
+    "question": "মহাজাগতিক বেতার তরঙ্গ শোষণ করা জরুরী বিষয় বলে বিবেচিত হবে যদি তরঙ্গ দৈর্ঘ্য-",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অপরিবর্তীত থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কমতে থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বাড়তে থাকে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "বিকৃতি হতে থাকে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 20,
+    "subject": "physics-2",
+    "question": "কোনটির উন্মেষের উপর টেলিস্কোপের আলো সংগ্রহ করার ক্ষমতা নির্ভর করে?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "অভিলক্ষ্য",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "পর্দা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অভিনেত্র",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "টেলিস্কোপ নল",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 21,
+    "subject": "physics-2",
+    "question": "কত সালে পিটার হিগস তাত্ত্বিকভাবে দেখালেন, সৃষ্টি জগতে আরেক ধরনের কণা থাকতে হবে?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1962",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1963",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1964",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "1960",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 22,
+    "subject": "physics-2",
+    "question": "দুটি ডাউন কোয়ার্ক ও একটি আপ কোয়ার্ক এর সমন্বয়ে কোনটি তৈরি হয়?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রোটন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইলেকট্রন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিউট্রন",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "বোসন",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 23,
+    "subject": "physics-2",
+    "question": "রেডিও টেলিস্কোপ-",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "প্রতিসারক প্রকৃতির",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "প্রতিফলক প্রকৃতির",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "প্রতিসারক ও প্রতিফলক উভয় প্রকৃতির হতে পারে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "বিচ্ছুরক প্রকৃতির",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 24,
+    "subject": "physics-2",
+    "question": "প্রোটন ও নিউট্রন কী দ্বারা গঠিত?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কর্ক",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কোয়ার্ক",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ডাউন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আপ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 25,
+    "subject": "physics-2",
+    "question": "কম্পাঙ্ক কত হলে আয়নমন্ডল সংকেতগুলোকে বিকৃত করে?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1. 5 GHz",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "1. 5 MHz",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1. 5 Hz",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "15 GHz",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 26,
+    "subject": "physics-2",
+    "question": "কত সালে ছায়াপথগুলোর কক্ষীয় বেগ ব্যাখ্যা করেন?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1932",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1933",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "1934",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "1935",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 27,
+    "subject": "physics-2",
+    "question": "আমরা যে গ্যালাক্সিতে বাস করি তা কোনটি?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "একটি সর্পিল গ্যালাক্সি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "রেডিও গ্যালাক্সি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অনিয়মিত গ্যালাক্সি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "উপরের কোনোটাই নয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "physics-2",
+    "question": "আকাশ গঙ্গা (Milkyway) কোনটি?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সৌরজগতের একটি গ্রহ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সৌরজগতের কেন্দ্র সূর্য",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অন্যতম সৌরজগৎ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মহাবিশ্বের একটি গ্যালাক্সি",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "physics-2",
+    "question": "কোন দেশের বিজ্ঞানী কৃষ্ণ গহ্বর আবিষ্কার করেন?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইংল্যান্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "আমেরিকা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "কানাডা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "রাশিয়া",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "physics-2",
+    "question": "স্বাভাবিক বিবর্তন প্রক্রিয়ায় 'কৃষ্ণ গহ্বরে' পরিণত হতে হলে একটি নক্ষত্রের ভর হতে হয় সৌর ভরের-",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১. ৪ গুণ বা তার কম",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১. ৪ গুণ বা তার বেশি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৩ গুণের কম",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "৩ গুণ বা তার বেশি",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "physics-2",
+    "question": "কত সালে আইস্টাইন আপেক্ষিকতার সার্বিক তত্ত্ব প্রবর্তন করেন?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1912",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "1913",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1915",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "1920",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "physics-2",
+    "question": "অনন্যতা উপপাদ্য প্রমাণ করেন-\ni. স্টিফেন ডব্লিউ হকিং\nii. জর্জ গ্যামোর\niii. রজার পেরোজ\nনিচের কোনটি সঠিক?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "physics-2",
+    "question": "চেরেনকভ বিকিরণ সৃষ্টি হয় কখন?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইলেকট্রন বর্ষণের ফলে",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "গামা রশ্মি বিকিরণের ফলে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "পজিট্রন বিকিরণের ফলে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোনোটিই নয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "physics-2",
+    "question": "সৃষ্টিতত্ত্ববিষয়ক স্ট্যান্ডার্ড মডেল অনুযায়ী, গোটা মহাবিশ্ব সৃষ্টির মূলে কতটি কণা আছে?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৮",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১০",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "১২",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "১৪",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "physics-2",
+    "question": "কোন গ্যালাক্সিকে খালি চোখে ধো যায়?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "আকাশ গঙ্গা",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "অ্যানডোমেডা",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সেরেস",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আলফা সেন্টুরি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "physics-2",
+    "question": "মহাবিস্ফোরণ তত্ত্বকে দৃঢ় রূপ দিয়েছেন-",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "লেমাইটার",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জার্জ গ্যামো",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হকিং",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "চন্দ্রশেখর",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "physics-2",
+    "question": "বিজ্ঞানী ফ্রি’স জুইকি কানটির কক্ষীয় বেগ ব্যাখ্যা করেন?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ছায়াপথ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "তারা",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চন্দ্র",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "পৃথিবী",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "physics-2",
+    "question": "দ্বিতীয় বা তৃতীয় প্রজন্মের সূর্যে অধিকতর ভারী মৌলিক পদার্থের পরিমাণ শতকরা কত?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "এক ভাগ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "তিন ভাগ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "দুই ভাগ",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "চার ভাগ",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "physics-2",
+    "question": "মহবিশ্বের উৎপত্তি নিয়ে বিভিন্ন সময়ে বিভিন্ন মতবাদ হয়েছে এ মতবাদ গুলোকে কী বলে?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বিশ্বব্রাহ্মান্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বিশ্বতত্ত্ব",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "বিশ্ব",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "মহাবিশ্ব তত্ত্ব",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 40,
+    "subject": "physics-2",
+    "question": "মহাবিশ্বের চূড়ান্ত পরিণতির অনিশ্চিত কারণ-",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বায়বীয় শোষণ আমাদের দৃষ্টিকে সীমাবদ্ধ করে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "মহাবিশ্বের অন্যান্য গ্যালাক্সি আমাদেরটির মতো নয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "মহাবিশ্বের মোট গড় ঘনত্ব অনিশ্চিত",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "আমরা অনেক দূরের গ্যালাক্সি তথ্য পাই না",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 41,
+    "subject": "physics-2",
+    "question": "৩ সৌরভরের কম ভরের নাক্ষত্রিক বস্তুও কৃষ্ণ গহ্বরে পরিণত হতে পারে-",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "স্বাভাবিক নাক্ষত্রিক বিবর্তন প্রক্রিয়ায়",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "সুপার নোভা বিস্ফোরণে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "পালসারে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কুয়েসারে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 42,
+    "subject": "physics-2",
+    "question": "স্ট্যান্ডার্ড মডেলের 12তম কণার নাম কী?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "হিগস মেসন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "হিগস প্রোটন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "হিগস বেরিয়ন",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "হিগস বোসন",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 43,
+    "subject": "physics-2",
+    "question": "নক্ষত্রের জ্বালানি পুড়ে শেষ হলে অবশিষ্ট হিসেবে থাকতে পারে-\ni. শ্বেতবামন\nii. নিউট্রন স্টার\niii. কৃষ্ণগহ্বর\nনিচের কোনটি সঠিক?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 44,
+    "subject": "physics-2",
+    "question": "এ পর্যন্ত কতটি কোয়াসার শনাক্ত করা হয়েছে?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "১৬০টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "১৬২টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "১৭৫টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "১৫০টি",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 45,
+    "subject": "physics-2",
+    "question": "ওপেনহাইমার ভলকফ এর সীমা কত?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "2. 2",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "4. 2",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "3. 2",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "5. 2",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 46,
+    "subject": "physics-2",
+    "question": "কত সালে আকাশ গঙ্গার মধ্যকার তারকার কক্ষীয় বেগ ব্যাখ্যা করেন?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1932",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "1933",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1935",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "1936",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 47,
+    "subject": "physics-2",
+    "question": "রেডিও টিলিস্কোপের সক্ষমতা নির্ভর করে-\ni. এন্টেনার ক্ষেত্রফল ও দক্ষতার ওপর\nii. সংকেত উদঘাটনের ওপর\niii. টেলিস্কোপের দৈর্ঘের ওপর\nনিচের কোনটি সঠিক?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i ও ii",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii ও iii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "i, ii ও iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 48,
+    "subject": "physics-2",
+    "question": "কত সালে সূক্ষ্ম ফ্লাকচুয়েশন ধরার জন্য (WMAP) ‘ডব্লিউম্যাপ’ উপগ্রহ পাঠানো হয়?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1. 9 x 1015kg",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "2 x 1015 kg",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "2 x 1030 kg",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "1 x 1030 kg",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের তিনটি প্রশ্নের উত্তর দাও:\nআধুনিক তত্ত্বানুযায়ী ভস্মীভূত নক্ষত্র নিজ মহাকর্ষের প্রবাবেই ধ্বংস হয়ে ব্ল্যাক হোল-এ পরিণত হতে পারে। তবে এ ক্ষেত্রে এর দুই সৌর ভরের সমান হতে হয়।\n"
+  },
+  {
+    "id": 49,
+    "subject": "physics-2",
+    "question": "প্লাজমা অবস্থায় পরমাণুর নিউক্লিয়াস থেকে কোনটি বিচ্ছিন্ন হয়?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "i",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "i ও ii",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ii",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "iii",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের তিনটি প্রশ্নের উত্তর দাও:\nআধুনিক তত্ত্বানুযায়ী ভস্মীভূত নক্ষত্র নিজ মহাকর্ষের প্রবাবেই ধ্বংস হয়ে ব্ল্যাক হোল-এ পরিণত হতে পারে। তবে এ ক্ষেত্রে এর দুই সৌর ভরের সমান হতে হয়।\n"
+  },
+  {
+    "id": 50,
+    "subject": "physics-2",
+    "question": "তারকা কী?",
+    "chapter": "11",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জন মিচেন",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "জন হুইলার",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "সোয়ার্জ স্কাইল্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্টিফেন হকিং",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের তিনটি প্রশ্নের উত্তর দাও:\nআধুনিক তত্ত্বানুযায়ী ভস্মীভূত নক্ষত্র নিজ মহাকর্ষের প্রবাবেই ধ্বংস হয়ে ব্ল্যাক হোল-এ পরিণত হতে পারে। তবে এ ক্ষেত্রে এর দুই সৌর ভরের সমান হতে হয়।\n"
   }
 ]
