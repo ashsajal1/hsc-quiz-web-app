@@ -114,7 +114,11 @@ export default function ExamPage() {
 
       {examStarted && !examFinished && (
         <div className="space-y-6">
-          <h1 className="text-xl font-bold">Exam</h1>
+          <div className="flex items-center justify-between">
+            <h1 className="text-xl font-bold">Exam</h1>
+            <p>Subject : {subject}</p>
+            <p>Chapter : {chapter}</p>
+          </div>
           <Progress value={(timeLeft / EXAM_DURATION) * 100} />
           <p>
             Time Left: {Math.floor(timeLeft / 60)}:{timeLeft % 60}s
