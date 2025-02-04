@@ -28192,29 +28192,29 @@
 
   {
     "id": 1,
-    "subject": "biology-1",
-    "question": "কোনটিতে ক্ষারীয় অ্যামিনো এসিডের পরিমাণ বেশি?",
+    "subject": "chemistry-1",
+    "question": "বহি:স্থ ইলেকট্রনীয় কাঠামো ns1 বিশিষ্ট মৌল পানির সাথে যুক্ত হলে কোনটি তৈরি করে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "প্রোটামিন",
-        "isCorrect": true
-      },
-      {
-        "id": 2,
-        "text": "প্রোলামিন",
+        "text": "এসিড",
         "isCorrect": false
       },
       {
+        "id": 2,
+        "text": "ক্ষার",
+        "isCorrect": true
+      },
+      {
         "id": 3,
-        "text": "হিস্টোন",
+        "text": "লবণ",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "অ্যালবুমিন",
+        "text": "ইলেকট্রন",
         "isCorrect": false
       }
     ],
@@ -28223,29 +28223,29 @@
   },
   {
     "id": 2,
-    "subject": "biology-1",
-    "question": "রিডিউসিং স্যুগার যে বিকারকগুলোর সাথে বিক্রিয়া করে -\ni. ফেহলিং বিকারক\nii. টলেন বিকারক\niii. বেনেডিক্ট বিকারক\nনিচের কোনটি সঠিক?",
+    "subject": "chemistry-1",
+    "question": "ইলেকট্রনের কয় ধরনের গতি আছে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "i ও ii",
+        "text": "এক ধরনের",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "i ও iii",
+        "text": "দুই ধরনের",
         "isCorrect": true
       },
       {
+        "id": 3,
+        "text": "তিন ধরনের",
+        "isCorrect": false
+      },
+      {
         "id": 4,
-        "text": "i, ii ও iii",
+        "text": "চার ধরনের",
         "isCorrect": false
       }
     ],
@@ -28254,29 +28254,29 @@
   },
   {
     "id": 3,
-    "subject": "biology-1",
-    "question": "আখের রসে সুক্রোজ কী পরিমাণে থাকে?",
+    "subject": "chemistry-1",
+    "question": "যে মৌলের পারমাণবিক সংখ্যা 11, পর্যায় সারণিতে তার অবস্থান কোথায়?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "১৫%",
-        "isCorrect": true
-      },
-      {
-        "id": 2,
-        "text": "২৫%",
+        "text": "২য়",
         "isCorrect": false
       },
       {
+        "id": 2,
+        "text": "৩য় পর্যায়ে",
+        "isCorrect": true
+      },
+      {
         "id": 3,
-        "text": "২৮%",
+        "text": "৪র্থ পর্যায়ে",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "৩৩%",
+        "text": "৫ম পর্যায়ে",
         "isCorrect": false
       }
     ],
@@ -28285,29 +28285,29 @@
   },
   {
     "id": 4,
-    "subject": "biology-1",
-    "question": "সঞ্চিত পলিস্যাকারাইড -",
+    "subject": "chemistry-1",
+    "question": "কোয়ান্টাম সংখ্যা বাড়লে-",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "স্টার্চ",
-        "isCorrect": true
-      },
-      {
-        "id": 2,
-        "text": "সেলুলোজ",
+        "text": "পরমাণুর আকার কমে",
         "isCorrect": false
       },
       {
+        "id": 2,
+        "text": "ইলেকট্রনের প্রতি নিউক্লিয়াসের আকর্ষণ কমে",
+        "isCorrect": true
+      },
+      {
         "id": 3,
-        "text": "পেকটিক এসিড",
+        "text": "আয়নিকরণ শক্তি বাড়ে",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "হেমিসেলুলোজ",
+        "text": "পরমাণুর ব্যাসার্ধ কমে",
         "isCorrect": false
       }
     ],
@@ -28316,30 +28316,30 @@
   },
   {
     "id": 5,
-    "subject": "biology-1",
-    "question": "র্যামনোজ এর সংকেত কোনটি?",
+    "subject": "chemistry-1",
+    "question": "K-এর জারণ মান নিম্নের কোনটি?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "C6H12O5",
-        "isCorrect": true
+        "text": "1",
+        "isCorrect": false
       },
       {
         "id": 2,
-        "text": "C12H22O11",
+        "text": "+2",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "C3H12O5",
+        "text": "-1",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "C6H12O6",
-        "isCorrect": false
+        "text": "+1",
+        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -28347,29 +28347,29 @@
   },
   {
     "id": 6,
-    "subject": "biology-1",
-    "question": "ফল ও বীজে সঞ্চিত খাদ্যরূপে জমা থাকে -",
+    "subject": "chemistry-1",
+    "question": "ডাইপোল-ডাইপোল আকর্ষণ বল উভয় পরমাণুকে-",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "স্টেরয়েড",
+        "text": "দূরে ঠেলে দেয়",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "স্নেহ দ্রব্য",
+        "text": "কাছে নিয়ে আসে",
         "isCorrect": true
       },
       {
         "id": 3,
-        "text": "সালফোলিপিড",
+        "text": "একই স্থানে রাখে",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "মোম",
+        "text": "সমান দূরে রাখে",
         "isCorrect": false
       }
     ],
@@ -28378,29 +28378,29 @@
   },
   {
     "id": 7,
-    "subject": "biology-1",
-    "question": "কোনটি পলিস্যাকারাইড?",
+    "subject": "chemistry-1",
+    "question": "সমযোজী ব্ন্ধনে মৌলের তড়িৎ ঋণাত্মকতা 0. 5 হলে অণুটি কেমন হয়?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "গ্লুকোজ",
+        "text": "পোলার",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "ফ্রুক্টোজ",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "স্টার্চ",
+        "text": "অপোলার",
         "isCorrect": true
       },
       {
+        "id": 3,
+        "text": "দ্রবণীয়",
+        "isCorrect": false
+      },
+      {
         "id": 4,
-        "text": "ম্যালটোজ",
+        "text": "সবগুলো",
         "isCorrect": false
       }
     ],
@@ -28409,30 +28409,30 @@
   },
   {
     "id": 8,
-    "subject": "biology-1",
-    "question": "নিচের কোনটি অসম্পৃক্ত ফ্যাটি এসিড?",
+    "subject": "chemistry-1",
+    "question": "অ্যাকটিনাইড সিরিজের মৌলগুলো তেজস্ক্রিয় কেন?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "স্টিয়ারিক এসিড",
+        "text": "ধাতব ধর্মের কারণে",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "পামিটিক এসিড",
+        "text": "গলনাঙ্ক বেশি বলে",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "অ্যারাকিডোনিক এসিড",
-        "isCorrect": true
+        "text": "ঘনত্ব বেশি বলে",
+        "isCorrect": false
       },
       {
         "id": 4,
-        "text": "লিনোসেরিক এসিড",
-        "isCorrect": false
+        "text": "তেজস্ক্রিয় রশ্মি বিকিরণের ফলে",
+        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -28440,29 +28440,29 @@
   },
   {
     "id": 9,
-    "subject": "biology-1",
-    "question": "জীবের দেহ গঠনকারী সর্বাপেক্ষা প্রয়োজনীয় পদার্থ কোনটি?",
+    "subject": "chemistry-1",
+    "question": "দীর্ঘ পর্যায়ের কোন মৌলগুলো সারণির মধ্যভাগে থাকে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "লিপিড",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "text": "প্রোটিন",
+        "text": "অবস্থাস্তর মৌল",
         "isCorrect": true
       },
       {
+        "id": 2,
+        "text": "চালকোজেন মৌল",
+        "isCorrect": false
+      },
+      {
         "id": 3,
-        "text": "কার্বোহাইড্রেট",
+        "text": "মৃৎক্ষার মৌল",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "খনিজ লবণ",
+        "text": "ক্ষার মৌল",
         "isCorrect": false
       }
     ],
@@ -28471,29 +28471,29 @@
   },
   {
     "id": 10,
-    "subject": "biology-1",
-    "question": "কোনটি প্রোটিওলাটিক এনজাইম?",
+    "subject": "chemistry-1",
+    "question": "কোনটি অ্যালিফেটিক হাইড্রোকার্বনের C5-C17 এর ভৌত অবস্থা?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "রেনিন",
-        "isCorrect": true
-      },
-      {
-        "id": 2,
-        "text": "অ্যামাইলেজ",
+        "text": "গ্যাস",
         "isCorrect": false
       },
       {
+        "id": 2,
+        "text": "তরল",
+        "isCorrect": true
+      },
+      {
         "id": 3,
-        "text": "সুক্রোজ",
+        "text": "কঠিন",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "লাইগেজ",
+        "text": "প্লাজমা",
         "isCorrect": false
       }
     ],
@@ -28502,30 +28502,30 @@
   },
   {
     "id": 11,
-    "subject": "biology-1",
-    "question": "কোনটি জীবদেহের জৈব অনুঘটকরূপে কাজ করে?",
+    "subject": "chemistry-1",
+    "question": "একটি মৌল যার পরমাণুর শেষ ইলেকট্রন d অরবিটালে যায়, তাদের কী বলে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "অ্যান্টিবডি",
+        "text": "s ব্লক মৌল",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "হরমোন",
+        "text": "p ব্লক মৌল",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "লিপিড",
-        "isCorrect": false
+        "text": "d ব্লক মৌল",
+        "isCorrect": true
       },
       {
         "id": 4,
-        "text": "এনজাইম",
-        "isCorrect": true
+        "text": "f ব্লক মৌল",
+        "isCorrect": false
       }
     ],
     "explanation": "",
@@ -28533,29 +28533,29 @@
   },
   {
     "id": 12,
-    "subject": "biology-1",
-    "question": "লিনোলেনিক এসিডের গলনাঙ্ক কত?",
+    "subject": "chemistry-1",
+    "question": "অষ্টক পূর্ণতার জন্য আয়নিক যৌগের মৌলগুলো ইলেকট্রন কী করে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "100C",
+        "text": "শেয়ার করে",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "130C",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "-50C",
+        "text": "ত্যাগ করে",
         "isCorrect": true
       },
       {
+        "id": 3,
+        "text": "বিকিরণ করে",
+        "isCorrect": false
+      },
+      {
         "id": 4,
-        "text": "-20C",
+        "text": "বর্ণালির সৃষ্টি করে",
         "isCorrect": false
       }
     ],
@@ -28564,30 +28564,30 @@
   },
   {
     "id": 13,
-    "subject": "biology-1",
-    "question": "এনজাইম হলো এক প্রকার -",
+    "subject": "chemistry-1",
+    "question": "যে সব শর্ত দ্বারা আয়নের পোলারায়নের পরিমাণ নির্ধারণ করা হয় তাদেরকে কী বলে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "প্রোটিন",
-        "isCorrect": true
+        "text": "আউফবাউ নীতি",
+        "isCorrect": false
       },
       {
         "id": 2,
-        "text": "লিপিড",
+        "text": "পলির বর্জন নীতি",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "কার্বোহাইড্রেট",
+        "text": "হুন্ড নীতি",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "সেলুলোজ",
-        "isCorrect": false
+        "text": "ফাযানের নীতি",
+        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -28595,29 +28595,29 @@
   },
   {
     "id": 14,
-    "subject": "biology-1",
-    "question": "চামড়ার পোড়া ক্ষত নিরাময়ে ব্যবহৃত হয় নিচের কোনটি?",
+    "subject": "chemistry-1",
+    "question": "প্রায় বেশির ভাগ p-ব্লক মৌলের ক্ষেত্রে কোনটি সঠিক ধর্ম?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "শর্করা",
+        "text": "তড়িৎ ধনাত্মকতা",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "প্রোটিন",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "এনজাইম",
+        "text": "তড়িৎ ঋণাত্মক",
         "isCorrect": true
       },
       {
+        "id": 3,
+        "text": "তড়িৎ অধিক পরিবাহী",
+        "isCorrect": false
+      },
+      {
         "id": 4,
-        "text": "লিপিড",
+        "text": "ক, খ ও গ সবগুলো",
         "isCorrect": false
       }
     ],
@@ -28626,30 +28626,30 @@
   },
   {
     "id": 15,
-    "subject": "biology-1",
-    "question": "- OH গ্রুপের α ও β অবস্থানের কারণে গ্লুকোজের -\ni. ভৌত বৈশিষ্ট্যের পরিবর্তন ঘটে\nii. রাসায়নিক বৈশিষ্ট্যের পরিবর্তন ঘটে\niii. জৈবিক বৈশিষ্ট্যের পরিবর্তন ঘটে\nনিচের কোনটি সঠিক?",
+    "subject": "chemistry-1",
+    "question": "যৌগের কেন্দ্রীয় পরমাণুটি sp সংকরিত আকৃতি কেমন হয়?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "i ও ii",
+        "text": "পিরামিড",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "ii ও iii",
+        "text": "ত্রিমোণাকার",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "i ও iii",
-        "isCorrect": false
+        "text": "সরলরৈখিক",
+        "isCorrect": true
       },
       {
         "id": 4,
-        "text": "i, ii ও iii",
-        "isCorrect": true
+        "text": "বর্গাকার",
+        "isCorrect": false
       }
     ],
     "explanation": "",
@@ -28657,29 +28657,29 @@
   },
   {
     "id": 16,
-    "subject": "biology-1",
-    "question": "অ্যামাইলোপেকটিন এর শাখান্বিত অংশে কোন গ্লাইকোসাইডিক বন্ধন থাকে?",
+    "subject": "chemistry-1",
+    "question": "সমযোজী যৌগের অণুতে ডাইপোলের ধর্মকে কী বলে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "α-1, 2",
+        "text": "ডাইপোলার",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "α-1, 4",
+        "text": "পোলার",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "α-1, 6",
+        "text": "পোলারিটি",
         "isCorrect": true
       },
       {
         "id": 4,
-        "text": "α-1, 8",
+        "text": "পোলার অণু",
         "isCorrect": false
       }
     ],
@@ -28688,30 +28688,30 @@
   },
   {
     "id": 17,
-    "subject": "biology-1",
-    "question": "নিম্নের কোনটি উদ্ভুত লিপিড?",
+    "subject": "chemistry-1",
+    "question": "সন্নিবেশ বন্ধনে পরমাণুগুলোর যোজ্যতা স্তর-",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "মোম",
+        "text": "অস্টক সম্পূর্ণ",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "চর্বি",
-        "isCorrect": false
+        "text": "অষ্টক অপূর্ণ",
+        "isCorrect": true
       },
       {
         "id": 3,
-        "text": "সালফোলিপিড",
+        "text": "অষ্টক পূর্ণ",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "স্টেরয়েড",
-        "isCorrect": true
+        "text": "অষ্টক নেই",
+        "isCorrect": false
       }
     ],
     "explanation": "",
@@ -28719,29 +28719,29 @@
   },
   {
     "id": 18,
-    "subject": "biology-1",
-    "question": "লিপিডের আণবিক ওজন বৃদ্ধির সাথে সাথে -",
+    "subject": "chemistry-1",
+    "question": "যে দূরত্বে নিট আকর্ষণ বল সবচেয়ে বেশি তাকে কী বলে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "গলনাঙ্ক বৃদ্ধি পায়",
-        "isCorrect": true
-      },
-      {
-        "id": 2,
-        "text": "গলনাঙ্ক হ্রাস পায়",
+        "text": "অণুর সাম্য দূরত্ব",
         "isCorrect": false
       },
       {
+        "id": 2,
+        "text": "বন্ধন দৈর্ঘ্য",
+        "isCorrect": true
+      },
+      {
         "id": 3,
-        "text": "গলনাঙ্ক অপরিবর্তিত থাকে",
+        "text": "মধ্যকার ইলেকট্রন দূরত্ব",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "পেপটাইড বন্ধন গঠন করে",
+        "text": "বন্ধন কোণ",
         "isCorrect": false
       }
     ],
@@ -28750,30 +28750,30 @@
   },
   {
     "id": 19,
-    "subject": "biology-1",
-    "question": "পুরুষ অপেক্ষা স্ত্রীলোকের হ্রদরোগ কম হওয়ার কারণ -",
+    "subject": "chemistry-1",
+    "question": "আয়নিক ও সমযোজী বন্ধনের মধ্যে পার্থক্যকারী বিষয় কী?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "স্ত্রীলোকের রক্তে HDL বেশি এবং LDL কম",
-        "isCorrect": true
+        "text": "সমাণুতা",
+        "isCorrect": false
       },
       {
         "id": 2,
-        "text": "পুরুষের তুলনায় অধিক পরিশ্রমী",
+        "text": "দিকদর্শিতা",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "শরীরের ওজন কম থাকে",
+        "text": "গলনাঙ্ক",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "চর্বি জাতীয় খাবার কম খায়",
-        "isCorrect": false
+        "text": "সবকয়টি",
+        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -28781,29 +28781,29 @@
   },
   {
     "id": 20,
-    "subject": "biology-1",
-    "question": "লিপিড হলো -\ni. বেনজিন ও ক্লোরোফর্মে দ্রবণীয়\nii. অস্থিসন্ধিতে লুব্রিক্যান্ট হিসেবে ব্যবহৃত হয়\niii. আণবিক ওজন বাড়ার সাথে গলনাঙ্ক বৃদ্ধি পায়\nনিচের কোনটি সঠিক?",
+    "subject": "chemistry-1",
+    "question": "একই পর্যায়ে অ্যানায়নের পোলারায়ন ক্ষমতা বৃদ্ধি পায় কেন?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "i ও ii",
-        "isCorrect": false
+        "text": "ব্যাসার্ধ হ্রাস পায়",
+        "isCorrect": true
       },
       {
         "id": 2,
-        "text": "ii ও iii",
+        "text": "ব্যাসার্ধ বৃদ্ধি পায়",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "i ও iii",
-        "isCorrect": true
+        "text": "চার্জ কমে যায়",
+        "isCorrect": false
       },
       {
         "id": 4,
-        "text": "i, ii ও iii",
+        "text": "আকার বেড়ে যায়",
         "isCorrect": false
       }
     ],
@@ -28812,29 +28812,29 @@
   },
   {
     "id": 21,
-    "subject": "biology-1",
-    "question": "কোনটি লবণের দ্রবণে দ্রবীভূত হয়ে ঘোলাটে দ্রবণ সৃষ্টি করে?",
+    "subject": "chemistry-1",
+    "question": "আয়নিক ও সমযোজী বন্ধনের মধ্যে পার্থক্যকারী বিষয় কী?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "গ্লুটেলিন",
+        "text": "সমাণুতা",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "গ্লোবিউলিন",
+        "text": "দিকদর্শিতা",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "প্রোলামিন",
+        "text": "গলনাঙ্ক",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "অ্যালবুমিন",
+        "text": "সবকয়টি",
         "isCorrect": true
       }
     ],
@@ -28843,29 +28843,29 @@
   },
   {
     "id": 22,
-    "subject": "biology-1",
-    "question": "কোনটি ফল সংরক্ষণে ব্যবহৃত হয়?",
+    "subject": "chemistry-1",
+    "question": "s ব্লকে কয়টি মৌল?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "রাইবোজ",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "text": "গ্লুকোজ",
+        "text": "14",
         "isCorrect": true
       },
       {
+        "id": 2,
+        "text": "27",
+        "isCorrect": false
+      },
+      {
         "id": 3,
-        "text": "লিপিড",
+        "text": "30",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "ইরিথ্রোজ",
+        "text": "40",
         "isCorrect": false
       }
     ],
@@ -28874,29 +28874,29 @@
   },
   {
     "id": 23,
-    "subject": "biology-1",
-    "question": "কার্বোহাইড্রেটে কার্বন ও অক্সিজেনের অনুপাত কত?",
+    "subject": "chemistry-1",
+    "question": "আয়নিক বন্ধন কখন গঠিত হয়?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "৪ : ১",
+        "text": "দুটি পরমাণুর মধ্যে ইলেকট্রনের অংশীদারীত্ব ঘটে",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "৩ : ২",
+        "text": "দুটি পরমাণুর মধ্যে প্রোটনের আদান-প্রদান ঘটে",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "২ : ১",
+        "text": "একটি পরমাণু ইলেকট্রন ত্যাগ করে এবং অপর পরমাণুটি ইলেকট্রন গ্রহণ করে",
         "isCorrect": true
       },
       {
         "id": 4,
-        "text": "৫ : ৩",
+        "text": "দুটি ধাতব পরমাণু পরস্পরের সাথে ইলেকট্রন বিনিময় করে",
         "isCorrect": false
       }
     ],
@@ -28905,29 +28905,29 @@
   },
   {
     "id": 24,
-    "subject": "biology-1",
-    "question": "এনজাইমের প্রোসথেটিক গ্রুপটি কোনো জৈব রাসায়নিক পদার্থ হলে তাকে কী বলা হয়?",
+    "subject": "chemistry-1",
+    "question": "নাইট্রোজেন পরমাণুর অবস্থান কোথায়?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "অ্যাপোএনজাইম",
+        "text": "২য় পর্যায়, ৭ম গ্রুপ",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "কনজুগেটেড প্রোটিন",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "কো-এনজাইম",
+        "text": "২য় পর্যায়, ৫ম গ্রুপ",
         "isCorrect": true
       },
       {
+        "id": 3,
+        "text": "৫ম পর্যায়, ২য় গ্রুপ",
+        "isCorrect": false
+      },
+      {
         "id": 4,
-        "text": "কো-ফ্যাক্টর",
+        "text": "৭ম পর্যায়, ২য় গ্রুপ",
         "isCorrect": false
       }
     ],
@@ -28936,29 +28936,29 @@
   },
   {
     "id": 25,
-    "subject": "biology-1",
-    "question": "প্রোটিনের গাঠনিক একক কোনটি?",
+    "subject": "chemistry-1",
+    "question": "যৌগের সমযোজী বৈশিষ্ট্য বৃদ্ধির সাথে সাথে নিচের কোনটি হয়?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "পেকটিন",
+        "text": "দ্রাব্যতা গুণ বেড়ে যায়",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "নাইট্রিক এসিড",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "অ্যামাইনো এসিড",
+        "text": "দ্রাবতা গুণ কমে যায়",
         "isCorrect": true
       },
       {
+        "id": 3,
+        "text": "দ্রাব্যতা গুণ একই থাকে",
+        "isCorrect": false
+      },
+      {
         "id": 4,
-        "text": "এসকরবিক এসিড",
+        "text": "দ্রাব্যতা দ্বিগুণ হয়",
         "isCorrect": false
       }
     ],
@@ -28967,29 +28967,29 @@
   },
   {
     "id": 26,
-    "subject": "biology-1",
-    "question": "কনফেকশনারিতে নানা প্রকার মিষ্টি জাতীয় দ্রব্য তৈরি করার জন্য কোনটি ব্যবহার করা হয়?",
+    "subject": "chemistry-1",
+    "question": "সমযোজী অণুতে বন্ধন ইলেকট্রন যুগল সমভাবে শেয়ার করে অষ্টকপূর্ণ করে, কার মতবাদ?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "সেলুলোজ",
-        "isCorrect": false
+        "text": "লুইস",
+        "isCorrect": true
       },
       {
         "id": 2,
-        "text": "রাইবোজ",
+        "text": "পলিং",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "ফ্রুক্টোজ",
-        "isCorrect": true
+        "text": "স্লেটার",
+        "isCorrect": false
       },
       {
         "id": 4,
-        "text": "ইরিথ্রোজ",
+        "text": "প্রাউস",
         "isCorrect": false
       }
     ],
@@ -28998,24 +28998,396 @@
   },
   {
     "id": 27,
-    "subject": "biology-1",
-    "question": "জিনের বৈশিষ্ট্য প্রকাশে কোন প্রোটিনের ভূমিকা রয়েছে?",
+    "subject": "chemistry-1",
+    "question": "পর্যায় সারণির বামদিক থেকে ডানদিকে অগ্রসর হলে আয়নিক বিভব-",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "অ্যালবুমিন",
+        "text": "কমে",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "হিস্টোন",
+        "text": "বাড়ে",
         "isCorrect": true
       },
       {
         "id": 3,
-        "text": "গ্লোবিউলিন",
+        "text": "কমে ও বাড়ে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "একই থাকে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 28,
+    "subject": "chemistry-1",
+    "question": "নিচের কোনটি কালো বর্ণ যুক্ত অণু?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "CuS",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "PbS",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "HgS",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সবগুলো",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 29,
+    "subject": "chemistry-1",
+    "question": "অবস্থান্তর ধাতুর একক পরমাণুতে ৫টি ইলেকট্রন সমশক্তি স্তরে থাকলে তাকে বলা হয়-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "জেনারেটর",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ডিজেনারেট",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "নন-ডিজেনারেট",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "(ক+খ)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 30,
+    "subject": "chemistry-1",
+    "question": "মৌলের ইলেকট্রন বিন্যাসে সর্বোচ্চ কোয়ান্টাম সংখ্যার মান যত, মৌলটি পর্যায় সারণির-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তত পর্যায়ে অবস্থিত",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "তত গ্রুপ এ অবস্থিত",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "তত কাছে অবস্থিত",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "তত দূরে অবস্থিত",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 31,
+    "subject": "chemistry-1",
+    "question": "N এর কয়টি অক্সাইড?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৩টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "৬টি",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "৫টি",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "২টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 32,
+    "subject": "chemistry-1",
+    "question": "p-অরবিটালের আকার কীরূপ?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ডাম্বেল আকৃতি",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "গোলাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বর্তুলাকার",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "লম্বাকৃতি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 33,
+    "subject": "chemistry-1",
+    "question": "কোনো মৌলের O2 এর সাথে সংযোগের ক্ষেত্রে বাম হতে ডানে যোজ্যতার কীরূপ পরিবর্তন ঘটে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "বাড়ে",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "কমে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "সমান থাকে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অপরিবর্তিত থাকে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 34,
+    "subject": "chemistry-1",
+    "question": "কক্ষের একটি s অরবিটাল ও 3টি p অরবিটাল মিশ্রিত হয়ে যে অরবিটাল গঠন করে সেগুলোর প্রকৃতি কেমন হয়?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "সমতুল্য",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অসমতুল্য",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "বিষম আকৃতির",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অসমশক্তির",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 35,
+    "subject": "chemistry-1",
+    "question": "তীব্র ধনাত্মক ধাতু কোনটি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "K",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Mg",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Zn",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Ca",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 36,
+    "subject": "chemistry-1",
+    "question": "সংজ্ঞা মতে f-ব্লক মৌল কয়টি?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "৩০টি",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "২৭টি",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "৩২টি",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "২৯টি",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 37,
+    "subject": "chemistry-1",
+    "question": "একই গ্রুপের উপর থেকে নিচে পারমানবিক ব্যাসার্ধ-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "কমে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "বাড়ে",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "বাড়ে ও কমে",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "স্থির থাকে",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 38,
+    "subject": "chemistry-1",
+    "question": "কোনটি সেলুলোজ এর মনোমার?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "গ্লুকোজ",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "সুক্রোজ",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "অ্যালকোহল",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "এস্টার",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 39,
+    "subject": "chemistry-1",
+    "question": "নিষ্ক্রিয় গ্যাসের আপেক্ষিক তাপের অনুপাত কত?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "1. 667",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "1. 45",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "1. 93",
         "isCorrect": false
       },
       {
@@ -29028,403 +29400,31 @@
     "hint": ""
   },
   {
-    "id": 28,
-    "subject": "biology-1",
-    "question": "কোনটি সংশ্লেষিত বা সংযুক্ত প্রোটিনের অন্তর্ভুক্ত?",
-    "chapter": "3",
-    "label": "",
-    "options": [
-      {
-        "id": 1,
-        "text": "স্ক্লেরোপ্রোটিন",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "text": "লিপোপ্রোটিন",
-        "isCorrect": true
-      },
-      {
-        "id": 3,
-        "text": "গ্লোবিউলিন",
-        "isCorrect": false
-      },
-      {
-        "id": 4,
-        "text": "প্রোটামিন",
-        "isCorrect": false
-      }
-    ],
-    "explanation": "",
-    "hint": ""
-  },
-  {
-    "id": 29,
-    "subject": "biology-1",
-    "question": "কী কারণে শুকনো বীজে এনজাইম নিষ্ক্রিয় থাকে?",
-    "chapter": "3",
-    "label": "",
-    "options": [
-      {
-        "id": 1,
-        "text": "অতিরিক্ত তাপমাত্রা",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "text": "অধিক অম্লত্ব",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "পানির অনুপস্থিতি",
-        "isCorrect": true
-      },
-      {
-        "id": 4,
-        "text": "অ্যাকটিভেতরের অনুপস্থিতি",
-        "isCorrect": false
-      }
-    ],
-    "explanation": "",
-    "hint": ""
-  },
-  {
-    "id": 30,
-    "subject": "biology-1",
-    "question": "দুটি অ্যামিনো এসিড দ্বারা গঠিত যৌগের নাম হবে -",
-    "chapter": "3",
-    "label": "",
-    "options": [
-      {
-        "id": 1,
-        "text": "ট্রাইপেপটাইড",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "text": "ডাই অ্যালডোজ",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "ডাইপেপটাইড",
-        "isCorrect": true
-      },
-      {
-        "id": 4,
-        "text": "পেন্টাকিটোজ",
-        "isCorrect": false
-      }
-    ],
-    "explanation": "",
-    "hint": ""
-  },
-  {
-    "id": 31,
-    "subject": "biology-1",
-    "question": "অ্যালকোহল ও ফ্যাটি অ্যাসিডের এস্টার লিপিড -\ni. তীব্র গন্ধযুক্ত পদার্থ\nii. বর্ণহীন পদার্থ\niii. স্বাদহীন পদার্থ\nনিচের কোনটি সঠিক?",
-    "chapter": "3",
-    "label": "",
-    "options": [
-      {
-        "id": 1,
-        "text": "i ও ii",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "text": "ii ও iii",
-        "isCorrect": true
-      },
-      {
-        "id": 3,
-        "text": "i ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 4,
-        "text": "i, ii ও iii",
-        "isCorrect": false
-      }
-    ],
-    "explanation": "",
-    "hint": ""
-  },
-  {
-    "id": 32,
-    "subject": "biology-1",
-    "question": "জীবদেহের জৈবনিক প্রক্রিয়ার নিয়ন্ত্রণকারী যা প্রোটিন দিয়ে তৈরি, তা হলো -\ni. এনজাইম\nii. হরমোন\niii. অ্যান্টিবডি\nনিচের কোনটি সঠিক?",
-    "chapter": "3",
-    "label": "",
-    "options": [
-      {
-        "id": 1,
-        "text": "i ও ii",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "text": "ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "i ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 4,
-        "text": "i, ii ও iii",
-        "isCorrect": true
-      }
-    ],
-    "explanation": "",
-    "hint": ""
-  },
-  {
-    "id": 33,
-    "subject": "biology-1",
-    "question": "কোষস্থ রাসায়নিকে কোন মৌলটি সর্বোচ্চ পরিমাণে বিদ্যমান থাকে?",
-    "chapter": "3",
-    "label": "",
-    "options": [
-      {
-        "id": 1,
-        "text": "কার্বন",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "text": "অক্সিজেন",
-        "isCorrect": true
-      },
-      {
-        "id": 3,
-        "text": "ক্যালসিয়াম",
-        "isCorrect": false
-      },
-      {
-        "id": 4,
-        "text": "লৌহ",
-        "isCorrect": false
-      }
-    ],
-    "explanation": "",
-    "hint": ""
-  },
-  {
-    "id": 34,
-    "subject": "biology-1",
-    "question": "উদ্ভূত লিপিডের অন্তর্ভুক্ত -\ni. স্টেরয়েড\nii. মোম\niii. টারপিনস\nনিচের কোনটি সঠিক?",
-    "chapter": "3",
-    "label": "",
-    "options": [
-      {
-        "id": 1,
-        "text": "i ও ii",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "text": "ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "i ও iii",
-        "isCorrect": true
-      },
-      {
-        "id": 4,
-        "text": "i, ii ও iii",
-        "isCorrect": false
-      }
-    ],
-    "explanation": "",
-    "hint": ""
-  },
-  {
-    "id": 35,
-    "subject": "biology-1",
-    "question": "স্নেহ পদার্থকে বিশ্লিষ্টকারী এনজাইমের অন্তর্ভুক্ত -\ni. কোলেস্টেরল এসটারেজ\nii. লাইপেজ\niii. লেসিথিনেজ\nনিচের কোনটি সঠিক?",
-    "chapter": "3",
-    "label": "",
-    "options": [
-      {
-        "id": 1,
-        "text": "i ও ii",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "text": "ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "i ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 4,
-        "text": "i, ii ও iii",
-        "isCorrect": true
-      }
-    ],
-    "explanation": "",
-    "hint": ""
-  },
-  {
-    "id": 36,
-    "subject": "biology-1",
-    "question": "কত তাপমাত্রায় এনজাইম অকেজো হয়ে যায়?",
-    "chapter": "3",
-    "label": "",
-    "options": [
-      {
-        "id": 1,
-        "text": "২০-৪০0C",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "text": "৫০-৬০0C",
-        "isCorrect": true
-      },
-      {
-        "id": 3,
-        "text": "৭০-৮০0C",
-        "isCorrect": false
-      },
-      {
-        "id": 4,
-        "text": "৯০-১০০0C",
-        "isCorrect": false
-      }
-    ],
-    "explanation": "",
-    "hint": ""
-  },
-  {
-    "id": 37,
-    "subject": "biology-1",
-    "question": "ডিমের কুসুমে কোন ধরনের প্রোটিন বিদ্যমান?",
-    "chapter": "3",
-    "label": "",
-    "options": [
-      {
-        "id": 1,
-        "text": "গ্লুটেলিন",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "text": "অ্যালবুমিন",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "গ্লোবিউলিন",
-        "isCorrect": true
-      },
-      {
-        "id": 4,
-        "text": "প্রোলামিন",
-        "isCorrect": false
-      }
-    ],
-    "explanation": "",
-    "hint": ""
-  },
-  {
-    "id": 38,
-    "subject": "biology-1",
-    "question": "কোন ধরনের লিপিড উদ্ভিদের সঞ্চিত খাদ্যরূপে জমা থাকে?",
-    "chapter": "3",
-    "label": "",
-    "options": [
-      {
-        "id": 1,
-        "text": "তেল ও চর্বি",
-        "isCorrect": true
-      },
-      {
-        "id": 2,
-        "text": "মোম",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "ফসফোলিপিড",
-        "isCorrect": false
-      },
-      {
-        "id": 4,
-        "text": "স্টেরয়েড",
-        "isCorrect": false
-      }
-    ],
-    "explanation": "",
-    "hint": ""
-  },
-  {
-    "id": 39,
-    "subject": "biology-1",
-    "question": "গ্লাইকোসাইডিক বন্ধনী হলো -\ni. দুটি মনোস্যাকারাইড -OH গ্রুপের সংযুক্তি\nii. অলিগোস্যাকারাইড প্রান্ত এক প্রকার বন্ধনী\niii. পলিস্যাকারাইডের দুটি অণুর সংযুক্তি\nনিচের কোনটি সঠিক?",
-    "chapter": "3",
-    "label": "",
-    "options": [
-      {
-        "id": 1,
-        "text": "i ও ii",
-        "isCorrect": true
-      },
-      {
-        "id": 2,
-        "text": "ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "i ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 4,
-        "text": "i, ii ও iii",
-        "isCorrect": false
-      }
-    ],
-    "explanation": "",
-    "hint": ""
-  },
-  {
     "id": 40,
-    "subject": "biology-1",
-    "question": "কোন এনজাইম দুধকে ছানায় পরিণত করে?",
+    "subject": "chemistry-1",
+    "question": "গ্রুপ VIA মৌলসমূহ-\ni.s-ব্লক মৌল\nii.এদের মুক্ত ইলেকট্রন থাকে না\niii.এরা সবাই অধাতু\nনিচের কোনটি সঠিক?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "লেসিথিনেজ",
+        "text": "i",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "ইরেপসিন",
+        "text": "ii",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "ল্যাকটোজ",
-        "isCorrect": false
+        "text": "ii ও iii",
+        "isCorrect": true
       },
       {
         "id": 4,
-        "text": "কাইমোট্রিপসিন",
-        "isCorrect": true
+        "text": "iii",
+        "isCorrect": false
       }
     ],
     "explanation": "",
@@ -29432,30 +29432,30 @@
   },
   {
     "id": 41,
-    "subject": "biology-1",
-    "question": "HDL - এর ফলে কোন রোগটি হয়?",
+    "subject": "chemistry-1",
+    "question": "s-ব্লক মৌলের সংখ্যা কয়টি?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "লিউকোমিয়া",
+        "text": "১৩টি",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "ক্যান্সার",
-        "isCorrect": false
+        "text": "১৪টি",
+        "isCorrect": true
       },
       {
         "id": 3,
-        "text": "ডায়াবেটিকস",
+        "text": "১২টি",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "করোনারি থ্রম্বোসিস",
-        "isCorrect": true
+        "text": "১১টি",
+        "isCorrect": false
       }
     ],
     "explanation": "",
@@ -29463,29 +29463,29 @@
   },
   {
     "id": 42,
-    "subject": "biology-1",
-    "question": "ফসফোলিপিডে বিশেষ উপাদান হিসেবে কোনটি থাকে?",
+    "subject": "chemistry-1",
+    "question": "কোনটি সমযোজী যৌগ?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "অ্যামিনো অ্যাসিড",
-        "isCorrect": false
+        "text": "CH4",
+        "isCorrect": true
       },
       {
         "id": 2,
-        "text": "নিউক্লিক অ্যাসিড",
+        "text": "HCI",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "ফসফোটাইডিক অ্যাসি",
-        "isCorrect": true
+        "text": "HF",
+        "isCorrect": false
       },
       {
         "id": 4,
-        "text": "সালফিউরিক অ্যাসিড",
+        "text": "HBr",
         "isCorrect": false
       }
     ],
@@ -29494,29 +29494,29 @@
   },
   {
     "id": 43,
-    "subject": "biology-1",
-    "question": "স্বভোজী উদ্ভিদের কোষপ্রাচীর গঠনকারী পলিস্যাকারাইডটি -\ni. পানিতে ও জৈব দ্রবণে অদ্রবণীয়\nii. গাঢ় এসিডে আর্দ্রবিশ্লেষিত হয়ে গ্লুকোজে পরিণত হয়\niii. রাসায়নিকভাবে সক্রিয় আচরণ করে\nনিচের কোনটি সঠিক?",
+    "subject": "chemistry-1",
+    "question": "যোজ্যতা স্তরে ২টি সংকর অরবিটাল থাকলে অপুর আকৃতি কীরূপ হয়?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "i ও ii",
+        "text": "সরলরৈখিক",
         "isCorrect": true
       },
       {
         "id": 2,
-        "text": "ii ও iii",
+        "text": "চতুস্তলকীয়",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "i ও iii",
+        "text": "ত্রিভুজাকৃতির",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "i, ii ও iii",
+        "text": "অষ্টমতলকীয়",
         "isCorrect": false
       }
     ],
@@ -29525,29 +29525,29 @@
   },
   {
     "id": 44,
-    "subject": "biology-1",
-    "question": "রিডিউসিং স্যুগার -",
+    "subject": "chemistry-1",
+    "question": "ডাইপোল-ডাইপোল আকর্ষণ বল উভয় পরমাণুকে-",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "গ্লুকোজ",
-        "isCorrect": true
-      },
-      {
-        "id": 2,
-        "text": "শ্বেতসার",
+        "text": "দূরে ঠেলে দেয়",
         "isCorrect": false
       },
       {
+        "id": 2,
+        "text": "কাছে নিয়ে আসে",
+        "isCorrect": true
+      },
+      {
         "id": 3,
-        "text": "স্টার্চ",
+        "text": "একই স্থানে রাখে",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "সেলুলোজ",
+        "text": "সমান দূরে রাখে",
         "isCorrect": false
       }
     ],
@@ -29556,29 +29556,29 @@
   },
   {
     "id": 45,
-    "subject": "biology-1",
-    "question": "কনজুগেটেড এনজাইমের অপর নাম -",
+    "subject": "chemistry-1",
+    "question": "KCI যৌগটির বৈশিষ্ট্যসমূহ-\ni.উচ্চগলনাঙ্ক ও স্ফুটনাঙ্ক বিশিষ্ট\nii.পোলার দ্রাবকে দ্রবীভূত\niii.কঠিন অবস্থায় তড়িৎ পরিবহন করে\nনিচের কোনটি সঠিক?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "লাইপোলাইটিক এনজাইম",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "text": "হলো এনজাইম",
+        "text": "i ও ii",
         "isCorrect": true
       },
       {
+        "id": 2,
+        "text": "i",
+        "isCorrect": false
+      },
+      {
         "id": 3,
-        "text": "হাইডোলেজ এনজাইম",
+        "text": "iii",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "নিউক্লিয়েজ এনজাইম",
+        "text": "ii",
         "isCorrect": false
       }
     ],
@@ -29587,29 +29587,29 @@
   },
   {
     "id": 46,
-    "subject": "biology-1",
-    "question": "রক্তে কোলেস্টেরলের মাত্রা বেশি হলে -\ni. রক্তনালি পথ সরু হয়ে যায়\nii. শরীরে রক্তচাপ বেড়ে যায়\niii. রক্ত সরবরাহ বেড়ে যায়\nনিচের কোনটি সঠিক?",
+    "subject": "chemistry-1",
+    "question": "হাইড্রোজেন বন্ধন গঠিত হয়-",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "i ও ii",
+        "text": "পোলার অণুসমূহের মধ্যে",
         "isCorrect": true
       },
       {
         "id": 2,
-        "text": "ii ও iii",
+        "text": "আপোলার অণুসমূহের মধ্যে",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "i ও iii",
+        "text": "ধনাত্মক অণুসমূহের মধ্যে",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "i, ii ও iii",
+        "text": "ঋণাত্মক অণুসমূহের মধ্যে",
         "isCorrect": false
       }
     ],
@@ -29618,30 +29618,30 @@
   },
   {
     "id": 47,
-    "subject": "biology-1",
-    "question": "নিচের কোনটি সরল প্রোটিন?",
+    "subject": "chemistry-1",
+    "question": "ধাতুসমূহ প্রকৃতিতে বিদ্যমান-\ni.অক্সাইড ও সালফাইড হিসেবে\nii.আকরিক হিসেবে\niii.মুদ্রা ধাতু হিসেবে\nনিচের কোনটি সঠিক?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "ক্রোমো প্রোটিন",
-        "isCorrect": false
+        "text": "i ও ii",
+        "isCorrect": true
       },
       {
         "id": 2,
-        "text": "ফসফো প্রোটিন",
+        "text": "i",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "লিপো প্রোটিন",
+        "text": "ii",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "প্রোটামিন",
-        "isCorrect": true
+        "text": "iii",
+        "isCorrect": false
       }
     ],
     "explanation": "",
@@ -29649,29 +29649,29 @@
   },
   {
     "id": 48,
-    "subject": "biology-1",
-    "question": "প্রোটিনের অ্যামিনো অ্যাসিড কী দ্বারা একে অন্যের সাথে যুক্ত হয়?",
+    "subject": "chemistry-1",
+    "question": "সন্নিবেশ বন্ধনে পরমাণুগুলোর যোজ্যতা স্তর-",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "পেপটাইড বন্ধন",
-        "isCorrect": true
-      },
-      {
-        "id": 2,
-        "text": "হাইড্রোজেন বন্ধন",
+        "text": "অস্টক সম্পূর্ণ",
         "isCorrect": false
       },
       {
+        "id": 2,
+        "text": "অষ্টক অপূর্ণ",
+        "isCorrect": true
+      },
+      {
         "id": 3,
-        "text": "গ্লাইকোসাইডিক বন্ধন",
+        "text": "অষ্টক পূর্ণ",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "সমযোজী বন্ধন",
+        "text": "অষ্টক নেই",
         "isCorrect": false
       }
     ],
@@ -29680,29 +29680,29 @@
   },
   {
     "id": 49,
-    "subject": "biology-1",
-    "question": "পাইরিমিডিন শ্রেণিভুক্ত ক্ষারক -\ni. থাইমিন\nii. গুয়ানিন\niii. সাইটোমিন\nনিচের কোনটি সঠিক?",
+    "subject": "chemistry-1",
+    "question": "নিম্নের কোনটিতে সমযোজী বন্ধন নেই?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "i ও ii",
+        "text": "বরফ",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "i ও iii",
+        "text": "কপার",
         "isCorrect": true
       },
       {
+        "id": 3,
+        "text": "পানি",
+        "isCorrect": false
+      },
+      {
         "id": 4,
-        "text": "i, ii ও iii",
+        "text": "ডায়মন্ড",
         "isCorrect": false
       }
     ],
@@ -29711,29 +29711,29 @@
   },
   {
     "id": 50,
-    "subject": "biology-1",
-    "question": "চালে কোন প্রোটিনটি পাওয়া যায়?",
+    "subject": "chemistry-1",
+    "question": "পানির অণুতে অক্সিজেনের Hybridisation state কত?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "গ্লিয়াডিন",
+        "text": "sp",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "অরাইজেনিন",
-        "isCorrect": true
-      },
-      {
-        "id": 3,
-        "text": "জেইন",
+        "text": "sp2",
         "isCorrect": false
       },
       {
+        "id": 3,
+        "text": "sp3",
+        "isCorrect": true
+      },
+      {
         "id": 4,
-        "text": "হরডেইন",
+        "text": "sp3d",
         "isCorrect": false
       }
     ],
@@ -29742,29 +29742,29 @@
   },
   {
     "id": 51,
-    "subject": "biology-1",
-    "question": "এনজাইম এর কার্যকারিতা নির্ভর করে -\ni. পানির পরিমাণের ওপর\nii. তাপমাত্রার ওপর\niii. pH এর উপর\nনিচের কোনটি সঠিক?",
+    "subject": "chemistry-1",
+    "question": "৫ম পর্যায়ের d-ব্লক মৌলের ১ম ও শেষ মৌল দুটি নিম্নের কোনটি?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "i ও ii",
+        "text": "Sc ও Zn",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "ii ও iii",
+        "text": "Y ও Cd",
         "isCorrect": true
       },
       {
         "id": 3,
-        "text": "i ও iii",
+        "text": "Ac ও Rf",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "i, ii ও iii",
+        "text": "Cd ও Rf",
         "isCorrect": false
       }
     ],
@@ -29773,29 +29773,29 @@
   },
   {
     "id": 52,
-    "subject": "biology-1",
-    "question": "সালোকসংশ্লেষণের সময় যে অস্থায়ী পেন্টোজ শর্করাটি উৎপন্ন হয় -",
+    "subject": "chemistry-1",
+    "question": "মৃৎক্ষারীয় ধাতুর ক্ষেত্রে গ্রুপের উপর থেকে নিচে নিম্নোক্ত ধর্মগুলোর কোনটির হ্রাস ঘটে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "রাইবোজ",
+        "text": "পারমাণবিক ব্যাসার্ধ",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "রাইবুলোজ",
+        "text": "প্রথম আয়নিকরণ শক্তি",
         "isCorrect": true
       },
       {
         "id": 3,
-        "text": "সুক্রোজ",
+        "text": "আয়নিক ব্যাসার্ধ",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "স্টার্চ",
+        "text": "পারমাণবিক আয়তন",
         "isCorrect": false
       }
     ],
@@ -29804,29 +29804,29 @@
   },
   {
     "id": 53,
-    "subject": "biology-1",
-    "question": "জীবের বৃদ্ধি ও বিকাশ নিয়ন্ত্রিত হরমোন কী দ্বারা গঠিত?",
+    "subject": "chemistry-1",
+    "question": "কোনটি Fe+2 এর আধুনিক নাম?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "শর্করা",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "text": "আমিষ",
+        "text": "আয়রন (II)",
         "isCorrect": true
       },
       {
+        "id": 2,
+        "text": "ফেরাস",
+        "isCorrect": false
+      },
+      {
         "id": 3,
-        "text": "স্নেহ",
+        "text": "আয়রন (II)",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "এনজাইম",
+        "text": "ফেরিক",
         "isCorrect": false
       }
     ],
@@ -29835,29 +29835,29 @@
   },
   {
     "id": 54,
-    "subject": "biology-1",
-    "question": "মধুর প্রধান কাঁচামাল কী?",
+    "subject": "chemistry-1",
+    "question": "ক্যাটায়নের চার্জ যত বেশি হয় অ্যানায়ন তত বেশি কী হয়?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "গ্লুকোজ",
-        "isCorrect": false
+        "text": "পোলারিত হয়",
+        "isCorrect": true
       },
       {
         "id": 2,
-        "text": "ফ্রুক্টোজ",
+        "text": "আয়নিত হয়",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "সুক্রোজ",
-        "isCorrect": true
+        "text": "হ্রাস পায়",
+        "isCorrect": false
       },
       {
         "id": 4,
-        "text": "রাইবোজ",
+        "text": "বৃদ্ধি পায়",
         "isCorrect": false
       }
     ],
@@ -29866,29 +29866,29 @@
   },
   {
     "id": 55,
-    "subject": "biology-1",
-    "question": "DNA, RNA ও এনজাইম গঠনকারী উপাদান কোনটি?",
+    "subject": "chemistry-1",
+    "question": "s অরবিটালের আকৃতি কেমন?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "লিপিড",
+        "text": "ডাম্বেল",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "প্রোটিন",
+        "text": "পিরামিড",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "কার্বোহাইড্রেট",
+        "text": "বর্তুলাকার",
         "isCorrect": true
       },
       {
         "id": 4,
-        "text": "প্রোটামিন",
+        "text": "চতুস্তলকীয়",
         "isCorrect": false
       }
     ],
@@ -29897,29 +29897,29 @@
   },
   {
     "id": 56,
-    "subject": "biology-1",
-    "question": "কোন বন্ধন দিয়ে মনোস্যাকারাইড অণু পরস্পর যুক্ত হয়ে অলিগোস্যাকারাইড গঠন করে?",
+    "subject": "chemistry-1",
+    "question": "তৃতীয় পর্যায়ের চতুর্থ মৌলটির অক্সাইড?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "গ্লাইকোফসফেট",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "text": "গ্লাইকোসাইডিক",
+        "text": "অম্লধর্মী",
         "isCorrect": true
       },
       {
+        "id": 2,
+        "text": "ক্ষারধর্মী",
+        "isCorrect": false
+      },
+      {
         "id": 3,
-        "text": "গ্লাইকোপেপটাইড",
+        "text": "উভধর্মী",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "গ্লাইকোসালফেট",
+        "text": "নিরপেক্ষ",
         "isCorrect": false
       }
     ],
@@ -29928,29 +29928,29 @@
   },
   {
     "id": 57,
-    "subject": "biology-1",
-    "question": "কোন পদার্থটি প্রতিটি জীবকোষ গঠন, কোষের সক্রিয়তা তথা বিপাক এবং বংশগতির সাথে জড়িত?",
+    "subject": "chemistry-1",
+    "question": "কার্বন-কার্বন ত্রি-বন্ধনের দূরত্ব অপেক্ষা দ্বি-বন্ধনের দূরত্ব-",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "আমিষ",
-        "isCorrect": true
-      },
-      {
-        "id": 2,
-        "text": "শর্করা",
+        "text": "কম",
         "isCorrect": false
       },
       {
+        "id": 2,
+        "text": "বেশি",
+        "isCorrect": true
+      },
+      {
         "id": 3,
-        "text": "লিপিড",
+        "text": "মাধ্যম",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "স্নেহ",
+        "text": "সমান",
         "isCorrect": false
       }
     ],
@@ -29959,29 +29959,29 @@
   },
   {
     "id": 58,
-    "subject": "biology-1",
-    "question": "ট্রায়োজ স্যুগারের উদাহরণ কোনটি?",
+    "subject": "chemistry-1",
+    "question": "কোনো পর্যায়ের বাম হতে ডানে অগ্রসর হলে মধ্যবর্তী ধাতুর অক্সাইডগুলোর প্রকৃতি কীরূপ হবে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "এরিথ্রোজ",
+        "text": "ক্ষারধর্মী",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "ম্যানোজ",
+        "text": "অম্লধর্মী",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "ডিহাইড্রক্সি অ্যাসিটোন",
+        "text": "উভধর্মী",
         "isCorrect": true
       },
       {
         "id": 4,
-        "text": "ডাইস্যাকারাইড",
+        "text": "লবণ ধর্মী",
         "isCorrect": false
       }
     ],
@@ -29990,29 +29990,29 @@
   },
   {
     "id": 59,
-    "subject": "biology-1",
-    "question": "পাইরিমিডিন শ্রেণিভুক্ত ক্ষারক -\ni. থাইমিন\nii. গুয়ানিন\niii. সাইটোসিন\nনিচের কোনটি সঠিক?",
+    "subject": "chemistry-1",
+    "question": "He এর কোনটি পূর্ণ থাকে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "i ও ii",
+        "text": "অষ্টক",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "i ও iii",
+        "text": "দ্বিত্ব",
         "isCorrect": true
       },
       {
+        "id": 3,
+        "text": "সকল শক্তিস্তর",
+        "isCorrect": false
+      },
+      {
         "id": 4,
-        "text": "i, ii ও iii",
+        "text": "অন্ত:স্থ শক্তি স্তর",
         "isCorrect": false
       }
     ],
@@ -30021,29 +30021,29 @@
   },
   {
     "id": 60,
-    "subject": "biology-1",
-    "question": "এনজাইমেটিক ক্রিয়াকালে কো-এনজাইম কাজ করে -\ni. গ্রহীতা হিসেবে\nii. দাতা হিসেবে\niii. অ্যাক্টিভেটর হিসেবে\nনিচের কোনটি সঠিক?",
+    "subject": "chemistry-1",
+    "question": "নোবেল গ্যাসকে 18 গ্রুপে স্থান পাওয়া হয়েছে কেন?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "i ও ii",
-        "isCorrect": true
-      },
-      {
-        "id": 2,
-        "text": "ii ও iii",
+        "text": "যোজনী ৪",
         "isCorrect": false
       },
       {
+        "id": 2,
+        "text": "যোজনী শূন্য",
+        "isCorrect": true
+      },
+      {
         "id": 3,
-        "text": "i ও iii",
+        "text": "যোজনী ২",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "i, ii ও iii",
+        "text": "যোজনী ৫",
         "isCorrect": false
       }
     ],
@@ -30052,29 +30052,29 @@
   },
   {
     "id": 61,
-    "subject": "biology-1",
-    "question": "মানুষের রক্তে HDL - এর স্বাভাবিক মাত্রা কত?",
+    "subject": "chemistry-1",
+    "question": "সর্বপ্রথম ট্রায়োড বা ত্রয়ী সূত্র প্রদান করেন কোন বিজ্ঞানী?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "০. ১৩ - ১. ১৫%",
+        "text": "নিউল্যান্ড",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "০. ৪ - ১. ৫%",
+        "text": "লুথার মেয়ার",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "০. ৬ - ১. ২০%",
+        "text": "ডোবিরিনায়ের",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "১. ১৫ - ১. ২০%",
+        "text": "নিউল্যান্ড",
         "isCorrect": true
       }
     ],
@@ -30083,29 +30083,29 @@
   },
   {
     "id": 62,
-    "subject": "biology-1",
-    "question": "অপরিহার্য অ্যামিনো এসিড হলো -\ni. লিউসিন ও লাইসিন\nii. মিথিওনিন ও অ্যালানিন\niii. ইনুলিন ও ইনসুলিন\nনিচের কোনটি সঠিক?",
+    "subject": "chemistry-1",
+    "question": "পোলারায়ন যত বেশি হবে যৌগের-",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "i ও ii",
-        "isCorrect": true
-      },
-      {
-        "id": 2,
-        "text": "ii ও iii",
+        "text": "সমযোজী বৈশিষ্ট্য হ্রাস পাবে",
         "isCorrect": false
       },
       {
+        "id": 2,
+        "text": "সমযোজী ধর্ম তত বৃদ্ধি পাবে",
+        "isCorrect": true
+      },
+      {
         "id": 3,
-        "text": "i ও iii",
+        "text": "আয়নিক ধর্ম বৃদ্ধি পাবে",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "i, ii ও iii",
+        "text": "কোন পরিবর্তন হবে না",
         "isCorrect": false
       }
     ],
@@ -30114,30 +30114,30 @@
   },
   {
     "id": 63,
-    "subject": "biology-1",
-    "question": "গ্লাইকোজেন সাধারণ তাপমাত্রায় আয়োডিনের সাথে কোন বর্ণ ধারণ করে?",
+    "subject": "chemistry-1",
+    "question": "দুইটি পারমাণবিক অরবিটালের অধিক্রমণের ফলে আণবিক অরবিটাল গঠনকালে-\ni.শক্তি নির্গত হয়\nii.আণবিক অরবিটালের স্থিতিশক্তি কমে যায়\niii.আণবিক অরবিটাল সুস্থিত হয়\nনিচের কোনটি সঠিক?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "নীল",
+        "text": "i",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "বেগুনি",
+        "text": "ii",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "লাল",
-        "isCorrect": true
+        "text": "iii",
+        "isCorrect": false
       },
       {
         "id": 4,
-        "text": "কালো",
-        "isCorrect": false
+        "text": "i, ii ও iii",
+        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -30145,29 +30145,29 @@
   },
   {
     "id": 64,
-    "subject": "biology-1",
-    "question": "কোনটি নিউক্লিক এসিড গঠনে অংশগ্রহণ করে?",
+    "subject": "chemistry-1",
+    "question": "সমযোজী অণুতে বন্ধন ইলেকট্রন যুগল সমভাবে শেয়ার করে অষ্টকপূর্ণ করে, কার মতবাদ?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "ম্যানোজ",
-        "isCorrect": false
+        "text": "লুইস",
+        "isCorrect": true
       },
       {
         "id": 2,
-        "text": "মল্টোজ",
+        "text": "পলিং",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "রাইবুলোজ",
-        "isCorrect": true
+        "text": "স্লেটার",
+        "isCorrect": false
       },
       {
         "id": 4,
-        "text": "এরিথ্রোজ",
+        "text": "প্রাউস",
         "isCorrect": false
       }
     ],
@@ -30176,29 +30176,29 @@
   },
   {
     "id": 65,
-    "subject": "biology-1",
-    "question": "স্বাদে মিষ্টি বা স্বাদহীন পদার্থ কোনটি?",
+    "subject": "chemistry-1",
+    "question": "পর্যায় সারণিতে 16 পারমাণবিক সংখ্যা বিশিষ্ট মৌলের অবস্থান কোন পর্যায়ে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "কার্বোহাইড্রেট",
-        "isCorrect": true
+        "text": "২য় পর্যায়ে",
+        "isCorrect": false
       },
       {
         "id": 2,
-        "text": "লিপিড",
+        "text": "৫ম পর্যায়ে",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "ভিটামিন",
-        "isCorrect": false
+        "text": "৩য় পর্যায়ে",
+        "isCorrect": true
       },
       {
         "id": 4,
-        "text": "প্রোটিন",
+        "text": "৪র্থ পর্যায়ে",
         "isCorrect": false
       }
     ],
@@ -30207,29 +30207,29 @@
   },
   {
     "id": 66,
-    "subject": "biology-1",
-    "question": "কাগজ ও আঠা তৈরিতে কোনটি ব্যবহৃত হয়?",
+    "subject": "chemistry-1",
+    "question": "কার্বন-কার্বন সিগমা বন্ধনে হাইব্রিডাইজেশন ঘটে-",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "স্টার্চ",
+        "text": "ইথেন",
         "isCorrect": true
       },
       {
         "id": 2,
-        "text": "সেলুলোজ",
+        "text": "ইথিলিন",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "লিপিড",
+        "text": "অ্যাসিটলিন",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "প্রোটিন",
+        "text": "জেনজিন",
         "isCorrect": false
       }
     ],
@@ -30238,29 +30238,29 @@
   },
   {
     "id": 67,
-    "subject": "biology-1",
-    "question": "এনজাইমে প্রোস্থেটিক গ্রুপ হিসেবে কাজ করে কোনটি?",
+    "subject": "chemistry-1",
+    "question": "মৌলের ইলেকট্রন বিন্যাসের পর যদি সর্বশেষ ইলেকট্রনটি p-অরবিটালে প্রবেশ করে, তবে তাদের বলে-",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "টারপিনয়েড",
+        "text": "s-ব্লক মৌল",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "গ্লাইকোলিপিড",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "ফসফোলিপিড",
+        "text": "p-ব্লক মৌল",
         "isCorrect": true
       },
       {
+        "id": 3,
+        "text": "d-ব্লক মৌল",
+        "isCorrect": false
+      },
+      {
         "id": 4,
-        "text": "নিউট্রাল লিপিড",
+        "text": "f-ব্লক মৌল",
         "isCorrect": false
       }
     ],
@@ -30269,30 +30269,30 @@
   },
   {
     "id": 68,
-    "subject": "biology-1",
-    "question": "সালোকসংশ্লেষণ ও শ্বসন বিপাকক্রিয়ায় কোন এনজাইম গুরুত্বপূর্ণ ভূমিকা পালন করে?",
+    "subject": "chemistry-1",
+    "question": "আণবিক অরবিটাল গঠনের সময় ইলেকট্রনের ঘূর্ণন কোন দিকে হয়?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "হেক্সোকাইনেজ",
+        "text": "একই দিকে",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "পাইরুভিট কার্বক্সিলেজ",
-        "isCorrect": false
+        "text": "বিপরীত দিকে",
+        "isCorrect": true
       },
       {
         "id": 3,
-        "text": "ইনভার্টেজ",
+        "text": "উপরের দিকে",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "সাইটোক্রোম অক্সিডেজ",
-        "isCorrect": true
+        "text": "নিচের দিকে",
+        "isCorrect": false
       }
     ],
     "explanation": "",
@@ -30300,29 +30300,29 @@
   },
   {
     "id": 69,
-    "subject": "biology-1",
-    "question": "ইনসুলিনে কতটি অ্যামিনো অ্যাসিড থাকে?",
+    "subject": "chemistry-1",
+    "question": "CH4 অণুর চারটি সমযোজী বন্ধন সমশক্তি ব্যাখ্যা করেন কোন বিজ্ঞানী?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "৫৫",
-        "isCorrect": false
+        "text": "পলিং ও স্লোটার",
+        "isCorrect": true
       },
       {
         "id": 2,
-        "text": "৬৫",
+        "text": "স্লোটার প্রাউস",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "৭৫",
-        "isCorrect": true
+        "text": "প্রাউস ও পলিং",
+        "isCorrect": false
       },
       {
         "id": 4,
-        "text": "৮৫",
+        "text": "বোর ও সাইজেক",
         "isCorrect": false
       }
     ],
@@ -30331,29 +30331,29 @@
   },
   {
     "id": 70,
-    "subject": "biology-1",
-    "question": "অবিজারক চিনি কোনটি?",
+    "subject": "chemistry-1",
+    "question": "উভধর্মী অক্সাইড কোনটি?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "গ্লুকোজ",
+        "text": "BeO",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "ফ্রুকটোজ",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "সুক্রোজ",
+        "text": "B2O3",
         "isCorrect": true
       },
       {
+        "id": 3,
+        "text": "N2O3",
+        "isCorrect": false
+      },
+      {
         "id": 4,
-        "text": "মল্টোজ",
+        "text": "B3O5",
         "isCorrect": false
       }
     ],
@@ -30362,29 +30362,29 @@
   },
   {
     "id": 71,
-    "subject": "biology-1",
-    "question": "হেক্সোজ কী?",
+    "subject": "chemistry-1",
+    "question": "সমযোজী ব্ন্ধনে মৌলের তড়িৎ ঋণাত্মকতা 0. 5 হলে অণুটি কেমন হয়?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "একটি ডাইস্যাকারাইড",
+        "text": "পোলার",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "একটি সরল শর্করা",
+        "text": "অপোলার",
         "isCorrect": true
       },
       {
         "id": 3,
-        "text": "একটি অবিজারক চিনি",
+        "text": "দ্রবণীয়",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "একটি জটিল শর্করা",
+        "text": "সবগুলো",
         "isCorrect": false
       }
     ],
@@ -30393,29 +30393,29 @@
   },
   {
     "id": 72,
-    "subject": "biology-1",
-    "question": "কো-এনজাইম নিচের কোনটি?",
+    "subject": "chemistry-1",
+    "question": "নিম্নের কোনটিতে সমযোজী বন্ধন নেই?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "STH",
+        "text": "বরফ",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "FAD",
+        "text": "কপার",
         "isCorrect": true
       },
       {
         "id": 3,
-        "text": "HDL",
+        "text": "পানি",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "LTH",
+        "text": "ডায়মন্ড",
         "isCorrect": false
       }
     ],
@@ -30424,30 +30424,30 @@
   },
   {
     "id": 73,
-    "subject": "biology-1",
-    "question": "কোনটি সবচেয়ে মিষ্টি?",
+    "subject": "chemistry-1",
+    "question": "মৌলের রাসায়নিক ধর্ম একটি পর্যায়বৃত্ত প্রমাণ করেন কে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "সুক্রোজ",
-        "isCorrect": false
+        "text": "মেন্ডেলিফ",
+        "isCorrect": true
       },
       {
         "id": 2,
-        "text": "মলটোজ",
+        "text": "বোর",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "গ্লুকোজ",
+        "text": "লুথার মেয়ার",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "ফ্রুক্টোজ",
-        "isCorrect": true
+        "text": "নিউল্যান্ড",
+        "isCorrect": false
       }
     ],
     "explanation": "",
@@ -30455,29 +30455,29 @@
   },
   {
     "id": 74,
-    "subject": "biology-1",
-    "question": "মানুষের রক্তে কোলেস্টেরল এর স্বাভাবিক মাত্রা কত?",
+    "subject": "chemistry-1",
+    "question": "সন্নিবেশ সমযোজী বন্ধনের ক্ষেত্রে কোনটি মুক্তজোড় ইলেকট্রন দান করে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "০০৫-১০২%",
+        "text": "ক্যাটায়ন",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "০১৫-১২০%",
-        "isCorrect": true
-      },
-      {
-        "id": 3,
-        "text": "০১৫-১৫০%",
+        "text": "অ্যানায়ন",
         "isCorrect": false
       },
       {
+        "id": 3,
+        "text": "লিগ্যান্ড",
+        "isCorrect": true
+      },
+      {
         "id": 4,
-        "text": "০২৫-১৭৫%",
+        "text": "ক্যাট্যালিস্ট",
         "isCorrect": false
       }
     ],
@@ -30486,29 +30486,29 @@
   },
   {
     "id": 75,
-    "subject": "biology-1",
-    "question": "গ্লাইকোলিপিডের কাজ কোনটি?",
+    "subject": "chemistry-1",
+    "question": "পোলারায়ন বৃদ্ধির সাথে যৌগসমূহের মধ্যে কী ঘটে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "রক্ত তঞ্চনে ভূমিকা রাখে",
+        "text": "গলনাঙ্ক বৃদ্ধি পায়",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "সালোকসংশ্লেষণে সাহায্য করে",
-        "isCorrect": true
-      },
-      {
-        "id": 3,
-        "text": "শক্তি উৎপাদনে সাহায্য করে",
+        "text": "স্ফুটনাঙ্ক বৃদ্ধি পায়",
         "isCorrect": false
       },
       {
+        "id": 3,
+        "text": "স্ফুটনাঙ্ক হ্রাস পায়",
+        "isCorrect": true
+      },
+      {
         "id": 4,
-        "text": "কোষ প্রাচীর গঠনে প্রধান ভূমিকা পালন করে",
+        "text": "গলনাঙ্ক একই থাকে",
         "isCorrect": false
       }
     ],
@@ -30517,30 +30517,30 @@
   },
   {
     "id": 76,
-    "subject": "biology-1",
-    "question": "কেসিন কোনটিতে পাওয়া যায়?",
+    "subject": "chemistry-1",
+    "question": "Se+3 আয়নটি যৌগ গঠন করলে উৎপন্ন যৌগটি-\ni.রঙ্গিন\nii.বর্ণহীন\niii.জটিল\nনিচের কোনটি সঠিক?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "ডিমে",
+        "text": "i",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "নিউক্লিয়াসে",
+        "text": "ii",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "রাইবোসোমে",
-        "isCorrect": false
+        "text": "ii ও iii",
+        "isCorrect": true
       },
       {
         "id": 4,
-        "text": "দুধে",
-        "isCorrect": true
+        "text": "iii",
+        "isCorrect": false
       }
     ],
     "explanation": "",
@@ -30548,29 +30548,29 @@
   },
   {
     "id": 77,
-    "subject": "biology-1",
-    "question": "কোনটি দ্বিবন্ধনীকে সৃষ্টি বা অপসারিত করে গ্রুপ স্থানান্তর করে?",
+    "subject": "chemistry-1",
+    "question": "যৌগের সমযোজী বৈশিষ্ট্য বৃদ্ধির সাথে সাথে নিচের কোনটি হয়?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "হাইড্রোলেজ",
+        "text": "দ্রাব্যতা গুণ বেড়ে যায়",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "লাইয়েজ",
+        "text": "দ্রাবতা গুণ কমে যায়",
         "isCorrect": true
       },
       {
         "id": 3,
-        "text": "অ্যামাইলেজ",
+        "text": "দ্রাব্যতা গুণ একই থাকে",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "লাইগেজ",
+        "text": "দ্রাব্যতা দ্বিগুণ হয়",
         "isCorrect": false
       }
     ],
@@ -30579,30 +30579,30 @@
   },
   {
     "id": 78,
-    "subject": "biology-1",
-    "question": "মনোস্যাকারাইড এর সাধারণ নাম কী?",
+    "subject": "chemistry-1",
+    "question": "মুখোমুখি বা পাশাপাশি অধিক্রমণের ফলে কোন বন্ধন সৃষ্টি হয়?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "সরল শর্করা",
-        "isCorrect": true
+        "text": "আয়নিক বন্ধন",
+        "isCorrect": false
       },
       {
         "id": 2,
-        "text": "বিজারক শর্করা",
+        "text": "হাইডোজেন বন্ধন",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "অবিজারক শর্করা",
+        "text": "ধাতব বন্ধন",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "ডাইস্যাকারাইড",
-        "isCorrect": false
+        "text": "সমযোজী বন্ধন",
+        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -30610,29 +30610,29 @@
   },
   {
     "id": 79,
-    "subject": "biology-1",
-    "question": "সকল প্রকার সালোকসংশ্লেষণকারী উদ্ভিদে প্রাপ্ত সর্বাপেক্ষা গুরুত্বপূর্ণ ডাইস্যাকারাইডটি -\ni. বিশুদ্ধ অ্যালকোহলে দ্রবণীয়\nii. লঘু এসিডে গ্লুকোজ ও ফ্রুক্টোজ গঠন করে\niii. পানিতে সম্পূর্ণরূপে দ্রবণীয়\nনিচের কোনটি সঠিক?",
+    "subject": "chemistry-1",
+    "question": "সমযোজী যৌগ হওয়া সত্ত্বেওB যৌগটিতে আয়নিক যৌগ দ্রবীভূত হয় কেন?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "i ও ii",
+        "text": "যৌগটির পৃষ্ঠটান বেশি বলে",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "ii ও iii",
-        "isCorrect": true
-      },
-      {
-        "id": 3,
-        "text": "i ও iii",
+        "text": "যৌগটির সংশক্তি বলের কারণে",
         "isCorrect": false
       },
       {
+        "id": 3,
+        "text": "যৌগটির অণু পোলার বলে",
+        "isCorrect": true
+      },
+      {
         "id": 4,
-        "text": "i, ii ও iii",
+        "text": "যৌগটির সংযুক্তি বলের কারণে",
         "isCorrect": false
       }
     ],
@@ -30641,29 +30641,24 @@
   },
   {
     "id": 80,
-    "subject": "biology-1",
-    "question": "প্রোস্থেটিক গ্রুপ হিসেবে শর্করাযুক্ত প্রোটিনটি -\ni. ক্ষারে দ্রবণীয়\nii. অম্লীয় স্বভাবের\niii. ভাইরাসে পাওয়া যায়\nনিচের কোনটি সঠিক?",
+    "subject": "chemistry-1",
+    "question": "পোলারায়ন বৃদ্ধির সাথে যৌগসমূহের মধ্যে কী ঘটে?\nক)গলনাঙ্ক বৃদ্ধি পায়",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "i ও ii",
-        "isCorrect": true
+        "text": "স্ফুটনাঙ্ক বৃদ্ধি পায়",
+        "isCorrect": false
       },
       {
         "id": 2,
-        "text": "ii ও iii",
-        "isCorrect": false
+        "text": "স্ফুটনাঙ্ক হ্রাস পায়",
+        "isCorrect": true
       },
       {
         "id": 3,
-        "text": "i ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 4,
-        "text": "i, ii ও iii",
+        "text": "গলনাঙ্ক একই থাকে",
         "isCorrect": false
       }
     ],
@@ -30672,29 +30667,29 @@
   },
   {
     "id": 81,
-    "subject": "biology-1",
-    "question": "কোন এনজাইম সাবস্ট্রেট থেকে ফসফেট গ্রুপকে পৃথক করে?",
+    "subject": "chemistry-1",
+    "question": "অনাদ্র কোবাল্ট (II) যৌগের রং কেমন?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "কর্বোক্সিলেজ",
+        "text": "লাল",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "ফসফোরাইলেজ",
+        "text": "নীল",
         "isCorrect": true
       },
       {
         "id": 3,
-        "text": "লাইগেজ",
+        "text": "বেগুনি",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "অ্যালডোজ",
+        "text": "সাদা",
         "isCorrect": false
       }
     ],
@@ -30703,29 +30698,29 @@
   },
   {
     "id": 82,
-    "subject": "biology-1",
-    "question": "৯০% সেলুলোজ কোনটিতে থাকে?",
+    "subject": "chemistry-1",
+    "question": "অক্সিজেন পরমানুর যোজ্যতা স্তরের কয়টি শক্তিস্তর বিদ্যমান?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "তুলা",
+        "text": "১টি",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "তিসি",
+        "text": "২টি",
         "isCorrect": true
       },
       {
         "id": 3,
-        "text": "কাঠ",
+        "text": "৩টি",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "তৃণলতা",
+        "text": "৪টি",
         "isCorrect": false
       }
     ],
@@ -30734,30 +30729,30 @@
   },
   {
     "id": 83,
-    "subject": "biology-1",
-    "question": "কোনটি তাপে জমাট বাঁধে?",
+    "subject": "chemistry-1",
+    "question": "হাইড্রোজেন পরমাণুর পারমাণবিক সংখ্যা কত?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "হিস্টোন",
+        "text": "দুই",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "প্রোটামিন",
+        "text": "তিন",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "প্রোলামিন",
-        "isCorrect": false
+        "text": "এক",
+        "isCorrect": true
       },
       {
         "id": 4,
-        "text": "অ্যালবুমিন",
-        "isCorrect": true
+        "text": "চার",
+        "isCorrect": false
       }
     ],
     "explanation": "",
@@ -30765,29 +30760,29 @@
   },
   {
     "id": 84,
-    "subject": "biology-1",
-    "question": "সকল প্রকার সালোকসংশ্লেষণকারী উদ্ভিদে কোনটি থাকে?",
+    "subject": "chemistry-1",
+    "question": "ভিন্ন ভিন্ন মৌলের দুই বা ততোধিক পরমাণু যুক্ত হয়ে কী তৈরি করে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "সুক্রোজ",
-        "isCorrect": true
+        "text": "যৌগের পরমানু",
+        "isCorrect": false
       },
       {
         "id": 2,
-        "text": "ল্যাকটোজ",
+        "text": "যৌগের আয়ন",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "মল্টোজ",
-        "isCorrect": false
+        "text": "যৌগের অণু",
+        "isCorrect": true
       },
       {
         "id": 4,
-        "text": "র্যাফিনেজ",
+        "text": "কোনটিই নয়",
         "isCorrect": false
       }
     ],
@@ -30796,29 +30791,29 @@
   },
   {
     "id": 85,
-    "subject": "biology-1",
-    "question": "প্রতিটি সজীব কোষের প্রোটোপ্লাজম কোষ থেকে সংশ্লেষিত হয় -",
+    "subject": "chemistry-1",
+    "question": "ইলেকট্রন গ্রহণ করে ঋণাত্মক আয়নে পরিণত করার ফলে নির্গত শক্তি কোনটি?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "নিউক্লিক এসিড",
+        "text": "আয়নিকরণ শক্তি",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "লিপিড",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "অ্যামিনো এসিড",
+        "text": "ইলেকট্রন আসক্তি",
         "isCorrect": true
       },
       {
+        "id": 3,
+        "text": "তড়িৎ ঋণাত্মকতা",
+        "isCorrect": false
+      },
+      {
         "id": 4,
-        "text": "সোমাটোট্রফিক হরমোন",
+        "text": "তড়িৎ ধনাত্মকতা",
         "isCorrect": false
       }
     ],
@@ -30827,29 +30822,29 @@
   },
   {
     "id": 86,
-    "subject": "biology-1",
-    "question": "সেলুলোজ একটি -",
+    "subject": "chemistry-1",
+    "question": "অষ্টক পূর্ণতার জন্য আয়নিক যৌগের মৌলগুলো ইলেকট্রন কী করে?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "মনোস্যাকারাইড",
+        "text": "শেয়ার করে",
         "isCorrect": false
       },
       {
         "id": 2,
-        "text": "ডাইস্যাকারাইড",
-        "isCorrect": false
-      },
-      {
-        "id": 3,
-        "text": "পলিস্যাকারাইড",
+        "text": "ত্যাগ করে",
         "isCorrect": true
       },
       {
+        "id": 3,
+        "text": "বিকিরণ করে",
+        "isCorrect": false
+      },
+      {
         "id": 4,
-        "text": "অলিগোস্যাকারাইড",
+        "text": "বর্ণালির সৃষ্টি করে",
         "isCorrect": false
       }
     ],
@@ -30858,29 +30853,29 @@
   },
   {
     "id": 87,
-    "subject": "biology-1",
-    "question": "কোন প্রোটিন অম্ল ও ক্ষারে দ্রবীভূত হয়?",
+    "subject": "chemistry-1",
+    "question": "বায়ুমন্ডলে শতকরা পরিমাণ বেশি কোনটির?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "অ্যালবুমিন",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "text": "গ্লুটেলিন",
+        "text": "আর্গন",
         "isCorrect": true
       },
       {
+        "id": 2,
+        "text": "জেনন",
+        "isCorrect": false
+      },
+      {
         "id": 3,
-        "text": "গ্লোবিউলিন",
+        "text": "নিয়ন",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "প্রোলামিন",
+        "text": "রেডন",
         "isCorrect": false
       }
     ],
@@ -30889,29 +30884,29 @@
   },
   {
     "id": 88,
-    "subject": "biology-1",
-    "question": "গ্লুকোজের অপর নাম কী?",
+    "subject": "chemistry-1",
+    "question": "৩য় পর্যায়ের মৌলসমূহের যোজনী 1 থেকে 7 পর্যন্ত-",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "ফ্রুক্টোজ",
-        "isCorrect": false
+        "text": "বৃদ্ধি পায়",
+        "isCorrect": true
       },
       {
         "id": 2,
-        "text": "সুক্রোজ",
+        "text": "হ্রাস পায়",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "ডেক্সট্রোজ",
-        "isCorrect": true
+        "text": "স্থির থাকে",
+        "isCorrect": false
       },
       {
         "id": 4,
-        "text": "রাইবোজ",
+        "text": "সমান থাকে",
         "isCorrect": false
       }
     ],
@@ -30920,30 +30915,30 @@
   },
   {
     "id": 89,
-    "subject": "biology-1",
-    "question": "জীবদেহে শর্করা -\ni. শক্তির উৎস হিসেবে কাজ করে\nii. উদ্ভিদ গঠনকারী মূল পদার্থ\niii. সঞ্চিত খাদ্য হিসেবে থাকে\nনিচের কোনটি সঠিক?",
+    "subject": "chemistry-1",
+    "question": "বন্ধন গঠনের উদ্দেশ্য হল-\ni.অষ্টক পূরণের উচ্ছা\nii.সুস্থিত ইলেকট্রন বিন্যাস অর্জন\niii.অন্য মৌলের সাথে মিলিত হবার ইচ্ছা\nনিচের কোনটি সঠিক?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
         "text": "i ও ii",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
-        "text": "ii ও iii",
+        "text": "i",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "i ও iii",
+        "text": "ii",
         "isCorrect": false
       },
       {
         "id": 4,
-        "text": "i, ii ও iii",
-        "isCorrect": true
+        "text": "iii",
+        "isCorrect": false
       }
     ],
     "explanation": "",
@@ -30951,36 +30946,316 @@
   },
   {
     "id": 90,
-    "subject": "biology-1",
-    "question": "এনজাইম ক্রিয়া করে -\ni. Transition state সৃষ্টির মাধ্যমে\nii. Activation energy -র মাধ্যমে\niii. Reduction energy -র মাধ্যমে\nনিচের কোনটি সঠিক?",
+    "subject": "chemistry-1",
+    "question": "(II) B উপগ্রুপের মৌলের জটিল যৌগের গঠন হয় কেন?",
     "chapter": "3",
     "label": "",
     "options": [
       {
         "id": 1,
-        "text": "i ও ii",
-        "isCorrect": true
+        "text": "আয়নের আকার বড়",
+        "isCorrect": false
       },
       {
         "id": 2,
-        "text": "ii ও iii",
+        "text": "নিম্ন নিউক্লিয়ার আধান",
         "isCorrect": false
       },
       {
         "id": 3,
-        "text": "i ও iii",
-        "isCorrect": false
+        "text": "d-অরবিটালের উপস্থিতি",
+        "isCorrect": true
       },
       {
         "id": 4,
-        "text": "i, ii ও iii",
+        "text": "d-অরবিটালে অনপস্থিতি",
         "isCorrect": false
       }
     ],
     "explanation": "",
     "hint": ""
   },
-
+  {
+    "id": 91,
+    "subject": "chemistry-1",
+    "question": "অধাতব মৌলগুলো বন্ধন গঠন করে কীভাবে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ইলেকট্রন ত্যাগ করে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ইলেকট্রন গ্রহণ করে না",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "ইলেকট্রন শেয়অর করে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "উপরের সবগুলো",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 92,
+    "subject": "chemistry-1",
+    "question": "Li,Na, K এগুলো কী ধাতু নামে পরিচিত?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "মৃৎক্ষার ধাতু",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "ক্ষার ধাতু",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "বিরল মৃত্তিকা",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "অপধাতু",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 93,
+    "subject": "chemistry-1",
+    "question": "DNA এর কাঠামো দ্বি-হেলিক্স কার মডেল?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ওয়াটসন ও ক্রীক",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ভ্যান্ডারওয়ালস",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "রাদারফোর্ড",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "নীলস বোর",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 94,
+    "subject": "chemistry-1",
+    "question": "Na, Mg, Al এর মৌলসমূহের মধ্যে কোন প্রকার বন্ধন বিদ্যমান?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ধাতব বন্ধন",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "অধাতব বন্ধন",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "আয়নিক",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "সমযোজী",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 95,
+    "subject": "chemistry-1",
+    "question": "কোন দ্রবণের pH এর মান 7 অপেক্ষা বেশি হলে দ্রবণটি-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ক্ষারীয়",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "এসিডীয়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "নিরপেক্ষ",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "কোনটিই নয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 96,
+    "subject": "chemistry-1",
+    "question": "নিচের কোন পদার্থের ডাইপোল-ডাইপোল আকর্ষণ বল কম-",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "তরল পদার্থে",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "কঠিন পদার্থে",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "গ্যাসসমূহে",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "text": "কোনটিই নয়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 97,
+    "subject": "chemistry-1",
+    "question": "একই পর্যায়ে অ্যানায়নের পোলারায়ন ক্ষমতা বৃদ্ধি পায় কেন?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "ব্যাসার্ধ হ্রাস পায়",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "ব্যাসার্ধ বৃদ্ধি পায়",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "চার্জ কমে যায়",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "আকার বেড়ে যায়",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": ""
+  },
+  {
+    "id": 98,
+    "subject": "chemistry-1",
+    "question": "‘Y’ কোন ব্লকের সদস্য?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "s",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "p",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "d",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "f",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\n‘Y’ একটি অধাতু যা সমুদ্রের আগাছায় পাওয়া যায় এবং যার অভাবে একটি মাত্রাত্মক রোগ সৃষ্টি হয়।\n"
+  },
+  {
+    "id": 99,
+    "subject": "chemistry-1",
+    "question": "Y মৌলটি ক্ষার ধাতুর সাথে ক্রিয়ার কোন যেীগটি গঠন করবে?",
+    "chapter": "3",
+    "label": "",
+    "options": [
+      {
+        "id": 1,
+        "text": "NaBr",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "text": "Nal",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "text": "NaCl",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "MgCl2",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "",
+    "hint": "",
+    "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\n‘Y’ একটি অধাতু যা সমুদ্রের আগাছায় পাওয়া যায় এবং যার অভাবে একটি মাত্রাত্মক রোগ সৃষ্টি হয়।\n"
+  },
   {
     "id": 1,
     "subject": "chemistry-1",
@@ -38772,7 +39047,7 @@
       {
         "id": 1,
         "text": "তাপোৎপাদী বিক্রিয়া",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -38788,11 +39063,6 @@
         "id": 4,
         "text": "তাপ রাসায়নিক বিক্রিয়া",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38808,7 +39078,7 @@
       {
         "id": 1,
         "text": "অক্সফোর্ড",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -38824,11 +39094,6 @@
         "id": 4,
         "text": "সিওল বিশ্ববিদ্যালয়",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38844,7 +39109,7 @@
       {
         "id": 1,
         "text": "50C",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -38860,11 +39125,6 @@
         "id": 4,
         "text": "200C",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38890,17 +39150,12 @@
       {
         "id": 3,
         "text": "নিরপেক্ষ",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "লবণাক্ত",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38916,7 +39171,7 @@
       {
         "id": 1,
         "text": "i ও ii",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -38932,11 +39187,6 @@
         "id": 4,
         "text": "i",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38952,7 +39202,7 @@
       {
         "id": 1,
         "text": "স্বল্প সময়ে সর্বোচ্চ পরিমাণ উৎপাদন",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -38968,11 +39218,6 @@
         "id": 4,
         "text": "বেশি মুনাফা লাভ",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39003,11 +39248,6 @@
       {
         "id": 4,
         "text": "১৭৭৪",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -39034,17 +39274,12 @@
       {
         "id": 3,
         "text": "তাপমাত্রা, চাপ ও ঘনমাত্রা",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "অধ:ক্ষেপ,ধ্রুবক ও সাম্যাংক",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39060,7 +39295,7 @@
       {
         "id": 1,
         "text": "২",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -39076,11 +39311,6 @@
         "id": 4,
         "text": "৫",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39111,11 +39341,6 @@
       {
         "id": 4,
         "text": "CH3COOH",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -39132,7 +39357,7 @@
       {
         "id": 1,
         "text": "i ও ii",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -39148,11 +39373,6 @@
         "id": 4,
         "text": "ii",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39168,7 +39388,7 @@
       {
         "id": 1,
         "text": "উভমুখিতা",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -39184,11 +39404,6 @@
         "id": 4,
         "text": "প্রভাবকের উপর নির্ভরশীলতা",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39219,11 +39434,6 @@
       {
         "id": 4,
         "text": "হেবার বস পদ্ধতিতে",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -39255,11 +39465,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -39286,17 +39491,12 @@
       {
         "id": 3,
         "text": "উভমুখী বিক্রিয়া",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "দিকহীন বিক্রিয়া",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39312,7 +39512,7 @@
       {
         "id": 1,
         "text": "এনজাইম",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -39328,11 +39528,6 @@
         "id": 4,
         "text": "জটিল প্রভাবক",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39348,7 +39543,7 @@
       {
         "id": 1,
         "text": "দুই",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -39364,11 +39559,6 @@
         "id": 4,
         "text": "পাঁচ",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39384,7 +39574,7 @@
       {
         "id": 1,
         "text": "i ও ii",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -39400,11 +39590,6 @@
         "id": 4,
         "text": "i, ii ও iii",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39430,17 +39615,12 @@
       {
         "id": 3,
         "text": "ল্যাভয়সিয়ে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "বোর",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39456,7 +39636,7 @@
       {
         "id": 1,
         "text": "পরিবেশ রসায়ন",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -39472,11 +39652,6 @@
         "id": 4,
         "text": "জৈব রসায়ন",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39507,11 +39682,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -39543,11 +39713,6 @@
       {
         "id": 4,
         "text": "সবগুলো",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -39574,17 +39739,12 @@
       {
         "id": 3,
         "text": "ফেনফথ্যালিন",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "ব্রোমোফেনল",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39600,7 +39760,7 @@
       {
         "id": 1,
         "text": "7",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -39616,11 +39776,6 @@
         "id": 4,
         "text": "14",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39636,7 +39791,7 @@
       {
         "id": 1,
         "text": "i",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -39652,11 +39807,6 @@
         "id": 4,
         "text": "iii",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39672,7 +39822,7 @@
       {
         "id": 1,
         "text": "সামনের দিকে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -39688,11 +39838,6 @@
         "id": 4,
         "text": "সাম্যাবস্থা বিলুপ্ত হয়",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39708,7 +39853,7 @@
       {
         "id": 1,
         "text": "দ্রবণ তাপ",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -39724,11 +39869,6 @@
         "id": 4,
         "text": "দহন তাপ",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39744,7 +39884,7 @@
       {
         "id": 1,
         "text": "তাপ উৎপাদী প্রক্রিয়া",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -39760,11 +39900,6 @@
         "id": 4,
         "text": "থিতানো প্রক্রিয়া",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39780,7 +39915,7 @@
       {
         "id": 1,
         "text": "i ও ii",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -39796,11 +39931,6 @@
         "id": 4,
         "text": "i, ii ও iii",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39831,11 +39961,6 @@
       {
         "id": 4,
         "text": "বর্গমূলের ব্যস্তানুপাতিক",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -39867,11 +39992,6 @@
       {
         "id": 4,
         "text": "প্রশমন রেখা",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -39903,11 +40023,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -39924,7 +40039,7 @@
       {
         "id": 1,
         "text": "গোলাপী লাল",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -39940,11 +40055,6 @@
         "id": 4,
         "text": "নীল",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39960,7 +40070,7 @@
       {
         "id": 1,
         "text": "ক্ষার ধ্রুবক দ্বারা",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -39976,11 +40086,6 @@
         "id": 4,
         "text": "প্রভাবক দ্বারা",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39996,7 +40101,7 @@
       {
         "id": 1,
         "text": "অপসারণ বিক্রিয়া",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40012,11 +40117,6 @@
         "id": 4,
         "text": "জারণ বিক্রিয়া",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40042,17 +40142,12 @@
       {
         "id": 3,
         "text": "ভিনেগারে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "লেবুতে",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40068,7 +40163,7 @@
       {
         "id": 1,
         "text": "ক্ষার",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40084,11 +40179,6 @@
         "id": 4,
         "text": "প্রোটন দাতাা",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40114,17 +40204,12 @@
       {
         "id": 3,
         "text": "Ni",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "V2O5",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40140,7 +40225,7 @@
       {
         "id": 1,
         "text": "সাম্যাবস্থার স্থায়িত্ব",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40156,11 +40241,6 @@
         "id": 4,
         "text": "নিয়ামকের প্রভাব নেই",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40186,17 +40266,12 @@
       {
         "id": 3,
         "text": "1798",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "1989",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40212,7 +40287,7 @@
       {
         "id": 1,
         "text": "অম্লীয়",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40228,11 +40303,6 @@
         "id": 4,
         "text": "সবগুলো",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40248,7 +40318,7 @@
       {
         "id": 1,
         "text": "দ্বিমুখী",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40264,11 +40334,6 @@
         "id": 4,
         "text": "পঞ্চমুখী",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40284,7 +40349,7 @@
       {
         "id": 1,
         "text": "1. 0",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40300,11 +40365,6 @@
         "id": 4,
         "text": "2. 5",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40330,17 +40390,12 @@
       {
         "id": 3,
         "text": "ii ও iii",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "iii",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40366,17 +40421,12 @@
       {
         "id": 3,
         "text": "অ্যালকোহল",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "হাইড্রোটিকুনোন",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40407,11 +40457,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -40438,17 +40483,12 @@
       {
         "id": 3,
         "text": "ইনভারটেজ",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "অ্যামাইলেজ",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40464,7 +40504,7 @@
       {
         "id": 1,
         "text": "7",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40480,11 +40520,6 @@
         "id": 4,
         "text": "-14",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40500,7 +40535,7 @@
       {
         "id": 1,
         "text": "i",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40516,11 +40551,6 @@
         "id": 4,
         "text": "ii",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40551,11 +40581,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -40587,17 +40612,7 @@
       {
         "id": 4,
         "text": "সবগুলোর উপর",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
-      },
-      {
-        "id": 6,
-        "text": "রসায়ন ১ম পত্র অধ্যায়-৪ বহুনির্বাচনি প্রশ্ন-উত্তর একাদশ-দ্বাদশ শ্রেণি - HSC Chemistry 1st Paper Chapter-4 MCQ with Answer",
-        "isCorrect": false
       }
     ],
     "explanation": "",
@@ -40613,7 +40628,7 @@
       {
         "id": 1,
         "text": "H2SO3",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40629,11 +40644,6 @@
         "id": 4,
         "text": "HCIO3",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40664,11 +40674,6 @@
       {
         "id": 4,
         "text": "বাফার",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -40685,7 +40690,7 @@
       {
         "id": 1,
         "text": "বাড়ে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40701,11 +40706,6 @@
         "id": 4,
         "text": "অনেক বেশি কমে",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40721,7 +40721,7 @@
       {
         "id": 1,
         "text": "সামান্য ক্ষারীয়",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40737,11 +40737,6 @@
         "id": 4,
         "text": "নিরপেক্ষ",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40757,7 +40752,7 @@
       {
         "id": 1,
         "text": "অম্লীয়",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40773,11 +40768,6 @@
         "id": 4,
         "text": "অপোলার",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40793,7 +40783,7 @@
       {
         "id": 1,
         "text": "HCIO3",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40809,11 +40799,6 @@
         "id": 4,
         "text": "HCIO",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40829,7 +40814,7 @@
       {
         "id": 1,
         "text": "ইনভারটেজ",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40845,11 +40830,6 @@
         "id": 4,
         "text": "ম্যাল্টেজ",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40865,7 +40845,7 @@
       {
         "id": 1,
         "text": "সচল সাম্যের নীতি",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40881,11 +40861,6 @@
         "id": 4,
         "text": "অরক্ষিত নীতি",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40901,7 +40876,7 @@
       {
         "id": 1,
         "text": "ধনাত্মক প্রভাবক",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40917,11 +40892,6 @@
         "id": 4,
         "text": "প্রভাবক সহায়ক",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40937,7 +40907,7 @@
       {
         "id": 1,
         "text": "395. 3",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -40953,11 +40923,6 @@
         "id": 4,
         "text": "359. 3",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -40988,11 +40953,6 @@
       {
         "id": 4,
         "text": "শূন্য",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -41009,7 +40969,7 @@
       {
         "id": 1,
         "text": "i ও ii",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41025,11 +40985,6 @@
         "id": 4,
         "text": "i, ii ও iii",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41045,7 +41000,7 @@
       {
         "id": 1,
         "text": "বিক্রিয়াকে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41061,11 +41016,6 @@
         "id": 4,
         "text": "প্রাথমিক বিক্রিয়াকে",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41081,7 +41031,7 @@
       {
         "id": 1,
         "text": "ফ্রিয়ন",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41097,11 +41047,6 @@
         "id": 4,
         "text": "হ্যালোজেন",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41117,7 +41062,7 @@
       {
         "id": 1,
         "text": "i ও ii",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41133,11 +41078,6 @@
         "id": 4,
         "text": "i, ii ও iii",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41153,7 +41093,7 @@
       {
         "id": 1,
         "text": "U-আকৃতির",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41169,11 +41109,6 @@
         "id": 4,
         "text": "গোলতলী ফ্লাস্ক আকৃতির",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41204,11 +41139,6 @@
       {
         "id": 4,
         "text": "বিকল্প বিক্রিয়া কৌশলের সংস্থান করে",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -41235,17 +41165,12 @@
       {
         "id": 3,
         "text": "বিক্রিয়ার সাম্যাবস্থার দিকে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "বেশি ঘনমাত্রার দিকে",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41276,11 +41201,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -41297,7 +41217,7 @@
       {
         "id": 1,
         "text": "প্রভাবক বিষ",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41313,11 +41233,6 @@
         "id": 4,
         "text": "জটিল প্রভাবক",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41343,17 +41258,12 @@
       {
         "id": 3,
         "text": "৫ ভাগে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "৬ ভাগে",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41369,7 +41279,7 @@
       {
         "id": 1,
         "text": "অ্যালকেন",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41385,11 +41295,6 @@
         "id": 4,
         "text": "স্টার",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41405,7 +41310,7 @@
       {
         "id": 1,
         "text": "পেছনের দিকে সরে যাবে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41421,11 +41326,6 @@
         "id": 4,
         "text": "বিনষ্ট হবে",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41451,17 +41351,12 @@
       {
         "id": 3,
         "text": "তাপহারী বিক্রিয়া",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "তাপ পরিবর্তনের বিক্রিয়া",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41477,7 +41372,7 @@
       {
         "id": 1,
         "text": "অ্যারোসল ব্যবহার",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41493,11 +41388,6 @@
         "id": 4,
         "text": "পরীক্ষাগারের কার্যক্রম",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41513,7 +41403,7 @@
       {
         "id": 1,
         "text": "১৭৪০",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41529,11 +41419,6 @@
         "id": 4,
         "text": "১৮৮০",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41549,7 +41434,7 @@
       {
         "id": 1,
         "text": "উৎপাদনের দিকে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41565,11 +41450,6 @@
         "id": 4,
         "text": "সাম্যাবস্থা ধ্বংস হয়ে যাবে",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41585,7 +41465,7 @@
       {
         "id": 1,
         "text": "বিক্রিয়কের ঘনমাত্রা বৃদ্ধি পায়",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41601,11 +41481,6 @@
         "id": 4,
         "text": "বিক্রিয়ার বেগ স্থির থাকে",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41621,7 +41496,7 @@
       {
         "id": 1,
         "text": "স্বল্প সময়ে সর্বোচ্চ পরিমাণ উৎপাদন",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41637,11 +41512,6 @@
         "id": 4,
         "text": "বেশি মুনাফা লাভ",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41667,17 +41537,12 @@
       {
         "id": 3,
         "text": "দ্রবণের ইনটেগ্রেল তাপ",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "প্রশমন তাপ",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41693,7 +41558,7 @@
       {
         "id": 1,
         "text": "i",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41709,11 +41574,6 @@
         "id": 4,
         "text": "iii",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41739,17 +41599,12 @@
       {
         "id": 3,
         "text": "0. 24",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "0. 34",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41765,7 +41620,7 @@
       {
         "id": 1,
         "text": "সোডিয়াম ইথানোয়েট",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41781,11 +41636,6 @@
         "id": 4,
         "text": "সোডিয়াম পেন্টানোয়েট",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41801,7 +41651,7 @@
       {
         "id": 1,
         "text": "ধনাত্মক",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41817,11 +41667,6 @@
         "id": 4,
         "text": "কম",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41837,7 +41682,7 @@
       {
         "id": 1,
         "text": "পরিবর্তিত হয়",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41853,11 +41698,6 @@
         "id": 4,
         "text": "দশ ভাগের এক ভাগ হয়",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41888,11 +41728,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -41909,7 +41744,7 @@
       {
         "id": 1,
         "text": "পেছনের দিকে অগ্রসর হয়",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41925,11 +41760,6 @@
         "id": 4,
         "text": "স্থির থাকে",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41945,7 +41775,7 @@
       {
         "id": 1,
         "text": "বিক্রিয়কের ঘনমাত্রার হ্রাস",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -41961,11 +41791,6 @@
         "id": 4,
         "text": "বিক্রিয়কের ঘনমাত্রার স্থির মান",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -41991,17 +41816,12 @@
       {
         "id": 3,
         "text": "বিয়োজন মাত্রা",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "ইলেকট্রন পরিবাহিতা",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42017,7 +41837,7 @@
       {
         "id": 1,
         "text": "তাপমাত্রা পরিবর্তিত হয়",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -42033,11 +41853,6 @@
         "id": 4,
         "text": "সবগুলোই সঠিক",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42053,7 +41868,7 @@
       {
         "id": 1,
         "text": "দুর্বল অম্ল",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -42069,11 +41884,6 @@
         "id": 4,
         "text": "ক্ষার",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42089,7 +41899,7 @@
       {
         "id": 1,
         "text": "i ও ii",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -42105,11 +41915,6 @@
         "id": 4,
         "text": "i",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42135,17 +41940,12 @@
       {
         "id": 3,
         "text": "সমানুপাতিক",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "বর্গমূলের সমানুপাতিক",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42161,7 +41961,7 @@
       {
         "id": 1,
         "text": "বিক্রিয়ার গতিবেগ",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -42177,11 +41977,6 @@
         "id": 4,
         "text": "তাপমাত্রা",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42197,7 +41992,7 @@
       {
         "id": 1,
         "text": "বিক্রিয়ার গতি/হার ধ্রুবক",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -42213,11 +42008,6 @@
         "id": 4,
         "text": "প্রমাণ ধ্রুবক",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42248,11 +42038,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -42269,7 +42054,7 @@
       {
         "id": 1,
         "text": "3. 0",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -42285,11 +42070,6 @@
         "id": 4,
         "text": "6. 0",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42305,7 +42085,7 @@
       {
         "id": 1,
         "text": "আয়তনের প্রসারণ ঘটেছে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -42321,11 +42101,6 @@
         "id": 4,
         "text": "বিক্রিয়কের আয়তন = উৎপাদের আয়তন",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42342,7 +42117,7 @@
       {
         "id": 1,
         "text": "উৎপাদ বাড়বে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -42358,11 +42133,6 @@
         "id": 4,
         "text": "বিক্রিয়া বন্ধ হয়ে যাবে",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42394,11 +42164,6 @@
       {
         "id": 4,
         "text": "বেনজিন",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -42415,7 +42180,7 @@
       {
         "id": 1,
         "text": "কোয়াগুলেশন",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -42431,11 +42196,6 @@
         "id": 4,
         "text": "অধিশেষণ",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42451,7 +42211,7 @@
       {
         "id": 1,
         "text": "i ও ii",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -42467,11 +42227,6 @@
         "id": 4,
         "text": "iii",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42497,17 +42252,12 @@
       {
         "id": 3,
         "text": "4",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "2",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42538,11 +42288,6 @@
       {
         "id": 4,
         "text": "রাসায়নকিভাবে পরিবর্তিত অণুজীব",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -42564,7 +42309,7 @@
       {
         "id": 2,
         "text": "গম",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -42575,11 +42320,6 @@
         "id": 4,
         "text": "সরিষা",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42600,7 +42340,7 @@
       {
         "id": 2,
         "text": "পৃষ্ঠতল সক্রিয়কারী পদার্থ",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -42611,11 +42351,6 @@
         "id": 4,
         "text": "ম্যালটেজ",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42641,17 +42376,12 @@
       {
         "id": 3,
         "text": "পাত্রের উপাদান",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "পাত্রের ধর্ম",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42682,11 +42412,6 @@
       {
         "id": 4,
         "text": "খাদ্য নিরাপত্তা",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -42703,7 +42428,7 @@
       {
         "id": 1,
         "text": "ইথানল",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -42719,11 +42444,6 @@
         "id": 4,
         "text": "মিথানল",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42744,7 +42464,7 @@
       {
         "id": 2,
         "text": "হালকা হলুদ",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -42755,11 +42475,6 @@
         "id": 4,
         "text": "হালকা লাল",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42785,17 +42500,12 @@
       {
         "id": 3,
         "text": "বায়বীয়",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "মিশ্র",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42821,17 +42531,12 @@
       {
         "id": 3,
         "text": "সোডিয়াম হাইড্রোক্সাইড",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "ফসফরাস",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42862,11 +42567,6 @@
       {
         "id": 4,
         "text": "সাইট্রিক এসিড",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -42893,17 +42593,12 @@
       {
         "id": 3,
         "text": "লবণ",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "বরফ",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42924,7 +42619,7 @@
       {
         "id": 2,
         "text": "৩টি",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -42935,11 +42630,6 @@
         "id": 4,
         "text": "৫টি",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -42970,11 +42660,6 @@
       {
         "id": 4,
         "text": "এক ধরনের বায়ো অণু",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -42996,7 +42681,7 @@
       {
         "id": 2,
         "text": "গুল্ম",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -43007,11 +42692,6 @@
         "id": 4,
         "text": "শৈবাল",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -43042,11 +42722,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -43078,11 +42753,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -43099,7 +42769,7 @@
       {
         "id": 1,
         "text": "রাবিং অ্যালকোহল",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -43115,11 +42785,6 @@
         "id": 4,
         "text": "সোডিয়াম এসিটেট",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -43150,11 +42815,6 @@
       {
         "id": 4,
         "text": "সোডিয়াম লরেল সালফেট",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -43171,7 +42831,7 @@
       {
         "id": 1,
         "text": "প্রিজারভেটিভস্",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -43187,11 +42847,6 @@
         "id": 4,
         "text": "সংরক্ষক",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -43222,11 +42877,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -43243,7 +42893,7 @@
       {
         "id": 1,
         "text": "রাইপেনিং",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -43259,11 +42909,6 @@
         "id": 4,
         "text": "চার্নিং",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -43294,11 +42939,6 @@
       {
         "id": 4,
         "text": "রাসায়নিক বিশ্লেষণে প্রাপ্ত অণুজীব",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -43330,11 +42970,6 @@
       {
         "id": 4,
         "text": "ল্যাকটিক এসিড",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -43361,17 +42996,12 @@
       {
         "id": 3,
         "text": "পেকটিন",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "খনিজ",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -43402,11 +43032,6 @@
       {
         "id": 4,
         "text": "সোডিয়াম বেনজোয়েট",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -43433,17 +43058,12 @@
       {
         "id": 3,
         "text": "Iμm",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "Ipm",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -43474,11 +43094,6 @@
       {
         "id": 4,
         "text": "এজমা",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -43500,7 +43115,7 @@
       {
         "id": 2,
         "text": "মৌরী",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -43511,11 +43126,6 @@
         "id": 4,
         "text": "জিরা",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -43541,17 +43151,12 @@
       {
         "id": 3,
         "text": "ফিল্ট্রেশন",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "রিফ্লাস্ক",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -43582,11 +43187,6 @@
       {
         "id": 4,
         "text": "সর্বোচ্চ pH",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -43618,11 +43218,6 @@
       {
         "id": 4,
         "text": "ফুটন্ত পানিতে",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -43649,17 +43244,12 @@
       {
         "id": 3,
         "text": "পানি",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "প্রোপাইল প্যারাবিন",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -43685,17 +43275,12 @@
       {
         "id": 3,
         "text": "ভিনেগার",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "তেঁতুল",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -43721,17 +43306,12 @@
       {
         "id": 3,
         "text": "মাংস",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "পনির",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -43747,7 +43327,7 @@
       {
         "id": 1,
         "text": "মিথানল",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -43763,11 +43343,6 @@
         "id": 4,
         "text": "বিউটানল",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -43798,11 +43373,6 @@
       {
         "id": 4,
         "text": "গ্রেইন স্ট্রেংন্থ",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -43829,17 +43399,12 @@
       {
         "id": 3,
         "text": "লঘু সালফিউরিক এসিড",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "গাঢ় সালফিউরিক এসিড",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -43860,7 +43425,7 @@
       {
         "id": 2,
         "text": "পনির",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -43871,11 +43436,6 @@
         "id": 4,
         "text": "হালুয়া",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -43901,17 +43461,12 @@
       {
         "id": 3,
         "text": "ব্যাকটেরিয়া মোল্ড ও ইস্টের বৃদ্ধি প্রতিহত করে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "খাদ্যের মিষ্টতা বৃদ্ধি ক",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -43942,11 +43497,6 @@
       {
         "id": 4,
         "text": "বেকিং সোডা",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -43973,17 +43523,12 @@
       {
         "id": 3,
         "text": "জীবাণুনাশক",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "দ্রাবক",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44014,11 +43559,6 @@
       {
         "id": 4,
         "text": "60 মিনিট",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -44040,7 +43580,7 @@
       {
         "id": 2,
         "text": "হলুদের গুঁড়া",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -44051,11 +43591,6 @@
         "id": 4,
         "text": "কালোজিরা গুঁড়া",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44071,7 +43606,7 @@
       {
         "id": 1,
         "text": "রিটটিং",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -44087,11 +43622,6 @@
         "id": 4,
         "text": "প্রিজারভেশন",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44122,11 +43652,6 @@
       {
         "id": 4,
         "text": "চিনি",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -44158,11 +43683,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -44179,7 +43699,7 @@
       {
         "id": 1,
         "text": "গরু",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -44195,11 +43715,6 @@
         "id": 4,
         "text": "উট",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44230,11 +43745,6 @@
       {
         "id": 4,
         "text": "কাইটোসান",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -44256,7 +43766,7 @@
       {
         "id": 2,
         "text": "সারফাকট্যান্ট",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -44267,11 +43777,6 @@
         "id": 4,
         "text": "পরিস্কারক",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44292,7 +43797,7 @@
       {
         "id": 2,
         "text": "ফয়েল কাগজ দ্বারা মুরিয়ে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -44303,11 +43808,6 @@
         "id": 4,
         "text": "প্লাস্টিকের বোতলে রেখে",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44328,7 +43828,7 @@
       {
         "id": 2,
         "text": "এসিডে থাকা পোলার কার্বক্সিলেট গ্রুপ",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -44339,11 +43839,6 @@
         "id": 4,
         "text": "ক্ষুদ্র অণু",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44374,11 +43869,6 @@
       {
         "id": 4,
         "text": "আচারে",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -44405,17 +43895,12 @@
       {
         "id": 3,
         "text": "জিঙ্ক স্টিয়ারেট",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "ম্যাগনেসিয়াম অক্সাইড",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44441,17 +43926,12 @@
       {
         "id": 3,
         "text": "সবজি",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "বাঁশকোরল",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44467,7 +43947,7 @@
       {
         "id": 1,
         "text": "এলার্জি",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -44483,11 +43963,6 @@
         "id": 4,
         "text": "মাথা ব্যথা",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44518,11 +43993,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -44549,17 +44019,12 @@
       {
         "id": 3,
         "text": "ইথানল",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "ফর্মালিন",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44580,7 +44045,7 @@
       {
         "id": 2,
         "text": "হ্যালোট্যাব",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -44591,11 +44056,6 @@
         "id": 4,
         "text": "ফিল্টারিং",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44621,17 +44081,12 @@
       {
         "id": 3,
         "text": "সাবান",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "সোডিয়াম লরাইল সালফেট",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44662,11 +44117,6 @@
       {
         "id": 4,
         "text": "রঞ্জক",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -44688,7 +44138,7 @@
       {
         "id": 2,
         "text": "সঠিক পরিবেশ",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -44699,11 +44149,6 @@
         "id": 4,
         "text": "কীটনাশক",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44729,17 +44174,12 @@
       {
         "id": 3,
         "text": "ii ও iii",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "i, ii ও iii",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44755,7 +44195,7 @@
       {
         "id": 1,
         "text": "EDTA",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -44771,11 +44211,6 @@
         "id": 4,
         "text": "অ্যাসকরবিক এসিড",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44791,7 +44226,7 @@
       {
         "id": 1,
         "text": "2",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -44807,11 +44242,6 @@
         "id": 4,
         "text": "5",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44827,7 +44257,7 @@
       {
         "id": 1,
         "text": "i ও ii",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -44843,11 +44273,6 @@
         "id": 4,
         "text": "i, ii ও iii",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44863,7 +44288,7 @@
       {
         "id": 1,
         "text": "ক্যাস্টর তেল",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -44878,16 +44303,6 @@
       {
         "id": 4,
         "text": "সিরাসিন",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
-      },
-      {
-        "id": 6,
-        "text": "রসায়ন ১ম পত্র অধ্যায়-৫ বহুনির্বাচনি প্রশ্ন-উত্তর একাদশ-দ্বাদশ শ্রেণি - HSC Chemistry 1st Paper Chapter-5 MCQ with Answer",
         "isCorrect": false
       }
     ],
@@ -44904,7 +44319,7 @@
       {
         "id": 1,
         "text": "ব্লাঞ্চিং",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -44920,11 +44335,6 @@
         "id": 4,
         "text": "রিটটিং",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44950,17 +44360,12 @@
       {
         "id": 3,
         "text": "লয়সোন",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "লেনোলিন",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -44976,7 +44381,7 @@
       {
         "id": 1,
         "text": "সালফাইট",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -44992,11 +44397,6 @@
         "id": 4,
         "text": "অ্যাসিটিক এসিড",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45012,7 +44412,7 @@
       {
         "id": 1,
         "text": "ট্যালক",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -45028,11 +44428,6 @@
         "id": 4,
         "text": "অশোধিত পাউডার",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45063,11 +44458,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -45089,7 +44479,7 @@
       {
         "id": 2,
         "text": "ইথান্যাল",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -45100,11 +44490,6 @@
         "id": 4,
         "text": "ইথার",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45135,11 +44520,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -45161,7 +44541,7 @@
       {
         "id": 2,
         "text": "মেয়াদ উত্তীর্ণের তারিখ",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -45172,11 +44552,6 @@
         "id": 4,
         "text": "প্রিজারভেটিভস্ এর মানগত তথ্য",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45202,17 +44577,12 @@
       {
         "id": 3,
         "text": "সিটাইল অ্যালকোহল",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "প্রোপাইল প্যারাবিন",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45238,17 +44608,12 @@
       {
         "id": 3,
         "text": "প্রসাধনী",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "সৌন্দর্য বৃদ্ধিকারক",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45279,11 +44644,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -45305,7 +44665,7 @@
       {
         "id": 2,
         "text": "স্টার্চ",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -45316,11 +44676,6 @@
         "id": 4,
         "text": "চালতা",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45336,7 +44691,7 @@
       {
         "id": 1,
         "text": "সালফাইট",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -45352,11 +44707,6 @@
         "id": 4,
         "text": "সাইট্রিক এসিড",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45382,17 +44732,12 @@
       {
         "id": 3,
         "text": "ii ও iii",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "i, ii ও iii",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45423,11 +44768,6 @@
       {
         "id": 4,
         "text": "বাঁশকোরল",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -45449,7 +44789,7 @@
       {
         "id": 2,
         "text": "স্কোউরিং ক্লিনার",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -45460,11 +44800,6 @@
         "id": 4,
         "text": "হাইড্রোট্রোপস",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45495,11 +44830,6 @@
       {
         "id": 4,
         "text": "সোডিয়াম লরেল সালফেট",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -45521,7 +44851,7 @@
       {
         "id": 2,
         "text": "এসিটিক অ্যাসিড",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -45532,11 +44862,6 @@
         "id": 4,
         "text": "অ্যাসকরবিক এসিড",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45552,7 +44877,7 @@
       {
         "id": 1,
         "text": "গ্রীষ্ম",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -45568,11 +44893,6 @@
         "id": 4,
         "text": "হেমন্ত",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45603,11 +44923,6 @@
       {
         "id": 4,
         "text": "ল্যাক্টোজ",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -45639,11 +44954,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -45660,7 +44970,7 @@
       {
         "id": 1,
         "text": "ঈজিপ্টে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -45676,11 +44986,6 @@
         "id": 4,
         "text": "পেরুতে",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45701,7 +45006,7 @@
       {
         "id": 2,
         "text": "i ও iii",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -45712,11 +45017,6 @@
         "id": 4,
         "text": "iii",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45732,7 +45032,7 @@
       {
         "id": 1,
         "text": "বাঁশ কোরলে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -45748,11 +45048,6 @@
         "id": 4,
         "text": "কাঁঠাল",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45783,11 +45078,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -45814,17 +45104,12 @@
       {
         "id": 3,
         "text": "এন্টিঅক্সিজেন্ট",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "এস্টিনজেন্ট",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45845,7 +45130,7 @@
       {
         "id": 2,
         "text": "3",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -45856,11 +45141,6 @@
         "id": 4,
         "text": "5",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45886,17 +45166,12 @@
       {
         "id": 3,
         "text": "ল্যাকটিক এসিড",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "এসিটিক এসিড",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -45913,7 +45188,7 @@
       {
         "id": 1,
         "text": "i ও ii",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -45929,11 +45204,6 @@
         "id": 4,
         "text": "iii",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
