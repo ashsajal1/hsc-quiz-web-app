@@ -20,7 +20,7 @@ const EXAM_DURATION = 10 * 60; // 10 minutes in seconds
 
 export default function ExamPage() {
   const { topics, getChaptersBySubject } = useQuizStore();
- 
+
   const [subject, setSubject] = useState<string>("");
   const [chapter, setChapter] = useState<string>("");
   const [examStarted, setExamStarted] = useState(false);
@@ -101,7 +101,9 @@ export default function ExamPage() {
             </SelectTrigger>
             <SelectContent>
               {chaptersForSelectedSubject.map((chapter) => (
-                <SelectItem value={chapter}>{chapter}</SelectItem>
+                <SelectItem value={chapter} key={chapter}>
+                  {chapter}
+                </SelectItem>
               ))}
             </SelectContent>
           </Select>
@@ -146,6 +148,47 @@ export default function ExamPage() {
         <div className="space-y-4">
           <h1 className="text-2xl font-bold">Exam Finished!</h1>
           <p>Your Score: {score} / 25</p>
+          
+          {/* Display questions with answers after exam is finished */}
+          <div className="space-y-4">
+            <h2 className="text-xl font-bold">Review Your Answers</h2>
+            {examQuestions.map((q, index) => {
+              const selectedOptionId = selectedAnswers[q.id];
+              const correctOption = q.options.find((o: Option) => o.isCorrect);
+              const isCorrect = correctOption?.id === selectedOptionId;
+
+              return (
+                <Card key={q.id} className="p-4 space-y-2">
+                  <p className="font-medium">
+                    {index + 1}. {q.question}
+                  </p>
+                  {q.options.map((option: Option) => (
+                    <div
+                      key={option.id}
+                      className={`flex items-center space-x-2 ${selectedOptionId === option.id ? (isCorrect ? 'bg-green-200' : 'bg-red-200') : ''}`}
+                    >
+                      <input
+                        type="radio"
+                        name={`question-${q.id}`}
+                        value={option.id}
+                        disabled
+                        checked={selectedAnswers[q.id] === option.id}
+                      />
+                      <span>{option.text}</span>
+                      {selectedOptionId === option.id && (
+                        <span
+                          className={`ml-2 text-sm font-semibold ${isCorrect ? 'text-green-600' : 'text-red-600'}`}
+                        >
+                          {isCorrect ? "Correct" : "Incorrect"}
+                        </span>
+                      )}
+                    </div>
+                  ))}
+                </Card>
+              );
+            })}
+          </div>
+
           <Button onClick={() => location.reload()}>Restart</Button>
         </div>
       )}
