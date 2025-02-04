@@ -1,5 +1,4 @@
 import { useState, useMemo } from "react";
-import questionsJson from "../data/questions.json";
 import {
   Card,
   CardContent,
@@ -15,13 +14,13 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Option, Question } from "@/lib/type";
+import { Option } from "@/lib/type";
 import React from "react";
-
-// Parse questions (if needed, here we assume they are valid JSON already)
-const questions: Question[] = JSON.parse(JSON.stringify(questionsJson));
+import { useQuizStore } from "@/store/useQuizStore";
 
 export default function QuizPage() {
+  // Parse questions (if needed, here we assume they are valid JSON already)
+  const { questions } = useQuizStore();
   // Extract available topics and chapters from the subjects in your questions.
   // We assume subject is in the format "topic-chapter" (e.g., "physics-1st")
   const topics = useMemo(() => {
@@ -31,7 +30,7 @@ export default function QuizPage() {
       set.add(topic);
     });
     return Array.from(set);
-  }, []);
+  }, [questions]);
 
   const chapters = useMemo(() => {
     const set = new Set<string>();
@@ -41,7 +40,7 @@ export default function QuizPage() {
     });
 
     return Array.from(set);
-  }, []);
+  }, [questions]);
 
   const [selectedTopic, setSelectedTopic] = useState<string>(topics[0] || "");
   const [selectedChapter, setSelectedChapter] = useState<string>(
@@ -59,7 +58,7 @@ export default function QuizPage() {
       const chapter = q.chapter;
       return topic === selectedTopic && chapter === selectedChapter;
     });
-  }, [selectedTopic, selectedChapter]);
+  }, [questions, selectedTopic, selectedChapter]);
 
   const currentQuestion = filteredQuestions[currentQuestionIndex];
 
