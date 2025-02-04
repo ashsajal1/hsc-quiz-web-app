@@ -30,7 +30,7 @@ export default function ExamPage() {
   const [timeLeft, setTimeLeft] = useState(EXAM_DURATION);
   const [examFinished, setExamFinished] = useState(false);
   const [score, setScore] = useState<number | null>(null);
-  
+
   const location = useLocation();
 
   // Extract subject and chapter from query parameters
@@ -41,7 +41,8 @@ export default function ExamPage() {
 
     if (subjectParam) setSubject(subjectParam);
     if (chapterParam) setChapter(chapterParam);
-  }, [location.search]);
+    // setExamStarted(true)
+  }, [location]);
 
   const chaptersForSelectedSubject = getChaptersBySubject(subject);
 
@@ -93,7 +94,7 @@ export default function ExamPage() {
         <div className="space-y-4">
           <h1 className="text-2xl font-bold">Start Your Exam</h1>
 
-          <Select onValueChange={setSubject}>
+          <Select value={subject} onValueChange={setSubject}>
             <SelectTrigger className="w-full">
               <SelectValue placeholder="Select Subject" />
             </SelectTrigger>
@@ -106,7 +107,7 @@ export default function ExamPage() {
             </SelectContent>
           </Select>
 
-          <Select onValueChange={setChapter}>
+          <Select value={chapter} onValueChange={setChapter}>
             <SelectTrigger className="w-full">
               <SelectValue placeholder="Select Chapter" />
             </SelectTrigger>
