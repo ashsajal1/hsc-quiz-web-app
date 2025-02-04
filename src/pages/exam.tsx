@@ -14,10 +14,12 @@ import {
 import { Progress } from "@/components/ui/progress";
 import { shuffleArray } from "@/lib/utils"; // Utility to shuffle array
 import { Option, Questions } from "@/lib/type";
+import { useQuizStore } from "@/store/useQuizStore";
 
 const EXAM_DURATION = 10 * 60; // 10 minutes in seconds
 
 export default function ExamPage() {
+  const { topics, chapters } = useQuizStore();
   const [subject, setSubject] = useState<string>("");
   const [chapter, setChapter] = useState<string>("");
   const [examStarted, setExamStarted] = useState(false);
@@ -82,8 +84,11 @@ export default function ExamPage() {
               <SelectValue placeholder="Select Subject" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="physics-1st">Physics 1st</SelectItem>
-              <SelectItem value="math">Math</SelectItem>
+              {topics.map((topic) => (
+                <SelectItem key={topic} value={topic}>
+                  {topic}
+                </SelectItem>
+              ))}
             </SelectContent>
           </Select>
 
@@ -92,8 +97,9 @@ export default function ExamPage() {
               <SelectValue placeholder="Select Chapter" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="1">Chapter 1</SelectItem>
-              <SelectItem value="2">Chapter 2</SelectItem>
+              {chapters.map((chapter) => (
+                <SelectItem value={chapter}>{chapter}</SelectItem>
+              ))}
             </SelectContent>
           </Select>
 
