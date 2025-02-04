@@ -127,8 +127,9 @@ export default function ExamPage() {
               {q.options.map((option: Option) => (
                 <Button
                   key={option.id}
+                  variant={'outline'}
                   onClick={() => handleAnswerSelect(q.id, option.id)}
-                  className={`w-full text-left ${selectedAnswers[q.id] === option.id ? 'bg-blue-500 text-white' : 'bg-gray-100'}`}
+                  className={`w-full text-left ${selectedAnswers[q.id] === option.id ? 'bg-blue-500 text-white' : ''}`}
                 >
                   {option.text}
                 </Button>
