@@ -136,13 +136,10 @@ export default function QuizPage() {
                 </Button>
               ))}
             </div>
-            {showAnswer && (
+            {(showAnswer && currentQuestion.explanation) && (
               <div className="mt-4 text-sm text-gray-600">
                 <p>
                   <strong>Explanation:</strong> {currentQuestion.explanation}
-                </p>
-                <p>
-                  <strong>Hint:</strong> {currentQuestion.hint}
                 </p>
               </div>
             )}
