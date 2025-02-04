@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import {
   Select,
+  SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
@@ -13,7 +14,6 @@ import {
 import { Progress } from "@/components/ui/progress";
 import { shuffleArray } from "@/lib/utils"; // Utility to shuffle array
 import { Option, Questions } from "@/lib/type";
-import { SelectContent } from "@radix-ui/react-select";
 
 const EXAM_DURATION = 10 * 60; // 10 minutes in seconds
 
