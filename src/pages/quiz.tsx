@@ -146,7 +146,13 @@ export default function QuizPage() {
         >
           <CardHeader>
             <CardTitle>
-              Question {currentQuestionIndex + 1} of {filteredQuestions.length}
+              <div className="flex justify-between items-center">
+                <span>
+                  Question {currentQuestionIndex + 1} of{" "}
+                  {filteredQuestions.length}
+                </span>
+                <span>Score : {score}</span>
+              </div>
             </CardTitle>
           </CardHeader>
           <CardContent>
