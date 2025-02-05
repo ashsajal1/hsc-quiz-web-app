@@ -157,11 +157,7 @@ export default function ExamPage() {
                     selectedAnswers[q.id] === option.id ? "default" : "outline"
                   }
                   onClick={() => handleAnswerSelect(q.id, option.id)}
-                  className={`w-full text-left ${
-                    selectedAnswers[q.id] === option.id
-                      ? "bg-blue-500 text-white"
-                      : ""
-                  }`}
+                  className={`w-full text-left`}
                 >
                   {option.text}
                 </Button>
