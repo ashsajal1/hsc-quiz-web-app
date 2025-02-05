@@ -47,6 +47,9 @@ export default function QuizPage() {
   const [score, setScore] = useState<number>(0);
   const [showAnswer, setShowAnswer] = useState<boolean>(false);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
+  const [selectedRange, setSelectedRange] = useState<
+    "start" | "end" | "middle-to-start" | "middle-to-end"
+  >("start");
 
   // Filter questions based on selected topic and chapter
   const filteredQuestions = useMemo(() => {
@@ -84,6 +87,30 @@ export default function QuizPage() {
       setScore(0);
     }
   };
+
+  const handleRange = (
+    range: "start" | "end" | "middle-to-start" | "middle-to-end"
+  ) => {
+    switch (range) {
+      case "start":
+        setSelectedRange("start");
+        break;
+      case "end":
+        setSelectedRange("end");
+        break;
+      case "middle-to-start":
+        setSelectedRange("middle-to-start");
+        break;
+      case "middle-to-end":
+        setSelectedRange("middle-to-end");
+        break;
+      default:
+        setSelectedRange("start");
+        break;
+    }
+  };
+
+  const selectedRanges = ["start", "middle-to-start", "middle-to-end", "end"] as const;
 
   return (
     <div className="container flex flex-col md:flex-row items-center justify-center mx-auto p-8 space-y-6 gap-2">
@@ -134,16 +161,24 @@ export default function QuizPage() {
         <div>
           <span>Select range</span>
           <div className="flex items-center justify-between w-full gap-2">
-            <Button variant={'secondary'} className="w-full">
+            {selectedRanges.map((range) => (
+              <Button variant={selectedRange === range ? "default" : "secondary"}
+              className="w-full" key={range} onClick={() => handleRange(range)}>{range}</Button>
+            ))}
+            <Button
+              onClickCapture={() => handleRange("start")}
+              variant={"secondary"}
+              className="w-full"
+            >
               <ArrowRight />
             </Button>
-            <Button variant={'secondary'} className="w-full">
+            <Button variant={"secondary"} className="w-full">
               <ArrowLeftFromLine />
             </Button>
-            <Button variant={'secondary'} className="w-full">
+            <Button variant={"secondary"} className="w-full">
               <ArrowRightFromLine />
             </Button>
-            <Button variant={'secondary'} className="w-full">
+            <Button variant={"secondary"} className="w-full">
               <ArrowLeft />
             </Button>
           </div>
