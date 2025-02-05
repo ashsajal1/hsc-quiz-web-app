@@ -246,24 +246,6 @@ export default function QuizPage() {
 
             <div className="space-y-2">
               {currentQuestion.options.map((option) => (
-                // <Button
-                //   key={option.id}
-                //   variant="outline"
-                //   className={`w-full text-left ${
-                //     showAnswer &&
-                //     option.isCorrect &&
-                //     "bg-green-500 border-green-500"
-                //   } ${
-                //     showAnswer &&
-                //     !option.isCorrect &&
-                //     "bg-red-500 border-red-500"
-                //   }`}
-                //   onClick={() => handleOptionClick(option)}
-                //   // disabled={showAnswer}
-                // >
-                //   {option.text}
-                // </Button>
-
                 <Button
                   disabled={
                     selectedOptionId !== option.id &&
@@ -273,9 +255,11 @@ export default function QuizPage() {
                   key={option.id}
                   onClick={() => handleOptionClick(option)}
                   variant={
-                    selectedOptionId !== option.id && !showAnswer
+                    !showAnswer
                       ? "outline"
-                      : "link"
+                      : option.id === selectedOptionId || option.isCorrect
+                      ? "link"
+                      : "outline"
                   }
                   className={`w-full text-black dark:text-white text-left ${
                     selectedOptionId === option.id && showAnswer
