@@ -45,6 +45,7 @@ export default function QuizPage() {
     "start" | "end" | "middle-to-start" | "middle-to-end"
   >("start");
   const [selectedQuestions, setSelectedQuestions] = useState<Questions>([]);
+  const [selectedOptionId, setSelectedOptionId] = useState<number | null>(null);
 
   // Filter questions based on selected topic and chapter
   const filteredQuestions = useMemo(() => {
@@ -93,6 +94,7 @@ export default function QuizPage() {
 
   // Handler for option click
   const handleOptionClick = (option: Option) => {
+    setSelectedOptionId(option.id);
     if (showAnswer) return; // prevent multiple answers
     if (option.isCorrect) {
       setIsCorrect(true);
@@ -105,6 +107,7 @@ export default function QuizPage() {
 
   // Handler for moving to the next question
   const handleNextQuestion = () => {
+    setSelectedOptionId(null);
     setIsCorrect(null);
     setShowAnswer(false);
     if (currentQuestionIndex < filteredQuestions.length - 1) {
@@ -227,20 +230,44 @@ export default function QuizPage() {
 
             <div className="space-y-2">
               {currentQuestion.options.map((option) => (
+                // <Button
+                //   key={option.id}
+                //   variant="outline"
+                //   className={`w-full text-left ${
+                //     showAnswer &&
+                //     option.isCorrect &&
+                //     "bg-green-500 border-green-500"
+                //   } ${
+                //     showAnswer &&
+                //     !option.isCorrect &&
+                //     "bg-red-500 border-red-500"
+                //   }`}
+                //   onClick={() => handleOptionClick(option)}
+                //   // disabled={showAnswer}
+                // >
+                //   {option.text}
+                // </Button>
+
                 <Button
-                  key={option.id}
-                  variant="outline"
-                  className={`w-full text-left ${
-                    showAnswer &&
-                    option.isCorrect &&
-                    "bg-green-500 border-green-500"
-                  } ${
-                    showAnswer &&
+                  disabled={
+                    selectedOptionId !== option.id &&
                     !option.isCorrect &&
-                    "bg-red-500 border-red-500"
-                  }`}
+                    showAnswer
+                  }
+                  key={option.id}
                   onClick={() => handleOptionClick(option)}
-                  disabled={showAnswer}
+                  variant={
+                    selectedOptionId !== option.id && !showAnswer
+                      ? "outline"
+                      : "link"
+                  }
+                  className={`w-full text-black dark:text-white text-left ${
+                    selectedOptionId === option.id && showAnswer
+                      ? isCorrect
+                        ? "bg-green-500 text-white"
+                        : "bg-red-500 text-white"
+                      : ""
+                  } ${option.isCorrect && showAnswer ? "bg-green-500" : ""}`}
                 >
                   {option.text}
                 </Button>
