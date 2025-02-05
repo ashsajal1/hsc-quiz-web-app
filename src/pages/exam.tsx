@@ -10,7 +10,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Progress } from "@/components/ui/progress";
-import { shuffleArray } from "@/lib/utils"; // Utility to shuffle array
+import { cn, shuffleArray } from "@/lib/utils"; // Utility to shuffle array
 import { Option, Questions } from "@/lib/type";
 import { useQuizStore } from "@/store/useQuizStore";
 import { useLocation } from "react-router-dom";
@@ -202,16 +202,24 @@ export default function ExamPage() {
                   </p>
                   {q.options.map((option: Option) => (
                     <Button
-                      // disabled
+                      disabled={
+                        selectedOptionId !== option.id && !option.isCorrect
+                      }
                       key={option.id}
-                      variant={"secondary"}
-                      className={`w-full text-left ${
-                        selectedOptionId === option.id
-                          ? isCorrect
-                            ? "bg-green-500 text-white"
-                            : "bg-red-500 text-white"
-                          : ""
-                      } ${option.isCorrect ? "bg-green-500" : ""}`}
+                      variant={
+                        selectedOptionId !== option.id && !option.isCorrect
+                          ? "secondary"
+                          : "link"
+                      }
+                      className={cn(
+                        `w-full text-black dark:text-white text-left ${
+                          selectedOptionId === option.id
+                            ? isCorrect
+                              ? "bg-green-500 text-white"
+                              : "bg-red-500 text-white"
+                            : ""
+                        } ${option.isCorrect ? "bg-green-500" : ""}`
+                      )}
                     >
                       {option.text}
                     </Button>
