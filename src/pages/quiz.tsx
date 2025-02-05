@@ -17,6 +17,12 @@ import {
 import { Option, Questions } from "@/lib/type";
 import React from "react";
 import { useQuizStore } from "@/store/useQuizStore";
+import {
+  ArrowLeft,
+  ArrowLeftFromLine,
+  ArrowRight,
+  ArrowRightFromLine,
+} from "lucide-react";
 
 export default function QuizPage() {
   // Parse questions (if needed, here we assume they are valid JSON already)
@@ -183,7 +189,17 @@ export default function QuizPage() {
                 key={range}
                 onClick={() => setSelectedRange(range)}
               >
-                {range}
+                {range === "start" ? (
+                  <ArrowRight />
+                ) : range === "end" ? (
+                  <ArrowLeft />
+                ) : range === "middle-to-start" ? (
+                  <ArrowLeftFromLine />
+                ) : range === "middle-to-end" ? (
+                  <ArrowRightFromLine />
+                ) : (
+                  range
+                )}
               </Button>
             ))}
           </div>
