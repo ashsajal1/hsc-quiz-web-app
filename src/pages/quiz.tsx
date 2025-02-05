@@ -17,6 +17,12 @@ import {
 import { Option } from "@/lib/type";
 import React from "react";
 import { useQuizStore } from "@/store/useQuizStore";
+import {
+  ArrowLeft,
+  ArrowLeftFromLine,
+  ArrowRight,
+  ArrowRightFromLine,
+} from "lucide-react";
 
 export default function QuizPage() {
   // Parse questions (if needed, here we assume they are valid JSON already)
@@ -80,7 +86,7 @@ export default function QuizPage() {
   };
 
   return (
-    <div className="container flex flex-col md:flex-row items-center justify-center mx-auto p-8 space-y-6">
+    <div className="container flex flex-col md:flex-row items-center justify-center mx-auto p-8 space-y-6 gap-2">
       <div className="flex flex-col gap-2 w-full">
         <h1 className="text-3xl font-bold">Quiz Page</h1>
 
@@ -123,6 +129,24 @@ export default function QuizPage() {
               ))}
             </SelectContent>
           </Select>
+        </div>
+
+        <div>
+          <span>Select range</span>
+          <div className="flex items-center justify-between w-full gap-2">
+            <Button variant={'secondary'} className="w-full">
+              <ArrowRight />
+            </Button>
+            <Button variant={'secondary'} className="w-full">
+              <ArrowLeftFromLine />
+            </Button>
+            <Button variant={'secondary'} className="w-full">
+              <ArrowRightFromLine />
+            </Button>
+            <Button variant={'secondary'} className="w-full">
+              <ArrowLeft />
+            </Button>
+          </div>
         </div>
       </div>
 
