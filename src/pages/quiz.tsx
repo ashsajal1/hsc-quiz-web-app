@@ -109,28 +109,6 @@ export default function QuizPage() {
     }
   };
 
-  const handleRange = (
-    range: "start" | "end" | "middle-to-start" | "middle-to-end"
-  ) => {
-    switch (range) {
-      case "start":
-        setSelectedRange("start");
-        break;
-      case "end":
-        setSelectedRange("end");
-        break;
-      case "middle-to-start":
-        setSelectedRange("middle-to-start");
-        break;
-      case "middle-to-end":
-        setSelectedRange("middle-to-end");
-        break;
-      default:
-        setSelectedRange("start");
-        break;
-    }
-  };
-
   const selectedRanges = [
     "start",
     "middle-to-start",
@@ -192,7 +170,7 @@ export default function QuizPage() {
                 variant={selectedRange === range ? "default" : "secondary"}
                 className="w-full"
                 key={range}
-                onClick={() => handleRange(range)}
+                onClick={() => setSelectedRange(range)}
               >
                 {range}
               </Button>
