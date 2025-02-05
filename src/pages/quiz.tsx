@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import {
   Card,
   CardContent,
@@ -14,7 +14,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Option } from "@/lib/type";
+import { Option, Questions } from "@/lib/type";
 import React from "react";
 import { useQuizStore } from "@/store/useQuizStore";
 import {
@@ -50,6 +50,7 @@ export default function QuizPage() {
   const [selectedRange, setSelectedRange] = useState<
     "start" | "end" | "middle-to-start" | "middle-to-end"
   >("start");
+  const [selectedQuestions, setSelectedQuestions] = useState<Questions>([]);
 
   // Filter questions based on selected topic and chapter
   const filteredQuestions = useMemo(() => {
@@ -60,7 +61,33 @@ export default function QuizPage() {
     });
   }, [questions, selectedTopic, selectedChapter]);
 
-  const currentQuestion = filteredQuestions[currentQuestionIndex];
+  useEffect(() => {
+    switch (selectedRange) {
+      case "start":
+        setSelectedQuestions(filteredQuestions);
+        break;
+      case "end":
+        setSelectedQuestions(filteredQuestions.sort((q1, q2) => q2.id - q1.id));
+        break;
+      case "middle-to-start":
+        // eslint-disable-next-line no-case-declarations
+        const middleIndex = Math.floor(filteredQuestions.length / 2);
+        setCurrentQuestionIndex(middleIndex);
+        break;
+      case "middle-to-end":
+        // eslint-disable-next-line no-case-declarations
+        const descQuestions = filteredQuestions.sort((q1, q2) => q2.id - q1.id);
+        // eslint-disable-next-line no-case-declarations
+        const middleIndex2 = Math.floor(descQuestions.length / 2);
+        setCurrentQuestionIndex(middleIndex2);
+        break;
+      default:
+        setSelectedQuestions(filteredQuestions);
+        break;
+    }
+  }, [filteredQuestions, selectedRange]);
+
+  const currentQuestion = selectedQuestions[currentQuestionIndex];
 
   // Handler for option click
   const handleOptionClick = (option: Option) => {
@@ -110,7 +137,12 @@ export default function QuizPage() {
     }
   };
 
-  const selectedRanges = ["start", "middle-to-start", "middle-to-end", "end"] as const;
+  const selectedRanges = [
+    "start",
+    "middle-to-start",
+    "middle-to-end",
+    "end",
+  ] as const;
 
   return (
     <div className="container flex flex-col md:flex-row items-center justify-center mx-auto p-8 space-y-6 gap-2">
@@ -162,8 +194,14 @@ export default function QuizPage() {
           <span>Select range</span>
           <div className="flex items-center justify-between w-full gap-2">
             {selectedRanges.map((range) => (
-              <Button variant={selectedRange === range ? "default" : "secondary"}
-              className="w-full" key={range} onClick={() => handleRange(range)}>{range}</Button>
+              <Button
+                variant={selectedRange === range ? "default" : "secondary"}
+                className="w-full"
+                key={range}
+                onClick={() => handleRange(range)}
+              >
+                {range}
+              </Button>
             ))}
             <Button
               onClickCapture={() => handleRange("start")}
@@ -186,7 +224,7 @@ export default function QuizPage() {
       </div>
 
       {/* Quiz Card */}
-      {filteredQuestions.length > 0 ? (
+      {selectedQuestions.length > 0 ? (
         <Card
           className={`w-full mx-auto ${
             showAnswer
