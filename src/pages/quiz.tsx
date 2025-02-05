@@ -58,14 +58,16 @@ export default function QuizPage() {
   useEffect(() => {
     let sortedQuestions = [...filteredQuestions]; // Create a new array to avoid mutating state directly
     const middleIndex = Math.floor(sortedQuestions.length / 2);
-  
+
     switch (selectedRange) {
       case "start":
         setSelectedQuestions(sortedQuestions);
         setCurrentQuestionIndex(0);
         break;
       case "end":
-        sortedQuestions = sortedQuestions.slice().sort((q1, q2) => q2.id - q1.id);
+        sortedQuestions = sortedQuestions
+          .slice()
+          .sort((q1, q2) => q2.id - q1.id);
         setSelectedQuestions(sortedQuestions);
         setCurrentQuestionIndex(0);
         break;
@@ -74,7 +76,9 @@ export default function QuizPage() {
         setCurrentQuestionIndex(middleIndex);
         break;
       case "middle-to-end":
-        sortedQuestions = sortedQuestions.slice().sort((q1, q2) => q2.id - q1.id);
+        sortedQuestions = sortedQuestions
+          .slice()
+          .sort((q1, q2) => q2.id - q1.id);
         setSelectedQuestions(sortedQuestions);
         setCurrentQuestionIndex(middleIndex);
         break;
@@ -207,6 +211,12 @@ export default function QuizPage() {
           </CardHeader>
           <CardContent>
             <p className="mb-4 font-semibold">
+              {currentQuestion.description && (
+                <>
+                  <p>{currentQuestion.description}</p>
+                  <br />
+                </>
+              )}
               {currentQuestion.question.split("\n").map((line, index) => (
                 <React.Fragment key={index}>
                   {line}

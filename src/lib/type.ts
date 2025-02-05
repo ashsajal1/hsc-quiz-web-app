@@ -15,6 +15,7 @@ export interface Question {
   label?: string;
   explanation?: string;
   hint?: string;
+  description?: string;
 }
 
 // Define the type for an array of questions
