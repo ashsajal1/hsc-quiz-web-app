@@ -140,6 +140,12 @@ export default function ExamPage() {
           {examQuestions.map((q, index) => (
             <Card key={q.id} className="p-4 space-y-2">
               <p className="font-medium">
+                {q.description && (
+                  <>
+                    <p>{q.description}</p>
+                    <br />
+                  </>
+                )}
                 {index + 1}.{" "}
                 <span className="mb-4 font-semibold">
                   {q.question.split("\n").map((line, index) => (
@@ -192,6 +198,12 @@ export default function ExamPage() {
                   <p className="font-medium">
                     {index + 1}.{" "}
                     <span className="mb-4 font-semibold">
+                      {q.description && (
+                        <>
+                          <p>{q.description}</p>
+                          <br />
+                        </>
+                      )}
                       {q.question.split("\n").map((line, index) => (
                         <Fragment key={index}>
                           {line}
