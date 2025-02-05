@@ -56,27 +56,31 @@ export default function QuizPage() {
   }, [questions, selectedTopic, selectedChapter]);
 
   useEffect(() => {
+    let sortedQuestions = [...filteredQuestions]; // Create a new array to avoid mutating state directly
+    const middleIndex = Math.floor(sortedQuestions.length / 2);
+  
     switch (selectedRange) {
       case "start":
-        setSelectedQuestions(filteredQuestions);
+        setSelectedQuestions(sortedQuestions);
+        setCurrentQuestionIndex(0);
         break;
       case "end":
-        setSelectedQuestions(filteredQuestions.sort((q1, q2) => q2.id - q1.id));
+        sortedQuestions = sortedQuestions.slice().sort((q1, q2) => q2.id - q1.id);
+        setSelectedQuestions(sortedQuestions);
+        setCurrentQuestionIndex(0);
         break;
       case "middle-to-start":
-        // eslint-disable-next-line no-case-declarations
-        const middleIndex = Math.floor(filteredQuestions.length / 2);
+        setSelectedQuestions(sortedQuestions);
         setCurrentQuestionIndex(middleIndex);
         break;
       case "middle-to-end":
-        // eslint-disable-next-line no-case-declarations
-        const descQuestions = filteredQuestions.sort((q1, q2) => q2.id - q1.id);
-        // eslint-disable-next-line no-case-declarations
-        const middleIndex2 = Math.floor(descQuestions.length / 2);
-        setCurrentQuestionIndex(middleIndex2);
+        sortedQuestions = sortedQuestions.slice().sort((q1, q2) => q2.id - q1.id);
+        setSelectedQuestions(sortedQuestions);
+        setCurrentQuestionIndex(middleIndex);
         break;
       default:
-        setSelectedQuestions(filteredQuestions);
+        setSelectedQuestions(sortedQuestions);
+        setCurrentQuestionIndex(0);
         break;
     }
   }, [filteredQuestions, selectedRange]);
