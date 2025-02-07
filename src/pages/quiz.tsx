@@ -24,6 +24,7 @@ import {
   ArrowRightFromLine,
 } from "lucide-react";
 import { useLocation } from "react-router-dom";
+import { Label } from "@/components/ui/label";
 
 export default function QuizPage() {
   const location = useLocation();
@@ -146,7 +147,7 @@ export default function QuizPage() {
   return (
     <div className="container flex flex-col md:flex-row items-center justify-center mx-auto p-8 space-y-6 gap-2">
       <div className="flex flex-col gap-2 w-full">
-        <h1 className="text-3xl font-bold">Quiz Page</h1>
+        <Label>Select subject and chapter.</Label>
 
         {/* Selectors for Topic and Chapter */}
         <div className="flex w-full sm:w-auto gap-2">
@@ -190,7 +191,7 @@ export default function QuizPage() {
         </div>
 
         <div>
-          <span>Select range</span>
+          <Label>Select range</Label>
           <div className="flex items-center justify-between w-full gap-2">
             {selectedRanges.map((range) => (
               <Button
