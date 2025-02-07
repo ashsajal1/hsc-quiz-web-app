@@ -10,6 +10,7 @@ import Dashboard from './pages/dashboard';
 import QuizPage from './pages/quiz';
 import ExamPage from './pages/exam';
 import SavedPage from './pages/saved';
+import Preview from './pages/preview';
 
 export const router = createBrowserRouter([
     {
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([
             {
                 path:'/saved/*',
                 element: <SavedPage />
+            },
+            {
+                path:'/preview/*',
+                element: <Preview />
             },
             {
                 path:'/about',
