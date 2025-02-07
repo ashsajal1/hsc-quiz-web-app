@@ -28,7 +28,7 @@ export default function SavedPage() {
   return (
     <div>
       <Table>
-        <TableCaption>A list of your recent invoices.</TableCaption>
+        <TableCaption>A list saved exams.</TableCaption>
         <TableHeader>
           <TableRow>
             <TableHead className="w-[100px]">Id</TableHead>
@@ -48,6 +48,9 @@ export default function SavedPage() {
                 <Link to={`/exam/${exam.subject}-${exam.chpater}-${exam.id}`}>
                   <Button>Play</Button>
                 </Link>
+                <Button className="ml-2" variant="destructive">
+                  Delete
+                </Button>
               </TableCell>
             </TableRow>
           ))}
@@ -56,7 +59,7 @@ export default function SavedPage() {
         <TableFooter>
           <TableRow>
             <TableCell colSpan={3}>Total</TableCell>
-            <TableCell className="text-right">$2,500.00</TableCell>
+            <TableCell className="text-right">{savedExams.length}</TableCell>
           </TableRow>
         </TableFooter>
       </Table>
