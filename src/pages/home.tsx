@@ -40,6 +40,7 @@ function TopicCard({ topic }: { topic: Topic }) {
         </CardHeader>
         {/* Render the chapters as badges */}
         <div className="flex flex-wrap gap-2 my-2">
+          <p className="font-bold">Select Chapter : </p>
           {chapters.map((chapter) => (
             <Badge
               key={chapter}
