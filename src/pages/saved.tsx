@@ -80,9 +80,10 @@ export default function SavedPage() {
               <TableCell className="text-right">{exam.chapter}</TableCell>
               <TableCell className="text-right">
                 <Link to={`/exam?examId=${exam.id}`}>
-                  <Button>Play</Button>
+                  <Button size={"sm"}>Play</Button>
                 </Link>
                 <Button
+                  size={"sm"}
                   onClick={() => handleDelete(exam.id)}
                   className="ml-2"
                   variant="destructive"
