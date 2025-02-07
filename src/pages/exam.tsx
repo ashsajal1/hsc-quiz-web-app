@@ -14,6 +14,7 @@ import { Progress } from "@/components/ui/progress";
 import { cn, shuffleArray } from "@/lib/utils"; // Utility to shuffle array
 import { Option, Questions } from "@/lib/type";
 import { useQuizStore } from "@/store/useQuizStore";
+import { Bookmark } from "lucide-react";
 
 const EXAM_DURATION = 10 * 60; // 10 minutes in seconds
 
@@ -167,6 +168,19 @@ const ExamReview: React.FC<ExamReviewProps> = ({
   restartExam,
   restartSameExam,
 }) => {
+  const handleSaveExam = () => {
+    const savedExamLength = localStorage.getItem("savedExams")?.length || 0;
+    // Save the exam to localStorage
+    localStorage.setItem(
+      "savedExams",
+      JSON.stringify({
+        id: savedExamLength + 1 || 1,
+        questions: examQuestions,
+        subject: examQuestions[0].subject,
+        chapter: examQuestions[0].chapter,
+      })
+    );
+  };
   return (
     <div className="space-y-4">
       <h1 className="text-2xl font-bold">Exam Finished!</h1>
@@ -238,6 +252,13 @@ const ExamReview: React.FC<ExamReviewProps> = ({
           Restart with same questions
         </Button>
       </div>
+      <Button
+        onClick={handleSaveExam}
+        variant={"destructive"}
+        className="w-full"
+      >
+        <Bookmark className="mr-2 h-5 w-5 " /> Save
+      </Button>
     </div>
   );
 };
@@ -279,15 +300,16 @@ const ExamComponent: React.FC = () => {
       let examQuestions: Questions = [];
 
       if (savedExams) {
-        examQuestions = JSON.parse(savedExams!).find(
-          (e: { id: string, questions: Questions }) => e.id === examId
-        )?.questions || [];
+        examQuestions =
+          JSON.parse(savedExams!).find(
+            (e: { id: string; questions: Questions }) => e.id === examId
+          )?.questions || [];
       } else {
         examQuestions = [];
       }
 
       if (examQuestions.length === 0)
-        return alert("No questions found for this exam");
+        return console.log("No questions found for this exam");
 
       setExamQuestions(examQuestions);
       setExamStarted(true);
