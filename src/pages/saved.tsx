@@ -52,7 +52,7 @@ export default function SavedPage() {
               <TableCell>{exam.subject}</TableCell>
               <TableCell className="text-right">{exam.chapter}</TableCell>
               <TableCell className="text-right">
-                <Link to={`/exam/${exam.subject}-${exam.chapter}-${exam.id}`}>
+                <Link to={`/exam?examId=${exam.id}`}>
                   <Button>Play</Button>
                 </Link>
                 <Button className="ml-2" variant="destructive">
