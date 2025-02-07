@@ -14,7 +14,7 @@ import { Progress } from "@/components/ui/progress";
 import { cn, shuffleArray } from "@/lib/utils"; // Utility to shuffle array
 import { Option, Questions } from "@/lib/type";
 import { useQuizStore } from "@/store/useQuizStore";
-import { Bookmark } from "lucide-react";
+import { Bookmark, BookmarkCheck } from "lucide-react";
 
 const EXAM_DURATION = 10 * 60; // 10 minutes in seconds
 
@@ -168,6 +168,7 @@ const ExamReview: React.FC<ExamReviewProps> = ({
   restartExam,
   restartSameExam,
 }) => {
+  const [isSaved, setIsSaved] = useState(false);
   const handleSaveExam = () => {
     // Retrieve savedExams from localStorage, defaulting to an empty array if not present.
     const savedExams = JSON.parse(localStorage.getItem("savedExams") ?? "[]");
@@ -185,6 +186,7 @@ const ExamReview: React.FC<ExamReviewProps> = ({
 
     // Save the updated array back to localStorage.
     localStorage.setItem("savedExams", JSON.stringify(savedExams));
+    setIsSaved(true);
   };
 
   return (
@@ -262,8 +264,14 @@ const ExamReview: React.FC<ExamReviewProps> = ({
         onClick={handleSaveExam}
         variant={"destructive"}
         className="w-full"
+        disabled={isSaved}
       >
-        <Bookmark className="mr-2 h-5 w-5 " /> Save
+        {isSaved ? (
+          <BookmarkCheck className="mr-2 h-5 w-5" />
+        ) : (
+          <Bookmark className="mr-2 h-5 w-5" />
+        )}{" "}
+        Save
       </Button>
     </div>
   );
