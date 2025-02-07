@@ -9,21 +9,20 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import { Questions } from "@/lib/type";
 import { Link } from "react-router-dom";
 
+interface ExamProps {
+  id: number;
+  subject: string;
+  chapter: string;
+  questions: Questions;
+}
+
 export default function SavedPage() {
-  const savedExams = [
-    {
-      id: 1,
-      subject: "chemistry-1",
-      chpater: 1,
-    },
-    {
-      id: 2,
-      subject: "chemistry-1",
-      chpater: 2,
-    },
-  ];
+  const savedExams = localStorage.getItem("savedExams")
+    ? JSON.parse(localStorage.getItem("savedExams") || "")
+    : [];
 
   return (
     <div>
@@ -39,13 +38,13 @@ export default function SavedPage() {
         </TableHeader>
 
         <TableBody>
-          {savedExams.map((exam) => (
+          {savedExams.map((exam: ExamProps) => (
             <TableRow key={exam.id}>
               <TableCell className="font-medium">{exam.id}</TableCell>
               <TableCell>{exam.subject}</TableCell>
-              <TableCell className="text-right">{exam.chpater}</TableCell>
+              <TableCell className="text-right">{exam.chapter}</TableCell>
               <TableCell className="text-right">
-                <Link to={`/exam/${exam.subject}-${exam.chpater}-${exam.id}`}>
+                <Link to={`/exam/${exam.subject}-${exam.chapter}-${exam.id}`}>
                   <Button>Play</Button>
                 </Link>
                 <Button className="ml-2" variant="destructive">
