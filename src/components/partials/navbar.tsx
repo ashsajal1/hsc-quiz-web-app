@@ -46,6 +46,9 @@ export default function Navbar() {
         </Link>
 
         <div className="flex items-center gap-2">
+        <Link to={"/saved"}>
+            <Button variant={'link'}>Saved</Button>
+          </Link>
           <Link to={"/exam"}>
             <Button>Exam</Button>
           </Link>
