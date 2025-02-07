@@ -20,9 +20,17 @@ interface ExamProps {
 }
 
 export default function SavedPage() {
-  const savedExams = localStorage.getItem("savedExams")
-    ? JSON.parse(localStorage.getItem("savedExams") || "")
-    : [];
+  let savedExams;
+  try {
+    savedExams = JSON.parse(localStorage.getItem("savedExams") ?? "[]");
+    if (!Array.isArray(savedExams)) {
+      console.error("Expected savedExams to be an array but got:", savedExams);
+      savedExams = []; // Fallback to an empty array
+    }
+  } catch (error) {
+    console.error("Error parsing savedExams from localStorage:", error);
+    savedExams = [];
+  }
 
   return (
     <div>

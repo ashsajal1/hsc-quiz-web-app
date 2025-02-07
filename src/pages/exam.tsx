@@ -169,18 +169,24 @@ const ExamReview: React.FC<ExamReviewProps> = ({
   restartSameExam,
 }) => {
   const handleSaveExam = () => {
-    const savedExamLength = localStorage.getItem("savedExams")?.length || 0;
-    // Save the exam to localStorage
-    localStorage.setItem(
-      "savedExams",
-      JSON.stringify({
-        id: savedExamLength + 1 || 1,
-        questions: examQuestions,
-        subject: examQuestions[0].subject,
-        chapter: examQuestions[0].chapter,
-      })
-    );
+    // Retrieve savedExams from localStorage, defaulting to an empty array if not present.
+    const savedExams = JSON.parse(localStorage.getItem("savedExams") ?? "[]");
+
+    // Create a new exam object. Use savedExams.length to determine the new ID.
+    const newExam = {
+      id: savedExams.length + 1,
+      questions: examQuestions,
+      subject: examQuestions[0].subject,
+      chapter: examQuestions[0].chapter,
+    };
+
+    // Add the new exam to the savedExams array.
+    savedExams.push(newExam);
+
+    // Save the updated array back to localStorage.
+    localStorage.setItem("savedExams", JSON.stringify(savedExams));
   };
+
   return (
     <div className="space-y-4">
       <h1 className="text-2xl font-bold">Exam Finished!</h1>
