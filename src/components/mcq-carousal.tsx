@@ -11,8 +11,8 @@ import Autoplay from "embla-carousel-autoplay";
 import { useRef } from "react";
 
 export function McqCarousel() {
-  const { filteredQuestions } = useQuizStore();
-  const questions = filteredQuestions
+  const { questions } = useQuizStore();
+  const randomQuestions = questions
     .filter((q) => !q.question.includes("i"))
     .sort(() => Math.random() - 0.5);
   const plugin = useRef(Autoplay({ delay: 5000, stopOnInteraction: true }));
@@ -24,7 +24,7 @@ export function McqCarousel() {
       onMouseLeave={plugin.current.reset}
     >
       <CarouselContent>
-        {questions.map((question, index) => (
+        {randomQuestions.map((question, index) => (
           <CarouselItem key={index}>
             <div className="p-1">
               <Card>
