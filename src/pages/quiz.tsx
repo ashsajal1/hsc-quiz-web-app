@@ -23,8 +23,10 @@ import {
   ArrowRight,
   ArrowRightFromLine,
 } from "lucide-react";
+import { useLocation } from "react-router-dom";
 
 export default function QuizPage() {
+  const location = useLocation();
   // Parse questions (if needed, here we assume they are valid JSON already)
   const { questions, getChaptersBySubject } = useQuizStore();
   // Extract available topics and chapters from the subjects in your questions.
@@ -52,6 +54,14 @@ export default function QuizPage() {
   >("start");
   const [selectedQuestions, setSelectedQuestions] = useState<Questions>([]);
   const [selectedOptionId, setSelectedOptionId] = useState<number | null>(null);
+
+  useEffect(() => {
+    const searchParam = new URLSearchParams(location.search);
+    const subjectParam = searchParam.get("subject");
+    const chapterParam = searchParam.get("chapter");
+    if (subjectParam) setSelectedTopic(subjectParam);
+    if (chapterParam) setSelectedChapter(chapterParam);
+  }, [location.search]);
 
   // Filter questions based on selected topic and chapter
   const filteredQuestions = useMemo(() => {
