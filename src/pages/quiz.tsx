@@ -89,13 +89,13 @@ export default function QuizPage() {
         setCurrentQuestionIndex(0);
         break;
       case "middle-to-start":
+        sortedQuestions = sortedQuestions
+          .slice()
+          .sort((q1, q2) => q2.id - q1.id);
         setSelectedQuestions(sortedQuestions);
         setCurrentQuestionIndex(middleIndex);
         break;
       case "middle-to-end":
-        sortedQuestions = sortedQuestions
-          .slice()
-          .sort((q1, q2) => q2.id - q1.id);
         setSelectedQuestions(sortedQuestions);
         setCurrentQuestionIndex(middleIndex);
         break;
