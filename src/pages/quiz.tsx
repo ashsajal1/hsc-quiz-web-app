@@ -149,7 +149,7 @@ export default function QuizPage() {
         <h1 className="text-3xl font-bold">Quiz Page</h1>
 
         {/* Selectors for Topic and Chapter */}
-        <div className="flex flex-col w-full sm:w-auto sm:flex-row gap-4">
+        <div className="flex w-full sm:w-auto gap-2">
           <Select
             value={selectedTopic}
             onValueChange={(val) => {
