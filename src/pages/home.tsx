@@ -57,8 +57,10 @@ function TopicCard({ topic }: { topic: Topic }) {
       </CardContent>
       <CardFooter>
         {/* Enable the button only when a chapter is selected */}
-        <Link to={`/quiz?subject=${topic.subject}&chapter=${selectedChapter}`}>
-          <Button disabled={!selectedChapter}>Play</Button>
+        <Link
+          to={`/quiz?subject=${topic.subject}&chapter=${selectedChapter || 1}`}
+        >
+          <Button>Play</Button>
         </Link>
       </CardFooter>
     </Card>
