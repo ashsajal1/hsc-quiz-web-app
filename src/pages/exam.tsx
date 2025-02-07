@@ -15,6 +15,7 @@ import { cn, shuffleArray } from "@/lib/utils"; // Utility to shuffle array
 import { Option, Questions } from "@/lib/type";
 import { useQuizStore } from "@/store/useQuizStore";
 import { Bookmark, BookmarkCheck } from "lucide-react";
+import { ExamProps } from "./saved";
 
 const EXAM_DURATION = 10 * 60; // 10 minutes in seconds
 
@@ -181,6 +182,21 @@ const ExamReview: React.FC<ExamReviewProps> = ({
       chapter: examQuestions[0].chapter,
     };
 
+    //check is duplicate or not
+    const isDuplicate = savedExams.some(
+      (exam: ExamProps) =>
+        exam.subject === newExam.subject &&
+        exam.chapter === newExam.chapter &&
+        exam.questions.every((q) =>
+          newExam.questions.some((newQ) => q.id === newQ.id)
+        )
+    );
+
+    if (isDuplicate) {
+      setIsSaved(true);
+      alert("You have already saved this exam.");
+      return;
+    }
     // Add the new exam to the savedExams array.
     savedExams.push(newExam);
 
