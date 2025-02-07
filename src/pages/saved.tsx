@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import {
   Table,
@@ -20,28 +21,54 @@ export interface ExamProps {
 }
 
 export default function SavedPage() {
-  let savedExams;
-  try {
-    savedExams = JSON.parse(localStorage.getItem("savedExams") ?? "[]");
-    if (!Array.isArray(savedExams)) {
-      console.error("Expected savedExams to be an array but got:", savedExams);
-      savedExams = []; // Fallback to an empty array
+  // Use state to store saved exams so we can update the UI immediately.
+  const [savedExams, setSavedExams] = useState<ExamProps[]>([]);
+
+  // Load saved exams from localStorage when the component mounts.
+  useEffect(() => {
+    try {
+      const exams = JSON.parse(localStorage.getItem("savedExams") ?? "[]");
+      if (Array.isArray(exams)) {
+        setSavedExams(exams);
+      } else {
+        console.error("Expected savedExams to be an array but got:", exams);
+        setSavedExams([]);
+      }
+    } catch (error) {
+      console.error("Error parsing savedExams from localStorage:", error);
+      setSavedExams([]);
     }
-  } catch (error) {
-    console.error("Error parsing savedExams from localStorage:", error);
-    savedExams = [];
-  }
+  }, []);
+
+  // Attractive delete function with a confirmation prompt.
+  const handleDelete = (examId: number) => {
+    const confirmDelete = window.confirm(
+      "Are you sure you want to delete this exam? This action cannot be undone."
+    );
+
+    if (confirmDelete) {
+      // Filter out the exam to delete.
+      const updatedExams = savedExams.filter((exam) => exam.id !== examId);
+      // Update localStorage with the new exams array.
+      localStorage.setItem("savedExams", JSON.stringify(updatedExams));
+      // Update the state so the UI reflects the change.
+      setSavedExams(updatedExams);
+
+      // Optional: show a toast or animation indicating success.
+      // toast.success("Exam deleted successfully!");
+    }
+  };
 
   return (
     <div>
       <Table>
-        <TableCaption>A list saved exams.</TableCaption>
+        <TableCaption>A list of saved exams.</TableCaption>
         <TableHeader>
           <TableRow>
             <TableHead className="w-[100px]">Id</TableHead>
             <TableHead>Subject</TableHead>
             <TableHead className="text-right">Chapter</TableHead>
-            <TableHead className="text-right">Play</TableHead>
+            <TableHead className="text-right">Actions</TableHead>
           </TableRow>
         </TableHeader>
 
@@ -55,7 +82,11 @@ export default function SavedPage() {
                 <Link to={`/exam?examId=${exam.id}`}>
                   <Button>Play</Button>
                 </Link>
-                <Button className="ml-2" variant="destructive">
+                <Button
+                  onClick={() => handleDelete(exam.id)}
+                  className="ml-2"
+                  variant="destructive"
+                >
                   Delete
                 </Button>
               </TableCell>
