@@ -183,9 +183,7 @@ const ExamReview: React.FC<ExamReviewProps> = ({
             <Card
               key={q.id}
               className={`p-4 space-y-2 ${
-                isCorrect
-                  ? "border border-green-600"
-                  : "border border-red-600"
+                isCorrect ? "border border-green-600" : "border border-red-600"
               }`}
             >
               <p className="font-medium">
@@ -208,9 +206,7 @@ const ExamReview: React.FC<ExamReviewProps> = ({
               {q.options.map((option: Option) => (
                 <Button
                   key={option.id}
-                  disabled={
-                    selectedOptionId !== option.id && !option.isCorrect
-                  }
+                  disabled={selectedOptionId !== option.id && !option.isCorrect}
                   variant={
                     selectedOptionId !== option.id && !option.isCorrect
                       ? "secondary"
@@ -263,16 +259,41 @@ const ExamComponent: React.FC = () => {
   const [timeLeft, setTimeLeft] = useState(EXAM_DURATION);
   const [examFinished, setExamFinished] = useState(false);
   const [score, setScore] = useState<number | null>(null);
+  const [examId, setExamId] = useState<null | string>(null);
 
   // Get query params (if any)
   useEffect(() => {
     const params = new URLSearchParams(location.search);
     const subjectParam = params.get("subject");
     const chapterParam = params.get("chapter");
+    const examIdParam = params.get("examId");
 
     if (subjectParam) setSubject(subjectParam);
     if (chapterParam) setChapter(chapterParam);
+    if (examIdParam) setExamId(examIdParam);
   }, [location]);
+
+  useEffect(() => {
+    if (examId) {
+      const savedExams = localStorage.getItem("savedExams");
+      let examQuestions: Questions = [];
+
+      if (savedExams) {
+        examQuestions = JSON.parse(savedExams!).find(
+          (e: { id: string, questions: Questions }) => e.id === examId
+        )?.questions || [];
+      } else {
+        examQuestions = [];
+      }
+
+      if (examQuestions.length === 0)
+        return alert("No questions found for this exam");
+
+      setExamQuestions(examQuestions);
+      setExamStarted(true);
+      return;
+    }
+  }, [examId]);
 
   const chaptersForSelectedSubject = getChaptersBySubject(subject);
 
