@@ -196,17 +196,18 @@ export default function QuizPage() {
               <Button
                 variant={selectedRange === range ? "default" : "secondary"}
                 className="w-full"
+                size={"sm"}
                 key={range}
                 onClick={() => setSelectedRange(range)}
               >
                 {range === "start" ? (
-                  <ArrowRight />
+                  <ArrowRight strokeWidth={"1"} className="h-5 w-5" />
                 ) : range === "end" ? (
-                  <ArrowLeft />
+                  <ArrowLeft strokeWidth={"1"} className="h-5 w-5" />
                 ) : range === "middle-to-start" ? (
-                  <ArrowLeftFromLine />
+                  <ArrowLeftFromLine strokeWidth={"1"} className="h-5 w-5" />
                 ) : range === "middle-to-end" ? (
-                  <ArrowRightFromLine />
+                  <ArrowRightFromLine strokeWidth={"1"} className="h-5 w-5" />
                 ) : (
                   range
                 )}
