@@ -319,6 +319,8 @@ const ExamComponent: React.FC = () => {
       if (examQuestions.length === 0)
         return console.log("No questions found for this exam");
 
+      setSubject(examQuestions[0].subject);
+      setChapter(examQuestions[0].chapter);
       setExamQuestions(examQuestions);
       setExamStarted(true);
       return;
