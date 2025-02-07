@@ -12,7 +12,7 @@ import {
 import { Questions } from "@/lib/type";
 import { Link } from "react-router-dom";
 
-interface ExamProps {
+export interface ExamProps {
   id: number;
   subject: string;
   chapter: string;

@@ -306,9 +306,11 @@ const ExamComponent: React.FC = () => {
       let examQuestions: Questions = [];
 
       if (savedExams) {
+        const examsArray = JSON.parse(savedExams);
+        const examIdNumber = Number(examId); // Convert examId to a number
         examQuestions =
-          JSON.parse(savedExams!).find(
-            (e: { id: string; questions: Questions }) => e.id === examId
+          examsArray.find(
+            (e: { id: number; questions: Questions }) => e.id === examIdNumber
           )?.questions || [];
       } else {
         examQuestions = [];
