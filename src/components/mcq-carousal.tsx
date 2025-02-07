@@ -7,12 +7,20 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { useQuizStore } from "@/store/useQuizStore";
+import Autoplay from "embla-carousel-autoplay";
+import { useRef } from "react";
 
 export function McqCarousel() {
   const { filteredQuestions } = useQuizStore();
-  const questions = filteredQuestions.filter(q => !q.question.includes("i"));
+  const questions = filteredQuestions.filter((q) => !q.question.includes("i"));
+  const plugin = useRef(Autoplay({ delay: 5000, stopOnInteraction: true }));
   return (
-    <Carousel className="w-full h-[200px]">
+    <Carousel
+      plugins={[plugin.current]}
+      className="w-full h-[200px]"
+      onMouseEnter={plugin.current.stop}
+      onMouseLeave={plugin.current.reset}
+    >
       <CarouselContent>
         {questions.map((question, index) => (
           <CarouselItem key={index}>
@@ -26,7 +34,6 @@ export function McqCarousel() {
                     <span className="text-green-600 font-bold text-3xl">
                       {question.options.find((o) => o.isCorrect)?.text}
                     </span>
-                    
                   </div>
                 </CardContent>
               </Card>
