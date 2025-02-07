@@ -12,7 +12,9 @@ import { useRef } from "react";
 
 export function McqCarousel() {
   const { filteredQuestions } = useQuizStore();
-  const questions = filteredQuestions.filter((q) => !q.question.includes("i"));
+  const questions = filteredQuestions
+    .filter((q) => !q.question.includes("i"))
+    .sort(() => Math.random() - 0.5);
   const plugin = useRef(Autoplay({ delay: 5000, stopOnInteraction: true }));
   return (
     <Carousel
