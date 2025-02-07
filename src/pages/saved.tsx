@@ -45,7 +45,9 @@ export default function SavedPage() {
               <TableCell>{exam.subject}</TableCell>
               <TableCell className="text-right">{exam.chpater}</TableCell>
               <TableCell className="text-right">
-                <Link to={`/exam/${exam.subject}-${exam.chpater}-${exam.id}`}><Button>Play</Button></Link>
+                <Link to={`/exam/${exam.subject}-${exam.chpater}-${exam.id}`}>
+                  <Button>Play</Button>
+                </Link>
               </TableCell>
             </TableRow>
           ))}
