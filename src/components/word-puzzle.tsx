@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { DndProvider, useDrag, useDrop } from "react-dnd";
+import { HTML5Backend } from "react-dnd-html5-backend";
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
 
-// Your provided data (you could also pass this as props)
+// Your provided data
 const puzzleData = {
   id: "2",
   question: "তত্ত্ব বলতে কী বোঝ?",
@@ -23,79 +25,165 @@ function shuffleArray<T>(array: T[]): T[] {
   return arr;
 }
 
+// Define the drag item type
+interface DragWordItem {
+  type: "WORD";
+  word: string;
+  from: "available" | "selected";
+}
+
+// Draggable word component
+const DraggableWord: React.FC<{
+  word: string;
+  from: "available" | "selected";
+}> = ({ word, from }) => {
+  const [{ isDragging }, drag] = useDrag({
+    type: "WORD",
+    item: { word, from },
+    collect: (monitor) => ({
+      isDragging: monitor.isDragging(),
+    }),
+  });
+  return (
+    <div
+      ref={drag}
+      style={{
+        opacity: isDragging ? 0.5 : 1,
+        display: "inline-block",
+        marginRight: "5px",
+        marginBottom: "5px",
+        cursor: "move",
+      }}
+    >
+      <Button>{word}</Button>
+    </div>
+  );
+};
+
+// Drop zone for the "Your Answer" area
+const AnswerDropZone: React.FC<{
+  selectedWords: string[];
+  onDropWord: (item: DragWordItem) => void;
+}> = ({ selectedWords, onDropWord }) => {
+  const [, drop] = useDrop({
+    accept: "WORD",
+    drop: (item: DragWordItem) => {
+      if (item.from === "available") {
+        onDropWord(item);
+      }
+    },
+  });
+  return (
+    <Card>
+      <CardContent
+        ref={drop}
+        className="p-3"
+        style={{ minHeight: "50px", display: "flex", flexWrap: "wrap" }}
+      >
+        {selectedWords.map((word, index) => (
+          <DraggableWord key={index} word={word} from="selected" />
+        ))}
+      </CardContent>
+    </Card>
+  );
+};
+
+// Drop zone for the "Available Words" area
+const AvailableDropZone: React.FC<{
+  availableWords: string[];
+  onDropWord: (item: DragWordItem) => void;
+}> = ({ availableWords, onDropWord }) => {
+  const [, drop] = useDrop({
+    accept: "WORD",
+    drop: (item: DragWordItem) => {
+      if (item.from === "selected") {
+        onDropWord(item);
+      }
+    },
+  });
+  return (
+    <Card>
+      <CardContent
+        ref={drop}
+        className="p-3"
+        style={{ minHeight: "50px", display: "flex", flexWrap: "wrap" }}
+      >
+        {availableWords.map((word, index) => (
+          <DraggableWord key={index} word={word} from="available" />
+        ))}
+      </CardContent>
+    </Card>
+  );
+};
+
 const WordPuzzleGame: React.FC = () => {
-  // Split the answer into words (using space as delimiter) and filter out any empty strings.
+  // Split the answer into words and filter out empty strings
   const words = puzzleData.answer.split(" ").filter((w) => w.trim() !== "");
-  // Create initial available words in a random order.
+  // Initialize available words in a random order
   const [availableWords, setAvailableWords] = useState<string[]>(() =>
     shuffleArray(words)
   );
-  // Track the words selected by the user.
+  // Track the words selected by the user
   const [selectedWords, setSelectedWords] = useState<string[]>([]);
 
-  // When a user clicks on an available word, remove it from availableWords and add it to selectedWords.
-  const handleSelectWord = (word: string, index: number) => {
-    const newAvailable = [...availableWords];
-    newAvailable.splice(index, 1);
-    setAvailableWords(newAvailable);
-    setSelectedWords([...selectedWords, word]);
+  // When a word is dropped into the Answer area from available words
+  const handleDropToAnswer = (item: DragWordItem) => {
+    if (item.from === "available") {
+      setAvailableWords((prev) => prev.filter((w) => w !== item.word));
+      setSelectedWords((prev) => [...prev, item.word]);
+    }
   };
 
-  // When a user clicks on a word in their answer, remove it from selectedWords and return it to availableWords.
-  const handleRemoveWord = (index: number) => {
-    const newSelected = [...selectedWords];
-    const removed = newSelected.splice(index, 1)[0];
-    setSelectedWords(newSelected);
-    setAvailableWords([...availableWords, removed]);
+  // When a word is dropped into the Available area from the Answer zone
+  const handleDropToAvailable = (item: DragWordItem) => {
+    if (item.from === "selected") {
+      setSelectedWords((prev) => prev.filter((w) => w !== item.word));
+      setAvailableWords((prev) => [...prev, item.word]);
+    }
   };
 
-  // Construct the answer from the selected words.
+  // Construct the answer from selected words
   const constructedAnswer = selectedWords.join(" ").trim();
-  // Check if the constructed answer matches the correct answer.
   const isCorrect = constructedAnswer === puzzleData.answer.trim();
 
   return (
-    <div>
+    <div style={{ padding: "20px", fontFamily: "sans-serif" }}>
       <h2 className="font-bold text-xl my-4">{puzzleData.question}</h2>
 
-      <div>
-        <h3>Your Answer:</h3>
-        <Card className="mt-2">
-          <CardContent className="p-3">
-            {selectedWords.map((word, index) => (
-              <Button
-                className="mr-1 mb-1"
-                key={index}
-                onClick={() => handleRemoveWord(index)}
-              >
-                {word}
-              </Button>
-            ))}
-          </CardContent>
-        </Card>
+      <div style={{ marginBottom: "20px" }}>
+        <h3>Your Answer (Drag words here):</h3>
+        <AnswerDropZone
+          selectedWords={selectedWords}
+          onDropWord={handleDropToAnswer}
+        />
         {isCorrect && selectedWords.length > 0 && (
-          <div style={{ color: "green", fontWeight: "bold" }}>Correct!</div>
+          <div
+            style={{
+              color: "green",
+              fontWeight: "bold",
+              marginTop: "10px",
+            }}
+          >
+            Correct!
+          </div>
         )}
       </div>
 
-      <div className="my-2">
-        <h3>Available Words:</h3>
-        <Card className="my-2">
-          <CardContent className="p-3">
-            {availableWords.map((word, index) => (
-              <Button
-                className="mr-1 mb-1"
-                key={index}
-                onClick={() => handleSelectWord(word, index)}
-              >
-                {word}
-              </Button>
-            ))}
-          </CardContent>
-        </Card>
+      <div>
+        <h3>Available Words (Drag words here):</h3>
+        <AvailableDropZone
+          availableWords={availableWords}
+          onDropWord={handleDropToAvailable}
+        />
       </div>
     </div>
   );
 };
 
-export default WordPuzzleGame;
+const WordPuzzleGameWithDnd: React.FC = () => (
+  <DndProvider backend={HTML5Backend}>
+    <WordPuzzleGame />
+  </DndProvider>
+);
+
+export default WordPuzzleGameWithDnd;
