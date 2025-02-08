@@ -10,6 +10,7 @@ import { useQuizStore } from "@/store/useQuizStore";
 import Autoplay from "embla-carousel-autoplay";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { TypingAnimation } from "./magicui/typing-animation";
+import { TextAnimate } from "./magicui/text-animate";
 
 export function McqCarousel() {
   const { questions } = useQuizStore();
@@ -52,10 +53,14 @@ export function McqCarousel() {
                 <CardContent className="flex h-[180px] items-center justify-center ">
                   <div className="flex flex-col items-center">
                     <span className="text-xl text-center font-semibold">
-                      {question.question}
+                      <TextAnimate animation="slideLeft" by="word">
+                        {question.question}
+                      </TextAnimate>
                     </span>
                     <span className="text-green-600 font-bold text-center text-3xl">
-                      <TypingAnimation>{question.options.find((o) => o.isCorrect)?.text || ""}</TypingAnimation>
+                      <TypingAnimation>
+                        {question.options.find((o) => o.isCorrect)?.text || ""}
+                      </TypingAnimation>
                     </span>
                   </div>
                 </CardContent>
