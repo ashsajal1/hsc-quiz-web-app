@@ -1,13 +1,4 @@
-// src/components/Quiz.tsx
-import React, { useState, useMemo, useEffect } from "react";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { useState, useMemo, useEffect } from "react";
 import {
   Select,
   SelectContent,
@@ -16,6 +7,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
 import {
   ArrowLeft,
   ArrowLeftFromLine,
@@ -24,8 +16,8 @@ import {
 } from "lucide-react";
 import { useQuizStore } from "@/store/useQuizStore";
 import { Option } from "@/lib/type";
+import { McqCard } from "./mcq-card";
 
-// Define optional props for our Quiz component.
 interface QuizProps {
   initialTopic?: string;
   initialChapter?: string;
@@ -60,7 +52,9 @@ export function Quiz({ initialTopic, initialChapter, onComplete }: QuizProps) {
   const [selectedRange, setSelectedRange] = useState<
     "start" | "end" | "middle-to-start" | "middle-to-end"
   >("start");
-  const [selectedQuestions, setSelectedQuestions] = useState<typeof questions>([]);
+  const [selectedQuestions, setSelectedQuestions] = useState<typeof questions>(
+    []
+  );
   const [selectedOptionId, setSelectedOptionId] = useState<number | null>(null);
 
   // Filter questions based on the currently selected topic and chapter.
@@ -128,7 +122,9 @@ export function Quiz({ initialTopic, initialChapter, onComplete }: QuizProps) {
       if (onComplete) {
         onComplete(score, filteredQuestions.length);
       } else {
-        alert(`Quiz completed! Your score: ${score}/${filteredQuestions.length}`);
+        alert(
+          `Quiz completed! Your score: ${score}/${filteredQuestions.length}`
+        );
       }
       setCurrentQuestionIndex(0);
       setScore(0);
@@ -216,84 +212,18 @@ export function Quiz({ initialTopic, initialChapter, onComplete }: QuizProps) {
       </div>
 
       {/* Quiz Card */}
-      {selectedQuestions.length > 0 ? (
-        <Card
-          className={`w-full mx-auto ${
-            showAnswer
-              ? isCorrect
-                ? "border border-green-600"
-                : "border border-red-600"
-              : ""
-          }`}
-        >
-          <CardHeader>
-            <CardTitle>
-              <div className="flex justify-between items-center">
-                <span>
-                  Question {currentQuestionIndex + 1} of {filteredQuestions.length}
-                </span>
-                <span>Score: {score}</span>
-              </div>
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p className="mb-4 font-semibold">
-              {currentQuestion?.description && (
-                <>
-                  <p>{currentQuestion.description}</p>
-                  <br />
-                </>
-              )}
-              {currentQuestion?.question.split("\n").map((line, index) => (
-                <React.Fragment key={index}>
-                  {line}
-                  <br />
-                </React.Fragment>
-              ))}
-            </p>
-            <div className="space-y-2">
-              {currentQuestion?.options.map((option: Option) => (
-                <Button
-                  disabled={selectedOptionId !== option.id && showAnswer}
-                  key={option.id}
-                  onClick={() => handleOptionClick(option)}
-                  variant={
-                    !showAnswer
-                      ? "outline"
-                      : option.id === selectedOptionId || option.isCorrect
-                      ? "link"
-                      : "outline"
-                  }
-                  className={`w-full text-black dark:text-white text-left ${
-                    selectedOptionId === option.id && showAnswer
-                      ? isCorrect
-                        ? "bg-green-500 text-white"
-                        : "bg-red-500 text-white"
-                      : ""
-                  } ${option.isCorrect && showAnswer ? "bg-green-500" : ""}`}
-                >
-                  {option.text}
-                </Button>
-              ))}
-            </div>
-            {showAnswer && currentQuestion?.explanation && (
-              <div className="mt-4 text-sm text-gray-600">
-                <p>
-                  <strong>Explanation:</strong> {currentQuestion.explanation}
-                </p>
-              </div>
-            )}
-          </CardContent>
-          <CardFooter className="flex justify-end">
-            {showAnswer && (
-              <Button onClick={handleNextQuestion}>
-                {currentQuestionIndex < filteredQuestions.length - 1
-                  ? "Next"
-                  : "Finish"}
-              </Button>
-            )}
-          </CardFooter>
-        </Card>
+      {selectedQuestions.length > 0 && currentQuestion ? (
+        <McqCard
+          question={currentQuestion}
+          questionIndex={currentQuestionIndex}
+          totalQuestions={filteredQuestions.length}
+          score={score}
+          selectedOptionId={selectedOptionId}
+          showAnswer={showAnswer}
+          isCorrect={isCorrect}
+          onOptionClick={handleOptionClick}
+          onNextQuestion={handleNextQuestion}
+        />
       ) : (
         <p>No questions found for the selected topic and chapter.</p>
       )}
