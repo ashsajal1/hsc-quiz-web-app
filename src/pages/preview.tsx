@@ -1,29 +1,53 @@
 import { Marquee } from "@/components/magicui/marquee";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { useQuizStore } from "@/store/useQuizStore";
 
 export default function Preview() {
   const { questions } = useQuizStore();
+  const randomQuestions = questions
+    .filter((q) => !q.question.includes("i"))
+    .sort(() => Math.random() - 0.5);
   return (
     <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-background md:shadow-xl">
       <Marquee pauseOnHover className="[--duration:30000s]">
-        {questions.map((question) => (
+        {randomQuestions.map((question) => (
           <Card>
             <CardContent>
               <CardHeader>
                 <CardTitle>{question.question}</CardTitle>
               </CardHeader>
+              <CardFooter>
+                {question.options.map((option) => (
+                  <Button className="mr-1" size={"sm"} variant={"outline"}>
+                    {option.text}
+                  </Button>
+                ))}
+              </CardFooter>
             </CardContent>
           </Card>
         ))}
       </Marquee>
       <Marquee reverse pauseOnHover className="[--duration:30000s]">
-        {questions.map((question) => (
+        {randomQuestions.map((question) => (
           <Card>
             <CardContent>
               <CardHeader>
                 <CardTitle>{question.question}</CardTitle>
               </CardHeader>
+              <CardFooter>
+                {question.options.map((option) => (
+                  <Button className="mr-1" size={"sm"} variant={"outline"}>
+                    {option.text}
+                  </Button>
+                ))}
+              </CardFooter>
             </CardContent>
           </Card>
         ))}
