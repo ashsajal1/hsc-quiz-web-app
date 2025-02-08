@@ -29,13 +29,21 @@ export default function QuestionPage() {
                     "transform-gpu dark:bg-transparent dark:backdrop-blur-md dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]"
                   )}
                 >
-                  <TextAnimate className="text-2xl font-bold" animation="slideLeft" by={"word"}>
+                  <TextAnimate
+                    className="text-2xl font-bold"
+                    animation="slideLeft"
+                    by={"word"}
+                  >
                     {q.question}
                   </TextAnimate>
 
-                  <TypingAnimation className="text-lg font-normal">
+                  <TextAnimate
+                    className="text-lg font-normal"
+                    animation="slideLeft"
+                    by={"word"}
+                  >
                     {q.answer}
-                  </TypingAnimation>
+                  </TextAnimate>
                 </figure>
               ))}
           </AnimatedList>
