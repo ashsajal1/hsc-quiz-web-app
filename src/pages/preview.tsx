@@ -6,7 +6,18 @@ export default function Preview() {
   const { questions } = useQuizStore();
   return (
     <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
-      <Marquee pauseOnHover className="[--duration:20s]">
+      <Marquee pauseOnHover className="[--duration:30000s]">
+        {questions.map((question) => (
+          <Card>
+            <CardContent>
+              <CardHeader>
+                <CardTitle>{question.question}</CardTitle>
+              </CardHeader>
+            </CardContent>
+          </Card>
+        ))}
+      </Marquee>
+      <Marquee reverse pauseOnHover className="[--duration:30000s]">
         {questions.map((question) => (
           <Card>
             <CardContent>
