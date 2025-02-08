@@ -5,7 +5,7 @@ import { useQuizStore } from "@/store/useQuizStore";
 export default function Preview() {
   const { questions } = useQuizStore();
   return (
-    <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
+    <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-background md:shadow-xl">
       <Marquee pauseOnHover className="[--duration:30000s]">
         {questions.map((question) => (
           <Card>
