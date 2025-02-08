@@ -8,6 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { useQuizStore } from "@/store/useQuizStore";
+import { CheckCheck } from "lucide-react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
 export default function Preview() {
@@ -72,6 +73,12 @@ export default function Preview() {
                         size="sm"
                         variant="outline"
                       >
+                        {option.isCorrect && showAnswer && (
+                          <CheckCheck
+                            className="h-4 w-4 mr-2"
+                            strokeWidth={"1"}
+                          />
+                        )}
                         {option.text}
                       </Button>
                     ))}
@@ -101,6 +108,12 @@ export default function Preview() {
                         size="sm"
                         variant="outline"
                       >
+                        {option.isCorrect && showAnswer && (
+                          <CheckCheck
+                            className="h-4 w-4 mr-2"
+                            strokeWidth={"1"}
+                          />
+                        )}
                         {option.text}
                       </Button>
                     ))}
