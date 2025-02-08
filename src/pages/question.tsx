@@ -1,11 +1,11 @@
 import { AnimatedList } from "@/components/magicui/animated-list";
+import { TypingAnimation } from "@/components/magicui/typing-animation";
 import questions from "@/data/cq.json";
 import { cn } from "@/lib/utils";
-
 export default function QuestionPage() {
   return (
     <div className="p-4">
-      <AnimatedList delay={5000}>
+      <AnimatedList delay={10000}>
         {questions.map((q) => (
           <figure
             className={cn(
@@ -19,7 +19,10 @@ export default function QuestionPage() {
             )}
           >
             <span className="font-bold text-xl">{q.question}</span>
-            <span className="text-lg">{q.answer}</span>
+
+            <TypingAnimation className="text-lg font-normal">
+              {q.answer}
+            </TypingAnimation>
           </figure>
         ))}
       </AnimatedList>
