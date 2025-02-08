@@ -51,7 +51,7 @@ export function McqCarousel() {
                     <span className="text-xl text-center font-semibold">
                       {question.question}
                     </span>
-                    <span className="text-green-600 font-bold text-3xl">
+                    <span className="text-green-600 font-bold text-center text-3xl">
                       {question.options.find((o) => o.isCorrect)?.text}
                     </span>
                   </div>
