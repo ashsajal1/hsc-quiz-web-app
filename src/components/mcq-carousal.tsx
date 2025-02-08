@@ -8,13 +8,16 @@ import {
 } from "@/components/ui/carousel";
 import { useQuizStore } from "@/store/useQuizStore";
 import Autoplay from "embla-carousel-autoplay";
-import { useRef } from "react";
+import { useMemo, useRef } from "react";
 
 export function McqCarousel() {
   const { questions } = useQuizStore();
-  const randomQuestions = questions
-    .filter((q) => !q.question.includes("i"))
-    .sort(() => Math.random() - 0.5);
+  const randomQuestions = useMemo(() => {
+    return questions
+      .filter((q) => !q.question.includes("i"))
+      .sort(() => Math.random() - 0.5);
+  }, [questions]);
+
   const plugin = useRef(Autoplay({ delay: 5000, stopOnInteraction: true }));
   return (
     <Carousel
