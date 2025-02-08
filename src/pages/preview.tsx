@@ -66,7 +66,9 @@ export default function Preview() {
                     {question.options.map((option) => (
                       <Button
                         key={option.id}
-                        className="mr-1"
+                        className={`mr-1 ${
+                          showAnswer && option.isCorrect ? "bg-green-600" : ""
+                        }`}
                         size="sm"
                         variant="outline"
                       >
@@ -93,7 +95,9 @@ export default function Preview() {
                     {question.options.map((option) => (
                       <Button
                         key={option.id}
-                        className="mr-1"
+                        className={`mr-1 ${
+                          showAnswer && option.isCorrect ? "bg-green-600" : ""
+                        }`}
                         size="sm"
                         variant="outline"
                       >
