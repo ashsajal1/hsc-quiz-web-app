@@ -3,6 +3,7 @@ import { TypingAnimation } from "@/components/magicui/typing-animation";
 import questions from "@/data/cq.json";
 import { cn } from "@/lib/utils";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { TextAnimate } from "@/components/magicui/text-animate";
 
 export default function QuestionPage() {
   return (
@@ -28,7 +29,9 @@ export default function QuestionPage() {
                     "transform-gpu dark:bg-transparent dark:backdrop-blur-md dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]"
                   )}
                 >
-                  <span className="font-bold text-xl">{q.question}</span>
+                  <TextAnimate className="text-2xl font-bold" animation="slideLeft" by={"word"}>
+                    {q.question}
+                  </TextAnimate>
 
                   <TypingAnimation className="text-lg font-normal">
                     {q.answer}
