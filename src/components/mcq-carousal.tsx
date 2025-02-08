@@ -9,8 +9,9 @@ import {
 import { useQuizStore } from "@/store/useQuizStore";
 import Autoplay from "embla-carousel-autoplay";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { TypingAnimation } from "./magicui/typing-animation";
+
 import { TextAnimate } from "./magicui/text-animate";
+import { SparklesText } from "./magicui/sparkles-text";
 
 export function McqCarousel() {
   const { questions } = useQuizStore();
@@ -58,9 +59,14 @@ export function McqCarousel() {
                       </TextAnimate>
                     </span>
                     <span className="text-green-600 font-bold text-center text-3xl">
-                      <TypingAnimation>
-                        {question.options.find((o) => o.isCorrect)?.text || ""}
-                      </TypingAnimation>
+                      <SparklesText
+                        sparklesCount={5}
+                        className="text-3xl font-black text-center mt-4"
+                        text={
+                          question.options.find((o) => o.isCorrect)?.text || ""
+                        }
+                        colors={{ first: "#0de560", second: "#92e50d" }}
+                      ></SparklesText>
                     </span>
                   </div>
                 </CardContent>
