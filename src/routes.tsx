@@ -12,6 +12,7 @@ import ExamPage from "./pages/exam";
 import SavedPage from "./pages/saved";
 import Preview from "./pages/preview";
 import QuestionPage from "./pages/question";
+import Puzzle from "./pages/puzzle";
 
 export const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
       {
         path: "/question/*",
         element: <QuestionPage />,
+      },
+      {
+        path: "/puzzle/*",
+        element: <Puzzle />,
       },
       {
         path: "/about",
