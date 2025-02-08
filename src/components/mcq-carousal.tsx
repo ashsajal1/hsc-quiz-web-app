@@ -14,7 +14,9 @@ export function McqCarousel() {
   const { questions } = useQuizStore();
   const randomQuestions = useMemo(() => {
     return questions
-      .filter((q) => !q.question.includes("i"))
+      .filter(
+        (q) => !["i", "ii", "iii"].some((val) => q.question.includes(val))
+      )
       .sort(() => Math.random() - 0.5);
   }, [questions]);
 
