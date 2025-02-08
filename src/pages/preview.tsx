@@ -54,52 +54,56 @@ export default function Preview() {
       <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-background md:shadow-xl">
         {/* Marquee with the current set of 10 random questions */}
         <Marquee pauseOnHover className="[--duration:100s]">
-          {displayedQuestions.map((question) => (
-            <Card key={question.id}>
-              <CardContent>
-                <CardHeader>
-                  <CardTitle>{question.question}</CardTitle>
-                </CardHeader>
-                <CardFooter>
-                  {question.options.map((option) => (
-                    <Button
-                      key={option.id}
-                      className="mr-1"
-                      size="sm"
-                      variant="outline"
-                    >
-                      {option.text}
-                    </Button>
-                  ))}
-                </CardFooter>
-              </CardContent>
-            </Card>
-          ))}
+          {displayedQuestions
+            .slice(0, Math.floor(displayedQuestions.length / 2))
+            .map((question) => (
+              <Card key={question.id}>
+                <CardContent>
+                  <CardHeader>
+                    <CardTitle>{question.question}</CardTitle>
+                  </CardHeader>
+                  <CardFooter>
+                    {question.options.map((option) => (
+                      <Button
+                        key={option.id}
+                        className="mr-1"
+                        size="sm"
+                        variant="outline"
+                      >
+                        {option.text}
+                      </Button>
+                    ))}
+                  </CardFooter>
+                </CardContent>
+              </Card>
+            ))}
         </Marquee>
 
         {/* Reverse marquee for extra effect */}
         <Marquee reverse pauseOnHover className="[--duration:100s]">
-          {displayedQuestions.map((question) => (
-            <Card key={question.id}>
-              <CardContent>
-                <CardHeader>
-                  <CardTitle>{question.question}</CardTitle>
-                </CardHeader>
-                <CardFooter>
-                  {question.options.map((option) => (
-                    <Button
-                      key={option.id}
-                      className="mr-1"
-                      size="sm"
-                      variant="outline"
-                    >
-                      {option.text}
-                    </Button>
-                  ))}
-                </CardFooter>
-              </CardContent>
-            </Card>
-          ))}
+          {displayedQuestions
+            .slice(Math.floor(displayedQuestions.length / 2))
+            .map((question) => (
+              <Card key={question.id}>
+                <CardContent>
+                  <CardHeader>
+                    <CardTitle>{question.question}</CardTitle>
+                  </CardHeader>
+                  <CardFooter>
+                    {question.options.map((option) => (
+                      <Button
+                        key={option.id}
+                        className="mr-1"
+                        size="sm"
+                        variant="outline"
+                      >
+                        {option.text}
+                      </Button>
+                    ))}
+                  </CardFooter>
+                </CardContent>
+              </Card>
+            ))}
         </Marquee>
 
         {/* Gradient overlays on the left and right */}
