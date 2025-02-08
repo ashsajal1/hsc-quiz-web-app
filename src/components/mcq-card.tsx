@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Option } from "@/lib/type";
+import { ShinyButton } from "./magicui/shiny-button";
 
 interface QuestionCardProps {
   question: {
@@ -104,9 +105,9 @@ export function McqCard({
       </CardContent>
       <CardFooter className="flex justify-end">
         {showAnswer && (
-          <Button onClick={onNextQuestion}>
+          <ShinyButton onClick={onNextQuestion}>
             {questionIndex < totalQuestions - 1 ? "Next" : "Finish"}
-          </Button>
+          </ShinyButton>
         )}
       </CardFooter>
     </Card>
