@@ -58,30 +58,32 @@ export default function Preview() {
           {displayedQuestions
             .slice(0, Math.floor(displayedQuestions.length / 2))
             .map((question) => (
-              <Card key={question.id}>
+              <Card className="w-[400px]" key={question.id}>
                 <CardContent>
                   <CardHeader>
                     <CardTitle>{question.question}</CardTitle>
                   </CardHeader>
                   <CardFooter>
-                    {question.options.map((option) => (
-                      <Button
-                        key={option.id}
-                        className={`mr-1 ${
-                          showAnswer && option.isCorrect ? "bg-green-600" : ""
-                        }`}
-                        size="sm"
-                        variant="outline"
-                      >
-                        {option.isCorrect && showAnswer && (
-                          <CheckCheck
-                            className="h-4 w-4 mr-2"
-                            strokeWidth={"1"}
-                          />
-                        )}
-                        {option.text}
-                      </Button>
-                    ))}
+                    <div className="flex flex-wrap gap-2">
+                      {question.options.map((option) => (
+                        <Button
+                          key={option.id}
+                          className={`mr-1 ${
+                            showAnswer && option.isCorrect ? "bg-green-600" : ""
+                          }`}
+                          size="sm"
+                          variant="outline"
+                        >
+                          {option.isCorrect && showAnswer && (
+                            <CheckCheck
+                              className="h-4 w-4 mr-2"
+                              strokeWidth={"1"}
+                            />
+                          )}
+                          {option.text}
+                        </Button>
+                      ))}
+                    </div>
                   </CardFooter>
                 </CardContent>
               </Card>
@@ -93,30 +95,32 @@ export default function Preview() {
           {displayedQuestions
             .slice(Math.floor(displayedQuestions.length / 2))
             .map((question) => (
-              <Card key={question.id}>
+              <Card className="w-[400px]" key={question.id}>
                 <CardContent>
                   <CardHeader>
                     <CardTitle>{question.question}</CardTitle>
                   </CardHeader>
                   <CardFooter>
-                    {question.options.map((option) => (
-                      <Button
-                        key={option.id}
-                        className={`mr-1 ${
-                          showAnswer && option.isCorrect ? "bg-green-600" : ""
-                        }`}
-                        size="sm"
-                        variant="outline"
-                      >
-                        {option.isCorrect && showAnswer && (
-                          <CheckCheck
-                            className="h-4 w-4 mr-2"
-                            strokeWidth={"1"}
-                          />
-                        )}
-                        {option.text}
-                      </Button>
-                    ))}
+                    <div className="flex flex-wrap gap-2">
+                      {question.options.map((option) => (
+                        <Button
+                          key={option.id}
+                          className={`mr-1 ${
+                            showAnswer && option.isCorrect ? "bg-green-600" : ""
+                          }`}
+                          size="sm"
+                          variant="outline"
+                        >
+                          {option.isCorrect && showAnswer && (
+                            <CheckCheck
+                              className="h-4 w-4 mr-2"
+                              strokeWidth={"1"}
+                            />
+                          )}
+                          {option.text}
+                        </Button>
+                      ))}
+                    </div>
                   </CardFooter>
                 </CardContent>
               </Card>
