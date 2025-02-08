@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Button } from "./ui/button";
+import { Card, CardContent } from "./ui/card";
 
 // Your provided data (you could also pass this as props)
 const puzzleData = {
@@ -53,69 +55,44 @@ const WordPuzzleGame: React.FC = () => {
   const isCorrect = constructedAnswer === puzzleData.answer.trim();
 
   return (
-    <div style={{ padding: "20px", fontFamily: "sans-serif" }}>
-      <h2>{puzzleData.question}</h2>
+    <div>
+      <h2 className="font-bold text-xl my-4">{puzzleData.question}</h2>
 
-      <div style={{ margin: "20px 0" }}>
+      <div>
         <h3>Your Answer:</h3>
-        <div
-          style={{
-            border: "1px solid #ccc",
-            minHeight: "50px",
-            padding: "10px",
-            marginBottom: "10px",
-            borderRadius: "4px",
-          }}
-        >
-          {selectedWords.map((word, index) => (
-            <span
-              key={index}
-              onClick={() => handleRemoveWord(index)}
-              style={{
-                marginRight: "5px",
-                cursor: "pointer",
-                padding: "5px 8px",
-                border: "1px solid #333",
-                borderRadius: "3px",
-                backgroundColor: "#f0f0f0",
-              }}
-            >
-              {word}
-            </span>
-          ))}
-        </div>
+        <Card className="mt-2">
+          <CardContent className="p-3">
+            {selectedWords.map((word, index) => (
+              <Button
+                className="mr-1 mb-1"
+                key={index}
+                onClick={() => handleRemoveWord(index)}
+              >
+                {word}
+              </Button>
+            ))}
+          </CardContent>
+        </Card>
         {isCorrect && selectedWords.length > 0 && (
           <div style={{ color: "green", fontWeight: "bold" }}>Correct!</div>
         )}
       </div>
 
-      <div>
+      <div className="my-2">
         <h3>Available Words:</h3>
-        <div
-          style={{
-            border: "1px solid #ccc",
-            minHeight: "50px",
-            padding: "10px",
-            borderRadius: "4px",
-          }}
-        >
-          {availableWords.map((word, index) => (
-            <span
-              key={index}
-              onClick={() => handleSelectWord(word, index)}
-              style={{
-                marginRight: "5px",
-                cursor: "pointer",
-                padding: "5px 8px",
-                border: "1px solid #333",
-                borderRadius: "3px",
-                backgroundColor: "#e0e0e0",
-              }}
-            >
-              {word}
-            </span>
-          ))}
-        </div>
+        <Card className="my-2">
+          <CardContent className="p-3">
+            {availableWords.map((word, index) => (
+              <Button
+                className="mr-1 mb-1"
+                key={index}
+                onClick={() => handleSelectWord(word, index)}
+              >
+                {word}
+              </Button>
+            ))}
+          </CardContent>
+        </Card>
       </div>
     </div>
   );
