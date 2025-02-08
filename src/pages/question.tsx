@@ -14,7 +14,7 @@ export default function QuestionPage() {
       </TabsList>
       <TabsContent value="জ্ঞানমূলক">
         <div className="p-4">
-          <AnimatedList delay={10000}>
+          <AnimatedList delay={5000}>
             {questions
               .filter((q) => q.type === "cognitive")
               .map((q) => (
@@ -51,7 +51,7 @@ export default function QuestionPage() {
       </TabsContent>
       <TabsContent value="অনুধাবনমূলক">
         <div className="p-4">
-          <AnimatedList delay={10000}>
+          <AnimatedList delay={15000}>
             {questions
               .filter((q) => q.type === "perceptual")
               .map((q) => (
