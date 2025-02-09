@@ -32,7 +32,7 @@ export function McqCarousel() {
       .sort(() => Math.random() - 0.5);
   }, [questions]);
 
-  const { speak } = useSpeaker();
+  const { speak, isSpeaking, stop } = useSpeaker();
 
   const getRandomTen = useCallback(() => {
     // Make a shallow copy and randomize the order
@@ -52,6 +52,9 @@ export function McqCarousel() {
   const plugin = useRef(Autoplay({ delay: 5000, stopOnInteraction: true }));
 
   useEffect(() => {
+    if (isSpeaking && mute) {
+      stop();
+    }
     displayedQuestions.forEach((question) => {
       if (!mute) {
         speak(
