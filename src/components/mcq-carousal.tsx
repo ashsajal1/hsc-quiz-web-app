@@ -57,7 +57,16 @@ export function McqCarousel() {
     >
       <CarouselContent>
         {displayedQuestions.map((question, index) => (
-          <CarouselItem onClick={() => speak(question.question)} key={index}>
+          <CarouselItem
+            onClick={() =>
+              speak(
+                `${question.question}, "উত্তর ", ${
+                  question.options.find((o) => o.isCorrect)?.text
+                }`
+              )
+            }
+            key={index}
+          >
             <div className="p-1">
               <Card>
                 <CardContent className="flex h-[180px] items-center justify-center ">
