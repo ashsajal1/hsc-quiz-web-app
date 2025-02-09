@@ -139,7 +139,7 @@ export function Quiz({ initialTopic, initialChapter, onComplete }: QuizProps) {
   ] as const;
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center mx-auto p-8 space-y-6 gap-2">
+    <div className="flex flex-col md:flex-row items-center justify-center mx-auto p-3 space-y-6 gap-2">
       {/* Topic, Chapter, and Range Selectors */}
       <div className="flex flex-col gap-2 w-full">
         <Label>Select subject and chapter.</Label>

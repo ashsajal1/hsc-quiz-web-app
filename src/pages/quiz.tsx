@@ -25,7 +25,7 @@ export default function QuizPage() {
   }, [location.search]);
 
   return (
-    <div className="container mx-auto">
+    <div className="p-1">
       <Quiz
         onComplete={handleQuizComplete}
         initialTopic={selectedTopic}
