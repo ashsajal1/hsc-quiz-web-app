@@ -4,6 +4,9 @@ const useSpeaker = () => {
   const [isSpeaking, setIsSpeaking] = useState<boolean>(false);
 
   const speak = (text: string): void => {
+    if (isSpeaking) {
+      stop();
+    }
     if (!window.speechSynthesis) {
       console.warn("Speech Synthesis not supported in this browser.");
       return;
