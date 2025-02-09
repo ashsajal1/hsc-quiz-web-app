@@ -15,14 +15,17 @@ export function McqCarousel() {
   const { questions } = useQuizStore();
   const randomQuestions = useMemo(() => {
     return questions
-      .filter(
-        (q) =>
-          !["i", "ii", "iii"].some((val) => q.question.includes(val)) ||
-          !q.question.includes("উদ্দীপক") ||
-          !q.description ||
-          !q.options.map((o) => o.text).includes("সবগুলো") ||
-          !q.options.map((o) => o.text).includes("সঠিক উত্তর")
-      )
+      .filter((q) => {
+        const optionTexts = q.options.map((o) => o.text);
+
+        return (
+          !["i", "ii", "iii"].some((val) => q.question.includes(val)) && // Exclude if question contains "i", "ii", "iii"
+          !q.question.includes("উদ্দীপক") && // Exclude if question contains "উদ্দীপক"
+          !q.description && // Ensure description not exists (null or empty)
+          !optionTexts.includes("সবগুলো") && // Exclude if an option is "সবগুলো"
+          !optionTexts.includes("সঠিক উত্তর") // Exclude if an option is "সঠিক উত্তর"
+        );
+      })
       .sort(() => Math.random() - 0.5);
   }, [questions]);
 
