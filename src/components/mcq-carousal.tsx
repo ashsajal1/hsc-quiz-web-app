@@ -19,7 +19,9 @@ export function McqCarousel() {
         (q) =>
           !["i", "ii", "iii"].some((val) => q.question.includes(val)) ||
           !q.question.includes("উদ্দীপক") ||
-          !q.description
+          !q.description ||
+          !q.options.map((o) => o.text).includes("সবগুলো") ||
+          !q.options.map((o) => o.text).includes("সঠিক উত্তর")
       )
       .sort(() => Math.random() - 0.5);
   }, [questions]);
