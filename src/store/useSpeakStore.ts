@@ -11,41 +11,51 @@ interface SpeakStore {
   toggleMute: () => void; // Action to toggle mute
 }
 
-const useSpeakStore = create<SpeakStore>((set) => ({
-  language: "en", // Default language is English
-  isSpeaking: false,
-  mute: false, // Default mute state is false (not muted)
-  speechSynthesis: null,
+const useSpeakStore = create<SpeakStore>((set) => {
+  // Initialize mute state from localStorage if available
+  const storedMute = localStorage.getItem("mute");
+  const initialMuteState = storedMute !== null ? JSON.parse(storedMute) : false;
 
-  setLanguage: (lang: string) => set({ language: lang }),
+  return {
+    language: "en", // Default language is English
+    isSpeaking: false,
+    mute: initialMuteState, // Initialize mute state from localStorage
+    speechSynthesis: null,
 
-  toggleSpeech: (text: string) => {
-    set((state) => {
-      if (state.mute) return { isSpeaking: false }; // Don't speak if muted
+    setLanguage: (lang: string) => set({ language: lang }),
 
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = state.language;
+    toggleSpeech: (text: string) => {
+      set((state) => {
+        if (state.mute) return { isSpeaking: false }; // Don't speak if muted
 
-      if (state.isSpeaking) {
-        window.speechSynthesis.cancel(); // Stop current speech
-        return { isSpeaking: false, speechSynthesis: null };
-      } else {
-        window.speechSynthesis.speak(utterance); // Start speaking
-        utterance.onend = () =>
-          set({ isSpeaking: false, speechSynthesis: null });
-        return { isSpeaking: true, speechSynthesis: utterance };
-      }
-    });
-  },
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = state.language;
 
-  stopSpeech: () => {
-    window.speechSynthesis.cancel(); // Stop the speech
-    set({ isSpeaking: false, speechSynthesis: null });
-  },
+        if (state.isSpeaking) {
+          window.speechSynthesis.cancel(); // Stop current speech
+          return { isSpeaking: false, speechSynthesis: null };
+        } else {
+          window.speechSynthesis.speak(utterance); // Start speaking
+          utterance.onend = () =>
+            set({ isSpeaking: false, speechSynthesis: null });
+          return { isSpeaking: true, speechSynthesis: utterance };
+        }
+      });
+    },
 
-  toggleMute: () => {
-    set((state: { mute: boolean }) => ({ mute: !state.mute }));
-  },
-}));
+    stopSpeech: () => {
+      window.speechSynthesis.cancel(); // Stop the speech
+      set({ isSpeaking: false, speechSynthesis: null });
+    },
+
+    toggleMute: () => {
+      set((state) => {
+        const newMuteState = !state.mute;
+        localStorage.setItem("mute", JSON.stringify(newMuteState)); // Save mute state to localStorage
+        return { mute: newMuteState };
+      });
+    },
+  };
+});
 
 export default useSpeakStore;
