@@ -19,7 +19,7 @@ const useSpeaker = () => {
     utterance.onstart = () => setIsSpeaking(true);
     utterance.onend = () => setIsSpeaking(false);
 
-    utterance.lang = "bn-IN";
+    utterance.lang = "bn-BD";
     utterance.voice = bengaliVoice || voices[0]; // Use default if no Bengali voice found
 
     window.speechSynthesis.speak(utterance);
