@@ -16,7 +16,10 @@ export function McqCarousel() {
   const randomQuestions = useMemo(() => {
     return questions
       .filter(
-        (q) => !["i", "ii", "iii"].some((val) => q.question.includes(val))
+        (q) =>
+          !["i", "ii", "iii"].some((val) => q.question.includes(val)) ||
+          !q.question.includes("উদ্দীপক") ||
+          !q.description
       )
       .sort(() => Math.random() - 0.5);
   }, [questions]);
