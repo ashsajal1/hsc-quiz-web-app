@@ -42,7 +42,11 @@ export function McqCard({
   return (
     <Card
       className={`w-full mx-auto ${
-        showAnswer ? (isCorrect ? "border border-green-600" : "border border-red-600") : ""
+        showAnswer
+          ? isCorrect
+            ? "border border-green-600"
+            : "border border-red-600"
+          : ""
       }`}
     >
       <CardHeader>
@@ -83,7 +87,7 @@ export function McqCard({
                   ? "link"
                   : "outline"
               }
-              className={`w-full text-black dark:text-white text-left ${
+              className={`w-full text-wrap text-black dark:text-white text-left ${
                 selectedOptionId === option.id && showAnswer
                   ? isCorrect
                     ? "bg-green-500 text-white"
