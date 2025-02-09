@@ -10,6 +10,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import { TextAnimate } from "./magicui/text-animate";
 import { SparklesText } from "./magicui/sparkles-text";
+import useSpeaker from "@/hooks/useSpeaker";
 
 export function McqCarousel() {
   const { questions } = useQuizStore();
@@ -28,6 +29,8 @@ export function McqCarousel() {
       })
       .sort(() => Math.random() - 0.5);
   }, [questions]);
+
+  const { speak } = useSpeaker();
 
   const getRandomTen = useCallback(() => {
     // Make a shallow copy and randomize the order
@@ -54,7 +57,7 @@ export function McqCarousel() {
     >
       <CarouselContent>
         {displayedQuestions.map((question, index) => (
-          <CarouselItem key={index}>
+          <CarouselItem onClick={() => speak(question.question)} key={index}>
             <div className="p-1">
               <Card>
                 <CardContent className="flex h-[180px] items-center justify-center ">
