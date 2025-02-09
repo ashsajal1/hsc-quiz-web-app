@@ -11,8 +11,10 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { TextAnimate } from "./magicui/text-animate";
 import { SparklesText } from "./magicui/sparkles-text";
 import useSpeaker from "@/hooks/useSpeaker";
+import useSpeakStore from "@/store/useSpeakStore";
 
 export function McqCarousel() {
+  const { mute } = useSpeakStore();
   const { questions } = useQuizStore();
   const randomQuestions = useMemo(() => {
     return questions
@@ -51,14 +53,16 @@ export function McqCarousel() {
 
   useEffect(() => {
     displayedQuestions.forEach((question) => {
-      speak(
-        `${question.question}, "উত্তর ", ${
-          question.options.find((o) => o.isCorrect)?.text
-        }`
-      );
+      if (!mute) {
+        speak(
+          `${question.question}, "উত্তর ", ${
+            question.options.find((o) => o.isCorrect)?.text
+          }`
+        );
+      }
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [displayedQuestions]);
+  }, [displayedQuestions, mute]);
 
   return (
     <Carousel
@@ -70,13 +74,15 @@ export function McqCarousel() {
       <CarouselContent>
         {displayedQuestions.map((question, index) => (
           <CarouselItem
-            onClick={() =>
-              speak(
-                `${question.question}, "উত্তর ", ${
-                  question.options.find((o) => o.isCorrect)?.text
-                }`
-              )
-            }
+            onClick={() => {
+              if (!mute) {
+                speak(
+                  `${question.question}, "উত্তর ", ${
+                    question.options.find((o) => o.isCorrect)?.text
+                  }`
+                );
+              }
+            }}
             key={index}
           >
             <div className="p-1">
