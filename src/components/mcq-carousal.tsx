@@ -48,6 +48,18 @@ export function McqCarousel() {
   }, [questions, getRandomTen]);
 
   const plugin = useRef(Autoplay({ delay: 5000, stopOnInteraction: true }));
+
+  useEffect(() => {
+    displayedQuestions.forEach((question) => {
+      speak(
+        `${question.question}, "উত্তর ", ${
+          question.options.find((o) => o.isCorrect)?.text
+        }`
+      );
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [displayedQuestions]);
+
   return (
     <Carousel
       plugins={[plugin.current]}
