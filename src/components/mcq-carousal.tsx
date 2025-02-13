@@ -32,7 +32,7 @@ export function McqCarousel() {
       .sort(() => Math.random() - 0.5);
   }, [questions]);
 
-  const { speak, isSpeaking, stop } = useSpeaker();
+  const { speak } = useSpeaker();
 
   const getRandomTen = useCallback(() => {
     // Make a shallow copy and randomize the order
@@ -50,22 +50,6 @@ export function McqCarousel() {
   }, [questions, getRandomTen]);
 
   const plugin = useRef(Autoplay({ delay: 5000, stopOnInteraction: true }));
-
-  useEffect(() => {
-    if (isSpeaking && mute) {
-      stop();
-    }
-    displayedQuestions.forEach((question) => {
-      if (!mute) {
-        speak(
-          `${question.question}, "উত্তর ", ${
-            question.options.find((o) => o.isCorrect)?.text
-          }`
-        );
-      }
-    });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [displayedQuestions, mute]);
 
   return (
     <Carousel
