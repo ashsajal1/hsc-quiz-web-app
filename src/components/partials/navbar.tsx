@@ -5,7 +5,6 @@ import Text from "../custom-ui/text";
 import SideNav from "./side-nav";
 import { ModeToggle } from "../mode-toggle";
 import { Button } from "../ui/button";
-import useSpeakStore from "@/store/useSpeakStore";
 import useSpeaker from "@/hooks/useSpeaker";
 
 export default function Navbar() {
@@ -34,7 +33,6 @@ export default function Navbar() {
     }
   };
 
-  const { toggleMute, mute } = useSpeakStore();
   const { stop } = useSpeaker();
   return (
     <>
@@ -50,8 +48,6 @@ export default function Navbar() {
         </Link>
 
         <div className="flex items-center gap-2">
-          <Button onClick={toggleMute}>{mute ? "🔇" : "🔊"}</Button>
-
           <Link to={"/saved"}>
             <Button variant={"link"}>Saved</Button>
           </Link>
