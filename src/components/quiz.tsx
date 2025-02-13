@@ -99,8 +99,9 @@ export function Quiz({ initialTopic, initialChapter, onComplete }: QuizProps) {
 
   // Handle when a user clicks on an option.
   const handleOptionClick = (option: Option) => {
+    // Prevent multiple selections if answer already revealed.
+    if (showAnswer) return;
     setSelectedOptionId(option.id);
-    if (showAnswer) return; // Prevent multiple selections
     if (option.isCorrect) {
       setIsCorrect(true);
       setScore((prev) => prev + 1);
@@ -129,6 +130,13 @@ export function Quiz({ initialTopic, initialChapter, onComplete }: QuizProps) {
       setCurrentQuestionIndex(0);
       setScore(0);
     }
+  };
+
+  // Handler for "See Answer" button click.
+  const handleSeeAnswer = () => {
+    // If the user hasn't selected an option, we simply reveal the correct answer.
+    // (Assuming McqCard will iterate over currentQuestion.options to highlight the correct one.)
+    setShowAnswer(true);
   };
 
   const selectedRanges = [
@@ -212,21 +220,56 @@ export function Quiz({ initialTopic, initialChapter, onComplete }: QuizProps) {
       </div>
 
       {/* Quiz Card */}
-      {selectedQuestions.length > 0 && currentQuestion ? (
-        <McqCard
-          question={currentQuestion}
-          questionIndex={currentQuestionIndex}
-          totalQuestions={filteredQuestions.length}
-          score={score}
-          selectedOptionId={selectedOptionId}
-          showAnswer={showAnswer}
-          isCorrect={isCorrect}
-          onOptionClick={handleOptionClick}
-          onNextQuestion={handleNextQuestion}
-        />
-      ) : (
-        <p>No questions found for the selected topic and chapter.</p>
-      )}
+      <div className="w-full">
+        {selectedQuestions.length > 0 && currentQuestion ? (
+          <>
+            <McqCard
+              question={currentQuestion}
+              questionIndex={currentQuestionIndex}
+              totalQuestions={filteredQuestions.length}
+              score={score}
+              selectedOptionId={selectedOptionId}
+              showAnswer={showAnswer}
+              isCorrect={isCorrect}
+              onOptionClick={handleOptionClick}
+              onNextQuestion={handleNextQuestion}
+            />
+
+            {/* "See Answer" button appears only if the user hasn't answered yet */}
+            {!showAnswer && selectedOptionId === null && (
+              <div className="mt-2">
+                <Button onClick={handleSeeAnswer}>See Answer</Button>
+              </div>
+            )}
+          </>
+        ) : (
+          <p>No questions found for the selected topic and chapter.</p>
+        )}
+
+        {/* Navigation row: display all questions as numbered buttons */}
+        {selectedQuestions.length > 0 && (
+          <div className="flex gap-2 overflow-x-auto mt-4">
+            {selectedQuestions.map((q, index) => (
+              <Button
+                key={q.id}
+                variant={
+                  currentQuestionIndex === index ? "default" : "secondary"
+                }
+                size="sm"
+                onClick={() => {
+                  setCurrentQuestionIndex(index);
+                  // Reset answer state when navigating manually.
+                  setSelectedOptionId(null);
+                  setIsCorrect(null);
+                  setShowAnswer(false);
+                }}
+              >
+                {index + 1}
+              </Button>
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }
