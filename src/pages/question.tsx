@@ -4,8 +4,20 @@ import questions from "@/data/cq.json";
 import { cn } from "@/lib/utils";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { TextAnimate } from "@/components/magicui/text-animate";
+import { Volume2, VolumeXIcon } from "lucide-react";
+import useSpeaker from "@/hooks/useSpeaker";
 
 export default function QuestionPage() {
+  const { speak, isSpeaking, stop } = useSpeaker();
+  function handleSpeak(answer: string): void {
+    if (isSpeaking) {
+      stop();
+      return;
+    }
+
+    speak(answer);
+  }
+
   return (
     <Tabs defaultValue="জ্ঞানমূলক" className="w-full">
       <TabsList className="grid w-full grid-cols-2">
@@ -66,8 +78,14 @@ export default function QuestionPage() {
                     "transform-gpu dark:bg-transparent dark:backdrop-blur-md dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]"
                   )}
                 >
-                  <span className="font-bold text-xl">{q.question}</span>
-
+                  <div className="flex items-center gap-2">
+                    <span className="font-bold text-xl">{q.question}</span>
+                    {isSpeaking ? (
+                      <VolumeXIcon onClick={stop} />
+                    ) : (
+                      <Volume2 onClick={() => handleSpeak(q.answer)} />
+                    )}
+                  </div>
                   <TypingAnimation className="text-lg font-normal">
                     {q.answer}
                   </TypingAnimation>
