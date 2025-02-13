@@ -53,7 +53,7 @@ export function McqCard({
         <CardTitle>
           <div className="flex justify-between items-center">
             <span>
-              Question {questionIndex + 1} of {totalQuestions}
+              {questionIndex + 1} of {totalQuestions}
             </span>
             <span>Score: {score}</span>
           </div>
