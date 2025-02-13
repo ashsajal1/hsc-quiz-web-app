@@ -41,18 +41,15 @@ export default function QuestionPage() {
                     "transform-gpu dark:bg-transparent dark:backdrop-blur-md dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]"
                   )}
                 >
-                  <TextAnimate
-                    className="text-2xl font-bold"
-                    animation="slideLeft"
-                    by={"word"}
-                  >
+                  <p className="text-2xl font-bold text-transparent bg-gradient-to-br from-green-400 via-blue-500 to-green-700 bg-clip-text">
                     {q.question}
-                  </TextAnimate>
+                  </p>
 
                   <TextAnimate
                     className="text-lg font-normal"
                     animation="slideLeft"
                     by={"word"}
+                    segmentClassName="text-transparent bg-gradient-to-br from-green-300 via-green-500 to-green-700 bg-clip-text"
                   >
                     {q.answer}
                   </TextAnimate>
@@ -86,7 +83,7 @@ export default function QuestionPage() {
                       <Volume2 onClick={() => handleSpeak(q.answer)} />
                     )}
                   </div>
-                  <TypingAnimation className="text-lg font-normal">
+                  <TypingAnimation className="text-lg font-normal text-transparent bg-gradient-to-br from-green-400 via-blue-500 to-green-700 bg-clip-text">
                     {q.answer}
                   </TypingAnimation>
                 </figure>
