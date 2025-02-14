@@ -74,7 +74,7 @@ export function McqCard({
             </React.Fragment>
           ))}
         </p>
-        <div className="space-y-2">
+        <div className="gap-2 grid md:grid-cols-2">
           {question.options.map((option: Option) => (
             <Button
               disabled={selectedOptionId !== option.id && showAnswer}
