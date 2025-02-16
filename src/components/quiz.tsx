@@ -269,6 +269,28 @@ export function Quiz({ initialTopic, initialChapter, onComplete }: QuizProps) {
             ))}
           </div>
         )}
+        {selectedQuestions.length > 0 && (
+          <div className="flex flex-wrap gap-2 overflow-x-auto mt-4">
+            {selectedQuestions.map((q, index) => (
+              <Button
+                key={q.id}
+                variant={
+                  currentQuestionIndex === index ? "default" : "secondary"
+                }
+                size="sm"
+                onClick={() => {
+                  setCurrentQuestionIndex(index);
+                  // Reset answer state when navigating manually.
+                  setSelectedOptionId(null);
+                  setIsCorrect(null);
+                  setShowAnswer(false);
+                }}
+              >
+                {index + 1}
+              </Button>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
