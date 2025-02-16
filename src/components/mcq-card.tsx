@@ -93,7 +93,7 @@ export function McqCard({
                     ? "bg-green-500 text-white"
                     : "bg-red-500 text-white"
                   : ""
-              } ${option.isCorrect && showAnswer ? "bg-green-500" : ""}`}
+              } ${option.isCorrect && showAnswer ? "bg-green-500 text-white" : ""}`}
             >
               {option.text}
             </Button>
