@@ -5,10 +5,10 @@ import { cn } from "@/lib/utils";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { TextAnimate } from "@/components/magicui/text-animate";
 import { Volume2, VolumeXIcon } from "lucide-react";
-import useSpeaker from "@/hooks/useSpeaker";
+import { useSpeakerStore } from "@/store/useSpeakerStore";
 
 export default function QuestionPage() {
-  const { speak, isSpeaking, stop } = useSpeaker();
+  const { speak, isSpeaking, stop } = useSpeakerStore();
   function handleSpeak(answer: string): void {
     if (isSpeaking) {
       stop();

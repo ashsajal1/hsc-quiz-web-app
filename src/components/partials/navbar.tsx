@@ -5,7 +5,7 @@ import Text from "../custom-ui/text";
 import SideNav from "./side-nav";
 import { ModeToggle } from "../mode-toggle";
 import { Button } from "../ui/button";
-import useSpeaker from "@/hooks/useSpeaker";
+import { useSpeakerStore } from "@/store/useSpeakerStore";
 
 export default function Navbar() {
   const [scrollY, setScrollY] = useState(0);
@@ -33,7 +33,7 @@ export default function Navbar() {
     }
   };
 
-  const { stop } = useSpeaker();
+  const { stop } = useSpeakerStore();
   return (
     <>
       <SideNav handleClose={toggleOpen} isOpen={isOpen} />
