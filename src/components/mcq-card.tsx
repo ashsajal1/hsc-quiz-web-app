@@ -77,7 +77,7 @@ export function McqCard({
         <div className="gap-2 grid md:grid-cols-2">
           {question.options.map((option: Option) => (
             <Button
-              disabled={selectedOptionId !== option.id && showAnswer}
+              disabled={selectedOptionId !== option.id && showAnswer && !option.isCorrect}
               key={option.id}
               onClick={() => onOptionClick(option)}
               variant={
