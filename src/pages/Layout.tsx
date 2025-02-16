@@ -17,7 +17,7 @@ export default function RootLayout() {
         {isSpeaking ? (
           <VolumeX onClick={stop} strokeWidth={"1"} className="h-6 w-6" />
         ) : (
-          <Volume2 strokeWidth={"1"} className="h-6 w-6" />
+          <Volume2 onClick={stop} strokeWidth={"1"} className="h-6 w-6" />
         )}
       </Button>
       <Footer />
