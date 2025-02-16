@@ -138,10 +138,12 @@ const ExamInProgress: React.FC<ExamInProgressProps> = ({
         <p>Subject: {subject}</p>
         <p>Chapter: {chapter}</p>
       </div>
-      <Progress value={(timeLeft / examDuration) * 100} />
-      <p>
-        Time Left: {Math.floor(timeLeft / 60)}:{timeLeft % 60}s
-      </p>
+      <div className="sticky top-20 p-3 flex flex-col gap-2 bg-opacity-90 dark:bg-opacity-90 backdrop-blur">
+        <Progress value={(timeLeft / examDuration) * 100} />
+        <p>
+          Time Left: {Math.floor(timeLeft / 60)}:{timeLeft % 60}s
+        </p>
+      </div>
       {examQuestions.map((q, index) => (
         <Card key={q.id} className="p-4 space-y-2">
           <p className="font-medium">
