@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/select";
 import { Progress } from "@/components/ui/progress";
 import { cn, shuffleArray } from "@/lib/utils"; // Utility to shuffle array
-import { Option, Questions } from "@/lib/type";
+import { Option, Question, Questions } from "@/lib/type";
 import { useQuizStore } from "@/store/useQuizStore";
 import { Bookmark, BookmarkCheck } from "lucide-react";
 import { ExamProps } from "./saved";
@@ -41,6 +41,30 @@ const ExamSetup: React.FC<ExamSetupProps> = ({
   chaptersForSelectedSubject,
   startExam,
 }) => {
+  // Function to create and start a random exam
+  const handleRandomExam = () => {
+    // Create a map for unique subject-chapter pairs
+    const uniqueExamsMap = new Map<
+      string,
+      { subject: string; chapter: string }
+    >();
+    questionsData.forEach((q: Question) => {
+      const key = `${q.subject}-${q.chapter}`;
+      if (!uniqueExamsMap.has(key)) {
+        uniqueExamsMap.set(key, { subject: q.subject, chapter: q.chapter });
+      }
+    });
+    const uniqueExams = Array.from(uniqueExamsMap.values());
+
+    // Pick a random exam from the unique pairs
+    const randomExam =
+      uniqueExams[Math.floor(Math.random() * uniqueExams.length)];
+
+    // Set the subject and chapter and start the exam
+    setSubject(randomExam.subject);
+    setChapter(randomExam.chapter);
+  };
+
   return (
     <div className="space-y-4">
       <h1 className="text-2xl font-bold">Start Your Exam</h1>
@@ -71,13 +95,18 @@ const ExamSetup: React.FC<ExamSetupProps> = ({
         </SelectContent>
       </Select>
 
-      <Button onClick={startExam} disabled={!subject || !chapter}>
-        Start Exam
-      </Button>
+      <div className="flex gap-2 items-center">
+        <Button onClick={startExam} disabled={!subject || !chapter}>
+          Start Exam
+        </Button>
+
+        <Button variant="outline" onClick={handleRandomExam}>
+          Try a Random Exam
+        </Button>
+      </div>
     </div>
   );
 };
-
 // ----------------------------------------------------
 // ExamInProgress Component
 // ----------------------------------------------------
