@@ -20,3 +20,14 @@ export interface Question {
 
 // Define the type for an array of questions
 export type Questions = Question[];
+
+export interface CQ {
+  id: number;
+  subject: string;
+  question: string;
+  chapter: string;
+  answer: string;
+  type: string;
+}
+
+export type CQs = CQ[];
