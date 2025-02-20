@@ -13,6 +13,7 @@ import SavedPage from "./pages/saved";
 import Preview from "./pages/preview";
 import QuestionPage from "./pages/question";
 import Puzzle from "./pages/puzzle";
+import Practice from "./pages/practice";
 
 export const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ export const router = createBrowserRouter([
       {
         path: "/puzzle/*",
         element: <Puzzle />,
+      },
+      {
+        path: "/practice/*",
+        element: <Practice />,
       },
       {
         path: "/about",
