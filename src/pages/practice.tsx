@@ -6,6 +6,14 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Textarea } from "@/components/ui/textarea";
 
 export default function Practice() {
   const {
@@ -74,17 +82,19 @@ export default function Practice() {
         </div>
       </div>
       {/* Display Practice Questions */}
-      <div>
+      <div className="flex flex-col gap-2">
         <h2 className="text-xl font-semibold mb-4">Questions</h2>
         {filteredQuestions.length > 0 ? (
           filteredQuestions.map((q) => (
-            <div
-              key={q.id}
-              className="mb-4 border border-gray-300 p-4 rounded-md"
-            >
-              <p className="font-bold">{q.question}</p>
-              <p>{q.answer}</p>
-            </div>
+            <Card key={q.id}>
+              <CardHeader>
+                <CardTitle>{q.question}</CardTitle>
+                <CardDescription>{q.answer}</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Textarea placeholder={"Enter your answer..."} lang="bn" />
+              </CardContent>
+            </Card>
           ))
         ) : (
           <p>No questions available for this selection.</p>
