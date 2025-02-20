@@ -92,7 +92,11 @@ export default function Practice() {
                 <CardDescription>{q.answer}</CardDescription>
               </CardHeader>
               <CardContent>
-                <Textarea placeholder={"Enter your answer..."} lang="bn" />
+                <Textarea
+                  placeholder={"Enter your answer..."}
+                  inputMode="none"
+                  lang="bn"
+                />
               </CardContent>
             </Card>
           ))
