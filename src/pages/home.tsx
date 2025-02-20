@@ -10,7 +10,7 @@ export default function Home() {
       <McqCarousel />
       <div className="rounded p-2">
         <h1 className="font-bold text-2xl block">Explore pages</h1>
-        <div className="mt-3 flex items-center gap-2">
+        <div className="mt-3 md:flex md:items-center grid grid-cols-2 gap-2">
           <Link to={"/preview"}>
             <ShinyButton>Preview MCQs</ShinyButton>
           </Link>
@@ -19,6 +19,9 @@ export default function Home() {
           </Link>
           <Link to={"/puzzle"}>
             <ShinyButton>Puzzle game</ShinyButton>
+          </Link>
+          <Link to={"/practice"}>
+            <ShinyButton>Practice</ShinyButton>
           </Link>
         </div>
       </div>
