@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import questionsJson from "../data/questions.json";
+import questionsJson from "../data/cq.json";
 import { CQs } from "@/lib/type";
 
 // Parse questions and filter out only those with type "cognitive"
