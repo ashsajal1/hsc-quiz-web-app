@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Shuffle, RotateCcw, CheckCircle2, HelpCircle } from "lucide-react";
+import { Shuffle, RotateCcw, CheckCircle2, HelpCircle, Eye } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { formula } from "@/lib/formula";
 import 'katex/dist/katex.min.css';
@@ -20,6 +20,8 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
   const [score, setScore] = useState(0);
   const [gameOver, setGameOver] = useState(false);
   const [showHint, setShowHint] = useState<string | null>(null);
+  const [showAnswer, setShowAnswer] = useState<string | null>(null);
+  const [answerCooldown, setAnswerCooldown] = useState<number>(0);
 
   useEffect(() => {
     // Filter formulas by chapter if provided
@@ -28,6 +30,16 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
       : formula;
     setFormulas(filteredFormulas);
   }, [chapter]);
+
+  useEffect(() => {
+    let timer: NodeJS.Timeout;
+    if (answerCooldown > 0) {
+      timer = setInterval(() => {
+        setAnswerCooldown(prev => prev - 1);
+      }, 1000);
+    }
+    return () => clearInterval(timer);
+  }, [answerCooldown]);
 
   const scrambleWord = (word: string) => {
     // Split the formula into parts (variables, operators, etc.)
@@ -44,6 +56,8 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
     setScore(0);
     setGameOver(false);
     setShowHint(null);
+    setShowAnswer(null);
+    setAnswerCooldown(0);
   };
 
   useEffect(() => {
@@ -80,6 +94,12 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
 
   const toggleHint = (formulaIndex: number) => {
     setShowHint(showHint === formulas[formulaIndex].formula ? null : formulas[formulaIndex].formula);
+  };
+
+  const toggleAnswer = (formulaIndex: number) => {
+    if (answerCooldown > 0) return;
+    setShowAnswer(showAnswer === formulas[formulaIndex].formula ? null : formulas[formulaIndex].formula);
+    setAnswerCooldown(30); // 30 seconds cooldown
   };
 
   const renderFormula = (formula: string) => {
@@ -144,17 +164,42 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
               <div className="text-sm font-medium">
                 {formulas[formulaIndex].name}
               </div>
-              <button
-                onClick={() => toggleHint(formulaIndex)}
-                className="p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full"
-              >
-                <HelpCircle className="h-4 w-4 text-gray-500" />
-              </button>
+              <div className="flex gap-2">
+                <button
+                  onClick={() => toggleHint(formulaIndex)}
+                  className="p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full"
+                >
+                  <HelpCircle className="h-4 w-4 text-gray-500" />
+                </button>
+                <button
+                  onClick={() => toggleAnswer(formulaIndex)}
+                  disabled={answerCooldown > 0}
+                  className={`p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full ${
+                    answerCooldown > 0 ? 'opacity-50 cursor-not-allowed' : ''
+                  }`}
+                >
+                  <Eye className="h-4 w-4 text-gray-500" />
+                </button>
+              </div>
             </div>
             
             {showHint === formulas[formulaIndex].formula && (
               <div className="mb-3 p-2 bg-blue-50 dark:bg-blue-900/20 rounded text-sm text-gray-700 dark:text-gray-300">
                 {formulas[formulaIndex].description}
+              </div>
+            )}
+
+            {showAnswer === formulas[formulaIndex].formula && (
+              <div className="mb-3 p-2 bg-yellow-50 dark:bg-yellow-900/20 rounded">
+                <div 
+                  className="text-sm font-mono"
+                  dangerouslySetInnerHTML={{ __html: renderFormula(formulas[formulaIndex].formula) }}
+                />
+                {answerCooldown > 0 && (
+                  <p className="text-xs text-gray-500 mt-1">
+                    Answer will be hidden in {answerCooldown}s
+                  </p>
+                )}
               </div>
             )}
 
