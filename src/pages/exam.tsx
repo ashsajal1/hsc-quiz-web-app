@@ -14,8 +14,28 @@ import { Progress } from "@/components/ui/progress";
 import { cn, shuffleArray } from "@/lib/utils"; // Utility to shuffle array
 import { Option, Question, Questions } from "@/lib/type";
 import { useQuizStore } from "@/store/useQuizStore";
-import { Bookmark, BookmarkCheck } from "lucide-react";
+import {
+  Bookmark,
+  BookmarkCheck,
+  Clock,
+  AlertCircle,
+  CheckCircle2,
+  XCircle,
+} from "lucide-react";
 import { ExamProps } from "./saved";
+import { motion, AnimatePresence } from "framer-motion";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
+import { Badge } from "@/components/ui/badge";
 
 const EXAM_DURATION = 10 * 60; // 10 minutes in seconds
 
@@ -131,54 +151,155 @@ const ExamInProgress: React.FC<ExamInProgressProps> = ({
   timeLeft,
   examDuration,
 }) => {
+  const [showTimerWarning, setShowTimerWarning] = useState(false);
+
+  useEffect(() => {
+    if (timeLeft <= 60) {
+      setShowTimerWarning(true);
+    } else {
+      setShowTimerWarning(false);
+    }
+  }, [timeLeft]);
+
+  const answeredCount = Object.keys(selectedAnswers).length;
+  const progress = (answeredCount / examQuestions.length) * 100;
+
   return (
-    <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <h1 className="text-xl font-bold">Exam</h1>
-        <p>Subject: {subject}</p>
-        <p>Chapter: {chapter}</p>
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="space-y-6"
+    >
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div className="space-y-1">
+          <h1 className="text-2xl font-bold">Exam in Progress</h1>
+          <div className="flex flex-wrap gap-2">
+            <Badge variant="outline" className="text-sm">
+              Subject: {subject}
+            </Badge>
+            <Badge variant="outline" className="text-sm">
+              Chapter: {chapter}
+            </Badge>
+          </div>
+        </div>
+        <div className="flex items-center gap-2">
+          <Badge variant="secondary" className="text-sm">
+            {answeredCount}/{examQuestions.length} Answered
+          </Badge>
+        </div>
       </div>
-      <div className="sticky top-20 p-3 flex flex-col gap-2 bg-opacity-90 dark:bg-opacity-90 backdrop-blur">
-        <Progress value={(timeLeft / examDuration) * 100} />
-        <p>
-          Time Left: {Math.floor(timeLeft / 60)}:{timeLeft % 60}s
-        </p>
-      </div>
-      {examQuestions.map((q, index) => (
-        <Card key={q.id} className="p-4 space-y-2">
-          <p className="font-medium">
-            {q.description && (
-              <>
-                <p>{q.description}</p>
-                <br />
-              </>
-            )}
-            {index + 1}.{" "}
-            <span className="mb-4 font-semibold">
-              {q.question.split("\n").map((line, idx) => (
-                <Fragment key={idx}>
-                  {line}
-                  <br />
-                </Fragment>
-              ))}
+
+      <div className="sticky top-20 p-4 flex flex-col gap-3 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border rounded-lg shadow-sm">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <Clock className="h-5 w-5" />
+            <span className="font-medium">
+              {Math.floor(timeLeft / 60)}:
+              {(timeLeft % 60).toString().padStart(2, "0")}
             </span>
-          </p>
-          {q.options.map((option: Option) => (
-            <Button
-              key={option.id}
-              variant={
-                selectedAnswers[q.id] === option.id ? "default" : "outline"
-              }
-              onClick={() => handleAnswerSelect(q.id, option.id)}
-              className="w-full text-left"
+          </div>
+          <div className="flex items-center gap-2">
+            <Progress
+              value={(timeLeft / examDuration) * 100}
+              className="w-[200px]"
+            />
+          </div>
+        </div>
+        <AnimatePresence>
+          {showTimerWarning && (
+            <motion.div
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="flex items-center gap-2 text-red-500 text-sm"
             >
-              {option.text}
+              <AlertCircle className="h-4 w-4" />
+              Less than 1 minute remaining!
+            </motion.div>
+          )}
+        </AnimatePresence>
+        <Progress value={progress} className="w-full" />
+      </div>
+
+      <div className="space-y-4">
+        {examQuestions.map((q, index) => (
+          <motion.div
+            key={q.id}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: index * 0.1 }}
+          >
+            <Card className="p-6 space-y-4 hover:shadow-md transition-shadow">
+              <div className="space-y-2">
+                <div className="flex items-start gap-2">
+                  <Badge variant="secondary" className="mt-1">
+                    {index + 1}
+                  </Badge>
+                  <div className="space-y-2">
+                    {q.description && (
+                      <p className="text-muted-foreground">{q.description}</p>
+                    )}
+                    <p className="font-medium">
+                      {q.question.split("\n").map((line, idx) => (
+                        <Fragment key={idx}>
+                          {line}
+                          <br />
+                        </Fragment>
+                      ))}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="grid gap-2">
+                {q.options.map((option: Option) => (
+                  <Button
+                    key={option.id}
+                    variant={
+                      selectedAnswers[q.id] === option.id
+                        ? "default"
+                        : "outline"
+                    }
+                    onClick={() => handleAnswerSelect(q.id, option.id)}
+                    className="w-full justify-start text-left h-auto py-3 px-4"
+                  >
+                    {option.text}
+                  </Button>
+                ))}
+              </div>
+            </Card>
+          </motion.div>
+        ))}
+      </div>
+
+      <div className="sticky bottom-4 flex justify-end">
+        <AlertDialog>
+          <AlertDialogTrigger asChild>
+            <Button size="lg" className="shadow-lg">
+              Submit Exam
             </Button>
-          ))}
-        </Card>
-      ))}
-      <Button onClick={finishExam}>Submit Exam</Button>
-    </div>
+          </AlertDialogTrigger>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle>Submit Exam?</AlertDialogTitle>
+              <AlertDialogDescription>
+                You have answered {answeredCount} out of {examQuestions.length}{" "}
+                questions.
+                {answeredCount < examQuestions.length && (
+                  <p className="text-red-500 mt-2">
+                    You still have {examQuestions.length - answeredCount}{" "}
+                    unanswered questions.
+                  </p>
+                )}
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Continue Exam</AlertDialogCancel>
+              <AlertDialogAction onClick={finishExam}>Submit</AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
+      </div>
+    </motion.div>
   );
 };
 
@@ -201,11 +322,9 @@ const ExamReview: React.FC<ExamReviewProps> = ({
   restartSameExam,
 }) => {
   const [isSaved, setIsSaved] = useState(false);
-  const handleSaveExam = () => {
-    // Retrieve savedExams from localStorage, defaulting to an empty array if not present.
-    const savedExams = JSON.parse(localStorage.getItem("savedExams") ?? "[]");
 
-    // Create a new exam object. Use savedExams.length to determine the new ID.
+  const handleSaveExam = () => {
+    const savedExams = JSON.parse(localStorage.getItem("savedExams") ?? "[]");
     const newExam = {
       id: savedExams.length + 1,
       questions: examQuestions,
@@ -213,7 +332,6 @@ const ExamReview: React.FC<ExamReviewProps> = ({
       chapter: examQuestions[0].chapter,
     };
 
-    //check is duplicate or not
     const isDuplicate = savedExams.some(
       (exam: ExamProps) =>
         exam.subject === newExam.subject &&
@@ -228,18 +346,37 @@ const ExamReview: React.FC<ExamReviewProps> = ({
       alert("You have already saved this exam.");
       return;
     }
-    // Add the new exam to the savedExams array.
-    savedExams.push(newExam);
 
-    // Save the updated array back to localStorage.
+    savedExams.push(newExam);
     localStorage.setItem("savedExams", JSON.stringify(savedExams));
     setIsSaved(true);
   };
 
+  const scorePercentage = score ? (score / examQuestions.length) * 100 : 0;
+  const isPassing = scorePercentage >= 60;
+
   return (
-    <div className="space-y-4">
-      <h1 className="text-2xl font-bold">Exam Finished!</h1>
-      <p>Your Score: {score} / 25</p>
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="space-y-6"
+    >
+      <div className="text-center space-y-4">
+        <h1 className="text-3xl font-bold">Exam Finished!</h1>
+        <div className="flex flex-col items-center gap-2">
+          <div
+            className={cn(
+              "text-4xl font-bold",
+              isPassing ? "text-green-500" : "text-red-500"
+            )}
+          >
+            {score} / {examQuestions.length}
+          </div>
+          <div className="text-muted-foreground">
+            {scorePercentage.toFixed(1)}% {isPassing ? "Passed" : "Failed"}
+          </div>
+        </div>
+      </div>
 
       <div className="space-y-4">
         <h2 className="text-xl font-bold">Review Your Answers</h2>
@@ -249,78 +386,103 @@ const ExamReview: React.FC<ExamReviewProps> = ({
           const isCorrect = correctOption?.id === selectedOptionId;
 
           return (
-            <Card
+            <motion.div
               key={q.id}
-              className={`p-4 space-y-2 ${
-                isCorrect ? "border border-green-600" : "border border-red-600"
-              }`}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.1 }}
             >
-              <p className="font-medium">
-                {index + 1}.{" "}
-                <span className="mb-4 font-semibold">
-                  {q.description && (
-                    <>
-                      <p>{q.description}</p>
-                      <br />
-                    </>
-                  )}
-                  {q.question.split("\n").map((line, idx) => (
-                    <Fragment key={idx}>
-                      {line}
-                      <br />
-                    </Fragment>
+              <Card
+                className={cn(
+                  "p-6 space-y-4",
+                  isCorrect ? "border-green-500" : "border-red-500"
+                )}
+              >
+                <div className="flex items-start gap-2">
+                  <Badge variant="secondary" className="mt-1">
+                    {index + 1}
+                  </Badge>
+                  <div className="space-y-2">
+                    {q.description && (
+                      <p className="text-muted-foreground">{q.description}</p>
+                    )}
+                    <p className="font-medium">
+                      {q.question.split("\n").map((line, idx) => (
+                        <Fragment key={idx}>
+                          {line}
+                          <br />
+                        </Fragment>
+                      ))}
+                    </p>
+                  </div>
+                </div>
+                <div className="grid gap-2">
+                  {q.options.map((option: Option) => (
+                    <Button
+                      key={option.id}
+                      disabled={
+                        selectedOptionId !== option.id && !option.isCorrect
+                      }
+                      variant="outline"
+                      className={cn(
+                        "w-full justify-start text-left h-auto py-3 px-4",
+                        selectedOptionId === option.id &&
+                          isCorrect &&
+                          "bg-green-500 text-white hover:bg-green-600",
+                        selectedOptionId === option.id &&
+                          !isCorrect &&
+                          "bg-red-500 text-white hover:bg-red-600",
+                        option.isCorrect && "border-green-500"
+                      )}
+                    >
+                      <div className="flex items-center gap-2">
+                        {selectedOptionId === option.id && isCorrect && (
+                          <CheckCircle2 className="h-4 w-4" />
+                        )}
+                        {selectedOptionId === option.id && !isCorrect && (
+                          <XCircle className="h-4 w-4" />
+                        )}
+                        {option.isCorrect && (
+                          <CheckCircle2 className="h-4 w-4 text-green-500" />
+                        )}
+                        {option.text}
+                      </div>
+                    </Button>
                   ))}
-                </span>
-              </p>
-              {q.options.map((option: Option) => (
-                <Button
-                  key={option.id}
-                  disabled={selectedOptionId !== option.id && !option.isCorrect}
-                  variant={
-                    selectedOptionId !== option.id && !option.isCorrect
-                      ? "secondary"
-                      : "link"
-                  }
-                  className={cn(
-                    `w-full text-black dark:text-white text-left ${
-                      selectedOptionId === option.id
-                        ? isCorrect
-                          ? "bg-green-500 text-white"
-                          : "bg-red-500 text-white"
-                        : ""
-                    } ${option.isCorrect ? "bg-green-500" : ""}`
-                  )}
-                >
-                  {option.text}
-                </Button>
-              ))}
-            </Card>
+                </div>
+              </Card>
+            </motion.div>
           );
         })}
       </div>
 
-      <div className="flex items-center gap-2 w-full">
+      <div className="flex flex-col sm:flex-row gap-4">
         <Button className="w-full" onClick={restartExam}>
-          Restart
+          Start New Exam
         </Button>
         <Button className="w-full" variant="outline" onClick={restartSameExam}>
-          Restart with same questions
+          Retry Same Chapter
+        </Button>
+        <Button
+          onClick={handleSaveExam}
+          variant="outline"
+          className="w-full"
+          disabled={isSaved}
+        >
+          {isSaved ? (
+            <>
+              <BookmarkCheck className="mr-2 h-5 w-5" />
+              Saved
+            </>
+          ) : (
+            <>
+              <Bookmark className="mr-2 h-5 w-5" />
+              Save Exam
+            </>
+          )}
         </Button>
       </div>
-      <Button
-        onClick={handleSaveExam}
-        variant={"destructive"}
-        className="w-full"
-        disabled={isSaved}
-      >
-        {isSaved ? (
-          <BookmarkCheck className="mr-2 h-5 w-5" />
-        ) : (
-          <Bookmark className="mr-2 h-5 w-5" />
-        )}{" "}
-        Save
-      </Button>
-    </div>
+    </motion.div>
   );
 };
 
