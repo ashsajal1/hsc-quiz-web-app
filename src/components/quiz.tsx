@@ -13,10 +13,18 @@ import {
   ArrowLeftFromLine,
   ArrowRight,
   ArrowRightFromLine,
+  BookOpen,
+  ChevronRight,
+  Lightbulb,
+  Timer,
 } from "lucide-react";
 import { useQuizStore } from "@/store/useQuizStore";
 import { Option } from "@/lib/type";
 import { McqCard } from "./mcq-card";
+import { motion, AnimatePresence } from "framer-motion";
+import { Card } from "@/components/ui/card";
+import { Progress } from "@/components/ui/progress";
+import { Badge } from "@/components/ui/badge";
 
 interface QuizProps {
   initialTopic?: string;
@@ -147,82 +155,143 @@ export function Quiz({ initialTopic, initialChapter, onComplete }: QuizProps) {
   ] as const;
 
   return (
-    <div className="flex flex-col  items-center justify-center mx-auto p-3 space-y-6 gap-2">
-      {/* Topic, Chapter, and Range Selectors */}
-      <div className="flex flex-col gap-2 w-full">
-        <Label>Select subject and chapter.</Label>
-        <div className="flex w-full sm:w-auto gap-2">
-          <Select
-            value={selectedTopic}
-            onValueChange={(val) => {
-              setSelectedTopic(val);
-              setCurrentQuestionIndex(0);
-            }}
-          >
-            <SelectTrigger className="w-full sm:w-[180px]">
-              <SelectValue placeholder="Select topic" />
-            </SelectTrigger>
-            <SelectContent>
-              {topics.map((topic) => (
-                <SelectItem key={topic} value={topic}>
-                  {topic}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-
-          <Select
-            value={selectedChapter}
-            onValueChange={(val) => {
-              setSelectedChapter(val);
-              setCurrentQuestionIndex(0);
-            }}
-          >
-            <SelectTrigger className="w-full sm:w-[180px]">
-              <SelectValue placeholder="Select chapter" />
-            </SelectTrigger>
-            <SelectContent>
-              {chapters.map((chap) => (
-                <SelectItem key={chap} value={chap}>
-                  {chap}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-        </div>
-
-        <div>
-          <Label>Select range</Label>
-          <div className="flex items-center justify-between w-full gap-2">
-            {selectedRanges.map((range) => (
-              <Button
-                variant={selectedRange === range ? "default" : "secondary"}
-                className="w-full"
-                size={"sm"}
-                key={range}
-                onClick={() => setSelectedRange(range)}
-              >
-                {range === "start" ? (
-                  <ArrowRight strokeWidth={"1"} className="h-5 w-5" />
-                ) : range === "end" ? (
-                  <ArrowLeft strokeWidth={"1"} className="h-5 w-5" />
-                ) : range === "middle-to-start" ? (
-                  <ArrowLeftFromLine strokeWidth={"1"} className="h-5 w-5" />
-                ) : range === "middle-to-end" ? (
-                  <ArrowRightFromLine strokeWidth={"1"} className="h-5 w-5" />
-                ) : (
-                  range
-                )}
-              </Button>
-            ))}
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="flex flex-col items-center justify-center mx-auto space-y-8"
+    >
+      {/* Quiz Header */}
+      <Card className="w-full p-6 space-y-6">
+        <div className="flex items-center justify-between">
+          <div className="space-y-1">
+            <h2 className="text-2xl font-bold">Quiz Session</h2>
+            <p className="text-muted-foreground">
+              Test your knowledge with these questions
+            </p>
+          </div>
+          <div className="flex items-center gap-2">
+            <Badge variant="secondary" className="gap-1">
+              <BookOpen className="w-4 h-4" />
+              {selectedQuestions.length} Questions
+            </Badge>
+            <Badge variant="secondary" className="gap-1">
+              <Timer className="w-4 h-4" />
+              {Math.ceil(selectedQuestions.length * 1.5)} mins
+            </Badge>
           </div>
         </div>
-      </div>
 
-      {/* Quiz Card */}
-      <div className="w-full">
+        {/* Topic, Chapter, and Range Selectors */}
+        <div className="space-y-4">
+          <div className="flex flex-col gap-2">
+            <Label className="text-base">Select subject and chapter</Label>
+            <div className="flex flex-col sm:flex-row gap-2">
+              <Select
+                value={selectedTopic}
+                onValueChange={(val) => {
+                  setSelectedTopic(val);
+                  setCurrentQuestionIndex(0);
+                }}
+              >
+                <SelectTrigger className="w-full sm:w-[200px]">
+                  <SelectValue placeholder="Select topic" />
+                </SelectTrigger>
+                <SelectContent>
+                  {topics.map((topic) => (
+                    <SelectItem key={topic} value={topic}>
+                      {topic}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+
+              <Select
+                value={selectedChapter}
+                onValueChange={(val) => {
+                  setSelectedChapter(val);
+                  setCurrentQuestionIndex(0);
+                }}
+              >
+                <SelectTrigger className="w-full sm:w-[200px]">
+                  <SelectValue placeholder="Select chapter" />
+                </SelectTrigger>
+                <SelectContent>
+                  {chapters.map((chap) => (
+                    <SelectItem key={chap} value={chap}>
+                      {chap}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+          </div>
+
+          <div className="space-y-2">
+            <Label className="text-base">Question Range</Label>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+              {selectedRanges.map((range) => (
+                <Button
+                  variant={selectedRange === range ? "default" : "secondary"}
+                  className="w-full gap-2"
+                  size="sm"
+                  key={range}
+                  onClick={() => setSelectedRange(range)}
+                >
+                  {range === "start" ? (
+                    <>
+                      <ArrowRight className="h-4 w-4" />
+                      Start
+                    </>
+                  ) : range === "end" ? (
+                    <>
+                      <ArrowLeft className="h-4 w-4" />
+                      End
+                    </>
+                  ) : range === "middle-to-start" ? (
+                    <>
+                      <ArrowLeftFromLine className="h-4 w-4" />
+                      Middle to Start
+                    </>
+                  ) : (
+                    <>
+                      <ArrowRightFromLine className="h-4 w-4" />
+                      Middle to End
+                    </>
+                  )}
+                </Button>
+              ))}
+            </div>
+          </div>
+        </div>
+      </Card>
+
+      {/* Quiz Content */}
+      <AnimatePresence mode="wait">
         {selectedQuestions.length > 0 && currentQuestion ? (
-          <>
+          <motion.div
+            key={currentQuestion.id}
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -20 }}
+            className="w-full space-y-6"
+          >
+            {/* Progress Bar */}
+            <div className="space-y-2">
+              <div className="flex items-center justify-between text-sm">
+                <span className="text-muted-foreground">
+                  Question {currentQuestionIndex + 1} of {selectedQuestions.length}
+                </span>
+                <span className="font-medium">
+                  Score: {score}/{selectedQuestions.length}
+                </span>
+              </div>
+              <Progress
+                value={(currentQuestionIndex / selectedQuestions.length) * 100}
+                className="h-2"
+              />
+            </div>
+
+            {/* Question Card */}
             <McqCard
               question={currentQuestion}
               questionIndex={currentQuestionIndex}
@@ -235,63 +304,58 @@ export function Quiz({ initialTopic, initialChapter, onComplete }: QuizProps) {
               onNextQuestion={handleNextQuestion}
             />
 
-            {/* "See Answer" button appears only if the user hasn't answered yet */}
+            {/* See Answer Button */}
             {!showAnswer && selectedOptionId === null && (
-              <div className="mt-2">
-                <Button onClick={handleSeeAnswer}>See Answer</Button>
-              </div>
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="flex justify-center"
+              >
+                <Button
+                  variant="outline"
+                  onClick={handleSeeAnswer}
+                  className="gap-2"
+                >
+                  <Lightbulb className="w-4 h-4" />
+                  See Answer
+                </Button>
+              </motion.div>
             )}
-          </>
-        ) : (
-          <p>No questions found for the selected topic and chapter.</p>
-        )}
 
-        {/* Navigation row: display all questions as numbered buttons */}
-        {selectedQuestions.length > 0 && (
-          <div className="flex gap-2 overflow-x-auto mt-4">
-            {selectedQuestions.map((q, index) => (
-              <Button
-                key={q.id}
-                variant={
-                  currentQuestionIndex === index ? "default" : "secondary"
-                }
-                size="sm"
-                onClick={() => {
-                  setCurrentQuestionIndex(index);
-                  // Reset answer state when navigating manually.
-                  setSelectedOptionId(null);
-                  setIsCorrect(null);
-                  setShowAnswer(false);
-                }}
-              >
-                {index + 1}
-              </Button>
-            ))}
-          </div>
+            {/* Question Navigation */}
+            <div className="flex flex-wrap gap-2 justify-center">
+              {selectedQuestions.map((q, index) => (
+                <Button
+                  key={q.id}
+                  variant={
+                    currentQuestionIndex === index
+                      ? "default"
+                      : showAnswer && index < currentQuestionIndex
+                      ? "secondary"
+                      : "outline"
+                  }
+                  size="sm"
+                  className="w-10 h-10"
+                  onClick={() => {
+                    setCurrentQuestionIndex(index);
+                    setSelectedOptionId(null);
+                    setIsCorrect(null);
+                    setShowAnswer(false);
+                  }}
+                >
+                  {index + 1}
+                </Button>
+              ))}
+            </div>
+          </motion.div>
+        ) : (
+          <Card className="w-full p-6 text-center">
+            <p className="text-muted-foreground">
+              No questions found for the selected topic and chapter.
+            </p>
+          </Card>
         )}
-        {selectedQuestions.length > 0 && (
-          <div className="flex flex-wrap gap-2 overflow-x-auto mt-4">
-            {selectedQuestions.map((q, index) => (
-              <Button
-                key={q.id}
-                variant={
-                  currentQuestionIndex === index ? "default" : "secondary"
-                }
-                size="sm"
-                onClick={() => {
-                  setCurrentQuestionIndex(index);
-                  // Reset answer state when navigating manually.
-                  setSelectedOptionId(null);
-                  setIsCorrect(null);
-                  setShowAnswer(false);
-                }}
-              >
-                {index + 1}
-              </Button>
-            ))}
-          </div>
-        )}
-      </div>
-    </div>
+      </AnimatePresence>
+    </motion.div>
   );
 }
