@@ -219,6 +219,7 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
                 onValueChange={(val) => {
                   setTopic(val);
                   setCurrentQuestionIndex(0);
+                  setSelectedQuestionId(null);
                 }}
               >
                 <SelectTrigger className="w-full sm:w-[200px]">
@@ -238,6 +239,7 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
                 onValueChange={(val) => {
                   setChapter(val);
                   setCurrentQuestionIndex(0);
+                  setSelectedQuestionId(null);
                 }}
               >
                 <SelectTrigger className="w-full sm:w-[200px]">
