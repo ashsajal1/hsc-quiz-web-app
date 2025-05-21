@@ -4,6 +4,8 @@ import { Card } from "@/components/ui/card";
 import { Shuffle, RotateCcw, CheckCircle2, HelpCircle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { formula } from "@/lib/formula";
+import 'katex/dist/katex.min.css';
+import katex from 'katex';
 
 interface FormulaPuzzleProps {
   chapter?: string;
@@ -28,14 +30,13 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
   }, [chapter]);
 
   const scrambleWord = (word: string) => {
-    return word
-      .split("")
-      .sort(() => Math.random() - 0.5)
-      .join("");
+    // Split the formula into parts (variables, operators, etc.)
+    const parts = word.match(/([a-zA-Z0-9]+|[^a-zA-Z0-9]+)/g) || [];
+    return parts.sort(() => Math.random() - 0.5).join("");
   };
 
   const initializeGame = () => {
-    const scrambled = formulas.map(f => scrambleWord(f.name));
+    const scrambled = formulas.map(f => scrambleWord(f.formula));
     setScrambledFormulas(scrambled);
     setSelectedLetters([]);
     setSolvedFormulas([]);
@@ -50,16 +51,16 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
   }, [formulas]);
 
   const handleLetterClick = (letter: string, formulaIndex: number) => {
-    if (solvedFormulas.includes(formulas[formulaIndex].name)) return;
+    if (solvedFormulas.includes(formulas[formulaIndex].formula)) return;
 
     setSelectedLetters([...selectedLetters, letter]);
     setCurrentWord(currentWord + letter);
 
     // Check if the current word is complete
-    if (currentWord.length + 1 === formulas[formulaIndex].name.length) {
+    if (currentWord.length + 1 === formulas[formulaIndex].formula.length) {
       const newWord = currentWord + letter;
-      if (newWord === formulas[formulaIndex].name) {
-        setSolvedFormulas([...solvedFormulas, formulas[formulaIndex].name]);
+      if (newWord === formulas[formulaIndex].formula) {
+        setSolvedFormulas([...solvedFormulas, formulas[formulaIndex].formula]);
         setScore(score + 1);
         setCurrentWord("");
         setSelectedLetters([]);
@@ -78,7 +79,18 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
   };
 
   const toggleHint = (formulaIndex: number) => {
-    setShowHint(showHint === formulas[formulaIndex].name ? null : formulas[formulaIndex].name);
+    setShowHint(showHint === formulas[formulaIndex].formula ? null : formulas[formulaIndex].formula);
+  };
+
+  const renderFormula = (formula: string) => {
+    try {
+      return katex.renderToString(formula, {
+        throwOnError: false,
+        displayMode: true
+      });
+    } catch (error) {
+      return formula;
+    }
   };
 
   return (
@@ -108,7 +120,10 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
       <div className="mb-6">
         <div className="text-center mb-4">
           <p className="text-lg font-semibold">Current Formula:</p>
-          <p className="text-2xl font-bold tracking-wider">{currentWord}</p>
+          <div 
+            className="text-2xl font-bold tracking-wider"
+            dangerouslySetInnerHTML={{ __html: renderFormula(currentWord) }}
+          />
         </div>
         <div className="text-center">
           <p className="text-lg font-semibold">Score: {score}/{formulas.length}</p>
@@ -120,14 +135,14 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
           <Card
             key={formulaIndex}
             className={`p-4 ${
-              solvedFormulas.includes(formulas[formulaIndex].name)
+              solvedFormulas.includes(formulas[formulaIndex].formula)
                 ? "bg-green-50 dark:bg-green-900/20"
                 : ""
             }`}
           >
             <div className="flex justify-between items-start mb-3">
-              <div className="text-sm text-gray-600 dark:text-gray-400">
-                {formulas[formulaIndex].formula}
+              <div className="text-sm font-medium">
+                {formulas[formulaIndex].name}
               </div>
               <button
                 onClick={() => toggleHint(formulaIndex)}
@@ -137,7 +152,7 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
               </button>
             </div>
             
-            {showHint === formulas[formulaIndex].name && (
+            {showHint === formulas[formulaIndex].formula && (
               <div className="mb-3 p-2 bg-blue-50 dark:bg-blue-900/20 rounded text-sm text-gray-700 dark:text-gray-300">
                 {formulas[formulaIndex].description}
               </div>
@@ -150,10 +165,10 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleLetterClick(letter, formulaIndex)}
-                  disabled={solvedFormulas.includes(formulas[formulaIndex].name)}
+                  disabled={solvedFormulas.includes(formulas[formulaIndex].formula)}
                   className={`w-10 h-10 rounded-lg font-bold text-lg
                     ${
-                      solvedFormulas.includes(formulas[formulaIndex].name)
+                      solvedFormulas.includes(formulas[formulaIndex].formula)
                         ? "bg-green-500 text-white"
                         : "bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800"
                     }
@@ -164,7 +179,7 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
                 </motion.button>
               ))}
             </div>
-            {solvedFormulas.includes(formulas[formulaIndex].name) && (
+            {solvedFormulas.includes(formulas[formulaIndex].formula) && (
               <div className="flex justify-center mt-2">
                 <CheckCircle2 className="h-5 w-5 text-green-500" />
               </div>
