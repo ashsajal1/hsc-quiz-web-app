@@ -25,6 +25,7 @@ import {
   GripVertical,
   Eye,
   EyeOff,
+  Wand2,
 } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
@@ -219,6 +220,36 @@ export default function Practice() {
   const handleReset = () => {
     setPracticeState({});
     setCurrentQuestionIndex(0);
+  };
+
+  const handleAutoArrange = () => {
+    if (!currentQuestion || !questionState) return;
+
+    // Get the correct answer words
+    const correctWords = currentQuestion.answer.split(" ");
+    
+    // Create a mapping of current positions to target positions
+    const currentWords = [...questionState.words];
+    const newWords = [...currentWords];
+    
+    // Sort the words to match the correct order
+    correctWords.forEach((correctWord, targetIndex) => {
+      const currentIndex = currentWords.findIndex(
+        (word) => word.toLowerCase() === correctWord.toLowerCase()
+      );
+      if (currentIndex !== -1) {
+        newWords[targetIndex] = currentWords[currentIndex];
+      }
+    });
+
+    // Update the state with the new order
+    setPracticeState((prev) => ({
+      ...prev,
+      [currentQuestion.id]: {
+        ...prev[currentQuestion.id],
+        words: newWords,
+      },
+    }));
   };
 
   const progress =
@@ -427,9 +458,19 @@ export default function Practice() {
                     </div>
                     <div className="flex gap-2">
                       {!questionState?.isSubmitted ? (
-                        <Button onClick={handleAnswerSubmit}>
-                          Submit Answer
-                        </Button>
+                        <>
+                          <Button
+                            variant="outline"
+                            onClick={handleAutoArrange}
+                            className="gap-2"
+                          >
+                            <Wand2 className="h-4 w-4" />
+                            Auto Arrange
+                          </Button>
+                          <Button onClick={handleAnswerSubmit}>
+                            Submit Answer
+                          </Button>
+                        </>
                       ) : (
                         <Button
                           variant="outline"
