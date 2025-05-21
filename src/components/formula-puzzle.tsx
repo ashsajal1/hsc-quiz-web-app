@@ -22,6 +22,7 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
   const [showHint, setShowHint] = useState<string | null>(null);
   const [showAnswer, setShowAnswer] = useState<string | null>(null);
   const [answerCooldown, setAnswerCooldown] = useState<number>(0);
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'incorrect' | null; message: string }>({ type: null, message: '' });
 
   useEffect(() => {
     // Filter formulas by chapter if provided
@@ -68,17 +69,28 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
   const handleLetterClick = (letter: string, formulaIndex: number) => {
     if (solvedFormulas.includes(formulas[formulaIndex].formula)) return;
 
+    const newWord = currentWord + letter;
     setSelectedLetters([...selectedLetters, letter]);
-    setCurrentWord(currentWord + letter);
+    setCurrentWord(newWord);
 
     // Check if the current word is complete
-    if (currentWord.length + 1 === formulas[formulaIndex].formula.length) {
-      const newWord = currentWord + letter;
-      if (newWord === formulas[formulaIndex].formula) {
+    if (newWord.length === formulas[formulaIndex].formula.replace(/\s+/g, '').length) {
+      if (newWord === formulas[formulaIndex].formula.replace(/\s+/g, '')) {
         setSolvedFormulas([...solvedFormulas, formulas[formulaIndex].formula]);
         setScore(score + 1);
-        setCurrentWord("");
-        setSelectedLetters([]);
+        setFeedback({ type: 'correct', message: 'Correct! 🎉' });
+        setTimeout(() => {
+          setFeedback({ type: null, message: '' });
+          setCurrentWord("");
+          setSelectedLetters([]);
+        }, 1000);
+      } else {
+        setFeedback({ type: 'incorrect', message: 'Try again!' });
+        setTimeout(() => {
+          setFeedback({ type: null, message: '' });
+          setCurrentWord("");
+          setSelectedLetters([]);
+        }, 1000);
       }
     }
 
@@ -145,6 +157,20 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
             className="text-2xl font-bold tracking-wider"
             dangerouslySetInnerHTML={{ __html: renderFormula(currentWord) }}
           />
+          {feedback.type && (
+            <motion.div
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 10 }}
+              className={`mt-2 text-sm font-medium ${
+                feedback.type === 'correct' 
+                  ? 'text-green-600 dark:text-green-400' 
+                  : 'text-red-600 dark:text-red-400'
+              }`}
+            >
+              {feedback.message}
+            </motion.div>
+          )}
         </div>
         <div className="text-center">
           <p className="text-lg font-semibold">Score: {score}/{formulas.length}</p>
