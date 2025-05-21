@@ -295,21 +295,21 @@ export default function Practice() {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="p-6 max-w-4xl mx-auto"
+      className="p-4 sm:p-6 max-w-4xl mx-auto"
     >
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
         <div>
-          <h1 className="text-2xl font-bold">Practice Questions</h1>
-          <p className="text-muted-foreground">
+          <h1 className="text-xl sm:text-2xl font-bold">Practice Questions</h1>
+          <p className="text-sm sm:text-base text-muted-foreground">
             Arrange the words to form the correct answer
           </p>
         </div>
-        <Badge variant="secondary" className="text-sm">
+        <Badge variant="secondary" className="text-sm w-fit">
           {correctAnswers} / {Object.keys(practiceState).length} Correct
         </Badge>
       </div>
 
-      <div className="flex items-center gap-4 mb-6">
+      <div className="flex flex-col sm:flex-row items-stretch sm:items-end gap-4 mb-6">
         {/* Subject Selection */}
         <div className="flex-1">
           <label
@@ -364,8 +364,8 @@ export default function Practice() {
       {filteredQuestions.length > 0 ? (
         <div className="space-y-6">
           <div className="flex items-center gap-2">
-            <Progress value={progress} className="h-2" />
-            <span className="text-sm text-muted-foreground">
+            <Progress value={progress} className="h-2 flex-1" />
+            <span className="text-sm text-muted-foreground whitespace-nowrap">
               {Math.round(progress)}%
             </span>
           </div>
@@ -380,8 +380,8 @@ export default function Practice() {
             >
               <Card>
                 <CardHeader>
-                  <div className="flex items-center justify-between">
-                    <CardTitle>Question {currentQuestionIndex + 1}</CardTitle>
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                    <CardTitle className="text-lg sm:text-xl">Question {currentQuestionIndex + 1}</CardTitle>
                     <div className="flex items-center gap-2">
                       <Button
                         variant="outline"
@@ -392,12 +392,12 @@ export default function Practice() {
                         {showAnswer ? (
                           <>
                             <EyeOff className="h-4 w-4" />
-                            Hide Answer
+                            <span className="hidden sm:inline">Hide Answer</span>
                           </>
                         ) : (
                           <>
                             <Eye className="h-4 w-4" />
-                            Show Answer
+                            <span className="hidden sm:inline">Show Answer</span>
                           </>
                         )}
                       </Button>
@@ -406,7 +406,7 @@ export default function Practice() {
                       </Badge>
                     </div>
                   </div>
-                  <CardDescription className="text-lg mt-2">
+                  <CardDescription className="text-base sm:text-lg mt-2">
                     {currentQuestion?.question}
                   </CardDescription>
                   {showAnswer && (
@@ -422,7 +422,7 @@ export default function Practice() {
                     collisionDetection={closestCenter}
                     onDragEnd={handleDragEnd}
                   >
-                    <div className="p-4 min-h-[120px] bg-muted/50 rounded-lg">
+                    <div className="p-3 sm:p-4 min-h-[120px] bg-muted/50 rounded-lg">
                       <SortableContext
                         items={
                           questionState?.words.map(
@@ -466,12 +466,13 @@ export default function Practice() {
                     </Alert>
                   )}
 
-                  <div className="flex items-center justify-between">
+                  <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4">
                     <div className="flex gap-2">
                       <Button
                         variant="outline"
                         onClick={handlePreviousQuestion}
                         disabled={currentQuestionIndex === 0}
+                        className="flex-1 sm:flex-none"
                       >
                         <ArrowLeft className="h-4 w-4 mr-2" />
                         Previous
@@ -482,6 +483,7 @@ export default function Practice() {
                         disabled={
                           currentQuestionIndex === filteredQuestions.length - 1
                         }
+                        className="flex-1 sm:flex-none"
                       >
                         Next
                         <ArrowRight className="h-4 w-4 ml-2" />
@@ -493,15 +495,16 @@ export default function Practice() {
                           <Button
                             variant="outline"
                             onClick={handleAutoArrange}
-                            className="gap-2"
+                            className="gap-2 flex-1 sm:flex-none"
                             disabled={isAutoArranging}
                           >
                             <Wand2 className={`h-4 w-4 ${isAutoArranging ? "animate-spin" : ""}`} />
-                            {isAutoArranging ? "Arranging..." : "Auto Arrange"}
+                            <span className="hidden sm:inline">{isAutoArranging ? "Arranging..." : "Auto Arrange"}</span>
                           </Button>
                           <Button 
                             onClick={handleAnswerSubmit}
                             disabled={isAutoArranging}
+                            className="flex-1 sm:flex-none"
                           >
                             Submit Answer
                           </Button>
@@ -510,10 +513,10 @@ export default function Practice() {
                         <Button
                           variant="outline"
                           onClick={handleReset}
-                          className="gap-2"
+                          className="gap-2 flex-1 sm:flex-none"
                         >
                           <RotateCcw className="h-4 w-4" />
-                          Reset Practice
+                          <span className="hidden sm:inline">Reset Practice</span>
                         </Button>
                       )}
                     </div>
