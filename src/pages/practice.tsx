@@ -13,18 +13,30 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { CheckCircle2, XCircle, ArrowRight, ArrowLeft, RotateCcw } from "lucide-react";
+import {
+  CheckCircle2,
+  XCircle,
+  ArrowRight,
+  ArrowLeft,
+  RotateCcw,
+  GripVertical,
+} from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { Alert, AlertDescription } from "@/components/ui/alert";
+import {
+  DragDropContext,
+  Droppable,
+  Draggable,
+  DropResult,
+} from "@hello-pangea/dnd";
 
 interface PracticeState {
   [key: string]: {
-    answer: string;
+    words: string[];
     isCorrect: boolean | null;
     isSubmitted: boolean;
   };
@@ -51,13 +63,52 @@ export default function Practice() {
   }, [filteredQuestions]);
 
   const currentQuestion = filteredQuestions[currentQuestionIndex];
-  const questionState = currentQuestion ? practiceState[currentQuestion.id] : null;
+  const questionState = currentQuestion
+    ? practiceState[currentQuestion.id]
+    : null;
+
+  // Split answer into words and shuffle them
+  const getShuffledWords = (answer: string) => {
+    return answer.split(" ").sort(() => Math.random() - 0.5);
+  };
+
+  // Initialize words for current question if not already done
+  useEffect(() => {
+    if (currentQuestion && !practiceState[currentQuestion.id]) {
+      setPracticeState((prev) => ({
+        ...prev,
+        [currentQuestion.id]: {
+          words: getShuffledWords(currentQuestion.answer),
+          isCorrect: null,
+          isSubmitted: false,
+        },
+      }));
+    }
+  }, [currentQuestion, practiceState]);
+
+  const handleDragEnd = (result: DropResult) => {
+    if (!result.destination || !currentQuestion) return;
+
+    const newWords = Array.from(questionState?.words || []);
+    const [removed] = newWords.splice(result.source.index, 1);
+    newWords.splice(result.destination.index, 0, removed);
+
+    setPracticeState((prev) => ({
+      ...prev,
+      [currentQuestion.id]: {
+        ...prev[currentQuestion.id],
+        words: newWords,
+      },
+    }));
+  };
 
   const handleAnswerSubmit = () => {
     if (!currentQuestion) return;
 
-    const userAnswer = practiceState[currentQuestion.id]?.answer || "";
-    const isCorrect = userAnswer.trim().toLowerCase() === currentQuestion.answer.trim().toLowerCase();
+    const userAnswer = questionState?.words.join(" ") || "";
+    const isCorrect =
+      userAnswer.trim().toLowerCase() ===
+      currentQuestion.answer.trim().toLowerCase();
 
     setPracticeState((prev) => ({
       ...prev,
@@ -65,18 +116,6 @@ export default function Practice() {
         ...prev[currentQuestion.id],
         isCorrect,
         isSubmitted: true,
-      },
-    }));
-  };
-
-  const handleAnswerChange = (value: string) => {
-    if (!currentQuestion) return;
-
-    setPracticeState((prev) => ({
-      ...prev,
-      [currentQuestion.id]: {
-        ...prev[currentQuestion.id],
-        answer: value,
       },
     }));
   };
@@ -98,9 +137,10 @@ export default function Practice() {
     setCurrentQuestionIndex(0);
   };
 
-  const progress = filteredQuestions.length > 0
-    ? (Object.keys(practiceState).length / filteredQuestions.length) * 100
-    : 0;
+  const progress =
+    filteredQuestions.length > 0
+      ? (Object.keys(practiceState).length / filteredQuestions.length) * 100
+      : 0;
 
   const correctAnswers = Object.values(practiceState).filter(
     (state) => state.isCorrect
@@ -116,7 +156,7 @@ export default function Practice() {
         <div>
           <h1 className="text-2xl font-bold">Practice Questions</h1>
           <p className="text-muted-foreground">
-            Test your knowledge with practice questions
+            Arrange the words to form the correct answer
           </p>
         </div>
         <Badge variant="secondary" className="text-sm">
@@ -206,17 +246,49 @@ export default function Practice() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <Textarea
-                    placeholder="Enter your answer..."
-                    value={practiceState[currentQuestion?.id]?.answer || ""}
-                    onChange={(e) => handleAnswerChange(e.target.value)}
-                    disabled={questionState?.isSubmitted}
-                    className="min-h-[100px]"
-                  />
+                  <DragDropContext onDragEnd={handleDragEnd}>
+                    <Droppable droppableId="words" direction="horizontal">
+                      {(provided) => (
+                        <div
+                          ref={provided.innerRef}
+                          {...provided.droppableProps}
+                          className="flex flex-wrap gap-2 p-4 min-h-[60px] bg-muted/50 rounded-lg"
+                        >
+                          {questionState?.words.map((word, index) => (
+                            <Draggable
+                              key={`${word}-${index}`}
+                              draggableId={`${word}-${index}`}
+                              index={index}
+                              isDragDisabled={questionState?.isSubmitted}
+                            >
+                              {(provided) => (
+                                <div
+                                  ref={provided.innerRef}
+                                  {...provided.draggableProps}
+                                  {...provided.dragHandleProps}
+                                  className={`flex items-center gap-2 px-3 py-2 bg-background rounded-md shadow-sm border ${
+                                    questionState?.isSubmitted
+                                      ? "cursor-default"
+                                      : "cursor-grab hover:shadow-md"
+                                  }`}
+                                >
+                                  <GripVertical className="h-4 w-4 text-muted-foreground" />
+                                  <span>{word}</span>
+                                </div>
+                              )}
+                            </Draggable>
+                          ))}
+                          {provided.placeholder}
+                        </div>
+                      )}
+                    </Droppable>
+                  </DragDropContext>
 
                   {questionState?.isSubmitted && (
                     <Alert
-                      variant={questionState.isCorrect ? "default" : "destructive"}
+                      variant={
+                        questionState.isCorrect ? "default" : "destructive"
+                      }
                       className="mt-4"
                     >
                       <AlertDescription className="flex items-center gap-2">
@@ -245,7 +317,9 @@ export default function Practice() {
                       <Button
                         variant="outline"
                         onClick={handleNextQuestion}
-                        disabled={currentQuestionIndex === filteredQuestions.length - 1}
+                        disabled={
+                          currentQuestionIndex === filteredQuestions.length - 1
+                        }
                       >
                         Next
                         <ArrowRight className="h-4 w-4 ml-2" />
