@@ -85,51 +85,43 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
     });
   }, [questions, topic, chapter]);
 
-  // Find the specific question if questionId is provided
+  // Find the specific question if questionId is provided and set initial index
   useEffect(() => {
     if (selectedQuestionId) {
       const questionIndex = filteredQuestions.findIndex(
         (q) => q.id.toString() === selectedQuestionId
       );
       if (questionIndex !== -1) {
-        setSelectedQuestions([filteredQuestions[questionIndex]]);
-        setCurrentQuestionIndex(0);
+        setCurrentQuestionIndex(questionIndex);
       }
     }
   }, [selectedQuestionId, filteredQuestions]);
 
   // Based on the selected range, sort or set the starting index for the quiz.
   useEffect(() => {
-    if (selectedQuestionId) return; // Skip if showing specific question
-    
     let sortedQuestions = [...filteredQuestions];
     const middleIndex = Math.floor(sortedQuestions.length / 2);
 
     switch (selectedRange) {
       case "start":
         setSelectedQuestions(sortedQuestions);
-        setCurrentQuestionIndex(0);
         break;
       case "end":
         sortedQuestions = sortedQuestions.sort((q1, q2) => q2.id - q1.id);
         setSelectedQuestions(sortedQuestions);
-        setCurrentQuestionIndex(0);
         break;
       case "middle-to-start":
         sortedQuestions = sortedQuestions.sort((q1, q2) => q2.id - q1.id);
         setSelectedQuestions(sortedQuestions);
-        setCurrentQuestionIndex(middleIndex);
         break;
       case "middle-to-end":
         setSelectedQuestions(sortedQuestions);
-        setCurrentQuestionIndex(middleIndex);
         break;
       default:
         setSelectedQuestions(sortedQuestions);
-        setCurrentQuestionIndex(0);
         break;
     }
-  }, [filteredQuestions, selectedRange, selectedQuestionId]);
+  }, [filteredQuestions, selectedRange]);
 
   const currentQuestion = selectedQuestions[currentQuestionIndex];
 
