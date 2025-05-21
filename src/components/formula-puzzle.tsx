@@ -1,31 +1,31 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Shuffle, RotateCcw, CheckCircle2 } from "lucide-react";
+import { Shuffle, RotateCcw, CheckCircle2, HelpCircle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { formula } from "@/lib/formula";
 
-interface WordPuzzleProps {
-  words?: string[];
+interface FormulaPuzzleProps {
+  chapter?: string;
 }
 
-const defaultWords = [
-  "REACT",
-  "TYPESCRIPT",
-  "JAVASCRIPT",
-  "HTML",
-  "CSS",
-  "NODE",
-  "PYTHON",
-  "JAVA",
-];
-
-export default function WordPuzzleGame({ words = defaultWords }: WordPuzzleProps) {
-  const [scrambledWords, setScrambledWords] = useState<string[]>([]);
+export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
+  const [formulas, setFormulas] = useState(formula);
+  const [scrambledFormulas, setScrambledFormulas] = useState<string[]>([]);
   const [selectedLetters, setSelectedLetters] = useState<string[]>([]);
-  const [solvedWords, setSolvedWords] = useState<string[]>([]);
+  const [solvedFormulas, setSolvedFormulas] = useState<string[]>([]);
   const [currentWord, setCurrentWord] = useState<string>("");
   const [score, setScore] = useState(0);
   const [gameOver, setGameOver] = useState(false);
+  const [showHint, setShowHint] = useState<string | null>(null);
+
+  useEffect(() => {
+    // Filter formulas by chapter if provided
+    const filteredFormulas = chapter 
+      ? formula.filter(f => f.chapter === chapter)
+      : formula;
+    setFormulas(filteredFormulas);
+  }, [chapter]);
 
   const scrambleWord = (word: string) => {
     return word
@@ -35,38 +35,39 @@ export default function WordPuzzleGame({ words = defaultWords }: WordPuzzleProps
   };
 
   const initializeGame = () => {
-    const scrambled = words.map(scrambleWord);
-    setScrambledWords(scrambled);
+    const scrambled = formulas.map(f => scrambleWord(f.name));
+    setScrambledFormulas(scrambled);
     setSelectedLetters([]);
-    setSolvedWords([]);
+    setSolvedFormulas([]);
     setCurrentWord("");
     setScore(0);
     setGameOver(false);
+    setShowHint(null);
   };
 
   useEffect(() => {
     initializeGame();
-  }, []);
+  }, [formulas]);
 
-  const handleLetterClick = (letter: string, wordIndex: number) => {
-    if (solvedWords.includes(words[wordIndex])) return;
+  const handleLetterClick = (letter: string, formulaIndex: number) => {
+    if (solvedFormulas.includes(formulas[formulaIndex].name)) return;
 
     setSelectedLetters([...selectedLetters, letter]);
     setCurrentWord(currentWord + letter);
 
     // Check if the current word is complete
-    if (currentWord.length + 1 === words[wordIndex].length) {
+    if (currentWord.length + 1 === formulas[formulaIndex].name.length) {
       const newWord = currentWord + letter;
-      if (newWord === words[wordIndex]) {
-        setSolvedWords([...solvedWords, words[wordIndex]]);
+      if (newWord === formulas[formulaIndex].name) {
+        setSolvedFormulas([...solvedFormulas, formulas[formulaIndex].name]);
         setScore(score + 1);
         setCurrentWord("");
         setSelectedLetters([]);
       }
     }
 
-    // Check if all words are solved
-    if (solvedWords.length + 1 === words.length) {
+    // Check if all formulas are solved
+    if (solvedFormulas.length + 1 === formulas.length) {
       setGameOver(true);
     }
   };
@@ -76,10 +77,14 @@ export default function WordPuzzleGame({ words = defaultWords }: WordPuzzleProps
     setSelectedLetters([]);
   };
 
+  const toggleHint = (formulaIndex: number) => {
+    setShowHint(showHint === formulas[formulaIndex].name ? null : formulas[formulaIndex].name);
+  };
+
   return (
     <div className="max-w-4xl mx-auto p-4">
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-2xl font-bold">Word Puzzle</h2>
+        <h2 className="text-2xl font-bold">Physics Formula Puzzle</h2>
         <div className="flex gap-2">
           <Button
             variant="outline"
@@ -102,35 +107,53 @@ export default function WordPuzzleGame({ words = defaultWords }: WordPuzzleProps
 
       <div className="mb-6">
         <div className="text-center mb-4">
-          <p className="text-lg font-semibold">Current Word:</p>
+          <p className="text-lg font-semibold">Current Formula:</p>
           <p className="text-2xl font-bold tracking-wider">{currentWord}</p>
         </div>
         <div className="text-center">
-          <p className="text-lg font-semibold">Score: {score}/{words.length}</p>
+          <p className="text-lg font-semibold">Score: {score}/{formulas.length}</p>
         </div>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        {scrambledWords.map((word, wordIndex) => (
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {scrambledFormulas.map((word, formulaIndex) => (
           <Card
-            key={wordIndex}
+            key={formulaIndex}
             className={`p-4 ${
-              solvedWords.includes(words[wordIndex])
+              solvedFormulas.includes(formulas[formulaIndex].name)
                 ? "bg-green-50 dark:bg-green-900/20"
                 : ""
             }`}
           >
+            <div className="flex justify-between items-start mb-3">
+              <div className="text-sm text-gray-600 dark:text-gray-400">
+                {formulas[formulaIndex].formula}
+              </div>
+              <button
+                onClick={() => toggleHint(formulaIndex)}
+                className="p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full"
+              >
+                <HelpCircle className="h-4 w-4 text-gray-500" />
+              </button>
+            </div>
+            
+            {showHint === formulas[formulaIndex].name && (
+              <div className="mb-3 p-2 bg-blue-50 dark:bg-blue-900/20 rounded text-sm text-gray-700 dark:text-gray-300">
+                {formulas[formulaIndex].description}
+              </div>
+            )}
+
             <div className="flex flex-wrap gap-2 justify-center">
               {word.split("").map((letter, letterIndex) => (
                 <motion.button
                   key={letterIndex}
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
-                  onClick={() => handleLetterClick(letter, wordIndex)}
-                  disabled={solvedWords.includes(words[wordIndex])}
+                  onClick={() => handleLetterClick(letter, formulaIndex)}
+                  disabled={solvedFormulas.includes(formulas[formulaIndex].name)}
                   className={`w-10 h-10 rounded-lg font-bold text-lg
                     ${
-                      solvedWords.includes(words[wordIndex])
+                      solvedFormulas.includes(formulas[formulaIndex].name)
                         ? "bg-green-500 text-white"
                         : "bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800"
                     }
@@ -141,7 +164,7 @@ export default function WordPuzzleGame({ words = defaultWords }: WordPuzzleProps
                 </motion.button>
               ))}
             </div>
-            {solvedWords.includes(words[wordIndex]) && (
+            {solvedFormulas.includes(formulas[formulaIndex].name) && (
               <div className="flex justify-center mt-2">
                 <CheckCircle2 className="h-5 w-5 text-green-500" />
               </div>
@@ -161,7 +184,7 @@ export default function WordPuzzleGame({ words = defaultWords }: WordPuzzleProps
             <Card className="p-8 text-center">
               <h3 className="text-2xl font-bold mb-4">Congratulations! 🎉</h3>
               <p className="text-lg mb-6">
-                You solved all the words with a score of {score}/{words.length}
+                You solved all the formulas with a score of {score}/{formulas.length}
               </p>
               <Button onClick={initializeGame}>Play Again</Button>
             </Card>
@@ -170,4 +193,4 @@ export default function WordPuzzleGame({ words = defaultWords }: WordPuzzleProps
       </AnimatePresence>
     </div>
   );
-}
+} 
