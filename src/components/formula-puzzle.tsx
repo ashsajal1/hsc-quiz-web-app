@@ -20,6 +20,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import confetti from 'canvas-confetti';
 
 interface FormulaPuzzleProps {
   chapter?: string;
@@ -145,6 +146,15 @@ export default function FormulaPuzzle({
         ]);
         setScore(score + 1);
         setFeedback({ type: "correct", message: "Correct! 🎉" });
+        
+        // Trigger confetti
+        confetti({
+          particleCount: 100,
+          spread: 70,
+          origin: { y: 0.6 },
+          colors: ['#FFD700', '#FF69B4', '#00CED1', '#7B68EE', '#FF4500']
+        });
+
         setTimeout(() => {
           setFeedback({ type: null, message: "" });
           setCurrentWord("");
