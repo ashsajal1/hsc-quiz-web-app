@@ -79,6 +79,7 @@ function SortableWord({
   const style = {
     transform: CSS.Transform.toString(transform),
     transition,
+    touchAction: 'none',
   };
 
   return (
@@ -96,7 +97,7 @@ function SortableWord({
       } ${
         isSubmitted
           ? "cursor-default opacity-50"
-          : "cursor-grab active:cursor-grabbing"
+          : "cursor-grab active:cursor-grabbing touch-manipulation"
       }`}
     >
       <GripVertical
@@ -129,7 +130,9 @@ export default function Practice() {
   const sensors = useSensors(
     useSensor(PointerSensor, {
       activationConstraint: {
-        distance: 8,
+        distance: 5,
+        delay: 0,
+        tolerance: 5,
       },
     }),
     useSensor(KeyboardSensor, {
