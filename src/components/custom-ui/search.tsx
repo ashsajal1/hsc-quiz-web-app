@@ -5,12 +5,22 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X } from 'lucide-react'
 
-export default function Search() {
+interface SearchProps {
+  onSearch?: (value: string) => void;
+}
+
+export default function Search({ onSearch }: SearchProps) {
   const [searchValue, setSearchValue] = useState('')
   const [isFocused, setIsFocused] = useState(false)
 
   const handleClear = () => {
     setSearchValue('')
+    onSearch?.('')
+  }
+
+  const handleChange = (value: string) => {
+    setSearchValue(value)
+    onSearch?.(value)
   }
 
   return (
@@ -33,7 +43,7 @@ export default function Search() {
         <input
           type="text"
           value={searchValue}
-          onChange={(e) => setSearchValue(e.target.value)}
+          onChange={(e) => handleChange(e.target.value)}
           onFocus={() => setIsFocused(true)}
           onBlur={() => setIsFocused(false)}
           className={cn(

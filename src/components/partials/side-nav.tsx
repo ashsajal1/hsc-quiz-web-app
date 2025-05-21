@@ -2,13 +2,78 @@ import { AnimatePresence, motion } from 'framer-motion';
 import Search from '../custom-ui/search'
 import Text from '../custom-ui/text'
 import { HiOutlineXMark } from "react-icons/hi2";
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { ModeToggle } from '../mode-toggle';
 import { Button } from '../ui/button';
 import { Home, BookOpen, Lightbulb, User, LogIn, UserPlus } from 'lucide-react';
+import { useQuizStore } from '@/store/useQuizStore';
+import { useCQStore } from '@/store/useCqStore';
+import { useState, useCallback } from 'react';
+import { useDebounce } from '../hooks/useDebounce';
+
+interface SearchResult {
+    type: 'quiz' | 'practice';
+    id: number;
+    title: string;
+    path: string;
+}
 
 export default function SideNav({ isOpen, handleClose }: { isOpen: boolean, handleClose: () => void }) {
     const location = useLocation();
+    const navigate = useNavigate();
+    const { questions } = useQuizStore();
+    const { filteredQuestions } = useCQStore();
+    const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
+
+    const handleSearch = useCallback((value: string) => {
+        if (!value.trim()) {
+            setSearchResults([]);
+            return;
+        }
+
+        const searchTerm = value.toLowerCase();
+        const results: SearchResult[] = [];
+
+        // Search in quiz questions
+        questions.forEach(question => {
+            if (
+                question.question.toLowerCase().includes(searchTerm) ||
+                question.options.some(opt => opt.text.toLowerCase().includes(searchTerm))
+            ) {
+                results.push({
+                    type: 'quiz',
+                    id: question.id,
+                    title: question.question,
+                    path: `/quiz?q=${question.id}`
+                });
+            }
+        });
+
+        // Search in practice questions
+        filteredQuestions.forEach(question => {
+            if (
+                question.question.toLowerCase().includes(searchTerm) ||
+                question.answer.toLowerCase().includes(searchTerm)
+            ) {
+                results.push({
+                    type: 'practice',
+                    id: question.id,
+                    title: question.question,
+                    path: `/practice?q=${question.id}`
+                });
+            }
+        });
+
+        setSearchResults(results.slice(0, 5)); // Limit to 5 results
+    }, [questions, filteredQuestions]);
+
+    const debouncedSearch = useDebounce(handleSearch, 300);
+
+    const handleResultClick = (path: string) => {
+        navigate(path);
+        handleClose();
+        setSearchResults([]);
+    };
 
     const navItems = [
         { path: '/', label: 'Home', icon: Home },
@@ -57,8 +122,37 @@ export default function SideNav({ isOpen, handleClose }: { isOpen: boolean, hand
                             </Button>
                         </div>
 
-                        <div className='p-4'>
-                            <Search />
+                        <div className='p-4 relative'>
+                            <Search onSearch={debouncedSearch} />
+                            
+                            {/* Search Results */}
+                            <AnimatePresence>
+                                {searchResults.length > 0 && (
+                                    <motion.div
+                                        initial={{ opacity: 0, y: -10 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        exit={{ opacity: 0, y: -10 }}
+                                        className="absolute top-full left-0 right-0 mt-2 bg-background border rounded-lg shadow-lg z-30"
+                                    >
+                                        <div className="p-2 space-y-1">
+                                            {searchResults.map((result) => (
+                                                <button
+                                                    key={`${result.type}-${result.id}`}
+                                                    onClick={() => handleResultClick(result.path)}
+                                                    className="w-full text-left px-3 py-2 text-sm rounded-md hover:bg-muted transition-colors flex items-center gap-2"
+                                                >
+                                                    {result.type === 'quiz' ? (
+                                                        <BookOpen className="h-4 w-4 text-primary" />
+                                                    ) : (
+                                                        <Lightbulb className="h-4 w-4 text-primary" />
+                                                    )}
+                                                    <span className="truncate">{result.title}</span>
+                                                </button>
+                                            ))}
+                                        </div>
+                                    </motion.div>
+                                )}
+                            </AnimatePresence>
                         </div>
 
                         <div className='px-4 space-y-1'>
