@@ -29,9 +29,10 @@ interface QuizProps {
   initialTopic?: string;
   initialChapter?: string;
   onComplete?: (score: number, total: number) => void;
+  questionId?: string | null;
 }
 
-export function Quiz({ initialTopic, initialChapter, onComplete }: QuizProps) {
+export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: QuizProps) {
   const { questions, getChaptersBySubject } = useQuizStore();
 
   // Create a list of available topics from the questions.
@@ -71,8 +72,23 @@ export function Quiz({ initialTopic, initialChapter, onComplete }: QuizProps) {
     });
   }, [questions, selectedTopic, selectedChapter]);
 
+  // Find the specific question if questionId is provided
+  useEffect(() => {
+    if (questionId) {
+      const questionIndex = filteredQuestions.findIndex(
+        (q) => q.id.toString() === questionId
+      );
+      if (questionIndex !== -1) {
+        setSelectedQuestions([filteredQuestions[questionIndex]]);
+        setCurrentQuestionIndex(0);
+      }
+    }
+  }, [questionId, filteredQuestions]);
+
   // Based on the selected range, sort or set the starting index for the quiz.
   useEffect(() => {
+    if (questionId) return; // Skip if showing specific question
+    
     let sortedQuestions = [...filteredQuestions];
     const middleIndex = Math.floor(sortedQuestions.length / 2);
 
@@ -100,7 +116,7 @@ export function Quiz({ initialTopic, initialChapter, onComplete }: QuizProps) {
         setCurrentQuestionIndex(0);
         break;
     }
-  }, [filteredQuestions, selectedRange]);
+  }, [filteredQuestions, selectedRange, questionId]);
 
   const currentQuestion = selectedQuestions[currentQuestionIndex];
 

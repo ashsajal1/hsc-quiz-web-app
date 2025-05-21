@@ -10,18 +10,23 @@ export default function QuizPage() {
 
   const location = useLocation();
   const searchParam = new URLSearchParams(location.search);
-    const subjectParam = searchParam.get("subject");
-    const chapterParam = searchParam.get("chapter");
+  const subjectParam = searchParam.get("subject");
+  const chapterParam = searchParam.get("chapter");
+  const questionIdParam = searchParam.get("questionId");
 
   const [selectedTopic, setSelectedTopic] = useState<string>(subjectParam || "1");
-  const [selectedChapter, setSelectedChapter] = useState<string>(chapterParam ||"0");
+  const [selectedChapter, setSelectedChapter] = useState<string>(chapterParam || "0");
+  const [selectedQuestionId, setSelectedQuestionId] = useState<string | null>(questionIdParam);
 
   useEffect(() => {
     const searchParam = new URLSearchParams(location.search);
     const subjectParam = searchParam.get("subject");
     const chapterParam = searchParam.get("chapter");
+    const questionIdParam = searchParam.get("questionId");
+    
     if (subjectParam) setSelectedTopic(subjectParam);
     if (chapterParam) setSelectedChapter(chapterParam);
+    if (questionIdParam) setSelectedQuestionId(questionIdParam);
   }, [location.search]);
 
   return (
@@ -30,6 +35,7 @@ export default function QuizPage() {
         onComplete={handleQuizComplete}
         initialTopic={selectedTopic}
         initialChapter={selectedChapter}
+        questionId={selectedQuestionId}
       />
     </div>
   );
