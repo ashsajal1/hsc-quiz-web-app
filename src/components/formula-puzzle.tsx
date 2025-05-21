@@ -356,35 +356,53 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
             Previous
           </Button>
           
-          <div className="flex gap-2 overflow-x-auto py-2 px-4 max-w-full">
-            {formulas.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => {
-                  setCurrentFormulaIndex(index);
-                  setCurrentWord("");
-                  setSelectedLetters([]);
-                  setUsedLetters(prev => ({
-                    ...prev,
-                    [index]: new Set()
-                  }));
-                  setShowHint(null);
-                  setShowAnswer(null);
-                }}
-                className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium
-                  ${
-                    index === currentFormulaIndex
-                      ? "bg-blue-500 text-white ring-2 ring-blue-300 dark:ring-blue-700"
-                      : solvedFormulas.includes(formulas[index]?.formula)
-                      ? "bg-green-500 text-white"
-                      : "bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300"
-                  }
-                  transition-all duration-200 hover:scale-110
-                `}
-              >
-                {index + 1}
-              </button>
-            ))}
+          <div className="relative w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px] mx-auto">
+            <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-white dark:from-gray-900 to-transparent pointer-events-none z-10" />
+            <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-white dark:from-gray-900 to-transparent pointer-events-none z-10" />
+            <div 
+              className="flex gap-2 overflow-x-auto py-2 px-4 h-12 items-center scrollbar-hide scroll-smooth whitespace-nowrap"
+              style={{
+                scrollbarWidth: 'none',
+                msOverflowStyle: 'none',
+                WebkitOverflowScrolling: 'touch',
+                overflowX: 'auto',
+                overflowY: 'hidden'
+              }}
+              onWheel={(e) => {
+                e.preventDefault();
+                const container = e.currentTarget;
+                container.scrollLeft += e.deltaY;
+              }}
+            >
+              {formulas.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => {
+                    setCurrentFormulaIndex(index);
+                    setCurrentWord("");
+                    setSelectedLetters([]);
+                    setUsedLetters(prev => ({
+                      ...prev,
+                      [index]: new Set()
+                    }));
+                    setShowHint(null);
+                    setShowAnswer(null);
+                  }}
+                  className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium shrink-0
+                    ${
+                      index === currentFormulaIndex
+                        ? "bg-blue-500 text-white ring-2 ring-blue-300 dark:ring-blue-700"
+                        : solvedFormulas.includes(formulas[index]?.formula)
+                        ? "bg-green-500 text-white"
+                        : "bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300"
+                    }
+                    transition-all duration-200 hover:scale-110
+                  `}
+                >
+                  {index + 1}
+                </button>
+              ))}
+            </div>
           </div>
 
           <Button
