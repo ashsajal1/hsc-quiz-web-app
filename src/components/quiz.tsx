@@ -24,6 +24,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
+import { useQueryState } from "nuqs";
 
 interface QuizProps {
   initialTopic?: string;
@@ -34,7 +35,7 @@ interface QuizProps {
 
 export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: QuizProps) {
   const { questions, getChaptersBySubject } = useQuizStore();
-
+  
   // Create a list of available topics from the questions.
   const topics = useMemo(() => {
     const set = new Set<string>();
@@ -44,14 +45,26 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
     return Array.from(set);
   }, [questions]);
 
-  // Use initial values if provided; otherwise, default to the first available value.
-  const [selectedTopic, setSelectedTopic] = useState<string>(
-    initialTopic || topics[0] || ""
-  );
-  const chapters = getChaptersBySubject(selectedTopic);
-  const [selectedChapter, setSelectedChapter] = useState<string>(
-    initialChapter || (chapters[0] ?? "0")
-  );
+  // Use nuqs for URL state management
+  const [topic, setTopic] = useQueryState("subject", {
+    defaultValue: initialTopic || topics[0] || "",
+    parse: (value) => value,
+    serialize: (value) => value,
+  });
+
+  const [chapter, setChapter] = useQueryState("chapter", {
+    defaultValue: initialChapter || "0",
+    parse: (value) => value,
+    serialize: (value) => value,
+  });
+
+  const [selectedQuestionId, setSelectedQuestionId] = useQueryState("questionId", {
+    defaultValue: questionId || null,
+    parse: (value) => value,
+    serialize: (value) => value || "",
+  });
+
+  const chapters = getChaptersBySubject(topic);
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
@@ -68,26 +81,26 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
   // Filter questions based on the currently selected topic and chapter.
   const filteredQuestions = useMemo(() => {
     return questions.filter((q) => {
-      return q.subject === selectedTopic && q.chapter === selectedChapter;
+      return q.subject === topic && q.chapter === chapter;
     });
-  }, [questions, selectedTopic, selectedChapter]);
+  }, [questions, topic, chapter]);
 
   // Find the specific question if questionId is provided
   useEffect(() => {
-    if (questionId) {
+    if (selectedQuestionId) {
       const questionIndex = filteredQuestions.findIndex(
-        (q) => q.id.toString() === questionId
+        (q) => q.id.toString() === selectedQuestionId
       );
       if (questionIndex !== -1) {
         setSelectedQuestions([filteredQuestions[questionIndex]]);
         setCurrentQuestionIndex(0);
       }
     }
-  }, [questionId, filteredQuestions]);
+  }, [selectedQuestionId, filteredQuestions]);
 
   // Based on the selected range, sort or set the starting index for the quiz.
   useEffect(() => {
-    if (questionId) return; // Skip if showing specific question
+    if (selectedQuestionId) return; // Skip if showing specific question
     
     let sortedQuestions = [...filteredQuestions];
     const middleIndex = Math.floor(sortedQuestions.length / 2);
@@ -116,7 +129,7 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
         setCurrentQuestionIndex(0);
         break;
     }
-  }, [filteredQuestions, selectedRange, questionId]);
+  }, [filteredQuestions, selectedRange, selectedQuestionId]);
 
   const currentQuestion = selectedQuestions[currentQuestionIndex];
 
@@ -202,9 +215,9 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
             <Label className="text-base">Select subject and chapter</Label>
             <div className="flex flex-col sm:flex-row gap-2">
               <Select
-                value={selectedTopic}
+                value={topic}
                 onValueChange={(val) => {
-                  setSelectedTopic(val);
+                  setTopic(val);
                   setCurrentQuestionIndex(0);
                 }}
               >
@@ -221,9 +234,9 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
               </Select>
 
               <Select
-                value={selectedChapter}
+                value={chapter}
                 onValueChange={(val) => {
-                  setSelectedChapter(val);
+                  setChapter(val);
                   setCurrentQuestionIndex(0);
                 }}
               >
