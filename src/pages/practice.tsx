@@ -119,6 +119,7 @@ export default function Practice() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [practiceState, setPracticeState] = useState<PracticeState>({});
   const [showAnswer, setShowAnswer] = useState(false);
+  const [isAutoArranging, setIsAutoArranging] = useState(false);
 
   const sensors = useSensors(
     useSensor(PointerSensor, {
@@ -222,34 +223,53 @@ export default function Practice() {
     setCurrentQuestionIndex(0);
   };
 
-  const handleAutoArrange = () => {
-    if (!currentQuestion || !questionState) return;
+  const handleAutoArrange = async () => {
+    if (!currentQuestion || !questionState || isAutoArranging) return;
+
+    setIsAutoArranging(true);
 
     // Get the correct answer words
     const correctWords = currentQuestion.answer.split(" ");
-    
-    // Create a mapping of current positions to target positions
     const currentWords = [...questionState.words];
-    const newWords = [...currentWords];
     
-    // Sort the words to match the correct order
+    // Create a sequence of moves
+    const moves: { word: string; to: number }[] = [];
+    
+    // Calculate all the moves needed
     correctWords.forEach((correctWord, targetIndex) => {
-      const currentIndex = currentWords.findIndex(
-        (word) => word.toLowerCase() === correctWord.toLowerCase()
-      );
-      if (currentIndex !== -1) {
-        newWords[targetIndex] = currentWords[currentIndex];
-      }
+      moves.push({ word: correctWord, to: targetIndex });
     });
 
-    // Update the state with the new order
-    setPracticeState((prev) => ({
-      ...prev,
-      [currentQuestion.id]: {
-        ...prev[currentQuestion.id],
-        words: newWords,
-      },
-    }));
+    // Execute moves one by one with delay
+    for (const move of moves) {
+      const { word, to } = move;
+      
+      // Find the current position of this word (case-insensitive)
+      const fromIndex = currentWords.findIndex(
+        (w) => w.toLowerCase() === word.toLowerCase()
+      );
+      
+      if (fromIndex !== -1) {
+        // Remove the word from its current position
+        const [movedWord] = currentWords.splice(fromIndex, 1);
+        // Insert it at the target position
+        currentWords.splice(to, 0, movedWord);
+
+        // Update state
+        setPracticeState((prev) => ({
+          ...prev,
+          [currentQuestion.id]: {
+            ...prev[currentQuestion.id],
+            words: [...currentWords],
+          },
+        }));
+
+        // Wait for 500ms before next move
+        await new Promise((resolve) => setTimeout(resolve, 500));
+      }
+    }
+
+    setIsAutoArranging(false);
   };
 
   const progress =
@@ -463,11 +483,15 @@ export default function Practice() {
                             variant="outline"
                             onClick={handleAutoArrange}
                             className="gap-2"
+                            disabled={isAutoArranging}
                           >
-                            <Wand2 className="h-4 w-4" />
-                            Auto Arrange
+                            <Wand2 className={`h-4 w-4 ${isAutoArranging ? "animate-spin" : ""}`} />
+                            {isAutoArranging ? "Arranging..." : "Auto Arrange"}
                           </Button>
-                          <Button onClick={handleAnswerSubmit}>
+                          <Button 
+                            onClick={handleAnswerSubmit}
+                            disabled={isAutoArranging}
+                          >
                             Submit Answer
                           </Button>
                         </>
