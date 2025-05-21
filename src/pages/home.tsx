@@ -11,7 +11,7 @@ export default function Home() {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="max-w-6xl mx-auto px-4 py-8 space-y-12"
+      className="max-w-full mx-auto px-4 py-8 space-y-12"
     >
       <McqCarousel />
       
