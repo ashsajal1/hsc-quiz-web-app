@@ -30,11 +30,22 @@ import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import {
-  DragDropContext,
-  Droppable,
-  Draggable,
-  DropResult,
-} from "@hello-pangea/dnd";
+  DndContext,
+  closestCenter,
+  KeyboardSensor,
+  PointerSensor,
+  useSensor,
+  useSensors,
+  DragEndEvent,
+} from "@dnd-kit/core";
+import {
+  arrayMove,
+  SortableContext,
+  sortableKeyboardCoordinates,
+  useSortable,
+  horizontalListSortingStrategy,
+} from "@dnd-kit/sortable";
+import { CSS } from "@dnd-kit/utilities";
 
 interface PracticeState {
   [key: string]: {
@@ -42,6 +53,55 @@ interface PracticeState {
     isCorrect: boolean | null;
     isSubmitted: boolean;
   };
+}
+
+function SortableWord({
+  word,
+  index,
+  isSubmitted,
+}: {
+  word: string;
+  index: number;
+  isSubmitted: boolean;
+}) {
+  const {
+    attributes,
+    listeners,
+    setNodeRef,
+    transform,
+    transition,
+    isDragging,
+  } = useSortable({ id: `${word}-${index}` });
+
+  const style = {
+    transform: CSS.Transform.toString(transform),
+    transition,
+  };
+
+  return (
+    <div
+      ref={setNodeRef}
+      style={style}
+      {...attributes}
+      {...listeners}
+      className={`flex items-center gap-2 px-3 py-2 rounded-md shadow-sm border transition-all duration-200 ${
+        isDragging
+          ? "bg-primary/10 border-primary shadow-lg scale-105 z-50"
+          : "bg-background hover:shadow-md"
+      } ${
+        isSubmitted
+          ? "cursor-default opacity-50"
+          : "cursor-grab active:cursor-grabbing"
+      }`}
+    >
+      <GripVertical
+        className={`h-4 w-4 ${
+          isDragging ? "text-primary" : "text-muted-foreground"
+        }`}
+      />
+      <span className="select-none truncate">{word}</span>
+    </div>
+  );
 }
 
 export default function Practice() {
@@ -58,6 +118,17 @@ export default function Practice() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [practiceState, setPracticeState] = useState<PracticeState>({});
   const [showAnswer, setShowAnswer] = useState(false);
+
+  const sensors = useSensors(
+    useSensor(PointerSensor, {
+      activationConstraint: {
+        distance: 8,
+      },
+    }),
+    useSensor(KeyboardSensor, {
+      coordinateGetter: sortableKeyboardCoordinates,
+    })
+  );
 
   // Reset practice state when questions change
   useEffect(() => {
@@ -89,12 +160,22 @@ export default function Practice() {
     }
   }, [currentQuestion, practiceState]);
 
-  const handleDragEnd = (result: DropResult) => {
-    if (!result.destination || !currentQuestion) return;
+  const handleDragEnd = (event: DragEndEvent) => {
+    const { active, over } = event;
 
-    const newWords = Array.from(questionState?.words || []);
-    const [removed] = newWords.splice(result.source.index, 1);
-    newWords.splice(result.destination.index, 0, removed);
+    if (!over || !currentQuestion || !questionState || active.id === over.id)
+      return;
+
+    const oldIndex = questionState.words.findIndex(
+      (word, index) => `${word}-${index}` === active.id
+    );
+    const newIndex = questionState.words.findIndex(
+      (word, index) => `${word}-${index}` === over.id
+    );
+
+    if (oldIndex === undefined || newIndex === undefined) return;
+
+    const newWords = arrayMove(questionState.words, oldIndex, newIndex);
 
     setPracticeState((prev) => ({
       ...prev,
@@ -275,50 +356,40 @@ export default function Practice() {
                   )}
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <DragDropContext onDragEnd={handleDragEnd}>
-                    <Droppable droppableId="words" direction="horizontal">
-                      {(provided) => (
-                        <div
-                          ref={provided.innerRef}
-                          {...provided.droppableProps}
-                          className="flex flex-wrap gap-2 p-4 min-h-[60px] bg-muted/50 rounded-lg"
-                        >
+                  <DndContext
+                    sensors={sensors}
+                    collisionDetection={closestCenter}
+                    onDragEnd={handleDragEnd}
+                  >
+                    <div className="p-4 min-h-[120px] bg-muted/50 rounded-lg">
+                      <SortableContext
+                        items={
+                          questionState?.words.map(
+                            (word, index) => `${word}-${index}`
+                          ) || []
+                        }
+                        strategy={horizontalListSortingStrategy}
+                      >
+                        <div className="flex flex-wrap gap-2">
                           {questionState?.words.map((word, index) => (
-                            <Draggable
+                            <SortableWord
                               key={`${word}-${index}`}
-                              draggableId={`${word}-${index}`}
+                              word={word}
                               index={index}
-                              isDragDisabled={questionState?.isSubmitted}
-                            >
-                              {(provided) => (
-                                <div
-                                  ref={provided.innerRef}
-                                  {...provided.draggableProps}
-                                  {...provided.dragHandleProps}
-                                  className={`flex items-center gap-2 px-3 py-2 bg-background rounded-md shadow-sm border ${
-                                    questionState?.isSubmitted
-                                      ? "cursor-default"
-                                      : "cursor-grab hover:shadow-md"
-                                  }`}
-                                >
-                                  <GripVertical className="h-4 w-4 text-muted-foreground" />
-                                  <span>{word}</span>
-                                </div>
-                              )}
-                            </Draggable>
+                              isSubmitted={questionState?.isSubmitted || false}
+                            />
                           ))}
-                          {provided.placeholder}
                         </div>
-                      )}
-                    </Droppable>
-                  </DragDropContext>
+                      </SortableContext>
+                    </div>
+                  </DndContext>
 
                   {questionState?.isSubmitted && (
                     <Alert
                       variant={
                         questionState.isCorrect ? "default" : "destructive"
                       }
-                      className="mt-4"
+                      className="mt-4 animate-in fade-in slide-in-from-bottom-4 duration-300"
                     >
                       <AlertDescription className="flex items-center gap-2">
                         {questionState.isCorrect ? (
