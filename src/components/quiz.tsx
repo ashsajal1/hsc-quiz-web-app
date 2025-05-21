@@ -25,6 +25,8 @@ import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { useQueryState } from "nuqs";
+import Confetti from "react-confetti";
+import { useWindowSize } from "../hooks/useWindowSize";
 
 interface QuizProps {
   initialTopic?: string;
@@ -34,6 +36,8 @@ interface QuizProps {
 }
 
 export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: QuizProps) {
+  const { width, height } = useWindowSize();
+  const [showConfetti, setShowConfetti] = useState(false);
   const { questions, getChaptersBySubject } = useQuizStore();
   
   // Create a list of available topics from the questions.
@@ -138,6 +142,11 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
     if (option.isCorrect) {
       setIsCorrect(true);
       setScore((prev) => prev + 1);
+      setShowConfetti(true);
+      // Hide confetti after 3 seconds
+      setTimeout(() => {
+        setShowConfetti(false);
+      }, 3000);
     } else {
       setIsCorrect(false);
     }
@@ -185,6 +194,16 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
       animate={{ opacity: 1, y: 0 }}
       className="flex flex-col items-center justify-center mx-auto space-y-8"
     >
+      {showConfetti && (
+        <Confetti
+          width={width}
+          height={height}
+          recycle={false}
+          numberOfPieces={200}
+          gravity={0.2}
+        />
+      )}
+      
       {/* Quiz Header */}
       <Card className="w-full p-6 space-y-6">
         <div className="flex items-center justify-between">
