@@ -2758,7 +2758,6 @@
     "explanation": "",
     "hint": ""
   },
-
   {
     "id": 1,
     "subject": "biology-1",
@@ -3782,7 +3781,6 @@
     "explanation": "",
     "hint": ""
   },
-
   {
     "id": 34,
     "subject": "biology-1",
@@ -5581,7 +5579,6 @@
     "explanation": "",
     "hint": ""
   },
-
   {
     "id": 1,
     "subject": "biology-1",
@@ -8279,7 +8276,6 @@
     "explanation": "",
     "hint": ""
   },
-
   {
     "id": 1,
     "subject": "biology-1",
@@ -10574,7 +10570,6 @@
     "explanation": "",
     "hint": ""
   },
-
   {
     "id": 1,
     "subject": "biology-1",
@@ -13117,7 +13112,6 @@
     "explanation": "",
     "hint": ""
   },
-
   {
     "id": 1,
     "subject": "biology-1",
@@ -14606,7 +14600,6 @@
     "explanation": "",
     "hint": ""
   },
-
   {
     "id": 1,
     "subject": "biology-1",
@@ -17366,7 +17359,6 @@
     "explanation": "",
     "hint": ""
   },
-
   {
     "id": 1,
     "subject": "biology-1",
@@ -19878,7 +19870,6 @@
     "explanation": "",
     "hint": ""
   },
-
   {
     "id": 1,
     "subject": "biology-1",
@@ -22576,7 +22567,6 @@
     "explanation": "",
     "hint": ""
   },
-
   {
     "id": 1,
     "subject": "biology-1",
@@ -25336,7 +25326,6 @@
     "explanation": "",
     "hint": ""
   },
-
   {
     "id": 1,
     "subject": "biology-1",
@@ -28189,7 +28178,6 @@
     "explanation": "",
     "hint": ""
   },
-
   {
     "id": 1,
     "subject": "chemistry-1",
@@ -33841,7 +33829,6 @@
     "hint": "",
     "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nসুমন টাইট্রেশনের সময় কনিক্যাল ফ্লাস্কের x অ্যাসিডের সাথে ব্যুরেটে থাকা Y যৌগ মেশানোর সময় হঠাৎ লক্ষ্য করল অ্যাসিডের মধ্যে থাকা লাল লিটমাসটি নীল হয়ে গেল।"
   },
-
   {
     "id": 1,
     "subject": "chemistry-1",
@@ -35454,7 +35441,6 @@
     "explanation": "",
     "hint": ""
   },
-
   {
     "id": 1,
     "subject": "chemistry-1",
@@ -37686,7 +37672,7 @@
       {
         "id": 2,
         "text": "সমযোজী ধর্ম তত বৃদ্ধি পাবে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -37697,11 +37683,6 @@
         "id": 4,
         "text": "কোন পরিবর্তন হবে না",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -37732,11 +37713,6 @@
       {
         "id": 4,
         "text": "i, ii ও iii",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -37753,7 +37729,7 @@
       {
         "id": 1,
         "text": "লুইস",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -37769,11 +37745,6 @@
         "id": 4,
         "text": "প্রাউস",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -37799,17 +37770,12 @@
       {
         "id": 3,
         "text": "৩য় পর্যায়ে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "৪র্থ পর্যায়ে",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -37825,7 +37791,7 @@
       {
         "id": 1,
         "text": "ইথেন",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -37841,11 +37807,6 @@
         "id": 4,
         "text": "জেনজিন",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -37866,7 +37827,7 @@
       {
         "id": 2,
         "text": "p-ব্লক মৌল",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -37877,11 +37838,6 @@
         "id": 4,
         "text": "f-ব্লক মৌল",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -37902,7 +37858,7 @@
       {
         "id": 2,
         "text": "বিপরীত দিকে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -37913,11 +37869,6 @@
         "id": 4,
         "text": "নিচের দিকে",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -37933,7 +37884,7 @@
       {
         "id": 1,
         "text": "পলিং ও স্লোটার",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -37949,11 +37900,6 @@
         "id": 4,
         "text": "বোর ও সাইজেক",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -37974,7 +37920,7 @@
       {
         "id": 2,
         "text": "B2O3",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -37985,11 +37931,6 @@
         "id": 4,
         "text": "B3O5",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38010,7 +37951,7 @@
       {
         "id": 2,
         "text": "অপোলার",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -38021,11 +37962,6 @@
         "id": 4,
         "text": "সবগুলো",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38046,7 +37982,7 @@
       {
         "id": 2,
         "text": "কপার",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -38057,11 +37993,6 @@
         "id": 4,
         "text": "ডায়মন্ড",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38077,7 +38008,7 @@
       {
         "id": 1,
         "text": "মেন্ডেলিফ",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 2,
@@ -38093,11 +38024,6 @@
         "id": 4,
         "text": "নিউল্যান্ড",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ক]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38123,17 +38049,12 @@
       {
         "id": 3,
         "text": "লিগ্যান্ড",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "ক্যাট্যালিস্ট",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38159,17 +38080,12 @@
       {
         "id": 3,
         "text": "স্ফুটনাঙ্ক হ্রাস পায়",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "গলনাঙ্ক একই থাকে",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38195,17 +38111,12 @@
       {
         "id": 3,
         "text": "ii ও iii",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "iii",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38226,7 +38137,7 @@
       {
         "id": 2,
         "text": "দ্রাবতা গুণ কমে যায়",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -38237,11 +38148,6 @@
         "id": 4,
         "text": "দ্রাব্যতা দ্বিগুণ হয়",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38272,11 +38178,6 @@
       {
         "id": 4,
         "text": "সমযোজী বন্ধন",
-        "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [ঘ]",
         "isCorrect": true
       }
     ],
@@ -38303,17 +38204,12 @@
       {
         "id": 3,
         "text": "যৌগটির অণু পোলার বলে",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "যৌগটির সংযুক্তি বলের কারণে",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38339,11 +38235,6 @@
       {
         "id": 3,
         "text": "গলনাঙ্ক একই থাকে",
-        "isCorrect": false
-      },
-      {
-        "id": 4,
-        "text": "সঠিক উত্তর: [গ]",
         "isCorrect": true
       }
     ],
@@ -38365,7 +38256,7 @@
       {
         "id": 2,
         "text": "নীল",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -38376,11 +38267,6 @@
         "id": 4,
         "text": "সাদা",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38401,7 +38287,7 @@
       {
         "id": 2,
         "text": "২টি",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 3,
@@ -38412,11 +38298,6 @@
         "id": 4,
         "text": "৪টি",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [খ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38442,17 +38323,12 @@
       {
         "id": 3,
         "text": "এক",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "চার",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -38478,17 +38354,12 @@
       {
         "id": 3,
         "text": "যৌগের অণু",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": 4,
         "text": "কোনটিই নয়",
         "isCorrect": false
-      },
-      {
-        "id": 5,
-        "text": "সঠিক উত্তর: [গ]",
-        "isCorrect": true
       }
     ],
     "explanation": "",
@@ -39036,7 +38907,6 @@
     "hint": "",
     "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\n‘Y’ একটি অধাতু যা সমুদ্রের আগাছায় পাওয়া যায় এবং যার অভাবে একটি মাত্রাত্মক রোগ সৃষ্টি হয়।\n"
   },
-
   {
     "id": 1,
     "subject": "chemistry-1",
@@ -45210,7 +45080,6 @@
     "hint": "",
     "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nবাজার থেকে দুধ কিনে আশফাক তার সাথে ছানার পানি মিশায়। কিছুদিন রেখে দিলে তা আপনা আপনি x-যৌগে পরিণত হয়।\n\n"
   },
-
   {
     "id": 1,
     "subject": "chemistry-2",
@@ -90689,7 +90558,6 @@
     "hint": "",
     "description": "উদ্দীপকটি পড়ো এবং নিচের ২টি প্রশ্নের উত্তর দাও:\nগণি মিয়া সমাজের জন্য নিবেদিত প্রাণ। তিনি সমাজের দু:খী, অসহায় মানুষদের সবসময় সাহায্য করেন। তিনি নিজের কথা একদম চিন্তা করেন না।\n"
   },
-
   {
     "id": 1,
     "subject": "physics-2",
@@ -93794,7 +93662,6 @@
     "hint": "",
     "description": "উদ্দীপকটি পড় এবং নিচের দুইটি প্রশ্নের উত্তর দাও:\nএকটি সুষম তড়িৎক্ষেত্র 50 cm ব্যবধানে অবস্থিত দুটি বিন্দুর বিভব পার্থক্য 200 V।\n"
   },
-
   {
     "id": 1,
     "subject": "physics-2",
@@ -103325,7 +103192,6 @@
     "hint": "",
     "description": "উদ্দীপকটি পড় এবং নিচের তিনটি প্রশ্নের উত্তর দাও:\nআধুনিক তত্ত্বানুযায়ী ভস্মীভূত নক্ষত্র নিজ মহাকর্ষের প্রবাবেই ধ্বংস হয়ে ব্ল্যাক হোল-এ পরিণত হতে পারে। তবে এ ক্ষেত্রে এর দুই সৌর ভরের সমান হতে হয়।\n"
   },
-
   {
     "id": 1,
     "subject": "physics-1",
