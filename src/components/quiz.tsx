@@ -85,6 +85,37 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
     });
   }, [questions, topic, chapter]);
 
+  // Based on the selected range, sort or set the starting index for the quiz.
+  useEffect(() => {
+    let sortedQuestions = [...filteredQuestions];
+    const middleIndex = Math.floor(sortedQuestions.length / 2);
+
+    switch (selectedRange) {
+      case "start":
+        setSelectedQuestions(sortedQuestions);
+        setCurrentQuestionIndex(0);
+        break;
+      case "end":
+        sortedQuestions = sortedQuestions.sort((q1, q2) => q2.id - q1.id);
+        setSelectedQuestions(sortedQuestions);
+        setCurrentQuestionIndex(0);
+        break;
+      case "middle-to-start":
+        sortedQuestions = sortedQuestions.sort((q1, q2) => q2.id - q1.id);
+        setSelectedQuestions(sortedQuestions);
+        setCurrentQuestionIndex(middleIndex);
+        break;
+      case "middle-to-end":
+        setSelectedQuestions(sortedQuestions);
+        setCurrentQuestionIndex(middleIndex);
+        break;
+      default:
+        setSelectedQuestions(sortedQuestions);
+        setCurrentQuestionIndex(0);
+        break;
+    }
+  }, [filteredQuestions, selectedRange]);
+
   // Find the specific question if questionId is provided and set initial index
   useEffect(() => {
     if (selectedQuestionId) {
@@ -96,32 +127,6 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
       }
     }
   }, [selectedQuestionId, filteredQuestions]);
-
-  // Based on the selected range, sort or set the starting index for the quiz.
-  useEffect(() => {
-    let sortedQuestions = [...filteredQuestions];
-    const middleIndex = Math.floor(sortedQuestions.length / 2);
-
-    switch (selectedRange) {
-      case "start":
-        setSelectedQuestions(sortedQuestions);
-        break;
-      case "end":
-        sortedQuestions = sortedQuestions.sort((q1, q2) => q2.id - q1.id);
-        setSelectedQuestions(sortedQuestions);
-        break;
-      case "middle-to-start":
-        sortedQuestions = sortedQuestions.sort((q1, q2) => q2.id - q1.id);
-        setSelectedQuestions(sortedQuestions);
-        break;
-      case "middle-to-end":
-        setSelectedQuestions(sortedQuestions);
-        break;
-      default:
-        setSelectedQuestions(sortedQuestions);
-        break;
-    }
-  }, [filteredQuestions, selectedRange]);
 
   const currentQuestion = selectedQuestions[currentQuestionIndex];
 
