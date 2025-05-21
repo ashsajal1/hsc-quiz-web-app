@@ -42,8 +42,9 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
   }, [answerCooldown]);
 
   const scrambleWord = (word: string) => {
-    // Split the formula into parts (variables, operators, etc.)
-    const parts = word.match(/([a-zA-Z0-9]+|[^a-zA-Z0-9]+)/g) || [];
+    // Remove whitespace and split the formula into parts (variables, operators, etc.)
+    const cleanWord = word.replace(/\s+/g, '');
+    const parts = cleanWord.match(/([a-zA-Z0-9]+|[^a-zA-Z0-9]+)/g) || [];
     return parts.sort(() => Math.random() - 0.5).join("");
   };
 
