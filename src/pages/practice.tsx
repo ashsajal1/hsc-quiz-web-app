@@ -23,6 +23,8 @@ import {
   ArrowLeft,
   RotateCcw,
   GripVertical,
+  Eye,
+  EyeOff,
 } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
@@ -55,6 +57,7 @@ export default function Practice() {
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [practiceState, setPracticeState] = useState<PracticeState>({});
+  const [showAnswer, setShowAnswer] = useState(false);
 
   // Reset practice state when questions change
   useEffect(() => {
@@ -237,13 +240,39 @@ export default function Practice() {
                 <CardHeader>
                   <div className="flex items-center justify-between">
                     <CardTitle>Question {currentQuestionIndex + 1}</CardTitle>
-                    <Badge variant="outline">
-                      {currentQuestionIndex + 1} / {filteredQuestions.length}
-                    </Badge>
+                    <div className="flex items-center gap-2">
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => setShowAnswer(!showAnswer)}
+                        className="gap-2"
+                      >
+                        {showAnswer ? (
+                          <>
+                            <EyeOff className="h-4 w-4" />
+                            Hide Answer
+                          </>
+                        ) : (
+                          <>
+                            <Eye className="h-4 w-4" />
+                            Show Answer
+                          </>
+                        )}
+                      </Button>
+                      <Badge variant="outline">
+                        {currentQuestionIndex + 1} / {filteredQuestions.length}
+                      </Badge>
+                    </div>
                   </div>
                   <CardDescription className="text-lg mt-2">
                     {currentQuestion?.question}
                   </CardDescription>
+                  {showAnswer && (
+                    <div className="mt-2 p-3 bg-muted/50 rounded-md">
+                      <p className="text-sm font-medium">Correct Answer:</p>
+                      <p className="text-sm">{currentQuestion?.answer}</p>
+                    </div>
+                  )}
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <DragDropContext onDragEnd={handleDragEnd}>
