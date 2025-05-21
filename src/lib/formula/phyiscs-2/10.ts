@@ -1,0 +1,73 @@
+export const physics10 = [
+    {
+      topic: "physics",
+      chapter: "Semiconductor and Electronics",
+      name: "Intrinsic Carrier Concentration",
+      formula: "n_i = p_i = √(N_c N_v) * exp(-E_g / 2kT)",
+      description: "Number of electrons (n_i) and holes (p_i) in intrinsic semiconductor; E_g is band gap energy.",
+    },
+    {
+      topic: "physics",
+      chapter: "Semiconductor and Electronics",
+      name: "Current in a Semiconductor",
+      formula: "I = q (n μ_n E + p μ_p E) A",
+      description: "Total current due to electrons and holes; q is charge, μ is mobility, E is electric field, A is cross-section.",
+    },
+    {
+      topic: "physics",
+      chapter: "Semiconductor and Electronics",
+      name: "Drift Velocity",
+      formula: "v_d = μ E",
+      description: "Average velocity of charge carriers under electric field E; μ is mobility.",
+    },
+    {
+      topic: "physics",
+      chapter: "Semiconductor and Electronics",
+      name: "Ohm’s Law for Semiconductors",
+      formula: "J = σ E",
+      description: "Current density (J) proportional to electric field (E); σ is conductivity.",
+    },
+    {
+      topic: "physics",
+      chapter: "Semiconductor and Electronics",
+      name: "Conductivity",
+      formula: "σ = q (n μ_n + p μ_p)",
+      description: "Conductivity depends on charge, carrier concentration and mobility of electrons and holes.",
+    },
+    {
+      topic: "physics",
+      chapter: "Semiconductor and Electronics",
+      name: "Diode Equation (Ideal)",
+      formula: "I = I_s (e^{qV / kT} - 1)",
+      description: "Current through a diode with saturation current I_s, voltage V, temperature T.",
+    },
+    {
+      topic: "physics",
+      chapter: "Semiconductor and Electronics",
+      name: "Rectification Efficiency",
+      formula: "η = (P_dc / P_ac) × 100%",
+      description: "Ratio of DC power output to AC power input in a rectifier circuit.",
+    },
+    {
+      topic: "physics",
+      chapter: "Semiconductor and Electronics",
+      name: "Transistor Current Relations (Common Emitter)",
+      formula: "I_C = β I_B,  I_E = I_B + I_C",
+      description: "Collector current (I_C) and emitter current (I_E) in terms of base current (I_B) and current gain (β).",
+    },
+    {
+      topic: "physics",
+      chapter: "Semiconductor and Electronics",
+      name: "Logic Gates Truth Table",
+      formula: "—",
+      description: "Basic logic operations: AND, OR, NOT, NAND, NOR, XOR, XNOR.",
+    },
+    {
+      topic: "physics",
+      chapter: "Semiconductor and Electronics",
+      name: "Energy Band Diagram",
+      formula: "—",
+      description: "Illustrates conduction band, valence band and forbidden energy gap in semiconductors.",
+    },
+  ];
+  

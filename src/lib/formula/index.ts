@@ -7,7 +7,7 @@ import { physics10 } from "./physics-1/10";
 import { physics2 } from "./physics-1/2";
 import { physics3 } from "./physics-1/3";
 import { physics4 } from "./physics-1/4";
-
+import { physics2nd } from "./phyiscs-2";
 export const formula = [
   ...physics2,
   ...physics3,
@@ -18,4 +18,5 @@ export const formula = [
   ...physics8,
   ...physics9,
   ...physics10,
+  ...physics2nd,
 ];
