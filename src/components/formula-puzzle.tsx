@@ -194,15 +194,15 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-4">
-      <div className="flex justify-between items-center mb-6">
-        <div className="flex items-center gap-4">
+    <div className="max-w-4xl mx-auto p-4 sm:p-6">
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 w-full sm:w-auto">
           <h2 className="text-2xl font-bold">Physics Formula Puzzle</h2>
           <Select
             value={selectedChapter}
             onValueChange={setSelectedChapter}
           >
-            <SelectTrigger className="w-[180px]">
+            <SelectTrigger className="w-full sm:w-[180px]">
               <SelectValue placeholder="Select Chapter" />
             </SelectTrigger>
             <SelectContent>
@@ -214,11 +214,11 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
             </SelectContent>
           </Select>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-2 w-full sm:w-auto">
           <Button
             variant="outline"
             onClick={initializeGame}
-            className="gap-2"
+            className="gap-2 flex-1 sm:flex-none"
           >
             <Shuffle className="h-4 w-4" />
             New Game
@@ -233,7 +233,7 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
                 [currentFormulaIndex]: new Set()
               }));
             }}
-            className="gap-2"
+            className="gap-2 flex-1 sm:flex-none"
           >
             <RotateCcw className="h-4 w-4" />
             Reset
@@ -241,11 +241,11 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
         </div>
       </div>
 
-      <div className="mb-6">
-        <div className="text-center mb-4">
-          <p className="text-lg font-semibold">Current Formula:</p>
+      <Card className="p-4 sm:p-6 mb-6 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 shadow-lg">
+        <div className="text-center mb-6">
+          <p className="text-lg font-semibold mb-2">Current Formula:</p>
           <div 
-            className="text-2xl font-bold tracking-wider"
+            className="text-2xl sm:text-3xl font-bold tracking-wider min-h-[3rem] flex items-center justify-center"
             dangerouslySetInnerHTML={{ __html: renderFormula(currentWord) }}
           />
           {feedback.type && (
@@ -263,57 +263,67 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
             </motion.div>
           )}
         </div>
-        <div className="text-center">
-          <p className="text-lg font-semibold">Progress: {currentFormulaIndex + 1}/{formulas.length}</p>
-          <p className="text-lg font-semibold">Score: {score}/{formulas.length}</p>
+        <div className="flex justify-center gap-6 text-lg font-semibold">
+          <p>Progress: {currentFormulaIndex + 1}/{formulas.length}</p>
+          <p>Score: {score}/{formulas.length}</p>
         </div>
-      </div>
+      </Card>
 
-      <Card className="p-4">
-        <div className="flex justify-between items-start mb-3">
-          <div className="text-sm font-medium">
+      <Card className="p-4 sm:p-6 bg-white dark:bg-gray-900 shadow-lg">
+        <div className="flex justify-between items-start mb-4">
+          <div className="text-sm font-medium bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full">
             {formulas[currentFormulaIndex]?.name}
           </div>
           <div className="flex gap-2">
             <button
               onClick={toggleHint}
-              className="p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full"
+              className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors"
             >
-              <HelpCircle className="h-4 w-4 text-gray-500" />
+              <HelpCircle className="h-5 w-5 text-gray-500" />
             </button>
             <button
               onClick={toggleAnswer}
               disabled={answerCooldown > 0}
-              className={`p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full ${
+              className={`p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors ${
                 answerCooldown > 0 ? 'opacity-50 cursor-not-allowed' : ''
               }`}
             >
-              <Eye className="h-4 w-4 text-gray-500" />
+              <Eye className="h-5 w-5 text-gray-500" />
             </button>
           </div>
         </div>
         
         {showHint === formulas[currentFormulaIndex]?.formula && (
-          <div className="mb-3 p-2 bg-blue-50 dark:bg-blue-900/20 rounded text-sm text-gray-700 dark:text-gray-300">
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: 'auto' }}
+            exit={{ opacity: 0, height: 0 }}
+            className="mb-4 p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg text-sm text-gray-700 dark:text-gray-300"
+          >
             {formulas[currentFormulaIndex]?.description}
-          </div>
+          </motion.div>
         )}
 
         {showAnswer === formulas[currentFormulaIndex]?.formula && (
-          <div className="mb-3 p-2 bg-yellow-50 dark:bg-yellow-900/20 rounded">
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: 'auto' }}
+            exit={{ opacity: 0, height: 0 }}
+            className="mb-4 p-3 bg-yellow-50 dark:bg-yellow-900/20 rounded-lg"
+          >
             <div 
               className="text-sm font-mono"
               dangerouslySetInnerHTML={{ __html: renderFormula(formulas[currentFormulaIndex]?.formula || '') }}
             />
             {answerCooldown > 0 && (
-              <p className="text-xs text-gray-500 mt-1">
+              <p className="text-xs text-gray-500 mt-2">
                 Answer will be hidden in {answerCooldown}s
               </p>
             )}
-          </div>
+          </motion.div>
         )}
 
-        <div className="flex flex-wrap gap-2 justify-center">
+        <div className="flex flex-wrap gap-2 justify-center mb-6">
           {scrambledFormulas[currentFormulaIndex]?.split("").map((letter, letterIndex) => (
             <motion.button
               key={letterIndex}
@@ -321,13 +331,13 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
               whileTap={{ scale: 0.95 }}
               onClick={() => handleLetterClick(letter, letterIndex)}
               disabled={usedLetters[currentFormulaIndex]?.has(letterIndex)}
-              className={`w-10 h-10 rounded-lg font-bold text-lg
+              className={`w-10 h-10 sm:w-12 sm:h-12 rounded-lg font-bold text-lg
                 ${
                   usedLetters[currentFormulaIndex]?.has(letterIndex)
                     ? "bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-500 cursor-not-allowed"
                     : "bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800"
                 }
-                transition-colors duration-200
+                transition-all duration-200 shadow-sm
               `}
             >
               {letter}
@@ -335,18 +345,18 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
           ))}
         </div>
 
-        <div className="flex justify-between items-center mt-6">
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
           <Button
             variant="outline"
             onClick={handlePreviousFormula}
             disabled={currentFormulaIndex === 0}
-            className="gap-2"
+            className="gap-2 w-full sm:w-auto"
           >
             <ChevronLeft className="h-4 w-4" />
             Previous
           </Button>
           
-          <div className="flex gap-2">
+          <div className="flex gap-2 overflow-x-auto py-2 px-4 max-w-full">
             {formulas.map((_, index) => (
               <button
                 key={index}
@@ -364,12 +374,12 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
                 className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium
                   ${
                     index === currentFormulaIndex
-                      ? "bg-blue-500 text-white"
+                      ? "bg-blue-500 text-white ring-2 ring-blue-300 dark:ring-blue-700"
                       : solvedFormulas.includes(formulas[index]?.formula)
                       ? "bg-green-500 text-white"
                       : "bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300"
                   }
-                  transition-colors duration-200
+                  transition-all duration-200 hover:scale-110
                 `}
               >
                 {index + 1}
@@ -381,7 +391,7 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
             variant="outline"
             onClick={handleNextFormula}
             disabled={currentFormulaIndex === formulas.length - 1}
-            className="gap-2"
+            className="gap-2 w-full sm:w-auto"
           >
             Next
             <ChevronRight className="h-4 w-4" />
@@ -395,14 +405,14 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="fixed inset-0 bg-black/50 flex items-center justify-center"
+            className="fixed inset-0 bg-black/50 flex items-center justify-center p-4"
           >
-            <Card className="p-8 text-center">
+            <Card className="p-6 sm:p-8 text-center max-w-sm w-full">
               <h3 className="text-2xl font-bold mb-4">Congratulations! 🎉</h3>
               <p className="text-lg mb-6">
                 You solved all the formulas with a score of {score}/{formulas.length}
               </p>
-              <Button onClick={initializeGame}>Play Again</Button>
+              <Button onClick={initializeGame} className="w-full sm:w-auto">Play Again</Button>
             </Card>
           </motion.div>
         )}
