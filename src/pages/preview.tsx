@@ -69,31 +69,31 @@ export default function Preview() {
       animate={{ opacity: 1, y: 0 }}
       className="flex flex-col items-center justify-center space-y-6"
     >
-      <div className="flex items-center justify-between w-full max-w-4xl">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between w-full max-w-4xl gap-4">
         <div className="space-y-1">
-          <h1 className="text-2xl font-bold">Question Preview</h1>
-          <p className="text-muted-foreground">
+          <h1 className="text-xl sm:text-2xl font-bold">Question Preview</h1>
+          <p className="text-sm sm:text-base text-muted-foreground">
             Random questions from your selected topics
           </p>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex flex-wrap items-center gap-2 sm:gap-4 w-full sm:w-auto">
           <Badge variant="secondary" className="text-sm">
             {displayedQuestions.length} Questions
           </Badge>
           <Button
             variant={showAnswer ? "destructive" : "outline"}
             onClick={() => setShowAnswer((prev) => !prev)}
-            className="gap-2"
+            className="gap-2 flex-1 sm:flex-none"
           >
             {showAnswer ? (
               <>
                 <EyeOff className="h-4 w-4" />
-                Hide Answers
+                <span className="hidden sm:inline">Hide Answers</span>
               </>
             ) : (
               <>
                 <Eye className="h-4 w-4" />
-                Show Answers
+                <span className="hidden sm:inline">Show Answers</span>
               </>
             )}
           </Button>
@@ -101,7 +101,7 @@ export default function Preview() {
             variant="outline"
             size="icon"
             onClick={handleManualRefresh}
-            className={isRefreshing ? "animate-spin" : ""}
+            className={`${isRefreshing ? "animate-spin" : ""} flex-1 sm:flex-none`}
             disabled={isRefreshing}
           >
             <RefreshCw className="h-4 w-4" />
@@ -111,8 +111,8 @@ export default function Preview() {
 
       <div className="w-full max-w-4xl">
         <div className="flex items-center gap-2 mb-2">
-          <Progress value={(timeUntilRefresh / 10) * 100} className="h-1" />
-          <span className="text-sm text-muted-foreground">
+          <Progress value={(timeUntilRefresh / 10) * 100} className="h-1 flex-1" />
+          <span className="text-xs sm:text-sm text-muted-foreground whitespace-nowrap">
             Refreshing in {timeUntilRefresh}s
           </span>
         </div>
