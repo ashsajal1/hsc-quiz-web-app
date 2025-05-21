@@ -1,0 +1,73 @@
+export const chemistry1 = [
+    {
+      topic: "chemistry",
+      chapter: "Environmental Chemistry",
+      name: "Atmospheric Pressure",
+      formula: "P = F / A",
+      description: "Pressure (P) is force (F) applied per unit area (A).",
+    },
+    {
+      topic: "chemistry",
+      chapter: "Environmental Chemistry",
+      name: "Ideal Gas Law (for atmospheric gases)",
+      formula: "PV = nRT",
+      description: "Relates pressure (P), volume (V), moles (n), gas constant (R), and temperature (T).",
+    },
+    {
+      topic: "chemistry",
+      chapter: "Environmental Chemistry",
+      name: "Partial Pressure (Dalton’s Law)",
+      formula: "P_total = P_1 + P_2 + ... + P_n",
+      description: "Total pressure is the sum of partial pressures of individual gases in a mixture.",
+    },
+    {
+      topic: "chemistry",
+      chapter: "Environmental Chemistry",
+      name: "Ozone Formation and Depletion",
+      formula: "O₂ + UV → 2O,  O + O₂ → O₃",
+      description: "Ozone forms in the stratosphere from oxygen molecules under UV radiation.",
+    },
+    {
+      topic: "chemistry",
+      chapter: "Environmental Chemistry",
+      name: "Acid Rain Formation",
+      formula: "SO₂ + H₂O → H₂SO₃ (Sulfurous acid),  NO₂ + H₂O → HNO₃ (Nitric acid)",
+      description: "Sulfur dioxide and nitrogen oxides react with water to form acids causing acid rain.",
+    },
+    {
+      topic: "chemistry",
+      chapter: "Environmental Chemistry",
+      name: "Water Hardness (Temporary)",
+      formula: "Ca(HCO₃)₂ + Heat → CaCO₃ ↓ + CO₂ + H₂O",
+      description: "Temporary hardness removed by boiling as calcium bicarbonate decomposes.",
+    },
+    {
+      topic: "chemistry",
+      chapter: "Environmental Chemistry",
+      name: "BOD (Biochemical Oxygen Demand)",
+      formula: "BOD = (D₀ - D_t) / P",
+      description: "Measure of oxygen required by microbes to decompose organic matter in water over time t; D₀ is initial DO, D_t is DO after time t, P is dilution factor.",
+    },
+    {
+      topic: "chemistry",
+      chapter: "Environmental Chemistry",
+      name: "COD (Chemical Oxygen Demand)",
+      formula: "COD = (Volume of KMnO₄ × Normality × 8000) / Volume of sample (mL)",
+      description: "Amount of oxygen required to chemically oxidize organic compounds in water sample.",
+    },
+    {
+      topic: "chemistry",
+      chapter: "Environmental Chemistry",
+      name: "Greenhouse Effect Gases",
+      formula: "CO₂, CH₄, N₂O, CFCs",
+      description: "Main greenhouse gases contributing to global warming.",
+    },
+    {
+      topic: "chemistry",
+      chapter: "Environmental Chemistry",
+      name: "pH Calculation",
+      formula: "pH = -log[H⁺]",
+      description: "Measure of acidity or alkalinity of water or soil.",
+    },
+  ];
+  
