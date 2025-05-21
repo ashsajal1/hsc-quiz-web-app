@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Shuffle, RotateCcw, HelpCircle, Eye } from "lucide-react";
+import { Shuffle, RotateCcw, HelpCircle, Eye, ChevronLeft, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { formula } from "@/lib/formula";
 import 'katex/dist/katex.min.css';
@@ -165,6 +165,34 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
     }
   };
 
+  const handlePreviousFormula = () => {
+    if (currentFormulaIndex > 0) {
+      setCurrentFormulaIndex(prev => prev - 1);
+      setCurrentWord("");
+      setSelectedLetters([]);
+      setUsedLetters(prev => ({
+        ...prev,
+        [currentFormulaIndex - 1]: new Set()
+      }));
+      setShowHint(null);
+      setShowAnswer(null);
+    }
+  };
+
+  const handleNextFormula = () => {
+    if (currentFormulaIndex < formulas.length - 1) {
+      setCurrentFormulaIndex(prev => prev + 1);
+      setCurrentWord("");
+      setSelectedLetters([]);
+      setUsedLetters(prev => ({
+        ...prev,
+        [currentFormulaIndex + 1]: new Set()
+      }));
+      setShowHint(null);
+      setShowAnswer(null);
+    }
+  };
+
   return (
     <div className="max-w-4xl mx-auto p-4">
       <div className="flex justify-between items-center mb-6">
@@ -305,6 +333,59 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
               {letter}
             </motion.button>
           ))}
+        </div>
+
+        <div className="flex justify-between items-center mt-6">
+          <Button
+            variant="outline"
+            onClick={handlePreviousFormula}
+            disabled={currentFormulaIndex === 0}
+            className="gap-2"
+          >
+            <ChevronLeft className="h-4 w-4" />
+            Previous
+          </Button>
+          
+          <div className="flex gap-2">
+            {formulas.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => {
+                  setCurrentFormulaIndex(index);
+                  setCurrentWord("");
+                  setSelectedLetters([]);
+                  setUsedLetters(prev => ({
+                    ...prev,
+                    [index]: new Set()
+                  }));
+                  setShowHint(null);
+                  setShowAnswer(null);
+                }}
+                className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium
+                  ${
+                    index === currentFormulaIndex
+                      ? "bg-blue-500 text-white"
+                      : solvedFormulas.includes(formulas[index]?.formula)
+                      ? "bg-green-500 text-white"
+                      : "bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300"
+                  }
+                  transition-colors duration-200
+                `}
+              >
+                {index + 1}
+              </button>
+            ))}
+          </div>
+
+          <Button
+            variant="outline"
+            onClick={handleNextFormula}
+            disabled={currentFormulaIndex === formulas.length - 1}
+            className="gap-2"
+          >
+            Next
+            <ChevronRight className="h-4 w-4" />
+          </Button>
         </div>
       </Card>
 
