@@ -60,10 +60,12 @@ function SortableWord({
   word,
   index,
   isSubmitted,
+  isMoving,
 }: {
   word: string;
   index: number;
   isSubmitted: boolean;
+  isMoving?: boolean;
 }) {
   const {
     attributes,
@@ -88,6 +90,8 @@ function SortableWord({
       className={`flex items-center gap-2 px-3 py-2 rounded-md shadow-sm border transition-all duration-200 ${
         isDragging
           ? "bg-primary/10 border-primary shadow-lg scale-105 z-50"
+          : isMoving
+          ? "bg-primary/20 border-primary shadow-md scale-105 animate-pulse"
           : "bg-background hover:shadow-md"
       } ${
         isSubmitted
@@ -97,7 +101,7 @@ function SortableWord({
     >
       <GripVertical
         className={`h-4 w-4 ${
-          isDragging ? "text-primary" : "text-muted-foreground"
+          isDragging || isMoving ? "text-primary" : "text-muted-foreground"
         }`}
       />
       <span className="select-none truncate">{word}</span>
@@ -120,6 +124,7 @@ export default function Practice() {
   const [practiceState, setPracticeState] = useState<PracticeState>({});
   const [showAnswer, setShowAnswer] = useState(false);
   const [isAutoArranging, setIsAutoArranging] = useState(false);
+  const [movingWordIndex, setMovingWordIndex] = useState<number | null>(null);
 
   const sensors = useSensors(
     useSensor(PointerSensor, {
@@ -227,6 +232,7 @@ export default function Practice() {
     if (!currentQuestion || !questionState || isAutoArranging) return;
 
     setIsAutoArranging(true);
+    setMovingWordIndex(null);
 
     // Get the correct answer words
     const correctWords = currentQuestion.answer.split(" ");
@@ -250,6 +256,9 @@ export default function Practice() {
       );
       
       if (fromIndex !== -1) {
+        // Highlight the word being moved
+        setMovingWordIndex(fromIndex);
+
         // Remove the word from its current position
         const [movedWord] = currentWords.splice(fromIndex, 1);
         // Insert it at the target position
@@ -269,6 +278,7 @@ export default function Practice() {
       }
     }
 
+    setMovingWordIndex(null);
     setIsAutoArranging(false);
   };
 
@@ -428,6 +438,7 @@ export default function Practice() {
                               word={word}
                               index={index}
                               isSubmitted={questionState?.isSubmitted || false}
+                              isMoving={index === movingWordIndex}
                             />
                           ))}
                         </div>
