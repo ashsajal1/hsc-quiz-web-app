@@ -1,4 +1,4 @@
-export const formula = [
+export const physics6 = [
     {
       topic: "physics",
       chapter: "Gravitation",
