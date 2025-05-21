@@ -49,21 +49,24 @@ export default function FormulaPuzzle({
   const [selectedChapter, setSelectedChapter] = useState<string>(
     initialChapter || "all"
   );
+  const [selectedTopic, setSelectedTopic] = useState<string>("all");
 
-  // Get unique chapters
+  // Get unique chapters and topics
   const chapters = ["all", ...new Set(formula.map((f) => f.chapter))];
+  const topics = ["all", ...new Set(formula.map((f) => f.topic))];
 
   useEffect(() => {
-    // Filter formulas by chapter if provided
-    const filteredFormulas =
-      selectedChapter === "all"
-        ? formula
-        : formula.filter((f) => f.chapter === selectedChapter);
+    // Filter formulas by chapter and topic if provided
+    const filteredFormulas = formula.filter((f) => {
+      const chapterMatch = selectedChapter === "all" || f.chapter === selectedChapter;
+      const topicMatch = selectedTopic === "all" || f.topic === selectedTopic;
+      return chapterMatch && topicMatch;
+    });
     setFormulas(filteredFormulas);
     // Initialize scrambled formulas immediately
     const scrambled = filteredFormulas.map((f) => scrambleWord(f.formula));
     setScrambledFormulas(scrambled);
-    // Reset game state when chapter changes
+    // Reset game state when filters change
     setCurrentFormulaIndex(0);
     setScore(0);
     setSolvedFormulas([]);
@@ -73,7 +76,7 @@ export default function FormulaPuzzle({
     setShowHint(null);
     setShowAnswer(null);
     setAnswerCooldown(0);
-  }, [selectedChapter]);
+  }, [selectedChapter, selectedTopic]);
 
   useEffect(() => {
     let timer: NodeJS.Timeout;
@@ -234,18 +237,32 @@ export default function FormulaPuzzle({
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 w-full sm:w-auto">
           <h2 className="text-2xl font-bold">Physics Formula Puzzle</h2>
-          <Select value={selectedChapter} onValueChange={setSelectedChapter}>
-            <SelectTrigger className="w-full sm:w-[180px]">
-              <SelectValue placeholder="Select Chapter" />
-            </SelectTrigger>
-            <SelectContent>
-              {chapters.map((chapter) => (
-                <SelectItem key={chapter} value={chapter}>
-                  {chapter === "all" ? "All Chapters" : `Chapter ${chapter}`}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
+          <div className="flex flex-col sm:flex-row gap-2">
+            <Select value={selectedTopic} onValueChange={setSelectedTopic}>
+              <SelectTrigger className="w-full sm:w-[180px]">
+                <SelectValue placeholder="Select Topic" />
+              </SelectTrigger>
+              <SelectContent>
+                {topics.map((topic) => (
+                  <SelectItem key={topic} value={topic}>
+                    {topic === "all" ? "All Topics" : topic.charAt(0).toUpperCase() + topic.slice(1)}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+            <Select value={selectedChapter} onValueChange={setSelectedChapter}>
+              <SelectTrigger className="w-full sm:w-[180px]">
+                <SelectValue placeholder="Select Chapter" />
+              </SelectTrigger>
+              <SelectContent>
+                {chapters.map((chapter) => (
+                  <SelectItem key={chapter} value={chapter}>
+                    {chapter === "all" ? "All Chapters" : `Chapter ${chapter}`}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
         </div>
         <div className="flex gap-2 w-full sm:w-auto">
           <Button
