@@ -47,6 +47,7 @@ import {
   horizontalListSortingStrategy,
 } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
+import confetti from 'canvas-confetti';
 
 interface PracticeState {
   [key: string]: {
@@ -212,6 +213,31 @@ export default function Practice() {
         isSubmitted: true,
       },
     }));
+
+    // Show confetti if answer is correct
+    if (isCorrect) {
+      // Left side confetti
+      confetti({
+        particleCount: 75,
+        spread: 70,
+        origin: { x: 0, y: 0.7 },
+        colors: ['#FFD700', '#FF69B4', '#00CED1'],
+        scalar: 1.2,
+        ticks: 200,
+        angle: 60
+      });
+
+      // Right side confetti
+      confetti({
+        particleCount: 75,
+        spread: 70,
+        origin: { x: 1, y: 0.7 },
+        colors: ['#7B68EE', '#FF4500', '#00CED1'],
+        scalar: 1.2,
+        ticks: 200,
+        angle: 120
+      });
+    }
   };
 
   const handleNextQuestion = () => {
