@@ -14,7 +14,6 @@ import {
   ArrowRight,
   ArrowRightFromLine,
   BookOpen,
-  ChevronRight,
   Lightbulb,
   Timer,
 } from "lucide-react";
