@@ -1,11 +1,18 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Shuffle, RotateCcw, HelpCircle, Eye, ChevronLeft, ChevronRight } from "lucide-react";
+import {
+  Shuffle,
+  RotateCcw,
+  HelpCircle,
+  Eye,
+  ChevronLeft,
+  ChevronRight,
+} from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { formula } from "@/lib/formula";
-import 'katex/dist/katex.min.css';
-import katex from 'katex';
+import "katex/dist/katex.min.css";
+import katex from "katex";
 import {
   Select,
   SelectContent,
@@ -18,7 +25,9 @@ interface FormulaPuzzleProps {
   chapter?: string;
 }
 
-export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzleProps) {
+export default function FormulaPuzzle({
+  chapter: initialChapter,
+}: FormulaPuzzleProps) {
   const [formulas, setFormulas] = useState(formula);
   const [scrambledFormulas, setScrambledFormulas] = useState<string[]>([]);
   const [selectedLetters, setSelectedLetters] = useState<string[]>([]);
@@ -29,22 +38,30 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
   const [showHint, setShowHint] = useState<string | null>(null);
   const [showAnswer, setShowAnswer] = useState<string | null>(null);
   const [answerCooldown, setAnswerCooldown] = useState<number>(0);
-  const [feedback, setFeedback] = useState<{ type: 'correct' | 'incorrect' | null; message: string }>({ type: null, message: '' });
-  const [usedLetters, setUsedLetters] = useState<{ [key: number]: Set<number> }>({});
+  const [feedback, setFeedback] = useState<{
+    type: "correct" | "incorrect" | null;
+    message: string;
+  }>({ type: null, message: "" });
+  const [usedLetters, setUsedLetters] = useState<{
+    [key: number]: Set<number>;
+  }>({});
   const [currentFormulaIndex, setCurrentFormulaIndex] = useState(0);
-  const [selectedChapter, setSelectedChapter] = useState<string>(initialChapter || "all");
+  const [selectedChapter, setSelectedChapter] = useState<string>(
+    initialChapter || "all"
+  );
 
   // Get unique chapters
-  const chapters = ["all", ...new Set(formula.map(f => f.chapter))];
+  const chapters = ["all", ...new Set(formula.map((f) => f.chapter))];
 
   useEffect(() => {
     // Filter formulas by chapter if provided
-    const filteredFormulas = selectedChapter === "all"
-      ? formula
-      : formula.filter(f => f.chapter === selectedChapter);
+    const filteredFormulas =
+      selectedChapter === "all"
+        ? formula
+        : formula.filter((f) => f.chapter === selectedChapter);
     setFormulas(filteredFormulas);
     // Initialize scrambled formulas immediately
-    const scrambled = filteredFormulas.map(f => scrambleWord(f.formula));
+    const scrambled = filteredFormulas.map((f) => scrambleWord(f.formula));
     setScrambledFormulas(scrambled);
     // Reset game state when chapter changes
     setCurrentFormulaIndex(0);
@@ -62,7 +79,7 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
     let timer: NodeJS.Timeout;
     if (answerCooldown > 0) {
       timer = setInterval(() => {
-        setAnswerCooldown(prev => prev - 1);
+        setAnswerCooldown((prev) => prev - 1);
       }, 1000);
     }
     return () => clearInterval(timer);
@@ -70,13 +87,13 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
 
   const scrambleWord = (word: string) => {
     // Remove whitespace and split the formula into parts (variables, operators, etc.)
-    const cleanWord = word.replace(/\s+/g, '');
+    const cleanWord = word.replace(/\s+/g, "");
     const parts = cleanWord.match(/([a-zA-Z0-9]+|[^a-zA-Z0-9]+)/g) || [];
     return parts.sort(() => Math.random() - 0.5).join("");
   };
 
   const initializeGame = () => {
-    const scrambled = formulas.map(f => scrambleWord(f.formula));
+    const scrambled = formulas.map((f) => scrambleWord(f.formula));
     setScrambledFormulas(scrambled);
     setSelectedLetters([]);
     setSolvedFormulas([]);
@@ -101,26 +118,37 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
     const newWord = currentWord + letter;
     setSelectedLetters([...selectedLetters, letter]);
     setCurrentWord(newWord);
-    
+
     // Mark this letter as used
-    setUsedLetters(prev => ({
+    setUsedLetters((prev) => ({
       ...prev,
-      [currentFormulaIndex]: new Set([...(prev[currentFormulaIndex] || []), letterIndex])
+      [currentFormulaIndex]: new Set([
+        ...(prev[currentFormulaIndex] || []),
+        letterIndex,
+      ]),
     }));
 
     // Check if the current word is complete
-    if (newWord.length === formulas[currentFormulaIndex].formula.replace(/\s+/g, '').length) {
-      if (newWord === formulas[currentFormulaIndex].formula.replace(/\s+/g, '')) {
-        setSolvedFormulas([...solvedFormulas, formulas[currentFormulaIndex].formula]);
+    if (
+      newWord.length ===
+      formulas[currentFormulaIndex].formula.replace(/\s+/g, "").length
+    ) {
+      if (
+        newWord === formulas[currentFormulaIndex].formula.replace(/\s+/g, "")
+      ) {
+        setSolvedFormulas([
+          ...solvedFormulas,
+          formulas[currentFormulaIndex].formula,
+        ]);
         setScore(score + 1);
-        setFeedback({ type: 'correct', message: 'Correct! 🎉' });
+        setFeedback({ type: "correct", message: "Correct! 🎉" });
         setTimeout(() => {
-          setFeedback({ type: null, message: '' });
+          setFeedback({ type: null, message: "" });
           setCurrentWord("");
           setSelectedLetters([]);
-          setUsedLetters(prev => ({
+          setUsedLetters((prev) => ({
             ...prev,
-            [currentFormulaIndex]: new Set()
+            [currentFormulaIndex]: new Set(),
           }));
           // Move to next formula
           if (currentFormulaIndex < formulas.length - 1) {
@@ -130,14 +158,14 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
           }
         }, 1000);
       } else {
-        setFeedback({ type: 'incorrect', message: 'Try again!' });
+        setFeedback({ type: "incorrect", message: "Try again!" });
         setTimeout(() => {
-          setFeedback({ type: null, message: '' });
+          setFeedback({ type: null, message: "" });
           setCurrentWord("");
           setSelectedLetters([]);
-          setUsedLetters(prev => ({
+          setUsedLetters((prev) => ({
             ...prev,
-            [currentFormulaIndex]: new Set()
+            [currentFormulaIndex]: new Set(),
           }));
         }, 1000);
       }
@@ -145,12 +173,20 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
   };
 
   const toggleHint = () => {
-    setShowHint(showHint === formulas[currentFormulaIndex].formula ? null : formulas[currentFormulaIndex].formula);
+    setShowHint(
+      showHint === formulas[currentFormulaIndex].formula
+        ? null
+        : formulas[currentFormulaIndex].formula
+    );
   };
 
   const toggleAnswer = () => {
     if (answerCooldown > 0) return;
-    setShowAnswer(showAnswer === formulas[currentFormulaIndex].formula ? null : formulas[currentFormulaIndex].formula);
+    setShowAnswer(
+      showAnswer === formulas[currentFormulaIndex].formula
+        ? null
+        : formulas[currentFormulaIndex].formula
+    );
     setAnswerCooldown(30); // 30 seconds cooldown
   };
 
@@ -158,7 +194,7 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
     try {
       return katex.renderToString(formula, {
         throwOnError: false,
-        displayMode: true
+        displayMode: true,
       });
     } catch (error) {
       return formula;
@@ -167,12 +203,12 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
 
   const handlePreviousFormula = () => {
     if (currentFormulaIndex > 0) {
-      setCurrentFormulaIndex(prev => prev - 1);
+      setCurrentFormulaIndex((prev) => prev - 1);
       setCurrentWord("");
       setSelectedLetters([]);
-      setUsedLetters(prev => ({
+      setUsedLetters((prev) => ({
         ...prev,
-        [currentFormulaIndex - 1]: new Set()
+        [currentFormulaIndex - 1]: new Set(),
       }));
       setShowHint(null);
       setShowAnswer(null);
@@ -181,12 +217,12 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
 
   const handleNextFormula = () => {
     if (currentFormulaIndex < formulas.length - 1) {
-      setCurrentFormulaIndex(prev => prev + 1);
+      setCurrentFormulaIndex((prev) => prev + 1);
       setCurrentWord("");
       setSelectedLetters([]);
-      setUsedLetters(prev => ({
+      setUsedLetters((prev) => ({
         ...prev,
-        [currentFormulaIndex + 1]: new Set()
+        [currentFormulaIndex + 1]: new Set(),
       }));
       setShowHint(null);
       setShowAnswer(null);
@@ -198,10 +234,7 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 w-full sm:w-auto">
           <h2 className="text-2xl font-bold">Physics Formula Puzzle</h2>
-          <Select
-            value={selectedChapter}
-            onValueChange={setSelectedChapter}
-          >
+          <Select value={selectedChapter} onValueChange={setSelectedChapter}>
             <SelectTrigger className="w-full sm:w-[180px]">
               <SelectValue placeholder="Select Chapter" />
             </SelectTrigger>
@@ -228,9 +261,9 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
             onClick={() => {
               setCurrentWord("");
               setSelectedLetters([]);
-              setUsedLetters(prev => ({
+              setUsedLetters((prev) => ({
                 ...prev,
-                [currentFormulaIndex]: new Set()
+                [currentFormulaIndex]: new Set(),
               }));
             }}
             className="gap-2 flex-1 sm:flex-none"
@@ -244,7 +277,7 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
       <Card className="p-4 sm:p-6 mb-6 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 shadow-lg">
         <div className="text-center mb-6">
           <p className="text-lg font-semibold mb-2">Current Formula:</p>
-          <div 
+          <div
             className="text-2xl sm:text-3xl font-bold tracking-wider min-h-[3rem] flex items-center justify-center"
             dangerouslySetInnerHTML={{ __html: renderFormula(currentWord) }}
           />
@@ -254,9 +287,9 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 10 }}
               className={`mt-2 text-sm font-medium ${
-                feedback.type === 'correct' 
-                  ? 'text-green-600 dark:text-green-400' 
-                  : 'text-red-600 dark:text-red-400'
+                feedback.type === "correct"
+                  ? "text-green-600 dark:text-green-400"
+                  : "text-red-600 dark:text-red-400"
               }`}
             >
               {feedback.message}
@@ -264,8 +297,12 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
           )}
         </div>
         <div className="flex justify-center gap-6 text-lg font-semibold">
-          <p>Progress: {currentFormulaIndex + 1}/{formulas.length}</p>
-          <p>Score: {score}/{formulas.length}</p>
+          <p>
+            Progress: {currentFormulaIndex + 1}/{formulas.length}
+          </p>
+          <p>
+            Score: {score}/{formulas.length}
+          </p>
         </div>
       </Card>
 
@@ -285,18 +322,18 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
               onClick={toggleAnswer}
               disabled={answerCooldown > 0}
               className={`p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors ${
-                answerCooldown > 0 ? 'opacity-50 cursor-not-allowed' : ''
+                answerCooldown > 0 ? "opacity-50 cursor-not-allowed" : ""
               }`}
             >
               <Eye className="h-5 w-5 text-gray-500" />
             </button>
           </div>
         </div>
-        
+
         {showHint === formulas[currentFormulaIndex]?.formula && (
           <motion.div
             initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
+            animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             className="mb-4 p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg text-sm text-gray-700 dark:text-gray-300"
           >
@@ -307,13 +344,17 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
         {showAnswer === formulas[currentFormulaIndex]?.formula && (
           <motion.div
             initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
+            animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             className="mb-4 p-3 bg-yellow-50 dark:bg-yellow-900/20 rounded-lg"
           >
-            <div 
+            <div
               className="text-sm font-mono"
-              dangerouslySetInnerHTML={{ __html: renderFormula(formulas[currentFormulaIndex]?.formula || '') }}
+              dangerouslySetInnerHTML={{
+                __html: renderFormula(
+                  formulas[currentFormulaIndex]?.formula || ""
+                ),
+              }}
             />
             {answerCooldown > 0 && (
               <p className="text-xs text-gray-500 mt-2">
@@ -324,14 +365,16 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
         )}
 
         <div className="flex flex-wrap gap-2 justify-center mb-6">
-          {scrambledFormulas[currentFormulaIndex]?.split("").map((letter, letterIndex) => (
-            <motion.button
-              key={letterIndex}
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={() => handleLetterClick(letter, letterIndex)}
-              disabled={usedLetters[currentFormulaIndex]?.has(letterIndex)}
-              className={`w-10 h-10 sm:w-12 sm:h-12 rounded-lg font-bold text-lg
+          {scrambledFormulas[currentFormulaIndex]
+            ?.split("")
+            .map((letter, letterIndex) => (
+              <motion.button
+                key={letterIndex}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => handleLetterClick(letter, letterIndex)}
+                disabled={usedLetters[currentFormulaIndex]?.has(letterIndex)}
+                className={`w-10 h-10 sm:w-12 sm:h-12 rounded-lg font-bold text-lg
                 ${
                   usedLetters[currentFormulaIndex]?.has(letterIndex)
                     ? "bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-500 cursor-not-allowed"
@@ -339,10 +382,10 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
                 }
                 transition-all duration-200 shadow-sm
               `}
-            >
-              {letter}
-            </motion.button>
-          ))}
+              >
+                {letter}
+              </motion.button>
+            ))}
         </div>
 
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
@@ -355,18 +398,41 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
             <ChevronLeft className="h-4 w-4" />
             Previous
           </Button>
-          
+
           <div className="relative w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px] mx-auto">
             <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-white dark:from-gray-900 to-transparent pointer-events-none z-10" />
             <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-white dark:from-gray-900 to-transparent pointer-events-none z-10" />
-            <div 
+            <div
+              ref={(el) => {
+                if (el) {
+                  const selectedButton = el.children[
+                    currentFormulaIndex
+                  ] as HTMLElement;
+                  if (selectedButton) {
+                    const containerRect = el.getBoundingClientRect();
+                    const buttonRect = selectedButton.getBoundingClientRect();
+
+                    // Check if button is outside visible area
+                    if (
+                      buttonRect.left < containerRect.left ||
+                      buttonRect.right > containerRect.right
+                    ) {
+                      selectedButton.scrollIntoView({
+                        behavior: "smooth",
+                        block: "nearest",
+                        inline: "center",
+                      });
+                    }
+                  }
+                }
+              }}
               className="flex gap-2 overflow-x-auto py-2 px-4 h-12 items-center scrollbar-hide scroll-smooth whitespace-nowrap"
               style={{
-                scrollbarWidth: 'none',
-                msOverflowStyle: 'none',
-                WebkitOverflowScrolling: 'touch',
-                overflowX: 'auto',
-                overflowY: 'hidden'
+                scrollbarWidth: "none",
+                msOverflowStyle: "none",
+                WebkitOverflowScrolling: "touch",
+                overflowX: "auto",
+                overflowY: "hidden",
               }}
               onWheel={(e) => {
                 e.preventDefault();
@@ -381,9 +447,9 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
                     setCurrentFormulaIndex(index);
                     setCurrentWord("");
                     setSelectedLetters([]);
-                    setUsedLetters(prev => ({
+                    setUsedLetters((prev) => ({
                       ...prev,
-                      [index]: new Set()
+                      [index]: new Set(),
                     }));
                     setShowHint(null);
                     setShowAnswer(null);
@@ -428,13 +494,16 @@ export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzle
             <Card className="p-6 sm:p-8 text-center max-w-sm w-full">
               <h3 className="text-2xl font-bold mb-4">Congratulations! 🎉</h3>
               <p className="text-lg mb-6">
-                You solved all the formulas with a score of {score}/{formulas.length}
+                You solved all the formulas with a score of {score}/
+                {formulas.length}
               </p>
-              <Button onClick={initializeGame} className="w-full sm:w-auto">Play Again</Button>
+              <Button onClick={initializeGame} className="w-full sm:w-auto">
+                Play Again
+              </Button>
             </Card>
           </motion.div>
         )}
       </AnimatePresence>
     </div>
   );
-} 
+}
