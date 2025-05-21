@@ -6,12 +6,19 @@ import { motion, AnimatePresence } from "framer-motion";
 import { formula } from "@/lib/formula";
 import 'katex/dist/katex.min.css';
 import katex from 'katex';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 interface FormulaPuzzleProps {
   chapter?: string;
 }
 
-export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
+export default function FormulaPuzzle({ chapter: initialChapter }: FormulaPuzzleProps) {
   const [formulas, setFormulas] = useState(formula);
   const [scrambledFormulas, setScrambledFormulas] = useState<string[]>([]);
   const [selectedLetters, setSelectedLetters] = useState<string[]>([]);
@@ -25,17 +32,31 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
   const [feedback, setFeedback] = useState<{ type: 'correct' | 'incorrect' | null; message: string }>({ type: null, message: '' });
   const [usedLetters, setUsedLetters] = useState<{ [key: number]: Set<number> }>({});
   const [currentFormulaIndex, setCurrentFormulaIndex] = useState(0);
+  const [selectedChapter, setSelectedChapter] = useState<string>(initialChapter || "all");
+
+  // Get unique chapters
+  const chapters = ["all", ...new Set(formula.map(f => f.chapter))];
 
   useEffect(() => {
     // Filter formulas by chapter if provided
-    const filteredFormulas = chapter 
-      ? formula.filter(f => f.chapter === chapter)
-      : formula;
+    const filteredFormulas = selectedChapter === "all"
+      ? formula
+      : formula.filter(f => f.chapter === selectedChapter);
     setFormulas(filteredFormulas);
     // Initialize scrambled formulas immediately
     const scrambled = filteredFormulas.map(f => scrambleWord(f.formula));
     setScrambledFormulas(scrambled);
-  }, [chapter]);
+    // Reset game state when chapter changes
+    setCurrentFormulaIndex(0);
+    setScore(0);
+    setSolvedFormulas([]);
+    setCurrentWord("");
+    setSelectedLetters([]);
+    setUsedLetters({});
+    setShowHint(null);
+    setShowAnswer(null);
+    setAnswerCooldown(0);
+  }, [selectedChapter]);
 
   useEffect(() => {
     let timer: NodeJS.Timeout;
@@ -147,7 +168,24 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
   return (
     <div className="max-w-4xl mx-auto p-4">
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-2xl font-bold">Physics Formula Puzzle</h2>
+        <div className="flex items-center gap-4">
+          <h2 className="text-2xl font-bold">Physics Formula Puzzle</h2>
+          <Select
+            value={selectedChapter}
+            onValueChange={setSelectedChapter}
+          >
+            <SelectTrigger className="w-[180px]">
+              <SelectValue placeholder="Select Chapter" />
+            </SelectTrigger>
+            <SelectContent>
+              {chapters.map((chapter) => (
+                <SelectItem key={chapter} value={chapter}>
+                  {chapter === "all" ? "All Chapters" : `Chapter ${chapter}`}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
         <div className="flex gap-2">
           <Button
             variant="outline"
