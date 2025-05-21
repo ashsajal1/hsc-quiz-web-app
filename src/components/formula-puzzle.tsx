@@ -23,6 +23,7 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
   const [showAnswer, setShowAnswer] = useState<string | null>(null);
   const [answerCooldown, setAnswerCooldown] = useState<number>(0);
   const [feedback, setFeedback] = useState<{ type: 'correct' | 'incorrect' | null; message: string }>({ type: null, message: '' });
+  const [usedLetters, setUsedLetters] = useState<{ [key: number]: Set<number> }>({});
 
   useEffect(() => {
     // Filter formulas by chapter if provided
@@ -60,18 +61,26 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
     setShowHint(null);
     setShowAnswer(null);
     setAnswerCooldown(0);
+    setUsedLetters({});
   };
 
   useEffect(() => {
     initializeGame();
   }, [formulas]);
 
-  const handleLetterClick = (letter: string, formulaIndex: number) => {
+  const handleLetterClick = (letter: string, formulaIndex: number, letterIndex: number) => {
     if (solvedFormulas.includes(formulas[formulaIndex].formula)) return;
+    if (usedLetters[formulaIndex]?.has(letterIndex)) return;
 
     const newWord = currentWord + letter;
     setSelectedLetters([...selectedLetters, letter]);
     setCurrentWord(newWord);
+    
+    // Mark this letter as used
+    setUsedLetters(prev => ({
+      ...prev,
+      [formulaIndex]: new Set([...(prev[formulaIndex] || []), letterIndex])
+    }));
 
     // Check if the current word is complete
     if (newWord.length === formulas[formulaIndex].formula.replace(/\s+/g, '').length) {
@@ -83,6 +92,10 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
           setFeedback({ type: null, message: '' });
           setCurrentWord("");
           setSelectedLetters([]);
+          setUsedLetters(prev => ({
+            ...prev,
+            [formulaIndex]: new Set()
+          }));
         }, 1000);
       } else {
         setFeedback({ type: 'incorrect', message: 'Try again!' });
@@ -90,6 +103,10 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
           setFeedback({ type: null, message: '' });
           setCurrentWord("");
           setSelectedLetters([]);
+          setUsedLetters(prev => ({
+            ...prev,
+            [formulaIndex]: new Set()
+          }));
         }, 1000);
       }
     }
@@ -236,12 +253,17 @@ export default function FormulaPuzzle({ chapter }: FormulaPuzzleProps) {
                   key={letterIndex}
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
-                  onClick={() => handleLetterClick(letter, formulaIndex)}
-                  disabled={solvedFormulas.includes(formulas[formulaIndex].formula)}
+                  onClick={() => handleLetterClick(letter, formulaIndex, letterIndex)}
+                  disabled={
+                    solvedFormulas.includes(formulas[formulaIndex].formula) ||
+                    usedLetters[formulaIndex]?.has(letterIndex)
+                  }
                   className={`w-10 h-10 rounded-lg font-bold text-lg
                     ${
                       solvedFormulas.includes(formulas[formulaIndex].formula)
                         ? "bg-green-500 text-white"
+                        : usedLetters[formulaIndex]?.has(letterIndex)
+                        ? "bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-500 cursor-not-allowed"
                         : "bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800"
                     }
                     transition-colors duration-200
