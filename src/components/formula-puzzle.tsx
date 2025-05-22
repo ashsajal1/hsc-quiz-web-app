@@ -205,12 +205,19 @@ export default function FormulaPuzzle({
     setAnswerCooldown(30); // 30 seconds cooldown
   };
 
-  const handleAutoComplete = () => {
+  const handleAutoComplete = async () => {
     if (solvedFormulas.includes(formulas[currentFormulaIndex].formula)) return;
     
     const correctFormula = formulas[currentFormulaIndex].formula.replace(/\s+/g, "");
-    setCurrentWord(correctFormula);
-    setSelectedLetters(correctFormula.split(""));
+    
+    // Simulate typing animation
+    for (let i = 0; i < correctFormula.length; i++) {
+      setCurrentWord(correctFormula.slice(0, i + 1));
+      setSelectedLetters(correctFormula.slice(0, i + 1).split(""));
+      
+      // Add random delay between 50ms and 150ms for each character
+      await new Promise(resolve => setTimeout(resolve, Math.random() * 100 + 50));
+    }
     
     // Mark all letters as used
     setUsedLetters((prev) => ({
@@ -231,21 +238,22 @@ export default function FormulaPuzzle({
       colors: ['#FFD700', '#FF69B4', '#00CED1', '#7B68EE', '#FF4500']
     });
 
-    setTimeout(() => {
-      setFeedback({ type: null, message: "" });
-      setCurrentWord("");
-      setSelectedLetters([]);
-      setUsedLetters((prev) => ({
-        ...prev,
-        [currentFormulaIndex]: new Set(),
-      }));
-      // Move to next formula
-      if (currentFormulaIndex < formulas.length - 1) {
-        setCurrentFormulaIndex(currentFormulaIndex + 1);
-      } else {
-        setGameOver(true);
-      }
-    }, 1000);
+    // Add a small delay before moving to next formula
+    await new Promise(resolve => setTimeout(resolve, 1000));
+
+    setFeedback({ type: null, message: "" });
+    setCurrentWord("");
+    setSelectedLetters([]);
+    setUsedLetters((prev) => ({
+      ...prev,
+      [currentFormulaIndex]: new Set(),
+    }));
+    // Move to next formula
+    if (currentFormulaIndex < formulas.length - 1) {
+      setCurrentFormulaIndex(currentFormulaIndex + 1);
+    } else {
+      setGameOver(true);
+    }
   };
 
   const renderFormula = (formula: string) => {
