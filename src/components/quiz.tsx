@@ -207,6 +207,37 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
     "end",
   ] as const;
 
+  const SoundControl = () => (
+    <TooltipProvider>
+      <Tooltip>
+        <TooltipTrigger asChild>
+          <div className="flex items-center gap-2">
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => setIsSoundEnabled(!isSoundEnabled)}
+              className={`hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors ${
+                isSoundEnabled ? 'bg-blue-50 dark:bg-blue-900/20' : ''
+              }`}
+            >
+              {isSoundEnabled ? (
+                <Volume2 className="h-5 w-5 text-blue-500" />
+              ) : (
+                <VolumeX className="h-5 w-5 text-gray-500" />
+              )}
+            </Button>
+            <span className="text-sm text-muted-foreground">
+              {isSoundEnabled ? 'Sound On' : 'Sound Off'}
+            </span>
+          </div>
+        </TooltipTrigger>
+        <TooltipContent>
+          <p>{isSoundEnabled ? 'Click to mute sound effects' : 'Click to enable sound effects'}</p>
+        </TooltipContent>
+      </Tooltip>
+    </TooltipProvider>
+  );
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -233,34 +264,6 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
             </p>
           </div>
           <div className="flex items-center gap-2">
-            <TooltipProvider>
-              <Tooltip>
-                <TooltipTrigger asChild>
-                  <div className="flex items-center gap-2">
-                    <Button
-                      variant="ghost"
-                      size="icon"
-                      onClick={() => setIsSoundEnabled(!isSoundEnabled)}
-                      className={`hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors ${
-                        isSoundEnabled ? 'bg-blue-50 dark:bg-blue-900/20' : ''
-                      }`}
-                    >
-                      {isSoundEnabled ? (
-                        <Volume2 className="h-5 w-5 text-blue-500" />
-                      ) : (
-                        <VolumeX className="h-5 w-5 text-gray-500" />
-                      )}
-                    </Button>
-                    <span className="text-sm text-muted-foreground">
-                      {isSoundEnabled ? 'Sound On' : 'Sound Off'}
-                    </span>
-                  </div>
-                </TooltipTrigger>
-                <TooltipContent>
-                  <p>{isSoundEnabled ? 'Click to mute sound effects' : 'Click to enable sound effects'}</p>
-                </TooltipContent>
-              </Tooltip>
-            </TooltipProvider>
             <Badge variant="secondary" className="gap-1">
               <BookOpen className="w-4 h-4" />
               {selectedQuestions.length} Questions
@@ -374,9 +377,12 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
                 <span className="text-muted-foreground">
                   Question {currentQuestionIndex + 1} of {selectedQuestions.length}
                 </span>
-                <span className="font-medium">
-                  Score: {score}/{selectedQuestions.length}
-                </span>
+                <div className="flex items-center gap-4">
+                  <SoundControl />
+                  <span className="font-medium">
+                    Score: {score}/{selectedQuestions.length}
+                  </span>
+                </div>
               </div>
               <Progress
                 value={(currentQuestionIndex / selectedQuestions.length) * 100}
