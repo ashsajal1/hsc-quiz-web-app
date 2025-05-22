@@ -3,7 +3,7 @@ export const physics3 = [
     topic: "physics",
     chapter: "Dynamics",
     name: "Displacement (Uniform Motion)",
-    formula: "s = v * t",
+    formula: "s = v × t",
     description:
       "In uniform motion, displacement is the product of constant velocity and time.",
   },
@@ -11,14 +11,14 @@ export const physics3 = [
     topic: "physics",
     chapter: "Dynamics",
     name: "Acceleration",
-    formula: "a = (v - u) / t",
+    formula: "a = (v - u) ÷ t",
     description: "Acceleration is the change in velocity per unit time.",
   },
   {
     topic: "physics",
     chapter: "Dynamics",
     name: "First Equation of Motion",
-    formula: "v = u + a * t",
+    formula: "v = u + a × t",
     description:
       "Final velocity v after time t with initial velocity u and constant acceleration a.",
   },
@@ -26,7 +26,7 @@ export const physics3 = [
     topic: "physics",
     chapter: "Dynamics",
     name: "Second Equation of Motion",
-    formula: "s = u * t + (1/2) * a * t^2",
+    formula: "s = u × t + ½ × a × t²",
     description:
       "Displacement s after time t with initial velocity u and constant acceleration a.",
   },
@@ -34,7 +34,7 @@ export const physics3 = [
     topic: "physics",
     chapter: "Dynamics",
     name: "Third Equation of Motion",
-    formula: "v^2 = u^2 + 2 * a * s",
+    formula: "v² = u² + 2 × a × s",
     description:
       "Relates final velocity v, initial velocity u, acceleration a, and displacement s.",
   },
@@ -42,7 +42,7 @@ export const physics3 = [
     topic: "physics",
     chapter: "Dynamics",
     name: "Displacement in nth Second",
-    formula: "s_n = u + (1/2) * a * (2n - 1)",
+    formula: "sₙ = u + ½ × a × (2n - 1)",
     description:
       "Displacement in the nth second of motion with uniform acceleration.",
   },
@@ -50,7 +50,7 @@ export const physics3 = [
     topic: "physics",
     chapter: "Dynamics",
     name: "Free Fall Velocity",
-    formula: "v = g * t",
+    formula: "v = g × t",
     description:
       "Velocity of an object in free fall after time t under gravity g.",
   },
@@ -58,7 +58,7 @@ export const physics3 = [
     topic: "physics",
     chapter: "Dynamics",
     name: "Free Fall Displacement",
-    formula: "s = (1/2) * g * t^2",
+    formula: "s = ½ × g × t²",
     description:
       "Displacement of a freely falling object under gravity g after time t.",
   },
@@ -66,7 +66,7 @@ export const physics3 = [
     topic: "physics",
     chapter: "Dynamics",
     name: "Projectile Maximum Height",
-    formula: "H = (u^2 * sin^2θ) / (2 * g)",
+    formula: "H = (u² × sin²(θ)) ÷ (2 × g)",
     description:
       "Maximum height reached by a projectile launched with angle θ and initial speed u.",
   },
@@ -74,7 +74,7 @@ export const physics3 = [
     topic: "physics",
     chapter: "Dynamics",
     name: "Projectile Time of Flight",
-    formula: "T = (2 * u * sinθ) / g",
+    formula: "T = (2 × u × sin(θ)) ÷ g",
     description:
       "Total time the projectile remains in air for a given angle θ and initial speed u.",
   },
@@ -82,7 +82,7 @@ export const physics3 = [
     topic: "physics",
     chapter: "Dynamics",
     name: "Projectile Range",
-    formula: "R = (u^2 * sin(2θ)) / g",
+    formula: "R = (u² × sin(2θ)) ÷ g",
     description:
       "Horizontal range of a projectile launched at an angle θ with speed u.",
   },
