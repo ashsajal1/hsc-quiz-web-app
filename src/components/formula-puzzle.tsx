@@ -238,22 +238,9 @@ export default function FormulaPuzzle({
       colors: ['#FFD700', '#FF69B4', '#00CED1', '#7B68EE', '#FF4500']
     });
 
-    // Add a small delay before moving to next formula
+    // Add a small delay before clearing feedback
     await new Promise(resolve => setTimeout(resolve, 1000));
-
     setFeedback({ type: null, message: "" });
-    setCurrentWord("");
-    setSelectedLetters([]);
-    setUsedLetters((prev) => ({
-      ...prev,
-      [currentFormulaIndex]: new Set(),
-    }));
-    // Move to next formula
-    if (currentFormulaIndex < formulas.length - 1) {
-      setCurrentFormulaIndex(currentFormulaIndex + 1);
-    } else {
-      setGameOver(true);
-    }
   };
 
   const renderFormula = (formula: string) => {
