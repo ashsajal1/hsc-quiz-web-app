@@ -23,6 +23,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import confetti from 'canvas-confetti';
+import { useSounds } from "@/hooks/useSounds";
 
 interface FormulaPuzzleProps {
   chapter?: string;
@@ -31,6 +32,7 @@ interface FormulaPuzzleProps {
 export default function FormulaPuzzle({
   chapter: initialChapter,
 }: FormulaPuzzleProps) {
+  const { playSound } = useSounds();
   const [formulas, setFormulas] = useState(formula);
   const [scrambledFormulas, setScrambledFormulas] = useState<string[]>([]);
   const [selectedLetters, setSelectedLetters] = useState<string[]>([]);
@@ -148,6 +150,9 @@ export default function FormulaPuzzle({
         ]);
         setScore(score + 1);
         setFeedback({ type: "correct", message: "Correct! 🎉" });
+        
+        // Play happy sound
+        playSound('happy');
         
         // Trigger confetti
         confetti({
