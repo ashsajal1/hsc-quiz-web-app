@@ -8,7 +8,8 @@ import {
   Eye,
   ChevronLeft,
   ChevronRight,
-  Wand2,
+  Sparkles
+
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { formula } from "@/lib/formula";
@@ -405,7 +406,7 @@ export default function FormulaPuzzle({
                 solvedFormulas.includes(formulas[currentFormulaIndex]?.formula) ? "opacity-50 cursor-not-allowed" : ""
               }`}
             >
-              <Wand2 className="h-5 w-5 text-gray-500" />
+              <Sparkles className="h-5 w-5 text-gray-500" />
             </button>
           </div>
         </div>
