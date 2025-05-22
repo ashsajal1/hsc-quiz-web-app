@@ -27,6 +27,7 @@ import { Badge } from "@/components/ui/badge";
 import { useQueryState } from "nuqs";
 import Confetti from "react-confetti";
 import { useWindowSize } from "../hooks/useWindowSize";
+import { useSounds } from "@/hooks/useSounds";
 
 interface QuizProps {
   initialTopic?: string;
@@ -36,6 +37,7 @@ interface QuizProps {
 }
 
 export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: QuizProps) {
+  const { playSound } = useSounds();
   const { width, height } = useWindowSize();
   const [showConfetti, setShowConfetti] = useState(false);
   const { questions, getChaptersBySubject } = useQuizStore();
@@ -143,12 +145,16 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
       setIsCorrect(true);
       setScore((prev) => prev + 1);
       setShowConfetti(true);
+      // Play happy sound for correct answer
+      playSound('happy');
       // Hide confetti after 3 seconds
       setTimeout(() => {
         setShowConfetti(false);
       }, 3000);
     } else {
       setIsCorrect(false);
+      // Play sad sound for incorrect answer
+      playSound('sad');
     }
     setShowAnswer(true);
   };
