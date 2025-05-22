@@ -33,45 +33,71 @@ export const useSounds = (): UseSoundsReturn => {
     }
   }, []);
 
+  const playNote = useCallback((frequency: number, duration: number, startTime: number, gain: number) => {
+    if (!audioContextRef.current) return;
+
+    const oscillator = audioContextRef.current.createOscillator();
+    const gainNode = audioContextRef.current.createGain();
+
+    oscillator.type = 'sine';
+    oscillator.frequency.setValueAtTime(frequency, startTime);
+    
+    // Add a slight vibrato effect
+    oscillator.frequency.setValueAtTime(frequency, startTime);
+    oscillator.frequency.linearRampToValueAtTime(frequency * 1.02, startTime + duration * 0.5);
+    oscillator.frequency.linearRampToValueAtTime(frequency, startTime + duration);
+
+    // Create a natural envelope
+    gainNode.gain.setValueAtTime(0, startTime);
+    gainNode.gain.linearRampToValueAtTime(gain, startTime + 0.05);
+    gainNode.gain.linearRampToValueAtTime(gain * 0.7, startTime + duration * 0.7);
+    gainNode.gain.linearRampToValueAtTime(0, startTime + duration);
+
+    oscillator.connect(gainNode);
+    gainNode.connect(audioContextRef.current.destination);
+
+    oscillator.start(startTime);
+    oscillator.stop(startTime + duration);
+
+    return oscillator;
+  }, []);
+
   const playSound = useCallback((type: SoundType) => {
     if (!audioContextRef.current) return;
 
     // Stop any existing sound
     stopSound();
 
-    // Create new oscillator
-    const oscillator = audioContextRef.current.createOscillator();
-    const gainNode = audioContextRef.current.createGain();
+    const now = audioContextRef.current.currentTime;
+    const baseGain = 0.3;
 
-    // Configure sound based on type
     switch (type) {
-      case 'happy':
-        oscillator.type = 'sine';
-        oscillator.frequency.setValueAtTime(880, audioContextRef.current.currentTime); // A5
-        gainNode.gain.setValueAtTime(0.3, audioContextRef.current.currentTime);
+      case 'happy': {
+        // Play a cheerful major arpeggio
+        const frequencies = [523.25, 659.25, 783.99, 1046.50]; // C5, E5, G5, C6
+        frequencies.forEach((freq, index) => {
+          playNote(freq, 0.15, now + index * 0.1, baseGain * (1 - index * 0.15));
+        });
         break;
-      case 'sad':
-        oscillator.type = 'sine';
-        oscillator.frequency.setValueAtTime(440, audioContextRef.current.currentTime); // A4
-        gainNode.gain.setValueAtTime(0.2, audioContextRef.current.currentTime);
+      }
+      case 'sad': {
+        // Play a melancholic minor arpeggio
+        const frequencies = [440, 523.25, 659.25, 880]; // A4, C5, E5, A5
+        frequencies.forEach((freq, index) => {
+          playNote(freq, 0.2, now + index * 0.15, baseGain * (1 - index * 0.1));
+        });
         break;
-      case 'good':
-        oscillator.type = 'sine';
-        oscillator.frequency.setValueAtTime(660, audioContextRef.current.currentTime); // E5
-        gainNode.gain.setValueAtTime(0.25, audioContextRef.current.currentTime);
+      }
+      case 'good': {
+        // Play a satisfying ascending pattern
+        const frequencies = [440, 554.37, 659.25, 880]; // A4, C#5, E5, A5
+        frequencies.forEach((freq, index) => {
+          playNote(freq, 0.12, now + index * 0.08, baseGain * (1 - index * 0.1));
+        });
         break;
+      }
     }
-
-    // Connect nodes
-    oscillator.connect(gainNode);
-    gainNode.connect(audioContextRef.current.destination);
-
-    // Start and stop the sound
-    oscillator.start();
-    oscillator.stop(audioContextRef.current.currentTime + 0.5); // Play for 0.5 seconds
-
-    oscillatorRef.current = oscillator;
-  }, [stopSound]);
+  }, [stopSound, playNote]);
 
   return { playSound, stopSound };
 };
