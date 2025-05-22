@@ -16,6 +16,8 @@ import {
   BookOpen,
   Lightbulb,
   Timer,
+  Volume2,
+  VolumeX,
 } from "lucide-react";
 import { useQuizStore } from "@/store/useQuizStore";
 import { Option } from "@/lib/type";
@@ -28,6 +30,12 @@ import { useQueryState } from "nuqs";
 import Confetti from "react-confetti";
 import { useWindowSize } from "../hooks/useWindowSize";
 import { useSounds } from "@/hooks/useSounds";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 interface QuizProps {
   initialTopic?: string;
@@ -41,6 +49,7 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
   const { width, height } = useWindowSize();
   const [showConfetti, setShowConfetti] = useState(false);
   const { questions, getChaptersBySubject } = useQuizStore();
+  const [isSoundEnabled, setIsSoundEnabled] = useState(true);
   
   // Create a list of available topics from the questions.
   const topics = useMemo(() => {
@@ -145,16 +154,20 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
       setIsCorrect(true);
       setScore((prev) => prev + 1);
       setShowConfetti(true);
-      // Play happy sound for correct answer
-      playSound('happy');
+      // Play happy sound for correct answer if sound is enabled
+      if (isSoundEnabled) {
+        playSound('happy');
+      }
       // Hide confetti after 3 seconds
       setTimeout(() => {
         setShowConfetti(false);
       }, 3000);
     } else {
       setIsCorrect(false);
-      // Play sad sound for incorrect answer
-      playSound('sad');
+      // Play sad sound for incorrect answer if sound is enabled
+      if (isSoundEnabled) {
+        playSound('sad');
+      }
     }
     setShowAnswer(true);
   };
@@ -220,6 +233,34 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
             </p>
           </div>
           <div className="flex items-center gap-2">
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <div className="flex items-center gap-2">
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      onClick={() => setIsSoundEnabled(!isSoundEnabled)}
+                      className={`hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors ${
+                        isSoundEnabled ? 'bg-blue-50 dark:bg-blue-900/20' : ''
+                      }`}
+                    >
+                      {isSoundEnabled ? (
+                        <Volume2 className="h-5 w-5 text-blue-500" />
+                      ) : (
+                        <VolumeX className="h-5 w-5 text-gray-500" />
+                      )}
+                    </Button>
+                    <span className="text-sm text-muted-foreground">
+                      {isSoundEnabled ? 'Sound On' : 'Sound Off'}
+                    </span>
+                  </div>
+                </TooltipTrigger>
+                <TooltipContent>
+                  <p>{isSoundEnabled ? 'Click to mute sound effects' : 'Click to enable sound effects'}</p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
             <Badge variant="secondary" className="gap-1">
               <BookOpen className="w-4 h-4" />
               {selectedQuestions.length} Questions
