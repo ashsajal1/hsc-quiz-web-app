@@ -8,6 +8,7 @@ import {
   Eye,
   ChevronLeft,
   ChevronRight,
+  Wand2,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { formula } from "@/lib/formula";
@@ -203,6 +204,49 @@ export default function FormulaPuzzle({
     setAnswerCooldown(30); // 30 seconds cooldown
   };
 
+  const handleAutoComplete = () => {
+    if (solvedFormulas.includes(formulas[currentFormulaIndex].formula)) return;
+    
+    const correctFormula = formulas[currentFormulaIndex].formula.replace(/\s+/g, "");
+    setCurrentWord(correctFormula);
+    setSelectedLetters(correctFormula.split(""));
+    
+    // Mark all letters as used
+    setUsedLetters((prev) => ({
+      ...prev,
+      [currentFormulaIndex]: new Set(Array.from({ length: correctFormula.length }, (_, i) => i)),
+    }));
+
+    // Add to solved formulas and update score
+    setSolvedFormulas([...solvedFormulas, formulas[currentFormulaIndex].formula]);
+    setScore(score + 1);
+    setFeedback({ type: "correct", message: "Auto-completed! 🎉" });
+
+    // Trigger confetti
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { y: 0.6 },
+      colors: ['#FFD700', '#FF69B4', '#00CED1', '#7B68EE', '#FF4500']
+    });
+
+    setTimeout(() => {
+      setFeedback({ type: null, message: "" });
+      setCurrentWord("");
+      setSelectedLetters([]);
+      setUsedLetters((prev) => ({
+        ...prev,
+        [currentFormulaIndex]: new Set(),
+      }));
+      // Move to next formula
+      if (currentFormulaIndex < formulas.length - 1) {
+        setCurrentFormulaIndex(currentFormulaIndex + 1);
+      } else {
+        setGameOver(true);
+      }
+    }, 1000);
+  };
+
   const renderFormula = (formula: string) => {
     try {
       return katex.renderToString(formula, {
@@ -353,6 +397,15 @@ export default function FormulaPuzzle({
               }`}
             >
               <Eye className="h-5 w-5 text-gray-500" />
+            </button>
+            <button
+              onClick={handleAutoComplete}
+              disabled={solvedFormulas.includes(formulas[currentFormulaIndex]?.formula)}
+              className={`p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors ${
+                solvedFormulas.includes(formulas[currentFormulaIndex]?.formula) ? "opacity-50 cursor-not-allowed" : ""
+              }`}
+            >
+              <Wand2 className="h-5 w-5 text-gray-500" />
             </button>
           </div>
         </div>
