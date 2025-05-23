@@ -2,7 +2,7 @@ import questionsData from "@/data/cq.json";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Volume2, VolumeXIcon, Search, Bookmark, BookmarkCheck } from "lucide-react";
 import { useSpeakerStore } from "@/store/useSpeakerStore";
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useCallback } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import {
@@ -19,6 +19,9 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { useToast } from "@/components/ui/use-toast";
+import { Skeleton } from "@/components/ui/skeleton";
+import { Card, CardContent } from "@/components/ui/card";
 
 interface Question {
   id: string;
@@ -33,9 +36,11 @@ const questions = questionsData as Question[];
 
 export default function QuestionPage() {
   const { speak, isSpeaking, stop } = useSpeakerStore();
+  const { toast } = useToast();
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedSubject, setSelectedSubject] = useState<string>("all");
   const [selectedChapter, setSelectedChapter] = useState<string>("all");
+  const [isLoading, setIsLoading] = useState(true);
   const [bookmarkedQuestions, setBookmarkedQuestions] = useState<string[]>(() => {
     const saved = localStorage.getItem("bookmarkedQuestions");
     return saved ? JSON.parse(saved) : [];
@@ -117,15 +122,80 @@ export default function QuestionPage() {
     speak(answer);
   }
 
-  const toggleBookmark = (questionId: string) => {
+  // Add keyboard shortcuts
+  useEffect(() => {
+    const handleKeyPress = (e: KeyboardEvent) => {
+      // Ctrl/Cmd + K for search
+      if ((e.ctrlKey || e.metaKey) && e.key === "k") {
+        e.preventDefault();
+        const searchInput = document.querySelector("input[type='search']") as HTMLInputElement;
+        searchInput?.focus();
+      }
+      // Ctrl/Cmd + B to toggle bookmark
+      if ((e.ctrlKey || e.metaKey) && e.key === "b") {
+        e.preventDefault();
+        const activeQuestion = document.querySelector("[data-state='open']") as HTMLElement;
+        if (activeQuestion) {
+          const questionId = activeQuestion.getAttribute("data-value");
+          if (questionId) toggleBookmark(questionId);
+        }
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyPress);
+    return () => window.removeEventListener("keydown", handleKeyPress);
+  }, []);
+
+  // Simulate loading state
+  useEffect(() => {
+    const timer = setTimeout(() => setIsLoading(false), 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  const toggleBookmark = useCallback((questionId: string) => {
     setBookmarkedQuestions((prev) => {
       const newBookmarks = prev.includes(questionId)
         ? prev.filter((id) => id !== questionId)
         : [...prev, questionId];
       localStorage.setItem("bookmarkedQuestions", JSON.stringify(newBookmarks));
+      
+      // Show toast notification
+      toast({
+        title: prev.includes(questionId) ? "Bookmark removed" : "Bookmark added",
+        description: prev.includes(questionId) 
+          ? "Question removed from bookmarks" 
+          : "Question added to bookmarks",
+      });
+      
       return newBookmarks;
     });
-  };
+  }, [toast]);
+
+  if (isLoading) {
+    return (
+      <div className="space-y-6 p-6">
+        <div className="flex items-center justify-between">
+          <div>
+            <Skeleton className="h-8 w-48" />
+            <Skeleton className="h-4 w-64 mt-2" />
+          </div>
+          <Skeleton className="h-6 w-24" />
+        </div>
+        <div className="flex flex-col gap-4 md:flex-row md:items-center">
+          <Skeleton className="h-9 flex-1" />
+          <div className="flex gap-2">
+            <Skeleton className="h-9 w-[180px]" />
+            <Skeleton className="h-9 w-[180px]" />
+          </div>
+        </div>
+        <div className="space-y-4">
+          {[...Array(5)].map((_, i) => (
+            <Skeleton key={i} className="h-16 w-full" />
+          ))}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6 p-6">
@@ -141,45 +211,51 @@ export default function QuestionPage() {
         </Badge>
       </div>
 
-      <div className="flex flex-col gap-4 md:flex-row md:items-center">
-        <div className="relative flex-1">
-          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
-          <Input
-            placeholder="Search questions..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="pl-9"
-          />
-        </div>
-        <div className="flex gap-2">
-          <Select value={selectedSubject} onValueChange={setSelectedSubject}>
-            <SelectTrigger className="w-[180px]">
-              <SelectValue placeholder="Select subject" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="all">All Subjects</SelectItem>
-              {subjects.map((subject) => (
-                <SelectItem key={subject.value} value={subject.value}>
-                  {subject.label}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-          <Select value={selectedChapter} onValueChange={setSelectedChapter}>
-            <SelectTrigger className="w-[180px]" disabled={selectedSubject === "all"}>
-              <SelectValue placeholder={selectedSubject === "all" ? "Select subject first" : "Select chapter"} />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="all">All Chapters</SelectItem>
-              {chapters.map((chapter) => (
-                <SelectItem key={chapter} value={chapter}>
-                  {chapter}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-        </div>
-      </div>
+      <Card>
+        <CardContent className="pt-6">
+          <div className="flex flex-col gap-4 md:flex-row md:items-center">
+            <div className="relative flex-1">
+              <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+              <Input
+                type="search"
+                placeholder="Search questions... (Ctrl/Cmd + K)"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="pl-9"
+                aria-label="Search questions"
+              />
+            </div>
+            <div className="flex gap-2">
+              <Select value={selectedSubject} onValueChange={setSelectedSubject}>
+                <SelectTrigger className="w-[180px]">
+                  <SelectValue placeholder="Select subject" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="all">All Subjects</SelectItem>
+                  {subjects.map((subject) => (
+                    <SelectItem key={subject.value} value={subject.value}>
+                      {subject.label}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+              <Select value={selectedChapter} onValueChange={setSelectedChapter}>
+                <SelectTrigger className="w-[180px]" disabled={selectedSubject === "all"}>
+                  <SelectValue placeholder={selectedSubject === "all" ? "Select subject first" : "Select chapter"} />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="all">All Chapters</SelectItem>
+                  {chapters.map((chapter) => (
+                    <SelectItem key={chapter} value={chapter}>
+                      {chapter}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
 
       <Tabs defaultValue="জ্ঞানমূলক" className="w-full">
         <TabsList className="grid w-full grid-cols-2">
@@ -210,6 +286,8 @@ export default function QuestionPage() {
                           variant="ghost"
                           size="icon"
                           onClick={() => toggleBookmark(q.id)}
+                          aria-label={bookmarkedQuestions.includes(q.id) ? "Remove bookmark" : "Add bookmark"}
+                          title="Toggle bookmark (Ctrl/Cmd + B)"
                         >
                           {bookmarkedQuestions.includes(q.id) ? (
                             <BookmarkCheck className="h-4 w-4 text-green-500" />
@@ -222,6 +300,7 @@ export default function QuestionPage() {
                             variant="ghost"
                             size="icon"
                             onClick={() => stop()}
+                            aria-label="Stop speaking"
                           >
                             <VolumeXIcon className="h-4 w-4" />
                           </Button>
@@ -230,6 +309,7 @@ export default function QuestionPage() {
                             variant="ghost"
                             size="icon"
                             onClick={() => handleSpeak(q.answer)}
+                            aria-label="Speak answer"
                           >
                             <Volume2 className="h-4 w-4" />
                           </Button>
@@ -265,6 +345,8 @@ export default function QuestionPage() {
                           variant="ghost"
                           size="icon"
                           onClick={() => toggleBookmark(q.id)}
+                          aria-label={bookmarkedQuestions.includes(q.id) ? "Remove bookmark" : "Add bookmark"}
+                          title="Toggle bookmark (Ctrl/Cmd + B)"
                         >
                           {bookmarkedQuestions.includes(q.id) ? (
                             <BookmarkCheck className="h-4 w-4 text-green-500" />
@@ -277,6 +359,7 @@ export default function QuestionPage() {
                             variant="ghost"
                             size="icon"
                             onClick={() => stop()}
+                            aria-label="Stop speaking"
                           >
                             <VolumeXIcon className="h-4 w-4" />
                           </Button>
@@ -285,6 +368,7 @@ export default function QuestionPage() {
                             variant="ghost"
                             size="icon"
                             onClick={() => handleSpeak(q.answer)}
+                            aria-label="Speak answer"
                           >
                             <Volume2 className="h-4 w-4" />
                           </Button>
