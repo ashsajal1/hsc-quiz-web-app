@@ -177,7 +177,7 @@ export default function QuestionPage() {
           <Accordion type="single" collapsible className="w-full">
             {filteredQuestions
               .filter((q) => q.type === "cognitive")
-              .map((q) => (
+              .map((q, index) => (
                 <AccordionItem
                   key={q.id}
                   value={q.id}
@@ -185,6 +185,7 @@ export default function QuestionPage() {
                 >
                   <AccordionTrigger className="hover:no-underline">
                     <div className="flex items-center gap-2">
+                      <span className="text-muted-foreground w-8">#{index + 1}</span>
                       <span className="text-left font-medium">{q.question}</span>
                     </div>
                   </AccordionTrigger>
@@ -231,7 +232,7 @@ export default function QuestionPage() {
           <Accordion type="single" collapsible className="w-full">
             {filteredQuestions
               .filter((q) => q.type === "perceptual")
-              .map((q) => (
+              .map((q, index) => (
                 <AccordionItem
                   key={q.id}
                   value={q.id}
@@ -239,6 +240,7 @@ export default function QuestionPage() {
                 >
                   <AccordionTrigger className="hover:no-underline">
                     <div className="flex items-center gap-2">
+                      <span className="text-muted-foreground w-8">#{index + 1}</span>
                       <span className="text-left font-medium">{q.question}</span>
                     </div>
                   </AccordionTrigger>
