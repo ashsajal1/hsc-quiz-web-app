@@ -115,7 +115,7 @@ const WordGame: React.FC = () => {
               </div>
               <button
                 onClick={switchCategory}
-                className="bg-purple-500 hover:bg-purple-600 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 transform hover:scale-105"
+                className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg border-2 border-teal-400 hover:border-teal-500"
               >
                 {currentCategory === 0 ? 'ছত্রাকের বৈশিষ্ট্য দেখুন' : 'শৈবালের বৈশিষ্ট্য দেখুন'}
               </button>
