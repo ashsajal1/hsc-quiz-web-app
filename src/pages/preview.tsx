@@ -128,7 +128,7 @@ export default function Preview() {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="flex flex-col items-center justify-center space-y-6"
+      className="flex flex-col items-center justify-center space-y-6 p-4"
     >
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between w-full max-w-4xl gap-4">
         <div className="space-y-1">
@@ -209,103 +209,111 @@ export default function Preview() {
         </div>
       </div>
 
-      <div className="relative flex h-[500px] w-full max-w-4xl flex-col items-center justify-center overflow-hidden rounded-lg bg-background md:shadow-xl">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={isRefreshing ? "refreshing" : "stable"}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.3 }}
-            className="w-full"
-          >
-            <Marquee pauseOnHover className="[--duration:100s]">
-              {displayedQuestions
-                .slice(0, Math.floor(displayedQuestions.length / 2))
-                .map((question) => (
-                  <Card
-                    className="w-[400px] mx-2 hover:shadow-lg transition-shadow"
-                    key={question.id}
-                  >
-                    <CardContent>
-                      <CardHeader>
-                        <CardTitle className="text-lg">{question.question}</CardTitle>
-                      </CardHeader>
-                      <CardFooter>
-                        <div className="flex flex-wrap gap-2">
-                          {question.options.map((option) => (
-                            <Button
-                              key={option.id}
-                              className={`mr-1 transition-colors ${
-                                showAnswer && option.isCorrect
-                                  ? "bg-green-600 hover:bg-green-700 text-white"
-                                  : ""
-                              }`}
-                              size="sm"
-                              variant="outline"
-                            >
-                              {option.isCorrect && showAnswer && (
-                                <CheckCheck
-                                  className="h-4 w-4 mr-2"
-                                  strokeWidth={"1"}
-                                />
-                              )}
-                              {option.text}
-                            </Button>
-                          ))}
-                        </div>
-                      </CardFooter>
-                    </CardContent>
-                  </Card>
-                ))}
-            </Marquee>
+      <div className="relative w-full max-w-4xl">
+        <div className="flex flex-col items-center justify-center overflow-hidden rounded-lg bg-background md:shadow-xl">
+          <div className="h-[600px] w-full">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={isRefreshing ? "refreshing" : "stable"}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.3 }}
+                className="w-full h-full"
+              >
+                <div className="h-[300px]">
+                  <Marquee pauseOnHover className="[--duration:100s] h-full">
+                    {displayedQuestions
+                      .slice(0, Math.floor(displayedQuestions.length / 2))
+                      .map((question) => (
+                        <Card
+                          className="w-[400px] mx-2 hover:shadow-lg transition-shadow h-[280px]"
+                          key={question.id}
+                        >
+                          <CardContent className="h-full">
+                            <CardHeader>
+                              <CardTitle className="text-lg">{question.question}</CardTitle>
+                            </CardHeader>
+                            <CardFooter className="flex-wrap">
+                              <div className="flex flex-wrap gap-2">
+                                {question.options.map((option) => (
+                                  <Button
+                                    key={option.id}
+                                    className={`mr-1 transition-colors ${
+                                      showAnswer && option.isCorrect
+                                        ? "bg-green-600 hover:bg-green-700 text-white"
+                                        : ""
+                                    }`}
+                                    size="sm"
+                                    variant="outline"
+                                  >
+                                    {option.isCorrect && showAnswer && (
+                                      <CheckCheck
+                                        className="h-4 w-4 mr-2"
+                                        strokeWidth={"1"}
+                                      />
+                                    )}
+                                    {option.text}
+                                  </Button>
+                                ))}
+                              </div>
+                            </CardFooter>
+                          </CardContent>
+                        </Card>
+                      ))}
+                  </Marquee>
+                </div>
 
-            <Marquee reverse pauseOnHover className="[--duration:100s]">
-              {displayedQuestions
-                .slice(Math.floor(displayedQuestions.length / 2))
-                .map((question) => (
-                  <Card
-                    className="w-[400px] mx-2 hover:shadow-lg transition-shadow"
-                    key={question.id}
-                  >
-                    <CardContent>
-                      <CardHeader>
-                        <CardTitle className="text-lg">{question.question}</CardTitle>
-                      </CardHeader>
-                      <CardFooter>
-                        <div className="flex flex-wrap gap-2">
-                          {question.options.map((option) => (
-                            <Button
-                              key={option.id}
-                              className={`mr-1 transition-colors ${
-                                showAnswer && option.isCorrect
-                                  ? "bg-green-600 hover:bg-green-700 text-white"
-                                  : ""
-                              }`}
-                              size="sm"
-                              variant="outline"
-                            >
-                              {option.isCorrect && showAnswer && (
-                                <CheckCheck
-                                  className="h-4 w-4 mr-2"
-                                  strokeWidth={"1"}
-                                />
-                              )}
-                              {option.text}
-                            </Button>
-                          ))}
-                        </div>
-                      </CardFooter>
-                    </CardContent>
-                  </Card>
-                ))}
-            </Marquee>
-          </motion.div>
-        </AnimatePresence>
+                <div className="h-[300px]">
+                  <Marquee reverse pauseOnHover className="[--duration:100s] h-full">
+                    {displayedQuestions
+                      .slice(Math.floor(displayedQuestions.length / 2))
+                      .map((question) => (
+                        <Card
+                          className="w-[400px] mx-2 hover:shadow-lg transition-shadow h-[280px]"
+                          key={question.id}
+                        >
+                          <CardContent className="h-full">
+                            <CardHeader>
+                              <CardTitle className="text-lg">{question.question}</CardTitle>
+                            </CardHeader>
+                            <CardFooter className="flex-wrap">
+                              <div className="flex flex-wrap gap-2">
+                                {question.options.map((option) => (
+                                  <Button
+                                    key={option.id}
+                                    className={`mr-1 transition-colors ${
+                                      showAnswer && option.isCorrect
+                                        ? "bg-green-600 hover:bg-green-700 text-white"
+                                        : ""
+                                    }`}
+                                    size="sm"
+                                    variant="outline"
+                                  >
+                                    {option.isCorrect && showAnswer && (
+                                      <CheckCheck
+                                        className="h-4 w-4 mr-2"
+                                        strokeWidth={"1"}
+                                      />
+                                    )}
+                                    {option.text}
+                                  </Button>
+                                ))}
+                              </div>
+                            </CardFooter>
+                          </CardContent>
+                        </Card>
+                      ))}
+                  </Marquee>
+                </div>
+              </motion.div>
+            </AnimatePresence>
 
-        {/* Gradient overlays */}
-        <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-background"></div>
-        <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-background"></div>
+            {/* Gradient overlays */}
+            <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-background"></div>
+            <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-background"></div>
+          </div>
+        </div>
       </div>
     </motion.div>
   );
