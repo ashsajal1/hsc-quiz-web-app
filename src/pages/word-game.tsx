@@ -15,6 +15,7 @@ const WordGame: React.FC = () => {
   const [gameOver, setGameOver] = useState(false);
   const [currentCategory, setCurrentCategory] = useState(0);
   const [progress, setProgress] = useState(0);
+  const [showHint, setShowHint] = useState(false);
 
   const initializeGame = () => {
     const allWords = [...wordList[0].words[0], ...wordList[0].words[1]];
@@ -24,6 +25,7 @@ const WordGame: React.FC = () => {
     setFeedback('');
     setGameOver(false);
     setProgress(0);
+    setShowHint(false);
   };
 
   useEffect(() => {
@@ -57,6 +59,9 @@ const WordGame: React.FC = () => {
 
   const getBoxColor = (word: string) => {
     if (!selectedWords.includes(word)) {
+      if (showHint && wordList[0].words[currentCategory].includes(word)) {
+        return 'bg-blue-100 dark:bg-gray-700 hover:bg-blue-200 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-100 border-2 border-blue-500 dark:border-blue-400';
+      }
       return 'bg-blue-100 dark:bg-gray-700 hover:bg-blue-200 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-100';
     }
     return wordList[0].words[currentCategory].includes(word)
@@ -69,19 +74,45 @@ const WordGame: React.FC = () => {
     initializeGame();
   };
 
+  const getRemainingCount = () => {
+    const correctWords = wordList[0].words[currentCategory];
+    const foundCorrectWords = selectedWords.filter(w => correctWords.includes(w));
+    return correctWords.length - foundCorrectWords.length;
+  };
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg dark:shadow-gray-900 p-6 transition-colors duration-300">
-          <h1 className="text-4xl font-bold text-center mb-8 text-gray-800 dark:text-white">
-            শৈবাল ও ছত্রাকের বৈশিষ্ট্য
-          </h1>
+          <div className="flex flex-col items-center mb-8">
+            <h1 className="text-4xl font-bold text-center mb-4 text-gray-800 dark:text-white">
+              শৈবাল ও ছত্রাকের বৈশিষ্ট্য
+            </h1>
+            <div className="flex items-center gap-4">
+              <span className={`px-4 py-2 rounded-full text-white font-semibold ${
+                currentCategory === 0 ? 'bg-green-500' : 'bg-purple-500'
+              }`}>
+                {wordList[0].name[currentCategory]}
+              </span>
+              <span className="text-gray-600 dark:text-gray-300">
+                {getRemainingCount()}টি বৈশিষ্ট্য বাকি আছে
+              </span>
+            </div>
+          </div>
           
           <div className="text-center mb-8">
             <div className="flex justify-between items-center mb-4">
-              <h2 className="text-2xl font-semibold text-gray-700 dark:text-gray-200">
-                স্কোর: {score}
-              </h2>
+              <div className="flex items-center gap-4">
+                <h2 className="text-2xl font-semibold text-gray-700 dark:text-gray-200">
+                  স্কোর: {score}
+                </h2>
+                <button
+                  onClick={() => setShowHint(!showHint)}
+                  className="text-sm px-3 py-1 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+                >
+                  {showHint ? 'ইঙ্গিত বন্ধ করুন' : 'ইঙ্গিত দেখুন'}
+                </button>
+              </div>
               <button
                 onClick={switchCategory}
                 className="bg-purple-500 hover:bg-purple-600 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 transform hover:scale-105"
