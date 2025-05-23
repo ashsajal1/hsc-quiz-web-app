@@ -14,6 +14,7 @@ import Preview from "./pages/preview";
 import QuestionPage from "./pages/question";
 import Puzzle from "./pages/puzzle";
 import Practice from "./pages/practice";
+import DropGame from "./pages/drop-game";
 
 export const router = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ export const router = createBrowserRouter([
       {
         path: "/practice/*",
         element: <Practice />,
+      },
+      {
+        path: "/drop-game/*",
+        element: <DropGame />,
       },
       {
         path: "/about",
