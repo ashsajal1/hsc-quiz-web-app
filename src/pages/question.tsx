@@ -44,7 +44,33 @@ export default function QuestionPage() {
   // Get unique subjects and chapters
   const subjects = useMemo(() => {
     const uniqueSubjects = new Set(questions.map((q) => q.subject).filter(Boolean));
-    return Array.from(uniqueSubjects) as string[];
+    return Array.from(uniqueSubjects).map(subject => {
+      if (!subject) return { value: '', label: '' };
+      
+      // Convert "biology-1" to "Biology 1st"
+      const [name, number] = subject.split('-');
+      if (!name || !number) return { value: subject, label: subject };
+      
+      const ordinal = {
+        '1': '1st',
+        '2': '2nd',
+        '3': '3rd',
+        '4': '4th',
+        '5': '5th',
+        '6': '6th',
+        '7': '7th',
+        '8': '8th',
+        '9': '9th',
+        '10': '10th',
+        '11': '11th',
+        '12': '12th'
+      }[number] || number;
+      
+      return {
+        value: subject,
+        label: `${name.charAt(0).toUpperCase() + name.slice(1)} ${ordinal}`
+      };
+    }).filter(subject => subject.value !== '');
   }, []);
 
   const chapters = useMemo(() => {
@@ -120,8 +146,8 @@ export default function QuestionPage() {
             <SelectContent>
               <SelectItem value="all">All Subjects</SelectItem>
               {subjects.map((subject) => (
-                <SelectItem key={subject} value={subject}>
-                  {subject}
+                <SelectItem key={subject.value} value={subject.value}>
+                  {subject.label}
                 </SelectItem>
               ))}
             </SelectContent>
