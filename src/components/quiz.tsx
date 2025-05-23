@@ -47,16 +47,20 @@ interface QuizProps {
   questionId?: string | null;
 }
 
-export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: QuizProps) {
+export function Quiz({
+  initialTopic,
+  initialChapter,
+  onComplete,
+  questionId,
+}: QuizProps) {
   const { playSound } = useSounds();
   const { width, height } = useWindowSize();
   const [showConfetti, setShowConfetti] = useState(false);
   const { questions, getChaptersBySubject } = useQuizStore();
   const [isSoundEnabled, setIsSoundEnabled] = useState(true);
   const [isReadingAll, setIsReadingAll] = useState(false);
-  const [currentReadingIndex, setCurrentReadingIndex] = useState(0);
-  const { speak, isSpeaking, stop } = useSpeakerStore();
-  
+  const { speak, stop } = useSpeakerStore();
+
   // Create a list of available topics from the questions.
   const topics = useMemo(() => {
     const set = new Set<string>();
@@ -79,11 +83,14 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
     serialize: (value) => value,
   });
 
-  const [selectedQuestionId, setSelectedQuestionId] = useQueryState("questionId", {
-    defaultValue: questionId || null,
-    parse: (value) => value,
-    serialize: (value) => value || "",
-  });
+  const [selectedQuestionId, setSelectedQuestionId] = useQueryState(
+    "questionId",
+    {
+      defaultValue: questionId || null,
+      parse: (value) => value,
+      serialize: (value) => value || "",
+    }
+  );
 
   const chapters = getChaptersBySubject(topic);
 
@@ -152,34 +159,37 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
   const currentQuestion = selectedQuestions[currentQuestionIndex];
 
   // Handle when a user clicks on an option.
-  const handleOptionClick = (option: Option) => {
-    // Prevent multiple selections if answer already revealed.
-    if (showAnswer) return;
-    setSelectedOptionId(option.id);
-    if (option.isCorrect) {
-      setIsCorrect(true);
-      setScore((prev) => prev + 1);
-      setShowConfetti(true);
-      // Play happy sound for correct answer if sound is enabled
-      if (isSoundEnabled) {
-        playSound('happy');
+  const handleOptionClick = useCallback(
+    async (option: Option) => {
+      // Prevent multiple selections if answer already revealed.
+      if (showAnswer) return;
+      setSelectedOptionId(option.id);
+      if (option.isCorrect) {
+        setIsCorrect(true);
+        setScore((prev) => prev + 1);
+        setShowConfetti(true);
+        // Play happy sound for correct answer if sound is enabled
+        if (isSoundEnabled) {
+          playSound("happy");
+        }
+        // Hide confetti after 3 seconds
+        setTimeout(() => {
+          setShowConfetti(false);
+        }, 3000);
+      } else {
+        setIsCorrect(false);
+        // Play sad sound for incorrect answer if sound is enabled
+        if (isSoundEnabled) {
+          playSound("sad");
+        }
       }
-      // Hide confetti after 3 seconds
-      setTimeout(() => {
-        setShowConfetti(false);
-      }, 3000);
-    } else {
-      setIsCorrect(false);
-      // Play sad sound for incorrect answer if sound is enabled
-      if (isSoundEnabled) {
-        playSound('sad');
-      }
-    }
-    setShowAnswer(true);
-  };
+      setShowAnswer(true);
+    },
+    [showAnswer, isSoundEnabled, playSound]
+  );
 
   // Handler for moving to the next question or finishing the quiz.
-  const handleNextQuestion = () => {
+  const handleNextQuestion = useCallback(async () => {
     setSelectedOptionId(null);
     setIsCorrect(null);
     setShowAnswer(false);
@@ -197,7 +207,7 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
       setCurrentQuestionIndex(0);
       setScore(0);
     }
-  };
+  }, [currentQuestionIndex, filteredQuestions.length, onComplete, score]);
 
   // Handler for "See Answer" button click.
   const handleSeeAnswer = () => {
@@ -211,51 +221,73 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
     if (isReadingAll) {
       stop();
       setIsReadingAll(false);
-      setCurrentReadingIndex(0);
       return;
     }
 
     setIsReadingAll(true);
-    setCurrentReadingIndex(currentQuestionIndex);
-    const readNext = () => {
-      if (currentReadingIndex >= selectedQuestions.length) {
-        setIsReadingAll(false);
-        setCurrentReadingIndex(0);
-        return;
-      }
 
-      const question = selectedQuestions[currentReadingIndex];
-      const options = question.options.map((opt, idx) => 
-        `${String.fromCharCode(97 + idx)}: ${opt.text}`
-      ).join('. ');
-      
-      const text = `Question ${currentReadingIndex + 1}: ${question.question}. Options: ${options}. Correct Answer: ${question.options.find(opt => opt.isCorrect)?.text}`;
-      
-      speak(text);
-      setCurrentReadingIndex(prev => prev + 1);
+    const readNext = async () => {
+      const question = selectedQuestions[currentQuestionIndex];
+      const options = question.options
+        .map((opt, idx) => `${String.fromCharCode(97 + idx)}: ${opt.text}`)
+        .join(". ");
+
+      // Task 1: Read question and options
+      const text = `Question ${currentQuestionIndex + 1}: ${
+        question.question
+      }. Options: ${options}.`;
+      await speak(text);
+
+      // Wait for 1 second after reading question
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+
+      // Task 2: Read answer
+      const ans = `Correct Answer: ${
+        question.options.find((opt) => opt.isCorrect)?.text
+      }`;
+      await speak(ans);
+
+      // Wait for 1 second after reading answer
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+
+      await handleOptionClick(
+        question.options.find((opt) => opt.isCorrect) as Option
+      );
+
+      // Wait for 2 seconds before moving to next question
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+      handleNextQuestion();
     };
 
     readNext();
-  }, [selectedQuestions, currentReadingIndex, isReadingAll, speak, stop, currentQuestionIndex]);
+  }, [
+    isReadingAll,
+    stop,
+    selectedQuestions,
+    currentQuestionIndex,
+    speak,
+    handleOptionClick,
+    handleNextQuestion,
+  ]);
 
-  // Effect to handle reading all questions
-  useEffect(() => {
-    if (isReadingAll && !isSpeaking) {
-      const timer = setTimeout(() => {
-        if (currentReadingIndex < selectedQuestions.length) {
-          readAllQuestions();
-          // Move to next question after reading
-          if (currentQuestionIndex < selectedQuestions.length - 1) {
-            setCurrentQuestionIndex(prev => prev + 1);
-          }
-        } else {
-          setIsReadingAll(false);
-          setCurrentReadingIndex(0);
-        }
-      }, 1000);
-      return () => clearTimeout(timer);
-    }
-  }, [isReadingAll, isSpeaking, readAllQuestions, currentQuestionIndex, selectedQuestions.length, currentReadingIndex]);
+  // // Effect to handle reading all questions
+  // useEffect(() => {
+  //   if (isReadingAll && !isSpeaking) {
+  //     const timer = setTimeout(() => {
+  //       if (currentReadingIndex < selectedQuestions.length) {
+  //         readAllQuestions();
+  //         // Move to next question after reading
+  //         if (currentQuestionIndex < selectedQuestions.length - 1) {
+  //           setCurrentQuestionIndex(prev => prev + 1);
+  //         }
+  //       } else {
+  //         setIsReadingAll(false);
+  //         setCurrentReadingIndex(0);
+  //       }
+  //     }, 1000);
+  //     return () => clearTimeout(timer);
+  //   }
+  // }, [isReadingAll, isSpeaking, readAllQuestions, currentQuestionIndex, selectedQuestions.length, currentReadingIndex]);
 
   const selectedRanges = [
     "start",
@@ -274,7 +306,7 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
               size="icon"
               onClick={() => setIsSoundEnabled(!isSoundEnabled)}
               className={`hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors ${
-                isSoundEnabled ? 'bg-blue-50 dark:bg-blue-900/20' : ''
+                isSoundEnabled ? "bg-blue-50 dark:bg-blue-900/20" : ""
               }`}
             >
               {isSoundEnabled ? (
@@ -284,12 +316,16 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
               )}
             </Button>
             <span className="text-sm text-muted-foreground">
-              {isSoundEnabled ? 'Sound On' : 'Sound Off'}
+              {isSoundEnabled ? "Sound On" : "Sound Off"}
             </span>
           </div>
         </TooltipTrigger>
         <TooltipContent>
-          <p>{isSoundEnabled ? 'Click to mute sound effects' : 'Click to enable sound effects'}</p>
+          <p>
+            {isSoundEnabled
+              ? "Click to mute sound effects"
+              : "Click to enable sound effects"}
+          </p>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>
@@ -310,7 +346,7 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
           gravity={0.2}
         />
       )}
-      
+
       {/* Quiz Header */}
       <Card className="w-full p-6 space-y-6">
         <div className="flex items-center justify-between">
@@ -432,7 +468,8 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
             <div className="space-y-2">
               <div className="flex items-center justify-between text-sm">
                 <span className="text-muted-foreground">
-                  Question {currentQuestionIndex + 1} of {selectedQuestions.length}
+                  Question {currentQuestionIndex + 1} of{" "}
+                  {selectedQuestions.length}
                 </span>
                 <div className="flex items-center gap-4">
                   <Button
