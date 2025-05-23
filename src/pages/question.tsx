@@ -1,9 +1,5 @@
-import { AnimatedList } from "@/components/magicui/animated-list";
-import { TypingAnimation } from "@/components/magicui/typing-animation";
-import questions from "@/data/cq.json";
-import { cn } from "@/lib/utils";
+import questionsData from "@/data/cq.json";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { TextAnimate } from "@/components/magicui/text-animate";
 import { Volume2, VolumeXIcon, Search, Bookmark, BookmarkCheck } from "lucide-react";
 import { useSpeakerStore } from "@/store/useSpeakerStore";
 import { useState, useMemo } from "react";
@@ -17,7 +13,23 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Badge } from "@/components/ui/badge";
-import { motion } from "framer-motion";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+
+interface Question {
+  id: string;
+  question: string;
+  answer: string;
+  type: "cognitive" | "perceptual";
+  subject?: string;
+  chapter?: string;
+}
+
+const questions = questionsData as Question[];
 
 export default function QuestionPage() {
   const { speak, isSpeaking, stop } = useSpeakerStore();
@@ -32,12 +44,12 @@ export default function QuestionPage() {
   // Get unique subjects and chapters
   const subjects = useMemo(() => {
     const uniqueSubjects = new Set(questions.map((q) => q.subject).filter(Boolean));
-    return Array.from(uniqueSubjects);
+    return Array.from(uniqueSubjects) as string[];
   }, []);
 
   const chapters = useMemo(() => {
     const uniqueChapters = new Set(questions.map((q) => q.chapter).filter(Boolean));
-    return Array.from(uniqueChapters);
+    return Array.from(uniqueChapters) as string[];
   }, []);
 
   // Filter questions based on search and filters
@@ -136,83 +148,28 @@ export default function QuestionPage() {
           <TabsTrigger value="অনুধাবনমূলক">অনুধাবনমূলক</TabsTrigger>
         </TabsList>
         <TabsContent value="জ্ঞানমূলক">
-          <div className="p-4">
-            <AnimatedList delay={5000}>
-              {filteredQuestions
-                .filter((q) => q.type === "cognitive")
-                .map((q) => (
-                  <motion.figure
-                    key={q.id}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -20 }}
-                    className={cn(
-                      "relative mx-auto min-h-fit w-full cursor-pointer overflow-hidden rounded-2xl p-4 flex flex-col",
-                      "transition-all duration-200 ease-in-out hover:scale-[103%]",
-                      "bg-white [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)]",
-                      "transform-gpu dark:bg-transparent dark:backdrop-blur-md dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]"
-                    )}
-                  >
-                    <div className="flex items-center justify-between mb-2">
-                      <div className="flex items-center gap-2">
-                        <p className="text-2xl font-bold text-transparent bg-gradient-to-br from-green-400 via-blue-500 to-green-700 bg-clip-text">
-                          {q.question}
-                        </p>
-                        {q.subject && (
-                          <Badge variant="outline">{q.subject}</Badge>
-                        )}
-                      </div>
-                      <Button
-                        variant="ghost"
-                        size="icon"
-                        onClick={() => toggleBookmark(q.id)}
-                      >
-                        {bookmarkedQuestions.includes(q.id) ? (
-                          <BookmarkCheck className="h-4 w-4 text-green-500" />
-                        ) : (
-                          <Bookmark className="h-4 w-4" />
-                        )}
-                      </Button>
+          <Accordion type="single" collapsible className="w-full">
+            {filteredQuestions
+              .filter((q) => q.type === "cognitive")
+              .map((q) => (
+                <AccordionItem
+                  key={q.id}
+                  value={q.id}
+                  className="border-b border-gray-200 dark:border-gray-800"
+                >
+                  <AccordionTrigger className="hover:no-underline">
+                    <div className="flex items-center gap-2">
+                      <span className="text-left font-medium">{q.question}</span>
+                      {q.subject && (
+                        <Badge variant="outline" className="ml-2">
+                          {q.subject}
+                        </Badge>
+                      )}
                     </div>
-
-                    <TextAnimate
-                      className="text-lg font-normal"
-                      animation="slideLeft"
-                      by={"word"}
-                      segmentClassName="text-transparent bg-gradient-to-br from-green-300 via-green-500 to-green-700 bg-clip-text"
-                    >
-                      {q.answer}
-                    </TextAnimate>
-                  </motion.figure>
-                ))}
-            </AnimatedList>
-          </div>
-        </TabsContent>
-        <TabsContent value="অনুধাবনমূলক">
-          <div className="p-4">
-            <AnimatedList delay={15000}>
-              {filteredQuestions
-                .filter((q) => q.type === "perceptual")
-                .map((q) => (
-                  <motion.figure
-                    key={q.id}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -20 }}
-                    className={cn(
-                      "relative mx-auto min-h-fit w-full cursor-pointer overflow-hidden rounded-2xl p-4 flex flex-col",
-                      "transition-all duration-200 ease-in-out hover:scale-[103%]",
-                      "bg-white [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)]",
-                      "transform-gpu dark:bg-transparent dark:backdrop-blur-md dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]"
-                    )}
-                  >
+                  </AccordionTrigger>
+                  <AccordionContent>
                     <div className="flex items-center justify-between mb-2">
-                      <div className="flex items-center gap-2">
-                        <span className="font-bold text-xl">{q.question}</span>
-                        {q.subject && (
-                          <Badge variant="outline">{q.subject}</Badge>
-                        )}
-                      </div>
+                      <p className="text-muted-foreground">{q.answer}</p>
                       <div className="flex items-center gap-2">
                         <Button
                           variant="ghost"
@@ -244,13 +201,69 @@ export default function QuestionPage() {
                         )}
                       </div>
                     </div>
-                    <TypingAnimation className="text-lg font-normal text-transparent bg-gradient-to-br from-green-400 via-blue-500 to-green-700 bg-clip-text">
-                      {q.answer}
-                    </TypingAnimation>
-                  </motion.figure>
-                ))}
-            </AnimatedList>
-          </div>
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+          </Accordion>
+        </TabsContent>
+        <TabsContent value="অনুধাবনমূলক">
+          <Accordion type="single" collapsible className="w-full">
+            {filteredQuestions
+              .filter((q) => q.type === "perceptual")
+              .map((q) => (
+                <AccordionItem
+                  key={q.id}
+                  value={q.id}
+                  className="border-b border-gray-200 dark:border-gray-800"
+                >
+                  <AccordionTrigger className="hover:no-underline">
+                    <div className="flex items-center gap-2">
+                      <span className="text-left font-medium">{q.question}</span>
+                      {q.subject && (
+                        <Badge variant="outline" className="ml-2">
+                          {q.subject}
+                        </Badge>
+                      )}
+                    </div>
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <div className="flex items-center justify-between mb-2">
+                      <p className="text-muted-foreground">{q.answer}</p>
+                      <div className="flex items-center gap-2">
+                        <Button
+                          variant="ghost"
+                          size="icon"
+                          onClick={() => toggleBookmark(q.id)}
+                        >
+                          {bookmarkedQuestions.includes(q.id) ? (
+                            <BookmarkCheck className="h-4 w-4 text-green-500" />
+                          ) : (
+                            <Bookmark className="h-4 w-4" />
+                          )}
+                        </Button>
+                        {isSpeaking ? (
+                          <Button
+                            variant="ghost"
+                            size="icon"
+                            onClick={() => stop()}
+                          >
+                            <VolumeXIcon className="h-4 w-4" />
+                          </Button>
+                        ) : (
+                          <Button
+                            variant="ghost"
+                            size="icon"
+                            onClick={() => handleSpeak(q.answer)}
+                          >
+                            <Volume2 className="h-4 w-4" />
+                          </Button>
+                        )}
+                      </div>
+                    </div>
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+          </Accordion>
         </TabsContent>
       </Tabs>
     </div>
