@@ -2,7 +2,7 @@ import questionsData from "@/data/cq.json";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Volume2, VolumeXIcon, Search, Bookmark, BookmarkCheck } from "lucide-react";
 import { useSpeakerStore } from "@/store/useSpeakerStore";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import {
@@ -74,9 +74,22 @@ export default function QuestionPage() {
   }, []);
 
   const chapters = useMemo(() => {
-    const uniqueChapters = new Set(questions.map((q) => q.chapter).filter(Boolean));
-    return Array.from(uniqueChapters) as string[];
-  }, []);
+    if (selectedSubject === "all") {
+      return [];
+    }
+    const uniqueChapters = new Set(
+      questions
+        .filter((q) => q.subject === selectedSubject)
+        .map((q) => q.chapter)
+        .filter(Boolean)
+    );
+    return Array.from(uniqueChapters).sort() as string[];
+  }, [selectedSubject]);
+
+  // Reset chapter selection when subject changes
+  useEffect(() => {
+    setSelectedChapter("all");
+  }, [selectedSubject]);
 
   // Filter questions based on search and filters
   const filteredQuestions = useMemo(() => {
@@ -153,8 +166,8 @@ export default function QuestionPage() {
             </SelectContent>
           </Select>
           <Select value={selectedChapter} onValueChange={setSelectedChapter}>
-            <SelectTrigger className="w-[180px]">
-              <SelectValue placeholder="Select chapter" />
+            <SelectTrigger className="w-[180px]" disabled={selectedSubject === "all"}>
+              <SelectValue placeholder={selectedSubject === "all" ? "Select subject first" : "Select chapter"} />
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">All Chapters</SelectItem>
