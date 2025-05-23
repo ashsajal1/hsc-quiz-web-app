@@ -1,6 +1,6 @@
 import questionsData from "@/data/cq.json";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Volume2, VolumeXIcon, Search, Bookmark, BookmarkCheck } from "lucide-react";
+import { Volume2, VolumeXIcon, Search, Bookmark, BookmarkCheck, Play, StopCircle } from "lucide-react";
 import { useSpeakerStore } from "@/store/useSpeakerStore";
 import { useState, useMemo, useEffect, useCallback } from "react";
 import { Input } from "@/components/ui/input";
@@ -42,6 +42,8 @@ export default function QuestionPage() {
   const [selectedSubject, setSelectedSubject] = useState<string>("all");
   const [selectedChapter, setSelectedChapter] = useState<string>("all");
   const [isLoading, setIsLoading] = useState(true);
+  const [isReadingAll, setIsReadingAll] = useState(false);
+  const [currentReadingIndex, setCurrentReadingIndex] = useState(0);
   const [bookmarkedQuestions, setBookmarkedQuestions] = useState<string[]>(() => {
     const saved = localStorage.getItem("bookmarkedQuestions");
     return saved ? JSON.parse(saved) : [];
@@ -172,6 +174,44 @@ export default function QuestionPage() {
     });
   }, [toast]);
 
+  // Function to read all questions and answers
+  const readAllQuestions = useCallback(() => {
+    if (isReadingAll) {
+      stop();
+      setIsReadingAll(false);
+      setCurrentReadingIndex(0);
+      return;
+    }
+
+    setIsReadingAll(true);
+    setCurrentReadingIndex(0);
+    const readNext = () => {
+      if (currentReadingIndex >= filteredQuestions.length) {
+        setIsReadingAll(false);
+        setCurrentReadingIndex(0);
+        return;
+      }
+
+      const question = filteredQuestions[currentReadingIndex];
+      const text = `Question ${currentReadingIndex + 1}: ${question.question}. Answer: ${question.answer}`;
+      
+      speak(text);
+      setCurrentReadingIndex(prev => prev + 1);
+    };
+
+    readNext();
+  }, [filteredQuestions, currentReadingIndex, isReadingAll, speak, stop]);
+
+  // Effect to handle reading all questions
+  useEffect(() => {
+    if (isReadingAll && !isSpeaking) {
+      const timer = setTimeout(() => {
+        readAllQuestions();
+      }, 1000);
+      return () => clearTimeout(timer);
+    }
+  }, [isReadingAll, isSpeaking, readAllQuestions]);
+
   if (isLoading) {
     return (
       <div className="space-y-8 p-8 max-w-6xl mx-auto">
@@ -211,9 +251,28 @@ export default function QuestionPage() {
             Browse and study questions by category
           </p>
         </div>
-        <Badge variant="secondary" className="text-sm px-4 py-1.5">
-          {filteredQuestions.length} Questions
-        </Badge>
+        <div className="flex items-center gap-4">
+          <Badge variant="secondary" className="text-sm px-4 py-1.5">
+            {filteredQuestions.length} Questions
+          </Badge>
+          <Button
+            variant={isReadingAll ? "destructive" : "default"}
+            onClick={readAllQuestions}
+            className="gap-2"
+          >
+            {isReadingAll ? (
+              <>
+                <StopCircle className="h-5 w-5" />
+                Stop Reading
+              </>
+            ) : (
+              <>
+                <Play className="h-5 w-5" />
+                Read All
+              </>
+            )}
+          </Button>
+        </div>
       </motion.div>
 
       <Card className="border-2">
