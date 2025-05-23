@@ -13,18 +13,79 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 export default function Preview() {
   const { questions } = useQuizStore();
+  const [selectedSubject, setSelectedSubject] = useState<string>("all");
+  const [selectedChapter, setSelectedChapter] = useState<string>("all");
 
-  // Filter out questions with "i" in the text.
-  const filteredQuestions = useMemo(() => {
-    return questions.filter((q) => !q.question.includes("i"));
+  // Get unique subjects and chapters
+  const subjects = useMemo(() => {
+    const uniqueSubjects = new Set(questions.map((q) => q.subject).filter(Boolean));
+    return Array.from(uniqueSubjects).map(subject => {
+      if (!subject) return { value: '', label: '' };
+      
+      const [name, number] = subject.split('-');
+      if (!name || !number) return { value: subject, label: subject };
+      
+      const ordinal = {
+        '1': '1st',
+        '2': '2nd',
+        '3': '3rd',
+        '4': '4th',
+        '5': '5th',
+        '6': '6th',
+        '7': '7th',
+        '8': '8th',
+        '9': '9th',
+        '10': '10th',
+        '11': '11th',
+        '12': '12th'
+      }[number] || number;
+      
+      return {
+        value: subject,
+        label: `${name.charAt(0).toUpperCase() + name.slice(1)} ${ordinal}`
+      };
+    }).filter(subject => subject.value !== '');
   }, [questions]);
+
+  const chapters = useMemo(() => {
+    if (selectedSubject === "all") {
+      return [];
+    }
+    const uniqueChapters = new Set(
+      questions
+        .filter((q) => q.subject === selectedSubject)
+        .map((q) => q.chapter)
+        .filter(Boolean)
+    );
+    return Array.from(uniqueChapters).sort() as string[];
+  }, [selectedSubject, questions]);
+
+  // Reset chapter selection when subject changes
+  useEffect(() => {
+    setSelectedChapter("all");
+  }, [selectedSubject]);
+
+  // Filter questions based on selected subject and chapter
+  const filteredQuestions = useMemo(() => {
+    return questions.filter((q) => {
+      const matchesSubject = selectedSubject === "all" || q.subject === selectedSubject;
+      const matchesChapter = selectedChapter === "all" || q.chapter === selectedChapter;
+      return matchesSubject && matchesChapter && !q.question.includes("i");
+    });
+  }, [questions, selectedSubject, selectedChapter]);
 
   // Helper function to get a random selection of 10 questions.
   const getRandomTen = useCallback(() => {
-    // Make a shallow copy and randomize the order
     const randomSorted = [...filteredQuestions].sort(() => Math.random() - 0.5);
     return randomSorted.slice(0, 10);
   }, [filteredQuestions]);
@@ -109,8 +170,38 @@ export default function Preview() {
         </div>
       </div>
 
-      <div className="w-full max-w-4xl">
-        <div className="flex items-center gap-2 mb-2">
+      <div className="w-full max-w-4xl space-y-4">
+        <div className="flex flex-col sm:flex-row gap-4">
+          <Select value={selectedSubject} onValueChange={setSelectedSubject}>
+            <SelectTrigger className="w-full sm:w-[200px]">
+              <SelectValue placeholder="Select subject" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="all">All Subjects</SelectItem>
+              {subjects.map((subject) => (
+                <SelectItem key={subject.value} value={subject.value}>
+                  {subject.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+
+          <Select value={selectedChapter} onValueChange={setSelectedChapter}>
+            <SelectTrigger className="w-full sm:w-[200px]" disabled={selectedSubject === "all"}>
+              <SelectValue placeholder={selectedSubject === "all" ? "Select subject first" : "Select chapter"} />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="all">All Chapters</SelectItem>
+              {chapters.map((chapter) => (
+                <SelectItem key={chapter} value={chapter}>
+                  {chapter}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        <div className="flex items-center gap-2">
           <Progress value={(timeUntilRefresh / 10) * 100} className="h-1 flex-1" />
           <span className="text-xs sm:text-sm text-muted-foreground whitespace-nowrap">
             Refreshing in {timeUntilRefresh}s
