@@ -59,7 +59,7 @@ export function Quiz({
   const { questions, getChaptersBySubject } = useQuizStore();
   const [isSoundEnabled, setIsSoundEnabled] = useState(true);
   const [isReadingAll, setIsReadingAll] = useState(false);
-  const { speak, stop } = useSpeakerStore();
+  const { speak, isSpeaking, stop } = useSpeakerStore();
 
   // Create a list of available topics from the questions.
   const topics = useMemo(() => {
@@ -473,12 +473,12 @@ export function Quiz({
                 </span>
                 <div className="flex items-center gap-4">
                   <Button
-                    variant={isReadingAll ? "destructive" : "outline"}
+                    variant={isReadingAll && isSpeaking ? "destructive" : "outline"}
                     size="sm"
                     onClick={readAllQuestions}
                     className="gap-2"
                   >
-                    {isReadingAll ? (
+                    {isReadingAll && isSpeaking ? (
                       <>
                         <StopCircle className="h-4 w-4" />
                         Stop Reading
