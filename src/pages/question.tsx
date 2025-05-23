@@ -160,11 +160,6 @@ export default function QuestionPage() {
                   <AccordionTrigger className="hover:no-underline">
                     <div className="flex items-center gap-2">
                       <span className="text-left font-medium">{q.question}</span>
-                      {q.subject && (
-                        <Badge variant="outline" className="ml-2">
-                          {q.subject}
-                        </Badge>
-                      )}
                     </div>
                   </AccordionTrigger>
                   <AccordionContent>
@@ -219,11 +214,6 @@ export default function QuestionPage() {
                   <AccordionTrigger className="hover:no-underline">
                     <div className="flex items-center gap-2">
                       <span className="text-left font-medium">{q.question}</span>
-                      {q.subject && (
-                        <Badge variant="outline" className="ml-2">
-                          {q.subject}
-                        </Badge>
-                      )}
                     </div>
                   </AccordionTrigger>
                   <AccordionContent>
