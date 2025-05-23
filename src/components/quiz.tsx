@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useCallback } from "react";
 import {
   Select,
   SelectContent,
@@ -18,6 +18,8 @@ import {
   Timer,
   Volume2,
   VolumeX,
+  Play,
+  StopCircle,
 } from "lucide-react";
 import { useQuizStore } from "@/store/useQuizStore";
 import { Option } from "@/lib/type";
@@ -36,6 +38,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { useSpeakerStore } from "@/store/useSpeakerStore";
 
 interface QuizProps {
   initialTopic?: string;
@@ -50,6 +53,9 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
   const [showConfetti, setShowConfetti] = useState(false);
   const { questions, getChaptersBySubject } = useQuizStore();
   const [isSoundEnabled, setIsSoundEnabled] = useState(true);
+  const [isReadingAll, setIsReadingAll] = useState(false);
+  const [currentReadingIndex, setCurrentReadingIndex] = useState(0);
+  const { speak, isSpeaking, stop } = useSpeakerStore();
   
   // Create a list of available topics from the questions.
   const topics = useMemo(() => {
@@ -199,6 +205,57 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
     // (Assuming McqCard will iterate over currentQuestion.options to highlight the correct one.)
     setShowAnswer(true);
   };
+
+  // Function to read all questions and answers
+  const readAllQuestions = useCallback(() => {
+    if (isReadingAll) {
+      stop();
+      setIsReadingAll(false);
+      setCurrentReadingIndex(0);
+      return;
+    }
+
+    setIsReadingAll(true);
+    setCurrentReadingIndex(currentQuestionIndex);
+    const readNext = () => {
+      if (currentReadingIndex >= selectedQuestions.length) {
+        setIsReadingAll(false);
+        setCurrentReadingIndex(0);
+        return;
+      }
+
+      const question = selectedQuestions[currentReadingIndex];
+      const options = question.options.map((opt, idx) => 
+        `${String.fromCharCode(97 + idx)}: ${opt.text}`
+      ).join('. ');
+      
+      const text = `Question ${currentReadingIndex + 1}: ${question.question}. Options: ${options}. Correct Answer: ${question.options.find(opt => opt.isCorrect)?.text}`;
+      
+      speak(text);
+      setCurrentReadingIndex(prev => prev + 1);
+    };
+
+    readNext();
+  }, [selectedQuestions, currentReadingIndex, isReadingAll, speak, stop, currentQuestionIndex]);
+
+  // Effect to handle reading all questions
+  useEffect(() => {
+    if (isReadingAll && !isSpeaking) {
+      const timer = setTimeout(() => {
+        if (currentReadingIndex < selectedQuestions.length) {
+          readAllQuestions();
+          // Move to next question after reading
+          if (currentQuestionIndex < selectedQuestions.length - 1) {
+            setCurrentQuestionIndex(prev => prev + 1);
+          }
+        } else {
+          setIsReadingAll(false);
+          setCurrentReadingIndex(0);
+        }
+      }, 1000);
+      return () => clearTimeout(timer);
+    }
+  }, [isReadingAll, isSpeaking, readAllQuestions, currentQuestionIndex, selectedQuestions.length, currentReadingIndex]);
 
   const selectedRanges = [
     "start",
@@ -378,6 +435,24 @@ export function Quiz({ initialTopic, initialChapter, onComplete, questionId }: Q
                   Question {currentQuestionIndex + 1} of {selectedQuestions.length}
                 </span>
                 <div className="flex items-center gap-4">
+                  <Button
+                    variant={isReadingAll ? "destructive" : "outline"}
+                    size="sm"
+                    onClick={readAllQuestions}
+                    className="gap-2"
+                  >
+                    {isReadingAll ? (
+                      <>
+                        <StopCircle className="h-4 w-4" />
+                        Stop Reading
+                      </>
+                    ) : (
+                      <>
+                        <Play className="h-4 w-4" />
+                        Read All
+                      </>
+                    )}
+                  </Button>
                   <SoundControl />
                   <span className="font-medium">
                     Score: {score}/{selectedQuestions.length}
