@@ -218,7 +218,7 @@ export function Quiz({
 
   // Function to read all questions and answers
   const readAllQuestions = useCallback(() => {
-    if (isReadingAll) {
+    if (isReadingAll && isSpeaking) {
       stop();
       setIsReadingAll(false);
       return;
@@ -262,6 +262,7 @@ export function Quiz({
     readNext();
   }, [
     isReadingAll,
+    isSpeaking,
     stop,
     selectedQuestions,
     currentQuestionIndex,
@@ -473,7 +474,9 @@ export function Quiz({
                 </span>
                 <div className="flex items-center gap-4">
                   <Button
-                    variant={isReadingAll && isSpeaking ? "destructive" : "outline"}
+                    variant={
+                      isReadingAll && isSpeaking ? "destructive" : "outline"
+                    }
                     size="sm"
                     onClick={readAllQuestions}
                     className="gap-2"
