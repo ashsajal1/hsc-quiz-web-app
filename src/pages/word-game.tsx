@@ -57,6 +57,7 @@ const WordGame: React.FC = () => {
   const [currentCategory, setCurrentCategory] = useState(0);
   const [progress, setProgress] = useState(0);
   const [showHint, setShowHint] = useState(false);
+  const [commonWordMode, setCommonWordMode] = useState(false);
 
   const initializeGame = () => {
     const allWords = [
@@ -71,6 +72,7 @@ const WordGame: React.FC = () => {
     setGameOver(false);
     setProgress(0);
     setShowHint(false);
+    setCommonWordMode(false);
   };
 
   useEffect(() => {
@@ -81,8 +83,15 @@ const WordGame: React.FC = () => {
     if (gameOver || selectedWords.includes(word)) return;
 
     const isCommonWord = wordList[0].commonWords.includes(word);
-    const isCorrect =
-      wordList[0].words[currentCategory].includes(word) || isCommonWord;
+    
+    // Check if word is correct based on mode
+    let isCorrect = false;
+    if (commonWordMode) {
+      isCorrect = isCommonWord;
+    } else {
+      isCorrect = wordList[0].words[currentCategory].includes(word) || isCommonWord;
+    }
+    
     const newSelectedWords = [...selectedWords, word];
     setSelectedWords(newSelectedWords);
 
@@ -96,10 +105,11 @@ const WordGame: React.FC = () => {
         );
       }
 
-      const correctWords = [
-        ...wordList[0].words[currentCategory],
-        ...wordList[0].commonWords,
-      ];
+      // Determine which words are considered correct based on the mode
+      const correctWords = commonWordMode 
+        ? [...wordList[0].commonWords]
+        : [...wordList[0].words[currentCategory], ...wordList[0].commonWords];
+      
       const foundCorrectWords = newSelectedWords.filter((w) =>
         correctWords.includes(w)
       );
@@ -109,12 +119,18 @@ const WordGame: React.FC = () => {
 
       if (foundCorrectWords.length === correctWords.length) {
         setGameOver(true);
-        setFeedback(`অভিনন্দন! আপনি সব বৈশিষ্ট্য খুঁজে পেয়েছেন!`);
+        setFeedback(commonWordMode 
+          ? `অভিনন্দন! আপনি সব সাধারণ বৈশিষ্ট্য খুঁজে পেয়েছেন!` 
+          : `অভিনন্দন! আপনি সব বৈশিষ্ট্য খুঁজে পেয়েছেন!`);
       }
     } else {
-      setFeedback(
-        `ভুল! এটি ${wordList[0].name[currentCategory]} এর বৈশিষ্ট্য নয়।`
-      );
+      if (commonWordMode) {
+        setFeedback(`ভুল! এটি সাধারণ বৈশিষ্ট্য নয়।`);
+      } else {
+        setFeedback(
+          `ভুল! এটি ${wordList[0].name[currentCategory]} এর বৈশিষ্ট্য নয়।`
+        );
+      }
     }
   };
 
@@ -122,8 +138,10 @@ const WordGame: React.FC = () => {
     if (!selectedWords.includes(word)) {
       if (
         showHint &&
-        (wordList[0].words[currentCategory].includes(word) ||
-          wordList[0].commonWords.includes(word))
+        (commonWordMode 
+          ? wordList[0].commonWords.includes(word)
+          : (wordList[0].words[currentCategory].includes(word) ||
+             wordList[0].commonWords.includes(word)))
       ) {
         return "bg-blue-100 dark:bg-gray-700 hover:bg-blue-200 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-100 border-2 border-blue-500 dark:border-blue-400";
       }
@@ -143,14 +161,22 @@ const WordGame: React.FC = () => {
   };
 
   const getRemainingCount = () => {
-    const correctWords = [
-      ...wordList[0].words[currentCategory],
-      ...wordList[0].commonWords,
-    ];
+    const correctWords = commonWordMode
+      ? [...wordList[0].commonWords]
+      : [...wordList[0].words[currentCategory], ...wordList[0].commonWords];
+    
     const foundCorrectWords = selectedWords.filter((w) =>
       correctWords.includes(w)
     );
     return correctWords.length - foundCorrectWords.length;
+  };
+
+  const toggleCommonWordMode = () => {
+    setCommonWordMode(!commonWordMode);
+    setSelectedWords([]);
+    setFeedback("");
+    setProgress(0);
+    setScore(0);
   };
 
   return (
@@ -170,6 +196,7 @@ const WordGame: React.FC = () => {
                     className="sr-only peer"
                     checked={currentCategory === 1}
                     onChange={() => switchCategory()}
+                    disabled={commonWordMode}
                   />
                   <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
                 </label>
@@ -183,7 +210,7 @@ const WordGame: React.FC = () => {
           
           <div className="text-center mb-4 sm:mb-8">
             <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4 mb-4">
-              <div className="flex items-center gap-2 sm:gap-4">
+              <div className="flex items-center gap-2 sm:gap-4 flex-wrap">
                 <h2 className="text-xl sm:text-2xl font-semibold text-gray-700 dark:text-gray-200">
                   স্কোর: {score}
                 </h2>
@@ -193,12 +220,22 @@ const WordGame: React.FC = () => {
                 >
                   {showHint ? 'ইঙ্গিত বন্ধ করুন' : 'ইঙ্গিত দেখুন'}
                 </button>
+                <button
+                  onClick={toggleCommonWordMode}
+                  className={`text-xs sm:text-sm px-2 sm:px-3 py-1 rounded-full transition-colors ${
+                    commonWordMode 
+                      ? 'bg-yellow-500 hover:bg-yellow-600 text-white' 
+                      : 'bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600'
+                  }`}
+                >
+                  {commonWordMode ? 'সাধারণ শব্দ মোড বন্ধ করুন' : 'শুধু সাধারণ শব্দ খুঁজুন'}
+                </button>
               </div>
             </div>
 
             <div className="mb-4">
               <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mb-2">
-                {wordList[0].name[currentCategory]} এর বৈশিষ্ট্যগুলি বেছে নিন!
+                {commonWordMode ? 'শৈবাল ও ছত্রাক এর সাধারণ বৈশিষ্ট্যগুলি বেছে নিন!' : `${wordList[0].name[currentCategory]} এর বৈশিষ্ট্যগুলি বেছে নিন!`}
               </p>
               <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2 sm:h-4 mb-2">
                 <div 
