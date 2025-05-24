@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import confetti from 'canvas-confetti';
 
 const wordList = [
   {
@@ -60,6 +61,8 @@ const WordGame: React.FC = () => {
   const [commonWordMode, setCommonWordMode] = useState(false);
 
   const initializeGame = () => {
+    // Reset confetti if any is still running
+    confetti.reset();
     const allWords = [
       ...wordList[0].words[0],
       ...wordList[0].words[1],
@@ -122,6 +125,14 @@ const WordGame: React.FC = () => {
         setFeedback(commonWordMode 
           ? `অভিনন্দন! আপনি সব সাধারণ বৈশিষ্ট্য খুঁজে পেয়েছেন!` 
           : `অভিনন্দন! আপনি সব বৈশিষ্ট্য খুঁজে পেয়েছেন!`);
+        
+        // Trigger confetti effect
+        confetti({
+          particleCount: 100,
+          spread: 70,
+          origin: { y: 0.6 },
+          colors: ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff']
+        });
       }
     } else {
       if (commonWordMode) {
