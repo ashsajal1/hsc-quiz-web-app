@@ -155,101 +155,94 @@ const WordGame: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
-      <div className="container mx-auto px-4 py-8 max-w-4xl">
-        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg dark:shadow-gray-900 p-6 transition-colors duration-300">
-          <div className="flex flex-col items-center mb-8">
-            <h1 className="text-4xl font-bold text-center mb-4 text-gray-800 dark:text-white">
-              Word Game
+      <div className="container mx-auto px-2 sm:px-4 py-4 sm:py-8 max-w-4xl">
+        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg dark:shadow-gray-900 p-3 sm:p-6 transition-colors duration-300">
+          <div className="flex flex-col items-center mb-4 sm:mb-8">
+            <h1 className="text-2xl sm:text-4xl font-bold text-center mb-2 sm:mb-4 text-gray-800 dark:text-white">
+              শৈবাল ও ছত্রাকের বৈশিষ্ট্য
             </h1>
-            <div className="flex items-center gap-4">
-              <span
-                className={`px-4 py-2 rounded-full text-white font-semibold ${
-                  currentCategory === 0 ? "bg-green-500" : "bg-purple-500"
-                }`}
-              >
-                {wordList[0].name[currentCategory]}
-              </span>
-              <span className="text-gray-600 dark:text-gray-300">
+            <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
+              <div className="flex items-center">
+                <span className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mr-2">শৈবাল</span>
+                <label className="relative inline-flex items-center cursor-pointer">
+                  <input
+                    type="checkbox"
+                    className="sr-only peer"
+                    checked={currentCategory === 1}
+                    onChange={() => switchCategory()}
+                  />
+                  <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                </label>
+                <span className="text-sm sm:text-base text-gray-600 dark:text-gray-300 ml-2">ছত্রাক</span>
+              </div>
+              <span className="text-sm sm:text-base text-gray-600 dark:text-gray-300">
                 {getRemainingCount()}টি বৈশিষ্ট্য বাকি আছে
               </span>
             </div>
           </div>
-
-          <div className="text-center mb-8">
-            <div className="flex justify-between items-center mb-4">
-              <div className="flex items-center gap-4">
-                <h2 className="text-2xl font-semibold text-gray-700 dark:text-gray-200">
+          
+          <div className="text-center mb-4 sm:mb-8">
+            <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4 mb-4">
+              <div className="flex items-center gap-2 sm:gap-4">
+                <h2 className="text-xl sm:text-2xl font-semibold text-gray-700 dark:text-gray-200">
                   স্কোর: {score}
                 </h2>
                 <button
                   onClick={() => setShowHint(!showHint)}
-                  className="text-sm px-3 py-1 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+                  className="text-xs sm:text-sm px-2 sm:px-3 py-1 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
                 >
-                  {showHint ? "ইঙ্গিত বন্ধ করুন" : "ইঙ্গিত দেখুন"}
+                  {showHint ? 'ইঙ্গিত বন্ধ করুন' : 'ইঙ্গিত দেখুন'}
                 </button>
               </div>
-              <button
-                onClick={switchCategory}
-                className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg border-2 border-teal-400 hover:border-teal-500"
-              >
-                {currentCategory === 0
-                  ? "ছত্রাকের বৈশিষ্ট্য দেখুন"
-                  : "শৈবালের বৈশিষ্ট্য দেখুন"}
-              </button>
             </div>
 
             <div className="mb-4">
-              <p className="text-gray-600 dark:text-gray-300 text-lg mb-2">
+              <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mb-2">
                 {wordList[0].name[currentCategory]} এর বৈশিষ্ট্যগুলি বেছে নিন!
               </p>
-              <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-4 mb-2">
-                <div
-                  className="bg-green-500 h-4 rounded-full transition-all duration-300"
+              <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2 sm:h-4 mb-2">
+                <div 
+                  className="bg-green-500 h-2 sm:h-4 rounded-full transition-all duration-300"
                   style={{ width: `${progress}%` }}
                 ></div>
               </div>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">
                 {Math.round(progress)}% সম্পন্ন
               </p>
             </div>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4">
             {gameWords.map((word, index) => (
               <div
                 key={index}
-                className={`${getBoxColor(
-                  word
-                )} p-4 rounded-lg shadow-md cursor-pointer transition-all duration-300 hover:scale-105 text-center transform hover:rotate-1`}
+                className={`${getBoxColor(word)} p-2 sm:p-4 rounded-lg shadow-md cursor-pointer transition-all duration-300 hover:scale-105 text-center transform hover:rotate-1`}
                 onClick={() => handleWordClick(word)}
               >
-                <p className="text-lg font-semibold">{word}</p>
+                <p className="text-sm sm:text-base font-semibold">{word}</p>
               </div>
             ))}
           </div>
 
           {feedback && (
-            <div className="mt-6 text-center">
-              <p
-                className={`text-xl font-semibold ${
-                  selectedWords.length > 0 &&
-                  wordList[0].words[currentCategory].includes(
-                    selectedWords[selectedWords.length - 1]
-                  )
-                    ? "text-green-500 dark:text-green-400"
-                    : "text-red-500 dark:text-red-400"
-                }`}
-              >
+            <div className="mt-4 sm:mt-6 text-center">
+              <p className={`text-base sm:text-xl font-semibold ${
+                selectedWords.length > 0 && 
+                (wordList[0].words[currentCategory].includes(selectedWords[selectedWords.length - 1]) || 
+                wordList[0].commonWords.includes(selectedWords[selectedWords.length - 1]))
+                  ? 'text-green-500 dark:text-green-400' 
+                  : 'text-red-500 dark:text-red-400'
+              }`}>
                 {feedback}
               </p>
             </div>
           )}
 
           {gameOver && (
-            <div className="mt-6 text-center">
+            <div className="mt-4 sm:mt-6 text-center">
               <button
                 onClick={initializeGame}
-                className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105"
+                className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 sm:py-3 px-4 sm:px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg border-2 border-teal-400 hover:border-teal-500 text-sm sm:text-base"
               >
                 আবার খেলুন
               </button>
