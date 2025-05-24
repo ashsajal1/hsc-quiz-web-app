@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import confetti from "canvas-confetti";
 import { wordList } from "@/lib/words";
 
@@ -14,7 +14,7 @@ const WordGame: React.FC = () => {
   const [showHint, setShowHint] = useState(false);
   const [commonWordMode, setCommonWordMode] = useState(false);
 
-  const initializeGame = () => {
+  const initializeGame = useCallback(() => {
     // Reset confetti if any is still running
     confetti.reset();
     const allWords = [
@@ -30,11 +30,11 @@ const WordGame: React.FC = () => {
     setProgress(0);
     setShowHint(false);
     setCommonWordMode(false);
-  };
+  }, [currentWordSet]);
 
   useEffect(() => {
     initializeGame();
-  }, [currentWordSet]);
+  }, [initializeGame]);
 
   const handleWordClick = (word: string) => {
     if (gameOver || selectedWords.includes(word)) return;
