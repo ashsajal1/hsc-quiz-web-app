@@ -136,8 +136,9 @@ const WordGame: React.FC = () => {
   };
 
   const switchWordSet = () => {
-    setCurrentWordSet((prev) => (prev === 0 ? 1 : 0));
+    setCurrentWordSet((prev) => (prev + 1) % wordList.length);
     setCurrentCategory(0);
+    setCommonWordMode(false);
   };
 
   const getRemainingCount = () => {
@@ -191,12 +192,17 @@ const WordGame: React.FC = () => {
               </span>
             </div>
             <div className="mt-2">
-              <button
-                onClick={switchWordSet}
-                className="text-sm px-3 py-1 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
-              >
-                {currentWordSet === 0 ? "ব্রায়োফাইটা/টেরিডোফাইটা" : "শৈবাল/ছত্রাক"}
-              </button>
+              <div className="flex flex-col items-center">
+                <p className="text-sm sm:text-base font-medium text-gray-800 dark:text-gray-200 mb-1">
+                  Word Set: {currentWordSet + 1}/{wordList.length} - {wordList[currentWordSet].name.join(" / ")}
+                </p>
+                <button
+                  onClick={switchWordSet}
+                  className="text-sm px-3 py-1 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+                >
+                  Next Word Set
+                </button>
+              </div>
             </div>
           </div>
 
