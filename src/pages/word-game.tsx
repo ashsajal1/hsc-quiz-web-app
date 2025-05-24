@@ -1,53 +1,6 @@
 import React, { useState, useEffect } from "react";
-import confetti from 'canvas-confetti';
-
-const wordList = [
-  {
-    name: ["শৈবাল", "ছত্রাক"],
-    words: [
-      [
-        "এককোষী",
-        "বহুকোষী",
-        "খাদ্য শর্করা",
-        "রেণুথলি সর্বদাই এককোষী",
-        "জননাঙ্গে বন্ধ্যা কোষের আবরণী নেই",
-        "সমাঙ্গদেহি",
-
-        "কোষপ্রাচীর - সেলুলোজ",
-        "সুস্পষ্ট জনুক্রম অনুপস্থিত",
-        "৬০ ভাগ সালোকসংশ্লেষণ করে",
-        "জলীয় বা আর্দ্র পরিবেশে জন্মায়।",
-      ],
-      [
-        "অসবুজ",
-        "মৃতজীবী",
-        "পরজীবী",
-        "মিথোজীবী",
-        "খাদ্য - গ্লাইকজেন",
-        "শোষণ প্রক্রিয়া",
-        "কোষপ্রাচীর কাইতিন",
-        "ক্লোরোফিল নেই",
-        "জাইগোট এ মিয়োসিস ঘটে",
-        "তীব্র অভিযোজন ক্ষমতা",
-        "দেহ হাইফি দারা গঠিত",
-        "কোষ দুইটি অংশে বিভক্ত",
-        "কোষ ঝিল্লির প্রধান উপাদান ergosterol",
-        "দেহ - দুইটি অংশে বিভক্ত",
-        "দেহের জনন অংশ  ফ্রুটবডি",
-      ],
-    ],
-    commonWords: [
-      "ভাস্কুলার টিস্যু নেই",
-      "জাইগোট বহুকোষী ভ্রূণে পরিণত হয় না",
-      "অপুষ্পক",
-      "জননাঙ্গ এককোষী",
-      "সুকেন্দ্রিক",
-      "স্পোরের মাধ্যমে বিস্তার",
-      "থ্যালোফাইটা",
-      "জনন - অঙ্গজ, যৌন, অযৌন",
-    ],
-  },
-];
+import confetti from "canvas-confetti";
+import { wordList } from "@/lib/words";
 
 const WordGame: React.FC = () => {
   const [score, setScore] = useState(0);
@@ -86,15 +39,16 @@ const WordGame: React.FC = () => {
     if (gameOver || selectedWords.includes(word)) return;
 
     const isCommonWord = wordList[0].commonWords.includes(word);
-    
+
     // Check if word is correct based on mode
     let isCorrect = false;
     if (commonWordMode) {
       isCorrect = isCommonWord;
     } else {
-      isCorrect = wordList[0].words[currentCategory].includes(word) || isCommonWord;
+      isCorrect =
+        wordList[0].words[currentCategory].includes(word) || isCommonWord;
     }
-    
+
     const newSelectedWords = [...selectedWords, word];
     setSelectedWords(newSelectedWords);
 
@@ -109,10 +63,10 @@ const WordGame: React.FC = () => {
       }
 
       // Determine which words are considered correct based on the mode
-      const correctWords = commonWordMode 
+      const correctWords = commonWordMode
         ? [...wordList[0].commonWords]
         : [...wordList[0].words[currentCategory], ...wordList[0].commonWords];
-      
+
       const foundCorrectWords = newSelectedWords.filter((w) =>
         correctWords.includes(w)
       );
@@ -122,16 +76,25 @@ const WordGame: React.FC = () => {
 
       if (foundCorrectWords.length === correctWords.length) {
         setGameOver(true);
-        setFeedback(commonWordMode 
-          ? `অভিনন্দন! আপনি সব সাধারণ বৈশিষ্ট্য খুঁজে পেয়েছেন!` 
-          : `অভিনন্দন! আপনি সব বৈশিষ্ট্য খুঁজে পেয়েছেন!`);
-        
+        setFeedback(
+          commonWordMode
+            ? `অভিনন্দন! আপনি সব সাধারণ বৈশিষ্ট্য খুঁজে পেয়েছেন!`
+            : `অভিনন্দন! আপনি সব বৈশিষ্ট্য খুঁজে পেয়েছেন!`
+        );
+
         // Trigger confetti effect
         confetti({
           particleCount: 100,
           spread: 70,
           origin: { y: 0.6 },
-          colors: ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff']
+          colors: [
+            "#ff0000",
+            "#00ff00",
+            "#0000ff",
+            "#ffff00",
+            "#ff00ff",
+            "#00ffff",
+          ],
         });
       }
     } else {
@@ -149,10 +112,10 @@ const WordGame: React.FC = () => {
     if (!selectedWords.includes(word)) {
       if (
         showHint &&
-        (commonWordMode 
+        (commonWordMode
           ? wordList[0].commonWords.includes(word)
-          : (wordList[0].words[currentCategory].includes(word) ||
-             wordList[0].commonWords.includes(word)))
+          : wordList[0].words[currentCategory].includes(word) ||
+            wordList[0].commonWords.includes(word))
       ) {
         return "bg-blue-100 dark:bg-gray-700 hover:bg-blue-200 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-100 border-2 border-blue-500 dark:border-blue-400";
       }
@@ -175,7 +138,7 @@ const WordGame: React.FC = () => {
     const correctWords = commonWordMode
       ? [...wordList[0].commonWords]
       : [...wordList[0].words[currentCategory], ...wordList[0].commonWords];
-    
+
     const foundCorrectWords = selectedWords.filter((w) =>
       correctWords.includes(w)
     );
@@ -196,11 +159,13 @@ const WordGame: React.FC = () => {
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg dark:shadow-gray-900 p-3 sm:p-6 transition-colors duration-300">
           <div className="flex flex-col items-center mb-4 sm:mb-8">
             <h1 className="text-2xl sm:text-4xl font-bold text-center mb-2 sm:mb-4 text-gray-800 dark:text-white">
-             Word Game
+              Word Game
             </h1>
             <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
               <div className="flex items-center">
-                <span className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mr-2">শৈবাল</span>
+                <span className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mr-2">
+                  শৈবাল
+                </span>
                 <label className="relative inline-flex items-center cursor-pointer">
                   <input
                     type="checkbox"
@@ -211,14 +176,16 @@ const WordGame: React.FC = () => {
                   />
                   <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
                 </label>
-                <span className="text-sm sm:text-base text-gray-600 dark:text-gray-300 ml-2">ছত্রাক</span>
+                <span className="text-sm sm:text-base text-gray-600 dark:text-gray-300 ml-2">
+                  ছত্রাক
+                </span>
               </div>
               <span className="text-sm sm:text-base text-gray-600 dark:text-gray-300">
                 {getRemainingCount()}টি বৈশিষ্ট্য বাকি আছে
               </span>
             </div>
           </div>
-          
+
           <div className="text-center mb-4 sm:mb-8">
             <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4 mb-4">
               <div className="flex items-center gap-2 sm:gap-4 flex-wrap">
@@ -229,27 +196,31 @@ const WordGame: React.FC = () => {
                   onClick={() => setShowHint(!showHint)}
                   className="text-xs sm:text-sm px-2 sm:px-3 py-1 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
                 >
-                  {showHint ? 'ইঙ্গিত বন্ধ করুন' : 'ইঙ্গিত দেখুন'}
+                  {showHint ? "ইঙ্গিত বন্ধ করুন" : "ইঙ্গিত দেখুন"}
                 </button>
                 <button
                   onClick={toggleCommonWordMode}
                   className={`text-xs sm:text-sm px-2 sm:px-3 py-1 rounded-full transition-colors ${
-                    commonWordMode 
-                      ? 'bg-yellow-500 hover:bg-yellow-600 text-white' 
-                      : 'bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600'
+                    commonWordMode
+                      ? "bg-yellow-500 hover:bg-yellow-600 text-white"
+                      : "bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600"
                   }`}
                 >
-                  {commonWordMode ? 'সাধারণ শব্দ মোড বন্ধ করুন' : 'শুধু সাধারণ শব্দ খুঁজুন'}
+                  {commonWordMode
+                    ? "সাধারণ শব্দ মোড বন্ধ করুন"
+                    : "শুধু সাধারণ শব্দ খুঁজুন"}
                 </button>
               </div>
             </div>
 
             <div className="mb-4">
               <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mb-2">
-                {commonWordMode ? 'শৈবাল ও ছত্রাক এর সাধারণ বৈশিষ্ট্যগুলি বেছে নিন!' : `${wordList[0].name[currentCategory]} এর বৈশিষ্ট্যগুলি বেছে নিন!`}
+                {commonWordMode
+                  ? "শৈবাল ও ছত্রাক এর সাধারণ বৈশিষ্ট্যগুলি বেছে নিন!"
+                  : `${wordList[0].name[currentCategory]} এর বৈশিষ্ট্যগুলি বেছে নিন!`}
               </p>
               <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2 sm:h-4 mb-2">
-                <div 
+                <div
                   className="bg-green-500 h-2 sm:h-4 rounded-full transition-all duration-300"
                   style={{ width: `${progress}%` }}
                 ></div>
@@ -264,7 +235,9 @@ const WordGame: React.FC = () => {
             {gameWords.map((word, index) => (
               <div
                 key={index}
-                className={`${getBoxColor(word)} p-2 sm:p-4 rounded-lg shadow-md cursor-pointer transition-all duration-300 hover:scale-105 text-center transform hover:rotate-1`}
+                className={`${getBoxColor(
+                  word
+                )} p-2 sm:p-4 rounded-lg shadow-md cursor-pointer transition-all duration-300 hover:scale-105 text-center transform hover:rotate-1`}
                 onClick={() => handleWordClick(word)}
               >
                 <p className="text-sm sm:text-base font-semibold">{word}</p>
@@ -274,13 +247,19 @@ const WordGame: React.FC = () => {
 
           {feedback && (
             <div className="mt-4 sm:mt-6 text-center">
-              <p className={`text-base sm:text-xl font-semibold ${
-                selectedWords.length > 0 && 
-                (wordList[0].words[currentCategory].includes(selectedWords[selectedWords.length - 1]) || 
-                wordList[0].commonWords.includes(selectedWords[selectedWords.length - 1]))
-                  ? 'text-green-500 dark:text-green-400' 
-                  : 'text-red-500 dark:text-red-400'
-              }`}>
+              <p
+                className={`text-base sm:text-xl font-semibold ${
+                  selectedWords.length > 0 &&
+                  (wordList[0].words[currentCategory].includes(
+                    selectedWords[selectedWords.length - 1]
+                  ) ||
+                    wordList[0].commonWords.includes(
+                      selectedWords[selectedWords.length - 1]
+                    ))
+                    ? "text-green-500 dark:text-green-400"
+                    : "text-red-500 dark:text-red-400"
+                }`}
+              >
                 {feedback}
               </p>
             </div>
