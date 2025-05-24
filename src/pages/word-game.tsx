@@ -4,10 +4,47 @@ const wordList = [
   {
     name: ["শৈবাল", "ছত্রাক"],
     words: [
-      ["সুকেন্দ্রিক", "এককোষী", "বহুকোষী", "খাদ্য শর্করা"],
-      ["অসবুজ", "মৃতজীবী", "পরজীবী", "খাদ্য - গ্লাইকজেন", "শোষণ প্রক্রিয়া"],
+      [
+        "এককোষী",
+        "বহুকোষী",
+        "খাদ্য শর্করা",
+        "রেণুথলি সর্বদাই এককোষী",
+        "জননাঙ্গে বন্ধ্যা কোষের আবরণী নেই",
+        "সমাঙ্গদেহি",
+
+        "কোষপ্রাচীর - সেলুলোজ",
+        "সুস্পষ্ট জনুক্রম অনুপস্থিত",
+        "৬০ ভাগ সালোকসংশ্লেষণ করে",
+        "জলীয় বা আর্দ্র পরিবেশে জন্মায়।",
+      ],
+      [
+        "অসবুজ",
+        "মৃতজীবী",
+        "পরজীবী",
+        "মিথোজীবী",
+        "খাদ্য - গ্লাইকজেন",
+        "শোষণ প্রক্রিয়া",
+        "কোষপ্রাচীর কাইতিন",
+        "ক্লোরোফিল নেই",
+        "জাইগোট এ মিয়োসিস ঘটে",
+        "তীব্র অভিযোজন ক্ষমতা",
+        "দেহ হাইফি দারা গঠিত",
+        "কোষ দুইটি অংশে বিভক্ত",
+        "কোষ ঝিল্লির প্রধান উপাদান ergosterol",
+        "দেহ - দুইটি অংশে বিভক্ত",
+        "দেহের জনন অংশ  ফ্রুটবডি",
+      ],
     ],
-    commonWords: ["ভাস্কুলার টিস্যু নেই"],
+    commonWords: [
+      "ভাস্কুলার টিস্যু নেই",
+      "জাইগোট বহুকোষী ভ্রূণে পরিণত হয় না",
+      "অপুষ্পক",
+      "জননাঙ্গ এককোষী",
+      "সুকেন্দ্রিক",
+      "স্পোরের মাধ্যমে বিস্তার",
+      "থ্যালোফাইটা",
+      "জনন - অঙ্গজ, যৌন, অযৌন",
+    ],
   },
 ];
 
@@ -25,7 +62,7 @@ const WordGame: React.FC = () => {
     const allWords = [
       ...wordList[0].words[0],
       ...wordList[0].words[1],
-      ...wordList[0].commonWords
+      ...wordList[0].commonWords,
     ];
     const shuffledWords = [...allWords].sort(() => Math.random() - 0.5);
     setGameWords(shuffledWords);
@@ -42,12 +79,13 @@ const WordGame: React.FC = () => {
 
   const handleWordClick = (word: string) => {
     if (gameOver || selectedWords.includes(word)) return;
-    
+
     const isCommonWord = wordList[0].commonWords.includes(word);
-    const isCorrect = wordList[0].words[currentCategory].includes(word) || isCommonWord;
+    const isCorrect =
+      wordList[0].words[currentCategory].includes(word) || isCommonWord;
     const newSelectedWords = [...selectedWords, word];
     setSelectedWords(newSelectedWords);
-    
+
     if (isCorrect) {
       setScore((prev) => prev + 1);
       if (isCommonWord) {
@@ -58,7 +96,10 @@ const WordGame: React.FC = () => {
         );
       }
 
-      const correctWords = [...wordList[0].words[currentCategory], ...wordList[0].commonWords];
+      const correctWords = [
+        ...wordList[0].words[currentCategory],
+        ...wordList[0].commonWords,
+      ];
       const foundCorrectWords = newSelectedWords.filter((w) =>
         correctWords.includes(w)
       );
@@ -79,7 +120,11 @@ const WordGame: React.FC = () => {
 
   const getBoxColor = (word: string) => {
     if (!selectedWords.includes(word)) {
-      if (showHint && (wordList[0].words[currentCategory].includes(word) || wordList[0].commonWords.includes(word))) {
+      if (
+        showHint &&
+        (wordList[0].words[currentCategory].includes(word) ||
+          wordList[0].commonWords.includes(word))
+      ) {
         return "bg-blue-100 dark:bg-gray-700 hover:bg-blue-200 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-100 border-2 border-blue-500 dark:border-blue-400";
       }
       return "bg-blue-100 dark:bg-gray-700 hover:bg-blue-200 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-100";
@@ -98,7 +143,10 @@ const WordGame: React.FC = () => {
   };
 
   const getRemainingCount = () => {
-    const correctWords = [...wordList[0].words[currentCategory], ...wordList[0].commonWords];
+    const correctWords = [
+      ...wordList[0].words[currentCategory],
+      ...wordList[0].commonWords,
+    ];
     const foundCorrectWords = selectedWords.filter((w) =>
       correctWords.includes(w)
     );
