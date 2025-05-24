@@ -159,7 +159,7 @@ const WordGame: React.FC = () => {
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg dark:shadow-gray-900 p-3 sm:p-6 transition-colors duration-300">
           <div className="flex flex-col items-center mb-4 sm:mb-8">
             <h1 className="text-2xl sm:text-4xl font-bold text-center mb-2 sm:mb-4 text-gray-800 dark:text-white">
-              শৈবাল ও ছত্রাকের বৈশিষ্ট্য
+             Word Game
             </h1>
             <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
               <div className="flex items-center">
