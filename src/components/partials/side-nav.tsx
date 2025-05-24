@@ -5,7 +5,7 @@ import { HiOutlineXMark } from "react-icons/hi2";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { ModeToggle } from "../mode-toggle";
 import { Button } from "../ui/button";
-import { Home, BookOpen, Lightbulb, User, LogIn, UserPlus } from "lucide-react";
+import { Home, BookOpen, Lightbulb, User, LogIn, UserPlus, Gamepad2 } from "lucide-react";
 import { useQuizStore } from "@/store/useQuizStore";
 import { useCQStore } from "@/store/useCqStore";
 import { useState, useCallback } from "react";
@@ -90,6 +90,7 @@ export default function SideNav({
     { path: "/", label: "Home", icon: Home },
     { path: "/quiz", label: "Quiz", icon: BookOpen },
     { path: "/practice", label: "Practice", icon: Lightbulb },
+    { path: "/word-game", label: "Word Game", icon: Gamepad2 },
     { path: "/about", label: "About", icon: User },
   ];
 
