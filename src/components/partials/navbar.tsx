@@ -11,7 +11,7 @@ import { useQuizStore } from "@/store/useQuizStore";
 import { useCQStore } from "@/store/useCqStore";
 import { useDebounce } from "../hooks/useDebounce";
 import { motion, AnimatePresence } from "framer-motion";
-import { BookOpen, Lightbulb } from "lucide-react";
+import { BookOpen, Lightbulb, BookOpenCheck, BookOpenText, BookOpenIcon, ClipboardList, Puzzle, HelpCircle } from "lucide-react";
 
 interface SearchResult {
   type: "quiz" | "practice";
@@ -152,12 +152,48 @@ export default function Navbar() {
             </AnimatePresence>
           </div>
 
-          <Link to={"/saved"}>
-            <Button variant={"link"}>Saved</Button>
-          </Link>
-          <Link to={"/exam"}>
-            <Button>Exam</Button>
-          </Link>
+          <div className="hidden md:flex items-center gap-2">
+            <Link to="/quiz">
+              <Button variant="ghost" className="gap-2">
+                <ClipboardList className="h-4 w-4" />
+                Quiz
+              </Button>
+            </Link>
+            <Link to="/practice">
+              <Button variant="ghost" className="gap-2">
+                <BookOpenText className="h-4 w-4" />
+                Practice
+              </Button>
+            </Link>
+            <Link to="/word-game">
+              <Button variant="ghost" className="gap-2">
+                <BookOpenCheck className="h-4 w-4" />
+                Word Game
+              </Button>
+            </Link>
+            <Link to="/puzzle">
+              <Button variant="ghost" className="gap-2">
+                <Puzzle className="h-4 w-4" />
+                Puzzle
+              </Button>
+            </Link>
+            <Link to="/questions">
+              <Button variant="ghost" className="gap-2">
+                <HelpCircle className="h-4 w-4" />
+                Questions
+              </Button>
+            </Link>
+            <Link to="/saved">
+              <Button variant="ghost" className="gap-2">
+                <BookOpenIcon className="h-4 w-4" />
+                Saved
+              </Button>
+            </Link>
+            <Link to="/exam">
+              <Button>Exam</Button>
+            </Link>
+          </div>
+
           <ModeToggle />
 
           <CiMenuFries
@@ -167,11 +203,6 @@ export default function Navbar() {
             }}
             className="h-6 w-6 md:hidden dark:text-white text-black"
           />
-
-          {/* <div className="hidden md:flex items-center gap-2">
-            <Search />
-            <Link to='/login'><Button>Login</Button></Link>
-          </div> */}
         </div>
       </nav>
     </>
