@@ -109,16 +109,16 @@ export default function Navbar() {
     <>
       <SideNav handleClose={toggleOpen} isOpen={isOpen} />
       <nav
-        className={`flex items-center justify-between p-2 w-full h-[80px] top-0 bg-white md:dark:border-none border-b dark:bg-black dark:border-b-gray-800 z-10 fixed ${
-          scrollY > 150 ? "bg-opacity-60 dark:bg-opacity-60 backdrop-blur" : ""
+        className={`flex items-center justify-between px-4 md:px-6 py-3 w-full h-[80px] top-0 bg-white md:dark:border-none border-b dark:bg-black dark:border-b-gray-800 z-10 fixed transition-all duration-200 ${
+          scrollY > 150 ? "bg-opacity-80 dark:bg-opacity-80 backdrop-blur-md shadow-sm" : ""
         }`}
         onClick={handleNavClick}
       >
-        <Link to="/">
-          <Text label="HSC Quiz" className="text-xl font-bold" />
+        <Link to="/" className="hover:opacity-80 transition-opacity">
+          <Text label="HSC Quiz" className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent" />
         </Link>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-4">
           <div className="hidden md:block relative">
             <Search onSearch={debouncedSearch} />
 
@@ -129,19 +129,19 @@ export default function Navbar() {
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -10 }}
-                  className="absolute top-full left-0 right-0 mt-2 bg-background border rounded-lg shadow-lg z-30"
+                  className="absolute top-full left-0 right-0 mt-2 bg-background border rounded-lg shadow-lg z-30 overflow-hidden"
                 >
-                  <div className="p-2 space-y-1">
+                  <div className="p-2 space-y-1 max-h-[300px] overflow-y-auto">
                     {searchResults.map((result) => (
                       <button
                         key={`${result.type}-${result.id}`}
                         onClick={() => handleResultClick(result.path)}
-                        className="w-full text-left px-3 py-2 text-sm rounded-md hover:bg-muted transition-colors flex items-center gap-2"
+                        className="w-full text-left px-3 py-2 text-sm rounded-md hover:bg-muted/50 transition-colors flex items-center gap-2 group"
                       >
                         {result.type === "quiz" ? (
-                          <BookOpen className="h-4 w-4 text-primary" />
+                          <BookOpen className="h-4 w-4 text-primary group-hover:scale-110 transition-transform" />
                         ) : (
-                          <Lightbulb className="h-4 w-4 text-primary" />
+                          <Lightbulb className="h-4 w-4 text-primary group-hover:scale-110 transition-transform" />
                         )}
                         <span className="truncate">{result.title}</span>
                       </button>
@@ -152,57 +152,60 @@ export default function Navbar() {
             </AnimatePresence>
           </div>
 
-          <div className="hidden md:flex items-center gap-2">
+          <div className="hidden md:flex items-center gap-1">
             <Link to="/quiz">
-              <Button variant="ghost" className="gap-2">
+              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors">
                 <ClipboardList className="h-4 w-4" />
                 Quiz
               </Button>
             </Link>
             <Link to="/practice">
-              <Button variant="ghost" className="gap-2">
+              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors">
                 <BookOpenText className="h-4 w-4" />
                 Practice
               </Button>
             </Link>
             <Link to="/word-game">
-              <Button variant="ghost" className="gap-2">
+              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors">
                 <BookOpenCheck className="h-4 w-4" />
                 Word Game
               </Button>
             </Link>
             <Link to="/puzzle">
-              <Button variant="ghost" className="gap-2">
+              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors">
                 <Puzzle className="h-4 w-4" />
                 Puzzle
               </Button>
             </Link>
             <Link to="/questions">
-              <Button variant="ghost" className="gap-2">
+              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors">
                 <HelpCircle className="h-4 w-4" />
                 Questions
               </Button>
             </Link>
             <Link to="/saved">
-              <Button variant="ghost" className="gap-2">
+              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors">
                 <BookOpenIcon className="h-4 w-4" />
                 Saved
               </Button>
             </Link>
             <Link to="/exam">
-              <Button>Exam</Button>
+              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-sm transition-colors">
+                Exam
+              </Button>
             </Link>
           </div>
 
-          <ModeToggle />
-
-          <CiMenuFries
-            onClick={() => {
-              toggleOpen();
-              stop();
-            }}
-            className="h-6 w-6 md:hidden dark:text-white text-black"
-          />
+          <div className="flex items-center gap-2">
+            <ModeToggle />
+            <CiMenuFries
+              onClick={() => {
+                toggleOpen();
+                stop();
+              }}
+              className="h-6 w-6 md:hidden dark:text-white text-black hover:opacity-80 transition-opacity cursor-pointer"
+            />
+          </div>
         </div>
       </nav>
     </>
