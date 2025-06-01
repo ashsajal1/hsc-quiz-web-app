@@ -109,17 +109,58 @@ export default function Navbar() {
     <>
       <SideNav handleClose={toggleOpen} isOpen={isOpen} />
       <nav
-        className={`flex items-center justify-between px-4 md:px-6 py-3 w-full h-[80px] top-0 bg-white md:dark:border-none border-b dark:bg-black dark:border-b-gray-800 z-10 fixed transition-all duration-200 ${
-          scrollY > 150 ? "bg-opacity-80 dark:bg-opacity-80 backdrop-blur-md shadow-sm" : ""
+        className={`flex items-center justify-between px-6 lg:px-8 py-4 w-full h-[72px] top-0 bg-white md:dark:border-none border-b dark:bg-black dark:border-b-gray-800 z-10 fixed transition-all duration-200 ${
+          scrollY > 150 ? "bg-opacity-90 dark:bg-opacity-90 backdrop-blur-md shadow-sm" : ""
         }`}
         onClick={handleNavClick}
       >
-        <Link to="/" className="hover:opacity-80 transition-opacity">
-          <Text label="HSC Quiz" className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent" />
-        </Link>
+        <div className="flex items-center gap-8">
+          <Link to="/" className="hover:opacity-80 transition-opacity">
+            <Text label="HSC Quiz" className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent" />
+          </Link>
+
+          <div className="hidden md:flex items-center gap-1">
+            <Link to="/quiz">
+              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors h-9 px-3">
+                <ClipboardList className="h-4 w-4" />
+                Quiz
+              </Button>
+            </Link>
+            <Link to="/practice">
+              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors h-9 px-3">
+                <BookOpenText className="h-4 w-4" />
+                Practice
+              </Button>
+            </Link>
+            <Link to="/word-game">
+              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors h-9 px-3">
+                <BookOpenCheck className="h-4 w-4" />
+                Word Game
+              </Button>
+            </Link>
+            <Link to="/puzzle">
+              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors h-9 px-3">
+                <Puzzle className="h-4 w-4" />
+                Puzzle
+              </Button>
+            </Link>
+            <Link to="/questions">
+              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors h-9 px-3">
+                <HelpCircle className="h-4 w-4" />
+                Questions
+              </Button>
+            </Link>
+            <Link to="/saved">
+              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors h-9 px-3">
+                <BookOpenIcon className="h-4 w-4" />
+                Saved
+              </Button>
+            </Link>
+          </div>
+        </div>
 
         <div className="flex items-center gap-4">
-          <div className="hidden md:block relative">
+          <div className="hidden md:block relative w-[280px]">
             <Search onSearch={debouncedSearch} />
 
             {/* Search Results */}
@@ -152,51 +193,12 @@ export default function Navbar() {
             </AnimatePresence>
           </div>
 
-          <div className="hidden md:flex items-center gap-1">
-            <Link to="/quiz">
-              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors">
-                <ClipboardList className="h-4 w-4" />
-                Quiz
-              </Button>
-            </Link>
-            <Link to="/practice">
-              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors">
-                <BookOpenText className="h-4 w-4" />
-                Practice
-              </Button>
-            </Link>
-            <Link to="/word-game">
-              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors">
-                <BookOpenCheck className="h-4 w-4" />
-                Word Game
-              </Button>
-            </Link>
-            <Link to="/puzzle">
-              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors">
-                <Puzzle className="h-4 w-4" />
-                Puzzle
-              </Button>
-            </Link>
-            <Link to="/questions">
-              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors">
-                <HelpCircle className="h-4 w-4" />
-                Questions
-              </Button>
-            </Link>
-            <Link to="/saved">
-              <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors">
-                <BookOpenIcon className="h-4 w-4" />
-                Saved
-              </Button>
-            </Link>
+          <div className="flex items-center gap-3">
             <Link to="/exam">
-              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-sm transition-colors">
+              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-sm transition-colors h-9 px-4">
                 Exam
               </Button>
             </Link>
-          </div>
-
-          <div className="flex items-center gap-2">
             <ModeToggle />
             <CiMenuFries
               onClick={() => {
