@@ -341,6 +341,6 @@ export const wordList = [
         "প্রধান কাজ ঃ দেহভঙ্গি, ভারসাম্য রক্ষা",
       ],
     ],
-    
+    commonWords: [],
   },
 ];
