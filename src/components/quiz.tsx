@@ -29,8 +29,7 @@ import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { useQueryState } from "nuqs";
-import Confetti from "react-confetti";
-import { useWindowSize } from "../hooks/useWindowSize";
+import confetti from 'canvas-confetti';
 import { useSounds } from "@/hooks/useSounds";
 import {
   Tooltip,
@@ -54,12 +53,10 @@ export function Quiz({
   questionId,
 }: QuizProps) {
   const { playSound } = useSounds();
-  const { width, height } = useWindowSize();
-  const [showConfetti, setShowConfetti] = useState(false);
-  const { questions, getChaptersBySubject } = useQuizStore();
   const [isSoundEnabled, setIsSoundEnabled] = useState(true);
   const [isReadingAll, setIsReadingAll] = useState(false);
   const { speak, isSpeaking, stop } = useSpeakerStore();
+  const { questions, getChaptersBySubject } = useQuizStore();
 
   // Create a list of available topics from the questions.
   const topics = useMemo(() => {
@@ -101,9 +98,7 @@ export function Quiz({
   const [selectedRange, setSelectedRange] = useState<
     "start" | "end" | "middle-to-start" | "middle-to-end"
   >("start");
-  const [selectedQuestions, setSelectedQuestions] = useState<typeof questions>(
-    []
-  );
+  const [selectedQuestions, setSelectedQuestions] = useState<typeof questions>([]);
   const [selectedOptionId, setSelectedOptionId] = useState<number | null>(null);
 
   // Filter questions based on the currently selected topic and chapter.
@@ -167,15 +162,17 @@ export function Quiz({
       if (option.isCorrect) {
         setIsCorrect(true);
         setScore((prev) => prev + 1);
-        setShowConfetti(true);
+        // Trigger confetti effect
+        confetti({
+          particleCount: 100,
+          spread: 70,
+          origin: { y: 0.6 },
+          colors: ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff']
+        });
         // Play happy sound for correct answer if sound is enabled
         if (isSoundEnabled) {
           playSound("happy");
         }
-        // Hide confetti after 3 seconds
-        setTimeout(() => {
-          setShowConfetti(false);
-        }, 3000);
       } else {
         setIsCorrect(false);
         // Play sad sound for incorrect answer if sound is enabled
@@ -271,25 +268,6 @@ export function Quiz({
     handleNextQuestion,
   ]);
 
-  // // Effect to handle reading all questions
-  // useEffect(() => {
-  //   if (isReadingAll && !isSpeaking) {
-  //     const timer = setTimeout(() => {
-  //       if (currentReadingIndex < selectedQuestions.length) {
-  //         readAllQuestions();
-  //         // Move to next question after reading
-  //         if (currentQuestionIndex < selectedQuestions.length - 1) {
-  //           setCurrentQuestionIndex(prev => prev + 1);
-  //         }
-  //       } else {
-  //         setIsReadingAll(false);
-  //         setCurrentReadingIndex(0);
-  //       }
-  //     }, 1000);
-  //     return () => clearTimeout(timer);
-  //   }
-  // }, [isReadingAll, isSpeaking, readAllQuestions, currentQuestionIndex, selectedQuestions.length, currentReadingIndex]);
-
   const selectedRanges = [
     "start",
     "middle-to-start",
@@ -338,16 +316,6 @@ export function Quiz({
       animate={{ opacity: 1, y: 0 }}
       className="flex flex-col items-center justify-center mx-auto space-y-8"
     >
-      {showConfetti && (
-        <Confetti
-          width={width}
-          height={height}
-          recycle={false}
-          numberOfPieces={200}
-          gravity={0.2}
-        />
-      )}
-
       {/* Quiz Header */}
       <Card className="w-full p-6 space-y-6">
         <div className="flex items-center justify-between">
