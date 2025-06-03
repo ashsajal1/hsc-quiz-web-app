@@ -144,7 +144,7 @@ export default function Navbar() {
                 Puzzle
               </Button>
             </Link>
-            <Link to="/questions">
+            <Link to="/question">
               <Button variant="ghost" className="gap-2 hover:bg-primary/10 transition-colors h-9 px-3">
                 <HelpCircle className="h-4 w-4" />
                 Questions
