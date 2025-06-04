@@ -11,12 +11,14 @@ export default function RootLayout() {
   const location = useLocation();
   const isDropGamePage = location.pathname === '/drop-game';
 
+  const mainClassName = isDropGamePage ? "flex-grow" : "flex-grow p-2 mt-[80px]";
+
   return (
     <NuqsAdapter>
       <div className="min-h-screen flex flex-col">
         
         {!isDropGamePage && <Navbar />}
-        <main className="flex-grow p-2 mt-[80px]">
+        <main className={mainClassName}>
           <Outlet />
         </main>
         {isSpeaking && (
