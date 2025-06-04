@@ -184,21 +184,21 @@ export default function DropGame() {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-b from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900">
       {/* Fixed Top Bar */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white dark:bg-gray-800 shadow-md">
+      <header className="fixed top-0 left-0 right-0 z-50">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-          <h1 className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white">Drop Game</h1>
+          <h1 className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white" style={{ textShadow: '1px 1px 3px rgba(0, 0, 0, 0.5)' }}>Drop Game</h1>
           <div className="flex items-center space-x-3 sm:space-x-4">
             <div className="text-center">
               <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Score</p>
-              <p className="text-base sm:text-lg font-semibold text-gray-700 dark:text-white">{score}</p>
+              <p className="text-base sm:text-lg font-semibold text-gray-700 dark:text-white" style={{ textShadow: '1px 1px 3px rgba(0, 0, 0, 0.5)' }}>{score}</p>
             </div>
             <div className="text-center">
               <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Time</p>
-              <p className="text-base sm:text-lg font-semibold text-gray-700 dark:text-white">{formatTime(timeElapsed)}</p>
+              <p className="text-base sm:text-lg font-semibold text-gray-700 dark:text-white" style={{ textShadow: '1px 1px 3px rgba(0, 0, 0, 0.5)' }}>{formatTime(timeElapsed)}</p>
             </div>
             <div className="text-center">
               <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">High Score</p>
-              <p className="text-base sm:text-lg font-semibold text-gray-700 dark:text-white">{highScore}</p>
+              <p className="text-base sm:text-lg font-semibold text-gray-700 dark:text-white" style={{ textShadow: '1px 1px 3px rgba(0, 0, 0, 0.5)' }}>{highScore}</p>
             </div>
             <Button onClick={toggleGame} variant="outline" size="icon" className="w-10 h-10 sm:w-12 sm:h-12">
               {gameActive ? <Pause className="h-5 w-5 sm:h-6 sm:w-6" /> : <Play className="h-5 w-5 sm:h-6 sm:w-6" />}
