@@ -158,11 +158,11 @@ const WordGame: React.FC = () => {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
       <div className="container mx-auto px-2 sm:px-4 py-4 sm:py-8 max-w-4xl">
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg dark:shadow-gray-900 p-3 sm:p-6 transition-colors duration-300">
-          <div className="flex flex-col items-center mb-4 sm:mb-8">
-            <h1 className="text-2xl sm:text-4xl font-bold text-center mb-2 sm:mb-4 text-gray-800 dark:text-white">
+          <div className="flex flex-col items-center mb-3 sm:mb-6">
+            <h1 className="text-2xl sm:text-4xl font-bold text-center mb-2 sm:mb-3 text-gray-800 dark:text-white">
               Word Game
             </h1>
-            <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
+            <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-x-4 gap-y-2">
               <div className="flex items-center">
                 <span className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mr-2">
                   {wordList[currentWordSet].name[0]}
@@ -181,35 +181,31 @@ const WordGame: React.FC = () => {
                   {wordList[currentWordSet].name[1]}
                 </span>
               </div>
+              <div className="relative">
+                <select
+                  value={currentWordSet}
+                  onChange={(e) => {
+                    setCurrentWordSet(Number(e.target.value));
+                    setCurrentCategory(0);
+                    setCommonWordMode(false);
+                  }}
+                  className="appearance-none bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg py-2 px-4 pr-8 text-sm sm:text-base text-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent cursor-pointer"
+                >
+                  {wordList.map((set, index) => (
+                    <option key={index} value={index}>
+                      {set.name.join(" / ")}
+                    </option>
+                  ))}
+                </select>
+                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-200">
+                  <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                  </svg>
+                </div>
+              </div>
               <span className="text-sm sm:text-base text-gray-600 dark:text-gray-300">
                 {getRemainingCount()}টি বৈশিষ্ট্য বাকি আছে
               </span>
-            </div>
-            <div className="mt-2">
-              <div className="flex flex-col items-center">
-                <div className="relative">
-                  <select
-                    value={currentWordSet}
-                    onChange={(e) => {
-                      setCurrentWordSet(Number(e.target.value));
-                      setCurrentCategory(0);
-                      setCommonWordMode(false);
-                    }}
-                    className="appearance-none bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg py-2 px-4 pr-8 text-sm sm:text-base text-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent cursor-pointer"
-                  >
-                    {wordList.map((set, index) => (
-                      <option key={index} value={index}>
-                        {set.name.join(" / ")}
-                      </option>
-                    ))}
-                  </select>
-                  <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-200">
-                    <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                      <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
-                    </svg>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
 
