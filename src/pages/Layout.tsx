@@ -14,7 +14,8 @@ export default function RootLayout() {
   return (
     <NuqsAdapter>
       <div className="min-h-screen flex flex-col">
-        <Navbar />
+        
+        {!isDropGamePage && <Navbar />}
         <main className="flex-grow p-2 mt-[80px]">
           <Outlet />
         </main>
