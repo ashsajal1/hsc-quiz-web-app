@@ -156,7 +156,7 @@ const WordGame: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
-      <div className="container mx-auto px-2 sm:px-4 py-4 sm:py-8 max-w-4xl">
+      <div className="container mx-auto px-2 sm:px-4 py-4 sm:py-8 max-w-full">
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg dark:shadow-gray-900 p-3 sm:p-6 transition-colors duration-300">
           <div className="flex flex-col items-center mb-3 sm:mb-6">
             <h1 className="text-2xl sm:text-4xl font-bold text-center mb-2 sm:mb-3 text-gray-800 dark:text-white">
