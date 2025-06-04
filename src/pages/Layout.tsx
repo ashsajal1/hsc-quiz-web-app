@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "../components/partials/navbar";
 import Footer from "../components/partials/footer";
 import { VolumeX } from "lucide-react";
@@ -8,6 +8,9 @@ import { NuqsAdapter } from "nuqs/adapters/react";
 
 export default function RootLayout() {
   const { stop, isSpeaking } = useSpeakerStore();
+  const location = useLocation();
+  const isDropGamePage = location.pathname === '/drop-game';
+
   return (
     <NuqsAdapter>
       <div className="min-h-screen flex flex-col">
@@ -20,7 +23,7 @@ export default function RootLayout() {
             <VolumeX onClick={stop} strokeWidth={"1"} className="h-6 w-6" />
           </Button>
         )}
-        <Footer />
+        {!isDropGamePage && <Footer />}
       </div>
     </NuqsAdapter>
   );
