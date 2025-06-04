@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
 import { Play, Pause } from 'lucide-react';
 
 interface Shape {
@@ -249,19 +248,7 @@ export default function DropGame() {
             </div>
           )}
 
-          <div className="max-w-2xl mx-auto space-y-4">
-            <h2 className="text-xl font-bold text-center text-gray-800 dark:text-white">Instructions</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <Card className="p-4 bg-white dark:bg-gray-800 shadow">
-                <h3 className="font-semibold mb-2 text-gray-700 dark:text-gray-200">How to Play</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-300">Click on the falling shapes before they disappear to score points!</p>
-              </Card>
-              <Card className="p-4 bg-white dark:bg-gray-800 shadow">
-                <h3 className="font-semibold mb-2 text-gray-700 dark:text-gray-200">Tips</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-300">The faster you click, the higher your score will be. Watch out for the rotation!</p>
-              </Card>
-            </div>
-          </div>
+         
         </div>
       </main>
     </div>
