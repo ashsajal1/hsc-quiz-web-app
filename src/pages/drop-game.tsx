@@ -211,7 +211,7 @@ export default function DropGame() {
       <main className="flex-grow flex flex-col "> {/* pt should be approx height of header */}
         <div 
           ref={gameAreaRef} 
-          className="flex-grow relative w-full overflow-hidden"
+          className="flex-grow h-screen relative w-full overflow-hidden"
           // Removed shadow-inner and rounded-lg as it's full screen now
         >
           <AnimatePresence>
