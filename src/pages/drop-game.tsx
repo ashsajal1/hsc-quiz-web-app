@@ -16,8 +16,8 @@ interface Shape {
   rotation: number;
 }
 
-const MAX_CONCURRENT_SHAPES = 7;
-const SHAPE_SPAWN_INTERVAL = 800; // milliseconds
+const MAX_CONCURRENT_SHAPES = 100;
+const SHAPE_SPAWN_INTERVAL = 400; // milliseconds
 const SHAPE_BASE_SPEED = 1.5;
 const SHAPE_SPEED_VARIATION = 2;
 const SHAPE_MIN_WIDTH = 30;
