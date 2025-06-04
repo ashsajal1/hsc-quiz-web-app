@@ -2,8 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Play, Pause, Trophy, Timer } from 'lucide-react';
+import { Play, Pause } from 'lucide-react';
 
 interface Shape {
   id: string;
@@ -184,40 +183,43 @@ export default function DropGame() {
   };
 
   return (
-    <div className="flex flex-col items-center p-4 min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
-      <Card className="w-full max-w-2xl p-6 space-y-6">
-        <div className="flex items-center justify-between">
-          <h1 className="text-3xl font-bold text-gray-800 dark:text-white">Drop Game</h1>
-          <Button onClick={toggleGame} variant="outline" size="icon">
-            {gameActive ? <Pause className="h-5 w-5" /> : <Play className="h-5 w-5" />}
-          </Button>
+    <div className="flex flex-col min-h-screen bg-gradient-to-b from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900">
+      {/* Fixed Top Bar */}
+      <header className="fixed top-0 left-0 right-0 z-50 bg-white dark:bg-gray-800 shadow-md">
+        <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+          <h1 className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white">Drop Game</h1>
+          <div className="flex items-center space-x-3 sm:space-x-4">
+            <div className="text-center">
+              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Score</p>
+              <p className="text-base sm:text-lg font-semibold text-gray-700 dark:text-white">{score}</p>
+            </div>
+            <div className="text-center">
+              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Time</p>
+              <p className="text-base sm:text-lg font-semibold text-gray-700 dark:text-white">{formatTime(timeElapsed)}</p>
+            </div>
+            <div className="text-center">
+              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">High Score</p>
+              <p className="text-base sm:text-lg font-semibold text-gray-700 dark:text-white">{highScore}</p>
+            </div>
+            <Button onClick={toggleGame} variant="outline" size="icon" className="w-10 h-10 sm:w-12 sm:h-12">
+              {gameActive ? <Pause className="h-5 w-5 sm:h-6 sm:w-6" /> : <Play className="h-5 w-5 sm:h-6 sm:w-6" />}
+            </Button>
+          </div>
         </div>
+      </header>
 
-        <div className="flex justify-around items-center p-4 bg-gray-100 dark:bg-gray-700 rounded-lg">
-          <div className="text-center">
-            <Trophy className="h-6 w-6 mx-auto text-yellow-500" />
-            <p className="text-sm text-gray-600 dark:text-gray-300">Score</p>
-            <p className="text-2xl font-semibold text-gray-800 dark:text-white">{score}</p>
-          </div>
-          <div className="text-center">
-            <Timer className="h-6 w-6 mx-auto text-blue-500" />
-            <p className="text-sm text-gray-600 dark:text-gray-300">Time</p>
-            <p className="text-2xl font-semibold text-gray-800 dark:text-white">{formatTime(timeElapsed)}</p>
-          </div>
-          <div className="text-center">
-            <Badge variant="secondary" className="text-sm">High Score: {highScore}</Badge>
-          </div>
-        </div>
-
+      {/* Main Content Area - Game Area + Instructions */}
+      <main className="flex-grow flex flex-col pt-20 sm:pt-24"> {/* pt should be approx height of header */}
         <div 
           ref={gameAreaRef} 
-          className="relative w-full h-96 bg-gray-200 dark:bg-gray-600 rounded-lg overflow-hidden shadow-inner"
+          className="flex-grow relative w-full bg-gray-200 dark:bg-gray-700 overflow-hidden"
+          // Removed shadow-inner and rounded-lg as it's full screen now
         >
           <AnimatePresence>
             {shapes.map(shape => (
               <motion.div
                 key={shape.id}
-                layout // Enables smooth transition when items are added/removed
+                layout
                 initial={{ y: shape.y, x: shape.x, rotate: shape.rotation, opacity: 0, scale: 0.5 }}
                 animate={{ y: shape.y, x: shape.x, rotate: shape.rotation, opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.3, transition: { duration: 0.2 } }}
@@ -236,21 +238,32 @@ export default function DropGame() {
             ))}
           </AnimatePresence>
         </div>
-        
-        <div className="space-y-4">
-          <h2 className="text-xl font-bold">Instructions:</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Card className="p-4">
-              <h3 className="font-semibold mb-2">How to Play</h3>
-              <p>Click on the falling shapes before they disappear to score points!</p>
-            </Card>
-            <Card className="p-4">
-              <h3 className="font-semibold mb-2">Tips</h3>
-              <p>The faster you click, the higher your score will be. Watch out for the rotation!</p>
-            </Card>
+
+        {/* Game State Message & Instructions Area */}
+        <div className="py-4 px-4">
+          {!gameActive && shapes.length === 0 && (
+            <div className="text-center mb-6">
+              <p className="text-xl text-gray-700 dark:text-gray-300">
+                {timeElapsed > 0 ? 'Game Paused. Click Play to resume.' : 'Click Play to start!'}
+              </p>
+            </div>
+          )}
+
+          <div className="max-w-2xl mx-auto space-y-4">
+            <h2 className="text-xl font-bold text-center text-gray-800 dark:text-white">Instructions</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <Card className="p-4 bg-white dark:bg-gray-800 shadow">
+                <h3 className="font-semibold mb-2 text-gray-700 dark:text-gray-200">How to Play</h3>
+                <p className="text-sm text-gray-600 dark:text-gray-300">Click on the falling shapes before they disappear to score points!</p>
+              </Card>
+              <Card className="p-4 bg-white dark:bg-gray-800 shadow">
+                <h3 className="font-semibold mb-2 text-gray-700 dark:text-gray-200">Tips</h3>
+                <p className="text-sm text-gray-600 dark:text-gray-300">The faster you click, the higher your score will be. Watch out for the rotation!</p>
+              </Card>
+            </div>
           </div>
         </div>
-      </Card>
+      </main>
     </div>
   );
 }
