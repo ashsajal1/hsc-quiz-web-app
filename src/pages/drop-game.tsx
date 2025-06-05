@@ -359,7 +359,7 @@ export default function DropGame() {
 
       {/* Main Content Area - Game Area + Instructions */}
       <main className="flex-grow flex flex-col">
-        <div className="w-full max-w-4xl mx-auto">
+        <div className="w-full mx-auto">
           {/* Word Set and Category Selectors */}
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg dark:shadow-gray-900 p-3 sm:p-6 transition-colors duration-300 mb-4">
             <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-x-4 gap-y-2">
