@@ -530,9 +530,36 @@ export default function DropGame() {
                 Time's Up! ⏱️
               </h2>
               <p className="text-5xl font-bold text-primary mb-6">{score}</p>
-              <p className="text-gray-600 dark:text-gray-300 mb-6">
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
                 Great job! You scored {score} points in 30 seconds.
               </p>
+              
+              {/* Wordlist Selection */}
+              <div className="mb-6 w-full">
+                <label htmlFor="wordlist-select" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                  Select Wordlist
+                </label>
+                <div className="relative">
+                  <select
+                    id="wordlist-select"
+                    value={currentWordSetIndex}
+                    onChange={(e) => setCurrentWordSetIndex(Number(e.target.value))}
+                    className="block w-full px-4 py-2 text-gray-900 bg-white border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  >
+                    {wordList.map((set, index) => (
+                      <option key={index} value={index}>
+                        {set.name.join(" / ")}
+                      </option>
+                    ))}
+                  </select>
+                  <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-200">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              
               <Button 
                 onClick={() => {
                   resetGame();
