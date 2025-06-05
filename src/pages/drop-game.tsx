@@ -1,8 +1,8 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { useState, useEffect, useRef, useCallback } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Play, Pause } from 'lucide-react';
-import { wordList } from '@/lib/words';
+import { Play, Pause } from "lucide-react";
+import { wordList } from "@/lib/words";
 
 interface Shape {
   id: string;
@@ -15,13 +15,13 @@ interface Shape {
   rotation: number;
   word: string;
   isCorrect: boolean; // True if it's a word from the current category OR a common word
-  type: 'target' | 'common' | 'distractor'; // Helps in coloring or specific logic if needed
+  type: "target" | "common" | "distractor"; // Helps in coloring or specific logic if needed
 }
 
 interface GameWord {
   text: string;
   isCorrect: boolean;
-  type: 'target' | 'common' | 'distractor';
+  type: "target" | "common" | "distractor";
 }
 
 const MAX_CONCURRENT_SHAPES = 10;
@@ -36,9 +36,15 @@ export default function DropGame() {
   const [shapes, setShapes] = useState<Shape[]>([]);
   const [currentWordSetIndex, setCurrentWordSetIndex] = useState(0);
   const [currentCategoryIndex, setCurrentCategoryIndex] = useState(0); // 0 for first category, 1 for second
-  const [gameWords, setGameWords] = useState<Array<{text: string, isCorrect: boolean, type: 'target' | 'common' | 'distractor'}>>([]);
+  const [gameWords, setGameWords] = useState<
+    Array<{
+      text: string;
+      isCorrect: boolean;
+      type: "target" | "common" | "distractor";
+    }>
+  >([]);
   // const [showWordListModal, setShowWordListModal] = useState(true); // Will be replaced by inline selectors
-  
+
   const gameAreaRef = useRef<HTMLDivElement>(null);
   const animationFrameRef = useRef<number>();
   const timerRef = useRef<NodeJS.Timeout>();
@@ -49,102 +55,125 @@ export default function DropGame() {
     const selectedSet = wordList[currentWordSetIndex];
     if (!selectedSet) return;
 
-    const targetCategoryWords: GameWord[] = selectedSet.words[currentCategoryIndex].map(word => ({
+    const targetCategoryWords: GameWord[] = selectedSet.words[
+      currentCategoryIndex
+    ].map((word) => ({
       text: word,
       isCorrect: true,
-      type: 'target',
+      type: "target",
     }));
 
-    const commonWords: GameWord[] = (selectedSet.commonWords || []).map(word => ({
-      text: word,
-      isCorrect: true,
-      type: 'common',
-    }));
+    const commonWords: GameWord[] = (selectedSet.commonWords || []).map(
+      (word) => ({
+        text: word,
+        isCorrect: true,
+        type: "common",
+      })
+    );
 
     // Words from the *other* category in the same set act as distractors
     const distractorCategoryIndex = 1 - currentCategoryIndex;
-    const distractorWords: GameWord[] = selectedSet.words[distractorCategoryIndex] ? 
-                              selectedSet.words[distractorCategoryIndex].map(word => ({
-                                text: word,
-                                isCorrect: false,
-                                type: 'distractor',
-                              }))
-                              : [];
+    const distractorWords: GameWord[] = selectedSet.words[
+      distractorCategoryIndex
+    ]
+      ? selectedSet.words[distractorCategoryIndex].map((word) => ({
+          text: word,
+          isCorrect: false,
+          type: "distractor",
+        }))
+      : [];
 
     // Combine all words for the game
     // To make it more balanced, we can try to include a mix
     // For simplicity now, just concat. Consider a more balanced approach later if needed.
-    const allGameWords: GameWord[] = [...targetCategoryWords, ...commonWords, ...distractorWords];
+    const allGameWords: GameWord[] = [
+      ...targetCategoryWords,
+      ...commonWords,
+      ...distractorWords,
+    ];
     setGameWords(allGameWords.sort(() => Math.random() - 0.5)); // Shuffle them
     // Reset score and shapes when words change
     setScore(0);
     setShapes([]);
     // if (gameActive) startGame(); // Optionally restart game immediately
   }, [currentWordSetIndex, currentCategoryIndex]);
-  
+
   // Create a new shape with a word
-  const createNewShape = useCallback((gameWidth: number): Shape | null => {
-    if (gameWords.length === 0) {
-      // This case should ideally not happen if UI prevents game start before word list is ready
-      // Or, we can return a placeholder shape or null
-      console.warn("Attempted to create shape with no game words loaded.");
-      return null; // Or a default shape: { id: 'placeholder', ..., word: 'Loading...' }
-    }
-    
-    // Get a random word
-    const randomWordData = gameWords[Math.floor(Math.random() * gameWords.length)];
-    if (!randomWordData) return null; // Should not happen if gameWords is populated
-    
-    // Create a canvas to measure text width
-    const canvas = document.createElement('canvas');
-    const context = canvas.getContext('2d');
-    if (!context) {
-      // Fallback if canvas is not available
-      const newWidth = 150;
-      const newHeight = 50;
+  const createNewShape = useCallback(
+    (gameWidth: number): Shape | null => {
+      if (gameWords.length === 0) {
+        // This case should ideally not happen if UI prevents game start before word list is ready
+        // Or, we can return a placeholder shape or null
+        console.warn("Attempted to create shape with no game words loaded.");
+        return null; // Or a default shape: { id: 'placeholder', ..., word: 'Loading...' }
+      }
+
+      // Get a random word
+      const randomWordData =
+        gameWords[Math.floor(Math.random() * gameWords.length)];
+      if (!randomWordData) return null; // Should not happen if gameWords is populated
+
+      // Create a canvas to measure text width
+      const canvas = document.createElement("canvas");
+      const context = canvas.getContext("2d");
+      if (!context) {
+        // Fallback if canvas is not available
+        const newWidth = 150;
+        const newHeight = 50;
+        const newX = Math.floor(Math.random() * (gameWidth - newWidth));
+        const newSpeed =
+          Math.random() * SHAPE_SPEED_VARIATION + SHAPE_BASE_SPEED;
+
+        return {
+          id: `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+          x: newX,
+          y: -50, // Start above the screen
+          width: newWidth,
+          height: newHeight,
+          speed: newSpeed,
+          color: randomWordData.isCorrect
+            ? randomWordData.type === "common"
+              ? "#F59E0B"
+              : "#10B981"
+            : "#EF4444", // Yellow for common, Green for target correct, Red for incorrect/distractor
+          rotation: 0,
+          word: randomWordData.text,
+          isCorrect: randomWordData.isCorrect,
+          type: randomWordData.type,
+        };
+      }
+
+      // Measure text width
+      context.font = "16px Arial";
+      const textWidth = context.measureText(randomWordData.text).width;
+
+      // Calculate shape dimensions based on text
+      const padding = 20;
+      const newWidth = Math.max(Math.min(textWidth + padding, 300), 100); // Min width 100px, max 300px
+      const newHeight = 40; // Fixed height for better readability
       const newX = Math.floor(Math.random() * (gameWidth - newWidth));
       const newSpeed = Math.random() * SHAPE_SPEED_VARIATION + SHAPE_BASE_SPEED;
-      
+
       return {
         id: `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
         x: newX,
-        y: -50, // Start above the screen
+        y: -newHeight - 20, // Start above the screen
         width: newWidth,
         height: newHeight,
         speed: newSpeed,
-        color: randomWordData.isCorrect ? (randomWordData.type === 'common' ? '#F59E0B' : '#10B981') : '#EF4444', // Yellow for common, Green for target correct, Red for incorrect/distractor
+        color: randomWordData.isCorrect
+          ? randomWordData.type === "common"
+            ? "#F59E0B"
+            : "#10B981"
+          : "#EF4444", // Yellow for common, Green for target correct, Red for incorrect/distractor
         rotation: 0,
         word: randomWordData.text,
         isCorrect: randomWordData.isCorrect,
-        type: randomWordData.type
+        type: randomWordData.type,
       };
-    }
-    
-    // Measure text width
-    context.font = '16px Arial';
-    const textWidth = context.measureText(randomWordData.text).width;
-    
-    // Calculate shape dimensions based on text
-    const padding = 20;
-    const newWidth = Math.max(Math.min(textWidth + padding, 300), 100); // Min width 100px, max 300px
-    const newHeight = 40; // Fixed height for better readability
-    const newX = Math.floor(Math.random() * (gameWidth - newWidth));
-    const newSpeed = Math.random() * SHAPE_SPEED_VARIATION + SHAPE_BASE_SPEED;
-    
-    return {
-      id: `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
-      x: newX,
-      y: -newHeight - 20, // Start above the screen
-      width: newWidth,
-      height: newHeight,
-      speed: newSpeed,
-      color: randomWordData.isCorrect ? (randomWordData.type === 'common' ? '#F59E0B' : '#10B981') : '#EF4444', // Yellow for common, Green for target correct, Red for incorrect/distractor
-      rotation: 0,
-      word: randomWordData.text,
-      isCorrect: randomWordData.isCorrect,
-      type: randomWordData.type
-    };
-  }, [gameWords]);
+    },
+    [gameWords]
+  );
 
   // Spawn shapes periodically
   useEffect(() => {
@@ -153,7 +182,7 @@ export default function DropGame() {
       shapeSpawnIntervalRef.current = setInterval(() => {
         const newShape = createNewShape(gameArea.clientWidth);
         if (newShape) {
-          setShapes(prevShapes => {
+          setShapes((prevShapes) => {
             if (prevShapes.length < MAX_CONCURRENT_SHAPES) {
               return [...prevShapes, newShape];
             }
@@ -161,7 +190,6 @@ export default function DropGame() {
           });
         }
       }, SHAPE_SPAWN_INTERVAL);
-
     } else {
       if (shapeSpawnIntervalRef.current) {
         clearInterval(shapeSpawnIntervalRef.current);
@@ -177,20 +205,21 @@ export default function DropGame() {
   // Update game state (animation loop)
   const updateGame = useCallback(() => {
     if (!gameAreaRef.current || !gameActive) return;
-    
+
     const gameArea = gameAreaRef.current;
     const gameHeight = gameArea.clientHeight;
-    
-    setShapes(prevShapes => 
-      prevShapes
-        .map(shape => ({
-          ...shape,
-          y: shape.y + shape.speed,
-          rotation: shape.rotation + 0.5, // Slower rotation
-        }))
-        .filter(shape => shape.y < gameHeight + shape.height + 20) // Remove if way off screen
+
+    setShapes(
+      (prevShapes) =>
+        prevShapes
+          .map((shape) => ({
+            ...shape,
+            y: shape.y + shape.speed,
+            rotation: shape.rotation + 0.5, // Slower rotation
+          }))
+          .filter((shape) => shape.y < gameHeight + shape.height + 20) // Remove if way off screen
     );
-    
+
     animationFrameRef.current = requestAnimationFrame(updateGame);
   }, [gameActive]);
 
@@ -214,7 +243,7 @@ export default function DropGame() {
   useEffect(() => {
     if (gameActive) {
       timerRef.current = setInterval(() => {
-        setTimeElapsed(prev => prev + 1);
+        setTimeElapsed((prev) => prev + 1);
       }, 1000);
     } else {
       if (timerRef.current) {
@@ -233,17 +262,17 @@ export default function DropGame() {
     if (!gameActive) return;
 
     // Remove the clicked shape
-    setShapes(prevShapes => prevShapes.filter(s => s.id !== shape.id));
-    
+    setShapes((prevShapes) => prevShapes.filter((s) => s.id !== shape.id));
+
     // Update score based on whether it was a correct word
     if (shape.isCorrect) {
-      setScore(prevScore => prevScore + (shape.type === 'common' ? 15 : 10)); // More points for common words maybe?
+      setScore((prevScore) => prevScore + (shape.type === "common" ? 15 : 10)); // More points for common words maybe?
     } else {
       // Penalty for clicking incorrect words
-      setScore(prevScore => Math.max(0, prevScore - 5)); // Penalty for wrong click
+      setScore((prevScore) => Math.max(0, prevScore - 5)); // Penalty for wrong click
     }
   };
-  
+
   const resetGame = () => {
     setScore(0);
     setTimeElapsed(0);
@@ -252,7 +281,8 @@ export default function DropGame() {
 
   // Toggle game state
   const toggleGame = () => {
-    if (!gameActive) { // Starting the game
+    if (!gameActive) {
+      // Starting the game
       if (!wordList[currentWordSetIndex]) {
         // setShowWordListModal(true);
         return; // Don't start if no word list is selected
@@ -260,14 +290,16 @@ export default function DropGame() {
       resetGame();
       setGameActive(true);
       // setShowWordListModal(false);
-    } else { // Pausing the game
+    } else {
+      // Pausing the game
       setGameActive(false);
       // Animation and spawn intervals are cleared by their respective useEffects
     }
   };
-  
+
   // Handle word list selection
-  const handleWordListSelect = () => { // listId was unused
+  const handleWordListSelect = () => {
+    // listId was unused
     // setSelectedWordList(listId);
     setGameActive(false);
     resetGame();
@@ -278,7 +310,7 @@ export default function DropGame() {
   const formatTime = (seconds: number) => {
     const mins = Math.floor(seconds / 60);
     const secs = seconds % 60;
-    return `${mins}:${secs.toString().padStart(2, '0')}`;
+    return `${mins}:${secs.toString().padStart(2, "0")}`;
   };
 
   return (
@@ -286,38 +318,64 @@ export default function DropGame() {
       {/* Fixed Top Bar */}
       <header className="fixed top-0 left-0 right-0 z-50">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-          <h1 className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white" style={{ textShadow: '1px 1px 3px rgba(0, 0, 0, 0.5)' }}>Drop Game</h1>
+          <h1
+            className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white"
+            style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.5)" }}
+          >
+            Drop Game
+          </h1>
           <div className="flex items-center space-x-3 sm:space-x-4">
             <div className="text-center">
-              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Score</p>
-              <p className="text-base sm:text-lg font-semibold text-gray-700 dark:text-white" style={{ textShadow: '1px 1px 3px rgba(0, 0, 0, 0.5)' }}>{score}</p>
+              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">
+                Score
+              </p>
+              <p
+                className="text-base sm:text-lg font-semibold text-gray-700 dark:text-white"
+                style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.5)" }}
+              >
+                {score}
+              </p>
             </div>
             <div className="text-center">
-              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Time</p>
-              <p className="text-base sm:text-lg font-semibold text-gray-700 dark:text-white" style={{ textShadow: '1px 1px 3px rgba(0, 0, 0, 0.5)' }}>{formatTime(timeElapsed)}</p>
+              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">
+                Time
+              </p>
+              <p
+                className="text-base sm:text-lg font-semibold text-gray-700 dark:text-white"
+                style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.5)" }}
+              >
+                {formatTime(timeElapsed)}
+              </p>
             </div>
             <div className="hidden sm:block text-center">
-              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Word List</p>
+              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">
+                Word List
+              </p>
               <p className="text-xs font-medium text-gray-700 dark:text-gray-300 max-w-[150px] truncate">
-                {wordList[currentWordSetIndex]?.name.join(' / ') || 'None selected'}
+                {wordList[currentWordSetIndex]?.name.join(" / ") ||
+                  "None selected"}
               </p>
             </div>
             <div className="flex gap-2">
-              <Button 
+              <Button
                 onClick={() => handleWordListSelect()}
-                variant="outline" 
-                size="sm" 
+                variant="outline"
+                size="sm"
                 className="hidden sm:flex items-center gap-1"
               >
                 <span className="text-xs">Change</span>
               </Button>
-              <Button 
-                onClick={toggleGame} 
-                variant="outline" 
-                size="icon" 
+              <Button
+                onClick={toggleGame}
+                variant="outline"
+                size="icon"
                 className="w-10 h-10 sm:w-12 sm:h-12"
               >
-                {gameActive ? <Pause className="h-5 w-5 sm:h-6 sm:w-6" /> : <Play className="h-5 w-5 sm:h-6 sm:w-6" />}
+                {gameActive ? (
+                  <Pause className="h-5 w-5 sm:h-6 sm:w-6" />
+                ) : (
+                  <Play className="h-5 w-5 sm:h-6 sm:w-6" />
+                )}
               </Button>
             </div>
           </div>
@@ -340,7 +398,9 @@ export default function DropGame() {
                     type="checkbox"
                     className="sr-only peer"
                     checked={currentCategoryIndex === 1}
-                    onChange={() => setCurrentCategoryIndex(prev => (prev === 0 ? 1 : 0))}
+                    onChange={() =>
+                      setCurrentCategoryIndex((prev) => (prev === 0 ? 1 : 0))
+                    }
                     disabled={!gameActive && shapes.length > 0} // Disable if game paused mid-way, or handle reset
                   />
                   <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
@@ -362,46 +422,72 @@ export default function DropGame() {
                 >
                   {wordList.map((set, index) => (
                     <option key={index} value={index}>
-                      {set.name.join(' / ')}
+                      {set.name.join(" / ")}
                     </option>
                   ))}
                 </select>
                 <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-200">
-                  <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                  <svg
+                    className="fill-current h-4 w-4"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                  </svg>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Game Area */}
-          <div ref={gameAreaRef} className="w-full h-[calc(100vh-300px)] sm:h-[calc(100vh-250px)] bg-white/20 dark:bg-black/30 rounded-lg shadow-2xl overflow-hidden relative mb-4">
+          <div
+            ref={gameAreaRef}
+            className="w-full h-[calc(100vh-300px)] sm:h-[calc(100vh-250px)] bg-white/20 dark:bg-black/30 rounded-lg shadow-2xl overflow-hidden relative mb-4"
+          >
             <AnimatePresence>
-              {shapes.map(shape => (
+              {shapes.map((shape) => (
                 <motion.div
                   key={shape.id}
-                  initial={{ y: shape.y, x: shape.x, opacity: 0.8, rotate: shape.rotation }}
-                  animate={{ y: shape.y, x: shape.x, opacity: 1, rotate: shape.rotation }}
-                  exit={{ opacity: 0, scale: 0.5, transition: { duration: 0.3 } }}
+                  initial={{
+                    y: shape.y,
+                    x: shape.x,
+                    opacity: 0.8,
+                    rotate: shape.rotation,
+                  }}
+                  animate={{
+                    y: shape.y,
+                    x: shape.x,
+                    opacity: 1,
+                    rotate: shape.rotation,
+                  }}
+                  exit={{
+                    opacity: 0,
+                    scale: 0.5,
+                    transition: { duration: 0.3 },
+                  }}
                   style={{
-                    position: 'absolute',
+                    position: "absolute",
                     left: shape.x,
                     top: shape.y,
                     width: shape.width,
                     height: shape.height,
                     backgroundColor: shape.color,
-                    borderRadius: '8px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    cursor: 'pointer',
-                    boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
-                    border: '1px solid rgba(255,255,255,0.2)',
-                    color: 'white',
-                    fontWeight: 'bold',
-                    fontSize: Math.min(16, shape.width / (shape.word.length * 0.6 + 2)), // Adjusted font size
-                    padding: '0 5px',
-                    overflow: 'hidden',
-                    textAlign: 'center',
+                    borderRadius: "8px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    cursor: "pointer",
+                    boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
+                    border: "1px solid rgba(255,255,255,0.2)",
+                    color: "white",
+                    fontWeight: "bold",
+                    fontSize: Math.min(
+                      16,
+                      shape.width / (shape.word.length * 0.6 + 2)
+                    ), // Adjusted font size
+                    padding: "0 5px",
+                    overflow: "hidden",
+                    textAlign: "center",
                   }}
                   onClick={() => handleShapeClick(shape)}
                   className="shape-button"
@@ -412,23 +498,7 @@ export default function DropGame() {
             </AnimatePresence>
           </div>
 
-          {/* Controls Bar */}
-          <div className="w-full flex justify-between items-center p-4 bg-white/10 dark:bg-black/20 rounded-lg shadow-xl backdrop-blur-sm">
-            <div className="text-lg sm:text-2xl font-bold">
-              Score: <span className="text-yellow-300 dark:text-yellow-400">{score}</span>
-            </div>
-            <Button 
-              onClick={toggleGame}
-              variant={gameActive ? "destructive" : "default"}
-              className="px-4 py-2 sm:px-6 sm:py-3 text-base sm:text-lg font-semibold shadow-lg transition-transform hover:scale-105"
-            >
-              {gameActive ? <Pause className="mr-1 sm:mr-2 h-4 w-4 sm:h-5 sm:w-5" /> : <Play className="mr-1 sm:mr-2 h-4 w-4 sm:h-5 sm:w-5" />}
-              {gameActive ? 'Pause' : (shapes.length > 0 ? 'Resume' : 'Start')}
-            </Button>
-            <div className="text-lg sm:text-2xl font-bold">
-              Time: <span className="text-green-300 dark:text-green-400">{formatTime(timeElapsed)}</span>
-            </div>
-          </div>
+              
         </div>
       </main>
 
