@@ -1,6 +1,6 @@
-# React TSX Tailwind Template
+# HSC Quiz Web App
 
-Welcome to the **React TSX Tailwind Template** repository! This template provides a robust starting point for creating modern, responsive web applications using React, TypeScript, and Tailwind CSS. It's designed to help you quickly set up a new project with best practices and essential configurations already in place.
+Welcome to the **HSC Quiz Web App** - an interactive learning platform designed to help students prepare for their Higher Secondary Certificate (HSC) examinations. This application offers a variety of engaging study tools and games to make learning more effective and enjoyable.
 
 ## Table of Contents
 
@@ -12,92 +12,137 @@ Welcome to the **React TSX Tailwind Template** repository! This template provide
   - [Running the Project](#running-the-project)
   - [Building the Project](#building-the-project)
 - [Project Structure](#project-structure)
+- [Features in Detail](#features-in-detail)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Features
 
-- **React**: A JavaScript library for building user interfaces.
-- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
-- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
-- **React Router**: Declarative routing for React.
-- **Linting and Formatting**: ESLint and Prettier are configured to maintain code quality and consistency.
-- **Dark Mode Support**: Easily switch between light and dark themes.
+- **Interactive Quizzes**: Test your knowledge with multiple-choice questions
+- **Word Games**: Improve vocabulary with engaging word-based games
+- **Drop Game**: A fun, interactive game to enhance learning through play
+- **Dark/Light Mode**: Toggle between themes for comfortable studying
+- **Responsive Design**: Works on desktop and mobile devices
+- **Progress Tracking**: Monitor your learning progress over time
+- **Formulas & Equations**: Study complex formulas with interactive components
+- **Practice Exams**: Simulate real exam conditions with timed tests
 
 ## Getting Started
 
-Follow these instructions to set up and run the project on your local machine.
-
 ### Prerequisites
 
-- **Node.js**: Ensure you have Node.js installed. Download it from [nodejs.org](https://nodejs.org/).
-- **Pnpm**: We use Pnpm as our package manager. Install it globally using npm:
-  ```sh
-  npm install -g pnpm 
-  ```
+- Node.js (v16 or later)
+- npm (v8 or later) or Yarn (v1.22 or later)
+- Git (for version control)
 
 ### Installation
 
-1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/ashsajal1/react-tsx-tailwind-template.git
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/hsc-quiz-web-app.git
+   cd hsc-quiz-web-app
    ```
-2. **Navigate into the project directory**:
-   ```sh
-   cd react-tsx-tailwind-template
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
    ```
-3. **Install the dependencies**:
-   ```sh
-   pnpm install
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
    ```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Usage
 
-### Running the Project
+### Available Scripts
 
-To start the development server, run:
-```sh
-pnpm dev
+- `npm run dev` - Start development server
+- `npm run build` - Create production build
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint for code quality
+
+### Building for Production
+
+To create an optimized production build:
+
+```bash
+npm run build
 ```
-This will launch the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Building the Project
-
-To create a production-ready build, run:
-```sh
-pnpm build
-```
-The optimized build will be output to the `build` folder.
+The build will be available in the `dist/` directory.
 
 ## Project Structure
 
-Here is an overview of the project structure:
-
 ```
-react-tsx-tailwind-template/
-├── public/              # Static files
-├── src/
-│   ├── components/      # Reusable components
-│   ├── features/        # Redux slices and features
-│   ├── hooks/           # Custom hooks
-│   ├── lib/             # Utility functions and types
-│   ├── pages/           # Page components
-│   ├── styles/          # Tailwind CSS configuration and global styles
-│   ├── App.tsx          # Main App component
-│   ├── index.tsx        # Entry point for React
-│   ├── routes.tsx       # React Router setup
-│   └── ...              # Other configuration files and utils
-├── .eslintrc.js         # ESLint configuration
+src/
+├── components/     # Reusable UI components
+│   ├── formula-puzzle.tsx  # Interactive formula components
+│   ├── mcq-card.tsx        # Multiple choice question cards
+│   ├── mode-toggle.tsx     # Dark/light theme toggle
+│   └── word-puzzle.tsx     # Word game components
+├── pages/          # Page components
+│   ├── drop-game.tsx       # Interactive drop game
+│   ├── word-game.tsx       # Word puzzle game
+│   ├── quiz.tsx           # Quiz interface
+│   └── ...
+├── lib/           # Utility functions and data
+│   └── words/      # Word lists and categories
+├── hooks/          # Custom React hooks
+└── styles/         # Global styles and Tailwind config
 ├── .prettierrc          # Prettier configuration
 ├── tailwind.config.js   # Tailwind CSS configuration
 ├── tsconfig.json        # TypeScript configuration
 ├── package.json         # Project metadata and scripts
-└── pnpm-lock.yaml       # Yarn lockfile
+└── pnpm-lock.yaml       # Package lock file
 ```
+
+## Features in Detail
+
+### Interactive Quizzes
+- **Multiple Choice Questions**: Test your knowledge across various subjects
+- **Immediate Feedback**: Get instant results after each question
+- **Progress Tracking**: Monitor your improvement over time
+- **Categorized Content**: Questions organized by subject and topic
+
+### Word Games
+- **Vocabulary Building**: Enhance your terminology across subjects
+- **Interactive Puzzles**: Engaging way to learn and remember key terms
+- **Multiple Categories**: Words organized by topics and difficulty levels
+
+### Drop Game
+- **Interactive Learning**: Catch falling words to score points
+- **Timed Challenges**: Test your knowledge under time pressure
+- **Multiple Word Lists**: Various categories to choose from
+- **Scoring System**: Track your performance and improve
+
+### Study Tools
+- **Formula Reference**: Interactive formula sheets with examples
+- **Bookmarking**: Save important questions for later review
+- **Performance Analytics**: Detailed insights into your strengths and weaknesses
+
+### User Experience
+- **Responsive Design**: Seamless experience across all devices
+- **Dark/Light Mode**: Choose your preferred theme
+- **Intuitive Navigation**: Easy access to all features
+- **Accessible**: Designed with accessibility in mind
 
 ## Contributing
 
-Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or create a pull request. Please ensure your changes follow the project's coding standards and conventions.
+We welcome contributions from the community! Here's how you can help:
+
+1. **Report Bugs**: Open an issue to report any bugs or issues you find
+2. **Suggest Features**: Share your ideas for new features or improvements
+3. **Submit Pull Requests**: Help us improve the codebase
+4. **Improve Documentation**: Help make our documentation better
+
+Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details on how to contribute.
 
 ## License
 
@@ -105,4 +150,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Thank you for using the React TSX Tailwind Template! If you have any questions or need further assistance, please don't hesitate to reach out. Happy coding! 🚀
+Built with ❤️ for students preparing for their HSC examinations. If you have any questions or need assistance, please don't hesitate to open an issue. Happy studying! 📚✨
