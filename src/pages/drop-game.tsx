@@ -29,6 +29,17 @@ const SHAPE_SPAWN_INTERVAL = 1000; // milliseconds
 const SHAPE_BASE_SPEED = 1;
 const SHAPE_SPEED_VARIATION = 1;
 
+const SHAPE_COLORS = [
+  "#34D399", // Emerald
+  "#FBBF24", // Amber
+  "#60A5FA", // Blue
+  "#EC4899", // Pink
+  "#A78BFA", // Violet
+  "#F472B6", // Rose
+  "#22D3EE", // Cyan
+  "#F97316", // Orange
+];
+
 export default function DropGame() {
   const [score, setScore] = useState(0);
   const [gameActive, setGameActive] = useState(false);
@@ -132,11 +143,7 @@ export default function DropGame() {
           width: newWidth,
           height: newHeight,
           speed: newSpeed,
-          color: randomWordData.isCorrect
-            ? randomWordData.type === "common"
-              ? "#F59E0B"
-              : "#10B981"
-            : "#EF4444", // Yellow for common, Green for target correct, Red for incorrect/distractor
+          color: SHAPE_COLORS[Math.floor(Math.random() * SHAPE_COLORS.length)],
           rotation: 0,
           word: randomWordData.text,
           isCorrect: randomWordData.isCorrect,
@@ -163,11 +170,7 @@ export default function DropGame() {
         width: newWidth,
         height: newHeight,
         speed: newSpeed,
-        color: randomWordData.isCorrect
-          ? randomWordData.type === "common"
-            ? "#F59E0B"
-            : "#10B981"
-          : "#EF4444", // Yellow for common, Green for target correct, Red for incorrect/distractor
+        color: SHAPE_COLORS[Math.floor(Math.random() * SHAPE_COLORS.length)],
         rotation: 0,
         word: randomWordData.text,
         isCorrect: randomWordData.isCorrect,
