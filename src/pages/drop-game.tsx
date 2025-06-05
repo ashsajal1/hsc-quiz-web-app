@@ -120,7 +120,8 @@ export default function DropGame() {
         // Fallback if canvas is not available
         const newWidth = 150;
         const newHeight = 50;
-        const newX = Math.floor(Math.random() * (gameWidth - newWidth));
+        const maxStartXFallback = gameWidth - newWidth;
+        const newX = maxStartXFallback <= 0 ? 0 : Math.floor(Math.random() * maxStartXFallback);
         const newSpeed =
           Math.random() * SHAPE_SPEED_VARIATION + SHAPE_BASE_SPEED;
 
@@ -151,7 +152,8 @@ export default function DropGame() {
       const padding = 20;
       const newWidth = Math.max(Math.min(textWidth + padding, 300), 100); // Min width 100px, max 300px
       const newHeight = 40; // Fixed height for better readability
-      const newX = Math.floor(Math.random() * (gameWidth - newWidth));
+      const maxStartXText = gameWidth - newWidth;
+      const newX = maxStartXText <= 0 ? 0 : Math.floor(Math.random() * maxStartXText);
       const newSpeed = Math.random() * SHAPE_SPEED_VARIATION + SHAPE_BASE_SPEED;
 
       return {
