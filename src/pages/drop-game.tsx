@@ -516,26 +516,45 @@ export default function DropGame() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black/70 flex items-center justify-center z-50"
-            onClick={() => setShowGameOver(false)}
+            className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4"
           >
             <motion.div 
-              className="bg-white dark:bg-gray-800 p-8 rounded-xl max-w-md w-full mx-4 text-center"
+              className="bg-white dark:bg-gray-800 p-8 rounded-xl max-w-md w-full mx-4 text-center relative"
               initial={{ scale: 0.9, y: 20 }}
               animate={{ scale: 1, y: 0 }}
               exit={{ scale: 0.9, y: 20 }}
               onClick={(e) => e.stopPropagation()}
             >
+              {/* Close Button */}
+              <button 
+                onClick={() => setShowGameOver(false)}
+                className="absolute top-3 right-3 p-1 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                aria-label="Close"
+              >
+                <svg className="w-6 h-6 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+              
               <h2 className="text-2xl font-bold mb-4 text-gray-800 dark:text-white">
                 Time's Up! ⏱️
               </h2>
               <p className="text-5xl font-bold text-primary mb-2">{score}</p>
-              <p className="text-gray-600 dark:text-gray-300 mb-2">
-                Great job! You scored {score} points in 30 seconds.
-              </p>
-              <p className="text-red-500 dark:text-red-400 font-medium mb-4">
-                Incorrect selections: {incorrectSelections}
-              </p>
+              <div className="mb-6">
+                <p className="text-gray-600 dark:text-gray-300 mb-2">
+                  You played for 30 seconds
+                </p>
+                <div className="flex justify-center gap-8 mt-4">
+                  <div className="text-center">
+                    <p className="text-sm text-gray-500 dark:text-gray-400">Score</p>
+                    <p className="text-2xl font-bold text-green-600 dark:text-green-400">+{score}</p>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-sm text-gray-500 dark:text-gray-400">Incorrect</p>
+                    <p className="text-2xl font-bold text-red-500 dark:text-red-400">-{incorrectSelections}</p>
+                  </div>
+                </div>
+              </div>
               
               {/* Wordlist Selection */}
               <div className="mb-6 w-full">
