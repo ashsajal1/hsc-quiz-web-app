@@ -42,6 +42,7 @@ const SHAPE_COLORS = [
 
 export default function DropGame() {
   const [score, setScore] = useState(0);
+  const [incorrectSelections, setIncorrectSelections] = useState(0);
   const [gameActive, setGameActive] = useState(false);
   const [timeElapsed, setTimeElapsed] = useState(0);
   const [shapes, setShapes] = useState<Shape[]>([]);
@@ -285,12 +286,14 @@ export default function DropGame() {
       setScore((prevScore) => prevScore + (shape.type === "common" ? 15 : 10)); // More points for common words maybe?
     } else {
       // Penalty for clicking incorrect words
+      setIncorrectSelections(prev => prev + 1);
       setScore((prevScore) => Math.max(0, prevScore - 5)); // Penalty for wrong click
     }
   };
 
   const resetGame = () => {
     setScore(0);
+    setIncorrectSelections(0);
     setTimeElapsed(0);
     setShapes([]);
     setGameOver(false);
@@ -529,9 +532,12 @@ export default function DropGame() {
               <h2 className="text-2xl font-bold mb-4 text-gray-800 dark:text-white">
                 Time's Up! ⏱️
               </h2>
-              <p className="text-5xl font-bold text-primary mb-6">{score}</p>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">
+              <p className="text-5xl font-bold text-primary mb-2">{score}</p>
+              <p className="text-gray-600 dark:text-gray-300 mb-2">
                 Great job! You scored {score} points in 30 seconds.
+              </p>
+              <p className="text-red-500 dark:text-red-400 font-medium mb-4">
+                Incorrect selections: {incorrectSelections}
               </p>
               
               {/* Wordlist Selection */}
