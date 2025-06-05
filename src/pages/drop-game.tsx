@@ -283,11 +283,11 @@ export default function DropGame() {
 
     // Update score based on whether it was a correct word
     if (shape.isCorrect) {
-      setScore((prevScore) => prevScore + (shape.type === "common" ? 15 : 10)); // More points for common words maybe?
+      setScore((prevScore) => prevScore + 1); // +1 for correct answer
     } else {
       // Penalty for clicking incorrect words
       setIncorrectSelections(prev => prev + 1);
-      setScore((prevScore) => Math.max(0, prevScore - 5)); // Penalty for wrong click
+      setScore((prevScore) => Math.max(0, prevScore - 1)); // -1 for wrong answer
     }
   };
 
@@ -356,6 +356,17 @@ export default function DropGame() {
                 style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.5)" }}
               >
                 {score}
+              </p>
+            </div>
+            <div className="text-center">
+              <p className="text-xs sm:text-sm text-red-500 dark:text-red-400">
+                Wrong
+              </p>
+              <p
+                className="text-base sm:text-lg font-semibold text-red-500 dark:text-red-400"
+                style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.3)" }}
+              >
+                {incorrectSelections}
               </p>
             </div>
             <div className="text-center">
