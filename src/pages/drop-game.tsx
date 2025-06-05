@@ -309,12 +309,6 @@ export default function DropGame() {
       {/* Fixed Top Bar */}
       <header className="fixed top-0 left-0 right-0 z-50">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-          <h1
-            className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white"
-            style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.5)" }}
-          >
-            Drop Game
-          </h1>
           <div className="flex items-center space-x-3 sm:space-x-4">
             <div className="text-center">
               <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">
