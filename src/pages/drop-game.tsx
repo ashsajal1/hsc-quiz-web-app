@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from "@/components/ui/button";
 import { Play, Pause } from 'lucide-react';
+import { wordList } from '@/lib/words';
 
 interface Shape {
   id: string;
@@ -12,25 +13,39 @@ interface Shape {
   speed: number;
   color: string;
   rotation: number;
+  word: string;
+  isCorrect: boolean;
+  category: string;
 }
 
-const MAX_CONCURRENT_SHAPES = 100;
-const SHAPE_SPAWN_INTERVAL = 400; // milliseconds
-const SHAPE_BASE_SPEED = 1.5;
-const SHAPE_SPEED_VARIATION = 2;
-const SHAPE_MIN_WIDTH = 30;
-const SHAPE_WIDTH_VARIATION = 50;
-const SHAPE_MIN_HEIGHT = 20;
-const SHAPE_HEIGHT_VARIATION = 30;
+const MAX_CONCURRENT_SHAPES = 10;
+const SHAPE_SPAWN_INTERVAL = 2000; // milliseconds
+const SHAPE_BASE_SPEED = 1;
+const SHAPE_SPEED_VARIATION = 1;
 
-const GAME_COLORS = [
-  '#3B82F6', // blue-500
-  '#EF4444', // red-500
-  '#10B981', // emerald-500
-  '#F59E0B', // amber-500
-  '#8B5CF6', // violet-500
-  '#EC4899'  // pink-500
+// Extract words from wordList
+const allWords = wordList.flatMap(category => 
+  category.words.flatMap((wordGroup) => 
+    wordGroup.map(word => ({
+      text: word,
+      category: category.name[0],
+      isCorrect: true
+    }))
+  )
+);
+
+// Add some common words as incorrect options
+const commonWords = [
+  { text: 'ক্লোরোফিল আছে', category: 'incorrect', isCorrect: false },
+  { text: 'ফুল ফোটে', category: 'incorrect', isCorrect: false },
+  { text: 'বীজ উৎপন্ন করে', category: 'incorrect', isCorrect: false },
+  { text: 'ফল ধারণ করে', category: 'incorrect', isCorrect: false },
+  { text: 'মূল, কান্ড, পাতা আছে', category: 'incorrect', isCorrect: false },
 ];
+
+const gameWords = [...allWords, ...commonWords];
+
+
 
 export default function DropGame() {
   const [score, setScore] = useState(0);
@@ -44,14 +59,46 @@ export default function DropGame() {
   const timerRef = useRef<NodeJS.Timeout>();
   const shapeSpawnIntervalRef = useRef<NodeJS.Timeout>();
 
-  // Create a new shape
+  // Create a new shape with a word
   const createNewShape = useCallback((gameWidth: number): Shape => {
-    const newWidth = Math.floor(Math.random() * SHAPE_WIDTH_VARIATION) + SHAPE_MIN_WIDTH;
-    const newHeight = Math.floor(Math.random() * SHAPE_HEIGHT_VARIATION) + SHAPE_MIN_HEIGHT;
+    // Get a random word
+    const randomWord = gameWords[Math.floor(Math.random() * gameWords.length)];
+    
+    // Create a canvas to measure text width
+    const canvas = document.createElement('canvas');
+    const context = canvas.getContext('2d');
+    if (!context) {
+      // Fallback if canvas is not available
+      const newWidth = 150;
+      const newHeight = 50;
+      const newX = Math.floor(Math.random() * (gameWidth - newWidth));
+      const newSpeed = Math.random() * SHAPE_SPEED_VARIATION + SHAPE_BASE_SPEED;
+      
+      return {
+        id: `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+        x: newX,
+        y: -50, // Start above the screen
+        width: newWidth,
+        height: newHeight,
+        speed: newSpeed,
+        color: randomWord.isCorrect ? '#10B981' : '#EF4444', // Green for correct, red for incorrect
+        rotation: 0,
+        word: randomWord.text,
+        isCorrect: randomWord.isCorrect,
+        category: randomWord.category
+      };
+    }
+    
+    // Measure text width
+    context.font = '16px Arial';
+    const textWidth = context.measureText(randomWord.text).width;
+    
+    // Calculate shape dimensions based on text
+    const padding = 20;
+    const newWidth = Math.max(Math.min(textWidth + padding, 300), 100); // Min width 100px, max 300px
+    const newHeight = 40; // Fixed height for better readability
     const newX = Math.floor(Math.random() * (gameWidth - newWidth));
     const newSpeed = Math.random() * SHAPE_SPEED_VARIATION + SHAPE_BASE_SPEED;
-    const newRotation = Math.floor(Math.random() * 360);
-    const newColor = GAME_COLORS[Math.floor(Math.random() * GAME_COLORS.length)];
     
     return {
       id: `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
@@ -60,10 +107,13 @@ export default function DropGame() {
       width: newWidth,
       height: newHeight,
       speed: newSpeed,
-      color: newColor,
-      rotation: newRotation,
+      color: randomWord.isCorrect ? '#10B981' : '#EF4444', // Green for correct, red for incorrect
+      rotation: 0,
+      word: randomWord.text,
+      isCorrect: randomWord.isCorrect,
+      category: randomWord.category
     };
-  }, []); // GAME_COLORS is now stable, so it's not needed in deps
+  }, []);
 
   // Spawn shapes periodically
   useEffect(() => {
@@ -147,12 +197,22 @@ export default function DropGame() {
   const handleShapeClick = (shapeId: string) => {
     if (!gameActive) return;
 
+    const clickedShape = shapes.find(s => s.id === shapeId);
+    if (!clickedShape) return;
+
+    // Remove the clicked shape
     setShapes(prevShapes => prevShapes.filter(s => s.id !== shapeId));
     
-    const newScore = score + 1;
-    setScore(newScore);
-    if (newScore > highScore) {
-      setHighScore(newScore);
+    // Update score based on whether it was a correct word
+    if (clickedShape.isCorrect) {
+      const newScore = score + 1;
+      setScore(newScore);
+      if (newScore > highScore) {
+        setHighScore(newScore);
+      }
+    } else {
+      // Penalty for clicking incorrect words
+      setScore(prevScore => Math.max(0, prevScore - 1));
     }
   };
   
@@ -231,9 +291,17 @@ export default function DropGame() {
                   borderRadius: '8px',
                   boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
                   cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  padding: '8px',
                 }}
                 onClick={() => handleShapeClick(shape.id)}
-              />
+              >
+                <span className="text-white font-medium text-center text-sm">
+                  {shape.word}
+                </span>
+              </motion.div>
             ))}
           </AnimatePresence>
         </div>
@@ -242,13 +310,21 @@ export default function DropGame() {
         <div className="py-4 px-4">
           {!gameActive && shapes.length === 0 && (
             <div className="text-center mb-6">
-              <p className="text-xl text-gray-700 dark:text-gray-300">
+              <p className="text-xl text-gray-700 dark:text-gray-300 mb-4">
                 {timeElapsed > 0 ? 'Game Paused. Click Play to resume.' : 'Click Play to start!'}
               </p>
+              <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg max-w-2xl mx-auto">
+                <h2 className="text-lg font-semibold mb-2">How to Play:</h2>
+                <ul className="text-left list-disc pl-5 space-y-1">
+                  <li>Click on the correct words that match the current category</li>
+                  <li>Green words are correct answers</li>
+                  <li>Red words are incorrect - avoid clicking them</li>
+                  <li>+1 point for each correct word</li>
+                  <li>-1 point for each incorrect word</li>
+                </ul>
+              </div>
             </div>
           )}
-
-         
         </div>
       </main>
     </div>
