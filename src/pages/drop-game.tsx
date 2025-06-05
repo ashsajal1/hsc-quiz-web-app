@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from "@/components/ui/button";
-import { Play, Pause } from 'lucide-react';
+import { Play, Pause, X } from 'lucide-react';
 import { wordList } from '@/lib/words';
 
 interface Shape {
@@ -23,44 +23,82 @@ const SHAPE_SPAWN_INTERVAL = 2000; // milliseconds
 const SHAPE_BASE_SPEED = 1;
 const SHAPE_SPEED_VARIATION = 1;
 
-// Extract words from wordList
-const allWords = wordList.flatMap(category => 
-  category.words.flatMap((wordGroup) => 
-    wordGroup.map(word => ({
-      text: word,
-      category: category.name[0],
-      isCorrect: true
-    }))
-  )
-);
+// Get all available word lists
+const wordLists = wordList.map(category => ({
+  id: category.topic ? `${category.topic}-${category.chapter}-${category.name.join('-')}` : category.name.join('-'),
+  name: category.name.join(' vs '),
+  description: category.topic ? `${category.topic} (Chapter ${category.chapter})` : '',
+  words: category.words.flat(),
+  incorrectWords: category.commonWords || []
+}));
 
 // Add some common words as incorrect options
-const commonWords = [
-  { text: 'ক্লোরোফিল আছে', category: 'incorrect', isCorrect: false },
-  { text: 'ফুল ফোটে', category: 'incorrect', isCorrect: false },
-  { text: 'বীজ উৎপন্ন করে', category: 'incorrect', isCorrect: false },
-  { text: 'ফল ধারণ করে', category: 'incorrect', isCorrect: false },
-  { text: 'মূল, কান্ড, পাতা আছে', category: 'incorrect', isCorrect: false },
+const commonIncorrectWords = [
+  'ক্লোরোফিল আছে',
+  'ফুল ফোটে',
+  'বীজ উৎপন্ন করে',
+  'ফল ধারণ করে',
+  'মূল, কান্ড, পাতা আছে'
 ];
-
-const gameWords = [...allWords, ...commonWords];
-
-
 
 export default function DropGame() {
   const [score, setScore] = useState(0);
-  const [gameActive, setGameActive] = useState(false); // Start paused
+  const [gameActive, setGameActive] = useState(false);
   const [highScore, setHighScore] = useState(0);
   const [timeElapsed, setTimeElapsed] = useState(0);
   const [shapes, setShapes] = useState<Shape[]>([]);
+  const [selectedWordList, setSelectedWordList] = useState<string | null>(null);
+  const [showWordListModal, setShowWordListModal] = useState(true);
+  const [gameWords, setGameWords] = useState<Array<{text: string, isCorrect: boolean, category: string}>>([]);
   
   const gameAreaRef = useRef<HTMLDivElement>(null);
   const animationFrameRef = useRef<number>();
   const timerRef = useRef<NodeJS.Timeout>();
   const shapeSpawnIntervalRef = useRef<NodeJS.Timeout>();
 
+  // Update game words when word list changes
+  useEffect(() => {
+    if (selectedWordList) {
+      const list = wordLists.find(list => list.id === selectedWordList);
+      if (list) {
+        const correctWords = list.words.map(word => ({
+          text: word,
+          isCorrect: true,
+          category: list.name
+        }));
+        
+        const incorrectWords = [
+          ...(list.incorrectWords || []),
+          ...commonIncorrectWords
+        ].map(word => ({
+          text: word,
+          isCorrect: false,
+          category: 'Incorrect'
+        }));
+        
+        setGameWords([...correctWords, ...incorrectWords]);
+      }
+    }
+  }, [selectedWordList]);
+  
   // Create a new shape with a word
   const createNewShape = useCallback((gameWidth: number): Shape => {
+    if (gameWords.length === 0) {
+      return {
+        id: 'default',
+        x: 50,
+        y: -50,
+        width: 200,
+        height: 40,
+        speed: 1,
+        color: '#888',
+        rotation: 0,
+        word: 'Select a word list to start',
+        isCorrect: false,
+        category: 'system'
+      };
+    }
+    
     // Get a random word
     const randomWord = gameWords[Math.floor(Math.random() * gameWords.length)];
     
@@ -113,7 +151,7 @@ export default function DropGame() {
       isCorrect: randomWord.isCorrect,
       category: randomWord.category
     };
-  }, []);
+  }, [gameWords]);
 
   // Spawn shapes periodically
   useEffect(() => {
@@ -226,12 +264,25 @@ export default function DropGame() {
   // Toggle game state
   const toggleGame = () => {
     if (!gameActive) { // Starting the game
+      if (!selectedWordList) {
+        setShowWordListModal(true);
+        return; // Don't start if no word list is selected
+      }
       resetGame();
       setGameActive(true);
+      setShowWordListModal(false);
     } else { // Pausing the game
       setGameActive(false);
       // Animation and spawn intervals are cleared by their respective useEffects
     }
+  };
+  
+  // Handle word list selection
+  const handleWordListSelect = (listId: string) => {
+    setSelectedWordList(listId);
+    setGameActive(false);
+    resetGame();
+    setShowWordListModal(false);
   };
 
   // Format time
@@ -311,14 +362,47 @@ export default function DropGame() {
           {!gameActive && shapes.length === 0 && (
             <div className="text-center mb-6">
               <p className="text-xl text-gray-700 dark:text-gray-300 mb-4">
-                {timeElapsed > 0 ? 'Game Paused. Click Play to resume.' : 'Click Play to start!'}
+                {timeElapsed > 0 ? 'Game Paused. Click Play to resume.' : 'Select a word list and click Play to start!'}
               </p>
+              
+              {/* Word List Selection */}
+              <div className="mb-6">
+                <h3 className="text-lg font-medium mb-3">Select a Word List:</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 max-w-4xl mx-auto mb-4">
+                  {wordLists.map(list => (
+                    <button
+                      key={list.id}
+                      onClick={() => handleWordListSelect(list.id)}
+                      className={`p-4 rounded-lg text-left transition-all ${
+                        selectedWordList === list.id
+                          ? 'bg-blue-100 border-2 border-blue-500 dark:bg-blue-900/30'
+                          : 'bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700'
+                      }`}
+                    >
+                      <h4 className="font-semibold text-gray-900 dark:text-white">{list.name}</h4>
+                      {list.description && (
+                        <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">{list.description}</p>
+                      )}
+                      <p className="text-xs text-gray-500 dark:text-gray-500 mt-2">
+                        {list.words.length} words • {list.incorrectWords?.length || 0} incorrect options
+                      </p>
+                    </button>
+                  ))}
+                </div>
+                
+                {selectedWordList && (
+                  <div className="bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-300 px-4 py-2 rounded-md inline-block">
+                    Selected: {wordLists.find(l => l.id === selectedWordList)?.name}
+                  </div>
+                )}
+              </div>
+              
               <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg max-w-2xl mx-auto">
                 <h2 className="text-lg font-semibold mb-2">How to Play:</h2>
                 <ul className="text-left list-disc pl-5 space-y-1">
-                  <li>Click on the correct words that match the current category</li>
-                  <li>Green words are correct answers</li>
-                  <li>Red words are incorrect - avoid clicking them</li>
+                  <li>Select a word list from the options above</li>
+                  <li>Click on the correct words (green) to score points</li>
+                  <li>Avoid clicking incorrect words (red)</li>
                   <li>+1 point for each correct word</li>
                   <li>-1 point for each incorrect word</li>
                 </ul>
@@ -327,6 +411,81 @@ export default function DropGame() {
           )}
         </div>
       </main>
+
+      {/* Word List Selection Modal */}
+      {showWordListModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+            <div className="p-6">
+              <div className="flex justify-between items-center mb-6">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Select a Word List</h2>
+                <button 
+                  onClick={() => setShowWordListModal(false)}
+                  className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+                >
+                  <X className="h-6 w-6" />
+                </button>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                {wordLists.map(list => (
+                  <button
+                    key={list.id}
+                    onClick={() => handleWordListSelect(list.id)}
+                    className={`p-4 rounded-lg text-left transition-all border-2 ${
+                      selectedWordList === list.id
+                        ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/30'
+                        : 'border-gray-200 hover:border-blue-300 bg-white dark:bg-gray-700 dark:border-gray-600'
+                    }`}
+                  >
+                    <div className="flex justify-between items-start">
+                      <div>
+                        <h3 className="font-semibold text-gray-900 dark:text-white">{list.name}</h3>
+                        {list.description && (
+                          <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">{list.description}</p>
+                        )}
+                      </div>
+                      <span className="text-xs bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-2 py-1 rounded-full">
+                        {list.words.length} words
+                      </span>
+                    </div>
+                    {list.incorrectWords && list.incorrectWords.length > 0 && (
+                      <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">
+                        + {list.incorrectWords.length} incorrect options
+                      </p>
+                    )}
+                  </button>
+                ))}
+              </div>
+              
+              <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg">
+                <h3 className="font-medium text-blue-800 dark:text-blue-200 mb-2">How to Play:</h3>
+                <ul className="text-sm text-blue-700 dark:text-blue-300 space-y-1 list-disc pl-5">
+                  <li>Select a word list above to get started</li>
+                  <li>Click on green words to score points</li>
+                  <li>Avoid clicking red words</li>
+                  <li>+1 point for correct words, -1 for incorrect</li>
+                  <li>Try to beat your high score!</li>
+                </ul>
+              </div>
+              
+              {selectedWordList && (
+                <div className="mt-6 flex justify-center">
+                  <button
+                    onClick={() => {
+                      setShowWordListModal(false);
+                      if (!gameActive) toggleGame();
+                    }}
+                    className="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors"
+                  >
+                    Start Game with {wordLists.find(l => l.id === selectedWordList)?.name}
+                  </button>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
