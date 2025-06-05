@@ -24,8 +24,8 @@ interface GameWord {
   type: "target" | "common" | "distractor";
 }
 
-const MAX_CONCURRENT_SHAPES = 10;
-const SHAPE_SPAWN_INTERVAL = 2000; // milliseconds
+const MAX_CONCURRENT_SHAPES = 20;
+const SHAPE_SPAWN_INTERVAL = 1000; // milliseconds
 const SHAPE_BASE_SPEED = 1;
 const SHAPE_SPEED_VARIATION = 1;
 
