@@ -285,7 +285,7 @@ export default function DropGame() {
   };
 
   // Toggle game state
-  const toggleGame = () => {
+  const toggleGame = useCallback(() => {
     if (!gameActive) {
       // Starting the game
       if (!wordList[currentWordSetIndex]) {
@@ -300,7 +300,19 @@ export default function DropGame() {
       setGameActive(false);
       // Animation and spawn intervals are cleared by their respective useEffects
     }
-  };
+  }, [currentWordSetIndex, gameActive]);
+
+  // Start game automatically when component mounts
+  useEffect(() => {
+    // Only start if not already active and we have a word list
+    if (!gameActive && wordList.length > 0) {
+      // Use a small timeout to ensure the component is fully mounted
+      const timer = setTimeout(() => {
+        toggleGame();
+      }, 100);
+      return () => clearTimeout(timer);
+    }
+  }, [gameActive, toggleGame]); // Include toggleGame in dependencies
 
   // Format time
   const formatTime = (seconds: number) => {
