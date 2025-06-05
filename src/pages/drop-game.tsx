@@ -460,6 +460,7 @@ export default function DropGame() {
                     padding: "0 5px",
                     overflow: "hidden",
                     textAlign: "center",
+                    userSelect: "none",
                   }}
                   onClick={() => handleShapeClick(shape)}
                   className="shape-button"
