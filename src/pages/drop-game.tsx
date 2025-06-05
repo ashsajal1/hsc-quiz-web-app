@@ -442,7 +442,7 @@ export default function DropGame() {
           {/* Game Area */}
           <div
             ref={gameAreaRef}
-            className="w-full h-[calc(100vh-300px)] sm:h-[calc(100vh-250px)] bg-white/20 dark:bg-black/30 rounded-lg shadow-2xl overflow-hidden relative mb-4"
+            className="w-full h-screen bg-white/20 dark:bg-black/30 rounded-lg shadow-2xl overflow-hidden relative mb-4"
           >
             <AnimatePresence>
               {shapes.map((shape) => (
