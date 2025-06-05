@@ -332,20 +332,7 @@ export default function DropGame() {
 
       {/* Main Content Area - Game Area + Instructions */}
       <main className="flex-grow flex flex-col">
-        {/* Selected Word List Banner */}
-        {selectedWordList && !showWordListModal && (
-          <div className="bg-blue-50 dark:bg-blue-900/30 py-2 px-4 text-center border-b border-blue-100 dark:border-blue-800">
-            <p className="text-blue-800 dark:text-blue-200 font-medium">
-              Selected: <span className="font-bold">{wordLists.find(l => l.id === selectedWordList)?.name}</span>
-              <button 
-                onClick={() => setShowWordListModal(true)}
-                className="ml-3 text-sm text-blue-600 dark:text-blue-300 hover:underline"
-              >
-                Change
-              </button>
-            </p>
-          </div>
-        )}
+        
         
         <div 
           ref={gameAreaRef} 
