@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Play, Pause } from "lucide-react";
 import { wordList } from "@/lib/words";
 
 interface Shape {
@@ -381,20 +380,7 @@ export default function DropGame() {
               </p>
             </div>
 
-            <div className="flex gap-2">
-              <Button
-                onClick={toggleGame}
-                variant="outline"
-                size="icon"
-                className="w-10 h-10 sm:w-12 sm:h-12"
-              >
-                {gameActive ? (
-                  <Pause className="h-5 w-5 sm:h-6 sm:w-6" />
-                ) : (
-                  <Play className="h-5 w-5 sm:h-6 sm:w-6" />
-                )}
-              </Button>
-            </div>
+           
           </div>
         </div>
 
