@@ -307,7 +307,7 @@ export default function DropGame() {
   return (
     <div className="flex flex-col h-dvh w-screen overflow-hidden">
       {/* Fixed Top Bar */}
-      <header className="fixed top-0 left-0 right-0 z-50">
+      <header className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center space-x-3 sm:space-x-4">
             <div className="text-center">
@@ -349,13 +349,10 @@ export default function DropGame() {
             </div>
           </div>
         </div>
-      </header>
 
-      {/* Main Content Area - Game Area + Instructions */}
-      <main className="flex-grow flex flex-col">
-        <div className="w-full mx-auto">
-          {/* Word Set and Category Selectors */}
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg dark:shadow-gray-900 p-3 sm:p-6 transition-colors duration-300 mb-4">
+
+        {/* Word Set and Category Selectors */}
+        <div className="rounded-xl p-3 sm:p-6 transition-colors duration-300 z-10">
             <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-x-4 gap-y-2">
               {/* Category Toggle */}
               <div className="flex items-center">
@@ -407,6 +404,12 @@ export default function DropGame() {
               </div>
             </div>
           </div>
+      </header>
+
+      {/* Main Content Area - Game Area + Instructions */}
+      <main className="flex-grow flex flex-col">
+        <div className="w-full mx-auto relative">
+          
 
           {/* Game Area */}
           <div
