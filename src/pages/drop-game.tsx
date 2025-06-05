@@ -297,15 +297,6 @@ export default function DropGame() {
     }
   };
 
-  // Handle word list selection
-  const handleWordListSelect = () => {
-    // listId was unused
-    // setSelectedWordList(listId);
-    setGameActive(false);
-    resetGame();
-    // setShowWordListModal(false);
-  };
-
   // Format time
   const formatTime = (seconds: number) => {
     const mins = Math.floor(seconds / 60);
@@ -347,24 +338,8 @@ export default function DropGame() {
                 {formatTime(timeElapsed)}
               </p>
             </div>
-            <div className="hidden sm:block text-center">
-              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">
-                Word List
-              </p>
-              <p className="text-xs font-medium text-gray-700 dark:text-gray-300 max-w-[150px] truncate">
-                {wordList[currentWordSetIndex]?.name.join(" / ") ||
-                  "None selected"}
-              </p>
-            </div>
+
             <div className="flex gap-2">
-              <Button
-                onClick={() => handleWordListSelect()}
-                variant="outline"
-                size="sm"
-                className="hidden sm:flex items-center gap-1"
-              >
-                <span className="text-xs">Change</span>
-              </Button>
               <Button
                 onClick={toggleGame}
                 variant="outline"
@@ -497,8 +472,6 @@ export default function DropGame() {
               ))}
             </AnimatePresence>
           </div>
-
-              
         </div>
       </main>
 
