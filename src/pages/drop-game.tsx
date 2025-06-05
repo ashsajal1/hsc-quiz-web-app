@@ -47,6 +47,8 @@ export default function DropGame() {
   const [shapes, setShapes] = useState<Shape[]>([]);
   const [currentWordSetIndex, setCurrentWordSetIndex] = useState(0);
   const [currentCategoryIndex, setCurrentCategoryIndex] = useState(0); // 0 for first category, 1 for second
+  const [gameOver, setGameOver] = useState(false);
+  const [showGameOver, setShowGameOver] = useState(false);
   const [gameWords, setGameWords] = useState<
     Array<{
       text: string;
@@ -248,7 +250,16 @@ export default function DropGame() {
   useEffect(() => {
     if (gameActive) {
       timerRef.current = setInterval(() => {
-        setTimeElapsed((prev) => prev + 1);
+        setTimeElapsed((prev) => {
+          const newTime = prev + 1;
+          // Check if 30 seconds have passed
+          if (newTime >= 30) {
+            setGameOver(true);
+            setGameActive(false);
+            setShowGameOver(true);
+          }
+          return newTime;
+        });
       }, 1000);
     } else {
       if (timerRef.current) {
@@ -282,17 +293,23 @@ export default function DropGame() {
     setScore(0);
     setTimeElapsed(0);
     setShapes([]);
+    setGameOver(false);
+    setShowGameOver(false);
   };
 
   // Toggle game state
   const toggleGame = useCallback(() => {
+    if (gameOver) return; // Don't allow toggling if game is over
+    
     if (!gameActive) {
       // Starting the game
       if (!wordList[currentWordSetIndex]) {
         // setShowWordListModal(true);
         return; // Don't start if no word list is selected
       }
-      resetGame();
+      if (timeElapsed >= 30) {
+        resetGame();
+      }
       setGameActive(true);
       // setShowWordListModal(false);
     } else {
@@ -300,7 +317,7 @@ export default function DropGame() {
       setGameActive(false);
       // Animation and spawn intervals are cleared by their respective useEffects
     }
-  }, [currentWordSetIndex, gameActive]);
+  }, [currentWordSetIndex, gameActive, gameOver, timeElapsed]);
 
   // Start game automatically when component mounts
   useEffect(() => {
@@ -431,7 +448,9 @@ export default function DropGame() {
           {/* Game Area */}
           <div
             ref={gameAreaRef}
-            className="w-full h-screen bg-white/20 dark:bg-black/30 rounded-lg shadow-2xl overflow-hidden relative mb-4"
+            className={`w-full h-screen bg-white/20 dark:bg-black/30 rounded-lg shadow-2xl overflow-hidden relative mb-4 ${
+              gameOver ? 'opacity-50' : ''
+            }`}
           >
             <AnimatePresence>
               {shapes.map((shape) => (
@@ -490,7 +509,45 @@ export default function DropGame() {
         </div>
       </main>
 
-      {/* Word List Selection Modal was here */}
+      {/* Game Over Overlay */}
+      <AnimatePresence>
+        {showGameOver && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 bg-black/70 flex items-center justify-center z-50"
+            onClick={() => setShowGameOver(false)}
+          >
+            <motion.div 
+              className="bg-white dark:bg-gray-800 p-8 rounded-xl max-w-md w-full mx-4 text-center"
+              initial={{ scale: 0.9, y: 20 }}
+              animate={{ scale: 1, y: 0 }}
+              exit={{ scale: 0.9, y: 20 }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <h2 className="text-2xl font-bold mb-4 text-gray-800 dark:text-white">
+                Time's Up! ⏱️
+              </h2>
+              <p className="text-5xl font-bold text-primary mb-6">{score}</p>
+              <p className="text-gray-600 dark:text-gray-300 mb-6">
+                Great job! You scored {score} points in 30 seconds.
+              </p>
+              <Button 
+                onClick={() => {
+                  resetGame();
+                  setGameActive(true);
+                  setShowGameOver(false);
+                }}
+                className="w-full py-6 text-lg"
+                size="lg"
+              >
+                Play Again
+              </Button>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
