@@ -3,6 +3,7 @@ import TopicCard from "@/components/topic-card";
 import { topics } from "@/lib/data";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { Puzzle } from "lucide-react";
 import {
   ArrowRight,
   BookOpen,
@@ -109,6 +110,22 @@ export default function Home() {
               >
                 <PlayCircle className="w-5 h-5" />
                 Word Game
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </motion.div>
+          </Link>
+          <Link to="/drop-game" className="group">
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="h-full"
+            >
+              <Button
+                variant="outline"
+                className="w-full h-full flex items-center justify-center gap-2 text-lg group-hover:bg-primary/5"
+              >
+                <Puzzle className="w-5 h-5" />
+                Drop Game
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </motion.div>
