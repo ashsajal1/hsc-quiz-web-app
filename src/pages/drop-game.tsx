@@ -311,19 +311,54 @@ export default function DropGame() {
               <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">High Score</p>
               <p className="text-base sm:text-lg font-semibold text-gray-700 dark:text-white" style={{ textShadow: '1px 1px 3px rgba(0, 0, 0, 0.5)' }}>{highScore}</p>
             </div>
-            <Button onClick={toggleGame} variant="outline" size="icon" className="w-10 h-10 sm:w-12 sm:h-12">
-              {gameActive ? <Pause className="h-5 w-5 sm:h-6 sm:w-6" /> : <Play className="h-5 w-5 sm:h-6 sm:w-6" />}
-            </Button>
+            <div className="hidden sm:block text-center">
+              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Word List</p>
+              <p className="text-xs font-medium text-gray-700 dark:text-gray-300 max-w-[150px] truncate">
+                {wordLists.find(l => l.id === selectedWordList)?.name || 'None selected'}
+              </p>
+            </div>
+            <div className="flex gap-2">
+              <Button 
+                onClick={() => setShowWordListModal(true)}
+                variant="outline" 
+                size="sm" 
+                className="hidden sm:flex items-center gap-1"
+              >
+                <span className="text-xs">Change</span>
+              </Button>
+              <Button 
+                onClick={toggleGame} 
+                variant="outline" 
+                size="icon" 
+                className="w-10 h-10 sm:w-12 sm:h-12"
+              >
+                {gameActive ? <Pause className="h-5 w-5 sm:h-6 sm:w-6" /> : <Play className="h-5 w-5 sm:h-6 sm:w-6" />}
+              </Button>
+            </div>
           </div>
         </div>
       </header>
 
       {/* Main Content Area - Game Area + Instructions */}
-      <main className="flex-grow flex flex-col "> {/* pt should be approx height of header */}
+      <main className="flex-grow flex flex-col">
+        {/* Selected Word List Banner */}
+        {selectedWordList && !showWordListModal && (
+          <div className="bg-blue-50 dark:bg-blue-900/30 py-2 px-4 text-center border-b border-blue-100 dark:border-blue-800">
+            <p className="text-blue-800 dark:text-blue-200 font-medium">
+              Selected: <span className="font-bold">{wordLists.find(l => l.id === selectedWordList)?.name}</span>
+              <button 
+                onClick={() => setShowWordListModal(true)}
+                className="ml-3 text-sm text-blue-600 dark:text-blue-300 hover:underline"
+              >
+                Change
+              </button>
+            </p>
+          </div>
+        )}
+        
         <div 
           ref={gameAreaRef} 
           className="flex-grow h-screen relative w-full overflow-hidden"
-          // Removed shadow-inner and rounded-lg as it's full screen now
         >
           <AnimatePresence>
             {shapes.map(shape => (
