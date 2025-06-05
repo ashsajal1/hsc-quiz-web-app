@@ -32,14 +32,6 @@ const wordLists = wordList.map(category => ({
   incorrectWords: category.commonWords || []
 }));
 
-// Add some common words as incorrect options
-const commonIncorrectWords = [
-  'ক্লোরোফিল আছে',
-  'ফুল ফোটে',
-  'বীজ উৎপন্ন করে',
-  'ফল ধারণ করে',
-  'মূল, কান্ড, পাতা আছে'
-];
 
 export default function DropGame() {
   const [score, setScore] = useState(0);
@@ -69,7 +61,6 @@ export default function DropGame() {
         
         const incorrectWords = [
           ...(list.incorrectWords || []),
-          ...commonIncorrectWords
         ].map(word => ({
           text: word,
           isCorrect: false,
