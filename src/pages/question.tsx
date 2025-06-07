@@ -174,43 +174,65 @@ export default function QuestionPage() {
     });
   }, [toast]);
 
-  // Function to read all questions and answers
+  // Updated function to toggle reading all questions and answers
   const readAllQuestions = useCallback(() => {
     if (isReadingAll) {
+      // If currently reading, stop it
       stop();
       setIsReadingAll(false);
-      setCurrentReadingIndex(0);
-      return;
+      setCurrentReadingIndex(0); // Reset index when stopping
+    } else {
+      // If not reading, start reading from the beginning
+      setIsReadingAll(true);
+      setCurrentReadingIndex(0); // Ensure reading starts from the first question
+      // The useEffect below will handle the actual speaking process
     }
+  }, [isReadingAll, stop, setIsReadingAll, setCurrentReadingIndex]);
 
-    setIsReadingAll(true);
-    setCurrentReadingIndex(0);
-    const readNext = () => {
-      if (currentReadingIndex >= filteredQuestions.length) {
-        setIsReadingAll(false);
-        setCurrentReadingIndex(0);
-        return;
-      }
-
-      const question = filteredQuestions[currentReadingIndex];
-      const text = `Question ${currentReadingIndex + 1}: ${question.question}. Answer: ${question.answer}`;
-      
-      speak(text);
-      setCurrentReadingIndex(prev => prev + 1);
-    };
-
-    readNext();
-  }, [filteredQuestions, currentReadingIndex, isReadingAll, speak, stop]);
-
-  // Effect to handle reading all questions
+  // Effect to handle the sequential reading of questions
   useEffect(() => {
+    let timerId: NodeJS.Timeout | undefined = undefined;
+
     if (isReadingAll && !isSpeaking) {
-      const timer = setTimeout(() => {
-        readAllQuestions();
-      }, 1000);
-      return () => clearTimeout(timer);
+      // Condition: "Read All" mode is active, and TTS is not currently speaking.
+
+      if (currentReadingIndex >= filteredQuestions.length) {
+        // All questions have been read
+        setIsReadingAll(false); // Turn off "Read All" mode
+        setCurrentReadingIndex(0); // Reset index for the next time
+      } else {
+        // There are more questions to read
+        timerId = setTimeout(() => {
+          const question = filteredQuestions[currentReadingIndex];
+          if (question) { // Check for question existence
+            const text = `Question ${currentReadingIndex + 1}: ${question.question}. Answer: ${question.answer}`;
+            speak(text); // Speak the current question
+            
+            // Prepare for the next question by incrementing the index.
+            setCurrentReadingIndex(prev => prev + 1);
+          } else {
+            // Safeguard: if question is unexpectedly undefined, stop reading.
+            setIsReadingAll(false);
+            setCurrentReadingIndex(0);
+          }
+        }, 1000); // 1-second delay
+      }
     }
-  }, [isReadingAll, isSpeaking, readAllQuestions]);
+
+    return () => {
+      if (timerId) {
+        clearTimeout(timerId); // Cleanup timeout
+      }
+    };
+  }, [
+    isReadingAll, 
+    isSpeaking, 
+    currentReadingIndex, 
+    filteredQuestions, 
+    speak, 
+    setIsReadingAll, 
+    setCurrentReadingIndex
+  ]);
 
   if (isLoading) {
     return (
