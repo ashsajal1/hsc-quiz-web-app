@@ -321,18 +321,20 @@ export default function QuestionPage() {
         </CardContent>
       </Card>
 
-      <Tabs defaultValue="জ্ঞানমূলক" className="w-full">
+      <Tabs defaultValue="cognitive" className="w-full">
         <TabsList className="grid w-full grid-cols-2 bg-muted/50">
-          <TabsTrigger value="জ্ঞানমূলক">জ্ঞানমূলক</TabsTrigger>
-          <TabsTrigger value="অনুধাবনমূলক">অনুধাবনমূলক</TabsTrigger>
+          <TabsTrigger value="cognitive">জ্ঞানমূলক</TabsTrigger>
+          <TabsTrigger value="perceptual">অনুধাবনমূলক</TabsTrigger>
         </TabsList>
-        <TabsContent value="জ্ঞানমূলক" className="mt-6">
+        <TabsContent value="cognitive" className="mt-6">
           <AnimatePresence mode="wait">
             <motion.div
+              key="cognitive-content"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.2 }}
+              className="w-full"
             >
               <Accordion type="single" collapsible className="w-full space-y-4">
                 {filteredQuestions
@@ -397,13 +399,15 @@ export default function QuestionPage() {
             </motion.div>
           </AnimatePresence>
         </TabsContent>
-        <TabsContent value="অনুধাবনমূলক" className="mt-6">
+        <TabsContent value="perceptual" className="mt-6">
           <AnimatePresence mode="wait">
             <motion.div
+              key="perceptual-content"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.2 }}
+              className="w-full"
             >
               <Accordion type="single" collapsible className="w-full space-y-4">
                 {filteredQuestions
