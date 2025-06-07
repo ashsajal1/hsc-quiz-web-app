@@ -214,17 +214,27 @@ export default function DropGame() {
     if (!gameAreaRef.current || !gameActive) return;
 
     const gameArea = gameAreaRef.current;
+    const gameWidth = gameArea.clientWidth;
     const gameHeight = gameArea.clientHeight;
 
     setShapes(
       (prevShapes) =>
         prevShapes
-          .map((shape) => ({
-            ...shape,
-            y: shape.y + shape.speed,
-            rotation: shape.rotation + 0.5, // Slower rotation
-          }))
-          .filter((shape) => shape.y < gameHeight + shape.height + 20) // Remove if way off screen
+          .map((shape) => {
+            // Keep shape within horizontal bounds
+            let x = shape.x;
+            if (x < 0) x = 0;
+            if (x > gameWidth - shape.width) x = gameWidth - shape.width;
+            
+            return {
+              ...shape,
+              x,
+              y: shape.y + shape.speed,
+              rotation: shape.rotation + 0.5, // Slower rotation
+            };
+          })
+          // Remove if shape is below the bottom of the game area
+          .filter((shape) => shape.y < gameHeight + shape.height + 20)
     );
 
     animationFrameRef.current = requestAnimationFrame(updateGame);
